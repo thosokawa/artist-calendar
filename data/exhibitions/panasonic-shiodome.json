@@ -1,0 +1,42 @@
+[
+  {
+    "id": "panasonic-shiodome-20261015-df3bf4",
+    "museumId": "panasonic-shiodome",
+    "title": "吉田璋也のデザイン― 新作民藝運動がめざした未来",
+    "startDate": "2026-10-15",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "shoya-yoshida",
+      "soetsu-yanagi",
+      "kanjiro-kawai",
+      "shoji-hamada",
+      "bernard-leach"
+    ],
+    "genres": [
+      "工芸",
+      "デザイン"
+    ],
+    "detailUrl": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
+    "summary": "鳥取の医師であり民藝のプロデューサーでもあった吉田璋也の新作民藝の仕事を、約300点の作品と資料で紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "panasonic-shiodome-20270116-1ac581",
+    "museumId": "panasonic-shiodome",
+    "title": "スウェーデンのうつわ グスタフスベリのある暮らし",
+    "startDate": "2027-01-16",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "デザイン"
+    ],
+    "detailUrl": "https://panasonic.co.jp/ew/museum/exhibition/27/270116/",
+    "summary": "スウェーデンの陶磁器ブランド、グスタフスベリのうつわを通して、北欧の暮らしに根づいたデザインの魅力を伝える。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

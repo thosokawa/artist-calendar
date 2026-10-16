@@ -1,0 +1,133 @@
+[
+  {
+    "id": "momat-20260929-20b4c0",
+    "museumId": "momat",
+    "title": "所蔵作品展 MOMATコレクション（2026.9.29–2027.1.11）",
+    "startDate": "2026-09-29",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "kiyokata-kaburaki",
+      "yukihiko-yasuda",
+      "naojiro-harada",
+      "tetsugoro-yorozu",
+      "yumeji-takehisa",
+      "matazo-kayama",
+      "kaii-higashiyama",
+      "tomoyoshi-murayama",
+      "akihide-tamura",
+      "eiko-yamazawa"
+    ],
+    "genres": [
+      "日本画",
+      "洋画",
+      "写真",
+      "版画",
+      "彫刻"
+    ],
+    "detailUrl": "https://www.momat.go.jp/exhibitions/r8-2",
+    "summary": "明治から現代までの日本近代美術を12の部屋で通覧し、重要文化財や大正期の特集もあわせて楽しめる所蔵品展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momat-20260929-5ee9c9",
+    "museumId": "momat",
+    "title": "あみ・ど・ぱり 巴里の日本人芸術家たち",
+    "startDate": "2026-09-29",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "tsuguharu-foujita",
+      "yuzo-saeki",
+      "kanae-itakura",
+      "taro-okamoto",
+      "mitsuo-takano",
+      "riu-okanoue",
+      "haruko-hasegawa",
+      "mami-mori"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://www.momat.go.jp/exhibitions/r8-2-g4",
+    "summary": "戦前から戦後にパリへ渡り、現地で腕を磨いて活躍した日本人芸術家たちの軌跡を館蔵品中心にたどる小企画。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momat-20261023-991340",
+    "museumId": "momat",
+    "title": "竹久夢二　時代を創る表現者",
+    "startDate": "2026-10-23",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "yumeji-takehisa"
+    ],
+    "genres": [
+      "日本画",
+      "デザイン",
+      "版画"
+    ],
+    "detailUrl": "https://www.momat.go.jp/exhibitions/570",
+    "summary": "画家・挿絵画家・デザイナーとして大正文化を彩った竹久夢二の多面的な仕事を、全国から集めた約500点で紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momat-20270319-e61097",
+    "museumId": "momat",
+    "title": "斬新！速水御舟",
+    "startDate": "2027-03-19",
+    "endDate": "2027-05-09",
+    "kind": "special",
+    "artists": [
+      "gyoshu-hayami"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": "https://www.momat.go.jp/exhibitions/572",
+    "summary": "大正から昭和初期に革新的な日本画を生んだ速水御舟の約100点を、日記や書簡などの資料とともに読み解く回顧展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momat-20270618-0d677d",
+    "museumId": "momat",
+    "title": "山口晃　見／世／物",
+    "startDate": "2027-06-18",
+    "endDate": "2027-08-29",
+    "kind": "special",
+    "artists": [
+      "akira-yamaguchi"
+    ],
+    "genres": [
+      "現代美術",
+      "日本画"
+    ],
+    "detailUrl": "https://www.momat.go.jp/exhibitions/575",
+    "summary": "大和絵や洋画の技法を自在に織り交ぜ、緻密でユーモラスな画面をつくる現代の画家山口晃の世界を紹介する個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momat-20271009-a1c148",
+    "museumId": "momat",
+    "title": "ミルトン・エイヴリー展（仮称）",
+    "startDate": "2027-10-09",
+    "endDate": "2028-01-30",
+    "kind": "special",
+    "artists": [
+      "milton-avery"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://www.momat.go.jp/exhibitions/576",
+    "summary": "簡潔な形と豊かな色面で独自の画風を築いた米国の画家ミルトン・エイヴリーの作品を日本で本格的に紹介する展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "operacity-20261017-a375f6",
+    "museumId": "operacity",
+    "title": "種と根っこ ─ 都市の耕し方",
+    "startDate": "2026-10-17",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "yuriko-asano",
+      "rui-itasaka",
+      "fumi-imamura",
+      "yasutake-iwana",
+      "mika-kato",
+      "yoko-daihara",
+      "akane-saijo",
+      "hatsune-suzuki",
+      "takeshi-yasura",
+      "yoshikazu-yamagata"
+    ],
+    "genres": [
+      "現代美術",
+      "建築",
+      "デザイン"
+    ],
+    "detailUrl": "https://www.operacity.jp/ag/exh303/",
+    "summary": "路地の隙間や空き地に芽吹く都市の自然を手がかりに、10人の作家が環境変化と共に生きる術を美術や建築、服飾で探る。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

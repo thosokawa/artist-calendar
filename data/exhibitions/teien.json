@@ -1,0 +1,44 @@
+[
+  {
+    "id": "teien-20261003-f33d79",
+    "museumId": "teien",
+    "title": "マリメッコ展 模様のちから",
+    "startDate": "2026-10-03",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "maija-isola",
+      "annika-rimala",
+      "maija-louekari",
+      "kristina-isola",
+      "katsuji-wakisaka",
+      "fujio-ishimoto",
+      "akira-minagawa",
+      "armi-ratia"
+    ],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/",
+    "summary": "フィンランドのマリメッコの大胆なプリントと色彩を、60着以上のドレスや布地でアール・デコの旧朝香宮邸に展示する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "teien-20270116-8ce303",
+    "museumId": "teien",
+    "title": "愛を紡ぎ、祈りを刻む―リトアニアの手仕事―",
+    "startDate": "2027-01-16",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": "https://www.teien-art-museum.ne.jp/exhibition/270116-0328_lithuania/",
+    "summary": "糸紡ぎの道具や織物、木彫の聖像など、暮らしと信仰に根ざしたリトアニアの多様な手仕事を紹介する国内初の展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

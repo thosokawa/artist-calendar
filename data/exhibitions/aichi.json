@@ -1,0 +1,46 @@
+[
+  {
+    "id": "aichi-20261030-3213b8",
+    "museumId": "aichi",
+    "title": "ビゲロー 幻のコレクションと近代日本画の夜明け──日本美術に魅せられたボストン人──",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "kitagawa-utamaro",
+      "katsushika-hokusai",
+      "kano-hogai",
+      "hashimoto-gaho",
+      "maeda-kinpu",
+      "tsurusawa-tansaku",
+      "ike-no-taiga"
+    ],
+    "genres": [
+      "日本画",
+      "浮世絵",
+      "古美術"
+    ],
+    "detailUrl": "https://apmoa.museum/exhibition/bigelow",
+    "summary": "没後100年を迎えるボストンの収集家ビゲローの旧蔵品と、彼が支援した明治の日本画家たちの作品を紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "aichi-20270129-444762",
+    "museumId": "aichi",
+    "title": "セカイノコトワリ──私たちの時代の美術",
+    "startDate": "2027-01-29",
+    "endDate": "2027-04-04",
+    "kind": "special",
+    "artists": [
+      "kei-takemura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://apmoa.museum/exhibition/wheredowestand",
+    "summary": "1990年代以降、世界へ活動を広げた日本の作家20組の作品を、身体や歴史、グローバル化などの視点から読み解く。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

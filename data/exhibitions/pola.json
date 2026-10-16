@@ -1,0 +1,68 @@
+[
+  {
+    "id": "pola-20260617-24ed05",
+    "museumId": "pola",
+    "title": "モネ没後100年・開館25周年記念 あたらしい目―モネと21世紀のアート",
+    "startDate": "2026-06-17",
+    "endDate": "2027-04-07",
+    "kind": "special",
+    "artists": [
+      "claude-monet",
+      "lucas-arruda",
+      "noemie-goudal",
+      "yojiro-imasaka",
+      "daniel-steegmann-mangrane",
+      "felix-gonzalez-torres",
+      "roni-horn",
+      "su-mei-tse",
+      "thao-nguyen-phan",
+      "fujiko-nakaya"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.polamuseum.or.jp/exhibition/2026061701/",
+    "summary": "没後100年のモネの絵画を、21世紀の作家たちの作品と対話させ、「みる」ことの意味を新たに問い直す展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "pola-20260617-606e26",
+    "museumId": "pola",
+    "title": "開館25周年記念プログラム コレクション・シネマ",
+    "startDate": "2026-06-17",
+    "endDate": "2027-04-07",
+    "kind": "collection",
+    "artists": [
+      "christian-marclay",
+      "gerhard-richter"
+    ],
+    "genres": [
+      "メディアアート",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c01/",
+    "summary": "新たに収蔵した映像作品を前後期で一点ずつ初公開し、マークレー《ドア》とリヒターの動く絵画を紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "pola-20260617-5f9f05",
+    "museumId": "pola",
+    "title": "セザンヌ・レジェンド",
+    "startDate": "2026-06-17",
+    "endDate": "2027-04-07",
+    "kind": "collection",
+    "artists": [
+      "paul-cezanne"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c02/",
+    "summary": "近代絵画の父セザンヌの作品を館のコレクションから紹介し、後世の画家に与えた大きな影響を見つめる展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

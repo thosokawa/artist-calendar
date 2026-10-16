@@ -1,0 +1,87 @@
+[
+  {
+    "id": "nagoya-20260711-1fb371",
+    "museumId": "nagoya",
+    "title": "特集＜郷土の洋画家シリーズⅡ＞愛美社の画家・水野正一を中心に",
+    "startDate": "2026-07-11",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [
+      "shoichi-mizuno"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://art-museum.city.nagoya.jp/exhibitions/post/%e7%89%b9%e9%9b%86%ef%bc%9c%e9%83%b7%e5%9c%9f%e3%81%ae%e6%b4%8b%e7%94%bb%e5%ae%b6%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba%e2%85%b1%ef%bc%9e%e6%84%9b%e7%be%8e%e7%a4%be%e3%81%ae%e7%94%bb%e5%ae%b6%e3%83%bb/",
+    "summary": "名古屋の洋画団体・愛美社で活動した水野正一を中心に、郷土ゆかりの洋画家たちの仕事を紹介する特集展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nagoya-20260919-9a8401",
+    "museumId": "nagoya",
+    "title": "ゴッホの跳ね橋と印象派の画家たち ヴァルラフ＝リヒャルツ美術館所蔵",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "vincent-van-gogh",
+      "claude-monet",
+      "pierre-auguste-renoir",
+      "camille-pissarro",
+      "gustave-caillebotte",
+      "paul-gauguin",
+      "henri-matisse",
+      "pierre-bonnard",
+      "maurice-utrillo",
+      "jean-baptiste-camille-corot"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://art-museum.city.nagoya.jp/exhibitions/post/van_gogh_and_the_impressionists/",
+    "summary": "ケルンのヴァルラフ＝リヒャルツ美術館の所蔵品から、ゴッホの跳ね橋を軸に印象派前後の画家たちの革新をたどる。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nagoya-20260919-c294d2",
+    "museumId": "nagoya",
+    "title": "常設展 名品コレクション展Ⅱ（後期）",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [
+      "tsuguharu-foujita",
+      "diego-rivera",
+      "shoichiro-osawa",
+      "haru-miyawaki"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://art-museum.city.nagoya.jp/exhibitions/post/permanent-2-second-half-2026/",
+    "summary": "生誕140年の藤田嗣治とディエゴ・リベラをはじめ、絵肌に注目した現代美術や郷土の画家を所蔵品で紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nagoya-20270206-3977cd",
+    "museumId": "nagoya",
+    "title": "日本イタリア国交樹立160周年記念／フォンタネージ来日150周年記念 フォンタネージ －イタリアの光・心の風景",
+    "startDate": "2027-02-06",
+    "endDate": "2027-04-04",
+    "kind": "special",
+    "artists": [
+      "antonio-fontanesi"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://art-museum.city.nagoya.jp/exhibitions/post/fontanesi/",
+    "summary": "明治初期に来日し日本の洋画教育に大きな足跡を残したイタリアの風景画家フォンタネージの作品を紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

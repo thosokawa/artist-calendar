@@ -1,0 +1,53 @@
+[
+  {
+    "id": "nezu-20261024-e8ab9c",
+    "museumId": "nezu",
+    "title": "舞楽装束",
+    "startDate": "2026-10-24",
+    "endDate": "2026-11-23",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "雅楽の舞である舞楽で用いられる華麗な装束に注目し、その意匠や染織技術の美しさを紹介する特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nezu-20261205-894a6f",
+    "museumId": "nezu",
+    "title": "彫る漆",
+    "startDate": "2026-12-05",
+    "endDate": "2027-01-17",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "漆を塗り重ねて彫刻する彫漆をはじめ、漆を彫って表現する工芸作品の技と美を館蔵品を中心に紹介する企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nezu-20270130-6db57e",
+    "museumId": "nezu",
+    "title": "根津美術館の仏像コレクション",
+    "startDate": "2027-01-30",
+    "endDate": "2027-03-28",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "彫刻",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "根津美術館が所蔵する仏像の数々を取り上げ、その造形や信仰の背景をあらためて見つめ直す企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

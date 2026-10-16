@@ -1,0 +1,11 @@
+{
+  "id": "hokkaido-modern",
+  "name": "北海道立近代美術館",
+  "nameEn": "Hokkaido Museum of Modern Art",
+  "prefecture": "北海道",
+  "city": "札幌市中央区",
+  "area": "hokkaido-tohoku",
+  "officialUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/",
+  "exhibitionsUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/",
+  "status": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "artm-hyogo",
+  "name": "兵庫県立美術館",
+  "nameEn": "Hyogo Prefectural Museum of Art",
+  "prefecture": "兵庫県",
+  "city": "神戸市中央区",
+  "area": "kansai",
+  "officialUrl": "https://www.artm.pref.hyogo.jp/",
+  "exhibitionsUrl": "https://www.artm.pref.hyogo.jp/exhibition/",
+  "status": "ok"
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "setagaya-20260808-39d76a",
+    "museumId": "setagaya",
+    "title": "ミュージアム コレクションⅡ 気になる、こんどの収蔵品―作品がつれてきた物語",
+    "startDate": "2026-08-08",
+    "endDate": "2026-10-25",
+    "kind": "collection",
+    "artists": [
+      "masuo-ikeda",
+      "kimiko-kobayashi",
+      "pierre-brune",
+      "michio-fukuoka",
+      "toshio-arimoto"
+    ],
+    "genres": [
+      "洋画",
+      "版画",
+      "彫刻"
+    ],
+    "detailUrl": "https://www.setagayaartmuseum.or.jp/exhibition/collection/detail.php?id=col00126",
+    "summary": "近年新たに収蔵した作品を、作り手や旧蔵者、制作の経緯など作品の背後にある物語とともに紹介する収蔵品展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "setagaya-20260919-0dfb91",
+    "museumId": "setagaya",
+    "title": "スウェーデン・テキスタイル 暮らしと自然に息づく北欧デザイン",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [
+      "elsa-gullberg",
+      "estrid-ericson",
+      "lisbet-jobs",
+      "gocken-jobs",
+      "gota-tragardh",
+      "astrid-sampe",
+      "viola-grasten",
+      "inez-svensson",
+      "sven-fristedt",
+      "chicki-mattsson"
+    ],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00230",
+    "summary": "自然や暮らしに根ざした模様と明るい色彩が特徴の、20世紀半ばに花開いたスウェーデンのプリント布を紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "setagaya-20261128-f5c43a",
+    "museumId": "setagaya",
+    "title": "銅版画家・駒井哲郎 掌上にひろがる星座のように",
+    "startDate": "2026-11-28",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "tetsuro-komai",
+      "koshiro-onchi",
+      "kiyoshi-hasegawa",
+      "charles-meryon",
+      "rodolphe-bresdin"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00231",
+    "summary": "没後50年を機に、日本の銅版画を切り拓いた駒井哲郎の詩的な作品世界を約300点の作品と資料でたどる回顧展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

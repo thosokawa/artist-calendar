@@ -1,0 +1,32 @@
+:root{--bg:#faf8f4;--fg:#1d1b18;--muted:#6b665d;--line:#e4dfd5;--card:#fff;--accent:#8a3b2e;--accent-fg:#fff;--cur:#2f6b3a;--up:#2c5a8a;--past:#8a857c}
+@media (prefers-color-scheme:dark){:root{--bg:#161513;--fg:#ece8e1;--muted:#a49e93;--line:#2e2b27;--card:#1f1d1a;--accent:#d98b6f;--accent-fg:#161513;--cur:#7cc28a;--up:#7fb0e0;--past:#8a857c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 "Hiragino Sans","Noto Sans JP",system-ui,sans-serif}
+a{color:var(--accent)}
+.top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.brand{font-weight:700;color:var(--fg);text-decoration:none}
+.top nav a{margin-left:16px;text-decoration:none}
+main{max-width:860px;margin:0 auto;padding:16px}
+h1{font-size:1.6rem;line-height:1.35;margin:.6em 0 .4em}
+h1 small{display:block;font-size:.85rem;color:var(--muted);font-weight:400}
+h2{font-size:1.15rem;margin:1.8em 0 .6em;border-left:4px solid var(--accent);padding-left:8px}
+.hero p{color:var(--muted)}
+.search-mini,.filters{display:flex;flex-wrap:wrap;gap:8px}
+input,select,button{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+.search-mini input,.filters input[name=q]{flex:1 1 220px}
+button,.btn{background:var(--accent);color:var(--accent-fg);border:0;border-radius:8px;padding:9px 14px;text-decoration:none;display:inline-block;margin:4px 6px 4px 0;font-weight:600}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.cards{list-style:none;padding:0;display:grid;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.card .title{display:block;font-weight:700;color:var(--fg);text-decoration:none;margin:2px 0}
+.meta,.artists,.count,.hint,.soon,.lede{color:var(--muted);font-size:.9rem}
+.badge{font-size:.75rem;padding:1px 8px;border-radius:99px;border:1px solid currentColor}
+.badge.current{color:var(--cur)}.badge.upcoming{color:var(--up)}.badge.past{color:var(--past)}
+.tags a{font-size:.78rem;margin-right:6px;padding:1px 8px;border-radius:99px;background:var(--line);color:var(--fg);text-decoration:none}
+.chips{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips a{display:inline-block;padding:4px 12px;border:1px solid var(--line);border-radius:99px;background:var(--card);text-decoration:none;color:var(--fg)}
+.subscribe{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0}
+.subscribe code{word-break:break-all;font-size:.8rem}
+.facts{display:grid;grid-template-columns:5em 1fr;gap:4px 12px}.facts dt{color:var(--muted)}.facts dd{margin:0}
+.empty,.note{color:var(--muted)}
+footer{max-width:860px;margin:32px auto;padding:16px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line)}

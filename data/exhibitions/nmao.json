@@ -1,0 +1,119 @@
+[
+  {
+    "id": "nmao-20260719-dc51d7",
+    "museumId": "nmao",
+    "title": "笹本晃 ラボラトリー",
+    "startDate": "2026-07-19",
+    "endDate": "2026-11-03",
+    "kind": "special",
+    "artists": [
+      "aki-sasamoto"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.nmao.go.jp/events/event/20260719_sasamoto-aki/",
+    "summary": "パフォーマンスとインスタレーションを横断するニューヨーク拠点の作家・笹本晃の活動を紹介する個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmao-20260719-b97a64",
+    "museumId": "nmao",
+    "title": "開館50周年記念プレ企画 コレクション1：私／行為",
+    "startDate": "2026-07-19",
+    "endDate": "2026-11-03",
+    "kind": "collection",
+    "artists": [
+      "paul-cezanne",
+      "wassily-kandinsky",
+      "pablo-picasso",
+      "marcel-duchamp",
+      "alberto-giacometti",
+      "kazuo-shiraga",
+      "atsuko-tanaka",
+      "yayoi-kusama",
+      "ruth-asawa",
+      "kwak-in-sik"
+    ],
+    "genres": [
+      "洋画",
+      "彫刻",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.nmao.go.jp/events/event/collection20260719/",
+    "summary": "1890年代から1960年代半ばの所蔵品で、作り手の「私」と制作「行為」の捉え方の変遷をたどるコレクション展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmao-20261010-86fa75",
+    "museumId": "nmao",
+    "title": "国立国際美術館(NMAO)×大阪中之島美術館(NAKKA)コレクション活用連携事業 コレナカ NMAOサテライト",
+    "startDate": "2026-10-10",
+    "endDate": "2026-11-07",
+    "kind": "collection",
+    "artists": [
+      "ryan-gander",
+      "ishu-han",
+      "tsubasa-kato",
+      "chie-matsui",
+      "aiko-miyanaga",
+      "yasumasa-morimura",
+      "kodai-nakahara",
+      "chiharu-shiota"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.nmao.go.jp/events/event/20261010_nmao-satellite/",
+    "summary": "隣接する大阪中之島美術館2階の多目的スペースを会場に、当館所蔵の現代美術を気軽に見せる連携展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmao-20261201-cc4826",
+    "museumId": "nmao",
+    "title": "コトバの重なる場所",
+    "startDate": "2026-12-01",
+    "endDate": "2027-03-14",
+    "kind": "special",
+    "artists": [
+      "kenshichi-heshiki",
+      "motoyuki-shitamichi",
+      "cao-fei",
+      "toshiro-maeda",
+      "saburo-muraoka",
+      "chikako-yamashiro",
+      "sayaka-uehara",
+      "meiro-koizumi",
+      "ilya-kabakov",
+      "keizo-kitajima"
+    ],
+    "genres": [
+      "現代美術",
+      "写真",
+      "メディアアート"
+    ],
+    "detailUrl": "https://www.nmao.go.jp/events/event/20261201_stratified-languages/",
+    "summary": "アジアの境界地帯などで言語や文化が交錯する状況を、映像・写真・言葉の作品から浮かび上がらせるグループ展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmao-20261201-dc9d7d",
+    "museumId": "nmao",
+    "title": "開館50周年記念プレ企画 コレクション2：歴史化する現代",
+    "startDate": "2026-12-01",
+    "endDate": "2027-03-22",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.nmao.go.jp/events/event/collection20261201/",
+    "summary": "ポップやミニマル、コンセプチュアルなど開館の1977年までの美術動向を、所蔵品で歴史として見直す展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

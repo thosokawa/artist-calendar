@@ -1,0 +1,102 @@
+[
+  {
+    "id": "momas-20260905-c0d981",
+    "museumId": "momas",
+    "title": "MOMASコレクション",
+    "startDate": "2026-09-05",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [
+      "hiroya-hori",
+      "marc-chagall",
+      "fernand-leger",
+      "genki-isayama",
+      "gerrit-thomas-rietveld",
+      "kiyoshi-hasegawa"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術",
+      "デザイン",
+      "版画"
+    ],
+    "detailUrl": "https://pref.spec.ed.jp/momas/2026momas02",
+    "summary": "所蔵名品のセレクションに加え、美術制度を根本から問うた堀浩哉の1960年代末からの実践を特集する第2期展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momas-20261010-5e1ba8",
+    "museumId": "momas",
+    "title": "内間安瑆・俊子展 色を織り、記憶を紡ぐ",
+    "startDate": "2026-10-10",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "ansei-uchima",
+      "toshiko-uchima"
+    ],
+    "genres": [
+      "版画",
+      "現代美術"
+    ],
+    "detailUrl": "https://pref.spec.ed.jp/momas/2026uchima",
+    "summary": "東京からニューヨークへ渡った内間安瑆・俊子夫妻の版画とコラージュによる約50年の創作と日米交流の功績をたどる。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momas-20261205-c0d981",
+    "museumId": "momas",
+    "title": "MOMASコレクション",
+    "startDate": "2026-12-05",
+    "endDate": "2027-02-28",
+    "kind": "collection",
+    "artists": [
+      "claude-monet"
+    ],
+    "genres": [
+      "洋画",
+      "日本画"
+    ],
+    "detailUrl": "https://pref.spec.ed.jp/momas/2026momas03",
+    "summary": "モネ没後100年に寄せて光を描いた作品を集める特集と、大熊家コレクションの雪月風花の作品を楽しむ第3期展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momas-20270206-219e18",
+    "museumId": "momas",
+    "title": "磯崎新の版画",
+    "startDate": "2027-02-06",
+    "endDate": "2027-05-09",
+    "kind": "special",
+    "artists": [
+      "arata-isozaki"
+    ],
+    "genres": [
+      "版画",
+      "建築"
+    ],
+    "detailUrl": "https://pref.spec.ed.jp/momas/2027isozaki",
+    "summary": "建築家・磯崎新が300点以上制作した建築版画に注目し、版画と建築の関係から彼の建築思想を探る展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momas-20270306-c0d981",
+    "museumId": "momas",
+    "title": "MOMASコレクション",
+    "startDate": "2027-03-06",
+    "endDate": "2027-05-30",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://pref.spec.ed.jp/momas/2026momas04",
+    "summary": "館が所蔵する近現代美術の作品をテーマに沿って入れ替えながら紹介する、2026年度第4期のコレクション展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

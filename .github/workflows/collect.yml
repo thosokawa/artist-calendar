@@ -1,0 +1,39 @@
+# Daily read of every museum's official exhibition list (05:30 JST).
+# Only pages that changed are sent to Claude. New exhibitions are committed to main, which triggers a rebuild.
+# Needs repository secret ANTHROPIC_API_KEY.
+name: collect-exhibitions
+on:
+  schedule:
+    - cron: '30 20 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/collect.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Save results to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "Collect: $(date -u +%F)" && git push)
+      - name: Raise an issue for museums that keep failing
+        if: hashFiles('data/monitor/alerts.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -s data/monitor/alerts.md ] || exit 0
+          existing=$(gh issue list --label collect-alert --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then gh issue comment "$existing" --body-file data/monitor/alerts.md
+          else gh label create collect-alert --force >/dev/null; gh issue create --title "美術館のページが読めません" --label collect-alert --body-file data/monitor/alerts.md; fi

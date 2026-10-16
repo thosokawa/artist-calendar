@@ -1,0 +1,47 @@
+[
+  {
+    "id": "aomori-20261010-5ace48",
+    "museumId": "aomori",
+    "title": "コレクション展2026-3 特集展示：ウェルカム・バック、ナンシー関！",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-23",
+    "kind": "collection",
+    "artists": [
+      "nancy-seki",
+      "shiko-munakata",
+      "chiharu-matsushita",
+      "naotsugu-hashimoto",
+      "toru-narita",
+      "marc-chagall",
+      "yoshitomo-nara"
+    ],
+    "genres": [
+      "版画",
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.aomori-museum.jp/schedule/18760/",
+    "summary": "青森出身の消しゴム版画家で辛口のテレビ評でも知られたナンシー関を特集し、県ゆかりの作家と紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "aomori-20261031-a80643",
+    "museumId": "aomori",
+    "title": "青森県立美術館開館20周年 / 東日本大震災15年「志賀理江子 なぬもかぬも」展",
+    "startDate": "2026-10-31",
+    "endDate": "2027-03-14",
+    "kind": "special",
+    "artists": [
+      "lieko-shiga"
+    ],
+    "genres": [
+      "写真",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.aomori-museum.jp/schedule/18042/",
+    "summary": "開館20周年と震災15年を機に、東北の土地と人に向き合ってきた写真家・志賀理江子の表現を紹介する企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

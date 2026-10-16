@@ -1,0 +1,162 @@
+[
+  {
+    "id": "kamakura-hayama-20260912-f5c43a",
+    "museumId": "kamakura-hayama",
+    "title": "銅版画家・駒井哲郎 掌上にひろがる星座のように",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [
+      "tetsuro-komai",
+      "odilon-redon",
+      "kiyoshi-hasegawa",
+      "koshiro-onchi"
+    ],
+    "genres": [
+      "版画",
+      "洋画"
+    ],
+    "detailUrl": "https://www.moma.pref.kanagawa.jp/exhibition/2026-komai-tetsuro/",
+    "summary": "没後50年を機に、銅版画家・駒井哲郎の初期油彩から晩年の版画までを、銅版や道具、影響を受けた作家の作品とともに回顧する（葉山館）。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20260912-c6f3f6",
+    "museumId": "kamakura-hayama",
+    "title": "たそかれ、かはたれ ―現代美術における“翳”",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-15",
+    "kind": "collection",
+    "artists": [
+      "samiro-yunoki",
+      "kazuo-okazaki",
+      "hiroshi-sugimoto",
+      "daido-moriyama"
+    ],
+    "genres": [
+      "現代美術",
+      "写真"
+    ],
+    "detailUrl": "https://www.moma.pref.kanagawa.jp/exhibition/2026-h-collection2/",
+    "summary": "黄昏や明け方の薄暗さを手がかりに、所蔵する現代美術作品に宿る「翳」の表現を見つめ直すコレクション展（葉山館）。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20261017-16d6d0",
+    "museumId": "kamakura-hayama",
+    "title": "ポーランド・ポスター２ 銅版画家渡辺千尋旧蔵品から",
+    "startDate": "2026-10-17",
+    "endDate": "2027-01-31",
+    "kind": "collection",
+    "artists": [
+      "mieczys-aw-gorowski",
+      "stasys-eidrigevicius",
+      "wiktor-sadowski",
+      "wies-aw-wa-kuski"
+    ],
+    "genres": [
+      "デザイン",
+      "版画"
+    ],
+    "detailUrl": "https://www.moma.pref.kanagawa.jp/exhibition/2026-a-collection1/",
+    "summary": "銅版画家・渡辺千尋が集めた東欧革命前後のポーランド・ポスターから、緊張感をはらむ時代の表現を紹介する（鎌倉別館）。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20261128-696097",
+    "museumId": "kamakura-hayama",
+    "title": "松本陽子 宵の明星を見た日",
+    "startDate": "2026-11-28",
+    "endDate": "2027-02-28",
+    "kind": "special",
+    "artists": [
+      "yoko-matsumoto"
+    ],
+    "genres": [
+      "現代美術",
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "ピンクの色彩が渦巻く抽象画で知られる画家・松本陽子の制作を、葉山館で紹介する企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20261128-f2ed37",
+    "museumId": "kamakura-hayama",
+    "title": "マルク・シャガール『ラ・フォンテーヌ寓話集』",
+    "startDate": "2026-11-28",
+    "endDate": "2027-02-28",
+    "kind": "collection",
+    "artists": [
+      "marc-chagall"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "画商ヴォラールの依頼でシャガールが手がけた『ラ・フォンテーヌ寓話集』の挿絵版画を所蔵品から紹介する（葉山館）。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20270213-a576c6",
+    "museumId": "kamakura-hayama",
+    "title": "深川遙想 伊東深水と関根正二",
+    "startDate": "2027-02-13",
+    "endDate": "2027-05-23",
+    "kind": "special",
+    "artists": [
+      "shinsui-ito",
+      "shoji-sekine"
+    ],
+    "genres": [
+      "日本画",
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "ともに東京・深川にゆかりを持つ日本画家・伊東深水と洋画家・関根正二を並べ、その歩みを振り返る企画展（鎌倉別館）。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20270313-0c76b1",
+    "museumId": "kamakura-hayama",
+    "title": "須田悦弘展",
+    "startDate": "2027-03-13",
+    "endDate": "2027-06-13",
+    "kind": "special",
+    "artists": [
+      "yoshihiro-suda"
+    ],
+    "genres": [
+      "彫刻",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "木を彫って本物そっくりの草花をつくり、空間の片隅にそっと置く彫刻家・須田悦弘の作品を葉山館で紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kamakura-hayama-20270313-62ec85",
+    "museumId": "kamakura-hayama",
+    "title": "田中岑 色の軌跡 －《女の一生》から",
+    "startDate": "2027-03-13",
+    "endDate": "2027-06-13",
+    "kind": "collection",
+    "artists": [
+      "takashi-tanaka"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "洋画家・田中岑の色彩表現の変遷を、代表作《女の一生》を起点に所蔵作品でたどるコレクション展（葉山館）。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

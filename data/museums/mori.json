@@ -1,0 +1,11 @@
+{
+  "id": "mori",
+  "name": "森美術館",
+  "nameEn": "Mori Art Museum",
+  "prefecture": "東京都",
+  "city": "港区",
+  "area": "kanto",
+  "officialUrl": "https://www.mori.art.museum/jp/",
+  "exhibitionsUrl": "https://www.mori.art.museum/jp/exhibitions/index.html",
+  "status": "ok"
+}

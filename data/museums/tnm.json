@@ -1,0 +1,11 @@
+{
+  "id": "tnm",
+  "name": "東京国立博物館",
+  "nameEn": "Tokyo National Museum",
+  "prefecture": "東京都",
+  "city": "台東区",
+  "area": "kanto",
+  "officialUrl": "https://www.tnm.jp/",
+  "exhibitionsUrl": "https://www.tnm.jp/modules/r_exhibition/index.php?cid=1&controller=ctg",
+  "status": "ok"
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "hokkaido-modern-20260912-5f6832",
+    "museumId": "hokkaido-modern",
+    "title": "わたしのつくりかた",
+    "startDate": "2026-09-12",
+    "endDate": "2026-12-20",
+    "kind": "collection",
+    "artists": [
+      "ryo-yumiyama",
+      "masaji-inoue",
+      "eri-takashima",
+      "norihiro-nakae",
+      "akiko",
+      "hiroshi-kakizaki"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/330",
+    "summary": "障がいのある北海道の作家の作品と館蔵品を並べ、素材や手順に表れる「つくること」と自己の関わりを探る展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hokkaido-modern-20260912-25b0bf",
+    "museumId": "hokkaido-modern",
+    "title": "MINIATURE LIFE展2 田中達也 見立ての世界",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "tatsuya-tanaka"
+    ],
+    "genres": [
+      "現代美術",
+      "写真"
+    ],
+    "detailUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/333",
+    "summary": "日用品を別の物に見立てたミニチュア写真で人気の田中達也による、ユーモアあふれる作品世界を紹介する特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hokkaido-modern-20270109-670c6b",
+    "museumId": "hokkaido-modern",
+    "title": "函館美術館コレクション文字とアート－ポップ・アートから書まで",
+    "startDate": "2027-01-09",
+    "endDate": "2027-04-11",
+    "kind": "special",
+    "artists": [
+      "andy-warhol",
+      "otei-kaneko"
+    ],
+    "genres": [
+      "書",
+      "現代美術"
+    ],
+    "detailUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/336",
+    "summary": "道立函館美術館の所蔵品から、書の豊かな表現と文字や記号を用いた現代美術を合わせて紹介する特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hokkaido-modern-20270109-76058a",
+    "museumId": "hokkaido-modern",
+    "title": "雪々（せつせつ）と",
+    "startDate": "2027-01-09",
+    "endDate": "2027-04-11",
+    "kind": "collection",
+    "artists": [
+      "kansai-honma",
+      "emile-galle"
+    ],
+    "genres": [
+      "日本画",
+      "浮世絵",
+      "工芸"
+    ],
+    "detailUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/337",
+    "summary": "札幌国際芸術祭2027と連携し、絵画や浮世絵、ガラスなどに表された雪の美しさと厳しさを館蔵品でたどる展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

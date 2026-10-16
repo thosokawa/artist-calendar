@@ -1,0 +1,45 @@
+[
+  {
+    "id": "crafts-momat-20261009-d23707",
+    "museumId": "crafts-momat",
+    "title": "デザイン・クロニクル展　なにが生まれて、なにが変わった？",
+    "startDate": "2026-10-09",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "christopher-dresser",
+      "alphonse-mucha",
+      "pierre-chareau",
+      "marianne-brandt",
+      "ludwig-mies-van-der-rohe",
+      "charles-and-ray-eames",
+      "enzo-mari"
+    ],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": "https://www.momat.go.jp/craft-museum/exhibitions/573",
+    "summary": "アーツ・アンド・クラフツからバウハウス、戦後まで、工芸から生まれたデザインの約100年を所蔵品でたどる。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "crafts-momat-20270226-50bdc5",
+    "museumId": "crafts-momat",
+    "title": "金継ぎ ーKINTSUGIー 展",
+    "startDate": "2027-02-26",
+    "endDate": "2027-06-06",
+    "kind": "special",
+    "artists": [
+      "handeishi-kawakita"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": "https://www.momat.go.jp/craft-museum/exhibitions/574",
+    "summary": "割れた器を漆と金で繕う金継ぎの歴史と、不完全さに美を見いだす「再生」の思想を紹介する展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

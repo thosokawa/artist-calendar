@@ -1,0 +1,94 @@
+[
+  {
+    "id": "yokohama-20260724-ca8730",
+    "museumId": "yokohama",
+    "title": "毛利悠子 Recompose 第60回ヴェネチア・ビエンナーレ日本館帰国展",
+    "startDate": "2026-07-24",
+    "endDate": "2026-11-23",
+    "kind": "special",
+    "artists": [
+      "yuko-mohri"
+    ],
+    "genres": [
+      "現代美術",
+      "メディアアート"
+    ],
+    "detailUrl": "https://yokohama.art.museum/exhibition/202607_mohriyuko/",
+    "summary": "ヴェネチア・ビエンナーレ日本館で発表された毛利悠子のインスタレーションを、帰国展として横浜で再構成して見せる無料の展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "yokohama-20260801-068a77",
+    "museumId": "yokohama",
+    "title": "マリー・アントワネット・スタイル",
+    "startDate": "2026-08-01",
+    "endDate": "2026-11-23",
+    "kind": "special",
+    "artists": [
+      "francois-hubert-drouais",
+      "jeanne-lanvin",
+      "george-barbier"
+    ],
+    "genres": [
+      "洋画",
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": "https://yokohama.art.museum/exhibition/202608_marie2026/",
+    "summary": "王妃マリー・アントワネットが生んだ装いと室内の様式が、18世紀から現代までのファッションやデザインへ与えた影響をたどる展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "yokohama-20260801-d7a031",
+    "museumId": "yokohama",
+    "title": "コレクション展 海をこえてゆく彼女／ハイライト",
+    "startDate": "2026-08-01",
+    "endDate": "2027-02-11",
+    "kind": "collection",
+    "artists": [
+      "maria-farrar",
+      "helen-hyde",
+      "fujio-yoshida",
+      "kazuko-enomoto",
+      "yuki-katsura",
+      "yayoi-kusama",
+      "miwa-yanagi",
+      "meret-oppenheim",
+      "rene-magritte",
+      "salvador-dali"
+    ],
+    "genres": [
+      "洋画",
+      "版画",
+      "現代美術",
+      "写真"
+    ],
+    "detailUrl": "https://yokohama.art.museum/exhibition/202608_collection/",
+    "summary": "国境を越えて活動した20世紀以降の女性作家たちに光を当てる特集と、館の代表的な所蔵作品を並べるハイライトの二本立て。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "yokohama-20260801-1b6db6",
+    "museumId": "yokohama",
+    "title": "コレクション展（じゆうエリア）",
+    "startDate": "2026-08-01",
+    "endDate": "2027-02-11",
+    "kind": "collection",
+    "artists": [
+      "stanislav-libensky",
+      "jaroslava-brychtova",
+      "tayoko-ikuta"
+    ],
+    "genres": [
+      "工芸",
+      "現代美術"
+    ],
+    "detailUrl": "https://yokohama.art.museum/exhibition/202608_jiyu-area/",
+    "summary": "無料で入れるじゆうエリアに所蔵品を展示し、建築の円と四角のモチーフやガラス作品を身近に楽しめるようにした展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "towada-20260606-33cf14",
+    "museumId": "towada",
+    "title": "椿昇 フリーダムー像(ゾウ)と生きる",
+    "startDate": "2026-06-06",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "noboru-tsubaki"
+    ],
+    "genres": [
+      "現代美術",
+      "彫刻"
+    ],
+    "detailUrl": "https://towadaartcenter.com/exhibitions/tsubaki_noboru/",
+    "summary": "「部屋の中の象」の慣用句を手がかりに、新作の象の彫刻で見過ごされがちな社会問題と自由を問う椿昇の個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "towada-20261205-f33036",
+    "museumId": "towada",
+    "title": "スティーヴ・ビショップ 建物をめぐる3つのフィルム",
+    "startDate": "2026-12-05",
+    "endDate": "2027-03-31",
+    "kind": "special",
+    "artists": [
+      "steve-bishop"
+    ],
+    "genres": [
+      "現代美術",
+      "メディアアート"
+    ],
+    "detailUrl": "https://towadaartcenter.com/exhibitions/steve_bishop/",
+    "summary": "建物を題材にした3本の映像作品を通して、スティーヴ・ビショップの視点で建築と空間を見つめ直す展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

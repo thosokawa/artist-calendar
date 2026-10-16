@@ -1,0 +1,11 @@
+{
+  "id": "yokohama",
+  "name": "横浜美術館",
+  "nameEn": "Yokohama Museum of Art",
+  "prefecture": "神奈川県",
+  "city": "横浜市西区",
+  "area": "kanto",
+  "officialUrl": "https://yokohama.art.museum/",
+  "exhibitionsUrl": "https://yokohama.art.museum/exhibition/",
+  "status": "ok"
+}

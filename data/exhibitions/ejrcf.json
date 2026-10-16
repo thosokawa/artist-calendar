@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ejrcf-20260919-be907a",
+    "museumId": "ejrcf",
+    "title": "水滸伝",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "kuniyoshi-utagawa",
+      "katsushika-hokusai",
+      "bakin-kyokutei",
+      "gong-kai",
+      "zhao-zhe",
+      "yan-wengui",
+      "qiu-ying",
+      "mi-fu",
+      "kazuo-shiraga",
+      "takao-saito"
+    ],
+    "genres": [
+      "浮世絵",
+      "古美術",
+      "現代美術",
+      "マンガ・アニメ"
+    ],
+    "detailUrl": "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html",
+    "summary": "中国の古典小説『水滸伝』をめぐり、宋代の名品から国芳の浮世絵、現代の漫画までその受容と広がりをたどる。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20261121-4f9ea2",
+    "museumId": "ejrcf",
+    "title": "ニコライ・アストルップ 創造する庭",
+    "startDate": "2026-11-21",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "nikolai-astrup"
+    ],
+    "genres": [
+      "洋画",
+      "版画",
+      "工芸"
+    ],
+    "detailUrl": "https://www.ejrcf.or.jp/gallery/exhibition/202611_astrup.html",
+    "summary": "ノルウェー西部の自然と庭を描いた画家アストルップの油彩や木版画、染織デザインを紹介する日本初の回顧展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20270220-88043f",
+    "museumId": "ejrcf",
+    "title": "生誕140年 染織家 山鹿清華",
+    "startDate": "2027-02-20",
+    "endDate": "2027-04-11",
+    "kind": "special",
+    "artists": [
+      "seika-yamaga"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "図案から製織まで一貫して手がけた手織錦で知られる染織家・山鹿清華の歩みを約40年ぶりに振り返る回顧展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20270429-e7d378",
+    "museumId": "ejrcf",
+    "title": "秦テルヲ 聖と俗（仮称）",
+    "startDate": "2027-04-29",
+    "endDate": "2027-06-20",
+    "kind": "special",
+    "artists": [
+      "teruo-hada"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "社会の周縁に生きる人々と穏やかな仏画の双方を描いた画家・秦テルヲの画業を、聖と俗の両面からたどる。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20270703-2e98fa",
+    "museumId": "ejrcf",
+    "title": "シカゴ 写真と越境（仮称）",
+    "startDate": "2027-07-03",
+    "endDate": "2027-08-29",
+    "kind": "special",
+    "artists": [
+      "jun-fujita",
+      "harry-k-shigeta",
+      "yuichi-idaka",
+      "yasuhiro-ishimoto",
+      "tadao-takano"
+    ],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "20世紀のシカゴで活動した日米にルーツをもつ5人の写真家を通して、国境を越える写真史の一章を描き出す。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20270918-55d9a0",
+    "museumId": "ejrcf",
+    "title": "梶田半古（仮称）",
+    "startDate": "2027-09-18",
+    "endDate": "2027-11-07",
+    "kind": "special",
+    "artists": [
+      "hanko-kajita"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "明治から大正に活躍した日本画家・梶田半古の画業を、挿絵や口絵など出版文化での仕事とあわせて紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20271127-7f64c7",
+    "museumId": "ejrcf",
+    "title": "エレン・テスレフ（仮称）",
+    "startDate": "2027-11-27",
+    "endDate": "2028-02-13",
+    "kind": "special",
+    "artists": [
+      "ellen-thesleff"
+    ],
+    "genres": [
+      "洋画",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "フィンランド絵画の黄金期に国境を越えて活躍した女性画家テスレフの旅と制作をたどる日本初の個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "ejrcf-20280304-3128f0",
+    "museumId": "ejrcf",
+    "title": "藤井達吉 自然への憧憬（仮称）",
+    "startDate": "2028-03-04",
+    "endDate": "2028-05-21",
+    "kind": "special",
+    "artists": [
+      "tatsukichi-fujii"
+    ],
+    "genres": [
+      "工芸",
+      "日本画",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "工芸から絵画、図案まで幅広く手がけた藤井達吉の新発見作を含む作品群から、自然への憧れと生活の美を探る。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

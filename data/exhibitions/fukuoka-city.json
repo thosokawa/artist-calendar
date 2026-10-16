@@ -1,0 +1,274 @@
+[
+  {
+    "id": "fukuoka-city-20260401-98a41e",
+    "museumId": "fukuoka-city",
+    "title": "東光院のみほとけ",
+    "startDate": "2026-04-01",
+    "endDate": "2027-03-31",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "彫刻",
+      "古美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern&type=now#a208742",
+    "summary": "博多区吉塚の東光院に伝わった重要文化財の薬師如来坐像など、木造の仏像群を展示替えしつつ紹介。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20260630-0e7d97",
+    "museumId": "fukuoka-city",
+    "title": "コレクションハイライト",
+    "startDate": "2026-06-30",
+    "endDate": "2027-03-31",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=modern&type=now#a206931",
+    "summary": "主題や手法が大きく広がった20世紀以降の美術を、近現代コレクションの代表作から紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20260811-61cbbe",
+    "museumId": "fukuoka-city",
+    "title": "秋の名品展",
+    "startDate": "2026-08-11",
+    "endDate": "2026-10-19",
+    "kind": "collection",
+    "artists": [
+      "ogata-kenzan"
+    ],
+    "genres": [
+      "古美術",
+      "工芸"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern&type=now#a208742",
+    "summary": "松永コレクションから、尾形乾山の花籠図など秋の季節感あふれる名品を選んで並べる展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20260901-630cce",
+    "museumId": "fukuoka-city",
+    "title": "生誕150年 詩と絵の旅人―吉田博",
+    "startDate": "2026-09-01",
+    "endDate": "2026-12-20",
+    "kind": "collection",
+    "artists": [
+      "hiroshi-yoshida"
+    ],
+    "genres": [
+      "版画",
+      "洋画"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=modern&type=now#a207186",
+    "summary": "国内外を旅した吉田博の詩情豊かな水彩画や木版画を、生誕150年を機に館蔵品で振り返る展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20260908-80ae82",
+    "museumId": "fukuoka-city",
+    "title": "企画展×福岡現代作家ファイル2026 山内光枝展 潮ノ記",
+    "startDate": "2026-09-08",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "terue-yamauchi"
+    ],
+    "genres": [
+      "現代美術",
+      "メディアアート"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/exhibition/yamauchi_terue/",
+    "summary": "福岡ゆかりの現代作家を紹介するシリーズで、海と人の営みを見つめる山内光枝の作品を紹介する企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20260930-f8e061",
+    "museumId": "fukuoka-city",
+    "title": "肥前のやきもの ー田中丸コレクションを中心にー",
+    "startDate": "2026-09-30",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern&type=now#a208742",
+    "summary": "唐津・伊万里・柿右衛門様式など肥前の陶磁を、寄託の田中丸コレクションと館蔵品で紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20260930-86af0a",
+    "museumId": "fukuoka-city",
+    "title": "仙厓展 後期展示",
+    "startDate": "2026-09-30",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [
+      "sengai-gibon"
+    ],
+    "genres": [
+      "書",
+      "古美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern&type=now#a208742",
+    "summary": "博多の禅僧・仙厓のユーモラスな書画を、大幅に作品を入れ替えて紹介する仙厓展の後期展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20261017-80247d",
+    "museumId": "fukuoka-city",
+    "title": "カルン・タカール・コレクション インド更紗 世界をめぐる物語",
+    "startDate": "2026-10-17",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "デザイン"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/exhibition/chintz_a_global_story_the_karunthakar_collection/",
+    "summary": "カルン・タカール氏の収集品から、交易を通じて世界各地に広まったインド更紗の歴史と魅力を紹介する特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20261022-8ce923",
+    "museumId": "fukuoka-city",
+    "title": "松永耳庵 冬の茶事",
+    "startDate": "2026-10-22",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "takuan-soho"
+    ],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern#a208664",
+    "summary": "実業家で茶人の松永耳庵が冬に催した茶事を、茶会記をもとに道具の取り合わせで再現する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20261202-74da35",
+    "museumId": "fukuoka-city",
+    "title": "カンボジアの染織",
+    "startDate": "2026-12-02",
+    "endDate": "2027-02-07",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/exhibition/the_textikle_of_cambodia2026/",
+    "summary": "絣の技法などで知られるカンボジアの伝統的な染織品を通して、その文化と美しさを紹介する企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20261222-99cac9",
+    "museumId": "fukuoka-city",
+    "title": "没後90年 冨田溪仙",
+    "startDate": "2026-12-22",
+    "endDate": "2027-03-22",
+    "kind": "collection",
+    "artists": [
+      "keisen-tomita"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=modern#a207063",
+    "summary": "博多出身で日本美術院を中心に活躍した日本画家・冨田溪仙の没後90年を記念し所蔵作品を紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20261225-f62ff9",
+    "museumId": "fukuoka-city",
+    "title": "鋤田正義 ファインダー越しの光",
+    "startDate": "2026-12-25",
+    "endDate": "2027-03-22",
+    "kind": "collection",
+    "artists": [
+      "masayoshi-sukita"
+    ],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=modern#a207215",
+    "summary": "デヴィッド・ボウイらを撮った写真家・鋤田正義の寄贈作品35点で、時代を映した肖像写真を紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20261225-425603",
+    "museumId": "fukuoka-city",
+    "title": "希望は自由なる組織に ―デモクラート美術家協会の作家たち",
+    "startDate": "2026-12-25",
+    "endDate": "2027-03-22",
+    "kind": "collection",
+    "artists": [
+      "ei-q",
+      "masuo-ikeda"
+    ],
+    "genres": [
+      "版画",
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=modern#a207288",
+    "summary": "1951年に瑛九が結成し、権威から自由な表現を目指したデモクラート美術家協会の作家たちを紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20270113-d8af17",
+    "museumId": "fukuoka-city",
+    "title": "茶道具と銘",
+    "startDate": "2027-01-13",
+    "endDate": "2027-03-28",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern#a208722",
+    "summary": "名品の茶道具に付けられた呼び名「銘」に注目し、松永コレクションの茶入などを紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "fukuoka-city-20270209-964662",
+    "museumId": "fukuoka-city",
+    "title": "やまと絵の世界",
+    "startDate": "2027-02-09",
+    "endDate": "2027-03-31",
+    "kind": "collection",
+    "artists": [
+      "tosa-mitsuoki"
+    ],
+    "genres": [
+      "古美術",
+      "日本画"
+    ],
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern#a208539",
+    "summary": "四季や花鳥、名所や物語を題材に発展したやまと絵の流れを、土佐光起の屏風など館蔵品でたどる展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

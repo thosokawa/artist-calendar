@@ -1,0 +1,39 @@
+[
+  {
+    "id": "sompo-20260922-957924",
+    "museumId": "sompo",
+    "title": "アルベール・マルケ展",
+    "startDate": "2026-09-22",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "albert-marquet"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/",
+    "summary": "セーヌ河や地中海の港など水辺の風景を描き続けたフランスの画家マルケの画業を、約90点でたどる本格的な個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "sompo-20270109-be2530",
+    "museumId": "sompo",
+    "title": "生誕130年 東郷青児展",
+    "startDate": "2027-01-09",
+    "endDate": "2027-02-21",
+    "kind": "special",
+    "artists": [
+      "seiji-togo"
+    ],
+    "genres": [
+      "洋画",
+      "デザイン"
+    ],
+    "detailUrl": "https://www.sompo-museum.org/exhibitions/2025/togoseiji-130th-anniversary/",
+    "summary": "館の設立に深く関わった東郷青児の初期から晩年までの絵画に加え、装丁や包装などのデザインの仕事も紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

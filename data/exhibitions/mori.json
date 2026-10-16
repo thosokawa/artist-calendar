@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mori-20261031-31d16b",
+    "museumId": "mori",
+    "title": "森万里子：燦燦",
+    "startDate": "2026-10-31",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "mariko-mori"
+    ],
+    "genres": [
+      "現代美術",
+      "メディアアート"
+    ],
+    "detailUrl": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html",
+    "summary": "初期のCG写真や映像から大型の体験型インスタレーションまで、森万里子の30年以上の歩みを約40点でたどる個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "mori-20261031-210490",
+    "museumId": "mori",
+    "title": "MAMスクリーン024：ジャッカワーン・ニンタムロン",
+    "startDate": "2026-10-31",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "jakkawan-nilthamrong"
+    ],
+    "genres": [
+      "メディアアート",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.mori.art.museum/jp/exhibitions/mamscreen024/index.html",
+    "summary": "《根茎（リゾーム）》を中心とする3作品の映像で、映画の物質性と自然や社会が人の経験を形づくる様を考える。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "mori-20261031-53eb58",
+    "museumId": "mori",
+    "title": "MAMプロジェクト035：ブリー・ルエイ",
+    "startDate": "2026-10-31",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "brie-ruais"
+    ],
+    "genres": [
+      "現代美術",
+      "彫刻",
+      "工芸"
+    ],
+    "detailUrl": "https://www.mori.art.museum/jp/exhibitions/mamproject035/index.html",
+    "summary": "身体の動きで粘土を押し広げて形づくるブリー・ルエイの彫刻を、信楽での滞在制作による新作とともに紹介する。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "mori-20261031-517240",
+    "museumId": "mori",
+    "title": "森アートアワード2026 グランプリ受賞記念展：片山真理",
+    "startDate": "2026-10-31",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "mari-katayama"
+    ],
+    "genres": [
+      "写真",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.mori.art.museum/jp/exhibitions/moricaf2026/index.html",
+    "summary": "第1回森アートアワードの大賞を受けた片山真理の写真シリーズ「tree of life」を紹介する受賞記念展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "mori-20270429-d13641",
+    "museumId": "mori",
+    "title": "世界はあそびでできている：アート・子ども・社会",
+    "startDate": "2027-04-29",
+    "endDate": "2027-09-23",
+    "kind": "special",
+    "artists": [
+      "monster-chetwynd",
+      "aki-kondo",
+      "yuriko-sasaoka",
+      "do-ho-suh",
+      "ami-suh",
+      "omi-suh"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.mori.art.museum/jp/exhibitions/play/index.html",
+    "summary": "好奇心から生まれる遊びを現代アートの視点で捉え直し、子どもと共につくる世代を超えた展覧会の形を探る。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "kanazawa21-20260523-ea280b",
+    "museumId": "kanazawa21",
+    "title": "コレクション展 歩く、とどまる",
+    "startDate": "2026-05-23",
+    "endDate": "2026-10-18",
+    "kind": "collection",
+    "artists": [
+      "chie-aoki",
+      "chen-shaoxiong",
+      "aya-fujioka",
+      "emiko-kasahara",
+      "satoshi-murakami",
+      "jun-nguyen-hatsushiba",
+      "mika-ninagawa",
+      "rika-noguchi",
+      "chiharu-shiota",
+      "fiona-tan"
+    ],
+    "genres": [
+      "現代美術",
+      "写真"
+    ],
+    "detailUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1854",
+    "summary": "「歩く」と「とどまる」を切り口に、観察や記憶、時間の流れと人・空間・社会の関係を所蔵作品から考える。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kanazawa21-20260908-3441e9",
+    "museumId": "kanazawa21",
+    "title": "シリーズ「能登と」 牛嶋均 さわひらき ともにある風景",
+    "startDate": "2026-09-08",
+    "endDate": "2027-04-18",
+    "kind": "special",
+    "artists": [
+      "hitoshi-ushijima",
+      "hiraki-sawa"
+    ],
+    "genres": [
+      "現代美術",
+      "彫刻",
+      "メディアアート"
+    ],
+    "detailUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1855",
+    "summary": "能登半島地震を受け、被災した野外彫刻の再構成と珠洲での取材による新作映像で、人と風景のつながりを問う。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kanazawa21-20260915-b5b803",
+    "museumId": "kanazawa21",
+    "title": "NEUTRAL COLORS NEW CIRCUIT / ニュー・サーキット",
+    "startDate": "2026-09-15",
+    "endDate": "2027-04-18",
+    "kind": "special",
+    "artists": [
+      "neutral-colors",
+      "naonori-kato",
+      "daisuke-kano"
+    ],
+    "genres": [
+      "デザイン"
+    ],
+    "detailUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1857",
+    "summary": "雑誌・出版社・印刷製本所NEUTRAL COLORSの一年の制作サイクルを、変化していく会場で体感させる展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "kanazawa21-20261031-dd03f9",
+    "museumId": "kanazawa21",
+    "title": "今日から明日へ 作品を継承すること",
+    "startDate": "2026-10-31",
+    "endDate": "2027-04-18",
+    "kind": "special",
+    "artists": [
+      "aiko-miyanaga",
+      "james-turrell",
+      "kenji-yanobe",
+      "chiharu-shiota",
+      "leandro-erlich",
+      "patrick-blanc",
+      "minako-nishiyama",
+      "kenta-ishige",
+      "sen-takahashi",
+      "miyu-hosoi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1853",
+    "summary": "2027年5月からの長期休館を前に、保存修復や機器更新、再展示など作品を未来へ受け継ぐ課題に向き合う展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

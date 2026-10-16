@@ -1,0 +1,268 @@
+[
+  {
+    "id": "nakka-20261010-2b50cb",
+    "museumId": "nakka",
+    "title": "ＮＨＫ日曜美術館５０年展",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "tetsuya-ishida",
+      "yuichi-takahashi",
+      "ito-jakuchu",
+      "tsukioka-yoshitoshi",
+      "imaemon-imaizumi",
+      "tomoko-konoike",
+      "fukumi-shimura",
+      "ryosuke-shiomi",
+      "miyako-ishiuchi",
+      "katsura-funakoshi"
+    ],
+    "genres": [
+      "古美術",
+      "洋画",
+      "工芸",
+      "写真",
+      "彫刻",
+      "現代美術"
+    ],
+    "detailUrl": "https://nakka-art.jp/exhibition-post/nichibiten50/",
+    "summary": "放送50年を迎えた美術番組「日曜美術館」をめぐり、縄文から現代まで約60作家の作品と番組映像を並べる展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20261031-fc9014",
+    "museumId": "nakka",
+    "title": "大英博物館日本美術コレクション 百花繚乱〜海を越えた江戸絵画",
+    "startDate": "2026-10-31",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "katsushika-hokusai",
+      "toshusai-sharaku",
+      "utagawa-hiroshige",
+      "kuniyoshi-utagawa",
+      "kitagawa-utamaro",
+      "maruyama-okyo",
+      "yoshimura-shuzan",
+      "kawanabe-kyosai"
+    ],
+    "genres": [
+      "浮世絵",
+      "古美術",
+      "日本画"
+    ],
+    "detailUrl": "https://nakka-art.jp/exhibition-post/daiei-ten2026/",
+    "summary": "大英博物館が所蔵する江戸時代の屏風や掛軸、浮世絵を、海外へ渡った経緯や収集者の物語とともに紹介する展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20261114-b9cbaf",
+    "museumId": "nakka",
+    "title": "Osaka Directory 13 Supported by RICHARD MILLE",
+    "startDate": "2026-11-14",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "hazuki-tachibana"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://nakka-art.jp/exhibition-post/osaka-directory-dir13/",
+    "summary": "大阪ゆかりの若手作家を一人ずつ紹介するシリーズの第13回として、橘葉月の作品を取り上げる小企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20261219-a7a532",
+    "museumId": "nakka",
+    "title": "Osaka Directory 14 Supported by RICHARD MILLE",
+    "startDate": "2026-12-19",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "teppei-sako"
+    ],
+    "genres": [
+      "現代美術",
+      "写真"
+    ],
+    "detailUrl": "https://nakka-art.jp/exhibition-post/osaka-directory-dir14/",
+    "summary": "大阪ゆかりの若手作家を紹介するシリーズの第14回で、迫鉄平の写真や映像による表現を見せる小企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20270109-725b25",
+    "museumId": "nakka",
+    "title": "つくる女性の100年",
+    "startDate": "2027-01-09",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [
+      "shoen-uemura",
+      "yayoi-kusama",
+      "yoko-ono",
+      "ayako-miyawaki",
+      "tsuruko-yamazaki",
+      "mako-idemitsu",
+      "toshi-maruki",
+      "mieko-shiomi",
+      "mari-katayama",
+      "eiko-yamazawa"
+    ],
+    "genres": [
+      "日本画",
+      "洋画",
+      "写真",
+      "工芸",
+      "現代美術"
+    ],
+    "detailUrl": "https://nakka-art.jp/exhibition-post/paving-the-way100/",
+    "summary": "教育やメディア、暮らしの変化を背景に、約50人の女性作家による百年の創作の歩みをたどる展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20270123-998694",
+    "museumId": "nakka",
+    "title": "Osaka Directory 15 Supported by RICHARD MILLE",
+    "startDate": "2027-01-23",
+    "endDate": "2027-02-21",
+    "kind": "special",
+    "artists": [
+      "mayuko-inui"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://nakka-art.jp/exhibition-post/osaka-directory-dir15/",
+    "summary": "大阪ゆかりの若手作家を一人ずつ紹介するシリーズの第15回として、乾真裕子の作品を取り上げる小企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20270313-27ae92",
+    "museumId": "nakka",
+    "title": "テート美術館 ターナー展——崇高の絵画、現代美術との対話",
+    "startDate": "2027-03-13",
+    "endDate": "2027-06-27",
+    "kind": "special",
+    "artists": [
+      "j-m-w-turner"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "テート美術館の所蔵品から英国の風景画家ターナーの崇高な絵画を、現代美術との対話のなかで見せる展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20270410-143ac6",
+    "museumId": "nakka",
+    "title": "開館5周年記念特別展 大阪中之島美術館オールスターズ☆それをまとめて見たかったです！",
+    "startDate": "2027-04-10",
+    "endDate": "2027-07-19",
+    "kind": "collection",
+    "artists": [
+      "amedeo-modigliani",
+      "yuzo-saeki",
+      "tatehiko-suga",
+      "umberto-boccioni",
+      "rene-magritte",
+      "jiro-yoshihara"
+    ],
+    "genres": [
+      "洋画",
+      "日本画",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "開館5周年を記念し、モディリアーニや佐伯祐三など館の代表的な所蔵作品を一堂に集めて見せる特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20270715-ed706a",
+    "museumId": "nakka",
+    "title": "生誕130年 山名文夫 つかまえてはなさないデザイン",
+    "startDate": "2027-07-15",
+    "endDate": "2027-09-26",
+    "kind": "special",
+    "artists": [
+      "ayao-yamana"
+    ],
+    "genres": [
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "生誕130年を記念し、資生堂の広告などで知られるグラフィックデザイナー山名文夫の仕事を紹介する展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20271009-fc91f1",
+    "museumId": "nakka",
+    "title": "生誕120年 東山魁夷展",
+    "startDate": "2027-10-09",
+    "endDate": "2027-12-12",
+    "kind": "special",
+    "artists": [
+      "kaii-higashiyama"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "生誕120年にあたり、静謐な風景表現で知られる日本画家・東山魁夷の画業を振り返る回顧展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20271009-809164",
+    "museumId": "nakka",
+    "title": "ウィーン工房",
+    "startDate": "2027-10-09",
+    "endDate": "2028-01-10",
+    "kind": "special",
+    "artists": [
+      "felice-rix-ueno",
+      "carl-otto-czeschka",
+      "josef-hoffmann"
+    ],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "20世紀初頭のウィーンで生活と芸術の統合を目指した工房の、家具や工芸品、デザインを紹介する展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nakka-20280129-991340",
+    "museumId": "nakka",
+    "title": "竹久夢二 時代を創る表現者",
+    "startDate": "2028-01-29",
+    "endDate": "2028-04-09",
+    "kind": "special",
+    "artists": [
+      "yumeji-takehisa"
+    ],
+    "genres": [
+      "日本画",
+      "デザイン",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "美人画から雑誌や生活用品のデザインまで、多彩な表現で時代をつくった竹久夢二の仕事をたどる展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

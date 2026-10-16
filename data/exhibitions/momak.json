@@ -1,0 +1,62 @@
+[
+  {
+    "id": "momak-20261024-76da56",
+    "museumId": "momak",
+    "title": "ジュエリーは、誰を夢みる",
+    "startDate": "2026-10-24",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "otto-kunzli",
+      "felieke-van-der-leest",
+      "karl-fritsch",
+      "ted-noten",
+      "yasuki-hiramatsu",
+      "yasuhiko-hishida",
+      "kazuhiro-ito",
+      "akiko-shinzato",
+      "fumiki-taguchi",
+      "mari-ishikawa"
+    ],
+    "genres": [
+      "工芸",
+      "デザイン",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.momak.go.jp/Japanese/?p=130297",
+    "summary": "戦後日本を軸に、身に着ける表現としてのジュエリーの歩みと可能性を約350件の作品でたどる展覧会。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "momak-20261024-984970",
+    "museumId": "momak",
+    "title": "2026年度 第3回コレクション展",
+    "startDate": "2026-10-24",
+    "endDate": "2027-01-17",
+    "kind": "collection",
+    "artists": [
+      "yuji-kojima",
+      "bakusen-tsuchida",
+      "felice-rix-ueno",
+      "chika-kitahara",
+      "kanjiro-kawai",
+      "gentaro-komaki",
+      "francis-picabia",
+      "pipilotti-rist",
+      "kyoichi-tsuzuki",
+      "soritsu-tamura"
+    ],
+    "genres": [
+      "日本画",
+      "洋画",
+      "工芸",
+      "写真",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.momak.go.jp/Japanese/?p=131552",
+    "summary": "没後90年の土田麦僊や生誕120年の小牧源太郎など、館蔵品を複数の小特集で紹介するコレクション展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

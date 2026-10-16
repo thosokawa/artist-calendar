@@ -1,0 +1,113 @@
+[
+  {
+    "id": "artm-hyogo-20261010-3cee5b",
+    "museumId": "artm-hyogo",
+    "title": "国立美術館 コレクション・ダイアローグ 松方幸次郎 × 山村德太郎 蒐集のパッション ―ロダンを日本へ、具体を世界へ",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [
+      "auguste-rodin"
+    ],
+    "genres": [
+      "彫刻",
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/t_2610/index.html",
+    "summary": "兵庫ゆかりの二人の収集家、松方幸次郎の西洋近代美術と山村德太郎の具体コレクションを対話させる特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "artm-hyogo-20261020-2fb213",
+    "museumId": "artm-hyogo",
+    "title": "前衛って何だ!?",
+    "startDate": "2026-10-20",
+    "endDate": "2027-02-23",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "写真",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/j_2610/index.html",
+    "summary": "ポンピドゥー・センターの「前衛芸術の日本」展から40年を機に、美術と写真で日本の前衛を問い直すコレクション展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "artm-hyogo-20261020-d17440",
+    "museumId": "artm-hyogo",
+    "title": "小企画 美術の中のかたち―手で見る造形 青木 野枝",
+    "startDate": "2026-10-20",
+    "endDate": "2027-02-23",
+    "kind": "collection",
+    "artists": [
+      "noe-aoki"
+    ],
+    "genres": [
+      "彫刻",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/j_2610/katachi.html",
+    "summary": "作品に触れて鑑賞できる恒例の小企画で、鉄を素材とする彫刻家・青木野枝の造形を手で味わう展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "artm-hyogo-20261128-a177a1",
+    "museumId": "artm-hyogo",
+    "title": "黒川 岳 KUROKAWA Gaku（注目作家紹介プログラム―チャンネル17）",
+    "startDate": "2026-11-28",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "gaku-kurokawa"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "注目の若手作家を紹介するシリーズ「チャンネル」の第17回として、黒川岳の作品を無料で紹介する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "artm-hyogo-20261217-e7e8dc",
+    "museumId": "artm-hyogo",
+    "title": "特集 王一亭(おういってい)とその時代（仮題）",
+    "startDate": "2026-12-17",
+    "endDate": "2027-02-23",
+    "kind": "collection",
+    "artists": [
+      "wang-yiting"
+    ],
+    "genres": [
+      "書",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "近代の日中文人交流の中心にいた上海の書画家・王一亭と、その周辺の時代を所蔵品で紹介する特集展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "artm-hyogo-20270320-a36995",
+    "museumId": "artm-hyogo",
+    "title": "新！浮世絵展―幕末明治の天才絵師たち",
+    "startDate": "2027-03-20",
+    "endDate": "2027-05-23",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "浮世絵",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "幕末から明治にかけて活躍した浮世絵師たちの斬新な表現に光を当て、その魅力を新たな視点で紹介する特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

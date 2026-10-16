@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nmwa-20260630-d1847b",
+    "museumId": "nmwa",
+    "title": "「昭和100年」 昭和時代 当館における保存修復の変遷 ―ゴッホ《ばら》、ルノワール《帽子の女》を例として―",
+    "startDate": "2026-06-30",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "vincent-van-gogh",
+      "pierre-auguste-renoir"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2026showa100.html",
+    "summary": "昭和100年を機に、開館から昭和末までの当館の保存修復の歩みを、名画の修復例と記録資料で振り返る特集展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmwa-20261020-ddf06e",
+    "museumId": "nmwa",
+    "title": "劇場をめぐるイメージ―ドラクロワ、ドーミエからトゥールーズ=ロートレック、クリンガーまで",
+    "startDate": "2026-10-20",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "eugene-delacroix",
+      "honore-daumier",
+      "henri-de-toulouse-lautrec",
+      "max-klinger"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2026theater.html",
+    "summary": "19世紀から世紀末の画家たちが劇場や観客、舞台の情景をどう描いたかを、版画素描展示室の所蔵作品でたどる小企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmwa-20261024-2bc498",
+    "museumId": "nmwa",
+    "title": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
+    "startDate": "2026-10-24",
+    "endDate": "2027-02-21",
+    "kind": "special",
+    "artists": [
+      "j-m-w-turner",
+      "olafur-eliasson",
+      "otolith-group"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+    "summary": "テート美術館所蔵のターナー作品80点以上を、戦後・現代の作品と章ごとに並べ、時代を超えた響き合いを探る回顧展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "nmwa-20270918-e00f54",
+    "museumId": "nmwa",
+    "title": "画中画――絵をめぐる絵の冒険。ルネサンスから現代、そのさきへ",
+    "startDate": "2027-09-18",
+    "endDate": "2028-01-16",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2027gachuga.html",
+    "summary": "絵の中に描かれた絵という仕掛けに注目し、ルネサンスから現代までの作品を通して絵画の自己言及性を探る企画展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

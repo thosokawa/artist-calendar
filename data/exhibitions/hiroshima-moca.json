@@ -1,0 +1,124 @@
+[
+  {
+    "id": "hiroshima-moca-20261010-b82752",
+    "museumId": "hiroshima-moca",
+    "title": "コレクション展2026-Ⅱ 美術館の時間_チャプター2：時間の束",
+    "startDate": "2026-10-10",
+    "endDate": "2027-01-24",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "「美術館の時間」をテーマにした年間シリーズの第2章として、館蔵の現代美術を「時間の束」の視点で見せる展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hiroshima-moca-20261024-52df11",
+    "museumId": "hiroshima-moca",
+    "title": "千崎千恵夫 眼差しの奥にむかって",
+    "startDate": "2026-10-24",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "chieo-senzaki"
+    ],
+    "genres": [
+      "現代美術",
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "広島市現代美術館の特別展として、作家・千崎千恵夫の歩みと「眼差し」をめぐる作品世界を紹介する個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hiroshima-moca-20261024-1f72b0",
+    "museumId": "hiroshima-moca",
+    "title": "もつれる風景 平井亨季",
+    "startDate": "2026-10-24",
+    "endDate": "2027-01-24",
+    "kind": "special",
+    "artists": [
+      "koki-hirai"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "館の自主企画オープン・プログラムとして、平井亨季が「もつれる風景」をテーマに作品を発表する展示。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hiroshima-moca-20261114-9e0d05",
+    "museumId": "hiroshima-moca",
+    "title": "ブラチスラバからやってきた！出会う、つながる世界の絵本",
+    "startDate": "2026-11-14",
+    "endDate": "2027-01-24",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "スロバキアのブラチスラバ世界絵本原画展に集う各国の絵本原画を通して、多様な絵本の世界を紹介する特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hiroshima-moca-20270109-a89cbd",
+    "museumId": "hiroshima-moca",
+    "title": "美術探鳥",
+    "startDate": "2027-01-09",
+    "endDate": "2027-04-11",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "野鳥を探すように、さまざまな美術作品に表された鳥の姿を見つけ出しながら鑑賞を楽しむ特別展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hiroshima-moca-20270213-8b1a08",
+    "museumId": "hiroshima-moca",
+    "title": "ソム・スパパリンヤ展（仮）",
+    "startDate": "2027-02-13",
+    "endDate": "2027-05-23",
+    "kind": "special",
+    "artists": [
+      "som-supaparinya"
+    ],
+    "genres": [
+      "現代美術",
+      "メディアアート"
+    ],
+    "detailUrl": null,
+    "summary": "映像やインスタレーションで社会や歴史と風景の関係を見つめるタイの作家ソム・スパパリンヤの個展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  },
+  {
+    "id": "hiroshima-moca-20270227-3608db",
+    "museumId": "hiroshima-moca",
+    "title": "コレクション展2026-Ⅲ＋リレーションズ [ゲストアーティスト：奥村雄樹] 美術館の時間_チャプター3：ここに流れる時間",
+    "startDate": "2027-02-27",
+    "endDate": "2027-06-13",
+    "kind": "collection",
+    "artists": [
+      "yuki-okumura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "年間シリーズ「美術館の時間」の第3章で、ゲスト作家の奥村雄樹を迎え館蔵品との関係を結び直すコレクション展。",
+    "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-16"
+  }
+]

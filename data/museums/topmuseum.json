@@ -1,0 +1,11 @@
+{
+  "id": "topmuseum",
+  "name": "東京都写真美術館",
+  "nameEn": "Tokyo Photographic Art Museum",
+  "prefecture": "東京都",
+  "city": "目黒区",
+  "area": "kanto",
+  "officialUrl": "https://topmuseum.jp/",
+  "exhibitionsUrl": "https://topmuseum.jp/contents/current/index.html",
+  "status": "ok"
+}

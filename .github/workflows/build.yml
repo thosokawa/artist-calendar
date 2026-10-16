@@ -1,0 +1,30 @@
+# Builds and deploys the site on every push to main and once a day (so 開催中/開催予定 stay current).
+# Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.
+name: build-and-deploy
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '5 15 * * *'
+  # Pushes made by the collect workflow don't trigger 'push', so rebuild when it finishes.
+  workflow_run:
+    workflows: [collect-exhibitions]
+    types: [completed]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Deploy to Cloudflare Pages
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: npx wrangler@3 pages deploy dist --project-name=artist-calendar --branch=main
