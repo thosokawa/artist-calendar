@@ -1,7 +1,7 @@
 {
   "name": "作家カレンダー（仮称）",
   "tagline": "好きな作家の展覧会を、見逃さない。",
-  "baseUrl": "https://example.com",
+  "baseUrl": "https://artist-calendar.pages.dev",
   "operator": "未定",
   "contactEmail": "未定",
   "noindex": true
