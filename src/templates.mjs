@@ -73,7 +73,7 @@ ${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで�
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
 <p>展覧会情報は各美術館の公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
 <p><a href="/about/">このサイトについて</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
-</body></html>
+${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
 `;
 }
 
@@ -119,7 +119,7 @@ export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }
 <button type="button" class="btn ink big" data-open="about">ArtPingについてもっと詳しく <span aria-hidden="true">→</span></button>
 </div>
 <div class="hero-search"><p class="tag"><i aria-hidden="true"></i>条件で探して、そのまま通知に登録</p>
-<form action="/search/" class="search-big" role="search"><input name="q" type="search" placeholder="作家名・展覧会名・美術館名でさがす（例：吉田博）" aria-label="作家名・展覧会名・美術館名でさがす"><button>さがす</button></form>
+<form action="/search/" class="search-big" role="search"><input name="q" type="search" placeholder="作家名・展覧会名・美術館名でさがす" aria-label="作家名・展覧会名・美術館名でさがす"><button>さがす</button></form>
 <p class="more-search">地域・ジャンル・会期で絞り込む → <a href="/search/">くわしく検索</a></p></div>
 </section>
 <dialog id="about" class="about" aria-labelledby="about-h">
