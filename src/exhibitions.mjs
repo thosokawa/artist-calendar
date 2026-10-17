@@ -62,8 +62,15 @@ export function mergeExhibitions({ museumId, stored, fresh, registry, today }) {
     out.push(rec);
     added.push(rec);
   }
-  out.sort((a, b) => a.startDate.localeCompare(b.startDate));
-  return { exhibitions: out, added };
+  // Earlier readings may have stored one show twice (e.g. under two spellings of the artist); fold them together.
+  const kept = [];
+  for (const e of [...out].sort((a, b) => (a.firstSeenAt ?? '').localeCompare(b.firstSeenAt ?? ''))) {
+    const twin = kept.find((k) => sameShow(k, e));
+    if (twin) { twin.artists = [...new Set([...twin.artists, ...e.artists])]; twin.detailUrl ??= e.detailUrl; continue; }
+    kept.push(e);
+  }
+  kept.sort((a, b) => a.startDate.localeCompare(b.startDate));
+  return { exhibitions: kept, added: added.filter((a) => kept.includes(a)) };
 }
 
 export function statusOn(e, today) {

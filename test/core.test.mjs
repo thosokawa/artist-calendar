@@ -42,6 +42,16 @@ test('merge adds new shows once and updates them when the title is finalized', (
   assert.equal(third.added.length, 0);
 });
 
+test('merge folds a show that was stored twice', () => {
+  const twin = (id, artist, seen) => ({ id, museumId: 'fukuoka-city', title: '仙厓展 後期展示', startDate: '2026-09-30', endDate: '2026-11-29', kind: 'collection', artists: [artist], genres: [], detailUrl: null, summary: '', firstSeenAt: seen, lastSeenAt: seen });
+  const stored = [twin('b', 'sengai-gibon', '2026-10-16'), twin('a', 'sengai', '2026-10-15')];
+  const { exhibitions, added } = mergeExhibitions({ museumId: 'fukuoka-city', stored, fresh: [], registry: {}, today: '2026-10-17' });
+  assert.equal(exhibitions.length, 1);
+  assert.equal(exhibitions[0].id, 'a');
+  assert.deepEqual(exhibitions[0].artists, ['sengai', 'sengai-gibon']);
+  assert.equal(added.length, 0);
+});
+
 test('merge drops entries with bad dates', () => {
   const r = mergeExhibitions({ museumId: 'x', stored: [], fresh: [raw({ startDate: '2027年春' }), raw({ endDate: '2027-01-01' })], registry: {}, today: '2026-10-16' });
   assert.equal(r.exhibitions.length, 0);
