@@ -23,14 +23,14 @@ function shareBox(site, path, title) {
   const t = encodeURIComponent(path === '/' ? `${site.name}｜好きな作家の展覧会が決まったら、LINEでお知らせ` : title);
   return `<aside class="share" aria-label="このページを紹介する"><p class="share-title">${path === '/' ? 'ArtPingを友だちに紹介する' : 'このページを紹介する'}</p>
 <div class="share-btns">
-<a class="sb x" href="https://twitter.com/intent/tweet?text=${t}&amp;url=${u}" target="_blank" rel="noopener">X（Twitter）</a>
-<a class="sb line" href="https://social-plugins.line.me/lineit/share?url=${u}" target="_blank" rel="noopener">LINE</a>
-<a class="sb fb" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">Facebook</a>
-<button type="button" class="sb copy" data-url="${esc(url)}" data-title="${esc(title)}">リンクをコピー</button>
+<a class="sb x" href="https://twitter.com/intent/tweet?text=${t}&amp;url=${u}" target="_blank" rel="noopener" aria-label="Xでシェア" title="Xでシェア"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+<a class="sb line" href="https://social-plugins.line.me/lineit/share?url=${u}" target="_blank" rel="noopener" aria-label="LINEで送る" title="LINEで送る"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.3 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5s5.9-3.5 8-6c1.4-1.6 2-3.2 2-4.8C22 6.6 17.5 3 12 3Z"/><text x="12" y="13.4" text-anchor="middle" font-size="5.2" font-weight="700" font-family="Arial,sans-serif" fill="#06c755">LINE</text></svg></a>
+<a class="sb fb" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener" aria-label="Facebookでシェア" title="Facebookでシェア"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.6V14h2.7v8h3.2Z"/></svg></a>
+<button type="button" class="sb copy" data-url="${esc(url)}" data-title="${esc(title)}" aria-label="リンクをコピー" title="リンクをコピー"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4l-1.1 1.1M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.1-1.1"/></svg></button><span class="copied" hidden>コピーしました</span>
 </div></aside>
 <script>document.querySelectorAll('.sb.copy').forEach((b) => b.addEventListener('click', async () => {
   if (navigator.share && matchMedia('(pointer:coarse)').matches) { try { await navigator.share({ title: b.dataset.title, url: b.dataset.url }); return; } catch {} }
-  try { await navigator.clipboard.writeText(b.dataset.url); b.textContent = 'コピーしました'; } catch { prompt('このURLをコピーしてください', b.dataset.url); }
+  try { await navigator.clipboard.writeText(b.dataset.url); b.nextElementSibling.hidden = false; } catch { prompt('このURLをコピーしてください', b.dataset.url); }
 }));</script>`;
 }
 

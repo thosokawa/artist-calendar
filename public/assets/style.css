@@ -159,6 +159,12 @@ main.wide .share{max-width:880px;margin-left:auto;margin-right:auto}
 .share-title{margin:0 0 10px;font-weight:700;font-size:.95rem;display:flex;align-items:center;gap:8px}
 .share-title::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--coral)}
 .share-btns{display:flex;flex-wrap:wrap;gap:8px}
-.sb{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;margin:0;border-radius:999px;border:0;font:inherit;font-size:.9rem;font-weight:700;color:#fff;text-decoration:none;cursor:pointer}
+.share-btns{align-items:center}
+.sb{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;margin:0;border-radius:50%;border:0;color:#fff;text-decoration:none;cursor:pointer}
+.sb svg{width:22px;height:22px}
+.sb:hover{opacity:.85}
+.copied{font-size:.85rem;color:var(--muted)}
 .sb.x{background:#000}.sb.line{background:#06c755}.sb.fb{background:#1877f2}
 .sb.copy{background:#fff;color:var(--ink);border:2px solid var(--ink)}
+.sb.copy svg{width:20px;height:20px}
+.sb.line svg{width:28px;height:28px}
