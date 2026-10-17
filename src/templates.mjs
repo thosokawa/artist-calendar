@@ -16,6 +16,24 @@ const STATUS = { current: '開催中', upcoming: '開催予定', past: '終了' 
 export const MARK = '<svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M0 0h30v6H6v20H0z" fill="currentColor"/><path d="M64 30v34H24v-6h34V30z" fill="currentColor"/><circle cx="57.5" cy="6.5" r="6.5" fill="#D56850"/></svg>';
 const lineAddUrl = (site) => (site.lineBasicId ? `https://line.me/R/ti/p/${encodeURIComponent(site.lineBasicId)}` : null);
 
+// Share buttons: plain links (no third-party scripts), plus copy / the phone's own share sheet.
+function shareBox(site, path, title) {
+  const url = site.baseUrl + path;
+  const u = encodeURIComponent(url);
+  const t = encodeURIComponent(path === '/' ? `${site.name}｜好きな作家の展覧会が決まったら、LINEでお知らせ` : title);
+  return `<aside class="share" aria-label="このページを紹介する"><p class="share-title">${path === '/' ? 'ArtPingを友だちに紹介する' : 'このページを紹介する'}</p>
+<div class="share-btns">
+<a class="sb x" href="https://twitter.com/intent/tweet?text=${t}&amp;url=${u}" target="_blank" rel="noopener">X（Twitter）</a>
+<a class="sb line" href="https://social-plugins.line.me/lineit/share?url=${u}" target="_blank" rel="noopener">LINE</a>
+<a class="sb fb" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">Facebook</a>
+<button type="button" class="sb copy" data-url="${esc(url)}" data-title="${esc(title)}">リンクをコピー</button>
+</div></aside>
+<script>document.querySelectorAll('.sb.copy').forEach((b) => b.addEventListener('click', async () => {
+  if (navigator.share && matchMedia('(pointer:coarse)').matches) { try { await navigator.share({ title: b.dataset.title, url: b.dataset.url }); return; } catch {} }
+  try { await navigator.clipboard.writeText(b.dataset.url); b.textContent = 'コピーしました'; } catch { prompt('このURLをコピーしてください', b.dataset.url); }
+}));</script>`;
+}
+
 function layout({ site, title, path, description, body, wide = false }) {
   const full = path === '/' ? `${site.name} | ${site.tagline}` : `${title} | ${site.name}`;
   const line = lineAddUrl(site);
@@ -27,6 +45,13 @@ function layout({ site, title, path, description, body, wide = false }) {
 ${site.noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="canonical" href="${esc(site.baseUrl + path)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="${path === '/' ? 'website' : 'article'}">
+<meta property="og:site_name" content="${esc(site.name)}">
+<meta property="og:title" content="${esc(full)}">
+<meta property="og:description" content="${esc(description ?? site.tagline)}">
+<meta property="og:url" content="${esc(site.baseUrl + path)}">
+<meta property="og:image" content="${esc(site.baseUrl)}/og.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
@@ -36,7 +61,7 @@ ${site.noindex ? '<meta name="robots" content="noindex">' : ''}
 <nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館</a></nav>
 ${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで受け取る</a>` : ''}
 </div></header>
-<main${wide ? ' class="wide"' : ''}>${body}</main>
+<main${wide ? ' class="wide"' : ''}>${body}${shareBox(site, path, full)}</main>
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
 <p>展覧会情報は各美術館の公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
 <p><a href="/about/">このサイトについて</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
