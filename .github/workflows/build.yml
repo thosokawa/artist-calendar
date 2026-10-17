@@ -27,4 +27,7 @@ jobs:
       - run: npm run build
       - name: Deploy to Cloudflare Pages
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        run: npx wrangler@3 pages deploy dist --project-name=artist-calendar --branch=main
+        run: |
+          # Creates the Pages project on the first deploy; later runs just report that it exists.
+          npx wrangler@3 pages project create artist-calendar --production-branch=main || true
+          npx wrangler@3 pages deploy dist --project-name=artist-calendar --branch=main
