@@ -625,7 +625,8 @@
   "gilbert-george": {
     "name": "ギルバート＆ジョージ",
     "nameRomaji": "Gilbert & George",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ぎるばーとあんどじょーじ"
   },
   "go-nagai": {
     "name": "永井豪",
@@ -1740,7 +1741,8 @@
   "mozu": {
     "name": "Mozu",
     "nameRomaji": "Mozu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もず"
   },
   "nancy-seki": {
     "name": "ナンシー関",
@@ -1941,7 +1943,8 @@
   "raphael-zarka": {
     "name": "ラファエル・ザルカ",
     "nameRomaji": "Raphaël Zarka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ざるからふぁえる"
   },
   "rembrandt": {
     "name": "レンブラント",
@@ -2369,7 +2372,8 @@
   "som-supaparinya": {
     "name": "ソム・スパパリンヤ",
     "nameRomaji": "Som Supaparinya",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "そむすぱぱりんや"
   },
   "soritsu-tamura": {
     "name": "田村宗立",

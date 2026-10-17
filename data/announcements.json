@@ -4,5 +4,17 @@
     "exhibitionId": "mimt-20270618-1fe724",
     "museumId": "mimt",
     "artists": []
+  },
+  {
+    "date": "2026-10-17",
+    "exhibitionId": "gunma-moma-20260919-2187af",
+    "museumId": "gunma-moma",
+    "artists": []
+  },
+  {
+    "date": "2026-10-17",
+    "exhibitionId": "gunma-moma-20260919-84737d",
+    "museumId": "gunma-moma",
+    "artists": []
   }
 ]
