@@ -12,8 +12,13 @@ export function jaDate(iso, { weekday = false } = {}) {
 const period = (e) => `${jaDate(e.startDate)} 〜 ${jaDate(e.endDate)}`;
 const STATUS = { current: '開催中', upcoming: '開催予定', past: '終了' };
 
-function layout({ site, title, path, description, body }) {
+// Logo mark: two corner brackets (a frame on a wall) and the notification dot.
+export const MARK = '<svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M0 0h30v6H6v20H0z" fill="currentColor"/><path d="M64 30v34H24v-6h34V30z" fill="currentColor"/><circle cx="58" cy="7" r="6.5" fill="#D56850"/></svg>';
+const lineAddUrl = (site) => (site.lineBasicId ? `https://line.me/R/ti/p/${encodeURIComponent(site.lineBasicId)}` : null);
+
+function layout({ site, title, path, description, body, wide = false }) {
   const full = path === '/' ? `${site.name} | ${site.tagline}` : `${title} | ${site.name}`;
+  const line = lineAddUrl(site);
   return `<!doctype html>
 <html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,12 +26,20 @@ function layout({ site, title, path, description, body }) {
 <meta name="description" content="${esc(description ?? site.tagline)}">
 ${site.noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="canonical" href="${esc(site.baseUrl + path)}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
 </head><body>
-<header class="top"><a class="brand" href="/">${esc(site.name)}</a><nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館</a></nav></header>
-<main>${body}</main>
-<footer><p>展覧会情報は各美術館の公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
-<p><a href="/about/">このサイトについて</a> · <a href="/privacy/">プライバシー</a></p></footer>
+<header class="top"><div class="top-in">
+<a class="brand" href="/">${MARK}<span>${esc(site.name)}</span></a><span class="brand-sub">展覧会情報検索 × 通知サービス</span>
+<nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館</a></nav>
+${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで受け取る</a>` : ''}
+</div></header>
+<main${wide ? ' class="wide"' : ''}>${body}</main>
+<footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
+<p>展覧会情報は各美術館の公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
+<p><a href="/about/">このサイトについて</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
 </body></html>
 `;
 }
@@ -49,14 +62,39 @@ ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで�
 }
 
 export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }) {
-  return layout({ site, path: '/', body: `
-<section class="hero"><h1>${esc(site.tagline)}</h1><p>全国の主要美術館の公式発表をもとに、毎日更新しています。</p>
-<p>好きな作家をLINEで登録すると、その作家の新しい展覧会が決まったときにお知らせが届きます。</p>
-<form action="/search/" class="search-mini"><input name="q" placeholder="作家名・展覧会名で探す" aria-label="作家名・展覧会名で探す"><button>探す</button></form></section>
+  const count = Object.values(ctx.museums).filter((m) => m.status !== 'closed').length;
+  const line = lineAddUrl(site);
+  const step = (n, h, p) => `<li><span class="num">${n}</span><h3>${h}</h3><p>${p}</p></li>`;
+  return layout({ site, path: '/', wide: true, body: `
+<section class="hero">
+<div class="hero-panel"><span class="ping" aria-hidden="true"></span>
+<div class="hero-labels"><span>EXHIBITION ALERTS</span><span>全国${count}館の公式発表を、毎朝チェック</span></div>
+<h1 class="catch">お気に入りの作家の<br>展覧会情報を、<br><em>自動でお知らせ。</em></h1>
+<button type="button" class="btn ink big" data-open="about">ArtPingについてもっと詳しく <span aria-hidden="true">→</span></button>
+</div>
+<div class="hero-search"><p class="tag"><i aria-hidden="true"></i>条件で探して、そのまま通知に登録</p>
+<form action="/search/" class="search-big" role="search"><input name="q" type="search" placeholder="作家名・展覧会名・美術館名でさがす（例：吉田博）" aria-label="作家名・展覧会名・美術館名でさがす"><button>さがす</button></form>
+<p class="more-search">地域・ジャンル・会期で絞り込む → <a href="/search/">くわしく検索</a></p></div>
+</section>
+<dialog id="about" class="about" aria-labelledby="about-h">
+<form method="dialog"><button class="close" aria-label="閉じる">×</button></form>
+<p class="kicker">HOW ArtPing WORKS</p>
+<h2 id="about-h">3ステップで、もう見逃さない。</h2>
+<p>ArtPingは毎朝、全国${count}館の美術館の公式発表を確認しています。登録した作家や条件に合う展覧会が見つかると、その日のうちにLINEでお知らせします。</p>
+<ol class="steps">
+${step('01', 'さがす', '作家名・展覧会名・美術館名、地域やジャンルで、全国の展覧会をまとめてさがせます。')}
+${step('02', 'LINEで登録', '気になる作家や検索条件をLINEで送るだけ。会員登録もアプリもいりません。')}
+${step('03', '決まったら届く', '新しい展覧会が発表された日にLINEでお知らせ。ボタンひとつでカレンダーに予定が入ります。')}
+</ol>
+<p class="about-cta">${line ? `<a class="btn line" href="${esc(line)}" rel="nofollow">LINEで友だち追加</a>` : ''}<a class="btn alt" href="/search/">展覧会をさがしてみる</a></p>
+</dialog>
+<script>document.querySelectorAll('[data-open]').forEach((b) => b.addEventListener('click', () => document.getElementById(b.dataset.open).showModal()));</script>
+<div class="home-lists">
 <h2>新しく発表された展覧会</h2>${list(recent, ctx)}
 <h2>まもなく終了</h2>${list(endingSoon, ctx)}
 <h2>これから始まる展覧会</h2>${list(upcoming, ctx)}
-<h2>展覧会の多い作家</h2><ul class="chips">${topArtists.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(ctx.artists[s].name)}</a></li>`).join('')}</ul>` });
+<h2>展覧会の多い作家</h2><ul class="chips">${topArtists.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(ctx.artists[s].name)}</a></li>`).join('')}</ul>
+</div>` });
 }
 
 export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl }) {
