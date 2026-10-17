@@ -58,6 +58,7 @@ jobs:
       - name: Send LINE notifications for new exhibitions
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.LINE_CHANNEL_SECRET != '' }}
         run: |
+          [ -f wrangler.toml ] || { echo "::warning::No database yet, so no notifications were sent."; exit 0; }
           sleep 20
           KEY=$(printf '%s' "$LINE_CHANNEL_SECRET:notify" | sha256sum | cut -d' ' -f1)
           curl -sS --fail-with-body -X POST "$SITE/api/notify" -H "authorization: Bearer $KEY"
