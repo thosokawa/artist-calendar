@@ -59,13 +59,14 @@ const list = (items, ctx, opts) => (items.length ? `<ul class="cards">${items.ma
 // Page title framed by the logo's two corner brackets.
 const pageHead = (kicker, title, sub = '', extra = '') => `<div class="page-head"><p class="kicker">${kicker}</p><h1>${title}${sub ? `<small>${sub}</small>` : ''}</h1>${extra}</div>`;
 
-// Affiliate links (楽天アフィリエイト). Shown only when site.rakutenAffiliateId is set; always labeled PR.
-export const rakutenLink = (id, url) => `https://hb.afl.rakuten.co.jp/hgc/${encodeURIComponent(id)}/?pc=${encodeURIComponent(url)}&m=${encodeURIComponent(url)}`;
+// Affiliate links via もしもアフィリエイト (楽天市場). Shown only when site.moshimoRakuten is set; always labeled PR.
+export const moshimoLink = (m, url) => `https://af.moshimo.com/af/c/click?a_id=${encodeURIComponent(m.a_id)}&p_id=${encodeURIComponent(m.p_id)}&pc_id=${encodeURIComponent(m.pc_id)}&pl_id=${encodeURIComponent(m.pl_id)}&url=${encodeURIComponent(url)}`;
 function shopBox(site, name) {
-  if (!site.rakutenAffiliateId) return '';
+  const m = site.moshimoRakuten;
+  if (!m?.a_id) return '';
   const books = `https://books.rakuten.co.jp/search?sitem=${encodeURIComponent(name)}&g=001`;
   return `<div class="shop box"><span class="pr">PR</span><p><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。</span></p>
-<a class="btn alt" href="${esc(rakutenLink(site.rakutenAffiliateId, books))}" rel="sponsored nofollow noopener">楽天ブックスでさがす</a></div>`;
+<a class="btn alt" href="${esc(moshimoLink(m, books))}" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade">楽天ブックスでさがす</a></div>`;
 }
 
 function lineBox(name, lineUrl) {

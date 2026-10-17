@@ -6,5 +6,10 @@
   "contactEmail": "contact@artping.app",
   "noindex": false,
   "lineBasicId": "@662xtncr",
-  "rakutenAffiliateId": ""
+  "moshimoRakuten": {
+    "a_id": "5852675",
+    "p_id": "54",
+    "pc_id": "54",
+    "pl_id": "616"
+  }
 }
