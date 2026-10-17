@@ -1,4 +1,5 @@
-// Search box suggestions: artist and museum names (also by hiragana reading or Latin name), loaded on first focus. Picking one opens its page.
+// Search box suggestions: artist and museum names (also by hiragana reading or Latin name), loaded on first focus.
+// Picking one only fills in the box, so it can be combined with other conditions before searching.
 const kata = (s) => s.normalize('NFKC').toLowerCase().replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60)).replace(/[\s・･.\-‐ー=＝]/g, '');
 let list;
 async function load() {
@@ -20,7 +21,16 @@ document.querySelectorAll('.search-big input[name=q]').forEach((input) => {
     [...ul.children].forEach((li, j) => li.classList.toggle('on', j === i));
     if (i >= 0) input.setAttribute('aria-activedescendant', ul.children[i].id); else input.removeAttribute('aria-activedescendant');
   };
+  const pick = (i) => {
+    input.value = items[i].name;
+    close();
+    // Let the search page recount with the new word; `picked` keeps the list from reopening.
+    picked = true; input.dispatchEvent(new Event('input', { bubbles: true })); picked = false;
+    input.focus();
+  };
+  let picked = false;
   async function update() {
+    if (picked) return;
     const q = kata(input.value);
     if (!q) return close();
     const all = await load();
@@ -28,7 +38,7 @@ document.querySelectorAll('.search-big input[name=q]').forEach((input) => {
     const head = (x) => x.keys.some((k) => k.startsWith(q));
     items = all.filter((x) => x.keys.some((k) => k.includes(q))).sort((a, b) => (head(b) - head(a)) || a.name.length - b.name.length).slice(0, 8);
     if (!items.length) return close();
-    ul.innerHTML = items.map((x, i) => `<li role="option" id="${ul.id}-${i}"><a href="${x.href}"><span class="k">${x.kind}</span>${esc(x.name)}</a></li>`).join('');
+    ul.innerHTML = items.map((x, i) => `<li role="option" id="${ul.id}-${i}" data-i="${i}"><span class="k">${x.kind}</span>${esc(x.name)}</li>`).join('');
     ul.hidden = false; mark(-1);
   }
   input.addEventListener('focus', load, { once: true });
@@ -36,8 +46,10 @@ document.querySelectorAll('.search-big input[name=q]').forEach((input) => {
   input.addEventListener('keydown', (e) => {
     if (ul.hidden) return;
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); const n = items.length; mark(((active + (e.key === 'ArrowDown' ? 1 : -1)) % n + n) % n); }
-    else if (e.key === 'Enter' && active >= 0) { e.preventDefault(); location.href = items[active].href; }
+    else if (e.key === 'Enter' && active >= 0) { e.preventDefault(); pick(active); }
     else if (e.key === 'Escape') close();
   });
+  // mousedown, not click, so the input keeps focus and blur does not close the list first.
+  ul.addEventListener('mousedown', (e) => { const li = e.target.closest('li'); if (li) { e.preventDefault(); pick(+li.dataset.i); } });
   input.addEventListener('blur', () => setTimeout(close, 150));
 });
