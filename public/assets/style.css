@@ -36,7 +36,7 @@ button,.btn{background:var(--ink);color:#fff;border:2px solid var(--ink);border-
 .hero-panel::before,.hero-panel::after{content:"";position:absolute;width:calc(100% - 64px);height:calc(100% - 64px);pointer-events:none}
 .hero-panel::before{left:0;top:0;border-left:2px solid var(--ink);border-top:2px solid var(--ink)}
 .hero-panel::after{right:0;bottom:0;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink)}
-.ping{position:absolute;right:0;top:0;width:26px;height:26px;border-radius:50%;background:var(--coral)}
+.ping{position:absolute;right:-12px;top:-12px;width:26px;height:26px;border-radius:50%;background:var(--coral)}
 .hero-labels{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 24px;padding-bottom:16px;border-bottom:1px solid rgba(32,37,45,.16);font:700 13px/1.5 Outfit,"Zen Kaku Gothic New",sans-serif;letter-spacing:.08em;color:var(--muted);text-align:left}
 .catch{margin:80px 0 40px;font-size:clamp(32px,5vw,62px);line-height:1.3;letter-spacing:.01em;font-weight:900}
 .catch em{font-style:normal;color:var(--coral)}
@@ -48,7 +48,7 @@ button,.btn{background:var(--ink);color:#fff;border:2px solid var(--ink);border-
 .search-big button{margin:0;padding:0 28px;white-space:nowrap}
 @media (max-width:640px){.search-big button{padding:0 16px}.search-big input{padding:10px 6px}}
 .more-search{text-align:center;margin:10px 0 0;font-size:.9rem;color:var(--muted)}
-@media (max-width:640px){.hero-panel{padding:28px 20px 64px}.catch{margin:48px 0 32px}.hero-search{padding:18px 16px}.hero-panel::before,.hero-panel::after{width:calc(100% - 40px);height:calc(100% - 40px)}.ping{width:20px;height:20px}}
+@media (max-width:640px){.hero-panel{padding:28px 20px 64px}.catch{margin:48px 0 32px}.hero-search{padding:18px 16px}.hero-panel::before,.hero-panel::after{width:calc(100% - 40px);height:calc(100% - 40px)}.ping{width:20px;height:20px;right:-9px;top:-9px}}
 .home-lists{max-width:880px;margin:0 auto}
 
 /* about dialog */
