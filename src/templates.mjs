@@ -122,7 +122,7 @@ export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }
 <ol class="steps">
 ${step('01', 'さがす', '作家名・展覧会名・美術館名、地域やジャンルで、全国の展覧会をまとめてさがせます。')}
 ${step('02', 'LINEで登録', '気になる作家や検索条件をLINEで送るだけ。会員登録もアプリもいりません。')}
-${step('03', '決まったら届く', '新しい展覧会が発表された日にLINEでお知らせ。ボタンひとつでカレンダーに予定が入ります。')}
+${step('03', '新着情報が届く', '新しい展覧会が発表された日にLINEでお知らせ。ボタンひとつでカレンダーに予定が入ります。')}
 </ol>
 <p class="about-cta">${line ? `<a class="btn line" href="${esc(line)}" rel="nofollow">LINEで友だち追加</a>` : ''}<a class="btn alt" href="/search/">展覧会をさがしてみる</a></p>
 </dialog>
