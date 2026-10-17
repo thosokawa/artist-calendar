@@ -97,7 +97,7 @@
   },
   "mot": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-17T02:08:02.712Z",
+    "lastCheckedAt": "2026-10-17T02:22:34.215Z",
     "hash": "166c2302f2830e9ebb5965fe752ad474eef53449cadfa141fd910e3bd12c2a35"
   },
   "nact": {
@@ -366,12 +366,14 @@
     "hash": "a6d668ed5f6f61a1b5fb33cd40e006b8f5e18c46c2ec2b8ed295f2004d19ef62"
   },
   "okayama-kenbi": {
-    "failures": 1,
-    "lastError": "2026-10-17: page text too short (160 chars)"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-17T02:22:34.215Z",
+    "hash": "d2109ecac7ae6658e88c0504dc143dd6ff7d052fe2af8118ee32cab2358cc364"
   },
   "okimu": {
-    "failures": 1,
-    "lastError": "2026-10-17: page text too short (0 chars)"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-17T02:22:34.215Z",
+    "hash": "7beefff2468716c7c7430f9546bbba516c4e6635593e3e1adc442d54dfe2b08b"
   },
   "opam": {
     "failures": 0,
@@ -425,8 +427,8 @@
   },
   "yamanashi-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-17T02:08:02.712Z",
-    "hash": "7710f405e46d5b2c2aab72693e0d0181f35b179c3fc3876a17dd78816bb16c76"
+    "lastCheckedAt": "2026-10-17T02:22:34.215Z",
+    "hash": "371a01a5054b486c31fa99ff3dacb6ccf2e19fb5e0d064b6dd5776d1a1dd40c7"
   },
   "yayoi-art": {
     "failures": 0,

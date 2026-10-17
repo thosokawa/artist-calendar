@@ -1,0 +1,37 @@
+[
+  {
+    "id": "okayama-kenbi-20261009-74a999",
+    "museumId": "okayama-kenbi",
+    "title": "養老孟司と小檜山賢二の虫展 ～みて、かんじて、そしてかんがえよう",
+    "startDate": "2026-10-09",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "takeshi-yoro",
+      "kenji-kohiyama"
+    ],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "解剖学者養老孟司の言葉と小檜山賢二の深度合成による拡大写真で、虫たちの不思議な世界に迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okayama-kenbi-20270212-751deb",
+    "museumId": "okayama-kenbi",
+    "title": "華麗なるNIPPONアンティーク陶磁 日米貿易の祖—森村組創業150年 オールドノリタケとオールド大倉",
+    "startDate": "2027-02-12",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "森村組創業150年を記念し、オールドノリタケやオールド大倉の洋食器を通して森村らの功績を振り返る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

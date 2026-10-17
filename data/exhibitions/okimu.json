@@ -1,0 +1,140 @@
+[
+  {
+    "id": "okimu-20260811-c3a5f5",
+    "museumId": "okimu",
+    "title": "尚家の人々",
+    "startDate": "2026-08-11",
+    "endDate": "2026-10-25",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "古美術",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "首里城正殿完成を記念した美術工芸部門の展示で、琉球王家である尚家の人々にまつわる品々を紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20260919-ce624f",
+    "museumId": "okimu",
+    "title": "クムイの淵に立つ巨人－山城見信－",
+    "startDate": "2026-09-19",
+    "endDate": "2027-03-28",
+    "kind": "collection",
+    "artists": [
+      "kenshin-yamashiro"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "沖縄戦後美術の重要作家で教育者でもあった山城見信の全体像を、造形や精神性など多角的な視点で紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20260919-40c598",
+    "museumId": "okimu",
+    "title": "沖縄美術の流れ－resonant 時代を超えて響きあう表現の系譜」",
+    "startDate": "2026-09-19",
+    "endDate": "2027-03-28",
+    "kind": "collection",
+    "artists": [
+      "michiko-uehara"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "館蔵品により、ニシムイの画家から現代作家まで、戦前から今に至る沖縄美術の歩みを幅広くたどる展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20261020-75c9c8",
+    "museumId": "okimu",
+    "title": "首里城と琉中関係ー王権を支えた背景ー",
+    "startDate": "2026-10-20",
+    "endDate": "2026-12-20",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "首里城正殿の完成を記念する歴史部門の展示で、琉球と中国の関係から王権を支えた背景を探ります。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20261103-143f6a",
+    "museumId": "okimu",
+    "title": "首里・那覇を描いた絵図",
+    "startDate": "2026-11-03",
+    "endDate": "2026-12-13",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "首里城展の美術工芸部門第三期として、首里や那覇の町並みを描いた絵図を取り上げる展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20261201-8b51cc",
+    "museumId": "okimu",
+    "title": "首里城―琉球の御城―",
+    "startDate": "2026-12-01",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "古美術",
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "絵図や屏風、古写真、文献を通じて首里城の姿を見つめ直し、その歴史的意義と復元の歩みを伝える特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20270105-232d9e",
+    "museumId": "okimu",
+    "title": "首里城と王家ゆかりの施設",
+    "startDate": "2027-01-05",
+    "endDate": "2027-02-21",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "古美術",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "首里城展の美術工芸部門最終期で、首里城と琉球王家にゆかりのある施設に関わる資料を紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "okimu-20270113-3e640e",
+    "museumId": "okimu",
+    "title": "天理大・琉球古文書の世界",
+    "startDate": "2027-01-13",
+    "endDate": "2027-02-28",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "古美術",
+      "書"
+    ],
+    "detailUrl": null,
+    "summary": "首里城展の歴史部門最終期として、天理大学に伝わる琉球の古文書の世界を紹介する展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

@@ -1058,6 +1058,11 @@
     "nameRomaji": "Keizo Kitajima",
     "aliases": []
   },
+  "kenji-kohiyama": {
+    "name": "小檜山賢二",
+    "nameRomaji": "Kenji Kohiyama",
+    "aliases": []
+  },
   "kenji-yanobe": {
     "name": "ヤノベケンジ",
     "nameRomaji": "Kenji Yanobe",
@@ -1066,6 +1071,11 @@
   "kenshichi-heshiki": {
     "name": "平敷兼七",
     "nameRomaji": "Kenshichi Heshiki",
+    "aliases": []
+  },
+  "kenshin-yamashiro": {
+    "name": "山城見信",
+    "nameRomaji": "Kenshin Yamashiro",
     "aliases": []
   },
   "kenta-ishige": {
@@ -1425,6 +1435,11 @@
   "mi-fu": {
     "name": "米芾",
     "nameRomaji": "Mi Fu",
+    "aliases": []
+  },
+  "michiko-uehara": {
+    "name": "上原美智子",
+    "nameRomaji": "Michiko Uehara",
     "aliases": []
   },
   "michio-fukuoka": {
@@ -2184,6 +2199,11 @@
   "takeshi-yasura": {
     "name": "保良雄",
     "nameRomaji": "Takeshi Yasura",
+    "aliases": []
+  },
+  "takeshi-yoro": {
+    "name": "養老孟司",
+    "nameRomaji": "Takeshi Yoro",
     "aliases": []
   },
   "takuan-soho": {
