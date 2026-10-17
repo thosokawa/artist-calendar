@@ -1,0 +1,11 @@
+{
+  "id": "mitsui-memorial",
+  "name": "三井記念美術館",
+  "nameEn": "Mitsui Memorial Museum",
+  "prefecture": "東京都",
+  "city": "中央区",
+  "area": "kanto",
+  "officialUrl": "https://www.mitsui-museum.jp/",
+  "exhibitionsUrl": "https://www.mitsui-museum.jp/exhibition/schedule.html",
+  "status": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fuchu-art",
+  "name": "府中市美術館",
+  "nameEn": "Fuchu Art Museum",
+  "prefecture": "東京都",
+  "city": "府中市",
+  "area": "kanto",
+  "officialUrl": "https://www.city.fuchu.tokyo.jp/art/",
+  "exhibitionsUrl": "https://www.city.fuchu.tokyo.jp/art/tenrankai/schedule/index.html",
+  "status": "ok"
+}
