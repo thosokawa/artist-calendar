@@ -128,4 +128,4 @@ footer a{color:#fff}
 .subscribe strong{font-size:1.05rem}
 .shop{position:relative;margin:24px 0;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
 .shop p{margin:0}
-.pr{position:absolute;right:10px;top:8px;font:700 11px Outfit,sans-serif;letter-spacing:.08em;color:var(--muted);border:1px solid var(--line);padding:0 6px;border-radius:2px}
+.pr{display:inline-block;margin-right:8px;vertical-align:2px;font:700 11px Outfit,sans-serif;letter-spacing:.08em;color:var(--muted);border:1px solid var(--line);padding:0 6px;border-radius:2px}

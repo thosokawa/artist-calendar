@@ -65,7 +65,7 @@ function shopBox(site, name) {
   const m = site.moshimoRakuten;
   if (!m?.a_id) return '';
   const books = `https://books.rakuten.co.jp/search?sitem=${encodeURIComponent(name)}&g=001`;
-  return `<div class="shop box"><span class="pr">PR</span><p><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。</span></p>
+  return `<div class="shop box"><p><span class="pr">PR</span><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。</span></p>
 <a class="btn alt" href="${esc(moshimoLink(m, books))}" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade">楽天ブックスでさがす</a></div>`;
 }
 
