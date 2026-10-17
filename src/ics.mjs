@@ -34,7 +34,7 @@ function fold(line) {
 }
 
 /** events: [{ uid, date: 'YYYY-MM-DD', endDate?: 'YYYY-MM-DD', title, description, url }] (all-day; endDate inclusive) */
-export function buildCalendar(events, { name, prodId = '-//Artist Calendar//JA', now = new Date() }) {
+export function buildCalendar(events, { name, prodId = '-//ArtPing//JA', now = new Date() }) {
   const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', `PRODID:${prodId}`, 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', `X-WR-CALNAME:${escapeText(name)}`, 'X-WR-TIMEZONE:Asia/Tokyo', 'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H'];
   for (const e of events) {
     lines.push(

@@ -21,7 +21,7 @@ const only = [...args].find((a) => a.startsWith('--only='))?.slice(7);
 const now = new Date();
 const today = process.env.COLLECT_TODAY ?? now.toISOString().slice(0, 10);
 const MIN_TEXT = 200;
-const USER_AGENT = 'ArtistCalendarBot/0.1 (+https://github.com/thosokawa; reads exhibition lists a few times a week)';
+const USER_AGENT = 'ArtPingBot/0.1 (+https://github.com/thosokawa; reads exhibition lists a few times a week)';
 
 const readJson = (p, fallback) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : fallback);
 const writeJson = (p, v) => { if (!dryRun) { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, JSON.stringify(v, null, 2) + '\n'); } };
