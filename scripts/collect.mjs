@@ -80,6 +80,8 @@ for (const museum of museums) {
   try {
     text = await getText(museum.exhibitionsUrl);
     if (text.length < MIN_TEXT) throw new Error(`page text too short (${text.length} chars)`);
+    // Short pages that are really error screens (moved page, bot blocking) must not count as read.
+    if (text.length < 1000 && /404 Not Found|Not Found|Access Denied|Forbidden|ページが見つかりません|お探しのページ/i.test(text)) throw new Error(`error page: ${text.slice(0, 60).replace(/\s+/g, ' ')}`);
   } catch (e) {
     st.failures += 1;
     st.lastError = `${today}: ${e.message}`;
