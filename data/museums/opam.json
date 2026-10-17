@@ -1,0 +1,11 @@
+{
+  "id": "opam",
+  "name": "大分県立美術館",
+  "nameEn": "Oita Prefectural Art Museum",
+  "prefecture": "大分県",
+  "city": "大分市",
+  "area": "kyushu-okinawa",
+  "officialUrl": "https://www.opam.jp/",
+  "exhibitionsUrl": "https://www.opam.jp/exhibitions",
+  "status": "ok"
+}

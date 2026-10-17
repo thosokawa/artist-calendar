@@ -1,0 +1,11 @@
+{
+  "id": "fukushima-art",
+  "name": "福島県立美術館",
+  "nameEn": "Fukushima Prefectural Museum of Art",
+  "prefecture": "福島県",
+  "city": "福島市",
+  "area": "hokkaido-tohoku",
+  "officialUrl": "https://art-museum.fcs.ed.jp/",
+  "exhibitionsUrl": "https://art-museum.fcs.ed.jp/exhibition/schedule",
+  "status": "ok"
+}
