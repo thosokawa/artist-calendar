@@ -13,7 +13,7 @@ const period = (e) => `${jaDate(e.startDate)} 〜 ${jaDate(e.endDate)}`;
 const STATUS = { current: '開催中', upcoming: '開催予定', past: '終了' };
 
 // Logo mark: two corner brackets (a frame on a wall) and the notification dot.
-export const MARK = '<svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M0 0h30v6H6v20H0z" fill="currentColor"/><path d="M64 30v34H24v-6h34V30z" fill="currentColor"/><circle cx="58" cy="7" r="6.5" fill="#D56850"/></svg>';
+export const MARK = '<svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M0 0h30v6H6v20H0z" fill="currentColor"/><path d="M64 30v34H24v-6h34V30z" fill="currentColor"/><circle cx="57.5" cy="6.5" r="6.5" fill="#D56850"/></svg>';
 const lineAddUrl = (site) => (site.lineBasicId ? `https://line.me/R/ti/p/${encodeURIComponent(site.lineBasicId)}` : null);
 
 function layout({ site, title, path, description, body, wide = false }) {
