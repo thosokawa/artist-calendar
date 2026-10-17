@@ -217,3 +217,11 @@ body{overflow-x:clip}
 .subscribe .btn{margin:0;flex:none;white-space:nowrap}
 body:has(.subscribe){padding-bottom:96px}
 @media (max-width:640px){.subscribe{padding:10px 16px}.subscribe-in{flex-wrap:wrap}.subscribe strong{font-size:.92rem}.subscribe .sub{display:none}.subscribe .btn{flex:1;text-align:center;padding:8px 10px}body:has(.subscribe){padding-bottom:110px}}
+/* 画面下の「LINEでお知らせ」の帯：墨地にして、表示から少し遅れて下から出す */
+.subscribe,#alert{background:var(--ink);color:#fff}
+.subscribe .dot,#alert .dot{background:var(--coral)}
+#alert .btn.alt:hover{color:var(--ink)}
+.subscribe{animation:bar-up .5s cubic-bezier(.2,.7,.2,1) .8s both}
+#alert:not([hidden]){animation:bar-up .45s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes bar-up{from{transform:translateY(100%);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.subscribe,#alert:not([hidden]){animation:none}}
