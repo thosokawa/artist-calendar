@@ -59,6 +59,15 @@ const list = (items, ctx, opts) => (items.length ? `<ul class="cards">${items.ma
 // Page title framed by the logo's two corner brackets.
 const pageHead = (kicker, title, sub = '', extra = '') => `<div class="page-head"><p class="kicker">${kicker}</p><h1>${title}${sub ? `<small>${sub}</small>` : ''}</h1>${extra}</div>`;
 
+// Affiliate links (楽天アフィリエイト). Shown only when site.rakutenAffiliateId is set; always labeled PR.
+export const rakutenLink = (id, url) => `https://hb.afl.rakuten.co.jp/hgc/${encodeURIComponent(id)}/?pc=${encodeURIComponent(url)}&m=${encodeURIComponent(url)}`;
+function shopBox(site, name) {
+  if (!site.rakutenAffiliateId) return '';
+  const books = `https://books.rakuten.co.jp/search?sitem=${encodeURIComponent(name)}&g=001`;
+  return `<div class="shop box"><span class="pr">PR</span><p><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。</span></p>
+<a class="btn alt" href="${esc(rakutenLink(site.rakutenAffiliateId, books))}" rel="sponsored nofollow noopener">楽天ブックスでさがす</a></div>`;
+}
+
 function lineBox(name, lineUrl) {
   return `<div class="subscribe"><p><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><br>展覧会が決まると通知が届き、そこから自分のカレンダーに予定を追加できます。</p>
 ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで通知を受け取る</a><p class="hint">LINEが開いたら、そのまま送信してください。</p>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div>`;
@@ -108,6 +117,7 @@ ${pageHead('ARTIST', esc(a.name), esc(a.nameRomaji ?? ''), genres.length ? `<div
 ${lineBox(a.name, lineUrl)}
 <h2>開催中</h2>${list(by('current'), ctx)}
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
+${shopBox(site, a.name)}
 ${by('past').length ? `<h2>過去の展覧会</h2>${list(by('past').reverse(), ctx)}` : ''}
 ${recs.length ? `<h2>${esc(a.name)}が好きな人におすすめの作家</h2><ul class="chips">${recs.map((r) => `<li><a href="/artists/${esc(r.slug)}/">${esc(ctx.artists[r.slug].name)}</a></li>`).join('')}</ul>` : ''}` });
 }
