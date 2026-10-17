@@ -7,57 +7,68 @@
   "aguri-uchida": {
     "name": "内田あぐり",
     "nameRomaji": "Aguri Uchida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うちだあぐり"
   },
   "aiko-miyanaga": {
     "name": "宮永愛子",
     "nameRomaji": "Aiko Miyanaga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みやながあいこ"
   },
   "akane-saijo": {
     "name": "西條茜",
     "nameRomaji": "Akane Saijo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さいじょうあかね"
   },
   "aki-kondo": {
     "name": "近藤亜樹",
     "nameRomaji": "Aki Kondo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こんどうあき"
   },
   "aki-sasamoto": {
     "name": "笹本晃",
     "nameRomaji": "Aki Sasamoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ささもとあき"
   },
   "akihide-tamura": {
     "name": "田村彰英",
     "nameRomaji": "Akihide Tamura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たむらあきひで"
   },
   "akiko": {
     "name": "明子",
     "nameRomaji": "Akiko",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あきこ"
   },
   "akiko-nakayama": {
     "name": "中山晃子",
     "nameRomaji": "Akiko Nakayama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかやまあきこ"
   },
   "akiko-shinzato": {
     "name": "新里明子",
     "nameRomaji": "Akiko Shinzato",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しんざとあきこ"
   },
   "akira-minagawa": {
     "name": "皆川 明",
     "nameRomaji": "Akira Minagawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みながわあきら"
   },
   "akira-yamaguchi": {
     "name": "山口 晃",
     "nameRomaji": "Akira Yamaguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまぐちあきら"
   },
   "albert-marquet": {
     "name": "アルベール・マルケ",
@@ -114,7 +125,8 @@
   "ansei-uchima": {
     "name": "内間安瑆",
     "nameRomaji": "Ansei Uchima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うちまあんせい"
   },
   "antonio-fontanesi": {
     "name": "アントニオ・フォンタネージ",
@@ -126,7 +138,8 @@
   "arata-isozaki": {
     "name": "磯崎新",
     "nameRomaji": "Arata Isozaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いそざきあらた"
   },
   "armi-ratia": {
     "name": "アルミ・ラティア",
@@ -136,7 +149,8 @@
   "asako-fujikura": {
     "name": "藤倉麻子",
     "nameRomaji": "Asako Fujikura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじくらあさこ"
   },
   "astrid-sampe": {
     "name": "アストリッド・サンペ",
@@ -146,7 +160,8 @@
   "atsuko-tanaka": {
     "name": "田中敦子",
     "nameRomaji": "Atsuko Tanaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たなかあつこ"
   },
   "auguste-rodin": {
     "name": "ロダン",
@@ -158,37 +173,44 @@
   "aya-fujioka": {
     "name": "藤岡亜弥",
     "nameRomaji": "Aya Fujioka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじおかあや"
   },
   "ayako-miyawaki": {
     "name": "宮脇綾子",
     "nameRomaji": "Ayako Miyawaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みやわきあやこ"
   },
   "ayao-yamana": {
     "name": "山名文夫",
     "nameRomaji": "Ayao Yamana",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまなあやお"
   },
   "bakin-kyokutei": {
     "name": "曲亭馬琴",
     "nameRomaji": "Bakin Kyokutei",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きょくていばきん"
   },
   "baku-hashimoto": {
     "name": "橋本麦",
     "nameRomaji": "Baku Hashimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はしもとばく"
   },
   "bakusen-tsuchida": {
     "name": "土田麦僊",
     "nameRomaji": "Bakusen Tsuchida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "つちだばくせん"
   },
   "beisen-kubota": {
     "name": "久保田米僊",
     "nameRomaji": "Beisen Kubota",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くぼたべいせん"
   },
   "ben-shahn": {
     "name": "ベン・シャーン",
@@ -203,7 +225,8 @@
   "bikky-sunazawa": {
     "name": "砂澤ビッキ",
     "nameRomaji": "Bikky Sunazawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すなざわびっき"
   },
   "brie-ruais": {
     "name": "ブリー・ルエイ",
@@ -238,7 +261,8 @@
   "chen-shaoxiong": {
     "name": "陳劭雄",
     "nameRomaji": "Chen Shaoxiong",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ちんしょうゆう"
   },
   "chicki-mattsson": {
     "name": "チキ・マットソン",
@@ -248,52 +272,62 @@
   "chie-aoki": {
     "name": "青木千絵",
     "nameRomaji": "Chie Aoki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あおきちえ"
   },
   "chie-matsui": {
     "name": "松井智惠",
     "nameRomaji": "Chie Matsui",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まついちえ"
   },
   "chieo-senzaki": {
     "name": "千崎千恵夫",
     "nameRomaji": "Chieo Senzaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "せんざきちえお"
   },
   "chiharu-matsushita": {
     "name": "松下千春",
     "nameRomaji": "Chiharu Matsushita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まつしたちはる"
   },
   "chiharu-shiota": {
     "name": "塩田千春",
     "nameRomaji": "Chiharu Shiota",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しおたちはる"
   },
   "chika-kitahara": {
     "name": "北原千鹿",
     "nameRomaji": "Chika Kitahara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きたはらちか"
   },
   "chikako-yamashiro": {
     "name": "山城知佳子",
     "nameRomaji": "Chikako Yamashiro",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やましろちかこ"
   },
   "chikuden-tanomura": {
     "name": "田能村竹田",
     "nameRomaji": "Chikuden Tanomura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たのむらちくでん"
   },
   "chikuunsai-tanabe-i": {
     "name": "初代 田辺竹雲齋",
     "nameRomaji": "Chikuunsai Tanabe I",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しょだいたなべちくうんさい"
   },
   "chobunsai-eishi": {
     "name": "鳥文斎栄之",
     "nameRomaji": "Chobunsai Eishi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ちょうぶんさいえいし"
   },
   "christian-marclay": {
     "name": "クリスチャン・マークレー",
@@ -308,7 +342,8 @@
   "chu-asai": {
     "name": "浅井忠",
     "nameRomaji": "Chu Asai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あさいちゅう"
   },
   "claude-monet": {
     "name": "クロード・モネ",
@@ -320,17 +355,20 @@
   "daido-moriyama": {
     "name": "森山大道",
     "nameRomaji": "Daido Moriyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もりやまだいどう"
   },
   "daiki-nishimura": {
     "name": "西村大喜",
     "nameRomaji": "Daiki Nishimura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "にしむらだいき"
   },
   "daisuke-kano": {
     "name": "加納大輔",
     "nameRomaji": "Daisuke Kano",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かのうだいすけ"
   },
   "daniel-steegmann-mangrane": {
     "name": "ダニエル・スティーグマン・マングラネ",
@@ -350,7 +388,8 @@
   "eboshi-yuasa": {
     "name": "ユアサエボシ",
     "nameRomaji": "Eboshi Yuasa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ゆあさえぼし"
   },
   "edward-gorey": {
     "name": "エドワード・ゴーリー",
@@ -360,37 +399,44 @@
   "ei-arakawa-nash": {
     "name": "荒川ナッシュ医",
     "nameRomaji": "Ei Arakawa-Nash",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あらかわなっしゅえい"
   },
   "ei-q": {
     "name": "瑛九",
     "nameRomaji": "Ei-Q",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えいきゅう"
   },
   "eiko-yamazawa": {
     "name": "山沢栄子",
     "nameRomaji": "Eiko Yamazawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまざわえいこ"
   },
   "eikyu-matsuoka": {
     "name": "松岡映丘",
     "nameRomaji": "Eikyu Matsuoka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まつおかえいきゅう"
   },
   "eisaku-wada": {
     "name": "和田英作",
     "nameRomaji": "Eisaku Wada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "わだえいさく"
   },
   "eisen-keisai": {
     "name": "渓斎英泉",
     "nameRomaji": "Eisen Keisai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "けいさいえいせん"
   },
   "ekin": {
     "name": "絵金",
     "nameRomaji": "Ekin",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えきん"
   },
   "el-greco": {
     "name": "エル・グレコ",
@@ -415,7 +461,8 @@
   "emiko-kasahara": {
     "name": "笠原恵実子",
     "nameRomaji": "Emiko Kasahara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かさはらえみこ"
   },
   "emile-galle": {
     "name": "エミール・ガレ",
@@ -430,7 +477,8 @@
   "eri-takashima": {
     "name": "高島衣里",
     "nameRomaji": "Eri Takashima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たかしまえり"
   },
   "eric-carle": {
     "name": "エリック・カール",
@@ -455,7 +503,8 @@
   "felice-rix-ueno": {
     "name": "上野リチ・リックス",
     "nameRomaji": "Felice Rix-Ueno",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うえのりちりっくす"
   },
   "felieke-van-der-leest": {
     "name": "フェリカ・ヴァン・デル・リースト",
@@ -490,32 +539,38 @@
   "fujiko-nakaya": {
     "name": "中谷芙二子",
     "nameRomaji": "Fujiko Nakaya",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかやふじこ"
   },
   "fujio-ishimoto": {
     "name": "石本 藤雄",
     "nameRomaji": "Fujio Ishimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いしもとふじお"
   },
   "fujio-yoshida": {
     "name": "吉田ふじを",
     "nameRomaji": "Fujio Yoshida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よしだふじお"
   },
   "fukumi-shimura": {
     "name": "志村ふくみ",
     "nameRomaji": "Fukumi Shimura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しむらふくみ"
   },
   "fumi-imamura": {
     "name": "今村文",
     "nameRomaji": "Fumi Imamura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いまむらふみ"
   },
   "fumiki-taguchi": {
     "name": "田口史樹",
     "nameRomaji": "Fumiki Taguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たぐちふみき"
   },
   "fumiko-imano": {
     "name": "fumiko imano",
@@ -525,27 +580,32 @@
   "gaku-kurokawa": {
     "name": "黒川岳",
     "nameRomaji": "Gaku Kurokawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くろかわがく"
   },
   "gege-akutami": {
     "name": "芥見下々",
     "nameRomaji": "Gege Akutami",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あくたみげげ"
   },
   "genki-isayama": {
     "name": "諫山元貴",
     "nameRomaji": "Genki Isayama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いさやまげんき"
   },
   "genso-okuda": {
     "name": "奥田元宋",
     "nameRomaji": "Genso Okuda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おくだげんそう"
   },
   "gentaro-komaki": {
     "name": "小牧源太郎",
     "nameRomaji": "Gentaro Komaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こまきげんたろう"
   },
   "george-barbier": {
     "name": "ジョルジュ・バルビエ",
@@ -570,7 +630,8 @@
   "go-nagai": {
     "name": "永井豪",
     "nameRomaji": "Go Nagai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ながいごう"
   },
   "gocken-jobs": {
     "name": "ゴッケン・ヨブス",
@@ -580,22 +641,26 @@
   "gogo": {
     "name": "五郷",
     "nameRomaji": "Gogo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ごごう"
   },
   "goji-taniguchi": {
     "name": "谷口午二",
     "nameRomaji": "Goji Taniguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たにぐちごじ"
   },
   "gong-kai": {
     "name": "龔開",
     "nameRomaji": "Gong Kai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きょうかい"
   },
   "goshun": {
     "name": "呉春",
     "nameRomaji": "Goshun",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ごしゅん"
   },
   "gota-tragardh": {
     "name": "イェータ・トレーゴード",
@@ -605,12 +670,14 @@
   "goun-nishimura": {
     "name": "西村五雲",
     "nameRomaji": "Goun Nishimura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "にしむらごうん"
   },
   "goyo-hashiguchi": {
     "name": "橋口五葉",
     "nameRomaji": "Goyo Hashiguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はしぐちごよう"
   },
   "gustave-caillebotte": {
     "name": "カイユボット",
@@ -625,27 +692,32 @@
   "gyoshu-hayami": {
     "name": "速水御舟",
     "nameRomaji": "Gyoshu Hayami",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はやみぎょしゅう"
   },
   "hakuin": {
     "name": "白隠",
     "nameRomaji": "Hakuin",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はくいん"
   },
   "hakuin-ekaku": {
     "name": "白隠慧鶴",
     "nameRomaji": "Hakuin Ekaku",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はくいんえかく"
   },
   "handeishi-kawakita": {
     "name": "川喜田半泥子",
     "nameRomaji": "Handeishi Kawakita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かわきたはんでいし"
   },
   "hanko-kajita": {
     "name": "梶田半古",
     "nameRomaji": "Hanko Kajita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かじたはんこ"
   },
   "harry-k-shigeta": {
     "name": "ハリー・K・シゲタ",
@@ -655,42 +727,50 @@
   "haru-miyawaki": {
     "name": "宮脇晴",
     "nameRomaji": "Haru Miyawaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みやわきはる"
   },
   "haruko-hasegawa": {
     "name": "長谷川春子",
     "nameRomaji": "Haruko Hasegawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はせがわはるこ"
   },
   "harunobu-suzuki": {
     "name": "鈴木春信",
     "nameRomaji": "Harunobu Suzuki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すずきはるのぶ"
   },
   "hashimoto-gaho": {
     "name": "橋本雅邦",
     "nameRomaji": "Hashimoto Gaho",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はしもとがほう"
   },
   "hatsune-suzuki": {
     "name": "鈴木初音",
     "nameRomaji": "Hatsune Suzuki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すずきはつね"
   },
   "hayao-miyazaki": {
     "name": "宮﨑駿",
     "nameRomaji": "Hayao Miyazaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みやざきはやお"
   },
   "hazuki-tachibana": {
     "name": "橘 葉月",
     "nameRomaji": "Hazuki Tachibana",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たちばなはづき"
   },
   "heihachiro-fukuda": {
     "name": "福田平八郎",
     "nameRomaji": "Heihachiro Fukuda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふくだへいはちろう"
   },
   "helen-hyde": {
     "name": "ヘレン・ハイド",
@@ -717,7 +797,8 @@
   "hikaru-fujii": {
     "name": "藤井光",
     "nameRomaji": "Hikaru Fujii",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじいひかる"
   },
   "hiraki-sawa": {
     "name": "さわひらき",
@@ -727,52 +808,62 @@
   "hiroshi-kakizaki": {
     "name": "柿﨑熙",
     "nameRomaji": "Hiroshi Kakizaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かきざきひろし"
   },
   "hiroshi-manabe": {
     "name": "真鍋博",
     "nameRomaji": "Hiroshi Manabe",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まなべひろし"
   },
   "hiroshi-senju": {
     "name": "千住博",
     "nameRomaji": "Hiroshi Senju",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "せんじゅひろし"
   },
   "hiroshi-sugimoto": {
     "name": "杉本博司",
     "nameRomaji": "Hiroshi Sugimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すぎもとひろし"
   },
   "hiroshi-yoshida": {
     "name": "吉田博",
     "nameRomaji": "Hiroshi Yoshida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よしだひろし"
   },
   "hiroya-hori": {
     "name": "堀浩哉",
     "nameRomaji": "Hiroya Hori",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ほりひろや"
   },
   "hiroyuki-oki": {
     "name": "大木裕之",
     "nameRomaji": "Hiroyuki Oki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おおきひろゆき"
   },
   "hisui-sugiura": {
     "name": "杉浦非水",
     "nameRomaji": "Hisui Sugiura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すぎうらひすい"
   },
   "hitoshi-nomura": {
     "name": "野村仁",
     "nameRomaji": "Hitoshi Nomura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "のむらひとし"
   },
   "hitoshi-ushijima": {
     "name": "牛嶋均",
     "nameRomaji": "Hitoshi Ushijima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うしじまひとし"
   },
   "honore-daumier": {
     "name": "ドーミエ",
@@ -782,17 +873,20 @@
   "ike-no-taiga": {
     "name": "池大雅",
     "nameRomaji": "Ike no Taiga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いけのたいが"
   },
   "ikuko-hatoyama": {
     "name": "鳩山郁子",
     "nameRomaji": "Ikuko Hatoyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はとやまいくこ"
   },
   "ikuo-hirayama": {
     "name": "平山郁夫",
     "nameRomaji": "Ikuo Hirayama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ひらやまいくお"
   },
   "ilya-kabakov": {
     "name": "イリヤ・カバコフ",
@@ -802,7 +896,8 @@
   "imaemon-imaizumi": {
     "name": "今泉今右衛門",
     "nameRomaji": "Imaemon Imaizumi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いまいずみいまえもん"
   },
   "inez-svensson": {
     "name": "イーネス・スヴェンソン",
@@ -812,17 +907,20 @@
   "isamu-wakabayashi": {
     "name": "若林奮",
     "nameRomaji": "Isamu Wakabayashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "わかばやしいさむ"
   },
   "ishu-han": {
     "name": "潘逸舟",
     "nameRomaji": "Ishu Han",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はんいしゅう"
   },
   "ito-jakuchu": {
     "name": "伊藤若冲",
     "nameRomaji": "Ito Jakuchu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いとうじゃくちゅう"
   },
   "j-m-w-turner": {
     "name": "J.M.W. ターナー",
@@ -869,22 +967,26 @@
   "jiang-pengyi": {
     "name": "ジャン・ポンイー（蒋鹏奕）",
     "nameRomaji": "Jiang Pengyi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "じゃんぽんいー"
   },
   "jimmy-onishi": {
     "name": "ジミー大西",
     "nameRomaji": "Jimmy Onishi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "じみーおおにし"
   },
   "jiro-yoshihara": {
     "name": "吉原治良",
     "nameRomaji": "Jiro Yoshihara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よしはらじろう"
   },
   "josaku-maeda": {
     "name": "前田常作",
     "nameRomaji": "Josaku Maeda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まえだじょうさく"
   },
   "josef-hoffmann": {
     "name": "ヨーゼフ・ホフマン",
@@ -909,57 +1011,68 @@
   "junko-maruyama": {
     "name": "丸山純子",
     "nameRomaji": "Junko Maruyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まるやまじゅんこ"
   },
   "kagaku-murakami": {
     "name": "村上華岳",
     "nameRomaji": "Kagaku Murakami",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むらかみかがく"
   },
   "kaii-higashiyama": {
     "name": "東山魁夷",
     "nameRomaji": "Kaii Higashiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ひがしやまかいい"
   },
   "kajo-okumura": {
     "name": "奥村霞城",
     "nameRomaji": "Kajo Okumura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おくむらかじょう"
   },
   "kanae-itakura": {
     "name": "板倉鼎",
     "nameRomaji": "Kanae Itakura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いたくらかなえ"
   },
   "kanjiro-kawai": {
     "name": "河井寬次郎",
     "nameRomaji": "Kanjiro Kawai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かわいかんじろう"
   },
   "kano-eitoku": {
     "name": "狩野永徳",
     "nameRomaji": "Kano Eitoku",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かのうえいとく"
   },
   "kano-hogai": {
     "name": "狩野芳崖",
     "nameRomaji": "Kano Hogai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かのうほうがい"
   },
   "kano-tan-yu": {
     "name": "狩野探幽",
     "nameRomaji": "Kano Tan'yu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かのうたんゆう"
   },
   "kansai-honma": {
     "name": "本間莞彩",
     "nameRomaji": "Kansai Honma",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ほんまかんさい"
   },
   "kanzan-shimomura": {
     "name": "下村観山",
     "nameRomaji": "Kanzan Shimomura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しもむらかんざん"
   },
   "karin-bjorquist": {
     "name": "カーリン・ビョルクヴィスト",
@@ -974,94 +1087,112 @@
   "katsuji-makino": {
     "name": "牧野克次",
     "nameRomaji": "Katsuji Makino",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まきのかつじ"
   },
   "katsuji-wakisaka": {
     "name": "脇阪 克二",
     "nameRomaji": "Katsuji Wakisaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "わきさかかつじ"
   },
   "katsunori-mizuno": {
     "name": "水野勝規",
     "nameRomaji": "Katsunori Mizuno",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みずのかつのり"
   },
   "katsura-funakoshi": {
     "name": "舟越桂",
     "nameRomaji": "Katsura Funakoshi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふなこしかつら"
   },
   "katsushika-hokusai": {
     "name": "葛飾北斎",
     "nameRomaji": "Katsushika Hokusai",
     "aliases": [
       "北斎"
-    ]
+    ],
+    "nameKana": "かつしかほくさい"
   },
   "kawanabe-kyosai": {
     "name": "河鍋暁斎",
     "nameRomaji": "Kawanabe Kyosai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かわなべきょうさい"
   },
   "kayo-yamaguchi": {
     "name": "山口華楊",
     "nameRomaji": "Kayo Yamaguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまぐちかよう"
   },
   "kazuhiro-ito": {
     "name": "伊藤一廣",
     "nameRomaji": "Kazuhiro Ito",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いとうかずひろ"
   },
   "kazuko-enomoto": {
     "name": "榎本和子",
     "nameRomaji": "Kazuko Enomoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えのもとかずこ"
   },
   "kazunori-akita": {
     "name": "秋田和徳",
     "nameRomaji": "Kazunori Akita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あきたかずのり"
   },
   "kazuo-okazaki": {
     "name": "岡崎和郎",
     "nameRomaji": "Kazuo Okazaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おかざきかずお"
   },
   "kazuo-shiraga": {
     "name": "白髪一雄",
     "nameRomaji": "Kazuo Shiraga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しらがかずお"
   },
   "kei-takemura": {
     "name": "竹村京",
     "nameRomaji": "Kei Takemura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たけむらけい"
   },
   "keigetsu-kikuchi": {
     "name": "菊池契月",
     "nameRomaji": "Keigetsu Kikuchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きくちけいげつ"
   },
   "keiko-takemiya": {
     "name": "竹宮惠子",
     "nameRomaji": "Keiko Takemiya",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たけみやけいこ"
   },
   "keisen-tomita": {
     "name": "冨田溪仙",
     "nameRomaji": "Keisen Tomita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とみたけいせん"
   },
   "keizo-kitajima": {
     "name": "北島敬三",
     "nameRomaji": "Keizo Kitajima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きたじまけいぞう"
   },
   "kenji-kohiyama": {
     "name": "小檜山賢二",
     "nameRomaji": "Kenji Kohiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こひやまけんじ"
   },
   "kenji-yanobe": {
     "name": "ヤノベケンジ",
@@ -1071,79 +1202,94 @@
   "kenshichi-heshiki": {
     "name": "平敷兼七",
     "nameRomaji": "Kenshichi Heshiki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "へしきけんしち"
   },
   "kenshin-yamashiro": {
     "name": "山城見信",
     "nameRomaji": "Kenshin Yamashiro",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やましろけんしん"
   },
   "kenta-ishige": {
     "name": "石毛健太",
     "nameRomaji": "Kenta Ishige",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いしげけんた"
   },
   "kenzo-itani": {
     "name": "伊谷賢蔵",
     "nameRomaji": "Kenzo Itani",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いたにけんぞう"
   },
   "kimiko-kobayashi": {
     "name": "小林喜巳子",
     "nameRomaji": "Kimiko Kobayashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こばやしきみこ"
   },
   "kinsen-murayama": {
     "name": "村山琴泉",
     "nameRomaji": "Kinsen Murayama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むらやまきんせん"
   },
   "kiro-uehara": {
     "name": "上原木呂",
     "nameRomaji": "Kiro Uehara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うえはらきろ"
   },
   "kitagawa-utamaro": {
     "name": "喜多川歌麿",
     "nameRomaji": "Kitagawa Utamaro",
     "aliases": [
       "歌麿"
-    ]
+    ],
+    "nameKana": "きたがわうたまろ"
   },
   "kiyochika-kobayashi": {
     "name": "小林清親",
     "nameRomaji": "Kiyochika Kobayashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こばやしきよちか"
   },
   "kiyokata-kaburaki": {
     "name": "鏑木清方",
     "nameRomaji": "Kiyokata Kaburaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かぶらききよかた"
   },
   "kiyonaga-torii": {
     "name": "鳥居清長",
     "nameRomaji": "Kiyonaga Torii",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とりいきよなが"
   },
   "kiyoshi-hasegawa": {
     "name": "長谷川潔",
     "nameRomaji": "Kiyoshi Hasegawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はせがわきよし"
   },
   "kiyoshi-saito": {
     "name": "斎藤清",
     "nameRomaji": "Kiyoshi Saito",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さいとうきよし"
   },
   "koami-nagashige": {
     "name": "幸阿弥長重",
     "nameRomaji": "Koami Nagashige",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こうあみながしげ"
   },
   "kodai-nakahara": {
     "name": "中原浩大",
     "nameRomaji": "Kodai Nakahara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかはらこうだい"
   },
   "kodue-hibino": {
     "name": "ひびのこづえ",
@@ -1153,37 +1299,44 @@
   "kohei-nishigata": {
     "name": "西潟浩平",
     "nameRomaji": "Kohei Nishigata",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "にしがたこうへい"
   },
   "koichi-takeuchi": {
     "name": "竹内浩一",
     "nameRomaji": "Koichi Takeuchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たけうちこういち"
   },
   "koichiro-wakamatsu": {
     "name": "若松光一郎",
     "nameRomaji": "Koichiro Wakamatsu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "わかまつこういちろう"
   },
   "kojin-kudo": {
     "name": "工藤甲人",
     "nameRomaji": "Kojin Kudo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くどうこうじん"
   },
   "kokei-kobayashi": {
     "name": "小林古径",
     "nameRomaji": "Kokei Kobayashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こばやしこけい"
   },
   "koki-hirai": {
     "name": "平井亨季",
     "nameRomaji": "Koki Hirai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ひらいこうき"
   },
   "koshiro-onchi": {
     "name": "恩地孝四郎",
     "nameRomaji": "Koshiro Onchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おんちこうしろう"
   },
   "kristina-isola": {
     "name": "クリスティーナ・イソラ",
@@ -1193,42 +1346,50 @@
   "kukai": {
     "name": "空海",
     "nameRomaji": "Kukai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くうかい"
   },
   "kumi-sugai": {
     "name": "菅井汲",
     "nameRomaji": "Kumi Sugai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すがいくみ"
   },
   "kunihiko-sasaki": {
     "name": "佐々木邦彦",
     "nameRomaji": "Kunihiko Sasaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ささきくにひこ"
   },
   "kunitora-utagawa": {
     "name": "歌川国虎",
     "nameRomaji": "Kunitora Utagawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うたがわくにとら"
   },
   "kuniyoshi-utagawa": {
     "name": "歌川国芳",
     "nameRomaji": "Kuniyoshi Utagawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うたがわくによし"
   },
   "kwak-in-sik": {
     "name": "郭仁植",
     "nameRomaji": "Kwak In-sik",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くぁくいんしく"
   },
   "kyoichi-tsuzuki": {
     "name": "都築響一",
     "nameRomaji": "Kyoichi Tsuzuki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "つづききょういち"
   },
   "kyuichiro-aihara": {
     "name": "相原求一朗",
     "nameRomaji": "Kyuichiro Aihara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あいはらきゅういちろう"
   },
   "leandro-erlich": {
     "name": "レアンドロ・エルリッヒ",
@@ -1238,7 +1399,8 @@
   "leiji-matsumoto": {
     "name": "松本零士",
     "nameRomaji": "Leiji Matsumoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まつもとれいじ"
   },
   "leonardo-da-vinci": {
     "name": "レオナルド・ダ・ヴィンチ",
@@ -1248,7 +1410,8 @@
   "lieko-shiga": {
     "name": "志賀理江子",
     "nameRomaji": "Lieko Shiga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しがりえこ"
   },
   "lisa-larson": {
     "name": "リサ・ラーソン",
@@ -1268,7 +1431,8 @@
   "lucas-cranach-the-elder": {
     "name": "ルカス・クラーナハ（父）",
     "nameRomaji": "Lucas Cranach the Elder",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "るかすくらーなは"
   },
   "lucie-rie": {
     "name": "ルーシー・リー",
@@ -1283,12 +1447,14 @@
   "luo-yang": {
     "name": "ルオ・ヤン（罗洋）",
     "nameRomaji": "Luo Yang",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "るおやん"
   },
   "maeda-kinpu": {
     "name": "前田錦楓",
     "nameRomaji": "Maeda Kinpu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まえだきんぷう"
   },
   "maija-isola": {
     "name": "マイヤ・イソラ",
@@ -1303,12 +1469,14 @@
   "mako-idemitsu": {
     "name": "出光真子",
     "nameRomaji": "Mako Idemitsu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いでみつまこ"
   },
   "mami-mori": {
     "name": "毛利眞美",
     "nameRomaji": "Mami Mori",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もうりまみ"
   },
   "marc-chagall": {
     "name": "マルク・シャガール",
@@ -1335,7 +1503,8 @@
     "nameRomaji": "Mari Katayama",
     "aliases": [
       "片山真里"
-    ]
+    ],
+    "nameKana": "かたやままり"
   },
   "maria-farrar": {
     "name": "マリア・ファーラ",
@@ -1350,52 +1519,62 @@
   "mariko-mori": {
     "name": "森万里子",
     "nameRomaji": "Mariko Mori",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もりまりこ"
   },
   "maruyama-okyo": {
     "name": "円山応挙",
     "nameRomaji": "Maruyama Okyo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まるやまおうきょ"
   },
   "masaaki-miyasako": {
     "name": "宮廻正明",
     "nameRomaji": "Masaaki Miyasako",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みやさこまさあき"
   },
   "masaji-inoue": {
     "name": "井上まさじ",
     "nameRomaji": "Masaji Inoue",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いのうえまさじ"
   },
   "masamu-yanase": {
     "name": "柳瀬正夢",
     "nameRomaji": "Masamu Yanase",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やなせまさむ"
   },
   "masayasu-mitsuke": {
     "name": "見附正康",
     "nameRomaji": "Masayasu Mitsuke",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みつけまさやす"
   },
   "masayoshi-sukita": {
     "name": "鋤田正義",
     "nameRomaji": "Masayoshi Sukita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すきたまさよし"
   },
   "masayoshi-tokonami": {
     "name": "床次正精",
     "nameRomaji": "Masayoshi Tokonami",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とこなみまさよし"
   },
   "masuo-ikeda": {
     "name": "池田満寿夫",
     "nameRomaji": "Masuo Ikeda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いけだますお"
   },
   "matazo-kayama": {
     "name": "加山又造",
     "nameRomaji": "Matazo Kayama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かやままたぞう"
   },
   "maurice-utrillo": {
     "name": "ユトリロ",
@@ -1410,22 +1589,26 @@
   "mayuko-inui": {
     "name": "乾 真裕子",
     "nameRomaji": "Mayuko Inui",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いぬいまゆこ"
   },
   "mayumi-terada": {
     "name": "寺田真由美",
     "nameRomaji": "Mayumi Terada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "てらだまゆみ"
   },
   "meiji-hashimoto": {
     "name": "橋本明治",
     "nameRomaji": "Meiji Hashimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はしもとめいじ"
   },
   "meiro-koizumi": {
     "name": "小泉明郎",
     "nameRomaji": "Meiro Koizumi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こいずみめいろう"
   },
   "meret-oppenheim": {
     "name": "メレット・オッペンハイム",
@@ -1435,17 +1618,20 @@
   "mi-fu": {
     "name": "米芾",
     "nameRomaji": "Mi Fu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "べいふつ"
   },
   "michiko-uehara": {
     "name": "上原美智子",
     "nameRomaji": "Michiko Uehara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うえはらみちこ"
   },
   "michio-fukuoka": {
     "name": "福岡道雄",
     "nameRomaji": "Michio Fukuoka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふくおかみちお"
   },
   "mieczys-aw-gorowski": {
     "name": "ミェチスワフ・グロフスキ",
@@ -1455,22 +1641,26 @@
   "mieko-shiomi": {
     "name": "塩見允枝子",
     "nameRomaji": "Mieko Shiomi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しおみみえこ"
   },
   "mika-kato": {
     "name": "加藤美佳",
     "nameRomaji": "Mika Kato",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かとうみか"
   },
   "mika-ninagawa": {
     "name": "蜷川実花",
     "nameRomaji": "Mika Ninagawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "にながわみか"
   },
   "miki-ikeda": {
     "name": "池田美樹",
     "nameRomaji": "Miki Ikeda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いけだみき"
   },
   "milton-avery": {
     "name": "ミルトン・エイヴリー",
@@ -1480,27 +1670,32 @@
   "mina-tabei": {
     "name": "田部井美奈",
     "nameRomaji": "Mina Tabei",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たべいみな"
   },
   "minako-nishiyama": {
     "name": "西山美なコ",
     "nameRomaji": "Minako Nishiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "にしやまみなこ"
   },
   "miran-fukuda": {
     "name": "福田美蘭",
     "nameRomaji": "Miran Fukuda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふくだみらん"
   },
   "mitsuko-tabe": {
     "name": "田部光子",
     "nameRomaji": "Mitsuko Tabe",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たべみつこ"
   },
   "mitsuo-takano": {
     "name": "高野三三男",
     "nameRomaji": "Mitsuo Takano",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たかのみつお"
   },
   "miwa-yanagi": {
     "name": "やなぎみわ",
@@ -1510,17 +1705,20 @@
   "miyako-ishiuchi": {
     "name": "石内都",
     "nameRomaji": "Miyako Ishiuchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いしうちみやこ"
   },
   "miyu-hosoi": {
     "name": "細井美裕",
     "nameRomaji": "Miyu Hosoi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ほそいみゆ"
   },
   "momo-yamanishi": {
     "name": "山西もも",
     "nameRomaji": "Momo Yamanishi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまにしもも"
   },
   "monster-chetwynd": {
     "name": "モンスター・チェットウィンド",
@@ -1530,12 +1728,14 @@
   "moto-hagio": {
     "name": "萩尾望都",
     "nameRomaji": "Moto Hagio",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はぎおもと"
   },
   "motoyuki-shitamichi": {
     "name": "下道基行",
     "nameRomaji": "Motoyuki Shitamichi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "したみちもとゆき"
   },
   "mozu": {
     "name": "Mozu",
@@ -1545,27 +1745,32 @@
   "nancy-seki": {
     "name": "ナンシー関",
     "nameRomaji": "Nancy Seki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なんしーせき"
   },
   "naojiro-harada": {
     "name": "原田直次郎",
     "nameRomaji": "Naojiro Harada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はらだなおじろう"
   },
   "naonori-kato": {
     "name": "加藤直徳",
     "nameRomaji": "Naonori Kato",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かとうなおのり"
   },
   "naotsugu-hashimoto": {
     "name": "橋本尚恣",
     "nameRomaji": "Naotsugu Hashimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はしもとなおつぐ"
   },
   "natsuyuki-nakanishi": {
     "name": "中西夏之",
     "nameRomaji": "Natsuyuki Nakanishi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかにしなつゆき"
   },
   "neutral-colors": {
     "name": "NEUTRAL COLORS",
@@ -1580,12 +1785,14 @@
   "noboru-tsubaki": {
     "name": "椿昇",
     "nameRomaji": "Noboru Tsubaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "つばきのぼる"
   },
   "noe-aoki": {
     "name": "青木野枝",
     "nameRomaji": "Noe Aoki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あおきのえ"
   },
   "noemie-goudal": {
     "name": "ノエミ・グダル",
@@ -1595,7 +1802,8 @@
   "norihiro-nakae": {
     "name": "中江紀洋",
     "nameRomaji": "Norihiro Nakae",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかえのりひろ"
   },
   "odilon-redon": {
     "name": "オディロン・ルドン",
@@ -1607,17 +1815,20 @@
   "ogata-kenzan": {
     "name": "尾形乾山",
     "nameRomaji": "Ogata Kenzan",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おがたけんざん"
   },
   "oi-katsushika": {
     "name": "葛飾応為",
     "nameRomaji": "Oi Katsushika",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かつしかおうい"
   },
   "okoku-konoshima": {
     "name": "木島櫻谷",
     "nameRomaji": "Okoku Konoshima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "このしまおうこく"
   },
   "olafur-eliasson": {
     "name": "オラファー・エリアソン",
@@ -1632,12 +1843,14 @@
   "osamu-suzuki": {
     "name": "鈴木治",
     "nameRomaji": "Osamu Suzuki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すずきおさむ"
   },
   "otei-kaneko": {
     "name": "金子鷗亭",
     "nameRomaji": "Otei Kaneko",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かねこおうてい"
   },
   "otolith-group": {
     "name": "オトリス・グループ",
@@ -1710,7 +1923,8 @@
   "qiu-ying": {
     "name": "仇英",
     "nameRomaji": "Qiu Ying",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きゅうえい"
   },
   "raoul-dufy": {
     "name": "ラウル・デュフィ",
@@ -1744,22 +1958,26 @@
   "rika-noguchi": {
     "name": "野口里佳",
     "nameRomaji": "Rika Noguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "のぐちりか"
   },
   "riu-okanoue": {
     "name": "岡上りう",
     "nameRomaji": "Riu Okanoue",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おかのうえりう"
   },
   "riusuke-fukahori": {
     "name": "深堀隆介",
     "nameRomaji": "Riusuke Fukahori",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふかほりりゅうすけ"
   },
   "rocho-mizuno": {
     "name": "水野廬朝",
     "nameRomaji": "Rocho Mizuno",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みずのろちょう"
   },
   "rodolphe-bresdin": {
     "name": "ロドルフ・ブレスダン",
@@ -1769,17 +1987,20 @@
   "rokansai-iizuka": {
     "name": "飯塚琅玕齋",
     "nameRomaji": "Rokansai Iizuka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いいづかろうかんさい"
   },
   "rokubei-kiyomizu-v": {
     "name": "（五代）清水六兵衞",
     "nameRomaji": "Rokubei Kiyomizu V",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きよみずろくべえ"
   },
   "rokuro-taniuchi": {
     "name": "谷内六郎",
     "nameRomaji": "Rokuro Taniuchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たにうちろくろう"
   },
   "roni-horn": {
     "name": "ロニ・ホーン",
@@ -1789,7 +2010,8 @@
   "rui-itasaka": {
     "name": "板坂留五",
     "nameRomaji": "Rui Itasaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いたさかるい"
   },
   "ruth-asawa": {
     "name": "ルース・アサワ",
@@ -1804,52 +2026,62 @@
   "ryo-yumiyama": {
     "name": "弓山諒",
     "nameRomaji": "Ryo Yumiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ゆみやまりょう"
   },
   "ryoji-koie": {
     "name": "鯉江良二",
     "nameRomaji": "Ryoji Koie",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こいえりょうじ"
   },
   "ryoko-yamagishi": {
     "name": "山岸凉子",
     "nameRomaji": "Ryoko Yamagishi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまぎしりょうこ"
   },
   "ryosuke-shiomi": {
     "name": "塩見亮介",
     "nameRomaji": "Ryosuke Shiomi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しおみりょうすけ"
   },
   "ryushi-kawabata": {
     "name": "川端龍子",
     "nameRomaji": "Ryushi Kawabata",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かわばたりゅうし"
   },
   "saburo-muraoka": {
     "name": "村岡三郎",
     "nameRomaji": "Saburo Muraoka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むらおかさぶろう"
   },
   "saburosuke-okada": {
     "name": "岡田三郎助",
     "nameRomaji": "Saburosuke Okada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おかださぶろうすけ"
   },
   "sachiko-kazama": {
     "name": "風間サチコ",
     "nameRomaji": "Sachiko Kazama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かざまさちこ"
   },
   "sadamasa-motonaga": {
     "name": "元永定正",
     "nameRomaji": "Sadamasa Motonaga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もとながさだまさ"
   },
   "sadanori-sakaki": {
     "name": "彭城貞徳",
     "nameRomaji": "Sadanori Sakaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さかきさだのり"
   },
   "salvador-dali": {
     "name": "サルバドール・ダリ",
@@ -1859,7 +2091,8 @@
   "samiro-yunoki": {
     "name": "柚木沙弥郎",
     "nameRomaji": "Samiro Yunoki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ゆのきさみろう"
   },
   "sandro-botticelli": {
     "name": "サンドロ・ボッティチェリ",
@@ -1874,7 +2107,8 @@
   "satoshi-murakami": {
     "name": "村上慧",
     "nameRomaji": "Satoshi Murakami",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むらかみさとし"
   },
   "saul-leiter": {
     "name": "ソール・ライター",
@@ -1884,102 +2118,122 @@
   "sawako-tanizawa": {
     "name": "谷澤紗和子",
     "nameRomaji": "Sawako Tanizawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たにざわさわこ"
   },
   "sayaka-uehara": {
     "name": "上原沙也加",
     "nameRomaji": "Sayaka Uehara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うえはらさやか"
   },
   "sayuri-ichida": {
     "name": "市田小百合",
     "nameRomaji": "Sayuri Ichida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いちださゆり"
   },
   "seiho-takeuchi": {
     "name": "竹内栖鳳",
     "nameRomaji": "Seiho Takeuchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たけうちせいほう"
   },
   "seiji-togo": {
     "name": "東郷青児",
     "nameRomaji": "Seiji Togo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とうごうせいじ"
   },
   "seika-yamaga": {
     "name": "山鹿清華",
     "nameRomaji": "Seika Yamaga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまがせいか"
   },
   "sekka-kamisaka": {
     "name": "神坂雪佳",
     "nameRomaji": "Sekka Kamisaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かみさかせっか"
   },
   "sen-takahashi": {
     "name": "髙橋銑",
     "nameRomaji": "Sen Takahashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たかはしせん"
   },
   "sengai": {
     "name": "仙厓",
     "nameRomaji": "Sengai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "せんがい"
   },
   "sengai-gibon": {
     "name": "仙厓義梵",
     "nameRomaji": "Sengai Gibon",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "せんがいぎぼん"
   },
   "senseki-nakamura": {
     "name": "中村洗石",
     "nameRomaji": "Senseki Nakamura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかむらせんせき"
   },
   "setsuko-migishi": {
     "name": "三岸節子",
     "nameRomaji": "Setsuko Migishi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みぎしせつこ"
   },
   "shiba-kokan": {
     "name": "司馬江漢",
     "nameRomaji": "Shiba Kokan",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しばこうかん"
   },
   "shigeru-hasegawa": {
     "name": "長谷川繁",
     "nameRomaji": "Shigeru Hasegawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はせがわしげる"
   },
   "shiho-sakakibara": {
     "name": "榊原紫峰",
     "nameRomaji": "Shiho Sakakibara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さかきばらしほう"
   },
   "shiko-munakata": {
     "name": "棟方志功",
     "nameRomaji": "Shiko Munakata",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むなかたしこう"
   },
   "shin-egashira": {
     "name": "江頭 慎",
     "nameRomaji": "Shin Egashira",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えがしらしん"
   },
   "shingo-kanagawa": {
     "name": "金川晋吾",
     "nameRomaji": "Shingo Kanagawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かながわしんご"
   },
   "shinsen-tokuoka": {
     "name": "徳岡神泉",
     "nameRomaji": "Shinsen Tokuoka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とくおかしんせん"
   },
   "shinsui-ito": {
     "name": "伊東深水",
     "nameRomaji": "Shinsui Ito",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いとうしんすい"
   },
   "shinsuke-yoshitake": {
     "name": "ヨシタケシンスケ",
@@ -1989,107 +2243,128 @@
   "shizuma-uchida": {
     "name": "内田静馬",
     "nameRomaji": "Shizuma Uchida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うちだしずま"
   },
   "sho-ishimoto": {
     "name": "石本正",
     "nameRomaji": "Sho Ishimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いしもとしょう"
   },
   "shoen-uemura": {
     "name": "上村松園",
     "nameRomaji": "Shoen Uemura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うえむらしょうえん"
   },
   "shogo-abe": {
     "name": "安部将吾",
     "nameRomaji": "Shogo Abe",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あべしょうご"
   },
   "shoichi-ida": {
     "name": "井田照一",
     "nameRomaji": "Shoichi Ida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いだしょういち"
   },
   "shoichi-mizuno": {
     "name": "水野正一",
     "nameRomaji": "Shoichi Mizuno",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みずのしょういち"
   },
   "shoichiro-osawa": {
     "name": "大澤鉦一郎",
     "nameRomaji": "Shoichiro Osawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おおさわしょういちろう"
   },
   "shoji-hamada": {
     "name": "濱田庄司",
     "nameRomaji": "Shoji Hamada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はまだしょうじ"
   },
   "shoji-sekine": {
     "name": "関根正二",
     "nameRomaji": "Shoji Sekine",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "せきねしょうじ"
   },
   "shotaro-koseki": {
     "name": "小関庄太郎",
     "nameRomaji": "Shotaro Koseki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こせきしょうたろう"
   },
   "shotaro-koyama": {
     "name": "小山正太郎",
     "nameRomaji": "Shotaro Koyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こやましょうたろう"
   },
   "shounsai-shono": {
     "name": "生野祥雲斎",
     "nameRomaji": "Shounsai Shono",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しょうのしょううんさい"
   },
   "shoya-yoshida": {
     "name": "吉田璋也",
     "nameRomaji": "Shoya Yoshida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よしだしょうや"
   },
   "shozo-kamata": {
     "name": "鎌田正蔵",
     "nameRomaji": "Shozo Kamata",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かまたしょうぞう"
   },
   "shozo-shimada": {
     "name": "島田章三",
     "nameRomaji": "Shozo Shimada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しまだしょうぞう"
   },
   "shugoro-hasuda": {
     "name": "蓮田修吾郎",
     "nameRomaji": "Shugoro Hasuda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はすだしゅうごろう"
   },
   "shunso-hishida": {
     "name": "菱田春草",
     "nameRomaji": "Shunso Hishida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ひしだしゅんそう"
   },
   "shuntaro-tanikawa": {
     "name": "谷川俊太郎",
     "nameRomaji": "Shuntaro Tanikawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たにかわしゅんたろう"
   },
   "shuzo-takiguchi": {
     "name": "瀧口修造",
     "nameRomaji": "Shuzo Takiguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たきぐちしゅうぞう"
   },
   "soetsu-yanagi": {
     "name": "柳宗悦",
     "nameRomaji": "Soetsu Yanagi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やなぎむねよし"
   },
   "sogen-eguchi": {
     "name": "江口草玄",
     "nameRomaji": "Sogen Eguchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えぐちそうげん"
   },
   "som-supaparinya": {
     "name": "ソム・スパパリンヤ",
@@ -2099,17 +2374,20 @@
   "soritsu-tamura": {
     "name": "田村宗立",
     "nameRomaji": "Soritsu Tamura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たむらそうりつ"
   },
   "sosetsu-kitagawa": {
     "name": "喜多川相説",
     "nameRomaji": "Sosetsu Kitagawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きたがわそうせつ"
   },
   "soshi-matsunobe": {
     "name": "松延総司",
     "nameRomaji": "Soshi Matsunobe",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まつのべそうし"
   },
   "stanislav-libensky": {
     "name": "スタニスラフ・リベンスキー",
@@ -2139,7 +2417,8 @@
   "sui-taca": {
     "name": "スイ・タカ（塔可）",
     "nameRomaji": "Sui Taca",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すいたか"
   },
   "suzanne-valadon": {
     "name": "シュザンヌ・ヴァラドン",
@@ -2159,17 +2438,20 @@
   "tadashi-yoshii": {
     "name": "吉井忠",
     "nameRomaji": "Tadashi Yoshii",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よしいただし"
   },
   "taika-inohara": {
     "name": "猪原大華",
     "nameRomaji": "Taika Inohara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いのはらたいか"
   },
   "taikan-yokoyama": {
     "name": "横山大観",
     "nameRomaji": "Taikan Yokoyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よこやまたいかん"
   },
   "takao-saito": {
     "name": "さいとう・たかを",
@@ -2179,87 +2461,104 @@
   "takashi-tanaka": {
     "name": "田中岑",
     "nameRomaji": "Takashi Tanaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たなかたかし"
   },
   "takayuki-mitsushima": {
     "name": "光島貴之",
     "nameRomaji": "Takayuki Mitsushima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "みつしまたかゆき"
   },
   "takeji-fujishima": {
     "name": "藤島武二",
     "nameRomaji": "Takeji Fujishima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじしまたけじ"
   },
   "takenobu-igarashi": {
     "name": "五十嵐威暢",
     "nameRomaji": "Takenobu Igarashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いがらしたけのぶ"
   },
   "takeshi-yasura": {
     "name": "保良雄",
     "nameRomaji": "Takeshi Yasura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やすらたけし"
   },
   "takeshi-yoro": {
     "name": "養老孟司",
     "nameRomaji": "Takeshi Yoro",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ようろうたけし"
   },
   "takuan-soho": {
     "name": "沢庵宗彭",
     "nameRomaji": "Takuan Soho",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たくあんそうほう"
   },
   "tani-buncho": {
     "name": "谷文晁",
     "nameRomaji": "Tani Buncho",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たにぶんちょう"
   },
   "taro-karibe": {
     "name": "苅部太郎",
     "nameRomaji": "Taro Karibe",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かりべたろう"
   },
   "taro-okamoto": {
     "name": "岡本太郎",
     "nameRomaji": "Taro Okamoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おかもとたろう"
   },
   "taro-tanaka": {
     "name": "田中太郎",
     "nameRomaji": "Taro Tanaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たなかたろう"
   },
   "tatehiko-suga": {
     "name": "菅楯彦",
     "nameRomaji": "Tatehiko Suga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すがたてひこ"
   },
   "tatsuhide-matsuoka": {
     "name": "松岡達英",
     "nameRomaji": "Tatsuhide Matsuoka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まつおかたつひで"
   },
   "tatsukichi-fujii": {
     "name": "藤井達吉",
     "nameRomaji": "Tatsukichi Fujii",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじいたつきち"
   },
   "tatsuya-tanaka": {
     "name": "田中達也",
     "nameRomaji": "Tatsuya Tanaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たなかたつや"
   },
   "tawaraya-sotatsu": {
     "name": "俵屋宗達",
     "nameRomaji": "Tawaraya Sotatsu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たわらやそうたつ"
   },
   "tayoko-ikuta": {
     "name": "生田丹代子",
     "nameRomaji": "Tayoko Ikuta",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いくたたよこ"
   },
   "ted-noten": {
     "name": "テッド・ノーテン",
@@ -2269,37 +2568,44 @@
   "teppei-sako": {
     "name": "迫 鉄平",
     "nameRomaji": "Teppei Sako",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さこてっぺい"
   },
   "teppei-ujiyama": {
     "name": "宇治山哲平",
     "nameRomaji": "Teppei Ujiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うじやまてっぺい"
   },
   "terue-yamauchi": {
     "name": "山内光枝",
     "nameRomaji": "Terue Yamauchi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまうちてるえ"
   },
   "teruo-hada": {
     "name": "秦テルヲ",
     "nameRomaji": "Teruo Hada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はたてるお"
   },
   "tetsugoro-yorozu": {
     "name": "萬鉄五郎",
     "nameRomaji": "Tetsugoro Yorozu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よろずてつごろう"
   },
   "tetsuro-komai": {
     "name": "駒井哲郎",
     "nameRomaji": "Tetsuro Komai",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こまいてつろう"
   },
   "tetsuya-ishida": {
     "name": "石田徹也",
     "nameRomaji": "Tetsuya Ishida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いしだてつや"
   },
   "thao-nguyen-phan": {
     "name": "タオ・グエン・ファン",
@@ -2319,99 +2625,118 @@
   "toeko-tatsuno": {
     "name": "辰野登恵子",
     "nameRomaji": "Toeko Tatsuno",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たつのとえこ"
   },
   "tomohiro-okazaki": {
     "name": "岡崎智弘",
     "nameRomaji": "Tomohiro Okazaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おかざきともひろ"
   },
   "tomoki-shoda-takenaka-corporation-veig": {
     "name": "正田智樹＋竹中工務店＋veig",
     "nameRomaji": "Tomoki Shoda + Takenaka Corporation + veig",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しょうだともきたけなかこうむてんべいぐ"
   },
   "tomoko-konoike": {
     "name": "鴻池朋子",
     "nameRomaji": "Tomoko Konoike",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こうのいけともこ"
   },
   "tomoko-ushijima": {
     "name": "牛島智子",
     "nameRomaji": "Tomoko Ushijima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うしじまともこ"
   },
   "tomoyoshi-murayama": {
     "name": "村山知義",
     "nameRomaji": "Tomoyoshi Murayama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むらやまともよし"
   },
   "toru-narita": {
     "name": "成田亨",
     "nameRomaji": "Toru Narita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なりたとおる"
   },
   "tosa-mitsumochi": {
     "name": "土佐光茂",
     "nameRomaji": "Tosa Mitsumochi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とさみつもち"
   },
   "tosa-mitsuoki": {
     "name": "土佐光起",
     "nameRomaji": "Tosa Mitsuoki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とさみつおき"
   },
   "tosa-mitsuyoshi": {
     "name": "土佐光吉",
     "nameRomaji": "Tosa Mitsuyoshi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "とさみつよし"
   },
   "toshi-maruki": {
     "name": "丸木俊",
     "nameRomaji": "Toshi Maruki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まるきとし"
   },
   "toshi-shimizu": {
     "name": "清水登之",
     "nameRomaji": "Toshi Shimizu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しみずとし"
   },
   "toshichika-makita": {
     "name": "蒔田俊親",
     "nameRomaji": "Toshichika Makita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まきたとしちか"
   },
   "toshiko-uchima": {
     "name": "内間俊子",
     "nameRomaji": "Toshiko Uchima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うちまとしこ"
   },
   "toshio-arimoto": {
     "name": "有元利夫",
     "nameRomaji": "Toshio Arimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ありもととしお"
   },
   "toshio-suzuki": {
     "name": "鈴木敏夫",
     "nameRomaji": "Toshio Suzuki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すずきとしお"
   },
   "toshiro-maeda": {
     "name": "前田藤四郎",
     "nameRomaji": "Toshiro Maeda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まえだとうしろう"
   },
   "toshiya-murakoshi": {
     "name": "村越としや",
     "nameRomaji": "Toshiya Murakoshi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "むらこしとしや"
   },
   "toshusai-sharaku": {
     "name": "東洲斎写楽",
     "nameRomaji": "Toshusai Sharaku",
     "aliases": [
       "写楽"
-    ]
+    ],
+    "nameKana": "とうしゅうさいしゃらく"
   },
   "tove-jansson": {
     "name": "トーベ",
@@ -2421,42 +2746,50 @@
   "tsubasa-kato": {
     "name": "加藤翼",
     "nameRomaji": "Tsubasa Kato",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かとうつばさ"
   },
   "tsuguharu-foujita": {
     "name": "藤田嗣治",
     "nameRomaji": "Tsuguharu Foujita",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじたつぐはる"
   },
   "tsukioka-yoshitoshi": {
     "name": "月岡芳年",
     "nameRomaji": "Tsukioka Yoshitoshi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "つきおかよしとし"
   },
   "tsune-nakamura": {
     "name": "中村彝",
     "nameRomaji": "Tsune Nakamura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "なかむらつね"
   },
   "tsunetomi-kitano": {
     "name": "北野恒富",
     "nameRomaji": "Tsunetomi Kitano",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きたのつねとみ"
   },
   "tsuruko-yamazaki": {
     "name": "山崎つる子",
     "nameRomaji": "Tsuruko Yamazaki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまざきつるこ"
   },
   "tsurusawa-tansaku": {
     "name": "鶴沢探索",
     "nameRomaji": "Tsurusawa Tansaku",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "つるさわたんさく"
   },
   "uichi-shimizu": {
     "name": "清水卯一",
     "nameRomaji": "Uichi Shimizu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しみずういち"
   },
   "umberto-boccioni": {
     "name": "ボッチョーニ",
@@ -2466,24 +2799,28 @@
   "usen-ogawa": {
     "name": "小川芋銭",
     "nameRomaji": "Usen Ogawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おがわうせん"
   },
   "utagawa-hiroshige": {
     "name": "歌川広重",
     "nameRomaji": "Utagawa Hiroshige",
     "aliases": [
       "広重"
-    ]
+    ],
+    "nameKana": "うたがわひろしげ"
   },
   "utagawa-kunisada": {
     "name": "歌川国貞",
     "nameRomaji": "Utagawa Kunisada",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うたがわくにさだ"
   },
   "utagawa-kuniyoshi": {
     "name": "国芳",
     "nameRomaji": "Utagawa Kuniyoshi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "うたがわくによし"
   },
   "vincent-van-gogh": {
     "name": "ゴッホ",
@@ -2501,7 +2838,8 @@
   "waki-yamato": {
     "name": "大和和紀",
     "nameRomaji": "Waki Yamato",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまとわき"
   },
   "walter-hood-fitch": {
     "name": "ウォルター・フッド・フィッチ",
@@ -2511,12 +2849,14 @@
   "wang-tuo": {
     "name": "ワン・トゥオ（王拓）",
     "nameRomaji": "Wang Tuo",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "わんとぅお"
   },
   "wang-yiting": {
     "name": "王一亭",
     "nameRomaji": "Wang Yiting",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おういってい"
   },
   "wassily-kandinsky": {
     "name": "ヴァシリー・カンディンスキー",
@@ -2548,77 +2888,92 @@
   "yajuro-takashima": {
     "name": "髙島野十郎",
     "nameRomaji": "Yajuro Takashima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たかしまやじゅうろう"
   },
   "yan-wengui": {
     "name": "燕文貴",
     "nameRomaji": "Yan Wengui",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えんぶんき"
   },
   "yasuhiko-hishida": {
     "name": "菱田安彦",
     "nameRomaji": "Yasuhiko Hishida",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ひしだやすひこ"
   },
   "yasuhiro-ishimoto": {
     "name": "石元泰博",
     "nameRomaji": "Yasuhiro Ishimoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いしもとやすひろ"
   },
   "yasuji-inoue": {
     "name": "井上安治",
     "nameRomaji": "Yasuji Inoue",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いのうえやすじ"
   },
   "yasuki-hiramatsu": {
     "name": "平松保城",
     "nameRomaji": "Yasuki Hiramatsu",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ひらまつやすき"
   },
   "yasumasa-morimura": {
     "name": "森村泰昌",
     "nameRomaji": "Yasumasa Morimura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もりむらやすまさ"
   },
   "yasuo-hayashi": {
     "name": "林康夫",
     "nameRomaji": "Yasuo Hayashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "はやしやすお"
   },
   "yasuo-kuniyoshi": {
     "name": "国吉康雄",
     "nameRomaji": "Yasuo Kuniyoshi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くによしやすお"
   },
   "yasushi-sugiyama": {
     "name": "杉山寧",
     "nameRomaji": "Yasushi Sugiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すぎやまやすし"
   },
   "yasutake-iwana": {
     "name": "岩名泰岳",
     "nameRomaji": "Yasutake Iwana",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いわなやすたけ"
   },
   "yayoi-kusama": {
     "name": "草間彌生",
     "nameRomaji": "Yayoi Kusama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くさまやよい"
   },
   "yojiro-imasaka": {
     "name": "今坂庸二朗",
     "nameRomaji": "Yojiro Imasaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いまさかようじろう"
   },
   "yoko-daihara": {
     "name": "䑓原蓉子",
     "nameRomaji": "Yoko Daihara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "だいはらようこ"
   },
   "yoko-matsumoto": {
     "name": "松本陽子",
     "nameRomaji": "Yoko Matsumoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まつもとようこ"
   },
   "yoko-ono": {
     "name": "オノ・ヨーコ",
@@ -2628,126 +2983,151 @@
   "yosa-buson": {
     "name": "与謝蕪村",
     "nameRomaji": "Yosa Buson",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よさぶそん"
   },
   "yoshiharu-tsukamoto": {
     "name": "塚本由晴",
     "nameRomaji": "Yoshiharu Tsukamoto",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "つかもとよしはる"
   },
   "yoshihiro-suda": {
     "name": "須田悦弘",
     "nameRomaji": "Yoshihiro Suda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "すだよしひろ"
   },
   "yoshikazu-yamagata": {
     "name": "山縣良和",
     "nameRomaji": "Yoshikazu Yamagata",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やまがたよしかず"
   },
   "yoshimura-shuzan": {
     "name": "吉村周山",
     "nameRomaji": "Yoshimura Shuzan",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "よしむらしゅうざん"
   },
   "yoshitaka-kurashige": {
     "name": "倉茂義隆",
     "nameRomaji": "Yoshitaka Kurashige",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "くらしげよしたか"
   },
   "yoshitomo-nara": {
     "name": "奈良美智",
     "nameRomaji": "Yoshitomo Nara",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ならよしとも"
   },
   "yuichi-idaka": {
     "name": "井高雄一",
     "nameRomaji": "Yuichi Idaka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いだかゆういち"
   },
   "yuichi-takahashi": {
     "name": "高橋由一",
     "nameRomaji": "Yuichi Takahashi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たかはしゆいち"
   },
   "yuji-kojima": {
     "name": "小嶋悠司",
     "nameRomaji": "Yuji Kojima",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "こじまゆうじ"
   },
   "yuji-saiga": {
     "name": "雜賀雄二",
     "nameRomaji": "Yuji Saiga",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さいがゆうじ"
   },
   "yuki-iiyama": {
     "name": "飯山由貴",
     "nameRomaji": "Yuki Iiyama",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "いいやまゆき"
   },
   "yuki-katsura": {
     "name": "桂ゆき",
     "nameRomaji": "Yuki Katsura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "かつらゆき"
   },
   "yuki-okumura": {
     "name": "奥村雄樹",
     "nameRomaji": "Yuki Okumura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おくむらゆうき"
   },
   "yukihiko-yasuda": {
     "name": "安田靫彦",
     "nameRomaji": "Yukihiko Yasuda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "やすだゆきひこ"
   },
   "yuko-mohri": {
     "name": "毛利悠子",
     "nameRomaji": "Yuko Mohri",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "もうりゆうこ"
   },
   "yumeji-takehisa": {
     "name": "竹久夢二",
     "nameRomaji": "Yumeji Takehisa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "たけひさゆめじ"
   },
   "yumiko-fujino": {
     "name": "藤野裕美子",
     "nameRomaji": "Yumiko Fujino",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ふじのゆみこ"
   },
   "yuriko-asano": {
     "name": "浅野友理子",
     "nameRomaji": "Yuriko Asano",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "あさのゆりこ"
   },
   "yuriko-sasaoka": {
     "name": "笹岡由梨子",
     "nameRomaji": "Yuriko Sasaoka",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ささおかゆりこ"
   },
   "yusuke-obuchi-jun-nakamura": {
     "name": "小渕祐介＋中村 純",
     "nameRomaji": "Yusuke Obuchi + Jun Nakamura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おぶちゆうすけなかむらじゅん"
   },
   "yusuke-omuro-kawachogumi": {
     "name": "大室佑介＋川長組",
     "nameRomaji": "Yusuke Omuro + Kawachogumi",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "おおむろゆうすけかわちょうぐみ"
   },
   "yuzo-saeki": {
     "name": "佐伯祐三",
     "nameRomaji": "Yuzo Saeki",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さえきゆうぞう"
   },
   "zai-nomura": {
     "name": "野村在",
     "nameRomaji": "Zai Nomura",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "のむらざい"
   },
   "zhao-zhe": {
     "name": "趙浙",
     "nameRomaji": "Zhao Zhe",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ちょうせつ"
   }
 }
