@@ -194,3 +194,10 @@ main.wide .share{max-width:880px;margin-left:auto;margin-right:auto}
 .btn.alt:hover{background:var(--ink);border-color:var(--ink);color:#fff}
 .btn.line:hover{background:#05a648;border-color:#05a648}
 .btn.disabled:hover{background:var(--line);border-color:var(--line);color:var(--muted)}
+/* 検索結果の下に固定する通知の帯：濃いコーラルで画面の横いっぱい */
+body{overflow-x:clip}
+#alert{width:100vw;margin-left:calc(50% - 50vw);margin-right:0;border-radius:0;background:var(--coral);color:#fff;padding:14px max(24px,calc(50vw - 416px));box-shadow:0 -6px 20px rgba(32,37,45,.12)}
+#alert .dot{background:#fff}
+#alert .btn.alt{background:transparent;border-color:#fff;color:#fff}
+#alert .btn.alt:hover{background:#fff;border-color:#fff;color:var(--coral)}
+@media (max-width:640px){#alert{padding:10px 16px}}
