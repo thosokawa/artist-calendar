@@ -94,7 +94,7 @@ for (const museum of museums) {
   // COLLECT_FAKE_EXTRACTION (a JSON file of {museumId: [...]}) replaces the Claude call in tests.
   const result = process.env.COLLECT_FAKE_EXTRACTION
     ? { ok: true, exhibitions: readJson(process.env.COLLECT_FAKE_EXTRACTION)[museum.id] ?? [] }
-    : await extractExhibitions({ museum, pageText: text, today });
+    : await extractExhibitions({ museum, pageText: text, today }).catch((e) => ({ ok: false, reason: e.message }));
   if (!result.ok) {
     console.log(`  reading failed: ${result.reason}`);
     alerts.push(`- ${museum.name}: ページは変わりましたが自動で読み取れませんでした (${result.reason})`);
