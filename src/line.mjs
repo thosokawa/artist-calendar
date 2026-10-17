@@ -2,8 +2,9 @@
 // Pure functions where possible, so they can be tested in Node.
 
 export const SLUG = /^[a-z0-9][a-z0-9-]{0,79}$/;
-export const MAX_FOLLOWS = 200;
-export const MAX_SEARCHES = 10;
+// Free plan limits. People already over them keep what they registered; only new registrations are refused.
+export const MAX_FOLLOWS = 3;
+export const MAX_SEARCHES = 1;
 
 const enc = new TextEncoder();
 const b64 = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf)));

@@ -43,7 +43,7 @@ async function handle(event, { db, names, museumNames, siteUrl }) {
     if (!SLUG.test(action.slug ?? '') || !name) return [{ type: 'text', text: 'その作家が見つかりませんでした。作家名を送ってください。' }];
     if (action.kind === 'follow') {
       const mine = await follows(db, userId);
-      if (!mine.includes(action.slug) && mine.length >= MAX_FOLLOWS) return [{ type: 'text', text: `登録できるのは${MAX_FOLLOWS}人までです。「一覧」から解除してください。` }];
+      if (!mine.includes(action.slug) && mine.length >= MAX_FOLLOWS) return [{ type: 'text', text: `無料で登録できる作家は${MAX_FOLLOWS}人までです。「一覧」から解除すると入れ替えられます。（もっと登録できる有料プランを準備中です）` }];
       await db.prepare('INSERT OR IGNORE INTO follows (user_id, artist) VALUES (?, ?)').bind(userId, action.slug).run();
       return [{ type: 'text', text: `「${name}」を登録しました。新しい展覧会が決まったらお知らせします。\n今の展覧会: ${siteUrl}/artists/${action.slug}/` }];
     }
@@ -56,7 +56,7 @@ async function handle(event, { db, names, museumNames, siteUrl }) {
     const query = filterQuery(f, { alertOnly: true });
     const label = describeFilter(f, { museumNames, alertOnly: true }).slice(0, 120);
     const mine = await savedSearches(db, userId);
-    if (mine.length >= MAX_SEARCHES) return [{ type: 'text', text: `登録できる条件は${MAX_SEARCHES}件までです。「一覧」から解除してください。` }];
+    if (mine.length >= MAX_SEARCHES) return [{ type: 'text', text: `無料で登録できる条件は${MAX_SEARCHES}つまでです。「一覧」から解除すると入れ替えられます。（もっと登録できる有料プランを準備中です）` }];
     await db.prepare('INSERT OR IGNORE INTO searches (user_id, query, label) VALUES (?, ?, ?)').bind(userId, query, label).run();
     return [{ type: 'text', text: `条件「${label}」を登録しました。合う展覧会が新しく発表されたらお知らせします。\n今の検索結果: ${siteUrl}/search/?${query}` }];
   }
