@@ -7,6 +7,7 @@
 //
 // Usage: node scripts/collect.mjs [--dry-run] [--only=<id>[,<id>...]] [--force] [--debug]
 //   --debug prints the start of each page's text and everything Claude read from it.
+//   --baseline records what it finds without announcing it (for re-reading after a fix).
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -20,6 +21,7 @@ const dryRun = args.has('--dry-run');
 const force = args.has('--force');
 const only = [...args].find((a) => a.startsWith('--only='))?.slice(7).split(',').filter(Boolean);
 const debug = args.has('--debug');
+const baseline = args.has('--baseline');
 const now = new Date();
 const today = process.env.COLLECT_TODAY ?? now.toISOString().slice(0, 10);
 const MIN_TEXT = 200;
@@ -118,7 +120,7 @@ for (const museum of museums) {
   writeJson(exPath, exhibitions);
   addedCount += added.length;
   // The first reading of a museum only sets the baseline: its shows are not "newly announced".
-  const firstReading = !st.hash;
+  const firstReading = !st.hash || baseline;
   for (const e of added) {
     console.log(`  + ${e.title} (${e.startDate}〜${e.endDate})${firstReading ? ' [baseline]' : ''}`);
     if (!firstReading) announcements.push({ date: today, exhibitionId: e.id, museumId: museum.id, artists: e.artists });

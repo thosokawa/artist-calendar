@@ -19,6 +19,10 @@ on:
         description: 'ページの中身と読み取り結果をログに出す'
         type: boolean
         default: false
+      baseline:
+        description: '見つかった展覧会を新着として通知しない'
+        type: boolean
+        default: false
 permissions:
   contents: write
   issues: write
@@ -32,7 +36,7 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: node scripts/collect.mjs ${ONLY:+--only=$ONLY} ${{ inputs.force && '--force' || '' }} ${{ inputs.debug && '--debug' || '' }}
+      - run: node scripts/collect.mjs ${ONLY:+--only=$ONLY} ${{ inputs.force && '--force' || '' }} ${{ inputs.debug && '--debug' || '' }} ${{ inputs.baseline && '--baseline' || '' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ONLY: ${{ inputs.only }}
