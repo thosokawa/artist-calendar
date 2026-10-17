@@ -24,7 +24,7 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       LINE_CHANNEL_SECRET: ${{ secrets.LINE_CHANNEL_SECRET }}
       LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-      SITE: https://artist-calendar.pages.dev
+      SITE: https://artping.app
     steps:
       - uses: actions/checkout@v4
         with:

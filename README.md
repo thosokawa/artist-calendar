@@ -22,7 +22,7 @@
 
 - `ANTHROPIC_API_KEY` 展覧会の読み取り
 - `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` 公開（Cloudflare Pages の `artist-calendar` プロジェクト）。トークンには Pages Edit と D1 Edit の権限が必要
-- `LINE_CHANNEL_SECRET` / `LINE_CHANNEL_ACCESS_TOKEN` LINE ボット。LINE Developers で Webhook URL を `https://artist-calendar.pages.dev/api/line` にし、応答メッセージをオフにする
+- `LINE_CHANNEL_SECRET` / `LINE_CHANNEL_ACCESS_TOKEN` LINE ボット。LINE Developers で Webhook URL を `https://artping.app/api/line` にし、応答メッセージをオフにする
 - `site.config.json` の `lineBasicId` に LINE のボット基本ID（@xxxx）を入れると、作家ページに登録ボタンが出る
 
 ## 方針
