@@ -33,6 +33,12 @@ function shareBox(site, path, title) {
 <script>document.querySelectorAll('.sb.copy').forEach((b) => b.addEventListener('click', async () => {
   if (navigator.share && matchMedia('(pointer:coarse)').matches) { try { await navigator.share({ title: b.dataset.title, url: b.dataset.url }); return; } catch {} }
   try { await navigator.clipboard.writeText(b.dataset.url); b.nextElementSibling.hidden = false; } catch { prompt('このURLをコピーしてください', b.dataset.url); }
+}));
+// On phones the Facebook web sharer asks for a browser login, so hand off to the phone's share sheet (it lists the Facebook app).
+document.querySelectorAll('.sb.fb').forEach((a) => a.addEventListener('click', async (e) => {
+  if (!(navigator.share && matchMedia('(pointer:coarse)').matches)) return;
+  e.preventDefault(); const c = a.parentElement.querySelector('.sb.copy');
+  try { await navigator.share({ title: c.dataset.title, url: c.dataset.url }); } catch (err) { if (err.name !== 'AbortError') location.href = a.href; }
 }));</script>`;
 }
 
