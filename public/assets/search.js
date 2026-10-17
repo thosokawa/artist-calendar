@@ -31,7 +31,24 @@ function writeForm(f) {
   form.elements.from.value = f.from;
   form.elements.to.value = f.to;
   form.elements.sort.value = f.sort;
-  if (f.museums.length) form.querySelector('details.museums').open = true;
+  if (f.museums.length) form.querySelector('[data-facet=museum]').open = true;
+}
+
+// What each folded row has chosen, e.g. 地域「関東・京都府」.
+function updateFacetLabels(f) {
+  const names = (list, all) => list.map((v) => all.find((i) => i.value === v)?.closest('label').querySelector('span').textContent ?? v);
+  const pick = (sel) => [...form.querySelectorAll(sel)];
+  const sel = {
+    area: [...names(f.areas, pick('input[name=area]')), ...f.prefs],
+    genre: f.genres,
+    museum: names(f.museums, pick('input[name=museum]')),
+    when: [f.when ? form.elements.when.selectedOptions[0].textContent : '', f.special ? '企画展のみ' : ''].filter(Boolean),
+  };
+  for (const [k, v] of Object.entries(sel)) {
+    const el = form.querySelector(`[data-sel=${k}]`);
+    el.textContent = v.length ? v.join('・') : '指定なし';
+    el.classList.toggle('on', v.length > 0);
+  }
 }
 
 // How many results each choice would give, with the rest of the condition kept.
@@ -65,6 +82,8 @@ function render({ resetPaging = true } = {}) {
   form.classList.toggle('show-range', f.when === 'range');
   const hits = sortResults(data.filter((r) => matchExhibition(r, f, today)), f);
   document.getElementById('count').textContent = `${hits.length}件`;
+  document.getElementById('go').textContent = `${hits.length}件の展覧会を見る`;
+  updateFacetLabels(f);
   document.getElementById('summary').textContent = describeFilter(f, { museumNames });
   out.innerHTML = hits.length ? hits.slice(0, shown).map(card).join('') : '<li class="empty">条件に合う展覧会はありません。条件を減らしてみてください。</li>';
   more.hidden = hits.length <= shown;
@@ -93,7 +112,13 @@ function render({ resetPaging = true } = {}) {
 
 writeForm(parseFilter(location.search));
 form.addEventListener('input', () => render());
-form.addEventListener('submit', (e) => { e.preventDefault(); render(); });
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  render();
+  for (const d of form.querySelectorAll('details.facet')) d.open = false;
+  document.activeElement?.blur();
+  document.getElementById('result-area').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
 form.addEventListener('reset', () => setTimeout(() => render()));
 more.addEventListener('click', () => { shown += PAGE; render({ resetPaging: false }); });
 document.getElementById('copy-link').addEventListener('click', async (e) => {
