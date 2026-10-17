@@ -19,10 +19,10 @@ export function exhibitionId(museumId, x) {
 
 const validDate = (d) => /^\d{4}-\d{2}-\d{2}$/.test(d ?? '') && !Number.isNaN(Date.parse(d));
 
-/** Same show? Same museum and start date, and either the same title or at least one shared artist. */
+/** Same show? Same museum and start date, and the same end date, the same title or at least one shared artist. */
 function sameShow(a, b) {
   if (a.startDate !== b.startDate) return false;
-  if (normalizeTitle(a.title) === normalizeTitle(b.title)) return true;
+  if (a.endDate === b.endDate || normalizeTitle(a.title) === normalizeTitle(b.title)) return true;
   return a.artists.some((s) => b.artists.includes(s));
 }
 

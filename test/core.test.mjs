@@ -37,6 +37,9 @@ test('merge adds new shows once and updates them when the title is finalized', (
   assert.equal(second.exhibitions[0].id, id);
   assert.equal(second.exhibitions[0].endDate, '2027-08-30');
   assert.equal(second.exhibitions[0].firstSeenAt, '2026-10-16');
+  // A differently worded title with no artists named is still the same show when the dates match.
+  const third = mergeExhibitions({ museumId: 'momat', stored: second.exhibitions, fresh: [raw({ title: '見／世／物', artists: [], endDate: '2027-08-30' })], registry: reg, today: '2026-11-02' });
+  assert.equal(third.added.length, 0);
 });
 
 test('merge drops entries with bad dates', () => {

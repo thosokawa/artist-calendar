@@ -109,9 +109,11 @@ for (const museum of museums) {
   const { exhibitions, added } = mergeExhibitions({ museumId: museum.id, stored: readJson(exPath, []), fresh, registry, today });
   writeJson(exPath, exhibitions);
   addedCount += added.length;
+  // The first reading of a museum only sets the baseline: its shows are not "newly announced".
+  const firstReading = !st.hash;
   for (const e of added) {
-    console.log(`  + ${e.title} (${e.startDate}〜${e.endDate})`);
-    announcements.push({ date: today, exhibitionId: e.id, museumId: museum.id, artists: e.artists });
+    console.log(`  + ${e.title} (${e.startDate}〜${e.endDate})${firstReading ? ' [baseline]' : ''}`);
+    if (!firstReading) announcements.push({ date: today, exhibitionId: e.id, museumId: museum.id, artists: e.artists });
   }
   st.hash = hash;
 }

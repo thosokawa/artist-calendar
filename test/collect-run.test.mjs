@@ -27,13 +27,18 @@ test('new exhibitions are added once and announced; invented titles are dropped'
     assert.match(first, /skipped: 存在しない展覧会/);
     assert.match(first, /1 new exhibition/);
     assert.match(await run(), /unchanged/);
-    body += '<p>お知らせを更新しました</p>';
-    assert.match(await run(), /0 new exhibition/);
+    // First reading is the baseline: nothing announced yet.
+    assert.equal(JSON.parse(readFileSync(join(root, 'data/announcements.json'), 'utf8')).length, 0);
+    body += '<h2>斬新！速水御舟</h2><p>2027.3.19 - 5.9</p>';
+    const gyoshu = { ...yumeji, title: '斬新！速水御舟', startDate: '2027-03-19', endDate: '2027-05-09', artists: [{ name: '速水御舟', nameRomaji: 'Gyoshu Hayami' }] };
+    writeFileSync(fake, JSON.stringify({ demo: [yumeji, gyoshu] }));
+    assert.match(await run(), /1 new exhibition/);
     const ex = JSON.parse(readFileSync(join(root, 'data/exhibitions/demo.json'), 'utf8'));
-    assert.equal(ex.length, 1);
+    assert.equal(ex.length, 2);
     assert.deepEqual(ex[0].artists, ['yumeji-takehisa']);
     const ann = JSON.parse(readFileSync(join(root, 'data/announcements.json'), 'utf8'));
     assert.equal(ann.length, 1);
+    assert.deepEqual(ann[0].artists, ['gyoshu-hayami']);
     assert.equal(JSON.parse(readFileSync(join(root, 'data/artists.json'), 'utf8'))['yumeji-takehisa'].name, '竹久夢二');
   } finally {
     server.close();
