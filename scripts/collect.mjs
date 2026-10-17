@@ -54,8 +54,13 @@ async function fetchWithBrowser(url) {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
     await page.waitForTimeout(4000);
     return htmlToText(await page.content());
+  } catch (e) {
+    // A hung page can leave the browser unusable for the next museums; start a fresh one.
+    await browser.close().catch(() => {});
+    browser = undefined;
+    throw e;
   } finally {
-    await page.close();
+    await page.close().catch(() => {});
   }
 }
 
