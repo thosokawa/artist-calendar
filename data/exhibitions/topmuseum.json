@@ -13,7 +13,7 @@
       "写真"
     ],
     "detailUrl": null,
-    "summary": "奈良女子大学の長谷研究室が手がけ、森山大道の写真と複製をめぐる感性に着目して地下1階で紹介する展示。",
+    "summary": "奈良女子大学の研究室と組み、写真家森山大道の感性と複製をテーマに地下1階展示室で紹介する展示です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
   },
@@ -38,12 +38,28 @@
       "fumiko-imano"
     ],
     "genres": [
-      "写真",
-      "現代美術"
+      "現代美術",
+      "写真"
     ],
-    "detailUrl": "https://topmuseum.jp/exhibition/5421/",
-    "summary": "「デュエット」を題に掲げ、アジアの現代の表現に焦点を当てて2階展示室で紹介する展覧会。",
+    "detailUrl": null,
+    "summary": "アジアの現代表現をテーマにした企画展で、2階展示室を会場に翌年1月中旬まで開催されています。",
     "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "topmuseum-20260930-4a5709",
+    "museumId": "topmuseum",
+    "title": "ふたたびくみたてる 日本の新進作家 vol.23",
+    "startDate": "2026-09-30",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "日本の新進作家を紹介するシリーズの第23回で、3階展示室を会場に冬まで開かれる展覧会です。",
+    "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   },
   {

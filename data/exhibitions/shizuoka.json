@@ -15,9 +15,27 @@
     "genres": [
       "日本画"
     ],
-    "detailUrl": "https://spmoa.shizuoka.shizuoka.jp/exhibition/detail/139",
-    "summary": "館の収蔵品の中から山水を描いた優れた作品を選び出し、その魅力をあらためて紹介する収蔵品展です。",
+    "detailUrl": null,
+    "summary": "館が所蔵する作品の中から、山や水辺の風景を描いた山水画の優品を選んで紹介する収蔵品展です。",
     "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "shizuoka-20261010-09c38a",
+    "museumId": "shizuoka",
+    "title": "ゴールドマン コレクション 河鍋暁斎の世界",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "kawanabe-kyosai"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "ゴールドマン氏が集めた作品を通して、幕末から明治にかけて活躍した絵師・河鍋暁斎の画業に触れられる企画展です。",
+    "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   },
   {
@@ -32,7 +50,7 @@
     ],
     "genres": [],
     "detailUrl": null,
-    "summary": "開館40周年を記念し、これまで美術館に寄せられた寄贈作品に光を当てて、その歩みを振り返る展覧会です。",
+    "summary": "開館40周年を記念し、これまで館に寄せられた寄贈作品に光を当て、コレクションを支えてきた善意を振り返る展覧会です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
   }

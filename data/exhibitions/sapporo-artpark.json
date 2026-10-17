@@ -18,7 +18,29 @@
       "デザイン"
     ],
     "detailUrl": null,
-    "summary": "館の所蔵品から、五十嵐威暢が手がけた動物をテーマにしたイラストレーションをB展示室で紹介する展示です。",
+    "summary": "館の所蔵品の中から、五十嵐威暢が手がけた動物のイラストレーションを取り上げて紹介するコレクション展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "sapporo-artpark-20261010-3175b4",
+    "museumId": "sapporo-artpark",
+    "title": "五大浮世絵師 歌麿に写楽、北斎と広重、そして国芳",
+    "startDate": "2026-10-10",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "kitagawa-utamaro",
+      "toshusai-sharaku",
+      "katsushika-hokusai",
+      "utagawa-hiroshige",
+      "utagawa-kuniyoshi"
+    ],
+    "genres": [
+      "浮世絵"
+    ],
+    "detailUrl": null,
+    "summary": "歌麿や写楽、北斎、広重、国芳という江戸を代表する五人の浮世絵師の作品をまとめて紹介する特別展。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   }

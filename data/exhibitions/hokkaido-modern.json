@@ -18,7 +18,7 @@
       "現代美術"
     ],
     "detailUrl": null,
-    "summary": "北海道で活動する障がいのあるアーティストの作品を館蔵品と合わせ、三つのキーワードで制作の在り方を見つめる展覧会。",
+    "summary": "北海道で活動する障がいのあるアーティストの作品を館蔵品と並べ、三つの切り口で制作の動機や手法に迫る展覧会。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
   },
@@ -37,7 +37,7 @@
       "現代美術"
     ],
     "detailUrl": null,
-    "summary": "日用品とジオラマ人形で別の物を見立てるミニチュア写真家の遊び心ある作品を、写真や立体など約180点で紹介する。",
+    "summary": "小さな人形と日用品を組み合わせ別の物に見立てる作家の、遊び心ある写真や立体約180点を一堂に紹介する。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
   },
@@ -57,9 +57,28 @@
     "genres": [
       "日本画"
     ],
-    "detailUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/337",
-    "summary": "札幌国際芸術祭2027と連携し、雪をめぐる作品を当館のコレクションから選んで紹介する所蔵品展。",
+    "detailUrl": null,
+    "summary": "札幌国際芸術祭2027と連携し、雪をめぐる表現を当館の所蔵作品からたどる近美コレクションの展示。",
     "firstSeenAt": "2026-10-16",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "hokkaido-modern-20270109-e79a55",
+    "museumId": "hokkaido-modern",
+    "title": "文字とアート－ポップ・アートから書まで",
+    "startDate": "2027-01-09",
+    "endDate": "2027-04-11",
+    "kind": "special",
+    "artists": [
+      "otei-kaneko"
+    ],
+    "genres": [
+      "書",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "函館美術館の所蔵品から、ポップ・アートや書など文字を題材や素材とした多彩な作品を集めて紹介する特別展。",
+    "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "niigata-kinbi-20260908-6f878d",
     "museumId": "niigata-kinbi",
-    "title": "作品の中のきもの／祈りと叫び 宗教主題のドイツ表現主義版画を中心に／近代美術館の名品",
+    "title": "祈りと叫び 宗教主題のドイツ表現主義版画を中心に",
     "startDate": "2026-09-08",
     "endDate": "2026-11-23",
     "kind": "collection",
@@ -11,7 +11,35 @@
       "版画"
     ],
     "detailUrl": null,
-    "summary": "作品に描かれたきもの、宗教を題材としたドイツ表現主義の版画、館の名品という三つの切り口で収蔵品を紹介します。",
+    "summary": "宗教的な主題を扱ったドイツ表現主義の版画を中心に、信仰や苦悩を強い表現で刻んだ作品群を見せる所蔵品展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "niigata-kinbi-20260908-401b01",
+    "museumId": "niigata-kinbi",
+    "title": "作品の中のきもの",
+    "startDate": "2026-09-08",
+    "endDate": "2026-11-23",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "館の所蔵作品に描かれたきものに着目し、美術作品の中で衣装がどのように表現されているかを紹介するコレクション展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "niigata-kinbi-20260908-8fd1b2",
+    "museumId": "niigata-kinbi",
+    "title": "近代美術館の名品",
+    "startDate": "2026-09-08",
+    "endDate": "2026-11-23",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "新潟県立近代美術館が収蔵する代表的な作品を選び、第3期のコレクション展の一部として紹介する名品展示。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   },
@@ -24,17 +52,18 @@
     "kind": "special",
     "artists": [],
     "genres": [
-      "工芸"
+      "工芸",
+      "デザイン"
     ],
     "detailUrl": null,
-    "summary": "京都の老舗千總の所蔵品を軸に、平面の布が衣服になるまでの工夫を意匠と制作の両面から探る企画展です。",
+    "summary": "京都の老舗・千總の収蔵品を軸に、友禅のきものがどう意匠化され仕立てられるのかを、図案と制作の両面から探る企画展。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   },
   {
     "id": "niigata-kinbi-20261201-f1f63c",
     "museumId": "niigata-kinbi",
-    "title": "生誕100年 前田常作／江口草玄の書―ことばの姿—／近代美術館の名品",
+    "title": "江口草玄の書―ことばの姿—",
     "startDate": "2026-12-01",
     "endDate": "2027-02-21",
     "kind": "collection",
@@ -43,11 +72,24 @@
       "sogen-eguchi"
     ],
     "genres": [
-      "洋画",
       "書"
     ],
     "detailUrl": null,
-    "summary": "生誕100年を迎える前田常作と、言葉の姿を表す江口草玄の書、さらに館の名品を合わせて紹介する収蔵品展です。",
+    "summary": "書家・江口草玄の作品を取り上げ、文字として書かれたことばが持つ造形的な姿を味わうコレクション展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "niigata-kinbi-20261201-8fd1b2",
+    "museumId": "niigata-kinbi",
+    "title": "近代美術館の名品",
+    "startDate": "2026-12-01",
+    "endDate": "2027-02-21",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "第4期のコレクション展の一部として、新潟県立近代美術館の収蔵品から選りすぐった名品の数々を紹介する展示。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   },
@@ -63,7 +105,7 @@
     ],
     "genres": [],
     "detailUrl": null,
-    "summary": "松岡達英が手がけた科学絵本を通じて生き物の姿を見つめ、子どもにも大人にも向けて紹介する展覧会です。",
+    "summary": "科学絵本の作家・松岡達英が描いた生き物の姿を通じて、子どもから大人まで生命の不思議を感じられる企画展。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   }

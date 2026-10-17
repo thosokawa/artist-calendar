@@ -23,8 +23,8 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c02/",
-    "summary": "館の代表的な収蔵作家であるセザンヌに焦点を当て、その伝説的な存在を所蔵作品から読み解くコレクション展です。",
+    "detailUrl": null,
+    "summary": "近代絵画の父と称されるセザンヌに焦点を当て、所蔵品を通じてその存在の大きさをたどるコレクション展。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
   },
@@ -43,9 +43,29 @@
       "メディアアート",
       "現代美術"
     ],
-    "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c01/",
-    "summary": "新たに収蔵した映像作品を前後期で一点ずつ初公開し、マークレー《ドア》とリヒターの動く絵画を紹介する。",
+    "detailUrl": null,
+    "summary": "開館25周年を記念し、映像をテーマに館の所蔵作品を紹介するコレクション展で、関連トークも予定されている。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "pola-20260617-82eca5",
+    "museumId": "pola",
+    "title": "モネ没後100年・開館25周年記念 あたらしい目―モネと21世紀のアート",
+    "startDate": "2026-06-17",
+    "endDate": "2027-04-07",
+    "kind": "special",
+    "artists": [
+      "claude-monet",
+      "yojiro-imasaka"
+    ],
+    "genres": [
+      "洋画",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "没後100年を迎えるモネの眼差しを手がかりに、21世紀の美術表現との響き合いを探る開館25周年の企画展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
   }
 ]

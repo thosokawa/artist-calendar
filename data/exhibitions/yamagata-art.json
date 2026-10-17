@@ -8,11 +8,27 @@
     "kind": "collection",
     "artists": [],
     "genres": [
-      "日本画",
-      "古美術"
+      "日本画"
     ],
     "detailUrl": null,
-    "summary": "長谷川コレクションの所蔵品から東洋や日本の美術作品を選び、その魅力を気軽に味わえるよう紹介する通年の収蔵品展です。",
+    "summary": "長谷川コレクションの所蔵作品を中心に、東洋や日本の美術の魅力を気軽に楽しめるよう紹介する通年の収蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "yamagata-art-20260403-17ab81",
+    "museumId": "yamagata-art",
+    "title": "吉野石膏コレクション・服部コレクション・山形の美術 ─東西にまたがる美の世界",
+    "startDate": "2026-04-03",
+    "endDate": "2027-03-22",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "館が収蔵する三つのコレクションを通して、東洋と西洋にまたがる多彩な美術の世界を一年を通じて紹介する収蔵品展です。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-17"
   }
