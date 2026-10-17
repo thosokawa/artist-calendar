@@ -168,3 +168,13 @@ main.wide .share{max-width:880px;margin-left:auto;margin-right:auto}
 .sb.copy{background:#fff;color:var(--ink);border:2px solid var(--ink)}
 .sb.copy svg{width:20px;height:20px}
 .sb.line svg{width:28px;height:28px}
+
+/* search band: solid coral, white text; the field is a plain square (no outline, no rounded corners) like the logo */
+.hero-search{background:var(--coral);color:#fff}
+.hero-search .tag i{background:#fff}
+.hero-search .more-search{color:rgba(255,255,255,.9)}
+.hero-search .more-search a{color:#fff;font-weight:700}
+.search-big{border:0;border-radius:0;padding:6px;background:#fff}
+.search-big button{border-radius:0}
+.search .search-big{border:6px solid var(--coral)}
+.search-q input{border-radius:0}
