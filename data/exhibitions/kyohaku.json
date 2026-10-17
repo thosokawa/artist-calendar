@@ -35,7 +35,7 @@
       "工芸",
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6587-22",
     "summary": "茶の湯で湯を沸かすための釜に焦点を当て、金工作品としての造形や魅力を伝える金工展示室での展示です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
@@ -52,7 +52,7 @@
       "彫刻",
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6582-22",
     "summary": "仏像を見るための基本を知る手がかりとして、彫刻展示室で仏像の数々を紹介する入門的な内容の展示です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
@@ -69,7 +69,7 @@
       "書",
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6583-22",
     "summary": "『古今和歌集』を書写した古筆を集め、和歌と書の美しさをあわせて味わえる書跡展示室での展示です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
@@ -87,23 +87,6 @@
     ],
     "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6573-22",
     "summary": "室町将軍家に仕えた同朋衆の絵師たち、阿弥派による水墨画を紹介する中世絵画の展示の前半。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
-  },
-  {
-    "id": "kyohaku-20261222-9fe460",
-    "museumId": "kyohaku",
-    "title": "『古今和歌集』の古筆",
-    "startDate": "2026-12-22",
-    "endDate": "2027-01-24",
-    "kind": "collection",
-    "artists": [],
-    "genres": [
-      "書",
-      "古美術"
-    ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6583-22",
-    "summary": "最初の勅撰和歌集『古今和歌集』を書き写した平安・鎌倉期の古筆の名品を味わう書跡の展示。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-16"
   },
@@ -158,23 +141,6 @@
     "lastSeenAt": "2026-10-16"
   },
   {
-    "id": "kyohaku-20261222-33c00b",
-    "museumId": "kyohaku",
-    "title": "茶の湯釜",
-    "startDate": "2026-12-22",
-    "endDate": "2027-02-07",
-    "kind": "collection",
-    "artists": [],
-    "genres": [
-      "工芸",
-      "古美術"
-    ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6587-22",
-    "summary": "芦屋釜や天明釜など、茶の湯で湯を沸かす釜の形や文様の見どころを紹介する金工の展示。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
-  },
-  {
     "id": "kyohaku-20261222-ecdd81",
     "museumId": "kyohaku",
     "title": "アニマル☆蒔絵—漆芸にみる動物表現—",
@@ -192,23 +158,6 @@
     "lastSeenAt": "2026-10-16"
   },
   {
-    "id": "kyohaku-20261222-abc3c3",
-    "museumId": "kyohaku",
-    "title": "仏像入門",
-    "startDate": "2026-12-22",
-    "endDate": "2027-03-22",
-    "kind": "collection",
-    "artists": [],
-    "genres": [
-      "彫刻",
-      "古美術"
-    ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6582-22",
-    "summary": "如来・菩薩・明王・天といった仏像の種類や見分け方を、館の彫刻作品を通して学べる入門的な展示。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
-  },
-  {
     "id": "kyohaku-20270102-89182c",
     "museumId": "kyohaku",
     "title": "特別公開 和束谷の開拓者―原山古墳被葬者の実像―",
@@ -219,26 +168,10 @@
     "genres": [
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/?date=02#Theme6569-02",
     "summary": "原山古墳に葬られた人物の姿に迫り、和束谷を切り開いた人々について考古資料から探る特別公開です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "kyohaku-20270102-a6c79d",
-    "museumId": "kyohaku",
-    "title": "特別公開 和束谷の開拓者―原山古墳被葬者の実像―",
-    "startDate": "2027-01-02",
-    "endDate": "2027-03-22",
-    "kind": "collection",
-    "artists": [],
-    "genres": [
-      "古美術"
-    ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/?date=02#Theme6569-02",
-    "summary": "京都府和束町の原山古墳の出土品から、谷を切り開いた被葬者の姿に迫る考古の特別公開。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
   },
   {
     "id": "kyohaku-20270126-c8de4f",
@@ -252,26 +185,10 @@
       "日本画",
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/?date=26#Theme6574-26",
     "summary": "阿弥派の絵画をめぐる二期連続企画の第二回として、引き続き中世絵画の展示室で関連作品を紹介します。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "kyohaku-20270126-454131",
-    "museumId": "kyohaku",
-    "title": "阿弥派の絵画Ⅱ",
-    "startDate": "2027-01-26",
-    "endDate": "2027-02-21",
-    "kind": "collection",
-    "artists": [],
-    "genres": [
-      "古美術"
-    ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/?date=26#Theme6574-26",
-    "summary": "室町将軍家の同朋衆として活躍した阿弥派の水墨画を、作品を替えて紹介する展示の後半。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
   },
   {
     "id": "kyohaku-20270209-ed5fd7",
@@ -284,7 +201,7 @@
     "genres": [
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/02/?date=09#Theme6581-09",
     "summary": "中国の明・清時代に描かれた山水画を取り上げ、中国絵画展示室で風景表現の多様さを紹介する展示です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
@@ -302,22 +219,6 @@
     ],
     "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/02/?date=09#Theme6578-09",
     "summary": "釈迦の入滅を嘆く弟子や動物たちを描いた涅槃図を、涅槃会の季節に合わせて紹介する仏画の展示。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
-  },
-  {
-    "id": "kyohaku-20270209-d009a6",
-    "museumId": "kyohaku",
-    "title": "明清時代の山水画",
-    "startDate": "2027-02-09",
-    "endDate": "2027-03-22",
-    "kind": "collection",
-    "artists": [],
-    "genres": [
-      "古美術"
-    ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/02/?date=09#Theme6581-09",
-    "summary": "明・清時代の中国で描かれた山水画を取り上げ、文人たちが理想とした自然観を紹介する展示。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-16"
   },

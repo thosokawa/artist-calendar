@@ -61,26 +61,10 @@
       "elena-tutatchikova"
     ],
     "genres": [],
-    "detailUrl": null,
+    "detailUrl": "https://www.tobikan.jp/exhibition/2026_archives.html",
     "summary": "開館から100年を迎えた東京都美術館の歩みを振り返り、その始まりと歴史をたどる無料の記念展覧会です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "tobikan-20261119-5c4a5c",
-    "museumId": "tobikan",
-    "title": "東京都美術館開館100周年記念 はじまりをひらく 東京都美術館の100年",
-    "startDate": "2026-11-19",
-    "endDate": "2027-01-11",
-    "kind": "special",
-    "artists": [],
-    "genres": [
-      "建築"
-    ],
-    "detailUrl": "https://www.tobikan.jp/exhibition/2026_archives.html",
-    "summary": "日本初の公立美術館として1926年に開館した東京都美術館の100年を、資料と関わった人々の活動から振り返る展示。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
   },
   {
     "id": "tobikan-20270424-009597",

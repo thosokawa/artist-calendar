@@ -34,35 +34,17 @@
       "henri-matisse",
       "pierre-bonnard",
       "maurice-utrillo",
-      "jean-baptiste-camille-corot"
-    ],
-    "genres": [],
-    "detailUrl": null,
-    "summary": "名古屋市美術館が所蔵する名品の数々を紹介するコレクション展の第二期で、その後期にあたる展示です。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "nagoya-20260919-c294d2",
-    "museumId": "nagoya",
-    "title": "常設展 名品コレクション展Ⅱ（後期）",
-    "startDate": "2026-09-19",
-    "endDate": "2026-11-29",
-    "kind": "collection",
-    "artists": [
+      "jean-baptiste-camille-corot",
       "tsuguharu-foujita",
       "diego-rivera",
       "shoichiro-osawa",
       "haru-miyawaki"
     ],
-    "genres": [
-      "洋画",
-      "現代美術"
-    ],
+    "genres": [],
     "detailUrl": "https://art-museum.city.nagoya.jp/exhibitions/post/permanent-2-second-half-2026/",
-    "summary": "生誕140年の藤田嗣治とディエゴ・リベラをはじめ、絵肌に注目した現代美術や郷土の画家を所蔵品で紹介する。",
+    "summary": "名古屋市美術館が所蔵する名品の数々を紹介するコレクション展の第二期で、その後期にあたる展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nagoya-20270206-3977cd",

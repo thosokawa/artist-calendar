@@ -23,7 +23,7 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c02/",
     "summary": "館の代表的な収蔵作家であるセザンヌに焦点を当て、その伝説的な存在を所蔵作品から読み解くコレクション展です。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
@@ -45,24 +45,6 @@
     ],
     "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c01/",
     "summary": "新たに収蔵した映像作品を前後期で一点ずつ初公開し、マークレー《ドア》とリヒターの動く絵画を紹介する。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
-  },
-  {
-    "id": "pola-20260617-5f9f05",
-    "museumId": "pola",
-    "title": "セザンヌ・レジェンド",
-    "startDate": "2026-06-17",
-    "endDate": "2027-04-07",
-    "kind": "collection",
-    "artists": [
-      "paul-cezanne"
-    ],
-    "genres": [
-      "洋画"
-    ],
-    "detailUrl": "https://www.polamuseum.or.jp/exhibition/20260617c02/",
-    "summary": "近代絵画の父セザンヌの作品を館のコレクションから紹介し、後世の画家に与えた大きな影響を見つめる展示。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-16"
   }

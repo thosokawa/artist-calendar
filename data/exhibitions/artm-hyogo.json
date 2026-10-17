@@ -33,29 +33,10 @@
     "genres": [
       "彫刻"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/j_2610/katachi.html",
     "summary": "館内に作品を設置した彫刻家・青木野枝を迎え、目で見ることと手で触れることの関係を探る小企画展示。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "artm-hyogo-20261020-d17440",
-    "museumId": "artm-hyogo",
-    "title": "小企画 美術の中のかたち―手で見る造形 青木 野枝",
-    "startDate": "2026-10-20",
-    "endDate": "2027-02-23",
-    "kind": "collection",
-    "artists": [
-      "noe-aoki"
-    ],
-    "genres": [
-      "彫刻",
-      "現代美術"
-    ],
-    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/j_2610/katachi.html",
-    "summary": "作品に触れて鑑賞できる恒例の小企画で、鉄を素材とする彫刻家・青木野枝の造形を手で味わう展示。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
   },
   {
     "id": "artm-hyogo-20261128-a177a1",

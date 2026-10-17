@@ -7,24 +7,7 @@
     "endDate": "2026-11-03",
     "kind": "collection",
     "artists": [
-      "aki-sasamoto"
-    ],
-    "genres": [
-      "現代美術"
-    ],
-    "detailUrl": null,
-    "summary": "開館50周年に向けたプレ企画として、「私」と「行為」を手がかりに所蔵作品を紹介するコレクション展。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "nmao-20260719-b97a64",
-    "museumId": "nmao",
-    "title": "開館50周年記念プレ企画 コレクション1：私／行為",
-    "startDate": "2026-07-19",
-    "endDate": "2026-11-03",
-    "kind": "collection",
-    "artists": [
+      "aki-sasamoto",
       "paul-cezanne",
       "wassily-kandinsky",
       "pablo-picasso",
@@ -37,14 +20,12 @@
       "kwak-in-sik"
     ],
     "genres": [
-      "洋画",
-      "彫刻",
       "現代美術"
     ],
     "detailUrl": "https://www.nmao.go.jp/events/event/collection20260719/",
-    "summary": "1890年代から1960年代半ばの所蔵品で、作り手の「私」と制作「行為」の捉え方の変遷をたどるコレクション展。",
+    "summary": "開館50周年に向けたプレ企画として、「私」と「行為」を手がかりに所蔵作品を紹介するコレクション展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nmao-20261010-86fa75",

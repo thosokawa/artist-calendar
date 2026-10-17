@@ -51,35 +51,15 @@
     "artists": [
       "andy-warhol",
       "otei-kaneko",
-      "kansai-honma"
-    ],
-    "genres": [
-      "日本画"
-    ],
-    "detailUrl": null,
-    "summary": "札幌国際芸術祭2027と連携し、雪をめぐる作品を当館のコレクションから選んで紹介する所蔵品展。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "hokkaido-modern-20270109-76058a",
-    "museumId": "hokkaido-modern",
-    "title": "雪々（せつせつ）と",
-    "startDate": "2027-01-09",
-    "endDate": "2027-04-11",
-    "kind": "collection",
-    "artists": [
       "kansai-honma",
       "emile-galle"
     ],
     "genres": [
-      "日本画",
-      "浮世絵",
-      "工芸"
+      "日本画"
     ],
     "detailUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/337",
-    "summary": "札幌国際芸術祭2027と連携し、絵画や浮世絵、ガラスなどに表された雪の美しさと厳しさを館蔵品でたどる展示。",
+    "summary": "札幌国際芸術祭2027と連携し、雪をめぐる作品を当館のコレクションから選んで紹介する所蔵品展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

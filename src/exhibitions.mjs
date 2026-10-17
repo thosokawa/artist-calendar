@@ -28,8 +28,11 @@ const validDate = (d) => /^\d{4}-\d{2}-\d{2}$/.test(d ?? '') && !Number.isNaN(Da
 /** Same show? Same museum and start date, and the same end date, the same title or at least one shared artist. */
 function sameShow(a, b) {
   if (a.startDate !== b.startDate) return false;
-  if (a.endDate === b.endDate || normalizeTitle(a.title) === normalizeTitle(b.title)) return true;
-  return a.artists.some((s) => b.artists.includes(s));
+  // Museums often open several shows on the same day, so matching dates alone is not enough.
+  if (normalizeTitle(a.title) === normalizeTitle(b.title) || titleSimilarity(a.title, b.title) >= 0.5) return true;
+  // A renamed solo show: same run and the same featured artist (group shows share artists too often to tell).
+  const small = (e) => e.artists.length > 0 && e.artists.length <= 3;
+  return a.endDate === b.endDate && small(a) && small(b) && a.artists.some((s) => b.artists.includes(s));
 }
 
 /**

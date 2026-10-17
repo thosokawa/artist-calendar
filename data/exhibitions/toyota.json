@@ -13,28 +13,9 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.museum.toyota.aichi.jp/exhibition/ida2026",
     "summary": "没後20年を記念して井田照一の仕事を振り返る展覧会で、代表作《Tantra》をめぐる講演会なども開かれます。",
     "firstSeenAt": "2026-10-16",
     "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "toyota-20261024-64263b",
-    "museumId": "toyota",
-    "title": "没後20年 井田照一展",
-    "startDate": "2026-10-24",
-    "endDate": "2027-01-24",
-    "kind": "special",
-    "artists": [
-      "shoichi-ida"
-    ],
-    "genres": [
-      "版画",
-      "現代美術"
-    ],
-    "detailUrl": "https://www.museum.toyota.aichi.jp/exhibition/ida2026",
-    "summary": "版画を起点に絵画や彫刻へ展開した井田照一の回顧展で、連作《Tantra》全401点を初めて一挙に公開する。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
   }
 ]

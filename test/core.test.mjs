@@ -52,6 +52,13 @@ test('merge folds a show that was stored twice', () => {
   assert.equal(added.length, 0);
 });
 
+test('merge keeps different shows that open on the same day', () => {
+  const show = (title, artists) => ({ title, startDate: '2026-10-10', endDate: '2027-01-11', kind: 'special', artists: artists.map((name) => ({ name, nameRomaji: '' })), genres: [], detailUrl: null, summary: '' });
+  const crowd = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
+  const r = mergeExhibitions({ museumId: 'm', stored: [], fresh: [show('茶の湯釜', []), show('仏像入門', []), show('セザンヌ・レジェンド', crowd), show('コレクション・シネマ', ['L'])], registry: {}, today: '2026-10-17' });
+  assert.equal(r.exhibitions.length, 4);
+});
+
 test('merge drops entries with bad dates', () => {
   const r = mergeExhibitions({ museumId: 'x', stored: [], fresh: [raw({ startDate: '2027年春' }), raw({ endDate: '2027-01-01' })], registry: {}, today: '2026-10-16' });
   assert.equal(r.exhibitions.length, 0);

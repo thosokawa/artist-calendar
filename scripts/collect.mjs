@@ -5,7 +5,8 @@
 //   fetch failing 3+ times in a row -> listed in data/monitor/alerts.md
 // Exhibitions whose title cannot be found on the page are dropped, to catch invented entries.
 //
-// Usage: node scripts/collect.mjs [--dry-run] [--only=<museum-id>] [--force]
+// Usage: node scripts/collect.mjs [--dry-run] [--only=<id>[,<id>...]] [--force] [--debug]
+//   --debug prints the start of each page's text and everything Claude read from it.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -17,7 +18,8 @@ const root = process.env.ART_ROOT ?? join(dirname(fileURLToPath(import.meta.url)
 const args = new Set(process.argv.slice(2));
 const dryRun = args.has('--dry-run');
 const force = args.has('--force');
-const only = [...args].find((a) => a.startsWith('--only='))?.slice(7);
+const only = [...args].find((a) => a.startsWith('--only='))?.slice(7).split(',').filter(Boolean);
+const debug = args.has('--debug');
 const now = new Date();
 const today = process.env.COLLECT_TODAY ?? now.toISOString().slice(0, 10);
 const MIN_TEXT = 200;
@@ -69,7 +71,7 @@ const alerts = [];
 let addedCount = 0;
 const museums = readdirSync(join(root, 'data/museums')).filter((f) => f.endsWith('.json')).map((f) => readJson(join(root, 'data/museums', f)));
 for (const museum of museums) {
-  if (only && museum.id !== only) continue;
+  if (only?.length && !only.includes(museum.id)) continue;
   if (museum.status === 'closed') continue;
   const st = (status[museum.id] ??= { failures: 0 });
   let text;
@@ -84,6 +86,8 @@ for (const museum of museums) {
     continue;
   }
   st.failures = 0;
+  delete st.lastError;
+  if (debug) console.log(`--- ${museum.id}: ${text.length} chars\n${text.slice(0, 1500)}\n---`);
   st.lastCheckedAt = now.toISOString();
   const hash = sha256(text);
   if (st.hash === hash && !force) {
@@ -102,6 +106,7 @@ for (const museum of museums) {
     alerts.push(`- ${museum.name}: ページは変わりましたが自動で読み取れませんでした (${result.reason})`);
     continue;
   }
+  if (debug) console.log(`  Claude read ${result.exhibitions.length}: ${JSON.stringify(result.exhibitions.map((x) => [x.title, x.startDate, x.endDate]))}`);
   const fresh = result.exhibitions.filter((x) => {
     // Very long runs are permanent installations, not exhibitions.
     const ok = titleOnPage(x.title, text) && x.endDate >= today && Date.parse(x.endDate) - Date.parse(x.startDate) < 730 * 86400e3;

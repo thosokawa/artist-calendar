@@ -95,25 +95,7 @@
     "endDate": "2026-11-29",
     "kind": "collection",
     "artists": [
-      "sengai"
-    ],
-    "genres": [
-      "書",
-      "古美術"
-    ],
-    "detailUrl": null,
-    "summary": "禅僧仙厓の作品を館蔵品から紹介する展覧会の後期展示で、古美術企画展示室にて公開されます。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "fukuoka-city-20260930-86af0a",
-    "museumId": "fukuoka-city",
-    "title": "仙厓展 後期展示",
-    "startDate": "2026-09-30",
-    "endDate": "2026-11-29",
-    "kind": "collection",
-    "artists": [
+      "sengai",
       "sengai-gibon"
     ],
     "genres": [
@@ -121,9 +103,9 @@
       "古美術"
     ],
     "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=premodern&type=now#a208742",
-    "summary": "博多の禅僧・仙厓のユーモラスな書画を、大幅に作品を入れ替えて紹介する仙厓展の後期展示。",
+    "summary": "禅僧仙厓の作品を館蔵品から紹介する展覧会の後期展示で、古美術企画展示室にて公開されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "fukuoka-city-20261017-80247d",
@@ -202,36 +184,17 @@
     "endDate": "2027-03-22",
     "kind": "collection",
     "artists": [
-      "masayoshi-sukita"
-    ],
-    "genres": [
-      "現代美術"
-    ],
-    "detailUrl": null,
-    "summary": "戦後に結成されたデモクラート美術家協会に参加した作家たちの作品を、館蔵品から紹介する展示です。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "fukuoka-city-20261225-425603",
-    "museumId": "fukuoka-city",
-    "title": "希望は自由なる組織に ―デモクラート美術家協会の作家たち",
-    "startDate": "2026-12-25",
-    "endDate": "2027-03-22",
-    "kind": "collection",
-    "artists": [
+      "masayoshi-sukita",
       "ei-q",
       "masuo-ikeda"
     ],
     "genres": [
-      "版画",
-      "洋画",
       "現代美術"
     ],
     "detailUrl": "https://www.fukuoka-art-museum.jp/collection/?q=modern#a207288",
-    "summary": "1951年に瑛九が結成し、権威から自由な表現を目指したデモクラート美術家協会の作家たちを紹介する展示。",
+    "summary": "戦後に結成されたデモクラート美術家協会に参加した作家たちの作品を、館蔵品から紹介する展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "fukuoka-city-20270113-d8af17",

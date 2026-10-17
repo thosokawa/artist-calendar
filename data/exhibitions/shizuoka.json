@@ -7,36 +7,18 @@
     "endDate": "2026-12-06",
     "kind": "collection",
     "artists": [
-      "kawanabe-kyosai"
-    ],
-    "genres": [
-      "日本画"
-    ],
-    "detailUrl": null,
-    "summary": "館の収蔵品の中から山水を描いた優れた作品を選び出し、その魅力をあらためて紹介する収蔵品展です。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "shizuoka-20261010-d0d856",
-    "museumId": "shizuoka",
-    "title": "山水画の名品",
-    "startDate": "2026-10-10",
-    "endDate": "2026-12-06",
-    "kind": "collection",
-    "artists": [
+      "kawanabe-kyosai",
       "kano-tan-yu",
       "ike-no-taiga",
       "tani-buncho"
     ],
     "genres": [
-      "日本画",
-      "古美術"
+      "日本画"
     ],
     "detailUrl": "https://spmoa.shizuoka.shizuoka.jp/exhibition/detail/139",
-    "summary": "中国から伝わり、画家の想像する理想の風景を描いた山水画の名品を所蔵品から紹介する収蔵品展。",
+    "summary": "館の収蔵品の中から山水を描いた優れた作品を選び出し、その魅力をあらためて紹介する収蔵品展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "shizuoka-20270123-691d80",

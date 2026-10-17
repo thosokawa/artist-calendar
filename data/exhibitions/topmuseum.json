@@ -29,25 +29,7 @@
       "taro-karibe",
       "zai-nomura",
       "baku-hashimoto",
-      "asako-fujikura"
-    ],
-    "genres": [
-      "写真",
-      "現代美術"
-    ],
-    "detailUrl": null,
-    "summary": "「デュエット」を題に掲げ、アジアの現代の表現に焦点を当てて2階展示室で紹介する展覧会。",
-    "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
-  },
-  {
-    "id": "topmuseum-20260930-8aa037",
-    "museumId": "topmuseum",
-    "title": "デュエット――アジアン・コンテンポラリー",
-    "startDate": "2026-09-30",
-    "endDate": "2027-01-17",
-    "kind": "special",
-    "artists": [
+      "asako-fujikura",
       "toshiya-murakoshi",
       "wang-tuo",
       "sui-taca",
@@ -57,13 +39,12 @@
     ],
     "genres": [
       "写真",
-      "現代美術",
-      "メディアアート"
+      "現代美術"
     ],
     "detailUrl": "https://topmuseum.jp/exhibition/5421/",
-    "summary": "中国と日本の現代作家による写真と映像作品を並べ、異なる背景をもつ表現が対話して生まれる響き合いを探る。",
+    "summary": "「デュエット」を題に掲げ、アジアの現代の表現に焦点を当てて2階展示室で紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "topmuseum-20261031-9e4bb1",
