@@ -40,6 +40,11 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ONLY: ${{ inputs.only }}
+      - name: Add readings (hiragana) for new names
+        run: node scripts/readings.mjs
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Save results to main
         run: |
           git config user.name "github-actions[bot]"

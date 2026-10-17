@@ -41,7 +41,7 @@ const exById = Object.fromEntries(exhibitions.map((e) => [e.id, e]));
 const compact = (e) => ({
   id: e.id, t: e.title, s: e.startDate, e: e.endDate, k: e.kind, g: e.genres, f: e.firstSeenAt,
   m: museums[e.museumId].name, mid: e.museumId, p: museums[e.museumId].prefecture, r: museums[e.museumId].area,
-  a: e.artists.map((s) => [s, artists[s]?.name ?? s, ...(artists[s]?.aliases ?? []), artists[s]?.nameRomaji ?? '']),
+  a: e.artists.map((s) => [s, artists[s]?.name ?? s, ...(artists[s]?.aliases ?? []), artists[s]?.nameRomaji ?? '', artists[s]?.nameKana ?? '']),
 });
 const recent = [...announcements].reverse().map((a) => exById[a.exhibitionId]).filter((e) => e && e.endDate >= today).slice(0, 12);
 const endingSoon = live.filter((e) => statusOn(e, today) === 'current' && e.endDate <= addDays(today, 21)).sort((a, b) => a.endDate.localeCompare(b.endDate)).slice(0, 12);
@@ -94,6 +94,11 @@ write('data/artists.json', JSON.stringify(Object.fromEntries(artistSlugs.map((s)
 const prefsByArea = AREAS.map(([k, label]) => [k, label, [...new Set(museumList.filter((m) => m.area === k).map((m) => m.prefecture))]]);
 page('/search/', searchPage({ site, genres: GENRES, prefsByArea, museums: museumList, lineBasicId: site.lineBasicId }));
 write('data/search.json', JSON.stringify(live.map(compact)));
+// Search box suggestions: [kind, page path, name, reading, latin name].
+write('data/suggest.json', JSON.stringify([
+  ...artistSlugs.map((s) => ['作家', `/artists/${s}/`, artists[s].name, artists[s].nameKana ?? '', artists[s].nameRomaji ?? '']),
+  ...museumList.map((m) => ['美術館', `/museums/${m.id}/`, m.name, m.nameKana ?? '', m.nameEn ?? '']),
+]));
 write('data/museum-names.json', JSON.stringify(Object.fromEntries(museumList.map((m) => [m.id, m.name]))));
 cpSync(join(root, 'src/filter.mjs'), join(dist, 'assets/filter.mjs'));
 

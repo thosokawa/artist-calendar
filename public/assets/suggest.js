@@ -1,9 +1,8 @@
-// Search box suggestions: artist and museum names, loaded on first focus. Picking one opens its page.
+// Search box suggestions: artist and museum names (also by hiragana reading or Latin name), loaded on first focus. Picking one opens its page.
 const kata = (s) => s.normalize('NFKC').toLowerCase().replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60)).replace(/[\s・･.\-‐ー=＝]/g, '');
 let list;
 async function load() {
-  if (!list) list = Promise.all([['/data/artists.json', '作家', '/artists/'], ['/data/museum-names.json', '美術館', '/museums/']].map(async ([u, kind, base]) =>
-    Object.entries(await (await fetch(u)).json()).map(([slug, name]) => ({ name, kind, href: `${base}${slug}/`, key: kata(name) })))).then((a) => a.flat());
+  if (!list) list = fetch('/data/suggest.json').then((r) => r.json()).then((rows) => rows.map(([kind, href, name, kana, latin]) => ({ kind, href, name, keys: [name, kana, latin].filter(Boolean).map(kata) })));
   return list;
 }
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -26,7 +25,8 @@ document.querySelectorAll('.search-big input[name=q]').forEach((input) => {
     if (!q) return close();
     const all = await load();
     if (kata(input.value) !== q) return;
-    items = all.filter((x) => x.key.includes(q)).sort((a, b) => (b.key.startsWith(q) - a.key.startsWith(q)) || a.key.length - b.key.length).slice(0, 8);
+    const head = (x) => x.keys.some((k) => k.startsWith(q));
+    items = all.filter((x) => x.keys.some((k) => k.includes(q))).sort((a, b) => (head(b) - head(a)) || a.name.length - b.name.length).slice(0, 8);
     if (!items.length) return close();
     ul.innerHTML = items.map((x, i) => `<li role="option" id="${ul.id}-${i}"><a href="${x.href}"><span class="k">${x.kind}</span>${esc(x.name)}</a></li>`).join('');
     ul.hidden = false; mark(-1);

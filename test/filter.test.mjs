@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseFilter, filterQuery, filterText, matchExhibition, alertable, describeFilter, whenRange } from '../src/filter.mjs';
+import { parseFilter, filterQuery, filterText, matchExhibition, alertable, describeFilter, whenRange, normText } from '../src/filter.mjs';
 import { parseText } from '../src/line.mjs';
 
 const rec = (over = {}) => ({ id: 'x', t: '草間彌生 永遠の永遠の永遠', s: '2026-11-01', e: '2027-01-31', k: 'special', g: ['現代美術'], m: '国立新美術館', mid: 'nact', p: '東京都', r: 'kanto', a: [['yayoi-kusama', '草間彌生', 'Yayoi Kusama']], f: '2026-10-17', ...over });
@@ -40,4 +40,10 @@ test('alerts need something to narrow by, and the bot reads the saved condition'
   assert.equal(alertable(parseFilter('genre=写真')), true);
   assert.deepEqual(parseText('この条件の新着を通知: 関東 ／ 写真 [s:area=kanto&genre=写真]'), { kind: 'save', query: 'area=kanto&genre=写真' });
   assert.deepEqual(parseText('草間彌生の展覧会を通知 [yayoi-kusama]'), { kind: 'follow', slug: 'yayoi-kusama' });
+});
+
+test('hiragana and katakana readings match each other', () => {
+  assert.equal(normText('よしだ ひろし'), normText('ヨシダヒロシ'));
+  const r = { t: '新版画展', m: '某美術館', p: '東京都', a: [['hiroshi-yoshida', '吉田博', 'Hiroshi Yoshida', 'よしだひろし']] };
+  assert.equal(normText([r.t, r.m, r.p, ...r.a.flat()].join(' ')).includes(normText('ヨシダ')), true);
 });

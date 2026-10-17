@@ -10,7 +10,8 @@ export const SORTS = [['start', '開幕日が近い順'], ['end', '終了日が�
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const list = (v) => [...new Set(String(v ?? '').split(',').map((s) => s.trim()).filter(Boolean))];
-export const normText = (s) => String(s).normalize('NFKC').toLowerCase().replace(/[\s・･]/g, '');
+// Hiragana is folded into katakana so よしだ and ヨシダ match the same reading.
+export const normText = (s) => String(s).normalize('NFKC').toLowerCase().replace(/[\s・･]/g, '').replace(/[\u3041-\u3096]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60));
 
 /** Read a condition from a query string or URLSearchParams, dropping anything unknown. */
 export function parseFilter(input) {

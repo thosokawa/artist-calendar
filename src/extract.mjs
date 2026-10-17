@@ -16,6 +16,7 @@ const Extraction = z.object({
     artists: z.array(z.object({
       name: z.string().describe('Artist name as written on the page'),
       nameRomaji: z.string().describe('Usual Latin-script name, given name first, e.g. "Yayoi Kusama"'),
+      nameKana: z.string().describe('Reading in hiragana, family name first, no spaces, e.g. "くさまやよい"'),
     })).describe('Featured artists named on the page; empty if none are named'),
     genres: z.array(z.enum(GENRES)),
     detailUrl: z.string().nullable().describe('Absolute URL of the official detail page, or null'),

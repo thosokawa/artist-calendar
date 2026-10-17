@@ -28,18 +28,19 @@ export function artistSlug({ name, nameRomaji }) {
  * Find or create the artist in `registry` ({slug: {name, nameRomaji, aliases}}), returning its slug.
  * Matches first on the normalized Japanese name (so 草間彌生 and 草間弥生 are one person), then on the slug.
  */
-export function resolveArtist(registry, { name, nameRomaji }) {
+export function resolveArtist(registry, { name, nameRomaji, nameKana }) {
   const key = normalizeName(name);
   for (const [slug, a] of Object.entries(registry)) {
-    if ([a.name, ...(a.aliases ?? [])].some((n) => normalizeName(n) === key)) return slug;
+    if ([a.name, ...(a.aliases ?? [])].some((n) => normalizeName(n) === key)) { if (nameKana && !a.nameKana) a.nameKana = nameKana; return slug; }
   }
   let slug = artistSlug({ name, nameRomaji });
   const existing = registry[slug];
   if (existing) {
     // Same Latin name, different Japanese spelling: record it as an alias of the same person.
     existing.aliases = [...new Set([...(existing.aliases ?? []), name])];
+    if (nameKana && !existing.nameKana) existing.nameKana = nameKana;
     return slug;
   }
-  registry[slug] = { name, nameRomaji: nameRomaji || null, aliases: [] };
+  registry[slug] = { name, nameRomaji: nameRomaji || null, ...(nameKana ? { nameKana } : {}), aliases: [] };
   return slug;
 }
