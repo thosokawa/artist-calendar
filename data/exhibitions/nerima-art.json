@@ -1,0 +1,52 @@
+[
+  {
+    "id": "nerima-art-20260725-0cf9b4",
+    "museumId": "nerima-art",
+    "title": "練馬区立美術館コレクション 若林奮－Run and Rest－｜寺田真由美－不在の存在－",
+    "startDate": "2026-07-25",
+    "endDate": "2026-10-18",
+    "kind": "collection",
+    "artists": [
+      "isamu-wakabayashi",
+      "mayumi-terada"
+    ],
+    "genres": [
+      "彫刻",
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "館の所蔵品から若林奮と寺田真由美の二人を取り上げ、それぞれ副題を掲げた二本立てで構成するコレクション展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nerima-art-20260912-692f05",
+    "museumId": "nerima-art",
+    "title": "アーツ中村橋 2026―わたしとまちの記憶",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "美術館のある中村橋を舞台に、人々の暮らしとまちにまつわる記憶をテーマとして紹介する2026年の展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nerima-art-20261031-b810a3",
+    "museumId": "nerima-art",
+    "title": "ユアサエボシと戦後アヴァンギャルドの変身寓話集",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [
+      "eboshi-yuasa"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "ユアサエボシの作品を手がかりに、戦後アヴァンギャルドの表現を「変身寓話」という切り口で見つめ直す企画展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

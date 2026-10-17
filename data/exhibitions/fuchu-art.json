@@ -1,0 +1,61 @@
+[
+  {
+    "id": "fuchu-art-20260919-bef03e",
+    "museumId": "fuchu-art",
+    "title": "花のある暮らし ボタニカルアートとデザイン",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "joseph-dalton-hooker",
+      "walter-hood-fitch",
+      "william-morris"
+    ],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "19世紀イギリスで流行した植物画と、花をモチーフにした食器や壁紙などの工芸・デザインを通して花と暮らしの関係を紹介する。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fuchu-art-20261212-e32de3",
+    "museumId": "fuchu-art",
+    "title": "郵便と／の美術",
+    "startDate": "2026-12-12",
+    "endDate": "2027-02-21",
+    "kind": "special",
+    "artists": [
+      "senseki-nakamura"
+    ],
+    "genres": [
+      "日本画",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "郵政博物館の資料を軸に、切手やポストを手がかりとして明治の絵画から戦後美術まで美術と郵便の関わりをたどる展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fuchu-art-20270313-1626a6",
+    "museumId": "fuchu-art",
+    "title": "谷文晁 彩と墨",
+    "startDate": "2027-03-13",
+    "endDate": "2027-05-09",
+    "kind": "special",
+    "artists": [
+      "tani-buncho"
+    ],
+    "genres": [
+      "日本画",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "国内外の絵画や文化財を研究し多様な技法を取り入れた谷文晁の、色彩豊かな作品と見事な水墨表現を紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

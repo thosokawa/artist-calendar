@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mitsui-memorial-20260912-183eaf",
+    "museumId": "mitsui-memorial",
+    "title": "館蔵の茶碗100撰 ―国宝から手造茶碗まで―",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-23",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "三井家に伝わる茶道具から、国宝の名碗や陶工の作、数寄者の手造り茶碗まで百碗を選りすぐって紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "mitsui-memorial-20261212-672ed2",
+    "museumId": "mitsui-memorial",
+    "title": "国宝 雪松図と四季",
+    "startDate": "2026-12-12",
+    "endDate": "2027-01-30",
+    "kind": "collection",
+    "artists": [
+      "maruyama-okyo"
+    ],
+    "genres": [
+      "日本画",
+      "書",
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "年末年始恒例の円山応挙「雪松図屏風」公開に合わせ、館蔵の書画や工芸に見る四季と気象の表し方を探る展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "mitsui-memorial-20270211-f98633",
+    "museumId": "mitsui-memorial",
+    "title": "三井家のおひなさま",
+    "startDate": "2027-02-11",
+    "endDate": "2027-04-04",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "三井家の女性たちが愛したひな人形やひな道具を紹介し、あわせて茶の湯で用いられた伝来の羽箒も特集する春の展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

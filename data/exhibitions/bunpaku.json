@@ -1,0 +1,84 @@
+[
+  {
+    "id": "bunpaku-20260919-a5a4ef",
+    "museumId": "bunpaku",
+    "title": "特別展「寛永 太平がはぐくむ美」",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "寛永行幸四百年祭の開催を記念し、太平の世となった寛永期に育まれた美の世界を紹介する特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "bunpaku-20261128-99f67f",
+    "museumId": "bunpaku",
+    "title": "不滅の力 永井豪 -永井豪記念館リバイバル-",
+    "startDate": "2026-11-28",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "go-nagai"
+    ],
+    "genres": [
+      "マンガ・アニメ"
+    ],
+    "detailUrl": null,
+    "summary": "能登半島地震からの復興を祈り、永井豪記念館をよみがえらせる形で漫画家永井豪の仕事を振り返る展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "bunpaku-20261205-488192",
+    "museumId": "bunpaku",
+    "title": "ジミー大西「ホームタウン」京都展",
+    "startDate": "2026-12-05",
+    "endDate": "2027-02-07",
+    "kind": "special",
+    "artists": [
+      "jimmy-onishi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "「ホームタウン」をテーマにしたジミー大西の作品展が京都で開かれ、4階展示室で作品を紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "bunpaku-20270123-ea425b",
+    "museumId": "bunpaku",
+    "title": "Kyoto Art for Tomorrow 2027ー京都府新鋭選抜展ー",
+    "startDate": "2027-01-23",
+    "endDate": "2027-02-07",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "京都府にゆかりのある新進気鋭の作家たちを選抜して紹介し、これからの京都の美術を展望する展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "bunpaku-20270220-f39047",
+    "museumId": "bunpaku",
+    "title": "メダリスト展",
+    "startDate": "2027-02-20",
+    "endDate": "2027-04-11",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "「メダリスト」をテーマに掲げ、4階と3階の展示室を使って2027年の春先まで開催される展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

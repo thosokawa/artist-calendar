@@ -1,0 +1,113 @@
+[
+  {
+    "id": "kagoshima-city-art-20260915-830060",
+    "museumId": "kagoshima-city-art",
+    "title": "秋の所蔵品展 特集：在りし日を想う～所蔵作家・作品と写真資料",
+    "startDate": "2026-09-15",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [
+      "goyo-hashiguchi"
+    ],
+    "genres": [
+      "洋画",
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "郷土作家や西洋美術の所蔵品に加え、作家や作品にまつわる貴重な写真資料を作品と並べて紹介する秋の所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "kagoshima-city-art-20261002-e92abd",
+    "museumId": "kagoshima-city-art",
+    "title": "特別企画展「写真家ソール・ライターの原点 Origins in Color」",
+    "startDate": "2026-10-02",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [
+      "saul-leiter"
+    ],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "カラー写真の先駆者ソール・ライターの色彩感覚に注目し、写真や絵画、カラースライドから創作の源を探る展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "kagoshima-city-art-20261119-ef1107",
+    "museumId": "kagoshima-city-art",
+    "title": "小企画展「谷口午二展 春風駘蕩―絵と人のあいだ―」",
+    "startDate": "2026-11-19",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "goji-taniguchi"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "当館の初代館長で洋画家の谷口午二を、遺族が所蔵する油彩画を中心にたどる午年にちなんだ回顧展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "kagoshima-city-art-20261201-3a0ec1",
+    "museumId": "kagoshima-city-art",
+    "title": "冬の所蔵品展 特集：谷口午二をめぐる鹿児島の作家たち",
+    "startDate": "2026-12-01",
+    "endDate": "2027-02-14",
+    "kind": "collection",
+    "artists": [
+      "goji-taniguchi",
+      "eisaku-wada"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "初代館長・谷口午二と交流のあった郷土作家たちの所蔵作品を、ゆかりのエピソードを添えて紹介する冬の所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "kagoshima-city-art-20261224-c59207",
+    "museumId": "kagoshima-city-art",
+    "title": "シルバニアファミリー展40th",
+    "startDate": "2026-12-24",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "誕生40周年を迎えたシルバニアファミリーの歩みを、大型ジオラマや歴代の商品展示などでたどる記念展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "kagoshima-city-art-20270119-6da648",
+    "museumId": "kagoshima-city-art",
+    "title": "小企画展「令和7年度新収蔵品展」",
+    "startDate": "2027-01-19",
+    "endDate": "2027-03-14",
+    "kind": "collection",
+    "artists": [
+      "yayoi-kusama",
+      "masayoshi-tokonami",
+      "eugene-carriere"
+    ],
+    "genres": [
+      "現代美術",
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "令和7年度に新たに収蔵・寄託された多彩な作家の作品をまとめて公開し、その幅広い表現を紹介する展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

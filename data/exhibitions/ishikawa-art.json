@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ishikawa-art-20260919-27c1bd",
+    "museumId": "ishikawa-art",
+    "title": "県美工芸の新しい仲間たち －新収蔵品展－",
+    "startDate": "2026-09-19",
+    "endDate": "2026-10-25",
+    "kind": "collection",
+    "artists": [
+      "sosetsu-kitagawa",
+      "taro-tanaka",
+      "masayasu-mitsuke"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "近年新たに館のコレクションに加わった工芸作品をお披露目し、収蔵品の広がりを紹介する展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ishikawa-art-20260920-80188f",
+    "museumId": "ishikawa-art",
+    "title": "蓮田修吾郎 －世界を拓く窓",
+    "startDate": "2026-09-20",
+    "endDate": "2026-10-25",
+    "kind": "special",
+    "artists": [
+      "shugoro-hasuda"
+    ],
+    "genres": [
+      "工芸",
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "金沢ゆかりの作家・蓮田修吾郎の仕事を取り上げ、その創作が切り拓いた世界を紹介する特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

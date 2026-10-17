@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ibaraki-moma-20261112-110f1f",
+    "museumId": "ibaraki-moma",
+    "title": "中西夏之 緩やかにみつめるためにいつまでも佇む、装置",
+    "startDate": "2026-11-12",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "natsuyuki-nakanishi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "美術家・中西夏之の仕事を紹介する企画展で、冬の時期に約二か月にわたって開催されます。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ibaraki-moma-20261112-b6b427",
+    "museumId": "ibaraki-moma",
+    "title": "新収蔵記念 中村彝と同時代の美術家たち",
+    "startDate": "2026-11-12",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "usen-ogawa",
+      "tsune-nakamura"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "新たに収蔵した作品を記念して、中村彝と同じ時代を生きた美術家たちの作品を所蔵品から紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

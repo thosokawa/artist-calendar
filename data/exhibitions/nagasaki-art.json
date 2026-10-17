@@ -1,0 +1,59 @@
+[
+  {
+    "id": "nagasaki-art-20261022-0baf9c",
+    "museumId": "nagasaki-art",
+    "title": "彭城貞徳―近年の新収蔵作品と保存修復を中心に",
+    "startDate": "2026-10-22",
+    "endDate": "2027-01-24",
+    "kind": "collection",
+    "artists": [
+      "yuji-saiga",
+      "sadanori-sakaki"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "長崎出身の洋画家・彭城貞徳について、新たに収蔵した油彩画2点や作品の保存修復の成果を紹介するコレクション展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagasaki-art-20261028-57d9a7",
+    "museumId": "nagasaki-art",
+    "title": "雜賀雄二と軍艦島―〈軍艦島―棄てられた島の風景〉",
+    "startDate": "2026-10-28",
+    "endDate": "2027-02-07",
+    "kind": "special",
+    "artists": [
+      "yuji-saiga"
+    ],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "令和7年度に新たに収蔵した雜賀雄二の写真連作を通して、無人島となった軍艦島の姿を見つめる小企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagasaki-art-20270123-00905a",
+    "museumId": "nagasaki-art",
+    "title": "日本画の名作展 大観と春草から杉山寧を中心に",
+    "startDate": "2027-01-23",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [
+      "taikan-yokoyama",
+      "shunso-hishida",
+      "yasushi-sugiyama"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "企業が所蔵する約80点の日本画により、草創期の大観や春草から杉山寧まで近代以降の日本画の歩みをたどる展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

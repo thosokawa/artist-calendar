@@ -1,0 +1,83 @@
+[
+  {
+    "id": "camk-20260826-a9cf11",
+    "museumId": "camk",
+    "title": "CAMKスクリーニングVol.4 ひびのこづえ《ROOT：根》上演資料 2025年11月23日・24日松本公演",
+    "startDate": "2026-08-26",
+    "endDate": "2026-10-25",
+    "kind": "collection",
+    "artists": [
+      "kodue-hibino"
+    ],
+    "genres": [
+      "メディアアート",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "新たに収蔵したひびのこづえ《ROOT：根》松本公演の記録資料を、衣装やバナーとともに紹介する展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "camk-20260827-5ce046",
+    "museumId": "camk",
+    "title": "GⅢ-Vol.166 熊本市の夏の名物！ こどもおもしろおばけ屋敷10周年記念 大アーカイブ展",
+    "startDate": "2026-08-27",
+    "endDate": "2026-10-25",
+    "kind": "special",
+    "artists": [
+      "miki-ikeda",
+      "shogo-abe"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "10年続く夏の恒例「こどもおもしろおばけ屋敷」の図面や装置、原画などを怖がりの人でも楽しめる形で公開します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "camk-20260919-282ef5",
+    "museumId": "camk",
+    "title": "プラカードのために",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "mitsuko-tabe",
+      "tomoko-ushijima",
+      "lieko-shiga",
+      "shingo-kanagawa",
+      "sawako-tanizawa",
+      "yuki-iiyama",
+      "yuriko-sasaoka"
+    ],
+    "genres": [
+      "現代美術",
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "故・田部光子の言葉と作品を起点に、7名の作家が生きることや尊厳を多様な手法で問いかける巡回展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "camk-20261031-0bbb2b",
+    "museumId": "camk",
+    "title": "GⅢ-Vol.167 Dolly ( ) 諫山元貴",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [
+      "genki-isayama"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "クローン羊ドリーを手がかりに、複製と崩壊をテーマとする諫山元貴が生命とモノの境界やオリジナル性を探ります。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

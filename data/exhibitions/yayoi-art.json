@@ -1,0 +1,40 @@
+[
+  {
+    "id": "yayoi-art-20261226-dc41ac",
+    "museumId": "yayoi-art",
+    "title": "鳩山郁子×秋田和徳 夢みるコントルポワン ―漫画とグラフィックデザインの小宇宙―",
+    "startDate": "2026-12-26",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "ikuko-hatoyama",
+      "kazunori-akita"
+    ],
+    "genres": [
+      "マンガ・アニメ",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "鳩山郁子と秋田和徳の二人に焦点を当て、漫画とグラフィックデザインが織りなす小さな宇宙を紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "yayoi-art-20270403-b89548",
+    "museumId": "yayoi-art",
+    "title": "画業60周年 竹宮惠子展 Masterpiece 『風と木の詩』『地球へ…』",
+    "startDate": "2027-04-03",
+    "endDate": "2027-06-27",
+    "kind": "special",
+    "artists": [
+      "keiko-takemiya"
+    ],
+    "genres": [
+      "マンガ・アニメ"
+    ],
+    "detailUrl": null,
+    "summary": "画業60周年を迎える竹宮惠子の展覧会で、『風と木の詩』と『地球へ…』という二つの名作を軸に紹介する。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hirosaki-moca-20260605-d1b6de",
+    "museumId": "hirosaki-moca",
+    "title": "コレクション展 2026",
+    "startDate": "2026-06-05",
+    "endDate": "2026-11-15",
+    "kind": "collection",
+    "artists": [
+      "sachiko-kazama"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "弘前れんが倉庫美術館の所蔵作品を紹介するコレクション展で、6月から11月半ばまで開催されています。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "hirosaki-moca-20261204-768d7a",
+    "museumId": "hirosaki-moca",
+    "title": "コレクション展 2026-2027",
+    "startDate": "2026-12-04",
+    "endDate": "2027-05-16",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "年をまたいで開かれる所蔵作品のコレクション展で、2026年12月から2027年5月まで開催が予定されています。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

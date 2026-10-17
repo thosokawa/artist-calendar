@@ -1,0 +1,49 @@
+[
+  {
+    "id": "toyama-tad-20260925-3078e6",
+    "museumId": "toyama-tad",
+    "title": "シモン・ゴールドベルク＆山根美代子コレクションⅢ",
+    "startDate": "2026-09-25",
+    "endDate": "2026-12-28",
+    "kind": "collection",
+    "artists": [
+      "shuzo-takiguchi"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "シモン・ゴールドベルクと山根美代子にまつわる所蔵コレクションを紹介する第3期の展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "toyama-tad-20261001-769b31",
+    "museumId": "toyama-tad",
+    "title": "コレクション展Ⅲ",
+    "startDate": "2026-10-01",
+    "endDate": "2026-12-28",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "館の所蔵品を展示室1と展示室2で紹介する第3期のコレクション展で、展示室ごとに開始日が異なります。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "toyama-tad-20261010-7ec29e",
+    "museumId": "toyama-tad",
+    "title": "つぐ minä perhonen",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-22",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "創設30周年を迎えたテキスタイルブランドの歩みを「つぐ」という言葉を手がかりに紹介する企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

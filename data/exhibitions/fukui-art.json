@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fukui-art-20260919-91e0a5",
+    "museumId": "fukui-art",
+    "title": "誕生70周年記念 ミッフィー展",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "誕生から70周年を迎えたミッフィーを記念して開かれる展覧会で、会期中にはみどころ解説会も行われる。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukui-art-20270123-07505b",
+    "museumId": "fukui-art",
+    "title": "Hello Kitty展 ーわたしが変わるとキティも変わるー",
+    "startDate": "2027-01-23",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "ハローキティを取り上げる展覧会で、「わたしが変わるとキティも変わる」という副題を掲げて開催される。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukui-art-20270331-bc2ea1",
+    "museumId": "fukui-art",
+    "title": "ことば⇔え",
+    "startDate": "2027-03-31",
+    "endDate": "2027-04-25",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "言葉と絵を矢印でつないだ題名を持つ企画展で、2027年3月末から4月下旬まで開かれる予定となっている。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

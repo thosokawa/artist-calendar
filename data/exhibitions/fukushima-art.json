@@ -1,0 +1,228 @@
+[
+  {
+    "id": "fukushima-art-20261010-df057b",
+    "museumId": "fukushima-art",
+    "title": "第Ⅲ期コレクション展",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-06",
+    "kind": "collection",
+    "artists": [
+      "andrew-wyeth",
+      "shotaro-koseki"
+    ],
+    "genres": [
+      "洋画",
+      "彫刻",
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "動物を描いた作品や多様な素材の立体、海外の名品、小関庄太郎の写真などを紹介する所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20270109-8b68cf",
+    "museumId": "fukushima-art",
+    "title": "第Ⅳ期コレクション展",
+    "startDate": "2027-01-09",
+    "endDate": "2027-02-28",
+    "kind": "collection",
+    "artists": [
+      "osamu-suzuki",
+      "uichi-shimizu",
+      "claude-monet"
+    ],
+    "genres": [
+      "工芸",
+      "洋画",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "生誕100年の陶芸家二人の作品や没後100年のモネとフランス美術、現代版画などを並べる所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20270116-b925f7",
+    "museumId": "fukushima-art",
+    "title": "［特集展示］ 重なりあうまなざし 美術でたどるアメリカと日本",
+    "startDate": "2027-01-16",
+    "endDate": "2027-02-07",
+    "kind": "special",
+    "artists": [
+      "ben-shahn",
+      "andrew-wyeth",
+      "yasuo-kuniyoshi",
+      "toshi-shimizu"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "館蔵のアメリカ美術を軸に、米国の画家と渡米した日本人画家の交流や日本とのつながりを探る特集展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20270320-05f58d",
+    "museumId": "fukushima-art",
+    "title": "生誕120年 斎藤清展",
+    "startDate": "2027-03-20",
+    "endDate": "2027-05-09",
+    "kind": "special",
+    "artists": [
+      "kiyoshi-saito"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "会津坂下町出身で戦後を代表する版画家・斎藤清の歩みを、ゆかりの美術館の所蔵品とともに検証します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20270322-126357",
+    "museumId": "fukushima-art",
+    "title": "第Ⅰ期コレクション展",
+    "startDate": "2027-03-22",
+    "endDate": "2027-06-29",
+    "kind": "collection",
+    "artists": [
+      "kiyoshi-saito"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "風景表現をめぐる作品や新収蔵品、福島の若手作家の回顧、創作版画と斎藤清などで構成される所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20270619-44fc91",
+    "museumId": "fukushima-art",
+    "title": "福島県政150周年･東日本大震災15年 「大ゴッホ展 アルルの跳ね橋」",
+    "startDate": "2027-06-19",
+    "endDate": "2027-09-26",
+    "kind": "special",
+    "artists": [
+      "vincent-van-gogh"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "県政150周年と震災15年を記念する大ゴッホ展のひとつで、「アルルの跳ね橋」を冠してゴッホを紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20270719-5aa174",
+    "museumId": "fukushima-art",
+    "title": "第Ⅱ期コレクション展",
+    "startDate": "2027-07-19",
+    "endDate": "2027-09-28",
+    "kind": "collection",
+    "artists": [
+      "andrew-wyeth",
+      "yasuo-hayashi"
+    ],
+    "genres": [
+      "洋画",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "ワイエスの代表作を含む館の名品と、新たに収蔵した林康夫らの現代工芸を紹介するコレクション展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20271018-5ffce8",
+    "museumId": "fukushima-art",
+    "title": "第Ⅲ期コレクション展",
+    "startDate": "2027-10-18",
+    "endDate": "2027-12-14",
+    "kind": "collection",
+    "artists": [
+      "yumeji-takehisa",
+      "claude-monet"
+    ],
+    "genres": [
+      "洋画",
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "詩と美術の関わりや福島の木彫、モネを含む海外の名品、河野保雄コレクションを取り上げる所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20271119-2bff61",
+    "museumId": "fukushima-art",
+    "title": "吉井忠展",
+    "startDate": "2027-11-19",
+    "endDate": "2027-12-28",
+    "kind": "special",
+    "artists": [
+      "tadashi-yoshii"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "画家・吉井忠の名を冠した個展で、2027年の秋から年末にかけて当館で開催が予定されている展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20280110-770fb4",
+    "museumId": "fukushima-art",
+    "title": "［特集展示］ 絵画の臨界点 ─若松光一郎、鎌田正蔵のフォルム─",
+    "startDate": "2028-01-10",
+    "endDate": "2028-02-01",
+    "kind": "special",
+    "artists": [
+      "koichiro-wakamatsu",
+      "shozo-kamata"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "福島の洋画界を率いた若松光一郎と鎌田正蔵の創作の変遷を、館蔵作品によってたどる特集展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20280110-8b68cf",
+    "museumId": "fukushima-art",
+    "title": "第Ⅳ期コレクション展",
+    "startDate": "2028-01-10",
+    "endDate": "2028-03-31",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "白樺派と大正期の洋画、震災をめぐる作家の視点、在米日本人画家、現代版画などを紹介する所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "fukushima-art-20280118-65869b",
+    "museumId": "fukushima-art",
+    "title": "内田あぐり展",
+    "startDate": "2028-01-18",
+    "endDate": "2028-03-14",
+    "kind": "special",
+    "artists": [
+      "aguri-uchida"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "内田あぐりの名を冠した個展として、2028年の1月から3月にかけて当館での開催が予定されている展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

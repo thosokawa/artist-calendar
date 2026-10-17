@@ -1,0 +1,90 @@
+[
+  {
+    "id": "aham-20261003-61bdc2",
+    "museumId": "aham",
+    "title": "アンドリュー・ワイエス展",
+    "startDate": "2026-10-03",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "andrew-wyeth"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "アメリカの画家アンドリュー・ワイエスの作品を、テンペラ画《クリスティーナ・オルソン》などとともに紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "aham-20261226-a1833e",
+    "museumId": "aham",
+    "title": "ルーシー・リー展 －東西をつなぐ優美のうつわ－",
+    "startDate": "2026-12-26",
+    "endDate": "2027-03-07",
+    "kind": "special",
+    "artists": [
+      "lucie-rie"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "陶芸家ルーシー・リーのうつわを通して、東洋と西洋を結ぶ優美な造形の魅力に迫る展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "aham-20270320-259143",
+    "museumId": "aham",
+    "title": "エリック・カール展 はじまりは、はらぺこあおむし",
+    "startDate": "2027-03-20",
+    "endDate": "2027-05-09",
+    "kind": "special",
+    "artists": [
+      "eric-carle"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "絵本『はらぺこあおむし』で知られるエリック・カールの創作を、代表作を起点にたどる展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "aham-20270522-b63b18",
+    "museumId": "aham",
+    "title": "HOKUSAI ―北斎が「北斎」だった時代―",
+    "startDate": "2027-05-22",
+    "endDate": "2027-07-19",
+    "kind": "special",
+    "artists": [
+      "katsushika-hokusai"
+    ],
+    "genres": [
+      "浮世絵"
+    ],
+    "detailUrl": null,
+    "summary": "浮世絵師・北斎が「北斎」と名乗っていた時期に焦点を当て、大判錦絵などの作品を紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "aham-20270731-51897e",
+    "museumId": "aham",
+    "title": "「銀河鉄道９９９」５０周年プロジェクト 松本零士展 創作の旅路",
+    "startDate": "2027-07-31",
+    "endDate": "2027-09-26",
+    "kind": "special",
+    "artists": [
+      "leiji-matsumoto"
+    ],
+    "genres": [
+      "マンガ・アニメ"
+    ],
+    "detailUrl": null,
+    "summary": "『銀河鉄道９９９』の50周年を記念し、漫画家・松本零士の創作の歩みを振り返る展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

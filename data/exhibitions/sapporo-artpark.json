@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sapporo-artpark-20261010-3175b4",
+    "museumId": "sapporo-artpark",
+    "title": "札幌芸術の森美術館所蔵品展 五十嵐威暢 アニマルイラストレーション",
+    "startDate": "2026-10-10",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "kitagawa-utamaro",
+      "toshusai-sharaku",
+      "katsushika-hokusai",
+      "utagawa-hiroshige",
+      "utagawa-kuniyoshi",
+      "takenobu-igarashi"
+    ],
+    "genres": [
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "館の所蔵品から、五十嵐威暢が手がけた動物をテーマにしたイラストレーションをB展示室で紹介する展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

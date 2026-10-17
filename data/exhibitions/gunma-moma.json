@@ -1,0 +1,32 @@
+[
+  {
+    "id": "gunma-moma-20260919-45088a",
+    "museumId": "gunma-moma",
+    "title": "新収蔵作品紹介",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-08",
+    "kind": "collection",
+    "artists": [
+      "kinsen-murayama"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "近年新たに美術館のコレクションに加わった作品を選び、来館者へお披露目するコレクション展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "gunma-moma-20261014-66a983",
+    "museumId": "gunma-moma",
+    "title": "戸方庵井上コレクションの粋Ⅱ",
+    "startDate": "2026-10-14",
+    "endDate": "2026-11-08",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "戸方庵井上コレクションの中から選りすぐりの名品を紹介するシリーズの、後期にあたる第二弾の展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "ehime-art-20261003-2efcc1",
+    "museumId": "ehime-art",
+    "title": "ジミー大西「ホームタウン」愛媛展",
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "jimmy-onishi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "画家ジミー大西の創作に影響を与えてきた場所に注目し、多数の原画からその制作の核心を探る大規模な展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ehime-art-20261010-acdf3d",
+    "museumId": "ehime-art",
+    "title": "コレクション展Ⅲ 絵画から大衆メディアへ 柳瀬正夢と真鍋博の挑戦",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-13",
+    "kind": "collection",
+    "artists": [
+      "hiroshi-manabe",
+      "masamu-yanase"
+    ],
+    "genres": [
+      "洋画",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "所蔵のグラフィック作品を通じ、社会風刺に挑んだ柳瀬正夢と真鍋博の共通点と、その後の異なる歩みをたどる展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ehime-art-20261121-d98c46",
+    "museumId": "ehime-art",
+    "title": "Mozuミニチュア展2 のぞいてみよう、ちいさなせかい。",
+    "startDate": "2026-11-21",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "mozu"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "Mozuが手がける精巧なミニチュア作品を紹介し、のぞき込むように小さな世界の魅力を味わえる展覧会の第2弾。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ehime-art-20270130-8e5a58",
+    "museumId": "ehime-art",
+    "title": "深堀隆介展 水面のゆらぎの中へ",
+    "startDate": "2027-01-30",
+    "endDate": "2027-03-14",
+    "kind": "special",
+    "artists": [
+      "riusuke-fukahori"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "深堀隆介の作品世界を紹介し、水面に揺らめくような表現の奥へと観る人を誘う企画展として開かれる予定です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ehime-art-20270206-50be80",
+    "museumId": "ehime-art",
+    "title": "大どろぼうの家展",
+    "startDate": "2027-02-06",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "大どろぼうの家をテーマにした企画展で、2027年の2月から3月にかけて愛媛県美術館で開催が予定されています。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ehime-art-20270213-1330e1",
+    "museumId": "ehime-art",
+    "title": "2026年度／コレクション展Ⅳ みる冒険 くらべてみる",
+    "startDate": "2027-02-13",
+    "endDate": "2027-04-18",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "「みる冒険」シリーズとして、所蔵作品を見比べることを切り口に鑑賞の楽しさを探るコレクション展の予定です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

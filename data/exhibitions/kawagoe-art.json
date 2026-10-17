@@ -1,0 +1,40 @@
+[
+  {
+    "id": "kawagoe-art-20260916-9bb82d",
+    "museumId": "kawagoe-art",
+    "title": "西村大喜展 そっと触れる彫刻",
+    "startDate": "2026-09-16",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "shizuma-uchida",
+      "kyuichiro-aihara",
+      "daiki-nishimura"
+    ],
+    "genres": [
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "タッチアートコーナーで、西村大喜の彫刻作品に実際に手で触れながら鑑賞できる展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "kawagoe-art-20261017-689921",
+    "museumId": "kawagoe-art",
+    "title": "生誕150年 杉浦非水と『非水百花譜』",
+    "startDate": "2026-10-17",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "hisui-sugiura"
+    ],
+    "genres": [
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "生誕150年を記念し、杉浦非水の仕事と植物図譜『非水百花譜』を企画展示室で紹介する特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

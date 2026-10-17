@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ima-iwate-20260912-acc8ef",
+    "museumId": "ima-iwate",
+    "title": "企画展 芥見下々『呪術廻戦』展",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "gege-akutami"
+    ],
+    "genres": [
+      "マンガ・アニメ"
+    ],
+    "detailUrl": null,
+    "summary": "漫画家・芥見下々による人気作品『呪術廻戦』を取り上げ、その世界に触れられる企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ima-iwate-20261121-44511b",
+    "museumId": "ima-iwate",
+    "title": "ヘンリー・ムーア展",
+    "startDate": "2026-11-21",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "henry-moore"
+    ],
+    "genres": [
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "英国の彫刻家ヘンリー・ムーアに焦点を当て、その作品世界を紹介する冬の初めの企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "ima-iwate-20261226-68132d",
+    "museumId": "ima-iwate",
+    "title": "トーベとムーミン展",
+    "startDate": "2026-12-26",
+    "endDate": "2027-02-28",
+    "kind": "special",
+    "artists": [
+      "tove-jansson"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "ムーミンの生みの親トーベと、彼女が生んだムーミンの物語世界をあわせて紹介する企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

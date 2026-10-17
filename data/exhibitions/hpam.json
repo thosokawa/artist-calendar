@@ -1,0 +1,75 @@
+[
+  {
+    "id": "hpam-20261002-9a5fbb",
+    "museumId": "hpam",
+    "title": "没後30年 菅井汲",
+    "startDate": "2026-10-02",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "kumi-sugai"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "国際的に高い評価を得た画家菅井汲の歩みを初期から晩年まで辿り、日本初公開作や愛車ポルシェも並べる回顧展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "hpam-20261017-2fea72",
+    "museumId": "hpam",
+    "title": "第３期 コレクション・フォーカス：山を描く 佐々木邦彦―知られざる絵と言葉／戦前戦後の前衛―特別展「没後30年 菅井汲」にちなんで",
+    "startDate": "2026-10-17",
+    "endDate": "2027-01-17",
+    "kind": "collection",
+    "artists": [
+      "kunihiko-sasaki",
+      "kumi-sugai"
+    ],
+    "genres": [
+      "日本画",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "広島出身の日本画家佐々木邦彦の絵と文筆を初めて回顧し、菅井汲ら戦前戦後の前衛作品もあわせて紹介する所蔵品展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "hpam-20261215-a663fe",
+    "museumId": "hpam",
+    "title": "コレクター福富太郎の眼 昭和のキャバレー王が愛した絵画",
+    "startDate": "2026-12-15",
+    "endDate": "2027-02-07",
+    "kind": "special",
+    "artists": [
+      "kiyokata-kaburaki",
+      "tsunetomi-kitano",
+      "saburosuke-okada"
+    ],
+    "genres": [
+      "日本画",
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "昭和のキャバレー王として名を馳せた福富太郎が集めた美人画や油彩画を通して、その収集眼の確かさに迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "hpam-20270122-32f072",
+    "museumId": "hpam",
+    "title": "第４期 美術館で推し活!／新収蔵作品展",
+    "startDate": "2027-01-22",
+    "endDate": "2027-04-18",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "「推し活」を切り口に所蔵作品との新たな付き合い方を提案し、令和7年度に加わった新収蔵品も初めて披露する展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

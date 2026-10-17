@@ -1,0 +1,87 @@
+[
+  {
+    "id": "yokosuka-moa-20260905-4e5f20",
+    "museumId": "yokosuka-moa",
+    "title": "再オープン記念 没後１０年 横須賀美術館コレクションによる 島田章三展 空間の中の人のかたち、日常の中の人のかたち",
+    "startDate": "2026-09-05",
+    "endDate": "2026-11-03",
+    "kind": "special",
+    "artists": [
+      "shozo-shimada"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "没後10年を機に、館の所蔵作品で島田章三が描いた人の姿を空間と日常の両面からたどる再開記念の企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "yokosuka-moa-20260905-7c3b7f",
+    "museumId": "yokosuka-moa",
+    "title": "再オープン記念 令和８年度第１期 谷内六郎展 月のひかり、星のきらめき 『週刊新潮』表紙絵と絵本『びんのそら』より",
+    "startDate": "2026-09-05",
+    "endDate": "2027-01-17",
+    "kind": "collection",
+    "artists": [
+      "junko-maruyama",
+      "rokuro-taniuchi"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "月や星の光をテーマに、谷内六郎による『週刊新潮』の表紙絵と絵本『びんのそら』の作品を谷内六郎館で紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "yokosuka-moa-20261114-5cbc6b",
+    "museumId": "yokosuka-moa",
+    "title": "生誕120年 三岸節子展",
+    "startDate": "2026-11-14",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "setsuko-migishi"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "生誕120年という節目にあわせて、画家三岸節子の作品と歩みを取り上げて紹介する冬の企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "yokosuka-moa-20270123-c477d8",
+    "museumId": "yokosuka-moa",
+    "title": "令和８年度第２期 谷内六郎展 雨の日の夢 『週刊新潮』表紙絵と絵本『ぎんのわっか』より",
+    "startDate": "2027-01-23",
+    "endDate": "2027-05-09",
+    "kind": "collection",
+    "artists": [
+      "rokuro-taniuchi"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "雨の日に見る夢をテーマとして、谷内六郎の『週刊新潮』表紙絵と絵本『ぎんのわっか』の作品をあわせて展示します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "yokosuka-moa-20270211-85ea80",
+    "museumId": "yokosuka-moa",
+    "title": "ジブリパーク展",
+    "startDate": "2027-02-11",
+    "endDate": "2027-05-14",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "マンガ・アニメ"
+    ],
+    "detailUrl": null,
+    "summary": "スタジオジブリの世界を表現したテーマパーク「ジブリパーク」を主題にして、2月から5月まで開かれる企画展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "gifu-art-20260723-f437b1",
+    "museumId": "gifu-art",
+    "title": "えをみて えをかく 展覧会",
+    "startDate": "2026-07-23",
+    "endDate": "2026-11-08",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "絵を見ることと描くことをテーマに、展示室1で所蔵品を紹介するコレクション展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "gifu-art-20260908-cfff2c",
+    "museumId": "gifu-art",
+    "title": "ぎふの日本画 屏風 －大画面にみる美の世界－",
+    "startDate": "2026-09-08",
+    "endDate": "2026-11-03",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "岐阜ゆかりの日本画のうち屏風作品に焦点を当て、大画面ならではの美を味わう所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "gifu-art-20260926-47beb1",
+    "museumId": "gifu-art",
+    "title": "フランス近代絵画の祝宴",
+    "startDate": "2026-09-26",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "フランス近代の絵画を一堂に集め、その華やかな魅力を祝宴になぞらえて紹介する展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "gifu-art-20260929-612b29",
+    "museumId": "gifu-art",
+    "title": "ルドンコレクションから：ルドンと駒井哲郎",
+    "startDate": "2026-09-29",
+    "endDate": "2026-12-20",
+    "kind": "collection",
+    "artists": [
+      "odilon-redon",
+      "tetsuro-komai"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "館が誇るルドンのコレクションを、日本の作家駒井哲郎の作品と並べて見比べる所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "gifu-art-20261001-f206d2",
+    "museumId": "gifu-art",
+    "title": "NOA NOA ゴーギャンのアルカディア",
+    "startDate": "2026-10-01",
+    "endDate": "2026-12-20",
+    "kind": "collection",
+    "artists": [
+      "paul-gauguin"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "ゴーギャンの「NOA NOA」を軸に、画家が思い描いた理想郷の世界をたどる所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "gifu-art-20261110-11f1d2",
+    "museumId": "gifu-art",
+    "title": "特集 鯉江良二：橋本コレクションを中心に",
+    "startDate": "2026-11-10",
+    "endDate": "2027-03-14",
+    "kind": "collection",
+    "artists": [
+      "ryoji-koie"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "橋本コレクションを中心に、鯉江良二の作品を特集して紹介する所蔵品展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

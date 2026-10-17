@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chiba-city-museum-20260916-abd519",
+    "museumId": "chiba-city-museum",
+    "title": "千葉開府900年記念特別展 月と星と―美術がつなぐとき",
+    "startDate": "2026-09-16",
+    "endDate": "2026-11-23",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "千葉開府900年を記念し、月や星を手がかりに美術が時代や人、ものを結びつける姿を探る特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "chiba-city-museum-20261007-2e9e94",
+    "museumId": "chiba-city-museum",
+    "title": "千葉市美術館コレクション選 特集：祭りと祈り／野村仁",
+    "startDate": "2026-10-07",
+    "endDate": "2026-11-01",
+    "kind": "collection",
+    "artists": [
+      "hitoshi-nomura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "館の所蔵品から選んだ作品を、祭りと祈りというテーマと作家野村仁の特集という二つの切り口で紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "chiba-city-museum-20261017-b20021",
+    "museumId": "chiba-city-museum",
+    "title": "つくりかけラボ22 タムラサトル｜1トンになる",
+    "startDate": "2026-10-17",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "satoru-tamura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "つくりかけラボの第22弾として、タムラサトルが「1トンになる」をテーマに展開するプロジェクト型の展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

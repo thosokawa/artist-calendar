@@ -1,0 +1,38 @@
+[
+  {
+    "id": "utsunomiya-moa-20260920-e157e7",
+    "museumId": "utsunomiya-moa",
+    "title": "没後50年 髙島野十郎展",
+    "startDate": "2026-09-20",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "yajuro-takashima"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "初公開作を含む約150点で、仏教的思想や青年期・滞欧期にも光を当て、孤高の画家像を問い直す大規模な回顧展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "utsunomiya-moa-20261024-bbaa91",
+    "museumId": "utsunomiya-moa",
+    "title": "第2回・コレクション展",
+    "startDate": "2026-10-24",
+    "endDate": "2026-12-06",
+    "kind": "collection",
+    "artists": [
+      "rene-magritte"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "館の所蔵品で構成するコレクション展で、ルネ・マグリットの《大家族》などの作品が紹介される予定の展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

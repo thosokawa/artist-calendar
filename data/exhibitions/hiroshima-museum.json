@@ -1,0 +1,43 @@
+[
+  {
+    "id": "hiroshima-museum-20261003-c7c0a5",
+    "museumId": "hiroshima-museum",
+    "title": "“カフェ”に集う芸術家 印象派からゴッホ、ロートレック、ピカソまで",
+    "startDate": "2026-10-03",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "vincent-van-gogh",
+      "henri-de-toulouse-lautrec",
+      "pablo-picasso",
+      "theophile-alexandre-steinlen"
+    ],
+    "genres": [
+      "洋画",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "モンマルトルのカフェやキャバレーを舞台にした芸術家の交流と、そこから生まれた芸術運動を二館の共同企画で紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "hiroshima-museum-20270130-1233f6",
+    "museumId": "hiroshima-museum",
+    "title": "マリメッコ展 模様のちから Marimekko Art of Printmaking –Beauty, Dream, Love",
+    "startDate": "2027-01-30",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "maija-isola"
+    ],
+    "genres": [
+      "デザイン",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "フィンランドのデザインハウス、マリメッコのドレスや布地、アートワークを通じてプリントの技と創造の美学に迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

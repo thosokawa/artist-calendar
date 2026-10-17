@@ -1,0 +1,36 @@
+[
+  {
+    "id": "niigata-city-art-20261003-fe61e8",
+    "museumId": "niigata-city-art",
+    "title": "画家のパレット 巨匠たちの創作の秘密",
+    "startDate": "2026-10-03",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "笠間日動美術館が所蔵する世界でも珍しいパレットのコレクションを通して、画家たちの創作の裏側に迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "niigata-city-art-20270123-564ee5",
+    "museumId": "niigata-city-art",
+    "title": "当世越後三畸人",
+    "startDate": "2027-01-23",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [
+      "kiro-uehara",
+      "yoshitaka-kurashige",
+      "kohei-nishigata"
+    ],
+    "genres": [
+      "写真"
+    ],
+    "detailUrl": null,
+    "summary": "越後で独自の世界を築いてきた美術家、写真家、カストリ雑誌収集家の3人を、それぞれの個展形式で紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

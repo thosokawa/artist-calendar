@@ -1,0 +1,129 @@
+[
+  {
+    "id": "nagano-art-20261029-47c49d",
+    "museumId": "nagano-art",
+    "title": "東山魁夷館コレクション2026 第Ⅲ期",
+    "startDate": "2026-10-29",
+    "endDate": "2027-01-26",
+    "kind": "collection",
+    "artists": [
+      "kaii-higashiyama"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "北欧やヨーロッパの旅、日本の風景に取材した東山魁夷の作品から、秋から冬の情景を描いた本制作を紹介する展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagano-art-20261107-370ecf",
+    "museumId": "nagano-art",
+    "title": "カンディンスキー 世界は鳴りひびく ―日本のコレクションでたどる画業と反響―",
+    "startDate": "2026-11-07",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [
+      "wassily-kandinsky"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "抽象絵画を切り開いたカンディンスキーの初期から晩年までを国内所蔵品で辿り、日本の芸術家との関わりにも迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagano-art-20261119-2c9272",
+    "museumId": "nagano-art",
+    "title": "NAMコレクション2026 第Ⅲ期",
+    "startDate": "2026-11-19",
+    "endDate": "2027-02-15",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "日本画",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "長野ゆかりの作家や信州の風景を描いた作品を軸とする館蔵品から、洋画・日本画・工芸などを紹介するコレクション展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagano-art-20270116-57b870",
+    "museumId": "nagano-art",
+    "title": "辰野登恵子 多次元の絵画",
+    "startDate": "2027-01-16",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [
+      "toeko-tatsuno"
+    ],
+    "genres": [
+      "洋画",
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "岡谷市出身の抽象画家・辰野登恵子の約40年の画業を、絵画や版画と当時の資料によって総合的に読み解く回顧展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagano-art-20270123-c645dc",
+    "museumId": "nagano-art",
+    "title": "アートラボ2026第Ⅳ期 光島貴之",
+    "startDate": "2027-01-23",
+    "endDate": "2027-04-11",
+    "kind": "special",
+    "artists": [
+      "takayuki-mitsushima"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "視覚に限らず触覚や聴覚も使って楽しめる光島貴之の作品を、誰もが気軽に立ち寄れる空間で紹介する展示企画。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagano-art-20270211-ed77cb",
+    "museumId": "nagano-art",
+    "title": "東山魁夷館コレクション2026 第Ⅳ期",
+    "startDate": "2027-02-11",
+    "endDate": "2027-04-20",
+    "kind": "collection",
+    "artists": [
+      "kaii-higashiyama"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "ドイツ・オーストリア旅行での取材をもとにした作品群を中心に、東山魁夷の窓や水辺を描いた名作を紹介する展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "nagano-art-20270219-c3fd33",
+    "museumId": "nagano-art",
+    "title": "NAMコレクション2026 第Ⅳ期",
+    "startDate": "2027-02-19",
+    "endDate": "2027-04-27",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "日本画",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "信州ゆかりの作家と郷土の風景を中心に集めた所蔵品から、多様なジャンルの作品を取り上げる年度最後のコレクション展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

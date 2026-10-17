@@ -1,0 +1,68 @@
+[
+  {
+    "id": "osaka-city-art-20261009-84ea81",
+    "museumId": "osaka-city-art",
+    "title": "躍動する明代の書－台北・何創時（かそうじ）コレクションの至宝",
+    "startDate": "2026-10-09",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "書"
+    ],
+    "detailUrl": null,
+    "summary": "台北の何創時コレクションが所蔵する名品を通して、明代の書の豊かな表現と勢いを紹介する特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "osaka-city-art-20270206-ce4068",
+    "museumId": "osaka-city-art",
+    "title": "円山応挙 リアルの先へ 空間革命",
+    "startDate": "2027-02-06",
+    "endDate": "2027-04-04",
+    "kind": "special",
+    "artists": [
+      "maruyama-okyo"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "写実を超えて空間表現に新境地を開いた円山応挙の絵画世界に、革新という視点から迫る特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "osaka-city-art-20270424-564c7e",
+    "museumId": "osaka-city-art",
+    "title": "生誕160周年記念特別展「復活！武藤山治コレクション―国宝を見出した紡績王」",
+    "startDate": "2027-04-24",
+    "endDate": "2027-06-20",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "紡績業で名を成した武藤山治の生誕160年を記念し、国宝を含む彼の旧蔵コレクションを再び紹介します。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "osaka-city-art-20270717-243280",
+    "museumId": "osaka-city-art",
+    "title": "シンシナティ美術館展 ～アメリカに渡ったヨーロッパの至宝～",
+    "startDate": "2027-07-17",
+    "endDate": "2027-09-26",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "米国のシンシナティ美術館が所蔵するヨーロッパ美術の名品を、まとめて大阪で紹介する特別展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

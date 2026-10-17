@@ -1,0 +1,57 @@
+[
+  {
+    "id": "shimane-art-20270115-272adb",
+    "museumId": "shimane-art",
+    "title": "浮世絵スーパークリエイター 歌川国芳展",
+    "startDate": "2027-01-15",
+    "endDate": "2027-03-15",
+    "kind": "special",
+    "artists": [
+      "kuniyoshi-utagawa"
+    ],
+    "genres": [
+      "浮世絵"
+    ],
+    "detailUrl": null,
+    "summary": "武者絵や妖怪画、ユーモラスな戯画など約220点で、江戸後期の絵師・国芳の奇抜な発想力に迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "shimane-art-20270702-349f04",
+    "museumId": "shimane-art",
+    "title": "群がる展",
+    "startDate": "2027-07-02",
+    "endDate": "2027-08-30",
+    "kind": "special",
+    "artists": [
+      "ito-jakuchu"
+    ],
+    "genres": [
+      "日本画",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "生き物や想像上の存在が画面を埋め尽くす日本の絵画を通し、「群れ」の表現に込められた思いを探る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "shimane-art-20270910-ca3168",
+    "museumId": "shimane-art",
+    "title": "永田コレクションの全貌公開〈三章〉 北斎－「為一期」「画狂老人卍期」編",
+    "startDate": "2027-09-10",
+    "endDate": "2027-11-08",
+    "kind": "special",
+    "artists": [
+      "katsushika-hokusai"
+    ],
+    "genres": [
+      "浮世絵"
+    ],
+    "detailUrl": null,
+    "summary": "永田コレクションから、冨嶽三十六景や晩年の肉筆画など北斎の最後の30年間の作品を時代順に紹介する。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

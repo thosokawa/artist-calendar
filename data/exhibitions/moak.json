@@ -1,0 +1,56 @@
+[
+  {
+    "id": "moak-20261031-baf2a4",
+    "museumId": "moak",
+    "title": "没後150年 語る絵金、語られる絵金",
+    "startDate": "2026-10-31",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "ekin"
+    ],
+    "genres": [
+      "浮世絵"
+    ],
+    "detailUrl": null,
+    "summary": "没後150年を機に、絵師・絵金が何を描き語り、またどのように語り継がれてきたのかに迫る展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "moak-20261107-56c0eb",
+    "museumId": "moak",
+    "title": "ARTIST FOCUS #06 中山晃子 泡沫の形",
+    "startDate": "2026-11-07",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "akiko-nakayama"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "作家に焦点を当てるシリーズの第6回として、中山晃子の表現を「泡沫の形」と題して紹介する展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "moak-20270123-816bf6",
+    "museumId": "moak",
+    "title": "大木裕之展",
+    "startDate": "2027-01-23",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "hiroyuki-oki"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "映画監督であり現代美術家でもあった大木裕之（1964‒2025）の活動と作品を紹介する展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "mie-art-20260901-e7e242",
+    "museumId": "mie-art",
+    "title": "Ｙ2 project 水野勝規",
+    "startDate": "2026-09-01",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [
+      "katsunori-mizuno"
+    ],
+    "genres": [
+      "メディアアート",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "静かな映像作品で知られる三重県出身の作家が、彫刻家柳原義達と時代を超えた協働に挑む若手美術家発信の企画。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "mie-art-20260926-a1833e",
+    "museumId": "mie-art",
+    "title": "ルーシー・リー展―東西をつなぐ優美のうつわ",
+    "startDate": "2026-09-26",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [
+      "lucie-rie"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "ウィーン出身でロンドンを拠点にした陶芸家の初期から円熟期までの器を、交流した作家の作品とともに紹介する回顧展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

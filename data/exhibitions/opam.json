@@ -1,0 +1,89 @@
+[
+  {
+    "id": "opam-20260904-ee9ab0",
+    "museumId": "opam",
+    "title": "2026年コレクション展 Ⅲ 【特集展示】竹のカタチー時を超えて",
+    "startDate": "2026-09-04",
+    "endDate": "2026-11-03",
+    "kind": "collection",
+    "artists": [
+      "shounsai-shono",
+      "chikuunsai-tanabe-i",
+      "rokansai-iizuka",
+      "chikuden-tanomura",
+      "heihachiro-fukuda",
+      "teppei-ujiyama"
+    ],
+    "genres": [
+      "工芸",
+      "日本画",
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "近代から現代までの竹工芸の歩みを所蔵品でたどり、竹を描いた絵画や宇治山哲平の作品もあわせて紹介する特集展示。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "opam-20261113-0875de",
+    "museumId": "opam",
+    "title": "出光美術館名品展 出光佐三のこころ ー美を守り、未来へつなぐ",
+    "startDate": "2026-11-13",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "出光美術館が所蔵する名品を通して、創設者出光佐三が美術品に託した思いと継承の姿勢に触れる展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "opam-20261123-79eaf3",
+    "museumId": "opam",
+    "title": "わたしたちのルノワール ー日本が恋した永遠のほほえみ",
+    "startDate": "2026-11-23",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "pierre-auguste-renoir"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "日本で長く愛されてきた画家ルノワールの作品をとおして、その穏やかな微笑みの魅力をあらためて味わう展覧会。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "opam-20270122-9db6db",
+    "museumId": "opam",
+    "title": "2026年 コレクション展 Ⅳ",
+    "startDate": "2027-01-22",
+    "endDate": "2027-04-04",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "大分県立美術館が所蔵する作品を紹介する、2026年度シリーズ4回目となるコレクション展。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "opam-20270206-3ffc58",
+    "museumId": "opam",
+    "title": "ヨシタケシンスケ展かもしれない",
+    "startDate": "2027-02-06",
+    "endDate": "2027-04-04",
+    "kind": "special",
+    "artists": [
+      "shinsuke-yoshitake"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "ヨシタケシンスケの世界を紹介する展覧会で、作家ならではの発想やユーモアに触れられる機会となる。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]
