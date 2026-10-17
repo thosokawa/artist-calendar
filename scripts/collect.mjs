@@ -9,8 +9,8 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { htmlToText, sha256, quoteAppears } from '../src/text.mjs';
-import { mergeExhibitions } from '../src/exhibitions.mjs';
+import { htmlToText, sha256 } from '../src/text.mjs';
+import { mergeExhibitions, titleOnPage } from '../src/exhibitions.mjs';
 
 // ART_ROOT lets tests run against a copy of the data.
 const root = process.env.ART_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -46,7 +46,9 @@ async function fetchWithBrowser(url) {
   browser ??= await chromium.launch();
   const page = await browser.newPage({ userAgent: USER_AGENT });
   try {
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
+    // Some museum sites never go network-idle (analytics, video); give scripts a few seconds instead.
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    await page.waitForTimeout(4000);
     return htmlToText(await page.content());
   } finally {
     await page.close();
@@ -101,7 +103,8 @@ for (const museum of museums) {
     continue;
   }
   const fresh = result.exhibitions.filter((x) => {
-    const ok = quoteAppears(x.title, text) && x.endDate >= today;
+    // Very long runs are permanent installations, not exhibitions.
+    const ok = titleOnPage(x.title, text) && x.endDate >= today && Date.parse(x.endDate) - Date.parse(x.startDate) < 730 * 86400e3;
     if (!ok) console.log(`  skipped: ${x.title}`);
     return ok;
   });
@@ -116,6 +119,10 @@ for (const museum of museums) {
     if (!firstReading) announcements.push({ date: today, exhibitionId: e.id, museumId: museum.id, artists: e.artists });
   }
   st.hash = hash;
+  if (museum.status === 'unreachable' && !dryRun) {
+    museum.status = 'ok';
+    writeJson(join(root, 'data/museums', `${museum.id}.json`), museum);
+  }
 }
 await browser?.close();
 

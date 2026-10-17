@@ -81,3 +81,10 @@ test('recommendations prefer artists shown together', () => {
   const recs = recommend('a', artistProfiles(ex));
   assert.deepEqual(recs.map((r) => r.slug), ['b', 'c']);
 });
+
+test('titles are found on the page despite brackets, marks and line breaks', async () => {
+  const { titleOnPage } = await import('../src/exhibitions.mjs');
+  assert.equal(titleOnPage('特集 王一亭とその時代（仮題）', '展覧会\n特集　王一亭と\nその時代\n2027年'), true);
+  assert.equal(titleOnPage('アニマル☆蒔絵—漆芸にみる動物表現—', 'アニマル☆蒔絵 ― 漆芸にみる動物表現 ―'), true);
+  assert.equal(titleOnPage('存在しない展覧会', 'アニマル☆蒔絵'), false);
+});

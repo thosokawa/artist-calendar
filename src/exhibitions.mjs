@@ -9,8 +9,14 @@ export function normalizeTitle(title) {
   return String(title)
     .normalize('NFKC')
     .replace(/[（(]\s*仮(称|題)?\s*[)）]/g, '')
-    .replace(/[\s「」『』【】〈〉《》"'“”・:：\-–—~〜]/g, '')
+    .replace(/[\s「」『』【】〈〉《》"'“”‘’・:：\-‐–—―~〜]/g, '')
     .toLowerCase();
+}
+
+/** Is this title really on the page? Ignores spacing, brackets and provisional marks, to catch invented entries. */
+export function titleOnPage(title, pageText) {
+  const t = normalizeTitle(title);
+  return t.length > 0 && normalizeTitle(pageText.replace(/\n/g, '')).includes(t);
 }
 
 export function exhibitionId(museumId, x) {
