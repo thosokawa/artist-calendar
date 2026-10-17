@@ -162,12 +162,13 @@ main.wide .share{max-width:880px;margin-left:auto;margin-right:auto}
 .share-btns{align-items:center}
 .sb{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;margin:0;border-radius:50%;border:0;color:#fff;text-decoration:none;cursor:pointer}
 .sb svg{width:22px;height:22px}
-.sb:hover{opacity:.85}
+.sb:hover{color:var(--coral);opacity:1}
+.sb svg{width:24px;height:24px}
 .copied{font-size:.85rem;color:var(--muted)}
-.sb.x{background:#000}.sb.line{background:#06c755}.sb.fb{background:#1877f2}
-.sb.copy{background:#fff;color:var(--ink);border:2px solid var(--ink)}
+.sb.x,.sb.line,.sb.fb{background:transparent;color:var(--ink)}
+.sb.copy{background:transparent;color:var(--ink)}
 .sb.copy svg{width:20px;height:20px}
-.sb.line svg{width:28px;height:28px}
+
 
 /* search band: solid coral, white text; the field is a plain square (no outline, no rounded corners) like the logo */
 .hero-search{background:var(--coral);color:#fff}
