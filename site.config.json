@@ -4,5 +4,6 @@
   "baseUrl": "https://artist-calendar.pages.dev",
   "operator": "未定",
   "contactEmail": "未定",
-  "noindex": true
+  "noindex": true,
+  "lineBasicId": ""
 }

@@ -1,5 +1,7 @@
-# Builds and deploys the site on every push to main and once a day (so 開催中/開催予定 stay current).
-# Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.
+# Builds and deploys the site on every push to main, after each collection run, and once a day
+# (so 開催中/開催予定 stay current). Then sends LINE notifications for newly announced exhibitions.
+# Needs repository secrets CLOUDFLARE_API_TOKEN (permissions: Cloudflare Pages Edit, D1 Edit) and CLOUDFLARE_ACCOUNT_ID;
+# LINE_CHANNEL_SECRET and LINE_CHANNEL_ACCESS_TOKEN turn on the LINE bot.
 name: build-and-deploy
 on:
   push:
@@ -11,23 +13,51 @@ on:
     workflows: [collect-exhibitions]
     types: [completed]
   workflow_dispatch:
+concurrency:
+  group: deploy
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      LINE_CHANNEL_SECRET: ${{ secrets.LINE_CHANNEL_SECRET }}
+      LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+      SITE: https://artist-calendar.pages.dev
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - name: Deploy to Cloudflare Pages
+      - name: Create the Pages project and database if needed
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: |
-          # Creates the Pages project on the first deploy; later runs just report that it exists.
           npx wrangler@3 pages project create artist-calendar --production-branch=main || true
-          npx wrangler@3 pages deploy dist --project-name=artist-calendar --branch=main
+          npx wrangler@3 d1 create artist-calendar || true
+          DB_ID=$(npx wrangler@3 d1 list --json | node -e 'const l=JSON.parse(require("fs").readFileSync(0,"utf8"));const d=l.find(x=>x.name==="artist-calendar");process.stdout.write(d?(d.uuid||d.database_id):"")') || DB_ID=""
+          if [ -n "$DB_ID" ]; then
+            npx wrangler@3 d1 execute artist-calendar --remote --file=schema.sql
+            printf 'name = "artist-calendar"\npages_build_output_dir = "dist"\ncompatibility_date = "2025-01-01"\n\n[[d1_databases]]\nbinding = "DB"\ndatabase_name = "artist-calendar"\ndatabase_id = "%s"\n' "$DB_ID" > wrangler.toml
+          else
+            echo "::warning::D1 database unavailable (does the Cloudflare token have D1 Edit?). LINE features stay off."
+          fi
+      - name: Pass the LINE keys to the site
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.LINE_CHANNEL_SECRET != '' }}
+        run: |
+          printf '%s' "$LINE_CHANNEL_SECRET" | npx wrangler@3 pages secret put LINE_CHANNEL_SECRET --project-name=artist-calendar
+          printf '%s' "$LINE_CHANNEL_ACCESS_TOKEN" | npx wrangler@3 pages secret put LINE_CHANNEL_ACCESS_TOKEN --project-name=artist-calendar
+      - name: Deploy to Cloudflare Pages
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: npx wrangler@3 pages deploy dist --project-name=artist-calendar --branch=main
+      - name: Send LINE notifications for new exhibitions
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.LINE_CHANNEL_SECRET != '' }}
+        run: |
+          sleep 20
+          KEY=$(printf '%s' "$LINE_CHANNEL_SECRET:notify" | sha256sum | cut -d' ' -f1)
+          curl -sS --fail-with-body -X POST "$SITE/api/notify" -H "authorization: Bearer $KEY"

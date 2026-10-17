@@ -33,7 +33,7 @@ function fold(line) {
   return out.join('\r\n');
 }
 
-/** events: [{ uid, date: 'YYYY-MM-DD', title, description, url }] (all-day) */
+/** events: [{ uid, date: 'YYYY-MM-DD', endDate?: 'YYYY-MM-DD', title, description, url }] (all-day; endDate inclusive) */
 export function buildCalendar(events, { name, prodId = '-//Artist Calendar//JA', now = new Date() }) {
   const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', `PRODID:${prodId}`, 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', `X-WR-CALNAME:${escapeText(name)}`, 'X-WR-TIMEZONE:Asia/Tokyo', 'REFRESH-INTERVAL;VALUE=DURATION:PT12H', 'X-PUBLISHED-TTL:PT12H'];
   for (const e of events) {
@@ -42,7 +42,7 @@ export function buildCalendar(events, { name, prodId = '-//Artist Calendar//JA',
       `UID:${e.uid}`,
       `DTSTAMP:${stamp(now)}`,
       `DTSTART;VALUE=DATE:${dateValue(e.date)}`,
-      `DTEND;VALUE=DATE:${dateValue(addDays(e.date, 1))}`,
+      `DTEND;VALUE=DATE:${dateValue(addDays(e.endDate ?? e.date, 1))}`,
       `SUMMARY:${escapeText(e.title)}`,
       `DESCRIPTION:${escapeText(e.description ?? '')}`,
       'TRANSP:TRANSPARENT',
@@ -54,20 +54,27 @@ export function buildCalendar(events, { name, prodId = '-//Artist Calendar//JA',
   return lines.map(fold).join('\r\n') + '\r\n';
 }
 
-/** Two events per exhibition: the opening day, and one week before it closes. */
-export function exhibitionEvents(e, { museum, siteUrl, host, today }) {
+/** One all-day event covering the whole run, for "add to my calendar" links. */
+export function exhibitionEvent(e, { museum, siteUrl, host }) {
   const page = `${siteUrl}/exhibitions/${e.id}/`;
-  const desc = `${e.title}\n会場: ${museum.name}\n会期: ${e.startDate} 〜 ${e.endDate}\n${page}\n公式: ${e.detailUrl ?? museum.exhibitionsUrl}`;
-  const out = [{ uid: `${e.id}-open@${host}`, date: e.startDate, title: `開幕: ${e.title}（${museum.name}）`, description: desc, url: page }];
-  const lastWeek = addDays(e.endDate, -7);
-  if (lastWeek > e.startDate && e.endDate >= today) {
-    out.push({ uid: `${e.id}-closing@${host}`, date: lastWeek, title: `終了まで1週間: ${e.title}（${museum.name}）`, description: desc, url: page });
-  }
-  return out;
+  return {
+    uid: `${e.id}@${host}`,
+    date: e.startDate,
+    endDate: e.endDate,
+    title: `${e.title}（${museum.name}）`,
+    description: `会期: ${e.startDate} 〜 ${e.endDate}\n会場: ${museum.name}\n${page}\n公式: ${e.detailUrl ?? museum.exhibitionsUrl}`,
+    url: page,
+  };
 }
 
-/** Links that subscribe a calendar (not a one-off import), so new exhibitions appear by themselves. */
-export function subscribeLinks(icsUrl) {
-  const webcal = icsUrl.replace(/^https?:/, 'webcal:');
-  return { google: `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal)}`, webcal, ics: icsUrl };
+/** Google Calendar "add event" link for the same event. */
+export function googleCalendarUrl(e, { museum, siteUrl }) {
+  const p = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: `${e.title}（${museum.name}）`,
+    dates: `${e.startDate.replace(/-/g, '')}/${addDays(e.endDate, 1).replace(/-/g, '')}`,
+    details: `会期: ${e.startDate} 〜 ${e.endDate}\n${siteUrl}/exhibitions/${e.id}/`,
+    location: museum.name,
+  });
+  return `https://calendar.google.com/calendar/render?${p}`;
 }

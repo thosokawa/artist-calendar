@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { normalizeName, artistSlug, resolveArtist } from '../src/artists.mjs';
 import { mergeExhibitions, normalizeTitle, isSameTour, statusOn } from '../src/exhibitions.mjs';
-import { buildCalendar, exhibitionEvents, subscribeLinks } from '../src/ics.mjs';
+import { buildCalendar, exhibitionEvent, googleCalendarUrl } from '../src/ics.mjs';
 import { artistProfiles, recommend } from '../src/recommend.mjs';
 
 test('variant kanji and spacing resolve to one artist', () => {
@@ -57,18 +57,17 @@ test('touring shows are matched across museums', () => {
   assert.equal(statusOn({ startDate: '2026-10-01', endDate: '2026-10-16' }, '2026-10-16'), 'current');
 });
 
-test('artist calendar has an opening event and a closing reminder, folded safely', () => {
+test('one-event calendar file and Google link cover the whole run, folded safely', () => {
   const e = { id: 'momat-20270618-abc123', title: '山口晃 見／世／物 とても長いタイトルが続いて折り返しが必要になる展覧会', startDate: '2027-06-18', endDate: '2027-08-29', detailUrl: 'https://www.momat.go.jp/x' };
-  const events = exhibitionEvents(e, { museum: { name: '東京国立近代美術館', exhibitionsUrl: 'https://www.momat.go.jp/exhibitions' }, siteUrl: 'https://example.com', host: 'example.com', today: '2026-10-16' });
-  assert.equal(events.length, 2);
-  assert.equal(events[1].date, '2027-08-22');
-  const ics = buildCalendar(events, { name: '山口晃の展覧会', now: new Date('2026-10-16T00:00:00Z') });
+  const museum = { name: '東京国立近代美術館', exhibitionsUrl: 'https://www.momat.go.jp/exhibitions' };
+  const ics = buildCalendar([exhibitionEvent(e, { museum, siteUrl: 'https://example.com', host: 'example.com' })], { name: e.title, now: new Date('2026-10-16T00:00:00Z') });
   assert.match(ics, /DTSTART;VALUE=DATE:20270618/);
+  assert.match(ics, /DTEND;VALUE=DATE:20270830/);
   for (const line of ics.split('\r\n')) assert.ok(Buffer.byteLength(line) <= 75, line);
-  assert.ok(!ics.includes('�'));
-  const l = subscribeLinks('https://example.com/artists/akira-yamaguchi.ics');
-  assert.equal(l.webcal, 'webcal://example.com/artists/akira-yamaguchi.ics');
-  assert.match(l.google, /cid=webcal%3A%2F%2F/);
+  assert.ok(!ics.includes('\uFFFD'));
+  const g = new URL(googleCalendarUrl(e, { museum, siteUrl: 'https://example.com' }));
+  assert.equal(g.searchParams.get('dates'), '20270618/20270830');
+  assert.ok(g.href.length < 1000, 'LINE uri actions allow 1000 characters');
 });
 
 test('recommendations prefer artists shown together', () => {
@@ -87,4 +86,34 @@ test('titles are found on the page despite brackets, marks and line breaks', asy
   assert.equal(titleOnPage('特集 王一亭とその時代（仮題）', '展覧会\n特集　王一亭と\nその時代\n2027年'), true);
   assert.equal(titleOnPage('アニマル☆蒔絵—漆芸にみる動物表現—', 'アニマル☆蒔絵 ― 漆芸にみる動物表現 ―'), true);
   assert.equal(titleOnPage('存在しない展覧会', 'アニマル☆蒔絵'), false);
+});
+
+
+test('LINE: signatures, pre-filled follow text, search and the notification carousel', async () => {
+  const { validSignature, notifyKey, parseText, followText, searchArtists, exhibitionCarousel } = await import('../src/line.mjs');
+  const { createHmac } = await import('node:crypto');
+  const body = '{"events":[]}';
+  const sig = createHmac('sha256', 'secret').update(body).digest('base64');
+  assert.equal(await validSignature(body, sig, 'secret'), true);
+  assert.equal(await validSignature(body, sig, 'other'), false);
+  assert.match(await notifyKey('secret'), /^[0-9a-f]{64}$/);
+
+  assert.deepEqual(parseText(followText('草間彌生', 'yayoi-kusama')), { kind: 'follow', slug: 'yayoi-kusama' });
+  assert.deepEqual(parseText('一覧'), { kind: 'list' });
+  assert.deepEqual(parseText('草間'), { kind: 'search', query: '草間' });
+
+  const names = { 'yayoi-kusama': '草間彌生', 'akira-yamaguchi': '山口 晃', 'akira-minagawa': '皆川明' };
+  assert.deepEqual(searchArtists(names, '山口晃'), ['akira-yamaguchi']);
+  assert.deepEqual(searchArtists(names, 'akira').sort(), ['akira-minagawa', 'akira-yamaguchi']);
+  assert.deepEqual(searchArtists(names, '草'), []);
+
+  const ex = (i) => ({ id: `x-${i}`, title: 'とても長い展覧会のタイトルが四十文字を超えるとLINEに断られるので切り詰める必要がある', museum: '国立新美術館', startDate: '2027-01-05', endDate: '2027-03-31', artists: ['草間彌生'], gcal: 'https://calendar.google.com/x' });
+  const [text, carousel] = exhibitionCarousel(Array.from({ length: 12 }, (_, i) => ex(i)), 'https://example.com');
+  assert.match(text.text, /草間彌生/);
+  assert.equal(carousel.template.columns.length, 10);
+  for (const c of carousel.template.columns) {
+    assert.ok(c.title.length <= 40);
+    assert.ok(c.text.length <= 60);
+    assert.ok(c.actions.every((a) => a.label.length <= 20));
+  }
 });

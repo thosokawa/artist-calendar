@@ -1,6 +1,5 @@
 // HTML templates. Plain strings; every value from data goes through esc().
 import { statusOn } from './exhibitions.mjs';
-import { subscribeLinks } from './ics.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -43,18 +42,15 @@ ${e.genres.length ? `<div class="tags">${e.genres.map((g) => `<a href="/search/?
 }
 const list = (items, ctx, opts) => (items.length ? `<ul class="cards">${items.map((e) => card(e, { ...ctx, ...opts })).join('')}</ul>` : '<p class="empty">いまのところありません。</p>');
 
-function subscribeBox(site, icsPath, label) {
-  const l = subscribeLinks(site.baseUrl + icsPath);
-  return `<div class="subscribe"><p><strong>${esc(label)}</strong><br>一度追加すると、新しい展覧会が決まるたびにカレンダーへ自動で入ります（開幕日と、終了1週間前）。</p>
-<a class="btn" href="${esc(l.google)}" rel="nofollow">Googleカレンダーに追加</a>
-<a class="btn alt" href="${esc(l.webcal)}" rel="nofollow">iPhone・Macのカレンダーに追加</a>
-<details><summary>その他のカレンダー</summary><p>購読用URL: <code>${esc(l.ics)}</code></p></details>
-<p class="soon">LINEでのお知らせは準備中です。</p></div>`;
+function lineBox(name, lineUrl) {
+  return `<div class="subscribe"><p><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><br>展覧会が決まると通知が届き、そこから自分のカレンダーに予定を追加できます。</p>
+${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで通知を受け取る</a><p class="hint">LINEが開いたら、そのまま送信してください。</p>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div>`;
 }
 
 export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }) {
   return layout({ site, path: '/', body: `
-<section class="hero"><h1>${esc(site.tagline)}</h1><p>好きな作家を登録しておくと、その作家の展覧会が決まったときにカレンダーへ自動で入ります。全国の主要美術館の公式発表をもとに更新しています。</p>
+<section class="hero"><h1>${esc(site.tagline)}</h1><p>全国の主要美術館の公式発表をもとに、毎日更新しています。</p>
+<p>好きな作家をLINEで登録すると、その作家の新しい展覧会が決まったときにお知らせが届きます。</p>
 <form action="/search/" class="search-mini"><input name="q" placeholder="作家名・展覧会名で探す" aria-label="作家名・展覧会名で探す"><button>探す</button></form></section>
 <h2>新しく発表された展覧会</h2>${list(recent, ctx)}
 <h2>まもなく終了</h2>${list(endingSoon, ctx)}
@@ -62,13 +58,13 @@ export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }
 <h2>展覧会の多い作家</h2><ul class="chips">${topArtists.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(ctx.artists[s].name)}</a></li>`).join('')}</ul>` });
 }
 
-export function artistPage({ site, slug, ctx, shows, recs, genres }) {
+export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl }) {
   const a = ctx.artists[slug];
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
   return layout({ site, path: `/artists/${slug}/`, title: `${a.name}の展覧会`, description: `${a.name}${a.nameRomaji ? `（${a.nameRomaji}）` : ''}の開催中・開催予定の展覧会と、カレンダー登録。`, body: `
 <h1>${esc(a.name)}<small>${esc(a.nameRomaji ?? '')}</small></h1>
 ${genres.length ? `<div class="tags">${genres.map((g) => `<a href="/search/?genre=${encodeURIComponent(g)}">${esc(g)}</a>`).join('')}</div>` : ''}
-${subscribeBox(site, `/artists/${slug}.ics`, `${a.name}の展覧会をカレンダーに`)}
+${lineBox(a.name, lineUrl)}
 <h2>開催中</h2>${list(by('current'), ctx)}
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
 ${by('past').length ? `<h2>過去の展覧会</h2>${list(by('past').reverse(), ctx)}` : ''}
@@ -81,12 +77,11 @@ export function museumPage({ site, m, ctx, shows }) {
 <h1>${esc(m.name)}<small>${esc(m.prefecture)}${esc(m.city)}</small></h1>
 <p><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a> · <a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a></p>
 ${m.status === 'closed' ? '<p class="note">現在休館中です。</p>' : ''}
-${subscribeBox(site, `/museums/${m.id}.ics`, `${m.name}の展覧会をカレンダーに`)}
 <h2>開催中</h2>${list(by('current'), ctx, { showMuseum: false })}
 <h2>開催予定</h2>${list(by('upcoming'), ctx, { showMuseum: false })}` });
 }
 
-export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl }) {
+export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl, icsUrl }) {
   const m = ctx.museums[e.museumId];
   const st = statusOn(e, ctx.today);
   return layout({ site, path: `/exhibitions/${e.id}/`, title: `${e.title}（${m.name}）`, description: `${e.title}。${m.name}にて${period(e)}。${e.summary}`, body: `
@@ -98,8 +93,9 @@ export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl }) {
 ${e.artists.length ? `<dt>作家</dt><dd>${e.artists.map((s) => `<a href="/artists/${esc(s)}/">${esc(ctx.artists[s]?.name ?? s)}</a>`).join('、')}</dd>` : ''}
 ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</dd>` : ''}</dl>
 <p><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>
-${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">この展覧会だけGoogleカレンダーに追加</a>` : ''}</p>
-${e.artists.length ? `<p class="hint">作家ページから登録すると、次の展覧会も自動でカレンダーに入ります。</p>` : ''}
+</p>
+${st !== 'past' ? `<p><a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" rel="nofollow">iPhoneのカレンダーに追加</a></p>` : ''}
+${e.artists.length ? `<p class="hint">作家ページからLINEで登録すると、その作家の次の展覧会が決まったときにお知らせが届きます。</p>` : ''}
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}` });
 }
 
@@ -120,3 +116,4 @@ export function searchPage({ site, genres, areas }) {
 export function indexPage({ site, path, title, html }) {
   return layout({ site, path, title, body: `<h1>${esc(title)}</h1>${html}` });
 }
+

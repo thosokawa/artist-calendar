@@ -30,3 +30,4 @@ button,.btn{background:var(--accent);color:var(--accent-fg);border:0;border-radi
 .facts{display:grid;grid-template-columns:5em 1fr;gap:4px 12px}.facts dt{color:var(--muted)}.facts dd{margin:0}
 .empty,.note{color:var(--muted)}
 footer{max-width:860px;margin:32px auto;padding:16px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line)}
+.btn.line{background:#06c755;color:#fff}
