@@ -7,6 +7,7 @@ import { GENRES, isSameTour, statusOn } from '../src/exhibitions.mjs';
 import { buildCalendar, exhibitionEvent, googleCalendarUrl, addDays } from '../src/ics.mjs';
 import { followText } from '../src/line.mjs';
 import { artistProfiles, recommend } from '../src/recommend.mjs';
+import { AREAS } from '../src/filter.mjs';
 
 const root = process.env.ART_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
@@ -14,8 +15,6 @@ const readJson = (p, fb) => (existsSync(join(root, p)) ? JSON.parse(readFileSync
 const now = process.env.BUILD_NOW ? new Date(process.env.BUILD_NOW) : new Date();
 // Dates are Japan dates.
 const today = new Date(now.getTime() + 9 * 3600e3).toISOString().slice(0, 10);
-
-export const AREAS = [['hokkaido-tohoku', '北海道・東北'], ['kanto', '関東'], ['chubu', '中部'], ['kansai', '関西'], ['chugoku-shikoku', '中国・四国'], ['kyushu-okinawa', '九州・沖縄']];
 
 const site = readJson('site.config.json');
 const host = new URL(site.baseUrl).hostname;
@@ -38,6 +37,12 @@ const page = (path, html) => { write(`${path.replace(/^\//, '')}index.html`, htm
 
 // Home
 const exById = Object.fromEntries(exhibitions.map((e) => [e.id, e]));
+// Compact record used by the search page and by search-based LINE alerts (see src/filter.mjs).
+const compact = (e) => ({
+  id: e.id, t: e.title, s: e.startDate, e: e.endDate, k: e.kind, g: e.genres, f: e.firstSeenAt,
+  m: museums[e.museumId].name, mid: e.museumId, p: museums[e.museumId].prefecture, r: museums[e.museumId].area,
+  a: e.artists.map((s) => [s, artists[s]?.name ?? s, ...(artists[s]?.aliases ?? []), artists[s]?.nameRomaji ?? '']),
+});
 const recent = [...announcements].reverse().map((a) => exById[a.exhibitionId]).filter((e) => e && e.endDate >= today).slice(0, 12);
 const endingSoon = live.filter((e) => statusOn(e, today) === 'current' && e.endDate <= addDays(today, 21)).sort((a, b) => a.endDate.localeCompare(b.endDate)).slice(0, 12);
 const upcoming = live.filter((e) => statusOn(e, today) === 'upcoming').slice(0, 12);
@@ -79,19 +84,18 @@ for (const e of exhibitions) {
 const since = addDays(today, -14);
 write('data/recent.json', JSON.stringify(announcements.filter((a) => a.date >= since && exById[a.exhibitionId]).map((a) => {
   const e = exById[a.exhibitionId];
-  return { id: e.id, title: e.title, museum: museums[e.museumId].name, startDate: e.startDate, endDate: e.endDate, slugs: e.artists, artists: e.artists.map((s) => artists[s]?.name ?? s), gcal: gcal(e), announcedAt: a.date };
+  return { id: e.id, title: e.title, museum: museums[e.museumId].name, startDate: e.startDate, endDate: e.endDate, slugs: e.artists, artists: e.artists.map((s) => artists[s]?.name ?? s), gcal: gcal(e), announcedAt: a.date, rec: compact(e) };
 })));
 
 // Artist names, for the LINE bot's search.
 write('data/artists.json', JSON.stringify(Object.fromEntries(artistSlugs.map((s) => [s, artists[s].name]))));
 
 // Search: the page filters this file in the browser.
-page('/search/', searchPage({ site, genres: GENRES, areas: AREAS }));
-write('data/search.json', JSON.stringify(live.map((e) => ({
-  id: e.id, t: e.title, s: e.startDate, e: e.endDate, k: e.kind, g: e.genres,
-  m: museums[e.museumId].name, p: museums[e.museumId].prefecture, r: museums[e.museumId].area,
-  a: e.artists.map((s) => [s, artists[s]?.name ?? s, ...(artists[s]?.aliases ?? []), artists[s]?.nameRomaji ?? '']),
-}))));
+const prefsByArea = AREAS.map(([k, label]) => [k, label, [...new Set(museumList.filter((m) => m.area === k).map((m) => m.prefecture))]]);
+page('/search/', searchPage({ site, genres: GENRES, prefsByArea, museums: museumList, lineBasicId: site.lineBasicId }));
+write('data/search.json', JSON.stringify(live.map(compact)));
+write('data/museum-names.json', JSON.stringify(Object.fromEntries(museumList.map((m) => [m.id, m.name]))));
+cpSync(join(root, 'src/filter.mjs'), join(dist, 'assets/filter.mjs'));
 
 page('/about/', indexPage({ site, path: '/about/', title: 'このサイトについて', html: `
 <p>${esc(site.name)}は、好きな作家の展覧会を見逃さないためのサイトです。</p>

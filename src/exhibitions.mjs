@@ -2,7 +2,9 @@
 import { sha256 } from './text.mjs';
 import { resolveArtist } from './artists.mjs';
 
-export const GENRES = ['現代美術', '日本画', '洋画', '版画', '彫刻', '写真', '工芸', 'デザイン', '建築', '書', '浮世絵', '古美術', 'マンガ・アニメ', 'メディアアート'];
+import { GENRES } from './filter.mjs';
+
+export { GENRES };
 
 /** Title without provisional marks or brackets, for matching the same show across updates and venues. */
 export function normalizeTitle(title) {

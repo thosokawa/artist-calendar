@@ -3,6 +3,7 @@
 
 export const SLUG = /^[a-z0-9][a-z0-9-]{0,79}$/;
 export const MAX_FOLLOWS = 200;
+export const MAX_SEARCHES = 10;
 
 const enc = new TextEncoder();
 const b64 = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf)));
@@ -32,11 +33,14 @@ const normalize = (s) => String(s).normalize('NFKC').toLowerCase().replace(/[\s�
 /**
  * What did the person send?
  *   "<name>の展覧会を通知 [slug]"  -> follow that artist
- *   "一覧" / "登録一覧"             -> list follows
+ *   "…[s:<query>]"                -> save a search condition (from the search page)
+ *   "一覧" / "登録一覧"             -> list follows and saved conditions
  *   anything else                  -> search artists by name
  */
 export function parseText(text) {
   const t = String(text ?? '').trim();
+  const saved = /\[s:([^\]]*)\]\s*$/.exec(t);
+  if (saved) return { kind: 'save', query: saved[1] };
   const m = /\[([a-z0-9-]+)\]\s*$/.exec(t);
   if (m && SLUG.test(m[1])) return { kind: 'follow', slug: m[1] };
   if (/^(登録)?一覧$|^リスト$/.test(t)) return { kind: 'list' };
@@ -59,13 +63,13 @@ export function quickReply(items) {
   return { items: items.slice(0, 13).map(({ text, data }) => ({ type: 'action', action: { type: 'postback', label: label(text), data, displayText: text } })) };
 }
 
-export const HELP = '好きな作家の名前を送ってください（例: 草間彌生）。登録した作家の新しい展覧会が決まると、ここでお知らせします。\n「一覧」と送ると登録中の作家を確認・解除できます。';
+export const HELP = '好きな作家の名前を送ってください（例: 草間彌生）。登録した作家の新しい展覧会が決まると、ここでお知らせします。\n地域やジャンルで受け取りたいときは、サイトの「探す」で条件を選んで「この条件をLINEで受け取る」を押してください。\n「一覧」と送ると登録中の作家と条件を確認・解除できます。';
 
 /**
  * Notification for one person: a carousel of new exhibitions, each with buttons to add it to their calendar.
  * ex: { id, title, museum, startDate, endDate, artists: [names], gcal }, siteUrl: https://...
  */
-export function exhibitionCarousel(exhibitions, siteUrl) {
+export function exhibitionCarousel(exhibitions, siteUrl, intro) {
   const fmt = (d) => d.replace(/^(\d{4})-0?(\d+)-0?(\d+)$/, '$1/$2/$3');
   const cut = (s, n) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
   const columns = exhibitions.slice(0, 10).map((e) => ({
@@ -79,7 +83,7 @@ export function exhibitionCarousel(exhibitions, siteUrl) {
   }));
   const names = [...new Set(exhibitions.flatMap((e) => e.artists))].slice(0, 5).join('、');
   return [
-    { type: 'text', text: `登録中の作家（${names}）の新しい展覧会が発表されました。` },
+    { type: 'text', text: intro ?? `登録中の作家（${names}）の新しい展覧会が発表されました。` },
     { type: 'template', altText: `新しい展覧会: ${exhibitions[0].title}`.slice(0, 400), template: { type: 'carousel', columns } },
   ];
 }

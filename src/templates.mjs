@@ -1,5 +1,6 @@
 // HTML templates. Plain strings; every value from data goes through esc().
 import { statusOn } from './exhibitions.mjs';
+import { WHEN, SORTS } from './filter.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -99,18 +100,38 @@ ${e.artists.length ? `<p class="hint">作家ページからLINEで登録する�
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}` });
 }
 
-export function searchPage({ site, genres, areas }) {
-  return layout({ site, path: '/search/', title: '展覧会を探す', body: `
+export function searchPage({ site, genres, prefsByArea, museums, lineBasicId }) {
+  const chip = (name, value, label) => `<label class="chip"><input type="checkbox" name="${name}" value="${esc(value)}"><span>${esc(label)}</span><small data-count="${name}:${esc(value)}"></small></label>`;
+  return layout({ site, path: '/search/', title: '展覧会を探す', description: '全国の美術館の展覧会を、地域・ジャンル・会期・作家名で絞り込めます。条件をLINEに登録すると、合う展覧会が発表されたときにお知らせします。', body: `
 <h1>展覧会を探す</h1>
-<form id="filters" class="filters">
-<input name="q" placeholder="作家名・展覧会名・美術館名" aria-label="キーワード">
-<select name="area" aria-label="地域"><option value="">すべての地域</option>${areas.map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('')}</select>
-<select name="genre" aria-label="ジャンル"><option value="">すべてのジャンル</option>${genres.map((g) => `<option>${esc(g)}</option>`).join('')}</select>
-<select name="when" aria-label="時期"><option value="">開催中と開催予定</option><option value="current">開催中</option><option value="upcoming">開催予定</option><option value="month">今月開催中のもの</option></select>
-<label><input type="checkbox" name="special" value="1"> 企画展のみ</label>
+<form id="filters" class="search" data-line="${esc(lineBasicId ?? '')}">
+<div class="search-q"><input name="q" type="search" placeholder="作家名・展覧会名・美術館名" aria-label="キーワード"></div>
+<fieldset><legend>地域</legend>
+${prefsByArea.map(([k, label, prefs]) => `<div class="area-row">${chip('area', k, label)}<span class="prefs">${prefs.map((p) => chip('pref', p, p)).join('')}</span></div>`).join('')}
+</fieldset>
+<fieldset><legend>ジャンル</legend><div class="chip-row">${genres.map((g) => chip('genre', g, g)).join('')}</div></fieldset>
+<fieldset class="when"><legend>時期</legend>
+<select name="when" aria-label="時期">${WHEN.map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('')}</select>
+<span class="range"><input type="date" name="from" aria-label="この日から"> 〜 <input type="date" name="to" aria-label="この日まで"></span>
+<label class="check"><input type="checkbox" name="special" value="1"> 企画展のみ（コレクション展を除く）</label>
+</fieldset>
+<details class="museums"><summary>美術館で絞り込む</summary>
+${prefsByArea.map(([k, label]) => { const ms = museums.filter((m) => m.area === k); return ms.length ? `<p class="museum-group">${esc(label)}</p><div class="chip-row">${ms.map((m) => chip('museum', m.id, m.name)).join('')}</div>` : ''; }).join('')}
+</details>
+<div class="search-bar"><select name="sort" aria-label="並び順">${SORTS.map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('')}</select><button type="reset" class="btn alt">条件をクリア</button></div>
 </form>
-<p id="count" class="count"></p><ul id="results" class="cards"></ul>
-<script src="/assets/search.js" defer></script>` });
+<div class="result-head">
+<p><strong id="count"></strong> <span id="summary" class="meta"></span></p>
+<div id="alert" class="alert" hidden>
+<p>この条件に合う展覧会が<strong>新しく発表されたら</strong>、LINEでお知らせします。</p>
+<a id="alert-line" class="btn line" href="#">この条件をLINEで受け取る</a>
+<button type="button" id="copy-link" class="btn alt">検索結果のURLをコピー</button>
+</div>
+</div>
+<ul id="results" class="cards"></ul>
+<button type="button" id="more" class="btn alt" hidden>もっと見る</button>
+<noscript><p class="note">検索には JavaScript を有効にしてください。</p></noscript>
+<script type="module" src="/assets/search.js"></script>` });
 }
 
 export function indexPage({ site, path, title, html }) {

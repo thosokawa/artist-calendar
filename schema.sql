@@ -17,3 +17,12 @@ CREATE TABLE IF NOT EXISTS notified (
   sent_at TEXT NOT NULL DEFAULT (datetime('now')),
   PRIMARY KEY (user_id, exhibition_id)
 );
+-- Saved search conditions (a query string of src/filter.mjs): new exhibitions that match are sent like followed artists.
+CREATE TABLE IF NOT EXISTS searches (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id TEXT NOT NULL,
+  query TEXT NOT NULL,
+  label TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  UNIQUE (user_id, query)
+);
