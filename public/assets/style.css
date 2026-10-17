@@ -208,3 +208,12 @@ body{overflow-x:clip}
 .suggest .k{flex:none;font-size:.72rem;font-weight:700;color:var(--coral);border:1px solid currentColor;padding:0 6px;line-height:1.6}
 .suggest li.on a,.suggest a:hover{background:var(--coral-soft)}
 .plan-note{margin:20px 0 -4px;font-size:.9rem;color:var(--muted)}
+/* 作家ページの「LINEでお知らせ」：画面下に固定した濃いコーラルの帯 */
+.subscribe{position:fixed;left:0;right:0;bottom:0;z-index:5;margin:0;border-radius:0;background:var(--coral);color:#fff;padding:14px 24px;box-shadow:0 -6px 20px rgba(32,37,45,.12)}
+.subscribe-in{max-width:832px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:8px 20px}
+.subscribe p{margin:0}
+.subscribe .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#fff;margin-right:8px;vertical-align:2px}
+.subscribe .sub{display:block;font-size:.85rem;opacity:.9}
+.subscribe .btn{margin:0;flex:none;white-space:nowrap}
+body:has(.subscribe){padding-bottom:96px}
+@media (max-width:640px){.subscribe{padding:10px 16px}.subscribe-in{flex-wrap:wrap}.subscribe strong{font-size:.92rem}.subscribe .sub{display:none}.subscribe .btn{flex:1;text-align:center;padding:8px 10px}body:has(.subscribe){padding-bottom:110px}}

@@ -103,8 +103,8 @@ function shopBox(site, name) {
 }
 
 function lineBox(name, lineUrl) {
-  return `<div class="subscribe"><p><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><br>展覧会が決まると通知が届き、そこから自分のカレンダーに予定を追加できます。</p>
-${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで通知を受け取る</a><p class="hint">LINEが開いたら、そのまま送信してください。</p>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div>`;
+  return `<div class="subscribe"><div class="subscribe-in"><p><span class="dot" aria-hidden="true"></span><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><span class="sub">新しい展覧会が発表されたら通知が届き、そこからカレンダーに予定を追加できます。</span></p>
+${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで通知を受け取る</a>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div></div>`;
 }
 
 export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }) {
