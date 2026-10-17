@@ -12,10 +12,10 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20260912-20261220",
-    "summary": "京都ゆかりの作家を紹介するザ・トライアングルで、「壁」を主題に据えた松延総司の作品を見せる個展。",
+    "detailUrl": null,
+    "summary": "「壁」をテーマに掲げた松延総司の個展で、ザ・トライアングルにて入場無料で鑑賞できる企画です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20260919-50255e",
@@ -30,10 +30,10 @@
     "genres": [
       "工芸"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20260919-20261220",
-    "summary": "生誕140年を迎えた京都の染織家・山鹿清華の手織錦などの仕事を通し、その自由な発想力を紹介する回顧展。",
+    "detailUrl": null,
+    "summary": "生誕140年を記念し、染織家・山鹿清華の自由な想像力が生んだ作品世界を本館南回廊で紹介する展覧会です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20261003-24b863",
@@ -47,13 +47,12 @@
       "hayao-miyazaki"
     ],
     "genres": [
-      "マンガ・アニメ",
-      "書"
+      "マンガ・アニメ"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20261003-20261206",
-    "summary": "『君たちはどう生きるか』を軸に、ジブリ作品の名場面や言葉を通して禅のものの見方を体感させる展覧会。",
+    "detailUrl": null,
+    "summary": "禅の世界とスタジオジブリを結びつけて紹介する展覧会で、新館の東山キューブを会場に秋から冬にかけて開かれます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20261009-2d5dfd",
@@ -74,15 +73,11 @@
       "shiho-sakakibara",
       "keigetsu-kikuchi"
     ],
-    "genres": [
-      "日本画",
-      "洋画",
-      "工芸"
-    ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20261009-20261213",
-    "summary": "1933年開館の大礼記念京都美術館の成り立ちと草創期の収蔵品を、作品と資料で振り返る特集展示。",
+    "genres": [],
+    "detailUrl": null,
+    "summary": "館の所蔵品を用い、美術館が誕生した頃の歩みを物語としてたどる秋期のコレクションルーム特集展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20261217-b90625",
@@ -92,17 +87,16 @@
     "endDate": "2027-01-11",
     "kind": "special",
     "artists": [
-      "hakuin-ekaku"
+      "hakuin-ekaku",
+      "hakuin"
     ],
     "genres": [
-      "書",
-      "古美術",
       "マンガ・アニメ"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20261217-20270111",
-    "summary": "江戸の禅僧・白隠の書画と、その教えを現代的に伝える映像を組み合わせた「禅とジブリ」の後編展示。",
+    "detailUrl": null,
+    "summary": "スタジオジブリが企画制作を手がけ、白隠の禅を紹介する展覧会の京都展が年末年始に東山キューブで開催されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20270115-0e3280",
@@ -117,10 +111,10 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20270115-20270418",
-    "summary": "新進作家を紹介するザ・トライアングルの企画として、藤野裕美子の作品を入場無料で紹介する個展。",
+    "detailUrl": null,
+    "summary": "作家・藤野裕美子を紹介する展示で、ザ・トライアングルを会場に冬から春まで入場無料で公開されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20270115-86fffe",
@@ -136,10 +130,10 @@
     "genres": [
       "工芸"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20270115-20270314",
-    "summary": "明治から戦後まで、伝統と西洋の影響の間で変化した京都の漆芸の近代を館蔵品でたどる特集展示。",
+    "detailUrl": null,
+    "summary": "京都の漆芸を通して近代という時代の姿を見つめる、所蔵品による冬期のコレクションルーム特集です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20270206-b96645",
@@ -154,10 +148,10 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20270206-20270505",
-    "summary": "幾何学的な形とスケートボードの動きを結びつけて探究するフランスの作家ラファエル・ザルカの展覧会。",
+    "detailUrl": null,
+    "summary": "幾何学や時間、スケートボードを手がかりに、ラファエル・ザルカの作品世界を東山キューブで紹介します。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20270526-3365b5",
@@ -170,13 +164,12 @@
       "gilbert-george"
     ],
     "genres": [
-      "現代美術",
-      "写真"
+      "現代美術"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20270526-20270829",
-    "summary": "二人で一つの芸術家として活動する英国のギルバート＆ジョージの大型作品を紹介する展覧会。",
+    "detailUrl": null,
+    "summary": "二人組のアーティスト、ギルバート＆ジョージを取り上げる展覧会が、2027年夏に東山キューブで開かれます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyotocity-kyocera-20271002-d4a8eb",
@@ -191,9 +184,9 @@
     "genres": [
       "日本画"
     ],
-    "detailUrl": "https://kyotocity-kyocera.museum/exhibition/20271002-20271212",
-    "summary": "生誕150年を記念し、動物画などで知られる京都の日本画家・木島櫻谷の画業を振り返る展覧会。",
+    "detailUrl": null,
+    "summary": "生誕150年の節目に画家・木島櫻谷の仕事を振り返る展覧会で、2027年秋に本館南回廊で開催予定です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

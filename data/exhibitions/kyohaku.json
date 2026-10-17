@@ -2,7 +2,7 @@
   {
     "id": "kyohaku-20261006-e92d45",
     "museumId": "kyohaku",
-    "title": "源氏物語 王朝のかがやき",
+    "title": "特別展 源氏物語 王朝のかがやき",
     "startDate": "2026-10-06",
     "endDate": "2026-11-29",
     "kind": "special",
@@ -16,65 +16,63 @@
       "koami-nagashige"
     ],
     "genres": [
-      "古美術",
-      "日本画",
-      "工芸",
-      "書",
-      "浮世絵"
+      "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/special/2026_genji/",
-    "summary": "写本や絵巻、工芸、浮世絵、近代絵画まで、『源氏物語』が日本文化に広げた影響を多角的にたどる特別展。",
+    "detailUrl": null,
+    "summary": "『源氏物語』を主題に、王朝文化のきらびやかな世界を平成知新館の展示室を広く使って紹介する大規模な特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20261222-756b8c",
     "museumId": "kyohaku",
-    "title": "新春特集展示 ひつじづくし―干支を愛でる―",
+    "title": "茶の湯釜",
     "startDate": "2026-12-22",
     "endDate": "2027-02-07",
     "kind": "collection",
     "artists": [],
     "genres": [
+      "工芸",
       "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/feature/b/2026_sheep/",
-    "summary": "新年の干支にちなみ、羊を表した絵画や工芸などの館蔵品を集めて楽しむ新春恒例の特集展示。",
+    "detailUrl": null,
+    "summary": "茶の湯で湯を沸かすための釜に焦点を当て、金工作品としての造形や魅力を伝える金工展示室での展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20261222-5f7740",
     "museumId": "kyohaku",
-    "title": "特集展示 茶の湯の道具と次第",
+    "title": "仏像入門",
     "startDate": "2026-12-22",
     "endDate": "2027-03-22",
     "kind": "collection",
     "artists": [],
     "genres": [
-      "古美術",
-      "工芸"
+      "彫刻",
+      "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/feature/b/2026_tea/",
-    "summary": "名高い茶道具とそれを納める箱や付属品から、道具が伝来してきた歴史の重なりを読み解く特集展示。",
+    "detailUrl": null,
+    "summary": "仏像を見るための基本を知る手がかりとして、彫刻展示室で仏像の数々を紹介する入門的な内容の展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20261222-b34303",
     "museumId": "kyohaku",
-    "title": "嘉禄の法難800年",
+    "title": "『古今和歌集』の古筆",
     "startDate": "2026-12-22",
     "endDate": "2027-01-24",
     "kind": "collection",
     "artists": [],
     "genres": [
+      "書",
       "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6570-22",
-    "summary": "法然没後の専修念仏弾圧「嘉禄の法難」から800年を機に、関連する絵巻を紹介する名品ギャラリーの展示。",
+    "detailUrl": null,
+    "summary": "『古今和歌集』を書写した古筆を集め、和歌と書の美しさをあわせて味わえる書跡展示室での展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20261222-f650a3",
@@ -121,10 +119,10 @@
       "工芸",
       "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/12/?date=22#Theme6586-22",
-    "summary": "金糸や銀箔など、金銀を用いて華やかさを加えた染織品の多彩な技法と表現を紹介する展示。",
+    "detailUrl": null,
+    "summary": "金や銀を用いて華やかに装飾された染織品に注目し、その輝きの表現を紹介する染織展示室での展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20261222-16f126",
@@ -213,19 +211,18 @@
   {
     "id": "kyohaku-20270102-89182c",
     "museumId": "kyohaku",
-    "title": "日本と東洋のやきもの",
+    "title": "特別公開 和束谷の開拓者―原山古墳被葬者の実像―",
     "startDate": "2027-01-02",
     "endDate": "2027-03-22",
     "kind": "collection",
     "artists": [],
     "genres": [
-      "工芸",
       "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/?date=02#Theme6568-02",
-    "summary": "日本の陶磁器と中国・朝鮮など東洋のやきものを並べ、その多様な姿と交流を紹介する陶磁の展示。",
+    "detailUrl": null,
+    "summary": "原山古墳に葬られた人物の姿に迫り、和束谷を切り開いた人々について考古資料から探る特別公開です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20270102-a6c79d",
@@ -246,18 +243,19 @@
   {
     "id": "kyohaku-20270126-c8de4f",
     "museumId": "kyohaku",
-    "title": "仏の霊験",
+    "title": "阿弥派の絵画Ⅱ",
     "startDate": "2027-01-26",
     "endDate": "2027-02-21",
     "kind": "collection",
     "artists": [],
     "genres": [
+      "日本画",
       "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/?date=26#Theme6571-26",
-    "summary": "仏や菩薩がもたらした不思議な御利益の物語を描いた絵巻を紹介する名品ギャラリーの展示。",
+    "detailUrl": null,
+    "summary": "阿弥派の絵画をめぐる二期連続企画の第二回として、引き続き中世絵画の展示室で関連作品を紹介します。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20270126-454131",
@@ -278,19 +276,18 @@
   {
     "id": "kyohaku-20270209-ed5fd7",
     "museumId": "kyohaku",
-    "title": "建仁寺の障壁画",
+    "title": "明清時代の山水画",
     "startDate": "2027-02-09",
     "endDate": "2027-03-22",
     "kind": "collection",
     "artists": [],
     "genres": [
-      "古美術",
-      "日本画"
+      "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/02/?date=09#Theme6576-09",
-    "summary": "京都最古の禅寺・建仁寺に伝わる襖絵などの障壁画を、寄託品を中心に紹介する近世絵画の展示。",
+    "detailUrl": null,
+    "summary": "中国の明・清時代に描かれた山水画を取り上げ、中国絵画展示室で風景表現の多様さを紹介する展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20270209-2e9e31",
@@ -333,13 +330,13 @@
     "kind": "collection",
     "artists": [],
     "genres": [
-      "古美術",
-      "工芸"
+      "工芸",
+      "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/feature/b/2027_hina/",
-    "summary": "桃の節句にあわせ、雛人形や雛道具など館蔵の人形を通して雛まつりの文化を紹介する季節の特集展示。",
+    "detailUrl": null,
+    "summary": "桃の節句の季節に合わせ、雛まつりにまつわる人形や関連する品々を取り上げる名品ギャラリーの特集展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20270223-6e2532",
@@ -352,12 +349,13 @@
       "kukai"
     ],
     "genres": [
-      "古美術"
+      "古美術",
+      "日本画"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/02/?date=23#Theme6572-23",
-    "summary": "真言宗を開いた弘法大師空海の生涯と、各地に伝わる数々の伝説を描いた絵伝を紹介する絵巻の展示。",
+    "detailUrl": null,
+    "summary": "弘法大師空海の生涯を絵で物語る絵伝を取り上げ、絵巻展示室でその場面を紹介する名品ギャラリーの展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20270420-88d1fd",
@@ -370,13 +368,13 @@
       "kano-eitoku"
     ],
     "genres": [
-      "古美術",
-      "日本画"
+      "日本画",
+      "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/special/2027_kano/",
-    "summary": "開館130周年を記念し、権力者に仕えた狩野派約400年のうち室町から桃山の名品を集める大回顧展の第1部。",
+    "detailUrl": null,
+    "summary": "開館130周年を記念し、狩野派の歩みのうち室町時代から桃山時代までを取り上げる二部構成の特別展の前半です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20270608-65a53f",
@@ -389,13 +387,13 @@
       "kano-eitoku"
     ],
     "genres": [
-      "古美術",
-      "日本画"
+      "日本画",
+      "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/special/2027_kano/",
-    "summary": "半世紀ぶりの大規模な狩野派展の第2部として、作品を全て入れ替え江戸から明治までの絵師を紹介する。",
+    "detailUrl": null,
+    "summary": "開館130周年記念の狩野派展の後半として、江戸時代から明治時代にかけての狩野派の展開をたどる特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kyohaku-20271008-e7e8f2",
@@ -408,9 +406,9 @@
     "genres": [
       "古美術"
     ],
-    "detailUrl": "https://www.kyohaku.go.jp/jp/exhibitions/special/2027_shimadzu/",
-    "summary": "鎌倉時代から続く薩摩の大名・島津家八百年の歴史を、伝来の美術品や史料でたどる特別展。",
+    "detailUrl": null,
+    "summary": "開館130周年を記念して、薩摩の島津家が歩んだ八百年の歴史と文化に焦点を当てる大規模な特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

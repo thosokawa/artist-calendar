@@ -19,7 +19,7 @@
   {
     "id": "tnm-20260929-583971",
     "museumId": "tnm",
-    "title": "特別展 内山晋コレクション受贈記念 「歌川広重 江戸のベストアングル」",
+    "title": "特別展 内山晋コレクション受贈記念「歌川広重 江戸のベストアングル」",
     "startDate": "2026-09-29",
     "endDate": "2026-12-20",
     "kind": "special",
@@ -30,10 +30,10 @@
       "浮世絵",
       "版画"
     ],
-    "detailUrl": "https://www.tnm.jp/modules/r_free_page/index.php?id=2759",
-    "summary": "内山晋コレクションの寄贈を記念し、東海道や名所江戸百景など広重の風景版画の連作を三期に分けて全点紹介する。",
+    "detailUrl": null,
+    "summary": "新たに受贈した内山晋旧蔵の浮世絵をもとに、広重の三大風景シリーズ全点を三期に分けて公開する記念展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "tnm-20260929-8eb5e9",
@@ -60,14 +60,12 @@
     "kind": "special",
     "artists": [],
     "genres": [
-      "古美術",
-      "書",
-      "日本画"
+      "古美術"
     ],
-    "detailUrl": "https://www.tnm.jp/modules/r_free_page/index.php?id=2770",
-    "summary": "京都・大徳寺の開創700年を記念し、本山と塔頭に伝わる禅の名宝や茶の湯ゆかりの品々を一堂に紹介する特別展。",
+    "detailUrl": null,
+    "summary": "開創700年を迎えた京都の禅寺大徳寺について、塔頭を含む山内の秘蔵の寺宝を東京で初めてまとめて紹介します。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "tnm-20270119-8b73c3",
@@ -79,13 +77,27 @@
     "artists": [],
     "genres": [
       "古美術",
-      "日本画",
-      "工芸",
-      "書"
+      "工芸"
     ],
-    "detailUrl": "https://www.tnm.jp/modules/r_free_page/index.php?id=2763",
-    "summary": "平安時代の物語『源氏物語』が千年にわたり日本の美術と文化に与えた影響を、絵画や工芸、写本などでたどる。",
+    "detailUrl": null,
+    "summary": "源氏物語を題材とした絵画や工芸、写本や注釈書から芸能・大衆文化までを通じ、名作が育んだ美の広がりをたどります。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "tnm-20270420-89cffb",
+    "museumId": "tnm",
+    "title": "智証大師諡号1100年記念 特別展「国宝 三井寺のすべて」",
+    "startDate": "2027-04-20",
+    "endDate": "2027-06-13",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "円珍の大師号授与から1100年を記念し、滋賀の古刹三井寺に伝わる円珍ゆかりの宝物を数多く展示する展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
   }
 ]

@@ -18,16 +18,11 @@
       "kazuo-shiraga",
       "takao-saito"
     ],
-    "genres": [
-      "浮世絵",
-      "古美術",
-      "現代美術",
-      "マンガ・アニメ"
-    ],
-    "detailUrl": "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html",
-    "summary": "中国の古典小説『水滸伝』をめぐり、宋代の名品から国芳の浮世絵、現代の漫画までその受容と広がりをたどる。",
+    "genres": [],
+    "detailUrl": null,
+    "summary": "中国の古典として名高い物語「水滸伝」を主題に据え、東京駅の赤レンガの館内で紹介する秋の企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20261121-4f9ea2",
@@ -39,15 +34,11 @@
     "artists": [
       "nikolai-astrup"
     ],
-    "genres": [
-      "洋画",
-      "版画",
-      "工芸"
-    ],
-    "detailUrl": "https://www.ejrcf.or.jp/gallery/exhibition/202611_astrup.html",
-    "summary": "ノルウェー西部の自然と庭を描いた画家アストルップの油彩や木版画、染織デザインを紹介する日本初の回顧展。",
+    "genres": [],
+    "detailUrl": null,
+    "summary": "ニコライ・アストルップを取り上げ、「創造する庭」という切り口からその仕事を紹介する冬の企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20270220-88043f",
@@ -63,9 +54,9 @@
       "工芸"
     ],
     "detailUrl": null,
-    "summary": "図案から製織まで一貫して手がけた手織錦で知られる染織家・山鹿清華の歩みを約40年ぶりに振り返る回顧展。",
+    "summary": "染織家・山鹿清華の生誕140年を記念し、その染織の仕事をまとめて紹介する春の企画展として開催されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20270429-e7d378",
@@ -77,13 +68,11 @@
     "artists": [
       "teruo-hada"
     ],
-    "genres": [
-      "日本画"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "社会の周縁に生きる人々と穏やかな仏画の双方を描いた画家・秦テルヲの画業を、聖と俗の両面からたどる。",
+    "summary": "秦テルヲの作品世界を「聖と俗」という二つの視点から見つめ直す、初夏に予定されている企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20270703-2e98fa",
@@ -103,9 +92,9 @@
       "写真"
     ],
     "detailUrl": null,
-    "summary": "20世紀のシカゴで活動した日米にルーツをもつ5人の写真家を通して、国境を越える写真史の一章を描き出す。",
+    "summary": "アメリカの都市シカゴを舞台に、写真と「越境」をテーマとして構成される夏の写真展が予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20270918-55d9a0",
@@ -117,13 +106,11 @@
     "artists": [
       "hanko-kajita"
     ],
-    "genres": [
-      "日本画"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "明治から大正に活躍した日本画家・梶田半古の画業を、挿絵や口絵など出版文化での仕事とあわせて紹介する。",
+    "summary": "梶田半古という一人の作家に焦点を当て、その歩みと作品を紹介する秋の企画展として予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20271127-7f64c7",
@@ -135,14 +122,11 @@
     "artists": [
       "ellen-thesleff"
     ],
-    "genres": [
-      "洋画",
-      "版画"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "フィンランド絵画の黄金期に国境を越えて活躍した女性画家テスレフの旅と制作をたどる日本初の個展。",
+    "summary": "エレン・テスレフの作品をまとめて紹介する個展形式の企画で、年をまたぐ冬の会期で予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "ejrcf-20280304-3128f0",
@@ -154,14 +138,10 @@
     "artists": [
       "tatsukichi-fujii"
     ],
-    "genres": [
-      "工芸",
-      "日本画",
-      "デザイン"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "工芸から絵画、図案まで幅広く手がけた藤井達吉の新発見作を含む作品群から、自然への憧れと生活の美を探る。",
+    "summary": "藤井達吉が抱いた自然への憧れに注目し、その創作をたどる企画展として2028年の春に予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

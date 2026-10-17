@@ -2,7 +2,7 @@
   {
     "id": "tobikan-20260725-df2b21",
     "museumId": "tobikan",
-    "title": "東京都美術館開館100周年記念 大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
+    "title": "大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
     "startDate": "2026-07-25",
     "endDate": "2026-10-18",
     "kind": "special",
@@ -18,18 +18,17 @@
     ],
     "genres": [
       "日本画",
-      "浮世絵",
       "古美術"
     ],
-    "detailUrl": "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
-    "summary": "大英博物館が所蔵する江戸絵画や浮世絵の名品を里帰りさせ、収集に関わった人々の歩みとともに紹介する展覧会。",
+    "detailUrl": null,
+    "summary": "開館100周年を記念し、大英博物館が所蔵する日本美術の中から海を渡った江戸時代の絵画を紹介する特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "tobikan-20261114-26f798",
     "museumId": "tobikan",
-    "title": "東京都美術館開館100周年記念 オルセー美術館所蔵 いまを生きる歓び",
+    "title": "オルセー美術館所蔵 いまを生きる歓び",
     "startDate": "2026-11-14",
     "endDate": "2027-03-28",
     "kind": "special",
@@ -42,15 +41,15 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": "https://www.tobikan.jp/exhibition/2026_orsay.html",
-    "summary": "19世紀の画家たちが身近な日常に見いだした喜びを、オルセー美術館の所蔵品約110点で味わう展覧会。",
+    "detailUrl": null,
+    "summary": "開館100周年記念として、パリのオルセー美術館のコレクションから生きる喜びをテーマにした作品を紹介する特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "tobikan-20261119-7119d9",
     "museumId": "tobikan",
-    "title": "東京都美術館開館100周年記念 あなたが世界を読むために",
+    "title": "はじまりをひらく 東京都美術館の100年",
     "startDate": "2026-11-19",
     "endDate": "2027-01-11",
     "kind": "special",
@@ -61,14 +60,11 @@
       "bikky-sunazawa",
       "elena-tutatchikova"
     ],
-    "genres": [
-      "現代美術",
-      "彫刻"
-    ],
-    "detailUrl": "https://www.tobikan.jp/exhibition/2026_waysofreading.html",
-    "summary": "彫刻や詩、写真など五人の作り手の作品を手がかりに、人が世界と向き合い読み解くさまざまな方法を体感する企画展。",
+    "genres": [],
+    "detailUrl": null,
+    "summary": "開館から100年を迎えた東京都美術館の歩みを振り返り、その始まりと歴史をたどる無料の記念展覧会です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "tobikan-20261119-5c4a5c",
@@ -97,13 +93,12 @@
       "raoul-dufy"
     ],
     "genres": [
-      "洋画",
-      "デザイン"
+      "洋画"
     ],
-    "detailUrl": "https://www.tobikan.jp/exhibition/2027_dufy.html",
-    "summary": "生誕150年を記念し、パリ市立近代美術館の所蔵品を中心に、《電気の精》の原画も含めてデュフィの全貌に迫る。",
+    "detailUrl": null,
+    "summary": "フランスの画家デュフィの作品を取り上げ、その色彩豊かな画業を紹介する特別展として2027年春から開催されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "tobikan-20270911-2f5e5c",
@@ -122,9 +117,9 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": "https://www.tobikan.jp/exhibition/2027_hammer.html",
-    "summary": "ロサンゼルスのハマー美術館が誇る西洋絵画約70点を、日本で初めてまとまった形で紹介する展覧会。",
+    "detailUrl": null,
+    "summary": "ハマー美術館のコレクションから、レンブラントやモネ、ゴッホらによる西洋絵画の名品を紹介する特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

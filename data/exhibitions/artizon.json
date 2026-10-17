@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "id": "artizon-20261024-b1f8ac",
+    "museumId": "artizon",
+    "title": "エトランゼたち —洋画家たちのヨーロッパ体験",
+    "startDate": "2026-10-24",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "hikaru-fujii"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "異邦人としてヨーロッパに渡った日本の洋画家たちが、現地で何を経験し制作に生かしたのかをたどる展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "artizon-20270223-3d1fce",
+    "museumId": "artizon",
+    "title": "ARTIZON NOW ひろがる、つながる、コレクション",
+    "startDate": "2027-02-23",
+    "endDate": "2027-05-30",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "美術館の所蔵作品を軸に、コレクションが広がりつながっていく現在の姿を紹介する春のコレクション展です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "artizon-20270619-10dbad",
+    "museumId": "artizon",
+    "title": "藤島武二 —創造の軌跡",
+    "startDate": "2027-06-19",
+    "endDate": "2027-09-20",
+    "kind": "special",
+    "artists": [
+      "ei-arakawa-nash",
+      "takeji-fujishima"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "近代日本の洋画家・藤島武二がどのように創作を重ねてきたのか、その歩みを作品を通してたどる展覧会です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  },
+  {
+    "id": "artizon-20271016-27da00",
+    "museumId": "artizon",
+    "title": "石橋財団コレクション選 特集コーナー展示 ロダンに捧ぐ",
+    "startDate": "2027-10-16",
+    "endDate": "2028-01-30",
+    "kind": "collection",
+    "artists": [
+      "auguste-rodin"
+    ],
+    "genres": [
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "石橋財団の所蔵品から選んだ作品で構成し、彫刻家ロダンへのオマージュをテーマにした特集コーナーの展示です。",
+    "firstSeenAt": "2026-10-17",
+    "lastSeenAt": "2026-10-17"
+  }
+]

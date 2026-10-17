@@ -7,35 +7,36 @@
     "endDate": "2026-12-27",
     "kind": "special",
     "artists": [
-      "auguste-rodin"
+      "auguste-rodin",
+      "kazuo-shiraga"
     ],
     "genres": [
       "彫刻",
-      "洋画",
       "現代美術"
     ],
-    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/t_2610/index.html",
-    "summary": "兵庫ゆかりの二人の収集家、松方幸次郎の西洋近代美術と山村德太郎の具体コレクションを対話させる特別展。",
+    "detailUrl": null,
+    "summary": "松方コレクションのロダン彫刻と当館の山村コレクションを並べ、二人の収集家の情熱と願いを対比させる展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "artm-hyogo-20261020-2fb213",
     "museumId": "artm-hyogo",
-    "title": "前衛って何だ!?",
+    "title": "小企画 美術の中のかたち―手で見る造形 青木 野枝",
     "startDate": "2026-10-20",
     "endDate": "2027-02-23",
     "kind": "collection",
-    "artists": [],
-    "genres": [
-      "洋画",
-      "写真",
-      "現代美術"
+    "artists": [
+      "sadamasa-motonaga",
+      "noe-aoki"
     ],
-    "detailUrl": "https://www.artm.pref.hyogo.jp/exhibition/j_2610/index.html",
-    "summary": "ポンピドゥー・センターの「前衛芸術の日本」展から40年を機に、美術と写真で日本の前衛を問い直すコレクション展。",
+    "genres": [
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "館内に作品を設置した彫刻家・青木野枝を迎え、目で見ることと手で触れることの関係を探る小企画展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "artm-hyogo-20261020-d17440",
@@ -59,7 +60,7 @@
   {
     "id": "artm-hyogo-20261128-a177a1",
     "museumId": "artm-hyogo",
-    "title": "黒川 岳 KUROKAWA Gaku（注目作家紹介プログラム―チャンネル17）",
+    "title": "注目作家紹介プログラム―チャンネル17 黒川 岳",
     "startDate": "2026-11-28",
     "endDate": "2027-01-31",
     "kind": "special",
@@ -67,12 +68,13 @@
       "gaku-kurokawa"
     ],
     "genres": [
-      "現代美術"
+      "現代美術",
+      "彫刻"
     ],
     "detailUrl": null,
-    "summary": "注目の若手作家を紹介するシリーズ「チャンネル」の第17回として、黒川岳の作品を無料で紹介する展示。",
+    "summary": "彫刻や音楽を手がかりに素材の響きや空気の振動を探ってきた若手作家・黒川岳を紹介するシリーズ第17回。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "artm-hyogo-20261217-e7e8dc",
@@ -100,14 +102,17 @@
     "startDate": "2027-03-20",
     "endDate": "2027-05-23",
     "kind": "special",
-    "artists": [],
+    "artists": [
+      "kuniyoshi-utagawa",
+      "tsukioka-yoshitoshi",
+      "kawanabe-kyosai"
+    ],
     "genres": [
-      "浮世絵",
-      "版画"
+      "浮世絵"
     ],
     "detailUrl": null,
-    "summary": "幕末から明治にかけて活躍した浮世絵師たちの斬新な表現に光を当て、その魅力を新たな視点で紹介する特別展。",
+    "summary": "浅井コレクションの名品を通じ、文明開化の時代に浮世絵師たちが生んだ新しい表現と役割をひもとく展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

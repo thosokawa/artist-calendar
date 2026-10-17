@@ -129,7 +129,9 @@
   "auguste-rodin": {
     "name": "ロダン",
     "nameRomaji": "Auguste Rodin",
-    "aliases": []
+    "aliases": [
+      "オーギュスト・ロダン"
+    ]
   },
   "aya-fujioka": {
     "name": "藤岡亜弥",
@@ -301,6 +303,11 @@
   "do-ho-suh": {
     "name": "ソ・ドホ",
     "nameRomaji": "Do Ho Suh",
+    "aliases": []
+  },
+  "ei-arakawa-nash": {
+    "name": "荒川ナッシュ医",
+    "nameRomaji": "Ei Arakawa-Nash",
     "aliases": []
   },
   "ei-q": {
@@ -528,6 +535,11 @@
     "nameRomaji": "Gyoshu Hayami",
     "aliases": []
   },
+  "hakuin": {
+    "name": "白隠",
+    "nameRomaji": "Hakuin",
+    "aliases": []
+  },
   "hakuin-ekaku": {
     "name": "白隠慧鶴",
     "nameRomaji": "Hakuin Ekaku",
@@ -598,6 +610,11 @@
   "henri-matisse": {
     "name": "マティス",
     "nameRomaji": "Henri Matisse",
+    "aliases": []
+  },
+  "hikaru-fujii": {
+    "name": "藤井光",
+    "nameRomaji": "Hikaru Fujii",
     "aliases": []
   },
   "hiraki-sawa": {
@@ -678,7 +695,9 @@
   "j-m-w-turner": {
     "name": "J.M.W. ターナー",
     "nameRomaji": "J. M. W. Turner",
-    "aliases": []
+    "aliases": [
+      "ターナー"
+    ]
   },
   "jakkawan-nilthamrong": {
     "name": "ジャッカワーン・ニンタムロン",
@@ -788,6 +807,11 @@
   "kanzan-shimomura": {
     "name": "下村観山",
     "nameRomaji": "Kanzan Shimomura",
+    "aliases": []
+  },
+  "karin-bjorquist": {
+    "name": "カーリン・ビョルクヴィスト",
+    "nameRomaji": "Karin Björquist",
     "aliases": []
   },
   "karl-fritsch": {
@@ -988,6 +1012,11 @@
   "lieko-shiga": {
     "name": "志賀理江子",
     "nameRomaji": "Lieko Shiga",
+    "aliases": []
+  },
+  "lisa-larson": {
+    "name": "リサ・ラーソン",
+    "nameRomaji": "Lisa Larson",
     "aliases": []
   },
   "lisbet-jobs": {
@@ -1340,7 +1369,9 @@
   "paul-cezanne": {
     "name": "ポール・セザンヌ",
     "nameRomaji": "Paul Cézanne",
-    "aliases": []
+    "aliases": [
+      "セザンヌ"
+    ]
   },
   "paul-gauguin": {
     "name": "ゴーガン",
@@ -1387,7 +1418,9 @@
   "raoul-dufy": {
     "name": "ラウル・デュフィ",
     "nameRomaji": "Raoul Dufy",
-    "aliases": []
+    "aliases": [
+      "デュフィ"
+    ]
   },
   "raphael": {
     "name": "ラファエロ・サンツィオ",
@@ -1481,6 +1514,11 @@
     "nameRomaji": "Saburo Muraoka",
     "aliases": []
   },
+  "sadamasa-motonaga": {
+    "name": "元永定正",
+    "nameRomaji": "Sadamasa Motonaga",
+    "aliases": []
+  },
   "salvador-dali": {
     "name": "サルバドール・ダリ",
     "nameRomaji": "Salvador Dalí",
@@ -1534,6 +1572,11 @@
   "sen-takahashi": {
     "name": "髙橋銑",
     "nameRomaji": "Sen Takahashi",
+    "aliases": []
+  },
+  "sengai": {
+    "name": "仙厓",
+    "nameRomaji": "Sengai",
     "aliases": []
   },
   "sengai-gibon": {
@@ -1666,6 +1709,11 @@
     "nameRomaji": "Steve Bishop",
     "aliases": []
   },
+  "stig-lindberg": {
+    "name": "スティグ・リンドベリ",
+    "nameRomaji": "Stig Lindberg",
+    "aliases": []
+  },
   "su-mei-tse": {
     "name": "スーメイ・ツェ",
     "nameRomaji": "Su-Mei Tse",
@@ -1709,6 +1757,11 @@
   "takashi-tanaka": {
     "name": "田中岑",
     "nameRomaji": "Takashi Tanaka",
+    "aliases": []
+  },
+  "takeji-fujishima": {
+    "name": "藤島武二",
+    "nameRomaji": "Takeji Fujishima",
     "aliases": []
   },
   "takeshi-yasura": {
@@ -1967,6 +2020,11 @@
   "wiktor-sadowski": {
     "name": "ヴィクトル・サドフスキ",
     "nameRomaji": "Wiktor Sadowski",
+    "aliases": []
+  },
+  "wilhelm-kage": {
+    "name": "ヴィルヘルム・コーゲ",
+    "nameRomaji": "Wilhelm Kåge",
     "aliases": []
   },
   "yan-wengui": {

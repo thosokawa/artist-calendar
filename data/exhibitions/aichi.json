@@ -2,7 +2,7 @@
   {
     "id": "aichi-20261030-3213b8",
     "museumId": "aichi",
-    "title": "ビゲロー 幻のコレクションと近代日本画の夜明け──日本美術に魅せられたボストン人──",
+    "title": "没後100年記念 ビゲロー 幻のコレクションと近代日本画の夜明け──日本美術に魅せられたボストン人──",
     "startDate": "2026-10-30",
     "endDate": "2026-12-13",
     "kind": "special",
@@ -16,14 +16,12 @@
       "ike-no-taiga"
     ],
     "genres": [
-      "日本画",
-      "浮世絵",
-      "古美術"
+      "日本画"
     ],
-    "detailUrl": "https://apmoa.museum/exhibition/bigelow",
-    "summary": "没後100年を迎えるボストンの収集家ビゲローの旧蔵品と、彼が支援した明治の日本画家たちの作品を紹介する。",
+    "detailUrl": null,
+    "summary": "ボストンの収集家ビゲローの没後100年を記念し、彼が集めた日本美術と近代日本画の始まりをたどる企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "aichi-20270129-444762",
@@ -38,9 +36,9 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://apmoa.museum/exhibition/wheredowestand",
-    "summary": "1990年代以降、世界へ活動を広げた日本の作家20組の作品を、身体や歴史、グローバル化などの視点から読み解く。",
+    "detailUrl": null,
+    "summary": "「私たちの時代の美術」を副題に、同時代の美術を取り上げる企画展で、2027年1月から4月まで開かれる。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

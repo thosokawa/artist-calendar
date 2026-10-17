@@ -2,10 +2,10 @@
   {
     "id": "mimt-20261017-ab6532",
     "museumId": "mimt",
-    "title": "展覧会「フォンタネージ――イタリアの光・心の風景」特別章 フォンタネージ《四月》と《雲》、そして日本近代洋画",
+    "title": "フォンタネージ《四月》と《雲》、そして日本近代洋画",
     "startDate": "2026-10-17",
     "endDate": "2027-01-24",
-    "kind": "collection",
+    "kind": "special",
     "artists": [
       "antonio-fontanesi",
       "chu-asai",
@@ -14,10 +14,10 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": "https://mimt.jp/small-gallery/#FontanesiModernJapan",
-    "summary": "フォンタネージの《四月》と《雲》を起点に、その教えが日本の近代洋画にどう受け継がれたかを見つめる小企画展。",
+    "detailUrl": null,
+    "summary": "フォンタネージ展の特別章として、《四月》と《雲》を軸に日本近代洋画とのつながりを探る小企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "mimt-20270219-877dd3",
@@ -31,12 +31,11 @@
       "suzanne-valadon"
     ],
     "genres": [
-      "洋画",
-      "版画"
+      "洋画"
     ],
-    "detailUrl": "https://mimt.jp/exhibition/#montmartre",
-    "summary": "芸術家が集ったパリのモンマルトルを舞台に、ロートレックやヴァラドンと知られざる画家たちの作品を紹介する。",
+    "detailUrl": null,
+    "summary": "ロートレックやヴァラドンをはじめ、モンマルトルで活動したパリの画家たちを紹介する展覧会です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

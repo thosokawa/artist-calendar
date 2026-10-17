@@ -19,14 +19,12 @@
       "titian"
     ],
     "genres": [
-      "洋画",
-      "古美術",
-      "版画"
+      "洋画"
     ],
-    "detailUrl": "https://www.nact.jp/exhibition_special/2026/louvre2026/",
-    "summary": "レオナルドの《美しきフェロニエール》を軸に、ルーヴル美術館のルネサンス作品50点超を四つの主題で紹介する展覧会。",
+    "detailUrl": null,
+    "summary": "パリのルーヴル美術館が所蔵する作品を通じて、ルネサンス期のヨーロッパ美術の魅力に迫る企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nact-20261028-ae6edf",
@@ -43,9 +41,9 @@
     "genres": [
       "マンガ・アニメ"
     ],
-    "detailUrl": "https://www.nact.jp/exhibition_special/2026/shojomanga/",
-    "summary": "少女漫画の表現を大きく広げた萩尾望都・山岸凉子・大和和紀の三人の歩みを、デビュー期から現在まで原画でたどる。",
+    "detailUrl": null,
+    "summary": "少女漫画を代表する萩尾望都・山岸凉子・大和和紀の三人の漫画家の仕事を一堂に紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

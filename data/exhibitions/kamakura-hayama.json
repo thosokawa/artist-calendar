@@ -2,24 +2,28 @@
   {
     "id": "kamakura-hayama-20260912-f5c43a",
     "museumId": "kamakura-hayama",
-    "title": "銅版画家・駒井哲郎 掌上にひろがる星座のように",
+    "title": "たそかれ、かはたれ ―現代美術における“翳”",
     "startDate": "2026-09-12",
     "endDate": "2026-11-15",
-    "kind": "special",
+    "kind": "collection",
     "artists": [
       "tetsuro-komai",
       "odilon-redon",
       "kiyoshi-hasegawa",
-      "koshiro-onchi"
+      "koshiro-onchi",
+      "samiro-yunoki",
+      "kazuo-okazaki",
+      "hiroshi-sugimoto",
+      "daido-moriyama"
     ],
     "genres": [
-      "版画",
-      "洋画"
+      "現代美術",
+      "写真"
     ],
-    "detailUrl": "https://www.moma.pref.kanagawa.jp/exhibition/2026-komai-tetsuro/",
-    "summary": "没後50年を機に、銅版画家・駒井哲郎の初期油彩から晩年の版画までを、銅版や道具、影響を受けた作家の作品とともに回顧する（葉山館）。",
+    "detailUrl": null,
+    "summary": "光と闇が溶け合う時間の気配に着目し、近年の収蔵品を含む所蔵作品から20世紀美術の揺らぐ像を紹介する。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kamakura-hayama-20260912-c6f3f6",
@@ -57,32 +61,31 @@
       "wies-aw-wa-kuski"
     ],
     "genres": [
-      "デザイン",
-      "版画"
+      "デザイン"
     ],
-    "detailUrl": "https://www.moma.pref.kanagawa.jp/exhibition/2026-a-collection1/",
-    "summary": "銅版画家・渡辺千尋が集めた東欧革命前後のポーランド・ポスターから、緊張感をはらむ時代の表現を紹介する（鎌倉別館）。",
+    "detailUrl": null,
+    "summary": "銅版画家渡辺千尋が集めたポーランド・ポスターから、東欧革命前後に活躍した作家の作品約70点を展示する。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kamakura-hayama-20261128-696097",
     "museumId": "kamakura-hayama",
-    "title": "松本陽子 宵の明星を見た日",
+    "title": "マルク・シャガール『ラ・フォンテーヌ寓話集』",
     "startDate": "2026-11-28",
     "endDate": "2027-02-28",
-    "kind": "special",
+    "kind": "collection",
     "artists": [
-      "yoko-matsumoto"
+      "yoko-matsumoto",
+      "marc-chagall"
     ],
     "genres": [
-      "現代美術",
-      "洋画"
+      "版画"
     ],
     "detailUrl": null,
-    "summary": "ピンクの色彩が渦巻く抽象画で知られる画家・松本陽子の制作を、葉山館で紹介する企画展。",
+    "summary": "シャガールがパリで手がけた銅版画集『ラ・フォンテーヌ寓話集』全100点を、所蔵コレクションから前後期で公開。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kamakura-hayama-20261128-f2ed37",
@@ -118,28 +121,28 @@
       "洋画"
     ],
     "detailUrl": null,
-    "summary": "ともに東京・深川にゆかりを持つ日本画家・伊東深水と洋画家・関根正二を並べ、その歩みを振り返る企画展（鎌倉別館）。",
+    "summary": "深川で育った幼なじみの伊東深水と関根正二に注目し、深水の初期作の初公開を通じて互いの影響を探る展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kamakura-hayama-20270313-0c76b1",
     "museumId": "kamakura-hayama",
-    "title": "須田悦弘展",
+    "title": "田中岑 色の軌跡 －《女の一生》から",
     "startDate": "2027-03-13",
     "endDate": "2027-06-13",
-    "kind": "special",
+    "kind": "collection",
     "artists": [
-      "yoshihiro-suda"
+      "yoshihiro-suda",
+      "takashi-tanaka"
     ],
     "genres": [
-      "彫刻",
-      "現代美術"
+      "洋画"
     ],
     "detailUrl": null,
-    "summary": "木を彫って本物そっくりの草花をつくり、空間の片隅にそっと置く彫刻家・須田悦弘の作品を葉山館で紹介する。",
+    "summary": "旧鎌倉館の喫茶室のために描かれた壁画《女の一生》を軸に、所蔵作品で画家田中岑の歩みを振り返る展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "kamakura-hayama-20270313-62ec85",

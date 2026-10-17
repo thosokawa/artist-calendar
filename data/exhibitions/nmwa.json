@@ -24,7 +24,7 @@
     "title": "劇場をめぐるイメージ―ドラクロワ、ドーミエからトゥールーズ=ロートレック、クリンガーまで",
     "startDate": "2026-10-20",
     "endDate": "2027-01-11",
-    "kind": "collection",
+    "kind": "special",
     "artists": [
       "eugene-delacroix",
       "honore-daumier",
@@ -32,12 +32,12 @@
       "max-klinger"
     ],
     "genres": [
-      "版画"
+      "洋画"
     ],
-    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2026theater.html",
-    "summary": "19世紀から世紀末の画家たちが劇場や観客、舞台の情景をどう描いたかを、版画素描展示室の所蔵作品でたどる小企画展。",
+    "detailUrl": null,
+    "summary": "ドラクロワやロートレックら西洋の画家たちが劇場という場をどう表したかをたどる小企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nmwa-20261024-2bc498",
@@ -55,10 +55,10 @@
       "洋画",
       "現代美術"
     ],
-    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
-    "summary": "テート美術館所蔵のターナー作品80点以上を、戦後・現代の作品と章ごとに並べ、時代を超えた響き合いを探る回顧展。",
+    "detailUrl": null,
+    "summary": "テート美術館の所蔵品により、崇高を描いたターナーの絵画を現代美術と響き合わせて紹介する企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nmwa-20270918-e00f54",
@@ -72,9 +72,9 @@
       "洋画",
       "現代美術"
     ],
-    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/2027gachuga.html",
-    "summary": "絵の中に描かれた絵という仕掛けに注目し、ルネサンスから現代までの作品を通して絵画の自己言及性を探る企画展。",
+    "detailUrl": null,
+    "summary": "絵の中に描かれた絵に注目し、ルネサンスから現代以降までその表現の広がりを探る企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

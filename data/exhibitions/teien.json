@@ -17,13 +17,12 @@
       "armi-ratia"
     ],
     "genres": [
-      "デザイン",
-      "工芸"
+      "デザイン"
     ],
-    "detailUrl": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/",
-    "summary": "フィンランドのマリメッコの大胆なプリントと色彩を、60着以上のドレスや布地でアール・デコの旧朝香宮邸に展示する。",
+    "detailUrl": null,
+    "summary": "マリメッコのデザインに見られる模様に注目し、その表現が持つ力や魅力を紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "teien-20270116-8ce303",
@@ -36,9 +35,9 @@
     "genres": [
       "工芸"
     ],
-    "detailUrl": "https://www.teien-art-museum.ne.jp/exhibition/270116-0328_lithuania/",
-    "summary": "糸紡ぎの道具や織物、木彫の聖像など、暮らしと信仰に根ざしたリトアニアの多様な手仕事を紹介する国内初の展覧会。",
+    "detailUrl": null,
+    "summary": "リトアニアの人々が受け継いできた手仕事を紹介し、そこに込められた愛と祈りの思いにふれる展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

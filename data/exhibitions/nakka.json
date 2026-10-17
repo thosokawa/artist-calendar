@@ -49,19 +49,18 @@
       "kawanabe-kyosai"
     ],
     "genres": [
-      "浮世絵",
-      "古美術",
-      "日本画"
+      "日本画",
+      "古美術"
     ],
-    "detailUrl": "https://nakka-art.jp/exhibition-post/daiei-ten2026/",
-    "summary": "大英博物館が所蔵する江戸時代の屏風や掛軸、浮世絵を、海外へ渡った経緯や収集者の物語とともに紹介する展覧会。",
+    "detailUrl": null,
+    "summary": "大英博物館が所蔵する日本美術コレクションの中から、海を渡った江戸時代の絵画を紹介する展覧会です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nakka-20261114-b9cbaf",
     "museumId": "nakka",
-    "title": "Osaka Directory 13 Supported by RICHARD MILLE",
+    "title": "Osaka Directory 13 Supported by RICHARD MILLE 橘 葉月",
     "startDate": "2026-11-14",
     "endDate": "2026-12-13",
     "kind": "special",
@@ -71,15 +70,15 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://nakka-art.jp/exhibition-post/osaka-directory-dir13/",
-    "summary": "大阪ゆかりの若手作家を一人ずつ紹介するシリーズの第13回として、橘葉月の作品を取り上げる小企画展。",
+    "detailUrl": null,
+    "summary": "シリーズ「Osaka Directory」の第13回として、橘葉月の作品を取り上げて紹介する個展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nakka-20261219-a7a532",
     "museumId": "nakka",
-    "title": "Osaka Directory 14 Supported by RICHARD MILLE",
+    "title": "Osaka Directory 14 Supported by RICHARD MILLE 迫 鉄平",
     "startDate": "2026-12-19",
     "endDate": "2027-01-17",
     "kind": "special",
@@ -87,13 +86,12 @@
       "teppei-sako"
     ],
     "genres": [
-      "現代美術",
-      "写真"
+      "現代美術"
     ],
-    "detailUrl": "https://nakka-art.jp/exhibition-post/osaka-directory-dir14/",
-    "summary": "大阪ゆかりの若手作家を紹介するシリーズの第14回で、迫鉄平の写真や映像による表現を見せる小企画展。",
+    "detailUrl": null,
+    "summary": "シリーズ「Osaka Directory」の第14回として、迫鉄平の作品を取り上げて紹介する個展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nakka-20270109-725b25",
@@ -114,22 +112,16 @@
       "mari-katayama",
       "eiko-yamazawa"
     ],
-    "genres": [
-      "日本画",
-      "洋画",
-      "写真",
-      "工芸",
-      "現代美術"
-    ],
-    "detailUrl": "https://nakka-art.jp/exhibition-post/paving-the-way100/",
-    "summary": "教育やメディア、暮らしの変化を背景に、約50人の女性作家による百年の創作の歩みをたどる展覧会。",
+    "genres": [],
+    "detailUrl": null,
+    "summary": "ものづくりに携わってきた女性たちの約100年にわたる歩みをテーマに据えて構成される企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nakka-20270123-998694",
     "museumId": "nakka",
-    "title": "Osaka Directory 15 Supported by RICHARD MILLE",
+    "title": "Osaka Directory 15 Supported by RICHARD MILLE 乾 真裕子",
     "startDate": "2027-01-23",
     "endDate": "2027-02-21",
     "kind": "special",
@@ -139,10 +131,10 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://nakka-art.jp/exhibition-post/osaka-directory-dir15/",
-    "summary": "大阪ゆかりの若手作家を一人ずつ紹介するシリーズの第15回として、乾真裕子の作品を取り上げる小企画展。",
+    "detailUrl": null,
+    "summary": "シリーズ「Osaka Directory」の第15回として、乾真裕子の作品を取り上げて紹介する個展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nakka-20270313-27ae92",

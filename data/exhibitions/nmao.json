@@ -2,20 +2,20 @@
   {
     "id": "nmao-20260719-dc51d7",
     "museumId": "nmao",
-    "title": "笹本晃 ラボラトリー",
+    "title": "コレクション1：私／行為",
     "startDate": "2026-07-19",
     "endDate": "2026-11-03",
-    "kind": "special",
+    "kind": "collection",
     "artists": [
       "aki-sasamoto"
     ],
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://www.nmao.go.jp/events/event/20260719_sasamoto-aki/",
-    "summary": "パフォーマンスとインスタレーションを横断するニューヨーク拠点の作家・笹本晃の活動を紹介する個展。",
+    "detailUrl": null,
+    "summary": "開館50周年に向けたプレ企画として、「私」と「行為」を手がかりに所蔵作品を紹介するコレクション展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nmao-20260719-b97a64",
@@ -91,19 +91,17 @@
       "keizo-kitajima"
     ],
     "genres": [
-      "現代美術",
-      "写真",
-      "メディアアート"
+      "現代美術"
     ],
-    "detailUrl": "https://www.nmao.go.jp/events/event/20261201_stratified-languages/",
-    "summary": "アジアの境界地帯などで言語や文化が交錯する状況を、映像・写真・言葉の作品から浮かび上がらせるグループ展。",
+    "detailUrl": null,
+    "summary": "「コトバの重なる場所」と題し、2026年冬から翌春にかけて開かれる国立国際美術館の特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nmao-20261201-dc9d7d",
     "museumId": "nmao",
-    "title": "開館50周年記念プレ企画 コレクション2：歴史化する現代",
+    "title": "コレクション2：歴史化する現代",
     "startDate": "2026-12-01",
     "endDate": "2027-03-22",
     "kind": "collection",
@@ -111,9 +109,9 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": "https://www.nmao.go.jp/events/event/collection20261201/",
-    "summary": "ポップやミニマル、コンセプチュアルなど開館の1977年までの美術動向を、所蔵品で歴史として見直す展示。",
+    "detailUrl": null,
+    "summary": "開館50周年記念のプレ企画として、「歴史化する現代」をテーマに所蔵作品を展観するコレクション展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

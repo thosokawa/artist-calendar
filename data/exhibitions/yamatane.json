@@ -2,7 +2,7 @@
   {
     "id": "yamatane-20261010-036ce5",
     "museumId": "yamatane",
-    "title": "ザ・ベスト・オブ・山種コレクションⅠ ―横山大観、竹内栖鳳から上村松園、速水御舟へ―",
+    "title": "ザ・ベスト・オブ・山種コレクションⅠ －横山大観、竹内栖鳳から上村松園、速水御舟へ－",
     "startDate": "2026-10-10",
     "endDate": "2026-12-06",
     "kind": "special",
@@ -21,15 +21,15 @@
     "genres": [
       "日本画"
     ],
-    "detailUrl": "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html",
-    "summary": "開館60周年を記念し、重要文化財を含む館蔵の近代日本画の名品約40点を選りすぐって紹介する特別展。",
+    "detailUrl": null,
+    "summary": "開館60周年を記念し、横山大観や上村松園、速水御舟ら近代日本画の巨匠の名品を館蔵品から紹介する特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "yamatane-20261212-372a19",
     "museumId": "yamatane",
-    "title": "ザ・ベスト・オブ・山種コレクションⅡ ―東山魁夷、平山郁夫から千住博、山口晃へ―",
+    "title": "ザ・ベスト・オブ・山種コレクションⅡ －東山魁夷、平山郁夫から千住博、山口晃へ－",
     "startDate": "2026-12-12",
     "endDate": "2027-03-07",
     "kind": "special",
@@ -48,15 +48,15 @@
     "genres": [
       "日本画"
     ],
-    "detailUrl": "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection2.html",
-    "summary": "戦後から現代までの日本画の名品に、記念の新作や賞の受賞作を加えて、館蔵品約40点で流れを示す特別展。",
+    "detailUrl": null,
+    "summary": "開館60周年記念の第4弾として、東山魁夷や平山郁夫から千住博、山口晃まで戦後以降の名作を館蔵品で展観します。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "yamatane-20270320-59a8ea",
     "museumId": "yamatane",
-    "title": "速水御舟―炎舞から名樹散椿へ―",
+    "title": "速水御舟 ―炎舞から名樹散椿へ―",
     "startDate": "2027-03-20",
     "endDate": "2027-05-16",
     "kind": "special",
@@ -67,8 +67,8 @@
       "日本画"
     ],
     "detailUrl": null,
-    "summary": "開館60周年記念特別展の締めくくりとして、「炎舞」や「名樹散椿」など速水御舟の代表作を中心に紹介する。",
+    "summary": "開館60周年記念特別展の第5弾で、《炎舞》や《名樹散椿》などで知られる日本画家・速水御舟の画業に迫ります。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

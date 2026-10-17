@@ -2,24 +2,24 @@
   {
     "id": "nezu-20261024-e8ab9c",
     "museumId": "nezu",
-    "title": "舞楽装束",
+    "title": "開炉―冬を迎える―",
     "startDate": "2026-10-24",
     "endDate": "2026-11-23",
-    "kind": "special",
+    "kind": "collection",
     "artists": [],
     "genres": [
       "工芸",
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "雅楽の舞である舞楽で用いられる華麗な装束に注目し、その意匠や染織技術の美しさを紹介する特別展。",
+    "summary": "特別展「舞楽装束」と同時に展示室6で開催される、冬を迎える開炉の季節にちなんだ茶の湯の展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nezu-20261205-894a6f",
     "museumId": "nezu",
-    "title": "彫る漆",
+    "title": "冬の茶会—ゆく年くる年―",
     "startDate": "2026-12-05",
     "endDate": "2027-01-17",
     "kind": "collection",
@@ -29,25 +29,25 @@
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "漆を塗り重ねて彫刻する彫漆をはじめ、漆を彫って表現する工芸作品の技と美を館蔵品を中心に紹介する企画展。",
+    "summary": "年の暮れと新年を迎える季節をテーマに、企画展「彫る漆」と同時に展示室6で開かれる茶の湯の展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "nezu-20270130-6db57e",
     "museumId": "nezu",
-    "title": "根津美術館の仏像コレクション",
+    "title": "春の茶の湯",
     "startDate": "2027-01-30",
     "endDate": "2027-03-28",
     "kind": "collection",
     "artists": [],
     "genres": [
-      "彫刻",
+      "工芸",
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "根津美術館が所蔵する仏像の数々を取り上げ、その造形や信仰の背景をあらためて見つめ直す企画展。",
+    "summary": "企画展「根津美術館の仏像コレクション」と同時に展示室6で開催される、春の季節の茶の湯の展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

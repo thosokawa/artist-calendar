@@ -2,7 +2,7 @@
   {
     "id": "panasonic-shiodome-20261015-df3bf4",
     "museumId": "panasonic-shiodome",
-    "title": "吉田璋也のデザイン― 新作民藝運動がめざした未来",
+    "title": "吉田璋也のデザイン ― 新作民藝運動がめざした未来",
     "startDate": "2026-10-15",
     "endDate": "2026-12-20",
     "kind": "special",
@@ -17,10 +17,10 @@
       "工芸",
       "デザイン"
     ],
-    "detailUrl": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
-    "summary": "鳥取の医師であり民藝のプロデューサーでもあった吉田璋也の新作民藝の仕事を、約300点の作品と資料で紹介する。",
+    "detailUrl": null,
+    "summary": "医師にして民藝のプロデューサーだった吉田璋也の新作民藝運動の歩みを、作品や資料約300点でたどる展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "panasonic-shiodome-20270116-1ac581",
@@ -29,14 +29,19 @@
     "startDate": "2027-01-16",
     "endDate": "2027-03-22",
     "kind": "special",
-    "artists": [],
+    "artists": [
+      "wilhelm-kage",
+      "stig-lindberg",
+      "lisa-larson",
+      "karin-bjorquist"
+    ],
     "genres": [
       "工芸",
       "デザイン"
     ],
-    "detailUrl": "https://panasonic.co.jp/ew/museum/exhibition/27/270116/",
-    "summary": "スウェーデンの陶磁器ブランド、グスタフスベリのうつわを通して、北欧の暮らしに根づいたデザインの魅力を伝える。",
+    "detailUrl": null,
+    "summary": "スウェーデンの名窯グスタフスベリで活躍した4人の陶芸家・デザイナーによる日常のうつわを、同国立美術館の所蔵品で紹介する。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

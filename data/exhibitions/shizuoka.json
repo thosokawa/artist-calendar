@@ -2,21 +2,20 @@
   {
     "id": "shizuoka-20261010-09c38a",
     "museumId": "shizuoka",
-    "title": "ゴールドマン コレクション 河鍋暁斎の世界",
+    "title": "山水画の名品",
     "startDate": "2026-10-10",
     "endDate": "2026-12-06",
-    "kind": "special",
+    "kind": "collection",
     "artists": [
       "kawanabe-kyosai"
     ],
     "genres": [
-      "日本画",
-      "浮世絵"
+      "日本画"
     ],
-    "detailUrl": "https://spmoa.shizuoka.shizuoka.jp/exhibition/detail/136",
-    "summary": "ロンドンのゴールドマン氏所蔵の約110件で、神仏や妖怪、戯画まで描いた幕末明治の画家・河鍋暁斎の多彩な画業に迫る。",
+    "detailUrl": null,
+    "summary": "館の収蔵品の中から山水を描いた優れた作品を選び出し、その魅力をあらためて紹介する収蔵品展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "shizuoka-20261010-d0d856",
@@ -49,14 +48,10 @@
     "artists": [
       "tetsuya-ishida"
     ],
-    "genres": [
-      "洋画",
-      "日本画",
-      "現代美術"
-    ],
-    "detailUrl": "https://spmoa.shizuoka.shizuoka.jp/exhibition/detail/137",
-    "summary": "開館40周年を記念し、寄贈によって館に加わった多彩な作品を通じて収集の歩みを振り返り、寄贈者への感謝を示す。",
+    "genres": [],
+    "detailUrl": null,
+    "summary": "開館40周年を記念し、これまで美術館に寄せられた寄贈作品に光を当てて、その歩みを振り返る展覧会です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   }
 ]

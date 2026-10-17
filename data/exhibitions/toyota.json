@@ -2,21 +2,21 @@
   {
     "id": "toyota-20261024-dd4698",
     "museumId": "toyota",
-    "title": "長谷川 繁 ペイン天狗",
+    "title": "没後20年 井田照一展",
     "startDate": "2026-10-24",
     "endDate": "2027-01-24",
     "kind": "special",
     "artists": [
-      "shigeru-hasegawa"
+      "shigeru-hasegawa",
+      "shoichi-ida"
     ],
     "genres": [
-      "洋画",
       "現代美術"
     ],
-    "detailUrl": "https://www.museum.toyota.aichi.jp/exhibition/hasegawa2026",
-    "summary": "描くことに生きてきた画家・長谷川繁の美術館初の大規模個展で、新旧の絵画と作家の蒐集品を織り交ぜて紹介する。",
+    "detailUrl": null,
+    "summary": "没後20年を記念して井田照一の仕事を振り返る展覧会で、代表作《Tantra》をめぐる講演会なども開かれます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-17"
   },
   {
     "id": "toyota-20261024-64263b",
