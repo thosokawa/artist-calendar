@@ -6,6 +6,7 @@
 export const GENRES = ['現代美術', '日本画', '洋画', '版画', '彫刻', '写真', '工芸', 'デザイン', '建築', '書', '浮世絵', '古美術', 'マンガ・アニメ', 'メディアアート'];
 export const AREAS = [['hokkaido-tohoku', '北海道・東北'], ['kanto', '関東'], ['chubu', '中部'], ['kansai', '関西'], ['chugoku-shikoku', '中国・四国'], ['kyushu-okinawa', '九州・沖縄']];
 export const WHEN = [['', '開催中と開催予定'], ['current', '開催中'], ['upcoming', '開催予定'], ['ending', 'まもなく終了（2週間以内）'], ['weekend', '今週末に見られる'], ['month', '今月見られる'], ['range', '日付を指定']];
+export const VENUES = [['', 'すべて'], ['museum', '美術館'], ['gallery', 'ギャラリー']];
 export const SORTS = [['start', '開幕日が近い順'], ['end', '終了日が近い順'], ['new', '発表が新しい順']];
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
@@ -23,6 +24,7 @@ export function parseFilter(input) {
     prefs: list(p.get('pref')).filter((s) => /^.{2,4}[都道府県]$/.test(s)).slice(0, 47),
     genres: list(p.get('genre')).filter((g) => GENRES.includes(g)),
     museums: list(p.get('museum')).filter((s) => /^[a-z0-9-]{1,40}$/.test(s)).slice(0, 50),
+    venue: ['museum', 'gallery'].includes(p.get('venue')) ? p.get('venue') : '',
     special: p.get('special') === '1',
     when: WHEN.some(([k]) => k === p.get('when')) ? p.get('when') : '',
     from: DATE.test(p.get('from') ?? '') ? p.get('from') : '',
@@ -41,6 +43,7 @@ export function filterQuery(f, { alertOnly = false } = {}) {
   if (f.prefs.length) p.set('pref', [...f.prefs].sort().join(','));
   if (f.genres.length) p.set('genre', [...f.genres].sort().join(','));
   if (f.museums.length) p.set('museum', [...f.museums].sort().join(','));
+  if (f.venue) p.set('venue', f.venue);
   if (f.special) p.set('special', '1');
   if (!alertOnly) {
     if (f.when) p.set('when', f.when);
@@ -77,7 +80,7 @@ export function whenRange(f, today) {
 
 /**
  * Does an exhibition match? r is the compact record of /data/search.json:
- *   { id, t: title, s: start, e: end, k: kind, g: genres, m: museum name, mid: museum id, p: prefecture, r: area, a: [[slug, name, ...aliases]], f: first seen }
+ *   { id, t: title, s: start, e: end, k: kind, g: genres, m: venue name, mid: venue id, v: 'gallery' for galleries, p: prefecture, r: area, a: [[slug, name, ...aliases]], f: first seen }
  * For alerts (forAlert) only what the show is matters, not when it is on.
  */
 export function matchExhibition(r, f, today, { forAlert = false } = {}) {
@@ -86,6 +89,7 @@ export function matchExhibition(r, f, today, { forAlert = false } = {}) {
   }
   if (f.genres.length && !f.genres.some((g) => r.g.includes(g))) return false;
   if (f.museums.length && !f.museums.includes(r.mid)) return false;
+  if (f.venue && (r.v ?? 'museum') !== f.venue) return false;
   if (f.special && r.k !== 'special') return false;
   if (f.q) {
     const words = f.q.split(/[\s　]+/).map(normText).filter(Boolean);
@@ -119,6 +123,7 @@ export function describeFilter(f, { museumNames = {}, alertOnly = false } = {}) 
   if (place.length) parts.push(place.join('・'));
   if (f.genres.length) parts.push(f.genres.join('・'));
   if (f.q) parts.push(`「${f.q}」`);
+  if (f.venue) parts.push(f.venue === 'gallery' ? 'ギャラリーのみ' : '美術館のみ');
   if (f.special) parts.push('企画展のみ');
   if (!alertOnly && f.when && f.when !== 'range') parts.push(WHEN.find(([k]) => k === f.when)[1]);
   if (!alertOnly && f.when === 'range') parts.push(`${f.from || '今日'}〜${f.to || ''}`);

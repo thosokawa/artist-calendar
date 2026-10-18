@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { homePage, artistPage, museumPage, exhibitionPage, searchPage, indexPage, esc } from '../src/templates.mjs';
+import { homePage, artistPage, museumPage, exhibitionPage, searchPage, indexPage, requestPage, esc } from '../src/templates.mjs';
 import { GENRES, isSameTour, statusOn } from '../src/exhibitions.mjs';
 import { buildCalendar, exhibitionEvent, googleCalendarUrl, addDays } from '../src/ics.mjs';
 import { followText } from '../src/line.mjs';
@@ -40,7 +40,7 @@ const exById = Object.fromEntries(exhibitions.map((e) => [e.id, e]));
 // Compact record used by the search page and by search-based LINE alerts (see src/filter.mjs).
 const compact = (e) => ({
   id: e.id, t: e.title, s: e.startDate, e: e.endDate, k: e.kind, g: e.genres, f: e.firstSeenAt,
-  m: museums[e.museumId].name, mid: e.museumId, p: museums[e.museumId].prefecture, r: museums[e.museumId].area,
+  m: museums[e.museumId].name, mid: e.museumId, ...(museums[e.museumId].kind === 'gallery' ? { v: 'gallery' } : {}), p: museums[e.museumId].prefecture, r: museums[e.museumId].area,
   a: e.artists.map((s) => [s, artists[s]?.name ?? s, ...(artists[s]?.aliases ?? []), artists[s]?.nameRomaji ?? '', artists[s]?.nameKana ?? '']),
 });
 const recent = [...announcements].reverse().map((a) => exById[a.exhibitionId]).filter((e) => e && e.endDate >= today).slice(0, 12);
@@ -67,10 +67,17 @@ for (const m of museumList) {
   const shows = exhibitions.filter((e) => e.museumId === m.id).sort(byStart);
   page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows }));
 }
-page('/museums/', indexPage({ site, path: '/museums/', title: '美術館一覧', html: AREAS.map(([k, label]) => {
-  const ms = museumList.filter((m) => m.area === k);
-  return ms.length ? `<h2>${esc(label)}</h2><ul class="chips">${ms.map((m) => `<li><a href="/museums/${esc(m.id)}/">${esc(m.name)}</a></li>`).join('')}</ul>` : '';
-}).join('') }));
+// One list per kind (museums, then galleries), each grouped by area.
+const venueChips = (ms) => `<ul class="chips">${ms.map((m) => `<li><a href="/museums/${esc(m.id)}/">${esc(m.name)}</a></li>`).join('')}</ul>`;
+page('/museums/', indexPage({ site, path: '/museums/', title: '美術館・ギャラリー一覧', html: [['museum', '美術館'], ['gallery', 'ギャラリー']].map(([kind, kindLabel]) => {
+  const ofKind = museumList.filter((m) => (m.kind ?? 'museum') === kind);
+  if (!ofKind.length) return '';
+  return `<h2>${kindLabel}（${ofKind.length}）</h2>` + AREAS.map(([k, label]) => {
+    const ms = ofKind.filter((m) => m.area === k);
+    return ms.length ? `<p class="museum-group">${esc(label)}</p>${venueChips(ms)}` : '';
+  }).join('');
+}).join('') + '<p class="more-venues">載っていない美術館・ギャラリーは <a href="/request/">リクエスト</a> してください。</p>' }));
+page('/request/', requestPage({ site }));
 
 // Exhibitions, each with a one-event calendar file for "add to my calendar".
 const gcal = (e) => googleCalendarUrl(e, { museum: museums[e.museumId], siteUrl: site.baseUrl });
@@ -97,7 +104,7 @@ write('data/search.json', JSON.stringify(live.map(compact)));
 // Search box suggestions: [kind, page path, name, reading, latin name].
 write('data/suggest.json', JSON.stringify([
   ...artistSlugs.map((s) => ['作家', `/artists/${s}/`, artists[s].name, artists[s].nameKana ?? '', artists[s].nameRomaji ?? '']),
-  ...museumList.map((m) => ['美術館', `/museums/${m.id}/`, m.name, m.nameKana ?? '', m.nameEn ?? '']),
+  ...museumList.map((m) => [m.kind === 'gallery' ? 'ギャラリー' : '美術館', `/museums/${m.id}/`, m.name, m.nameKana ?? '', m.nameEn ?? '']),
 ]));
 write('data/museum-names.json', JSON.stringify(Object.fromEntries(museumList.map((m) => [m.id, m.name]))));
 cpSync(join(root, 'src/filter.mjs'), join(dist, 'assets/filter.mjs'));
@@ -105,7 +112,7 @@ cpSync(join(root, 'src/filter.mjs'), join(dist, 'assets/filter.mjs'));
 page('/about/', indexPage({ site, path: '/about/', title: 'このサイトについて', html: `
 <p>${esc(site.name)}は、好きな作家の展覧会を見逃さないためのサイトです。</p>
 <h2>料金</h2><p>無料でご利用いただけます。LINEで通知を受け取れるのは、作家5人・検索条件1つまでです。もっと多く登録できる有料プラン（月額300円程度）を準備中です。</p>
-<h2>情報の集め方</h2><ul><li>各美術館の公式サイトの展覧会一覧を定期的に確認し、新しい展覧会を自動で追加しています。</li><li>展覧会名・会期・会場・作家名などの事実のみを掲載し、紹介文は独自に作成しています。画像や公式の文章は転載しません。</li><li>開館時間・料金・予約などは必ず公式サイトでご確認ください。</li></ul>
+<h2>情報の集め方</h2><ul><li>各美術館・ギャラリーの公式サイトの展覧会一覧を定期的に確認し、新しい展覧会を自動で追加しています。</li><li>展覧会名・会期・会場・作家名などの事実のみを掲載し、紹介文は独自に作成しています。画像や公式の文章は転載しません。</li><li>開館時間・料金・予約などは必ず公式サイトでご確認ください。</li></ul>
 ${site.moshimoRakuten?.a_id ? '<h2>広告について</h2><p>当サイトはもしもアフィリエイトを通じて楽天市場などのアフィリエイトに参加しています。「PR」と表示したリンクから商品を購入されると、当サイトに紹介料が支払われることがあります。掲載する展覧会の情報や順番は、広告とは関係なく決めています。</p>' : ''}
 <h2>運営</h2><p>運営: ${esc(site.operator)}　連絡先: ${esc(site.contactEmail)}</p>` }));
 page('/privacy/', indexPage({ site, path: '/privacy/', title: 'プライバシー', html: '<ul><li>LINEでの通知のために、LINEのユーザーID（LINEが発行する識別番号）と登録した作家だけを保存します。お名前やプロフィールは保存しません。友だちを解除すると通知は止まります。</li><li>カレンダーへの予定の追加はお使いのカレンダーアプリ側で行われ、当サイトが予定の内容を受け取ることはありません。</li><li>アクセス解析には Cookie を使わない方式を使います。</li>' + (site.moshimoRakuten?.a_id ? '<li>「PR」と表示したリンクはアフィリエイトのリンクです。リンク先で、もしもアフィリエイトや楽天が Cookie を使うことがあります。</li>' : '') + '</ul>' }));

@@ -80,7 +80,7 @@ async function handle(event, { db, names, museumNames, siteUrl }) {
   }
   if (action.kind === 'search') {
     const hits = searchArtists(names, action.query);
-    if (!hits.length) return [{ type: 'text', text: `「${action.query.slice(0, 30)}」に合う作家が見つかりませんでした。掲載している美術館で展覧会が決まった作家だけが登録できます。\n作家一覧: ${siteUrl}/artists/` }];
+    if (!hits.length) return [{ type: 'text', text: `「${action.query.slice(0, 30)}」に合う作家が見つかりませんでした。掲載している美術館・ギャラリーで展覧会が決まった作家だけが登録できます。\n作家一覧: ${siteUrl}/artists/` }];
     return [{ type: 'text', text: '登録する作家を選んでください。', quickReply: quickReply(hits.map((s) => ({ text: names[s], data: `follow:${s}` }))) }];
   }
   return [{ type: 'text', text: HELP }];

@@ -47,3 +47,13 @@ test('hiragana and katakana readings match each other', () => {
   const r = { t: '新版画展', m: '某美術館', p: '東京都', a: [['hiroshi-yoshida', '吉田博', 'Hiroshi Yoshida', 'よしだひろし']] };
   assert.equal(normText([r.t, r.m, r.p, ...r.a.flat()].join(' ')).includes(normText('ヨシダ')), true);
 });
+
+test('venue narrows to museums or galleries', () => {
+  const g = { id: 'x', t: 'A', s: '2026-01-01', e: '2026-12-31', k: 'special', g: [], m: 'G', mid: 'g', v: 'gallery', p: '東京都', r: 'kanto', a: [] };
+  const m = { ...g, mid: 'm', v: undefined };
+  const f = parseFilter('venue=gallery');
+  assert.equal(matchExhibition(g, f, '2026-06-01'), true);
+  assert.equal(matchExhibition(m, f, '2026-06-01'), false);
+  assert.equal(matchExhibition(m, parseFilter('venue=museum'), '2026-06-01'), true);
+  assert.equal(filterQuery(parseFilter('venue=bogus&genre=写真')), 'genre=%E5%86%99%E7%9C%9F');
+});

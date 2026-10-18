@@ -26,3 +26,13 @@ CREATE TABLE IF NOT EXISTS searches (
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   UNIQUE (user_id, query)
 );
+-- Venues people asked us to add (from /request/). The build workflow files them as a GitHub issue, then marks them reported.
+CREATE TABLE IF NOT EXISTS venue_requests (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  url TEXT NOT NULL DEFAULT '',
+  note TEXT NOT NULL DEFAULT '',
+  sender TEXT NOT NULL DEFAULT '',  -- hashed IP + day, only to limit how many one person can send
+  reported INTEGER NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL DEFAULT (datetime('now'))
+);

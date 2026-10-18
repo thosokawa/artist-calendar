@@ -24,13 +24,14 @@ const Extraction = z.object({
   })),
 });
 
-const SYSTEM = `あなたは美術館の公式サイトの「展覧会一覧」ページを読み、展覧会情報をデータにします。
+const SYSTEM = `あなたは美術館またはギャラリー（画廊）の公式サイトの「展覧会一覧」ページを読み、展覧会情報をデータにします。
 - 美術館自身の企画展と、名前のついたコレクション展だけを含めます。貸しギャラリー・市民ギャラリー・公募展・団体展・ワークショップ・イベント・上映会は含めません。
 - 会期が日付まで発表されていない展覧会（「2027年春」など）は含めません。
 - 博物館を併設する館では、歴史・考古・民俗・自然史の展示は含めず、美術作品を見せる展覧会だけを含めます。
 - この美術館の建物以外で開かれる展覧会（移動美術館・出張展示・他館での巡回など）と、常設の設置作品・長期展示は含めません。
 - 作家名はページに書かれている表記のまま。グループ展は名前が出ている作家を最大10名まで。
 - summary はページの文章を写さず、自分の言葉で1文（40〜70字）。
+- 会場がギャラリーの場合: そのギャラリー自身の展示スペースで開く展覧会（個展・グループ展）を含めます。アートフェアへの出展、他の会場・海外拠点での展示、オンラインだけの展示は含めません。ギャラリーの展覧会は kind を special にします。
 - ページに書かれていないことは推測しないでください。`;
 
 export async function extractExhibitions({ museum, pageText, today, client = new Anthropic() }) {
@@ -40,7 +41,7 @@ export async function extractExhibitions({ museum, pageText, today, client = new
     system: SYSTEM,
     messages: [{
       role: 'user',
-      content: `美術館: ${museum.name}\nページ: ${museum.exhibitionsUrl}\n今日: ${today}（今日より前に終わった展覧会は除外）\n\n<page>\n${pageText.slice(0, 80000)}\n</page>`,
+      content: `${museum.kind === 'gallery' ? 'ギャラリー' : '美術館'}: ${museum.name}\nページ: ${museum.exhibitionsUrl}\n今日: ${today}（今日より前に終わった展覧会は除外）\n\n<page>\n${pageText.slice(0, 80000)}\n</page>`,
     }],
     output_config: { format: zodOutputFormat(Extraction) },
   });

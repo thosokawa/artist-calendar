@@ -19,6 +19,7 @@ function readForm() {
   for (const name of ['area', 'pref', 'genre', 'museum']) p.set(name, [...form.querySelectorAll(`input[name=${name}]:checked`)].map((i) => i.value).join(','));
   for (const name of ['q', 'when', 'from', 'to', 'sort']) p.set(name, form.elements[name].value);
   if (form.elements.special.checked) p.set('special', '1');
+  p.set('venue', form.elements.venue.value);
   return parseFilter(p);
 }
 
@@ -27,11 +28,12 @@ function writeForm(f) {
   const on = { area: f.areas, pref: f.prefs, genre: f.genres, museum: f.museums };
   for (const [name, values] of Object.entries(on)) for (const i of form.querySelectorAll(`input[name=${name}]`)) i.checked = values.includes(i.value);
   form.elements.special.checked = f.special;
+  form.elements.venue.value = f.venue;
   form.elements.when.value = f.when;
   form.elements.from.value = f.from;
   form.elements.to.value = f.to;
   form.elements.sort.value = f.sort;
-  if (f.museums.length) form.querySelector('[data-facet=museum]').open = true;
+  if (f.museums.length || f.venue) form.querySelector('[data-facet=museum]').open = true;
 }
 
 // What each folded row has chosen, e.g. 地域「関東・京都府」.
@@ -41,7 +43,7 @@ function updateFacetLabels(f) {
   const sel = {
     area: [...names(f.areas, pick('input[name=area]')), ...f.prefs],
     genre: f.genres,
-    museum: names(f.museums, pick('input[name=museum]')),
+    museum: [f.venue ? (f.venue === 'gallery' ? 'ギャラリーのみ' : '美術館のみ') : '', ...names(f.museums, pick('input[name=museum]'))].filter(Boolean),
     when: [f.when ? form.elements.when.selectedOptions[0].textContent : '', f.special ? '企画展のみ' : ''].filter(Boolean),
   };
   for (const [k, v] of Object.entries(sel)) {
@@ -84,6 +86,7 @@ function render({ resetPaging = true } = {}) {
   document.getElementById('count').textContent = `${hits.length}件`;
   document.getElementById('go').textContent = `${hits.length}件の展覧会を見る`;
   updateFacetLabels(f);
+  for (const el of form.querySelectorAll('[data-kind]')) el.hidden = Boolean(f.venue) && el.dataset.kind !== f.venue;
   document.getElementById('summary').textContent = describeFilter(f, { museumNames });
   out.innerHTML = hits.length ? hits.slice(0, shown).map(card).join('') : '<li class="empty">条件に合う展覧会はありません。条件を減らしてみてください。</li>';
   more.hidden = hits.length <= shown;

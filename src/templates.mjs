@@ -1,6 +1,6 @@
 // HTML templates. Plain strings; every value from data goes through esc().
 import { statusOn } from './exhibitions.mjs';
-import { WHEN, SORTS } from './filter.mjs';
+import { WHEN, SORTS, VENUES } from './filter.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -66,13 +66,13 @@ ${site.noindex ? '<meta name="robots" content="noindex">' : ''}
 </head><body>
 <header class="top"><div class="top-in">
 <a class="brand" href="/">${MARK}<span>${esc(site.name)}</span></a><span class="brand-sub">展覧会情報検索 × 通知サービス</span>
-<nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館</a></nav>
+<nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館・画廊</a></nav>
 ${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで受け取る</a>` : ''}
 </div></header>
 <main${wide ? ' class="wide"' : ''}>${body}${shareBox(site, path, full)}</main>
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
-<p>展覧会情報は各美術館の公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
-<p><a href="/about/">このサイトについて</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
+<p>展覧会情報は各美術館・ギャラリーの公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
+<p><a href="/about/">このサイトについて</a> · <a href="/request/">施設のリクエスト</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
 ${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
 `;
 }
@@ -108,27 +108,30 @@ ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで�
 }
 
 export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }) {
-  const count = Object.values(ctx.museums).filter((m) => m.status !== 'closed').length;
+  const open = Object.values(ctx.museums).filter((m) => m.status !== 'closed');
+  const galleries = open.filter((m) => m.kind === 'gallery').length;
+  const count = open.length - galleries;
+  const venues = galleries ? `全国の美術館${count}館・ギャラリー${galleries}軒` : `全国${count}館の美術館`;
   const line = lineAddUrl(site);
   const step = (n, h, p) => `<li><span class="num">${n}</span><h3>${h}</h3><p>${p}</p></li>`;
   return layout({ site, path: '/', wide: true, body: `
 <section class="hero">
 <div class="hero-panel"><span class="ping" aria-hidden="true"></span>
-<div class="hero-labels"><span>EXHIBITION ALERTS</span><span>全国${count}館の公式発表を、毎朝チェック</span></div>
+<div class="hero-labels"><span>EXHIBITION ALERTS</span><span>${galleries ? `美術館${count}館・ギャラリー${galleries}軒` : `全国${count}館`}の公式発表を、毎朝チェック</span></div>
 <h1 class="catch">お気に入りの作家の<br>展覧会情報を、<br><em>自動でお知らせ。</em></h1>
 <button type="button" class="btn ink big" data-open="about">ArtPingについてもっと詳しく <span aria-hidden="true">→</span></button>
 </div>
 <div class="hero-search"><p class="tag"><i aria-hidden="true"></i>条件で探して、そのまま通知に登録</p>
-<form action="/search/" class="search-big" role="search"><input name="q" type="search" placeholder="作家名・展覧会名・美術館名でさがす" aria-label="作家名・展覧会名・美術館名でさがす"><button>さがす</button></form>
+<form action="/search/" class="search-big" role="search"><input name="q" type="search" placeholder="作家名・展覧会名・会場名でさがす" aria-label="作家名・展覧会名・会場名でさがす"><button>さがす</button></form>
 <p class="more-search">地域・ジャンル・会期で絞り込む → <a href="/search/">くわしく検索</a></p></div>
 </section>
 <dialog id="about" class="about" aria-labelledby="about-h">
 <form method="dialog"><button class="close" aria-label="閉じる">×</button></form>
 <p class="kicker">HOW ArtPing WORKS</p>
 <h2 id="about-h">3ステップで、もう見逃さない。</h2>
-<p>ArtPingは毎朝、全国${count}館の美術館の公式発表を確認しています。登録した作家や条件に合う展覧会が見つかると、その日のうちにLINEでお知らせします。</p>
+<p>ArtPingは毎朝、${venues}の公式発表を確認しています。登録した作家や条件に合う展覧会が見つかると、その日のうちにLINEでお知らせします。</p>
 <ol class="steps">
-${step('01', 'さがす', '作家名・展覧会名・美術館名、地域やジャンルで、全国の展覧会をまとめてさがせます。')}
+${step('01', 'さがす', '作家名・展覧会名・会場名、地域やジャンルで、全国の展覧会をまとめてさがせます。')}
 ${step('02', 'LINEで登録', '気になる作家や検索条件をLINEで送るだけ。会員登録もアプリもいりません。')}
 ${step('03', '新着情報が届く', '新しい展覧会が発表された日にLINEでお知らせ。ボタンひとつでカレンダーに予定が入ります。')}
 </ol>
@@ -160,7 +163,7 @@ ${recs.length ? `<h2>${esc(a.name)}が好きな人におすすめの作家</h2><
 export function museumPage({ site, m, ctx, shows }) {
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
   return layout({ site, path: `/museums/${m.id}/`, title: `${m.name}の展覧会`, description: `${m.name}（${m.prefecture}${m.city}）の開催中・開催予定の展覧会。`, body: `
-${pageHead('MUSEUM', esc(m.name), esc(m.prefecture) + esc(m.city), `<p class="head-links"><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a><a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a></p>`)}
+${pageHead(m.kind === 'gallery' ? 'GALLERY' : 'MUSEUM', esc(m.name), esc(m.prefecture) + esc(m.city), `<p class="head-links"><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a><a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a></p>`)}
 ${m.status === 'closed' ? '<p class="note">現在休館中です。</p>' : ''}
 <h2>開催中</h2>${list(by('current'), ctx, { showMuseum: false })}
 <h2>開催予定</h2>${list(by('upcoming'), ctx, { showMuseum: false })}` });
@@ -184,17 +187,17 @@ export function searchPage({ site, genres, prefsByArea, museums, lineBasicId }) 
   const chip = (name, value, label) => `<label class="chip"><input type="checkbox" name="${name}" value="${esc(value)}"><span>${esc(label)}</span><small data-count="${name}:${esc(value)}"></small></label>`;
   // Each kind of condition folds into one row; the row shows what is chosen.
   const facet = (key, label, body, hint = '') => `<details class="facet" data-facet="${key}"><summary><span class="facet-name">${label}</span><span class="facet-val" data-sel="${key}">指定なし</span></summary><div class="facet-panel">${hint ? `<p class="hint">${hint}</p>` : ''}${body}</div></details>`;
-  return layout({ site, path: '/search/', title: '展覧会を探す', description: '全国の美術館の展覧会を、地域・ジャンル・会期・作家名で絞り込めます。条件をLINEに登録すると、合う展覧会が発表されたときにお知らせします。', body: `
+  return layout({ site, path: '/search/', title: '展覧会を探す', description: '全国の美術館・ギャラリーの展覧会を、地域・ジャンル・会期・作家名で絞り込めます。条件をLINEに登録すると、合う展覧会が発表されたときにお知らせします。', body: `
 ${pageHead('SEARCH', '展覧会を探す')}
 <form id="filters" class="search" data-line="${esc(lineBasicId ?? '')}">
-<div class="search-big"><input name="q" type="search" placeholder="作家名・展覧会名・美術館名" aria-label="キーワード"><button type="submit">さがす</button></div>
+<div class="search-big"><input name="q" type="search" placeholder="作家名・展覧会名・会場名" aria-label="キーワード"><button type="submit">さがす</button></div>
 <div class="facets">
 ${facet('area', '地域', prefsByArea.map(([k, label, prefs]) => `<div class="area-row">${chip('area', k, label)}<span class="prefs">${prefs.map((p) => chip('pref', p, p)).join('')}</span></div>`).join(''), '地方ごと、または都道府県ごとに選べます。いくつ選んでもOKです。')}
 ${facet('genre', 'ジャンル', `<div class="chip-row">${genres.map((g) => chip('genre', g, g)).join('')}</div>`, 'いくつ選んでもOKです。地域と組み合わせると、両方に当てはまる展覧会に絞り込みます。')}
 ${facet('when', '時期', `<div class="when"><select name="when" aria-label="時期">${WHEN.map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('')}</select>
 <span class="range"><input type="date" name="from" aria-label="この日から"> 〜 <input type="date" name="to" aria-label="この日まで"></span>
 <label class="check"><input type="checkbox" name="special" value="1"> 企画展のみ（コレクション展を除く）</label></div>`)}
-${facet('museum', '美術館', prefsByArea.map(([k, label]) => { const ms = museums.filter((m) => m.area === k); return ms.length ? `<p class="museum-group">${esc(label)}</p><div class="chip-row">${ms.map((m) => chip('museum', m.id, m.name)).join('')}</div>` : ''; }).join(''))}
+${facet('museum', '会場', `<div class="venue-kind">${VENUES.map(([k, v]) => `<label class="check"><input type="radio" name="venue" value="${k}"${k ? '' : ' checked'}> ${esc(v)}</label>`).join('')}</div>` + [['museum', '美術館'], ['gallery', 'ギャラリー']].map(([kind, kindLabel]) => prefsByArea.map(([k, label]) => { const ms = museums.filter((m) => m.area === k && (m.kind ?? 'museum') === kind); return ms.length ? `<p class="museum-group" data-kind="${kind}">${esc(label)}の${kindLabel}</p><div class="chip-row" data-kind="${kind}">${ms.map((m) => chip('museum', m.id, m.name)).join('')}</div>` : ''; }).join('')).join(''))}
 </div>
 <div class="search-bar"><button type="submit" class="btn big" id="go">展覧会を見る</button><button type="reset" class="btn alt">条件をクリア</button>
 <label class="sort">並び順 <select name="sort" aria-label="並び順">${SORTS.map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('')}</select></label></div>
@@ -210,6 +213,32 @@ ${facet('museum', '美術館', prefsByArea.map(([k, label]) => { const ms = muse
 </section>
 <noscript><p class="note">検索には JavaScript を有効にしてください。</p></noscript>
 <script type="module" src="/assets/search.js"></script>` });
+}
+
+export function requestPage({ site }) {
+  return layout({ site, path: '/request/', title: '掲載してほしい施設をリクエスト', description: 'ArtPingに載っていない美術館・ギャラリーを教えてください。', body: `
+${pageHead('REQUEST', '掲載してほしい施設をリクエスト')}
+<p>ArtPingに載っていない美術館・ギャラリーを教えてください。公式サイトに展覧会の一覧があり、企画展を定期的に開いている施設を順に追加します（貸しギャラリーは対象外です）。</p>
+<form id="request" class="request box" method="post" action="/api/request">
+<label>施設名<span class="req">必須</span><input name="name" required maxlength="80" placeholder="例：〇〇ギャラリー"></label>
+<label>公式サイトのURL<input name="url" type="url" maxlength="300" placeholder="https://"></label>
+<label>ひとこと（任意）<textarea name="note" maxlength="500" rows="3" placeholder="好きな作家がよく個展をしている、など"></textarea></label>
+<label class="hp" aria-hidden="true">website<input name="website" tabindex="-1" autocomplete="off"></label>
+<p><button type="submit" class="btn big">リクエストを送る</button></p>
+<p class="result" role="status" hidden></p>
+</form>
+<p class="hint">いただいたリクエストはすべて確認しますが、追加をお約束するものではありません。</p>
+<script>
+const f = document.getElementById('request'), out = f.querySelector('.result');
+f.addEventListener('submit', async (e) => {
+  e.preventDefault(); const b = f.querySelector('button'); b.disabled = true;
+  try {
+    const r = await (await fetch(f.action, { method: 'POST', body: new FormData(f) })).json();
+    out.textContent = r.ok ? 'ありがとうございます。リクエストを受け付けました。' : r.error; if (r.ok) f.reset();
+  } catch { out.textContent = '送信できませんでした。時間をおいてもう一度お試しください。'; }
+  out.hidden = false; b.disabled = false;
+});
+</script>` });
 }
 
 export function indexPage({ site, path, title, html }) {

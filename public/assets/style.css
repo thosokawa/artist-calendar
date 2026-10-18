@@ -225,3 +225,11 @@ body:has(.subscribe){padding-bottom:96px}
 #alert:not([hidden]){animation:bar-up .45s cubic-bezier(.2,.7,.2,1) .3s both}
 @keyframes bar-up{from{transform:translateY(100%);opacity:0}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){.subscribe,#alert:not([hidden]){animation:none}}
+.venue-kind{display:flex;gap:16px;flex-wrap:wrap;margin:0 0 8px}
+/* 施設リクエストのフォーム */
+.request label{display:block;margin:0 0 14px;font-weight:700}
+.request input,.request textarea{display:block;width:100%;margin-top:6px;border-radius:0;border:1px solid var(--line);background:#fff;font-weight:400}
+.request .req{margin-left:8px;font-size:.75rem;color:var(--coral)}
+.request .hp{position:absolute;left:-9999px}
+.request .result{margin:0;font-weight:700}
+.more-venues{margin-top:2em}

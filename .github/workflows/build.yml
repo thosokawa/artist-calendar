@@ -13,6 +13,9 @@ on:
     workflows: [collect-exhibitions]
     types: [completed]
   workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
 concurrency:
   group: deploy
   cancel-in-progress: false
@@ -62,3 +65,15 @@ jobs:
           sleep 20
           KEY=$(printf '%s' "$LINE_CHANNEL_SECRET:notify" | sha256sum | cut -d' ' -f1)
           curl -sS --fail-with-body -X POST "$SITE/api/notify" -H "authorization: Bearer $KEY"
+      - name: File venue requests from the site as a GitHub issue
+        if: ${{ !cancelled() && env.CLOUDFLARE_API_TOKEN != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f wrangler.toml ] || exit 0
+          npx wrangler@3 d1 execute artist-calendar --remote --json --command "SELECT id, name, url, note, created_at FROM venue_requests WHERE reported = 0 ORDER BY id" > "$RUNNER_TEMP/req.json"
+          node scripts/requests-issue.mjs "$RUNNER_TEMP/req.json" "$RUNNER_TEMP/req.md" "$RUNNER_TEMP/req-ids.txt"
+          [ -s "$RUNNER_TEMP/req-ids.txt" ] || exit 0
+          gh label create venue-request --force >/dev/null
+          gh issue create --title "施設のリクエスト $(date -u +%F)" --label venue-request --body-file "$RUNNER_TEMP/req.md"
+          npx wrangler@3 d1 execute artist-calendar --remote --command "UPDATE venue_requests SET reported = 1 WHERE id IN ($(cat "$RUNNER_TEMP/req-ids.txt"))"
