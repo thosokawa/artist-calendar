@@ -106,8 +106,26 @@ function shopBox(site, name) {
   const m = site.moshimoRakuten;
   if (!m?.a_id) return '';
   const books = `https://books.rakuten.co.jp/search?sitem=${encodeURIComponent(name)}&g=001`;
-  return `<div class="shop box"><p><span class="pr">PR</span><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。</span></p>
-<a class="btn alt" href="${esc(moshimoLink(m, books))}" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade">楽天ブックスでさがす</a></div>`;
+  return `<div class="shop box"><p><span class="pr">PR</span><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。過去の展覧会の図録は、フリマやオークションで見つかることもあります。</span></p>
+<div class="actions"><a class="btn alt" href="${esc(moshimoLink(m, books))}" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade">楽天ブックスでさがす</a>${usedLinks(`${name} 図録`)}</div></div>`;
+}
+
+// Second-hand catalogues: links to search results on flea-market and auction sites (no scraping, just a search link).
+const mercariSearch = (q) => `https://jp.mercari.com/search?keyword=${encodeURIComponent(q)}&status=on_sale`;
+const yahooAuctionSearch = (q) => `https://auctions.yahoo.co.jp/search/search?p=${encodeURIComponent(q)}`;
+const usedLinks = (q) => `<a class="btn alt" href="${esc(mercariSearch(q))}" target="_blank" rel="nofollow noopener">メルカリでさがす</a><a class="btn alt" href="${esc(yahooAuctionSearch(q))}" target="_blank" rel="nofollow noopener">ヤフオクでさがす</a>`;
+
+/** The words people would list a catalogue under: the main title without its subtitle, plus 図録. */
+export function catalogQuery(title) {
+  const main = String(title).split(/\s[—–―‐-]{1,2}\s|[—―]{1,2}|：|:\s|\s〜|〜\s/)[0].replace(/[「」『』【】"“”]/g, ' ').replace(/\s+/g, ' ').trim();
+  // Sellers rarely repeat labels like 特別展 or 生誕150年, and every extra word narrows the search.
+  const core = main.replace(/^(?:(?:特別展|企画展|特別企画展|特集展示|開館\d+周年記念(?:展)?|生誕\d+年(?:記念)?|没後\d+年(?:記念)?|創立\d+周年記念)\s*)+/, '').trim();
+  return `${core.length >= 2 ? core : main.length >= 2 ? main : String(title).trim()} 図録`;
+}
+
+function catalogBox(e, st) {
+  return `<div class="shop box used"><p><strong>この展覧会の図録をさがす</strong><br><span class="meta">${st === 'past' ? '会期が終わった展覧会の図録は、フリマやオークションに出ていることがあります。' : '会場で売り切れた図録も、フリマやオークションに出ていることがあります。'}</span></p>
+<div class="actions">${usedLinks(catalogQuery(e.title))}</div></div>`;
 }
 
 function lineBox(name, lineUrl) {
@@ -187,6 +205,7 @@ ${pageHead(`EXHIBITION · <a href="/museums/${esc(m.id)}/">${esc(m.name)}</a>`, 
 ${e.artists.length ? `<dt>作家</dt><dd>${e.artists.map((s) => `<a href="/artists/${esc(s)}/">${esc(ctx.artists[s]?.name ?? s)}</a>`).join('、')}</dd>` : ''}
 ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</dd>` : ''}</dl>
 <p class="actions"><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" rel="nofollow">iPhoneのカレンダーに追加</a>` : ''}</p>
+${e.kind !== 'collection' && m.kind !== 'gallery' ? catalogBox(e, st) : ''}
 ${e.artists.length ? `<p class="hint">作家ページからLINEで登録すると、その作家の次の展覧会が決まったときにお知らせが届きます。</p>` : ''}
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}` });
 }

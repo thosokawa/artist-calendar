@@ -239,3 +239,6 @@ body:has(.subscribe){padding-bottom:96px}
 .head-links .sns-link{margin:0;display:inline-flex;color:var(--ink)}
 .sns-link svg{width:20px;height:20px}
 .sns-link:hover{color:var(--coral);opacity:1}
+/* Catalogue search links */
+.shop .actions{margin:0}
+.shop.used .actions .btn{margin:0}
