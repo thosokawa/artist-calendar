@@ -27,7 +27,8 @@ export function parseSnsUrl(raw) {
   }
   if (host === 'facebook.com' || host === 'fb.com') {
     if (first === 'profile.php') { const id = u.searchParams.get('id'); return id && /^\d+$/.test(id) ? { kind: 'facebook', url: `https://www.facebook.com/profile.php?id=${id}` } : null; }
-    if (first === 'pages' && parts.length >= 2) return { kind: 'facebook', url: `https://www.facebook.com/${parts.slice(0, 3).map(encodeURIComponent).join('/')}` };
+    // Old-style page URLs end in the page's numeric id; /pages/category/... is a directory, not a page.
+    if (first === 'pages') { const id = parts.find((x) => /^\d{6,}$/.test(x)); return id ? { kind: 'facebook', url: `https://www.facebook.com/${id}` } : null; }
     if (!/^[\p{L}\p{N}.\-_]{2,80}$/u.test(first) || NOT_ACCOUNTS.facebook.test(first)) return null;
     return { kind: 'facebook', url: `https://www.facebook.com/${encodeURIComponent(first)}` };
   }

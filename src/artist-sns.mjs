@@ -35,7 +35,7 @@ function lastJson(text) {
   return null;
 }
 
-async function ask(a, client) {
+async function ask(a, client, log) {
   const messages = [{ role: 'user', content: `作家: ${a.name}${a.nameRomaji && a.nameRomaji !== a.name ? `（${a.nameRomaji}）` : ''}` }];
   for (let i = 0; i < 4; i += 1) {
     const response = await client.messages.create({
@@ -49,14 +49,16 @@ async function ask(a, client) {
     if (response.stop_reason === 'pause_turn') { messages.push({ role: 'assistant', content: response.content }); continue; }
     if (response.stop_reason === 'refusal') return null;
     const text = response.content.filter((b) => b.type === 'text').map((b) => b.text).join('');
-    return lastJson(text);
+    const parsed = lastJson(text);
+    if (!parsed) log(`  no JSON in answer (${response.stop_reason}): ${text.slice(-300).replace(/\s+/g, ' ')}`);
+    return parsed;
   }
   return null;
 }
 
 /** -> { website?, sns: {kind: url} } with only what an official page confirms. */
 export async function findArtistSns(a, { client = new Anthropic(), log = () => {}, venueHosts = new Set() } = {}) {
-  const proposal = await ask(a, client);
+  const proposal = await ask(a, client, log);
   if (!proposal) return { sns: {} };
   const names = namesOf(a);
   const accounts = (proposal.accounts ?? []).map(parseSnsUrl).filter(Boolean);
