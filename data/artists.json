@@ -192,6 +192,18 @@
     "nameRomaji": "Armi Ratia",
     "aliases": []
   },
+  "arnaldo-pomodoro": {
+    "name": "アルナルド・ポモドーロ",
+    "nameRomaji": "Arnaldo Pomodoro",
+    "nameKana": "ぽもどーろあるなるど",
+    "aliases": []
+  },
+  "arturo-martini": {
+    "name": "アルトゥーロ・マルティーニ",
+    "nameRomaji": "Arturo Martini",
+    "nameKana": "まるてぃーにあるとぅーろ",
+    "aliases": []
+  },
   "asako-fujikura": {
     "name": "藤倉麻子",
     "nameRomaji": "Asako Fujikura",
@@ -442,6 +454,12 @@
     "aliases": [],
     "nameKana": "ちょうぶんさいえいし"
   },
+  "chokusai-uenaka": {
+    "name": "植中直斎",
+    "nameRomaji": "Chokusai Uenaka",
+    "nameKana": "うえなかちょくさい",
+    "aliases": []
+  },
   "christian-marclay": {
     "name": "クリスチャン・マークレー",
     "nameRomaji": "Christian Marclay",
@@ -522,6 +540,12 @@
     "nameRomaji": "Eboshi Yuasa",
     "aliases": [],
     "nameKana": "ゆあさえぼし"
+  },
+  "edvard-munch": {
+    "name": "ムンク",
+    "nameRomaji": "Edvard Munch",
+    "nameKana": "むんくえどゔぁると",
+    "aliases": []
   },
   "edward-gorey": {
     "name": "エドワード・ゴーリー",
@@ -774,6 +798,18 @@
     "nameRomaji": "Gerrit Thomas Rietveld",
     "aliases": []
   },
+  "giacomo-balla": {
+    "name": "ジャーコモ・バルラ",
+    "nameRomaji": "Giacomo Balla",
+    "nameKana": "ばるらじゃーこも",
+    "aliases": []
+  },
+  "giacomo-manzu": {
+    "name": "ジャーコモ・マンズー",
+    "nameRomaji": "Giacomo Manzù",
+    "nameKana": "まんずーじゃーこも",
+    "aliases": []
+  },
   "gilbert-george": {
     "name": "ギルバート＆ジョージ",
     "nameRomaji": "Gilbert & George",
@@ -982,7 +1018,8 @@
   "henri-matisse": {
     "name": "マティス",
     "nameRomaji": "Henri Matisse",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まてぃすあんり"
   },
   "henry-moore": {
     "name": "ヘンリー・ムーア",
@@ -1294,6 +1331,12 @@
     "aliases": [],
     "nameKana": "おくむらかじょう"
   },
+  "kakuyu-shoda": {
+    "name": "庄田鶴友",
+    "nameRomaji": "Kakuyu Shoda",
+    "nameKana": "しょうだかくゆう",
+    "aliases": []
+  },
   "kan-yasuda": {
     "name": "安田侃",
     "nameRomaji": "Kan Yasuda",
@@ -1311,6 +1354,12 @@
     "nameRomaji": "Kanae Itakura",
     "aliases": [],
     "nameKana": "いたくらかなえ"
+  },
+  "kanji-maeda": {
+    "name": "前田寛治",
+    "nameRomaji": "Kanji Maeda",
+    "nameKana": "まえだかんじ",
+    "aliases": []
   },
   "kanjiro-kawai": {
     "name": "河井寬次郎",
@@ -1507,6 +1556,12 @@
     "name": "岡﨑乾二郎",
     "nameRomaji": "Kenjiro Okazaki",
     "nameKana": "おかざきけんじろう",
+    "aliases": []
+  },
+  "kenkichi-tomimoto": {
+    "name": "富本憲吉",
+    "nameRomaji": "Kenkichi Tomimoto",
+    "nameKana": "とみもとけんきち",
     "aliases": []
   },
   "kenshichi-heshiki": {
@@ -1813,6 +1868,12 @@
     "aliases": [],
     "nameKana": "るかすくらーなは"
   },
+  "luciano-minguzzi": {
+    "name": "ルチャーノ・ミングッツィ",
+    "nameRomaji": "Luciano Minguzzi",
+    "nameKana": "みんぐっつぃるちゃーの",
+    "aliases": []
+  },
   "lucie-rie": {
     "name": "ルーシー・リー",
     "nameRomaji": "Lucie Rie",
@@ -1919,6 +1980,18 @@
     "aliases": [],
     "nameKana": "もりまりこ"
   },
+  "marino-marini": {
+    "name": "マリノ・マリーニ",
+    "nameRomaji": "Marino Marini",
+    "nameKana": "まりーにまりの",
+    "aliases": []
+  },
+  "mario-ceroli": {
+    "name": "マーリオ・チェローリ",
+    "nameRomaji": "Mario Ceroli",
+    "nameKana": "ちぇろーりまーりお",
+    "aliases": []
+  },
   "marisol": {
     "name": "マリソル",
     "nameRomaji": "Marisol",
@@ -2018,6 +2091,12 @@
     "nameRomaji": "Mayumi Terada",
     "aliases": [],
     "nameKana": "てらだまゆみ"
+  },
+  "medardo-rosso": {
+    "name": "メダルド・ロッソ",
+    "nameRomaji": "Medardo Rosso",
+    "nameKana": "ろっそめだるど",
+    "aliases": []
   },
   "meiji-hashimoto": {
     "name": "橋本明治",
@@ -2407,7 +2486,8 @@
     "nameRomaji": "Pablo Picasso",
     "aliases": [
       "ピカソ"
-    ]
+    ],
+    "nameKana": "ぴかそぱぶろ"
   },
   "patrick-blanc": {
     "name": "パトリック・ブラン",
@@ -3160,6 +3240,12 @@
     "nameKana": "むらかみたかし",
     "aliases": []
   },
+  "takashi-suzuki": {
+    "name": "鈴木崇",
+    "nameRomaji": "Takashi Suzuki",
+    "nameKana": "すずきたかし",
+    "aliases": []
+  },
   "takashi-tanaka": {
     "name": "田中岑",
     "nameRomaji": "Takashi Tanaka",
@@ -3557,6 +3643,12 @@
     "aliases": [],
     "nameKana": "うたがわくによし"
   },
+  "valeriano-trubbiani": {
+    "name": "ヴァレリアーノ・トルッビアーニ",
+    "nameRomaji": "Valeriano Trubbiani",
+    "nameKana": "とるっびあーにゔぁれりあーの",
+    "aliases": []
+  },
   "vincent-van-gogh": {
     "name": "ゴッホ",
     "nameRomaji": "Vincent van Gogh",
@@ -3598,7 +3690,8 @@
     "name": "ヴァシリー・カンディンスキー",
     "nameRomaji": "Wassily Kandinsky",
     "aliases": [
-      "ワシリー・カンディンスキー"
+      "ワシリー・カンディンスキー",
+      "カンディンスキー"
     ],
     "nameKana": "かんでぃんすきーゔぁしりー"
   },

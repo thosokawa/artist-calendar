@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "momaw-20260804-2943d6",
+    "museumId": "momaw",
+    "title": "MOMAWコレクション 版画と美術散歩",
+    "startDate": "2026-08-04",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [
+      "edvard-munch",
+      "pablo-picasso",
+      "henri-matisse",
+      "wassily-kandinsky"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "所蔵する版画の名品を案内役に、平版・凹版・孔版・凸版と技法ごとに会期を替えて巡る四期構成のコレクション展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "momaw-20261014-f29309",
+    "museumId": "momaw",
+    "title": "鈴木崇 もののをかし",
+    "startDate": "2026-10-14",
+    "endDate": "2027-02-11",
+    "kind": "special",
+    "artists": [
+      "takashi-suzuki"
+    ],
+    "genres": [
+      "写真",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "写真を通じて見ることと知覚のずれを探る作家の視点を借り、館の所蔵品を新鮮な角度から捉え直す展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "momaw-20270220-424000",
+    "museumId": "momaw",
+    "title": "一九三〇年協会設立100年 生誕130年 前田寛治展 —ポエジイとレアリスム",
+    "startDate": "2027-02-20",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "kanji-maeda"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "詩情と独自の写実論に支えられた前田寛治の画業を回顧し、一九三〇年協会が近代洋画に残した意義も検証します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

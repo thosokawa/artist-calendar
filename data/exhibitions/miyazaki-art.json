@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "miyazaki-art-20261031-8e101c",
+    "museumId": "miyazaki-art",
+    "title": "イタリア現代彫刻展",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-23",
+    "kind": "collection",
+    "artists": [
+      "medardo-rosso",
+      "arturo-martini",
+      "marino-marini",
+      "giacomo-manzu",
+      "giacomo-balla",
+      "arnaldo-pomodoro",
+      "luciano-minguzzi",
+      "valeriano-trubbiani",
+      "mario-ceroli"
+    ],
+    "genres": [
+      "彫刻"
+    ],
+    "detailUrl": null,
+    "summary": "当館が収集してきたイタリア近現代彫刻の名品を選んで紹介し、作品に触れて味わう鑑賞の場も用意した展覧会。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

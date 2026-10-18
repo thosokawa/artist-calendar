@@ -923,13 +923,13 @@
   },
   "miyazaki-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
-    "hash": "5c57b2ecef8fdb136a4f0c60d8a82dd84ef658ab0c41d6ed863b12516fc5a187"
+    "lastCheckedAt": "2026-10-18T23:44:38.266Z",
+    "hash": "79792c6087d81d10ee748b981a83de6156a7967f31e1ae0a69ae394b82d18f11"
   },
   "momaw": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
-    "hash": "9e1f8f717000ffbd8d25e6625f9687edb85e99de4473d05509b472a3303a6200"
+    "lastCheckedAt": "2026-10-18T23:44:38.266Z",
+    "hash": "0fb59855edba42fa410ceb533f1937be1b12d686b9b78037696ec47432318265"
   },
   "monet-tsumari": {
     "failures": 0,
@@ -943,8 +943,8 @@
   },
   "nara-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
-    "hash": "0ab3cf2df003084bed9f701727276c17ffe6335c6dff6f2ab7ef7f616d5c12ae"
+    "lastCheckedAt": "2026-10-18T23:44:38.266Z",
+    "hash": "475077aa277d65c4efc903ea0e6f8d0fd9eaf95678706f48e8a9971185c873f6"
   },
   "ota-artmuseum": {
     "failures": 0,

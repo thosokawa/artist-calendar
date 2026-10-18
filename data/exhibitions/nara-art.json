@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "id": "nara-art-20260919-2a54cf",
+    "museumId": "nara-art",
+    "title": "時代を越えて～日本画のゆくえ 特集展示：近代奈良の日本画家 庄田鶴友と植中直斎",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [
+      "kakuyu-shoda",
+      "chokusai-uenaka"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "近代日本画の名品をたどりつつ、奈良に縁のある日本画家の庄田鶴友と植中直斎の仕事にも光を当てる特別展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "nara-art-20260919-40ef4f",
+    "museumId": "nara-art",
+    "title": "新収蔵記念/生誕140年 富本憲吉と昭和",
+    "startDate": "2026-09-19",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [
+      "kenkichi-tomimoto"
+    ],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "生誕140年と新たな収蔵を記念し、昭和の時代に富本憲吉が手がけた作品を紹介する昭和100年の企画展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "nara-art-20270116-c66ed0",
+    "museumId": "nara-art",
+    "title": "伝統文化の現在 墨と和紙の世界―現代美術における墨表現（仮）",
+    "startDate": "2027-01-16",
+    "endDate": "2027-03-14",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "墨と和紙という伝統的な素材に注目し、現代美術のなかで墨がどのように表現されているかを探る特別展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]
