@@ -33,3 +33,11 @@ export function quoteAppears(quote, text) {
   const norm = (s) => s.replace(/\s+/g, '').toLowerCase();
   return Boolean(quote) && norm(text).includes(norm(quote));
 }
+
+/** Body of an HTML response as a string, honouring Shift_JIS / EUC-JP pages (common on older public sites). */
+export async function decodeHtml(res) {
+  const buf = Buffer.from(await res.arrayBuffer());
+  const head = buf.subarray(0, 4096).toString('latin1');
+  const label = (res.headers.get('content-type')?.match(/charset=([\w-]+)/i)?.[1] ?? head.match(/<meta[^>]+charset=["']?([\w-]+)/i)?.[1] ?? 'utf-8').toLowerCase();
+  try { return new TextDecoder(label).decode(buf); } catch { return new TextDecoder('utf-8').decode(buf); }
+}

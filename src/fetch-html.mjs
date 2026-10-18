@@ -1,3 +1,4 @@
+import { decodeHtml } from './text.mjs';
 // Fetch a page's HTML as ArtPingBot: plain HTTP first, a real browser for pages drawn by scripts.
 export const USER_AGENT = 'ArtPingBot/0.1 (+https://github.com/thosokawa; reads exhibition lists a few times a week)';
 
@@ -24,7 +25,7 @@ export async function fetchHtml(url, { enough = (h) => h.length > 3000, browser:
   let html = '';
   try {
     const res = await fetch(url, { headers: { 'user-agent': USER_AGENT, 'accept-language': 'ja,en;q=0.8' }, redirect: 'follow', signal: AbortSignal.timeout(30000) });
-    if (res.ok) html = await res.text();
+    if (res.ok) html = await decodeHtml(res);
   } catch {
     // fall through to the browser
   }

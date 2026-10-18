@@ -11,7 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { htmlToText, sha256 } from '../src/text.mjs';
+import { htmlToText, sha256, decodeHtml } from '../src/text.mjs';
 import { mergeExhibitions, titleOnPage } from '../src/exhibitions.mjs';
 
 // ART_ROOT lets tests run against a copy of the data.
@@ -41,7 +41,7 @@ const announcements = readJson(annPath, []);
 async function fetchPlain(url) {
   const res = await fetch(url, { headers: { 'user-agent': USER_AGENT, 'accept-language': 'ja,en;q=0.8' }, redirect: 'follow' });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return htmlToText(await res.text());
+  return htmlToText(await decodeHtml(res));
 }
 
 let browser;
