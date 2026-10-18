@@ -1,0 +1,12 @@
+{
+  "id": "kusama-museum",
+  "name": "草間彌生美術館",
+  "nameEn": "Yayoi Kusama Museum",
+  "nameKana": "くさまやよいびじゅつかん",
+  "prefecture": "東京都",
+  "city": "新宿区",
+  "area": "kanto",
+  "officialUrl": "https://yayoikusamamuseum.jp/",
+  "exhibitionsUrl": "https://yayoikusamamuseum.jp/exhibition/",
+  "status": "ok"
+}

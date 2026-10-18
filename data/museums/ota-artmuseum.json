@@ -1,0 +1,12 @@
+{
+  "id": "ota-artmuseum",
+  "name": "太田市美術館・図書館",
+  "nameEn": "Art Museum & Library, Ota",
+  "nameKana": "おおたしびじゅつかんとしょかん",
+  "prefecture": "群馬県",
+  "city": "太田市",
+  "area": "kanto",
+  "officialUrl": "https://www.artmuseumlibraryota.jp/",
+  "exhibitionsUrl": "https://www.artmuseumlibraryota.jp/artmuseum/",
+  "status": "ok"
+}

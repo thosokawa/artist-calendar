@@ -1,0 +1,12 @@
+{
+  "id": "akita-art",
+  "name": "秋田県立美術館",
+  "nameEn": "Akita Museum of Art",
+  "nameKana": "あきたけんりつびじゅつかん",
+  "prefecture": "秋田県",
+  "city": "秋田市",
+  "area": "hokkaido-tohoku",
+  "officialUrl": "https://www.akita-museum-of-art.jp/",
+  "exhibitionsUrl": "https://www.akita-museum-of-art.jp/event/year_list.php",
+  "status": "ok"
+}
