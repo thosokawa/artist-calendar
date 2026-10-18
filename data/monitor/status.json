@@ -817,5 +817,200 @@
     "failures": 0,
     "lastCheckedAt": "2026-10-18T22:31:44.652Z",
     "hash": "203f0874f89e09d9d2f5b516dd09441234d5cb227a903df9dadc2f9eba94cf7c"
+  },
+  "acac": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "f40358d1a85504cb35994a578a2046ea03a05a0735f8d801d4361efdd961fe7f"
+  },
+  "akita-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "3822082ef36103288942bf79ac04b506c5c4d1bc561bc47635f6e5c228ed0286"
+  },
+  "art-tower-mito": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "fde3385a7f61f6fb3f70177cdd2c3720115e3557c0405f41c8163ae0ed1f0f4b"
+  },
+  "ashiya-museum": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "3c8db1b3604df9114f973bc8a6ce994a6b8244442077e0ffa0896d87505ecba3"
+  },
+  "espace-lv-tokyo": {
+    "failures": 1,
+    "lastError": "2026-10-18: page text too short (111 chars)"
+  },
+  "faam": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "d767105e68eb05538ade0a6197301488bc86daaaa339d58d980ef45e3ff9b9ae"
+  },
+  "hachinohe-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "45ccfd915a6dca543529626861269f84d5c0f6ce899a6d640b8dac7b19a2508d"
+  },
+  "hara-arc": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "d126fcf9f213171de9b3ae86d911fa5d04c592df0ecac9b4256212594999420c"
+  },
+  "hongoshin": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "14c9a1474fce9695d20472cdd8a4df27a91fc6f6070b957ba2d44ccb9549ea47"
+  },
+  "icc": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "41fa9e544cc90006b46977a1fb5567e03f5c27062e0ed176449d7a413760c0ce"
+  },
+  "ichihara-lakeside": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "9149afb6ed0c898be770ce1d145c77e938b15bf8256726ae02dc967c4866c74e"
+  },
+  "kanazu-sosaku": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "942fab5284cde63a47cff019914d9b47acbcbbae7b64292b5812aaf86b748ccc"
+  },
+  "kirishima-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "846226918f06fbb1cd987c32986e3fb75bea1a27d70b9124c29a1dc637286e61"
+  },
+  "kmma": {
+    "failures": 1,
+    "lastError": "2026-10-18: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://kmma.jp/\", waiting until \"domcontentloaded\"\n"
+  },
+  "koen-dori-gallery": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "a9f61ce5ee699cd167077ee59076b69c5387a2e7b6bb958542edb8a9729a9ddf"
+  },
+  "kusama-museum": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "2d8d423fefc2a2d194e2733c6502e67e93443e959b9ffd34fb1252531a91caa2"
+  },
+  "kyoto-art-center": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "5f3941399ab80343d91e1936f433b457bbbdb80488c6376d04cd9f2f2b86207c"
+  },
+  "maison-hermes": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "52c20890d601fa55bd5d437d26300f32fffdccb1363fec95ddca5c26d5be1e60"
+  },
+  "meguro-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "c92f4917452090be0f6d69bfeecdfc3c3db68cd5b030cbb021808fba090f4f77"
+  },
+  "mimoca": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "c1c8f48a468906120785a4cd6d51f1f5b4925c4736e86a1c264df61560af66e0"
+  },
+  "miyagi-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "f3603e0f3db3dbdbc893ade2fc259173e29778ec936ce1abc99f918bb6ee9e90"
+  },
+  "miyazaki-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "a99c510e22e495e5ed8d0fcc2a160bd650b8fb8b88169481a34feea23328d03c"
+  },
+  "momaw": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "9e1f8f717000ffbd8d25e6625f9687edb85e99de4473d05509b472a3303a6200"
+  },
+  "monet-tsumari": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "1599e89b935fd1c7cecf56311fd0232388b22119d23d1465f8de594c5202c239"
+  },
+  "nagi-moca": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "0ec79def6d40618f029b83a8f337670e976b2b214f9489fecc098eef75378ffa"
+  },
+  "nara-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "0ab3cf2df003084bed9f701727276c17ffe6335c6dff6f2ab7ef7f616d5c12ae"
+  },
+  "ota-artmuseum": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "41bbcb37bbead8a49af76ab22f14661cc5ef20286c2f4ff676388f73a9a4301a"
+  },
+  "otani-museum": {
+    "failures": 1,
+    "lastError": "2026-10-18: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://otanimuseum.jp/\nCall log:\n  - navigating to \"https://otanimuseum.jp/\", waiting until \"domcontentloaded\"\n"
+  },
+  "pola-annex": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "a02dabbe9b39aadaa9433ac80ff6b5cdf20282136c64e7c0fe6ce11ef3f8da2b"
+  },
+  "saga-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "11e9248b3656d8d88dbd7b421d93fcde7a35b21eea2ebc193784f5b427d13ab8"
+  },
+  "senju-museum": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "1233f0e9c3d17f28e30dae28a3fc9f9990a249cf6466cb84dd77aa46a37b8048"
+  },
+  "shiga-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "ee820aefb48c4776a04824481aa79eb5c9ba4ba77886932246e2d0b4fbd0306f"
+  },
+  "smt": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "36f3d46053a438543b5c0f6e0798daab98a11ab90738722df032f2f26351c29c"
+  },
+  "takamatsu-art": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "cec332522306855a075d63a122a8fa634d9022f571e1aab0432562001ec10be2"
+  },
+  "taro-okamoto-memorial": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "045a514715610bb50d5dc3186517893f7ccb54a4f96ae0544966534a974b7f4b"
+  },
+  "tokushima-moma": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "177fd65b0af05de9b7c6ee2a21b7e93a914a1473da88e8ca7183038517e57a8a"
+  },
+  "watarium": {
+    "failures": 1,
+    "lastError": "2026-10-18: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.watarium.co.jp/jp/exhibition/\nCall log:\n  - navigating to \"https://www.watarium.co.jp/jp/exhibition/\", waiting until \"domcontentloaded\"\n"
+  },
+  "yamaguchi-art": {
+    "failures": 1,
+    "lastError": "2026-10-18: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yma-web.jp/exhibition/index.html\nCall log:\n  - navigating to \"https://www.yma-web.jp/exhibition/index.html\", waiting until \"domcontentloaded\"\n"
+  },
+  "ycam": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "6daa5868326b2facb885d2be2f8229742532669051dbd92c6a5e9d5628107f7f"
+  },
+  "ytmoca": {
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "hash": "aadaad6e95a298764ad0569302d537e744f9792c45f00f90ddb2f15081048af5"
   }
 }

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "shiga-art-20260905-ca8352",
+    "museumId": "shiga-art",
+    "title": "時間はかたち？",
+    "startDate": "2026-09-05",
+    "endDate": "2026-11-23",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "時間と造形の関わりを問いかけるテーマのもと、館の所蔵品を紹介する秋の常設展示です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "shiga-art-20260911-7d087a",
+    "museumId": "shiga-art",
+    "title": "丸木スマ展 73歳からのアーティスト",
+    "startDate": "2026-09-11",
+    "endDate": "2026-11-23",
+    "kind": "special",
+    "artists": [
+      "suma-maruki"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "七十代になってから絵筆を握った丸木スマの創作に光を当て、その晩年の歩みと作品世界をたどる企画展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "shiga-art-20261006-30f4ee",
+    "museumId": "shiga-art",
+    "title": "＜国立印刷局との連携企画＞「お札を支える伝統技術～すき入れ・凹版・彩紋の世界～」",
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-15",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "版画",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "国立印刷局と組み、紙幣づくりに用いられるすき入れや凹版、彩紋といった伝統技術をラボで紹介する展示です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "shiga-art-20270115-f67df4",
+    "museumId": "shiga-art",
+    "title": "佐川晃司展（仮称）",
+    "startDate": "2027-01-15",
+    "endDate": "2027-03-22",
+    "kind": "special",
+    "artists": [
+      "koji-sagawa"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "画家・佐川晃司の仕事を取り上げる予定の企画展で、2027年の年明けから春先にかけて開かれます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

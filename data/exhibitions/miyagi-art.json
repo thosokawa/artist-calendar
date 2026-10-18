@@ -1,0 +1,61 @@
+[
+  {
+    "id": "miyagi-art-20260912-370ecf",
+    "museumId": "miyagi-art",
+    "title": "カンディンスキー 世界は鳴りひびく ―日本のコレクションでたどる画業と反響―",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-28",
+    "kind": "special",
+    "artists": [
+      "wassily-kandinsky"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "国内の美術館が所蔵する作品を通して、カンディンスキーの画業の歩みと日本での受容を振り返る特別展。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "miyagi-art-20261114-04f16d",
+    "museumId": "miyagi-art",
+    "title": "いま、私は現代アートと出会う－草間彌生、奈良美智、村上隆、アンディ・ウォーホル、バンクシー …",
+    "startDate": "2026-11-14",
+    "endDate": "2027-01-24",
+    "kind": "special",
+    "artists": [
+      "yayoi-kusama",
+      "yoshitomo-nara",
+      "takashi-murakami",
+      "andy-warhol",
+      "banksy",
+      "shinro-ohtake"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "草間彌生やウォーホル、バンクシーら国内外の人気作家の作品を通じて、現代アートの魅力に触れる展覧会。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "miyagi-art-20270206-c6513a",
+    "museumId": "miyagi-art",
+    "title": "棟方志功記念館コレクションによる 棟方志功展",
+    "startDate": "2027-02-06",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [
+      "shiko-munakata"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "棟方志功記念館が所蔵する作品によって、版画家棟方志功の多彩な創作世界を紹介する特別展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

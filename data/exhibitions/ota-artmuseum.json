@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ota-artmuseum-20261121-178ccf",
+    "museumId": "ota-artmuseum",
+    "title": "近藤聡乃 夢のタイトル KONDOH Akino: Naming a Dream",
+    "startDate": "2026-11-21",
+    "endDate": "2027-01-24",
+    "kind": "special",
+    "artists": [
+      "akino-kondoh"
+    ],
+    "genres": [
+      "マンガ・アニメ",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "ニューヨーク拠点の近藤聡乃が15年ぶりに手がけた新作アニメーションを、膨大なスケッチや原画とともに紹介する展覧会。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "icc-20260620-1d8338",
+    "museumId": "icc",
+    "title": "リサーチ・コンプレックス NTT R＆D @ICC 「身体性BEYOND」",
+    "startDate": "2026-06-20",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "メディアアート"
+    ],
+    "detailUrl": null,
+    "summary": "NTTの研究開発の成果をICCで紹介する展示で、「身体性BEYOND」をテーマに据えて構成されています。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "icc-20260912-9333af",
+    "museumId": "icc",
+    "title": "エマージェンシーズ！ 049 杉田碧《二十一世紀の空蝉》",
+    "startDate": "2026-09-12",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "midori-sugita"
+    ],
+    "genres": [
+      "メディアアート",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "若手作家を紹介するICCのシリーズ展の一つとして、杉田碧の作品《二十一世紀の空蝉》を紹介する展示です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "icc-20260929-78beb4",
+    "museumId": "icc",
+    "title": "ハイパーICC",
+    "startDate": "2026-09-29",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "メディアアート",
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "ICCで秋に開かれる展示で、メディア・アートの作品を館内で体験できる機会として11月上旬まで開かれます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "koen-dori-gallery-20261010-b1497a",
+    "museumId": "koen-dori-gallery",
+    "title": "ソウゾウ・トレイニング！－ひきだす、つなぐ、この場所で－",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "アール・ブリュットの巡回展として、作品との出会いから想像する力を引き出し、人と場をつなぐ展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "koen-dori-gallery-20270227-eea44f",
+    "museumId": "koen-dori-gallery",
+    "title": "自分の食べたいものを食べるのは意外と難しい",
+    "startDate": "2027-02-27",
+    "endDate": "2027-05-09",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "食べたいものを自由に選んで食べることの難しさに目を向ける、展示室と交流スペースを使った展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

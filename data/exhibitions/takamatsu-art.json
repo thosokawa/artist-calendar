@@ -1,0 +1,64 @@
+[
+  {
+    "id": "takamatsu-art-20260930-7bb18a",
+    "museumId": "takamatsu-art",
+    "title": "2026年度 コレクション展3",
+    "startDate": "2026-09-30",
+    "endDate": "2026-12-27",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "高松市美術館が所蔵する作品を紹介する、2026年度に開催される3回目のコレクション展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "takamatsu-art-20261010-a474c7",
+    "museumId": "takamatsu-art",
+    "title": "動く！展 －光と音と運動の芸術",
+    "startDate": "2026-10-10",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "光や音、そして運動という要素に焦点を当て、動きを伴う芸術表現のさまざまなあり方を紹介する特別展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "takamatsu-art-20270105-92e362",
+    "museumId": "takamatsu-art",
+    "title": "2026年度 コレクション展4",
+    "startDate": "2027-01-05",
+    "endDate": "2027-03-28",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "2026年度の締めくくりとして、高松市美術館の所蔵品を紹介する同年度4回目のコレクション展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "takamatsu-art-20270130-396c2b",
+    "museumId": "takamatsu-art",
+    "title": "高松コンテンポラリーアート・アニュアル vol.13",
+    "startDate": "2027-01-30",
+    "endDate": "2027-03-14",
+    "kind": "special",
+    "artists": [
+      "ayaka-miyata"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "同時代の美術の動向を紹介するため毎年開かれている現代美術のシリーズ展で、今回で13回目の開催となります。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

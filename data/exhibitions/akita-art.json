@@ -1,0 +1,32 @@
+[
+  {
+    "id": "akita-art-20261003-9e5bab",
+    "museumId": "akita-art",
+    "title": "ごんぎつね４０周年記念展～黒井健 絵本原画の世界～",
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "ken-kuroi"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "絵本『ごんぎつね』の刊行40周年を記念し、黒井健が手がけた絵本の原画の魅力を紹介する特別展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "akita-art-20261205-d46711",
+    "museumId": "akita-art",
+    "title": "平野政吉コレクションの人物像",
+    "startDate": "2026-12-05",
+    "endDate": "2027-01-17",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "平野政吉が収集した美術品の中から、人物を描いた作品に焦点を当てて紹介する所蔵品による展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

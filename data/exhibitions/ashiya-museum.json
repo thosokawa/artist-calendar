@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ashiya-museum-20261022-bd8b0c",
+    "museumId": "ashiya-museum",
+    "title": "浮世絵の風景画を楽しむ 広重＋北斎",
+    "startDate": "2026-10-22",
+    "endDate": "2027-01-17",
+    "kind": "special",
+    "artists": [
+      "utagawa-hiroshige",
+      "katsushika-hokusai"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "江戸の浮世絵師である広重と北斎が描いた風景版画を取り上げ、その見どころと魅力を味わう企画展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

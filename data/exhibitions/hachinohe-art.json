@@ -1,0 +1,54 @@
+[
+  {
+    "id": "hachinohe-art-20260725-f170f1",
+    "museumId": "hachinohe-art",
+    "title": "コレクションラボ014 岡山良一 八戸モダンの風",
+    "startDate": "2026-07-25",
+    "endDate": "2026-11-16",
+    "kind": "collection",
+    "artists": [
+      "ryoichi-okayama"
+    ],
+    "genres": [
+      "洋画",
+      "デザイン",
+      "建築"
+    ],
+    "detailUrl": null,
+    "summary": "抽象絵画から挿絵、建築やインテリアまで分野を横断して活躍した岡山良一の仕事と、仲間との交流を紹介する収蔵品展。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "hachinohe-art-20261121-3ffc58",
+    "museumId": "hachinohe-art",
+    "title": "ヨシタケシンスケ展かもしれない",
+    "startDate": "2026-11-21",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "shinsuke-yoshitake"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "人気絵本作家ヨシタケシンスケの全国巡回展で、スケッチや絵本原画、立体物や愛蔵品を通して発想の源をたどります。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "hachinohe-art-20270130-8a1706",
+    "museumId": "hachinohe-art",
+    "title": "昆野清一 溯源画巻 かなしみの河を溯る",
+    "startDate": "2027-01-30",
+    "endDate": "2027-02-21",
+    "kind": "special",
+    "artists": [
+      "seiichi-konno"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "戦争の悲しみと罪の意識に向き合った八戸の画家昆野清一の、全36巻に及ぶ大作《溯源画巻》を中心にその創作に迫ります。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

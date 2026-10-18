@@ -1,0 +1,20 @@
+[
+  {
+    "id": "meguro-art-20261010-38d540",
+    "museumId": "meguro-art",
+    "title": "目黒区美術館コレクション展『東京パック』とその時代 ＋特集展示 北澤楽天の『子供之友』",
+    "startDate": "2026-10-10",
+    "endDate": "2026-11-15",
+    "kind": "collection",
+    "artists": [
+      "rakuten-kitazawa"
+    ],
+    "genres": [
+      "マンガ・アニメ"
+    ],
+    "detailUrl": null,
+    "summary": "館の収蔵品を通して『東京パック』とその時代を振り返り、北澤楽天の『子供之友』を取り上げる特集展示も併せて開く展覧会。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

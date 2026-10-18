@@ -1,0 +1,37 @@
+[
+  {
+    "id": "kyoto-art-center-20261003-eb6e5d",
+    "museumId": "kyoto-art-center",
+    "title": "KYOTO EXPERIMENT 2026 Kansai Studies｜石原菜々子、金子仁司／kondaba「コンダバ川の地形図」",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-25",
+    "kind": "special",
+    "artists": [
+      "nanako-ishihara",
+      "hitoshi-kaneko"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "京都国際舞台芸術祭のKansai Studiesの一環として、石原菜々子と金子仁司らが川の地形図をテーマに見せる入場無料の展示。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "kyoto-art-center-20261003-986c11",
+    "museumId": "kyoto-art-center",
+    "title": "KYOTO EXPERIMENT 2026 【SKF】【展示】Future Dictionary",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-25",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "京都国際舞台芸術祭のプログラムとして、未来の辞書をテーマに据えて開かれる入場無料の展示で、芸術祭の会期中に公開される。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]
