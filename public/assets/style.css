@@ -233,3 +233,9 @@ body:has(.subscribe){padding-bottom:96px}
 .request .hp{position:absolute;left:-9999px}
 .request .result{margin:0;font-weight:700}
 .more-venues{margin-top:2em}
+/* Official social accounts in page heads */
+.head-links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 0}
+.sns{display:inline-flex;align-items:center;gap:14px}
+.head-links .sns-link{margin:0;display:inline-flex;color:var(--ink)}
+.sns-link svg{width:20px;height:20px}
+.sns-link:hover{color:var(--coral);opacity:1}

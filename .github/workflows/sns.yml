@@ -1,0 +1,49 @@
+# Official websites and social accounts of venues (links on their own sites) and artists
+# (web search, kept only when an official page links to the account). 07:00 JST daily.
+# Needs repository secret ANTHROPIC_API_KEY.
+name: sns-links
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '1回で調べる作家の数'
+        required: false
+        default: '40'
+      only:
+        description: '作家のID（カンマ区切り、空なら未確認の作家から順に）'
+        required: false
+        default: ''
+      venues_all:
+        description: '美術館・ギャラリーも全部読み直す'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+jobs:
+  sns:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Venues
+        run: node scripts/sns-venues.mjs ${{ inputs.venues_all && '--all' || '' }}
+        continue-on-error: true
+      - name: Artists
+        run: node scripts/sns-artists.mjs --limit=${LIMIT:-40} ${ONLY:+--only=$ONLY}
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LIMIT: ${{ inputs.limit }}
+          ONLY: ${{ inputs.only }}
+      - name: Save results to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "SNS links: $(date -u +%F)" && git pull --rebase origin main && git push)
