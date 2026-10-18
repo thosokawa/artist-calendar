@@ -1,0 +1,14 @@
+{
+  "id": "shiseido-gallery",
+  "kind": "gallery",
+  "name": "資生堂ギャラリー",
+  "nameEn": "Shiseido Gallery",
+  "nameKana": "しせいどうぎゃらりー",
+  "prefecture": "東京都",
+  "city": "中央区",
+  "area": "kanto",
+  "officialUrl": "https://gallery.shiseido.com/jp/",
+  "exhibitionsUrl": "https://gallery.shiseido.com/jp/exhibition/schedule/",
+  "era": "contemporary",
+  "status": "ok"
+}

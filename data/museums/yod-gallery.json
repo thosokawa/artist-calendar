@@ -1,0 +1,14 @@
+{
+  "id": "yod-gallery",
+  "kind": "gallery",
+  "name": "YOD Gallery",
+  "nameEn": "YOD Gallery",
+  "nameKana": "よっどぎゃらりー",
+  "prefecture": "東京都",
+  "city": "品川区",
+  "area": "kanto",
+  "officialUrl": "https://www.yodgallery.com/",
+  "exhibitionsUrl": "https://www.yodgallery.com/current-exhibition-tennoz",
+  "era": "contemporary",
+  "status": "ok"
+}

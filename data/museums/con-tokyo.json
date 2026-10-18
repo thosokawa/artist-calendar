@@ -1,0 +1,14 @@
+{
+  "id": "con-tokyo",
+  "kind": "gallery",
+  "name": "CON_",
+  "nameEn": "CON_",
+  "nameKana": "こん",
+  "prefecture": "東京都",
+  "city": "中央区",
+  "area": "kanto",
+  "officialUrl": "https://www.contokyo.com/",
+  "exhibitionsUrl": "https://www.contokyo.com/exhibition/",
+  "era": "contemporary",
+  "status": "ok"
+}

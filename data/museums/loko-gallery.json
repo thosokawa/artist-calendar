@@ -1,0 +1,14 @@
+{
+  "id": "loko-gallery",
+  "kind": "gallery",
+  "name": "LOKO GALLERY",
+  "nameEn": "LOKO GALLERY",
+  "nameKana": "ろこぎゃらりー",
+  "prefecture": "東京都",
+  "city": "渋谷区",
+  "area": "kanto",
+  "officialUrl": "https://lokogallery.com/",
+  "exhibitionsUrl": "https://lokogallery.com/archives/exhibitions",
+  "era": "contemporary",
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "waitingroom",
+  "kind": "gallery",
+  "name": "WAITINGROOM",
+  "nameEn": "WAITINGROOM",
+  "nameKana": "うぇいてぃんぐるーむ",
+  "prefecture": "東京都",
+  "city": "文京区",
+  "area": "kanto",
+  "officialUrl": "https://waitingroom.jp/",
+  "exhibitionsUrl": "https://waitingroom.jp/exhibitions/",
+  "era": "contemporary",
+  "status": "ok"
+}

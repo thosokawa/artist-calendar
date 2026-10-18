@@ -1,0 +1,14 @@
+{
+  "id": "mizuma-art-gallery",
+  "kind": "gallery",
+  "name": "ミヅマアートギャラリー",
+  "nameEn": "Mizuma Art Gallery",
+  "nameKana": "みづまあーとぎゃらりー",
+  "prefecture": "東京都",
+  "city": "新宿区",
+  "area": "kanto",
+  "officialUrl": "https://mizuma-art.co.jp/",
+  "exhibitionsUrl": "https://mizuma-art.co.jp/exhibitions/",
+  "era": "contemporary",
+  "status": "ok"
+}

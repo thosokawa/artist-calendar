@@ -1,0 +1,14 @@
+{
+  "id": "mu-gallery",
+  "kind": "gallery",
+  "name": "MU GALLERY",
+  "nameEn": "MU GALLERY",
+  "nameKana": "むーぎゃらりー",
+  "prefecture": "東京都",
+  "city": "品川区",
+  "area": "kanto",
+  "officialUrl": "https://www.mugallery-tokyo.com/",
+  "exhibitionsUrl": "https://www.mugallery-tokyo.com/exhibitions/",
+  "era": "contemporary",
+  "status": "ok"
+}

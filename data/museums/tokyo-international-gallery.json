@@ -1,0 +1,14 @@
+{
+  "id": "tokyo-international-gallery",
+  "kind": "gallery",
+  "name": "TOKYO INTERNATIONAL GALLERY",
+  "nameEn": "Tokyo International Gallery",
+  "nameKana": "とうきょういんたーなしょなるぎゃらりー",
+  "prefecture": "東京都",
+  "city": "品川区",
+  "area": "kanto",
+  "officialUrl": "https://tokyointernationalgallery.co.jp/ja/",
+  "exhibitionsUrl": "https://tokyointernationalgallery.co.jp/ja/exhibition",
+  "era": "contemporary",
+  "status": "ok"
+}

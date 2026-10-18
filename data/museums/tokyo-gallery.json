@@ -1,0 +1,14 @@
+{
+  "id": "tokyo-gallery",
+  "kind": "gallery",
+  "name": "東京画廊+BTAP",
+  "nameEn": "Tokyo Gallery + BTAP",
+  "nameKana": "とうきょうがろうびーたっぷ",
+  "prefecture": "東京都",
+  "city": "中央区",
+  "area": "kanto",
+  "officialUrl": "https://www.tokyo-gallery.com/",
+  "exhibitionsUrl": "https://www.tokyo-gallery.com/exhibitions/",
+  "era": "contemporary",
+  "status": "ok"
+}

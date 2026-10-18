@@ -1,0 +1,14 @@
+{
+  "id": "ota-fine-arts",
+  "kind": "gallery",
+  "name": "オオタファインアーツ",
+  "nameEn": "Ota Fine Arts",
+  "nameKana": "おおたふぁいんあーつ",
+  "prefecture": "東京都",
+  "city": "港区",
+  "area": "kanto",
+  "officialUrl": "https://www.otafinearts.com/ja/about/tokyo/",
+  "exhibitionsUrl": "https://www.otafinearts.com/exhibitions/location/1/",
+  "era": "contemporary",
+  "status": "ok"
+}

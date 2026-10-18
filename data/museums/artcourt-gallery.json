@@ -1,0 +1,14 @@
+{
+  "id": "artcourt-gallery",
+  "kind": "gallery",
+  "name": "アートコートギャラリー",
+  "nameEn": "ARTCOURT Gallery",
+  "nameKana": "あーとこーとぎゃらりー",
+  "prefecture": "大阪府",
+  "city": "大阪市北区",
+  "area": "kansai",
+  "officialUrl": "https://www.artcourtgallery.com/",
+  "exhibitionsUrl": "https://www.artcourtgallery.com/exhibitions/",
+  "era": "contemporary",
+  "status": "ok"
+}

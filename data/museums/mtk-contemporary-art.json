@@ -1,0 +1,14 @@
+{
+  "id": "mtk-contemporary-art",
+  "kind": "gallery",
+  "name": "MtK Contemporary Art",
+  "nameEn": "MtK Contemporary Art",
+  "nameKana": "えむてぃーけーこんてんぽらりーあーと",
+  "prefecture": "京都府",
+  "city": "京都市左京区",
+  "area": "kansai",
+  "officialUrl": "https://mtkcontemporaryart.com/",
+  "exhibitionsUrl": "https://mtkcontemporaryart.com/exhibition/",
+  "era": "contemporary",
+  "status": "ok"
+}

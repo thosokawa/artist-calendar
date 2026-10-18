@@ -1,0 +1,14 @@
+{
+  "id": "gallery-nomart",
+  "kind": "gallery",
+  "name": "ギャラリーノマル",
+  "nameEn": "Gallery Nomart",
+  "nameKana": "ぎゃらりーのまる",
+  "prefecture": "大阪府",
+  "city": "大阪市城東区",
+  "area": "kansai",
+  "officialUrl": "https://www.nomart.co.jp/",
+  "exhibitionsUrl": "https://www.nomart.co.jp/exhibition/index.php",
+  "era": "contemporary",
+  "status": "ok"
+}

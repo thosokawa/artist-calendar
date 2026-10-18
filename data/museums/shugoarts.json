@@ -1,0 +1,14 @@
+{
+  "id": "shugoarts",
+  "kind": "gallery",
+  "name": "シュウゴアーツ",
+  "nameEn": "ShugoArts",
+  "nameKana": "しゅうごあーつ",
+  "prefecture": "東京都",
+  "city": "港区",
+  "area": "kanto",
+  "officialUrl": "https://shugoarts.com/",
+  "exhibitionsUrl": "https://shugoarts.com/exhibitions/",
+  "era": "contemporary",
+  "status": "ok"
+}

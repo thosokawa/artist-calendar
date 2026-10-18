@@ -1,0 +1,14 @@
+{
+  "id": "maki-gallery",
+  "kind": "gallery",
+  "name": "MAKI Gallery",
+  "nameEn": "MAKI Gallery",
+  "nameKana": "まきぎゃらりー",
+  "prefecture": "東京都",
+  "city": "品川区",
+  "area": "kanto",
+  "officialUrl": "https://www.makigallery.com/ja/",
+  "exhibitionsUrl": "https://www.makigallery.com/ja/",
+  "era": "contemporary",
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gallery-common",
+  "kind": "gallery",
+  "name": "Gallery COMMON",
+  "nameEn": "Gallery COMMON",
+  "nameKana": "ぎゃらりーこもん",
+  "prefecture": "東京都",
+  "city": "渋谷区",
+  "area": "kanto",
+  "officialUrl": "https://www.gallerycommon.com/ja",
+  "exhibitionsUrl": "https://www.gallerycommon.com/ja/exhibitions",
+  "era": "contemporary",
+  "status": "ok"
+}
