@@ -9,7 +9,8 @@
     "nameRomaji": "Aguri Uchida",
     "aliases": [],
     "nameKana": "うちだあぐり",
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "website": "http://www.aguriuchida.com/"
   },
   "ahmed-mannan": {
     "name": "アハメッド・マナン",
@@ -355,7 +356,12 @@
     "name": "塩田千春",
     "nameRomaji": "Chiharu Shiota",
     "aliases": [],
-    "nameKana": "しおたちはる"
+    "nameKana": "しおたちはる",
+    "website": "https://www.chiharu-shiota.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/chiharushiota/"
+    },
+    "snsCheckedAt": "2026-10-18"
   },
   "chihhung-liu": {
     "name": "リュウ・ジーホン",
@@ -1567,7 +1573,9 @@
     "name": "名和 晃平",
     "nameRomaji": "Kohei Nawa",
     "nameKana": "なわこうへい",
-    "aliases": []
+    "aliases": [],
+    "website": "https://kohei-nawa.net/",
+    "snsCheckedAt": "2026-10-18"
   },
   "kohei-nishigata": {
     "name": "西潟浩平",
@@ -2006,7 +2014,14 @@
     "name": "蜷川実花",
     "nameRomaji": "Mika Ninagawa",
     "aliases": [],
-    "nameKana": "にながわみか"
+    "nameKana": "にながわみか",
+    "website": "https://mikaninagawa.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/ninagawamika/",
+      "x": "https://x.com/ninagawamika",
+      "facebook": "https://www.facebook.com/ninamikaofficial"
+    },
+    "snsCheckedAt": "2026-10-18"
   },
   "miki-ikeda": {
     "name": "池田美樹",
@@ -3518,7 +3533,9 @@
     "name": "草間彌生",
     "nameRomaji": "Yayoi Kusama",
     "aliases": [],
-    "nameKana": "くさまやよい"
+    "nameKana": "くさまやよい",
+    "website": "https://yayoi-kusama.jp/",
+    "snsCheckedAt": "2026-10-18"
   },
   "yojiro-imasaka": {
     "name": "今坂庸二朗",
@@ -3589,7 +3606,11 @@
     "name": "奈良美智",
     "nameRomaji": "Yoshitomo Nara",
     "aliases": [],
-    "nameKana": "ならよしとも"
+    "nameKana": "ならよしとも",
+    "sns": {
+      "instagram": "https://www.instagram.com/michinara3/"
+    },
+    "snsCheckedAt": "2026-10-18"
   },
   "yuichi-idaka": {
     "name": "井高雄一",
