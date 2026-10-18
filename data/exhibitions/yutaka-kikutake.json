@@ -1,0 +1,43 @@
+[
+  {
+    "id": "yutaka-kikutake-20261024-4d05ae",
+    "museumId": "yutaka-kikutake",
+    "title": "海と内臓 / Oceans―Organs",
+    "startDate": "2026-10-24",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "hiraku-suzuki"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "鈴木ヒラクが六本木のスペースで開く個展で、海と内臓という二つの言葉を掲げた新たな作品群を紹介します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "yutaka-kikutake-20261104-d9426c",
+    "museumId": "yutaka-kikutake",
+    "title": "The Quiet",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "nate-antrick",
+      "diana-cepleanu",
+      "gregory-olympio",
+      "nobuya-hitsuda",
+      "yuki-katsura",
+      "mai-takeshita"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "国内外の6名の作家が京橋のスペースに集い、「The Quiet」という題のもとで作品を並べるグループ展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

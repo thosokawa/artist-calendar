@@ -472,8 +472,9 @@
     "hash": "7a251aa3339fa560a5c845a26c13004871c8ec9578864bf034f8bff9b2cdd7d0"
   },
   "fergus-mccaffrey-tokyo": {
-    "failures": 1,
-    "lastError": "2026-10-18: page text too short (80 chars)"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T07:27:10.841Z",
+    "hash": "f59cc8e520dce746a21704e7a552bef7daf76222bd4a7669da8ddef6163ac420"
   },
   "finch-arts": {
     "failures": 0,
@@ -496,7 +497,7 @@
     "hash": "1fb042a4dadcf0c82fdc34f9963cc9e432f43f33213906c37b637cf4b905698d"
   },
   "gallery-common": {
-    "failures": 1,
+    "failures": 2,
     "lastError": "2026-10-18: page text too short (38 chars)"
   },
   "gallery-koyanagi": {
@@ -595,8 +596,9 @@
     "hash": "2fe14513b3d7b18b7603b17980286f405e95e27e83f491a048812823e869f084"
   },
   "maki-gallery": {
-    "failures": 1,
-    "lastError": "2026-10-18: page text too short (160 chars)"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T07:27:10.841Z",
+    "hash": "a616bc7c65bd867cb2f917616bca24c88bcf7ee7251e37eb599e31d9b84ce8f3"
   },
   "mem": {
     "failures": 0,
@@ -609,7 +611,7 @@
     "hash": "317e356bb6095fe618fb0f5979cf5224a9d869b8c94db5bed27ddbfac22adeb4"
   },
   "misako-rosen": {
-    "failures": 1,
+    "failures": 2,
     "lastError": "2026-10-18: page text too short (65 chars)"
   },
   "mizuma-art-gallery": {
@@ -618,8 +620,9 @@
     "hash": "5d5bc27372c470257ca2ad047f6fbdf4f014cee3991df88f66aeeb8930d210d3"
   },
   "mori-yu": {
-    "failures": 1,
-    "lastError": "2026-10-18: page text too short (179 chars)"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T07:27:10.841Z",
+    "hash": "d7b9051d56bfc70150c2a32c58330fc6969a59013e6cc4c3c97bb3c3c4c603aa"
   },
   "mtk-contemporary-art": {
     "failures": 0,
@@ -637,7 +640,7 @@
     "hash": "981b268f0e22de30a908c0d294b1eef919ca24c9aeac91bc2f171988d2c2ae89"
   },
   "nanzuka": {
-    "failures": 1,
+    "failures": 2,
     "lastError": "2026-10-18: page text too short (48 chars)"
   },
   "nca": {
@@ -671,8 +674,9 @@
     "hash": "eb75d7ea271d18cd126926bea5f06b01c586869fe67cb8c4a2cc9cd082178f24"
   },
   "rin-art-association": {
-    "failures": 1,
-    "lastError": "2026-10-18: page text too short (129 chars)"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T07:27:10.841Z",
+    "hash": "1acee3b632eff17f8be84714c4b09b70fceb9d0b83f6c5bd12071e23737a7b62"
   },
   "root-k-contemporary": {
     "failures": 0,
@@ -810,7 +814,8 @@
     "hash": "4287236679cff77792cce64440d5e4de8696103e6fa6b52324151a145c9f521e"
   },
   "yutaka-kikutake": {
-    "failures": 1,
-    "lastError": "2026-10-18: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://ykggallery.com/exhibitions\nCall log:\n  - navigating to \"https://ykggallery.com/exhibitions\", waiting until \"domcontentloaded\"\n"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T07:27:10.841Z",
+    "hash": "203f0874f89e09d9d2f5b516dd09441234d5cb227a903df9dadc2f9eba94cf7c"
   }
 }

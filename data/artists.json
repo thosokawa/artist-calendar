@@ -453,6 +453,12 @@
     "nameRomaji": "Daniel Steegmann Mangrané",
     "aliases": []
   },
+  "diana-cepleanu": {
+    "name": "ディアナ・チェプレアヌ",
+    "nameRomaji": "Diana Cepleanu",
+    "nameKana": "ちぇぷれあぬでぃあな",
+    "aliases": []
+  },
   "diego-rivera": {
     "name": "ディエゴ・リベラ",
     "nameRomaji": "Diego Rivera",
@@ -783,6 +789,12 @@
     "aliases": [],
     "nameKana": "はしぐちごよう"
   },
+  "gregory-olympio": {
+    "name": "グレゴリー・オリンピオ",
+    "nameRomaji": "Gregory Olympio",
+    "nameKana": "おりんぴおぐれごりー",
+    "aliases": []
+  },
   "gustave-caillebotte": {
     "name": "カイユボット",
     "nameRomaji": "Gustave Caillebotte",
@@ -949,6 +961,12 @@
   "hiraki-sawa": {
     "name": "さわひらき",
     "nameRomaji": "Hiraki Sawa",
+    "aliases": []
+  },
+  "hiraku-suzuki": {
+    "name": "鈴木ヒラク",
+    "nameRomaji": "Hiraku Suzuki",
+    "nameKana": "すずきひらく",
     "aliases": []
   },
   "hiroko-kubo": {
@@ -1740,6 +1758,12 @@
     "aliases": [],
     "nameKana": "まえだきんぷう"
   },
+  "mai-takeshita": {
+    "name": "竹下麻衣",
+    "nameRomaji": "Mai Takeshita",
+    "nameKana": "たけしたまい",
+    "aliases": []
+  },
   "mai-yamashita-naoto-kobayashi": {
     "name": "山下麻衣＋小林直人",
     "nameRomaji": "Mai Yamashita + Naoto Kobayashi",
@@ -1817,6 +1841,12 @@
     "nameRomaji": "Mariko Mori",
     "aliases": [],
     "nameKana": "もりまりこ"
+  },
+  "martin-margiela": {
+    "name": "Martin Margiela",
+    "nameRomaji": "Martin Margiela",
+    "nameKana": "まるじぇらまるたん",
+    "aliases": []
   },
   "maruyama-okyo": {
     "name": "円山応挙",
@@ -2117,6 +2147,12 @@
     "nameKana": "おおしまなるき",
     "aliases": []
   },
+  "nate-antrick": {
+    "name": "ネイト・アントリック",
+    "nameRomaji": "Nate Antrick",
+    "nameKana": "あんとりっくねいと",
+    "aliases": []
+  },
   "natsuyuki-nakanishi": {
     "name": "中西夏之",
     "nameRomaji": "Natsuyuki Nakanishi",
@@ -2155,6 +2191,12 @@
     "name": "渡辺 信子",
     "nameRomaji": "Nobuko Watanabe",
     "nameKana": "わたなべのぶこ",
+    "aliases": []
+  },
+  "nobuya-hitsuda": {
+    "name": "櫃田伸也",
+    "nameRomaji": "Nobuya Hitsuda",
+    "nameKana": "ひつだのぶや",
     "aliases": []
   },
   "noe-aoki": {
@@ -2268,6 +2310,12 @@
     "aliases": [
       "ゴーギャン"
     ]
+  },
+  "paul-wallach": {
+    "name": "Paul Wallach",
+    "nameRomaji": "Paul Wallach",
+    "nameKana": "うぉらっくぽーる",
+    "aliases": []
   },
   "philippe-parreno": {
     "name": "フィリップ・パレーノ",
