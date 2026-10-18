@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gallery-ug-20261009-02e5c3",
+    "museumId": "gallery-ug",
+    "title": "One Brief Memory",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "ryosuke-kawahira"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "天王洲のギャラリー空間で、作家・川平遼佑の作品を「One Brief Memory」と題して見せる個展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-ug-20261014-6128fd",
+    "museumId": "gallery-ug",
+    "title": "特集アーティスト 泉茂雄",
+    "startDate": "2026-10-14",
+    "endDate": "2026-11-03",
+    "kind": "special",
+    "artists": [
+      "shigeo-izumi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "福岡の自廊で泉茂雄を特集アーティストとして取り上げ、その作品をまとめて紹介する約3週間の展示です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-ug-20261106-45ddad",
+    "museumId": "gallery-ug",
+    "title": "Life Is Good",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "takaoki-tajima"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "田島享央己の作品を天王洲のギャラリーで紹介する展覧会で、「Life Is Good」のタイトルを掲げます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-ug-20261211-b1609f",
+    "museumId": "gallery-ug",
+    "title": "個展",
+    "startDate": "2026-12-11",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "naoki-nomura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "年末の天王洲のギャラリーで開かれる野村直城の個展で、作家ひとりの作品に焦点を当てる企画です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

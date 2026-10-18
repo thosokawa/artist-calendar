@@ -1,0 +1,38 @@
+[
+  {
+    "id": "scai-20261104-bbc016",
+    "museumId": "scai",
+    "title": "ハートのA",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [
+      "nobuko-tsuchiya"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "現代美術作家の土屋信子が「ハートのA」と題して新たな作品世界を紹介する、ギャラリーでの次回の個展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "scai-20261105-a5790b",
+    "museumId": "scai",
+    "title": "Unity",
+    "startDate": "2026-11-05",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [
+      "mariko-mori"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "森万里子が「Unity」という題名のもとで作品を発表する個展で、11月上旬から12月中旬まで開かれます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

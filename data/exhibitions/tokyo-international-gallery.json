@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tokyo-international-gallery-20260909-feedb5",
+    "museumId": "tokyo-international-gallery",
+    "title": "Threshold of Emergence",
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-24",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "9月9日に開幕し10月24日まで続く、「Threshold of Emergence」と題したギャラリーの展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "tokyo-international-gallery-20261107-696af3",
+    "museumId": "tokyo-international-gallery",
+    "title": "ANIMATE",
+    "startDate": "2026-11-07",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "東京のギャラリーで11月7日から12月26日まで開かれる、「ANIMATE」と題した展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

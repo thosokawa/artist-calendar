@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kosaku-kanechika-20261010-2c9156",
+    "museumId": "kosaku-kanechika",
+    "title": "朝長弘人 しわのある風景",
+    "startDate": "2026-10-10",
+    "endDate": "2026-11-21",
+    "kind": "special",
+    "artists": [
+      "hiroto-tomonaga"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "朝長弘人の個展「しわのある風景」を、天王洲のギャラリースペースで秋から初冬にかけて紹介します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "kosaku-kanechika-20261030-aa21d0",
+    "museumId": "kosaku-kanechika",
+    "title": "舘鼻則孝 Heel-less Shoes",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "noritaka-tatehana"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "舘鼻則孝による個展で、「Heel-less Shoes」をテーマに京橋のスペースで開催される展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kotaro-nukaga-20260926-3ff7d4",
+    "museumId": "kotaro-nukaga",
+    "title": "Points of Entry",
+    "startDate": "2026-09-26",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "KOTARO NUKAGAの展示スペースで現在開かれている展覧会で、秋から11月上旬まで続きます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "kotaro-nukaga-20261031-6ca5fd",
+    "museumId": "kotaro-nukaga",
+    "title": "Glacier Diary",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "KOTARO NUKAGAが10月末から年末にかけて開催を予定している、近日公開の展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

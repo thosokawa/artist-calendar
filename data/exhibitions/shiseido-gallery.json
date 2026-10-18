@@ -1,0 +1,22 @@
+[
+  {
+    "id": "shiseido-gallery-20261103-76afd9",
+    "museumId": "shiseido-gallery",
+    "title": "今とはいつのことかー小村雪岱と玉山拓郎",
+    "startDate": "2026-11-03",
+    "endDate": "2027-02-28",
+    "kind": "special",
+    "artists": [
+      "settai-komura",
+      "takuro-tamayama"
+    ],
+    "genres": [
+      "現代美術",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "約百年を隔てた小村雪岱と玉山拓郎の表現を一つの空間で出会わせ、銀座に積み重なった時間を体感させる二人展。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

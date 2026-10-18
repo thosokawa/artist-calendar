@@ -1,0 +1,74 @@
+[
+  {
+    "id": "parcel-20260912-416b9a",
+    "museumId": "parcel",
+    "title": "Yet, yet again.",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-18",
+    "kind": "special",
+    "artists": [
+      "tomonari-hashimoto"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "橋本知成の作品を紹介する個展で、PARCELの展示スペースにて秋の約1か月あまりにわたり開催される展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "parcel-20260912-f0328d",
+    "museumId": "parcel",
+    "title": "Field Notes",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-18",
+    "kind": "special",
+    "artists": [
+      "koji-yamaguchi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "山口幸士の作品を取り上げる個展で、9月中旬から10月中旬までギャラリーの展示空間で公開される企画です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "parcel-20261104-6ae9ef",
+    "museumId": "parcel",
+    "title": "Three flames +1",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "bien"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "アーティストBIENによる展覧会で、11月上旬から12月中旬までPARCELの展示スペースで作品が紹介されます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "parcel-20261104-7ffab4",
+    "museumId": "parcel",
+    "title": "Solo exhibition by Kai Yoda",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-05",
+    "kind": "special",
+    "artists": [
+      "kai-yoda"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "Kai Yodaによる個展で、11月初めから12月初旬までの約1か月間、ギャラリーにて作品が展示される予定です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

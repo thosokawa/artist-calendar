@@ -1,0 +1,34 @@
+[
+  {
+    "id": "tezukayama-20261003-abfbce",
+    "museumId": "tezukayama",
+    "title": "Thumbnails",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "masaaki-suzuki"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "帝塚山画廊のメインギャラリーで開かれる鈴木雅明の展覧会で、十月の約一か月間にわたり作品を紹介する。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "tezukayama-20261003-c38ff0",
+    "museumId": "tezukayama",
+    "title": "The Overlapping Hours",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "kyoko-shindo"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "帝塚山画廊のビューイングルームを会場に、新藤杏子の作品を十月いっぱい紹介する展覧会。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "gallery-koyanagi-20260926-650b88",
+    "museumId": "gallery-koyanagi",
+    "title": "Tranquility 静謐",
+    "startDate": "2026-09-26",
+    "endDate": "2026-10-24",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "「静謐」をテーマに掲げてギャラリー小柳の展示空間で開かれている展覧会で、10月24日まで鑑賞できる。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-koyanagi-20261104-3266d0",
+    "museumId": "gallery-koyanagi",
+    "title": "須田悦弘",
+    "startDate": "2026-11-04",
+    "endDate": "2027-01-16",
+    "kind": "special",
+    "artists": [
+      "yoshihiro-suda"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "須田悦弘を取り上げる展覧会で、11月上旬から翌年1月中旬まで年をまたいでギャラリー小柳で開催される。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

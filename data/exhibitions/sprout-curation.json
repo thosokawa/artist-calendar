@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sprout-curation-20261001-fd6957",
+    "museumId": "sprout-curation",
+    "title": "尾関諒｜Recent Paintings",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "ryo-ozeki"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "画家の尾関諒が近年に制作した絵画を集めて紹介する個展で、作家のいまの仕事をまとめて見られる機会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

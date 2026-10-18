@@ -1,0 +1,23 @@
+[
+  {
+    "id": "maki-fine-arts-20260926-c796d3",
+    "museumId": "maki-fine-arts",
+    "title": "Interface",
+    "startDate": "2026-09-26",
+    "endDate": "2026-10-24",
+    "kind": "special",
+    "artists": [
+      "makoto-ito",
+      "katsuhisa-sato",
+      "shoko-masunaga",
+      "riko-kinoshita"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "伊藤誠、佐藤克久、益永梢子、木下理子の4名が参加し、「Interface」と題して作品を紹介するグループ展。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

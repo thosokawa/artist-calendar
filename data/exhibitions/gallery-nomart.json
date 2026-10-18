@@ -1,0 +1,83 @@
+[
+  {
+    "id": "gallery-nomart-20261017-b9c7a0",
+    "museumId": "gallery-nomart",
+    "title": "The Neutral: 卓上の静物",
+    "startDate": "2026-10-17",
+    "endDate": "2026-11-14",
+    "kind": "special",
+    "artists": [
+      "naruki-oshima"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "大島成己がテーブルの上に置かれた静物をテーマに据えて、新たな作品群を発表する個展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-nomart-20261128-e04dc6",
+    "museumId": "gallery-nomart",
+    "title": "Musica",
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "hideki-kimura",
+      "hajime-imamura",
+      "kohei-nawa",
+      "motonori-inagaki",
+      "nobuko-watanabe",
+      "yukio-fujimoto",
+      "iseo-nose",
+      "nana-kuromiya",
+      "chihiro-yamada",
+      "jun-inui"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "ギャラリーにゆかりのある15名の作家が一堂に会し、それぞれの作品を持ち寄って見せる年末恒例のグループ展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-nomart-20270116-663dfd",
+    "museumId": "gallery-nomart",
+    "title": "skyful",
+    "startDate": "2027-01-16",
+    "endDate": "2027-02-13",
+    "kind": "special",
+    "artists": [
+      "asako-tanaka"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "田中朝子による個展で、空に満ちたものを想起させる「skyful」という題のもとで作品を紹介します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "gallery-nomart-20270227-b1609f",
+    "museumId": "gallery-nomart",
+    "title": "個展",
+    "startDate": "2027-02-27",
+    "endDate": "2027-03-27",
+    "kind": "special",
+    "artists": [
+      "kana-ueda"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "2027年の早春に開かれる上田佳奈の個展で、ギャラリーノマルの空間で作家の新たな仕事を紹介します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

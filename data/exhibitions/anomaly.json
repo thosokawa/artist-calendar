@@ -1,0 +1,38 @@
+[
+  {
+    "id": "anomaly-20261010-e4f927",
+    "museumId": "anomaly",
+    "title": "反省サイクル 絵／空／事",
+    "startDate": "2026-10-10",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "kohei-kobayashi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "小林耕平が「反省サイクル 絵／空／事」と題してANOMALYで開く個展で、秋の約1か月にわたり作品を紹介します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "anomaly-20261010-35c305",
+    "museumId": "anomaly",
+    "title": "徒歩／網の目",
+    "startDate": "2026-10-10",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "shiori-higashiyama"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "東山詩織による個展「徒歩／網の目」で、小林耕平展と同じ会期にANOMALYの展示空間で作品が公開されます。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

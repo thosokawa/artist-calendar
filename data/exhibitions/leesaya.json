@@ -1,0 +1,38 @@
+[
+  {
+    "id": "leesaya-20260926-5ef349",
+    "museumId": "leesaya",
+    "title": "山女譚",
+    "startDate": "2026-09-26",
+    "endDate": "2026-10-18",
+    "kind": "special",
+    "artists": [
+      "kyoko-yasuhara"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "LEESAYAで開かれる安原杏子の個展で、「山女譚」というタイトルのもとに作品が紹介される。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "leesaya-20261104-ca6e99",
+    "museumId": "leesaya",
+    "title": "CHORUS",
+    "startDate": "2026-11-04",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "akiko-ando"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "安藤晶子がLEESAYAで開く個展で、「CHORUS」と名付けられた展示として作品を発表する機会となる。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mtk-contemporary-art-20261003-04efaf",
+    "museumId": "mtk-contemporary-art",
+    "title": "Four",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-24",
+    "kind": "special",
+    "artists": [
+      "kiyoshi-izumi",
+      "nobukazu-takemura",
+      "atsushi-nishijima",
+      "keitetsu-murai"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "和泉希洋志、竹村延和、ニシジマ・アツシ、村井啓哲という4名の作家が顔をそろえるグループ展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

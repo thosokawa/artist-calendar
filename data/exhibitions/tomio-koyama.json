@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tomio-koyama-20260926-074815",
+    "museumId": "tomio-koyama",
+    "title": "日高理恵子",
+    "startDate": "2026-09-26",
+    "endDate": "2026-11-08",
+    "kind": "special",
+    "artists": [
+      "rieko-hidaka"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "日高理恵子の作品を六本木のスペースで見せる展示で、京橋の会場と同じ期間に並行して開催される。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "tomio-koyama-20261031-588e47",
+    "museumId": "tomio-koyama",
+    "title": "From Where the Sound of Currents Comes 音がやってくる、そのあたりに",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "elena-tutatchikova"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "エレナ・トゥタッチコワが天王洲の空間で開く展示で、流れの音が届く場所という詩的な題を掲げている。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

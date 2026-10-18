@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ota-fine-arts-20260912-0b6f39",
+    "museumId": "ota-fine-arts",
+    "title": "Sign",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-24",
+    "kind": "special",
+    "artists": [
+      "tetsuya-umeda"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "誰にも送られていない「しるし」を受け取る体験に着目し、梅田哲也が案内のないツアー形式の展示を試みる個展。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

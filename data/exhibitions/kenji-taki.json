@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kenji-taki-20260918-6e8b75",
+    "museumId": "kenji-taki",
+    "title": "Contour 輪郭",
+    "startDate": "2026-09-18",
+    "endDate": "2026-10-22",
+    "kind": "special",
+    "artists": [
+      "arika-someya"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "染谷亜里可が「輪郭」をテーマに据えた個展で、六本木ピラミデビル内のギャラリーで作品を発表します。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "kenji-taki-20260926-f11c6e",
+    "museumId": "kenji-taki",
+    "title": "二重の森",
+    "startDate": "2026-09-26",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "fukumi-sukigara"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "鋤柄ふくみの個展で、「二重の森」と題した新たな作品群を名古屋のギャラリー空間で紹介する展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]
