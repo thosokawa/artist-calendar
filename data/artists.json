@@ -100,7 +100,8 @@
   "algimantas-svegzda": {
     "name": "アルギマンタス・シュヴェグジュダ",
     "nameRomaji": "Algimantas Švėgžda",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しゅゔぇぐじゅだあるぎまんたす"
   },
   "alicja-kwade": {
     "name": "Alicja Kwade",
@@ -210,7 +211,8 @@
     "nameRomaji": "Auguste Rodin",
     "aliases": [
       "オーギュスト・ロダン"
-    ]
+    ],
+    "nameKana": "ろだんおーぎゅすと"
   },
   "austin-lee": {
     "name": "オースティン・リー",
@@ -422,7 +424,8 @@
     "nameRomaji": "Claude Monet",
     "aliases": [
       "モネ"
-    ]
+    ],
+    "nameKana": "もね"
   },
   "daido-moriyama": {
     "name": "森山大道",
@@ -961,7 +964,8 @@
   "hiraki-sawa": {
     "name": "さわひらき",
     "nameRomaji": "Hiraki Sawa",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "さわひらき"
   },
   "hiraku-suzuki": {
     "name": "鈴木ヒラク",
@@ -2115,7 +2119,9 @@
     "name": "Nao Sano",
     "nameRomaji": "Nao Sano",
     "nameKana": "さのなお",
-    "aliases": []
+    "aliases": [
+      "佐野直"
+    ]
   },
   "naojiro-harada": {
     "name": "原田直次郎",
@@ -2366,7 +2372,8 @@
     "nameRomaji": "Raoul Dufy",
     "aliases": [
       "デュフィ"
-    ]
+    ],
+    "nameKana": "でゅふぃ"
   },
   "raphael": {
     "name": "ラファエロ・サンツィオ",
@@ -2382,7 +2389,8 @@
   "rembrandt": {
     "name": "レンブラント",
     "nameRomaji": "Rembrandt",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "れんぶらんと"
   },
   "rene-magritte": {
     "name": "マグリット",
@@ -3375,7 +3383,8 @@
     "aliases": [
       "フィンセント・ファン・ゴッホ",
       "ファン・ゴッホ"
-    ]
+    ],
+    "nameKana": "ごっほ"
   },
   "viola-grasten": {
     "name": "ヴィオラ・グローステン",
