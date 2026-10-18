@@ -820,7 +820,7 @@
   },
   "acac": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
     "hash": "f40358d1a85504cb35994a578a2046ea03a05a0735f8d801d4361efdd961fe7f"
   },
   "akita-art": {
@@ -830,7 +830,7 @@
   },
   "art-tower-mito": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
     "hash": "58e967ef7963ad5e786d107fa2841bf18dbaf736812bb1c5eae7ce7333ab69b1"
   },
   "ashiya-museum": {
@@ -923,12 +923,12 @@
   },
   "miyazaki-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
-    "hash": "a99c510e22e495e5ed8d0fcc2a160bd650b8fb8b88169481a34feea23328d03c"
+    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
+    "hash": "5c57b2ecef8fdb136a4f0c60d8a82dd84ef658ab0c41d6ed863b12516fc5a187"
   },
   "momaw": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
     "hash": "9e1f8f717000ffbd8d25e6625f9687edb85e99de4473d05509b472a3303a6200"
   },
   "monet-tsumari": {
@@ -943,7 +943,7 @@
   },
   "nara-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
     "hash": "0ab3cf2df003084bed9f701727276c17ffe6335c6dff6f2ab7ef7f616d5c12ae"
   },
   "ota-artmuseum": {
@@ -993,8 +993,8 @@
   },
   "tokushima-moma": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
-    "hash": "177fd65b0af05de9b7c6ee2a21b7e93a914a1473da88e8ca7183038517e57a8a"
+    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
+    "hash": "88421aed5ae73a300d66082f1f7c562568afad18595f1eed8b20ec8911eaf464"
   },
   "watarium": {
     "failures": 0,
