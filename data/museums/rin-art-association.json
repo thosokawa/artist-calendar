@@ -10,5 +10,6 @@
   "officialUrl": "https://rinartassociation.com/",
   "exhibitionsUrl": "https://rinartassociation.com/exhibition-current",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "minText": 80
 }

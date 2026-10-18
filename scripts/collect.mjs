@@ -53,7 +53,10 @@ async function fetchWithBrowser(url) {
     // Some museum sites never go network-idle (analytics, video); give scripts a few seconds instead.
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
     await page.waitForTimeout(4000);
-    return htmlToText(await page.content());
+    let text = htmlToText(await page.content());
+    // Single-page apps (common on gallery sites) can take longer to draw their list.
+    if (text.length < MIN_TEXT) { await page.waitForTimeout(8000); text = htmlToText(await page.content()); }
+    return text;
   } catch (e) {
     // A hung page can leave the browser unusable for the next museums; start a fresh one.
     await browser.close().catch(() => {});
@@ -64,10 +67,10 @@ async function fetchWithBrowser(url) {
   }
 }
 
-async function getText(url) {
+async function getText(url, minText = MIN_TEXT) {
   try {
     const text = await fetchPlain(url);
-    if (text.length >= MIN_TEXT) return text;
+    if (text.length >= minText) return text;
   } catch {
     // fall through to the browser
   }
@@ -83,8 +86,10 @@ for (const museum of museums) {
   const st = (status[museum.id] ??= { failures: 0 });
   let text;
   try {
-    text = await getText(museum.exhibitionsUrl);
-    if (text.length < MIN_TEXT) throw new Error(`page text too short (${text.length} chars)`);
+    // minText: a venue whose list page is legitimately short (one show at a time) can set a lower bar.
+    const minText = museum.minText ?? MIN_TEXT;
+    text = await getText(museum.exhibitionsUrl, minText);
+    if (text.length < minText) throw new Error(`page text too short (${text.length} chars)`);
     // Short pages that are really error screens (moved page, bot blocking) must not count as read.
     if (text.length < 1000 && /404 Not Found|Not Found|Access Denied|Forbidden|ページが見つかりません|お探しのページ/i.test(text)) throw new Error(`error page: ${text.slice(0, 60).replace(/\s+/g, ' ')}`);
   } catch (e) {
