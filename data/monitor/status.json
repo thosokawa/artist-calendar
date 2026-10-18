@@ -820,7 +820,7 @@
   },
   "acac": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
     "hash": "f40358d1a85504cb35994a578a2046ea03a05a0735f8d801d4361efdd961fe7f"
   },
   "akita-art": {
@@ -830,8 +830,8 @@
   },
   "art-tower-mito": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
-    "hash": "fde3385a7f61f6fb3f70177cdd2c3720115e3557c0405f41c8163ae0ed1f0f4b"
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "hash": "58e967ef7963ad5e786d107fa2841bf18dbaf736812bb1c5eae7ce7333ab69b1"
   },
   "ashiya-museum": {
     "failures": 0,
@@ -839,7 +839,7 @@
     "hash": "3c8db1b3604df9114f973bc8a6ce994a6b8244442077e0ffa0896d87505ecba3"
   },
   "espace-lv-tokyo": {
-    "failures": 1,
+    "failures": 2,
     "lastError": "2026-10-18: page text too short (111 chars)"
   },
   "faam": {
@@ -883,8 +883,8 @@
     "hash": "846226918f06fbb1cd987c32986e3fb75bea1a27d70b9124c29a1dc637286e61"
   },
   "kmma": {
-    "failures": 1,
-    "lastError": "2026-10-18: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://kmma.jp/\", waiting until \"domcontentloaded\"\n"
+    "failures": 2,
+    "lastError": "2026-10-18: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://kmma.jp/exhibition/2026/\", waiting until \"domcontentloaded\"\n"
   },
   "koen-dori-gallery": {
     "failures": 0,
@@ -923,12 +923,12 @@
   },
   "miyazaki-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
     "hash": "a99c510e22e495e5ed8d0fcc2a160bd650b8fb8b88169481a34feea23328d03c"
   },
   "momaw": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
     "hash": "9e1f8f717000ffbd8d25e6625f9687edb85e99de4473d05509b472a3303a6200"
   },
   "monet-tsumari": {
@@ -943,7 +943,7 @@
   },
   "nara-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
     "hash": "0ab3cf2df003084bed9f701727276c17ffe6335c6dff6f2ab7ef7f616d5c12ae"
   },
   "ota-artmuseum": {
@@ -952,13 +952,14 @@
     "hash": "41bbcb37bbead8a49af76ab22f14661cc5ef20286c2f4ff676388f73a9a4301a"
   },
   "otani-museum": {
-    "failures": 1,
-    "lastError": "2026-10-18: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://otanimuseum.jp/\nCall log:\n  - navigating to \"https://otanimuseum.jp/\", waiting until \"domcontentloaded\"\n"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "hash": "af75ab2847da57a9cc13494f3694df2030f442b3a2ccde0e18fe41266a157cab"
   },
   "pola-annex": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
-    "hash": "a02dabbe9b39aadaa9433ac80ff6b5cdf20282136c64e7c0fe6ce11ef3f8da2b"
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "hash": "26af9e69ab2686c458f88ae42484fc19c30a1238c707157a89ca80b334e79310"
   },
   "saga-art": {
     "failures": 0,
@@ -977,7 +978,7 @@
   },
   "smt": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
     "hash": "36f3d46053a438543b5c0f6e0798daab98a11ab90738722df032f2f26351c29c"
   },
   "takamatsu-art": {
@@ -992,16 +993,18 @@
   },
   "tokushima-moma": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
     "hash": "177fd65b0af05de9b7c6ee2a21b7e93a914a1473da88e8ca7183038517e57a8a"
   },
   "watarium": {
-    "failures": 1,
-    "lastError": "2026-10-18: page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.watarium.co.jp/jp/exhibition/\nCall log:\n  - navigating to \"https://www.watarium.co.jp/jp/exhibition/\", waiting until \"domcontentloaded\"\n"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "hash": "9ff57b8e79431c0a515322dae577f7cd45c1065475a148a40e16061413894a1e"
   },
   "yamaguchi-art": {
-    "failures": 1,
-    "lastError": "2026-10-18: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yma-web.jp/exhibition/index.html\nCall log:\n  - navigating to \"https://www.yma-web.jp/exhibition/index.html\", waiting until \"domcontentloaded\"\n"
+    "failures": 0,
+    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "hash": "40345870c593056eeb92e95e4ca800827fce255fea7a89f101866215a0117146"
   },
   "ycam": {
     "failures": 0,

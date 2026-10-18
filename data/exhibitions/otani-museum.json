@@ -1,0 +1,36 @@
+[
+  {
+    "id": "otani-museum-20261031-ade0c9",
+    "museumId": "otani-museum",
+    "title": "大野麥風「魚の画家」展",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "bakufu-ono"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "没後50年を機に、魚を生き生きと描き「魚の画家」と呼ばれた大野麥風の仕事を紹介する展覧会です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "otani-museum-20270116-440e67",
+    "museumId": "otani-museum",
+    "title": "新収蔵品展",
+    "startDate": "2027-01-16",
+    "endDate": "2027-03-07",
+    "kind": "collection",
+    "artists": [
+      "tadashi-matsui"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "美術館のコレクションに新しく加わった作品を披露し、松井正の《人形》なども見られる収蔵品展です。",
+    "firstSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-10-18"
+  }
+]

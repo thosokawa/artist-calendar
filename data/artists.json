@@ -272,6 +272,12 @@
     "aliases": [],
     "nameKana": "はしもとばく"
   },
+  "bakufu-ono": {
+    "name": "大野麥風",
+    "nameRomaji": "Bakufu Ono",
+    "nameKana": "おおのばくふう",
+    "aliases": []
+  },
   "bakusen-tsuchida": {
     "name": "土田麦僊",
     "nameRomaji": "Bakusen Tsuchida",
@@ -2190,6 +2196,12 @@
     "nameKana": "おおいしなほ",
     "aliases": []
   },
+  "nam-june-paik": {
+    "name": "ナムジュン・パイク",
+    "nameRomaji": "Nam June Paik",
+    "nameKana": "ぱいくなむじゅん",
+    "aliases": []
+  },
   "nana-kuromiya": {
     "name": "黒宮 菜菜",
     "nameRomaji": "Nana Kuromiya",
@@ -3099,6 +3111,12 @@
   "tadao-takano": {
     "name": "タダオ・タカノ",
     "nameRomaji": "Tadao Takano",
+    "aliases": []
+  },
+  "tadashi-matsui": {
+    "name": "松井正",
+    "nameRomaji": "Tadashi Matsui",
+    "nameKana": "まついただし",
     "aliases": []
   },
   "tadashi-yoshii": {
