@@ -10,5 +10,11 @@
   "officialUrl": "https://www.mahokubota.com/ja/",
   "exhibitionsUrl": "https://www.mahokubota.com/ja/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/mahokubotagallery/",
+    "facebook": "https://www.facebook.com/mahokubotagallery",
+    "youtube": "https://www.youtube.com/channel/UC08vkdqYQdGrcWUgIr9xv2A"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

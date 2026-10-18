@@ -8,5 +8,12 @@
   "officialUrl": "https://panasonic.co.jp/ew/museum/",
   "exhibitionsUrl": "https://panasonic.co.jp/ew/museum/exhibition/26/index.html",
   "status": "ok",
-  "nameKana": "ぱなそにっくしおどめびじゅつかん"
+  "nameKana": "ぱなそにっくしおどめびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/shiodome.museum/",
+    "x": "https://x.com/shiodome_museum",
+    "facebook": "https://www.facebook.com/shiodome.museum",
+    "youtube": "https://www.youtube.com/channel/UCEJPT7C1eVIBMiDLTN8CHgw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

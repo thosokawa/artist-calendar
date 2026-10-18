@@ -8,5 +8,12 @@
   "officialUrl": "https://www.setagayaartmuseum.or.jp/",
   "exhibitionsUrl": "https://www.setagayaartmuseum.or.jp/",
   "status": "ok",
-  "nameKana": "せたがやびじゅつかん"
+  "nameKana": "せたがやびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/setagayaartmuseum/",
+    "x": "https://x.com/setabi_official",
+    "facebook": "https://www.facebook.com/setagayaartmuseum",
+    "youtube": "https://www.youtube.com/channel/UCwiZy6NdeVrleMxi4jAnS2Q"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

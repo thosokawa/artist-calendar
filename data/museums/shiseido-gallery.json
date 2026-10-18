@@ -10,5 +10,10 @@
   "officialUrl": "https://gallery.shiseido.com/jp/",
   "exhibitionsUrl": "https://gallery.shiseido.com/jp/exhibition/schedule/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/shiseidogallery/",
+    "x": "https://x.com/ShiseidoGallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

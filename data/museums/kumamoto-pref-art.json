@@ -8,5 +8,11 @@
   "officialUrl": "https://www.pref.kumamoto.jp/site/museum/",
   "exhibitionsUrl": "https://www.pref.kumamoto.jp/site/museum/list62-334.html",
   "status": "ok",
-  "nameKana": "くまもとけんりつびじゅつかん"
+  "nameKana": "くまもとけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/kumamoto_museum/",
+    "x": "https://x.com/kumamoto_kenbi",
+    "youtube": "https://www.youtube.com/channel/UCYbzp1TxBpjzhV99OdNzeGg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

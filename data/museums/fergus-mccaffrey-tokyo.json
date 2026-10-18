@@ -10,5 +10,12 @@
   "officialUrl": "https://fergusmccaffrey.com/",
   "exhibitionsUrl": "https://fergusmccaffrey.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/fergusmccaffrey/",
+    "x": "https://x.com/fergusmccaffrey",
+    "facebook": "https://www.facebook.com/FergusMcCaffreyGallery",
+    "youtube": "https://www.youtube.com/user/mccaffreygallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -8,5 +8,11 @@
   "officialUrl": "https://www.okayama-kenbi.info/",
   "exhibitionsUrl": "https://www.okayama-kenbi.info/next-exh2026/",
   "status": "ok",
-  "nameKana": "おかやまけんりつびじゅつかん"
+  "nameKana": "おかやまけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/okayama_kenbi/",
+    "x": "https://x.com/okayama_kenbi",
+    "facebook": "https://www.facebook.com/okayama.kenbi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

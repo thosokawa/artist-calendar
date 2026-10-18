@@ -10,5 +10,10 @@
   "officialUrl": "https://www.mugallery-tokyo.com/",
   "exhibitionsUrl": "https://www.mugallery-tokyo.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/mu_gallery_tokyo/",
+    "facebook": "https://www.facebook.com/MU-Gallery-TOKYO-100407898855099"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

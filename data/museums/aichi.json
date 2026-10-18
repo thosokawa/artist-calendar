@@ -8,5 +8,10 @@
   "officialUrl": "https://apmoa.museum/",
   "exhibitionsUrl": "https://apmoa.museum/exhibition",
   "status": "ok",
-  "nameKana": "あいちけんびじゅつかん"
+  "nameKana": "あいちけんびじゅつかん",
+  "sns": {
+    "x": "https://x.com/apmoa",
+    "youtube": "https://www.youtube.com/@%E6%84%9B%E7%9F%A5%E7%9C%8C%E7%BE%8E%E8%A1%93%E9%A4%A8-b3e"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

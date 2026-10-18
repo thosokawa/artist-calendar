@@ -8,5 +8,13 @@
   "officialUrl": "https://www.operacity.jp/ag/",
   "exhibitionsUrl": "https://www.operacity.jp/ag/",
   "status": "ok",
-  "nameKana": "とうきょうおぺらしてぃあーとぎゃらりー"
+  "nameKana": "とうきょうおぺらしてぃあーとぎゃらりー",
+  "sns": {
+    "instagram": "https://www.instagram.com/operacity_ag/",
+    "x": "https://x.com/toc_artgallery",
+    "facebook": "https://www.facebook.com/tocag",
+    "youtube": "https://www.youtube.com/channel/UCUy6Za6X8BboFW878QT156g",
+    "tiktok": "https://www.tiktok.com/@operacity_ag"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

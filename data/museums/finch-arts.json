@@ -10,5 +10,11 @@
   "officialUrl": "https://www.finch.link/",
   "exhibitionsUrl": "https://www.finch.link/exhibition",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/finch_arts_/",
+    "x": "https://x.com/finch_arts",
+    "facebook": "https://www.facebook.com/finchartskyoto"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

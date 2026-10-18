@@ -8,5 +8,11 @@
   "officialUrl": "https://www.momak.go.jp/",
   "exhibitionsUrl": "https://www.momak.go.jp/Japanese/exhibitionArchive/",
   "status": "ok",
-  "nameKana": "きょうとこくりつきんだいびじゅつかん"
+  "nameKana": "きょうとこくりつきんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/momakyoto/",
+    "facebook": "https://www.facebook.com/momak.go.jp",
+    "youtube": "https://www.youtube.com/@momakyoto"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

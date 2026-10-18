@@ -8,5 +8,12 @@
   "officialUrl": "https://www.ueno-mori.org/",
   "exhibitionsUrl": "https://www.ueno-mori.org/exhibitions/",
   "status": "ok",
-  "nameKana": "うえののもりびじゅつかん"
+  "nameKana": "うえののもりびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/uenomorimuseum/",
+    "x": "https://x.com/UenoMoriMuseum",
+    "facebook": "https://www.facebook.com/uenomori",
+    "youtube": "https://www.youtube.com/channel/UCoE144t5dy6QWMKtZReGcxw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

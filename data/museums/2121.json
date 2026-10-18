@@ -7,5 +7,11 @@
   "area": "kanto",
   "officialUrl": "https://www.2121designsight.jp/",
   "exhibitionsUrl": "https://www.2121designsight.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/2121designsight/",
+    "x": "https://x.com/2121DESIGNSIGHT",
+    "facebook": "https://www.facebook.com/2121DESIGNSIGHT"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

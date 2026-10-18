@@ -8,5 +8,10 @@
   "officialUrl": "https://www.museum.toyota.aichi.jp/",
   "exhibitionsUrl": "https://www.museum.toyota.aichi.jp/",
   "status": "ok",
-  "nameKana": "とよたしびじゅつかん"
+  "nameKana": "とよたしびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/toyota_municipal_museum_of_art/",
+    "x": "https://x.com/toyotashibi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

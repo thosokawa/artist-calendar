@@ -8,5 +8,12 @@
   "officialUrl": "https://www.teien-art-museum.ne.jp/",
   "exhibitionsUrl": "https://www.teien-art-museum.ne.jp/exhibition/",
   "status": "ok",
-  "nameKana": "とうきょうとていえんびじゅつかん"
+  "nameKana": "とうきょうとていえんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/teienartmuseum/",
+    "x": "https://x.com/teienartmuseum",
+    "facebook": "https://www.facebook.com/tokyoteienartmuseum",
+    "youtube": "https://www.youtube.com/channel/UCpKehfnNUmDI0zUzv-NMUxg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

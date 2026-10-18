@@ -10,5 +10,10 @@
   "officialUrl": "https://kenjitaki.com/",
   "exhibitionsUrl": "https://kenjitaki.com/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kenjitakigallery/",
+    "x": "https://x.com/kenjitakig"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,10 @@
   "officialUrl": "https://www.pacegallery.com/galleries/tokyo/",
   "exhibitionsUrl": "https://www.pacegallery.com/galleries/tokyo/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/pacegallery/",
+    "youtube": "https://www.youtube.com/channel/UCaHuA8TlLkcWpGPsNA7tuTw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,12 @@
   "officialUrl": "https://www.tomiokoyamagallery.com/",
   "exhibitionsUrl": "https://www.tomiokoyamagallery.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/tomiokoyamagallery/",
+    "x": "https://x.com/tomiokoyama",
+    "facebook": "https://www.facebook.com/pages/%25E5%25B0%258F%25E5%25B1%25B1%25E7%2599%25BB%25E7%25BE%258E%25E5%25A4%25AB%25E3%2582%25AE%25E3%2583%25A3%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%25BC/448139658607274",
+    "youtube": "https://www.youtube.com/channel/UCuOJrOChJ7zSK9bsaouN2_Q"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

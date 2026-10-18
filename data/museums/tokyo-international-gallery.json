@@ -10,5 +10,10 @@
   "officialUrl": "https://tokyointernationalgallery.co.jp/ja/",
   "exhibitionsUrl": "https://tokyointernationalgallery.co.jp/ja/exhibition",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/tig_official_jp/",
+    "facebook": "https://www.facebook.com/Tokyointernationalgallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

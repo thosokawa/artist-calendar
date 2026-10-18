@@ -8,5 +8,9 @@
   "officialUrl": "https://www.city.fuchu.tokyo.jp/art/",
   "exhibitionsUrl": "https://www.city.fuchu.tokyo.jp/art/tenrankai/schedule/index.html",
   "status": "ok",
-  "nameKana": "ふちゅうしびじゅつかん"
+  "nameKana": "ふちゅうしびじゅつかん",
+  "sns": {
+    "x": "https://x.com/FuchuArtMuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

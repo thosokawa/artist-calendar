@@ -10,5 +10,9 @@
   "officialUrl": "https://gallerykoyanagi.com/",
   "exhibitionsUrl": "https://gallerykoyanagi.com/jp/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/gallerykoyanagi/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

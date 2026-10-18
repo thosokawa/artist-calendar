@@ -10,5 +10,11 @@
   "officialUrl": "https://www.mujin-to.com/",
   "exhibitionsUrl": "https://www.mujin-to.com/exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/mujintoproduction/",
+    "x": "https://x.com/mujipro",
+    "facebook": "https://www.facebook.com/mujinto"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,10 @@
   "officialUrl": "https://mtkcontemporaryart.com/",
   "exhibitionsUrl": "https://mtkcontemporaryart.com/exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/mtkcontemporaryart/",
+    "facebook": "https://www.facebook.com/mtkcontemporaryart"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

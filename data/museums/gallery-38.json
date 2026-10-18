@@ -10,5 +10,10 @@
   "officialUrl": "https://www.gallery-38.com/",
   "exhibitionsUrl": "https://www.gallery-38.com/current-exhibition",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/gallery_38/",
+    "facebook": "https://www.facebook.com/Gallery38-359243834574788"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

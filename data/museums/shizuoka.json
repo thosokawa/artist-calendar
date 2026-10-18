@@ -8,5 +8,12 @@
   "officialUrl": "https://spmoa.shizuoka.shizuoka.jp/",
   "exhibitionsUrl": "https://spmoa.shizuoka.shizuoka.jp/exhibition/",
   "status": "ok",
-  "nameKana": "しずおかけんりつびじゅつかん"
+  "nameKana": "しずおかけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/shizuokakenbi/",
+    "x": "https://x.com/shizuokakenbi",
+    "facebook": "https://www.facebook.com/shizuokakenbi",
+    "youtube": "https://www.youtube.com/channel/UCAVIEdJpbyu-Ab62JUakGqg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -8,5 +8,11 @@
   "officialUrl": "https://www.shimane-art-museum.jp/",
   "exhibitionsUrl": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
   "status": "ok",
-  "nameKana": "しまねけんりつびじゅつかん"
+  "nameKana": "しまねけんりつびじゅつかん",
+  "sns": {
+    "x": "https://x.com/shimanekenbi",
+    "facebook": "https://www.facebook.com/shimane.art.museum",
+    "youtube": "https://www.youtube.com/channel/UCoVRt_ZslrVmDBbW7OBkYwA"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

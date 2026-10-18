@@ -10,5 +10,11 @@
   "officialUrl": "https://www.g-monma.com/",
   "exhibitionsUrl": "https://www.g-monma.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/gallery_monma/",
+    "x": "https://x.com/gallery_monma",
+    "facebook": "https://www.facebook.com/keiko.oi.3"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

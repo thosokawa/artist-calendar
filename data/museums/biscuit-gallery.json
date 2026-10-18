@@ -10,5 +10,10 @@
   "officialUrl": "https://biscuitgallery.com/",
   "exhibitionsUrl": "https://biscuitgallery.com/exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/biscuit_gallery/",
+    "x": "https://x.com/biscuitgallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

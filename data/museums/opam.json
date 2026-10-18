@@ -8,5 +8,12 @@
   "officialUrl": "https://www.opam.jp/",
   "exhibitionsUrl": "https://www.opam.jp/exhibitions",
   "status": "ok",
-  "nameKana": "おおいたけんりつびじゅつかん"
+  "nameKana": "おおいたけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/opamjp/",
+    "x": "https://x.com/OPAM_OPAM",
+    "facebook": "https://www.facebook.com/opamoita",
+    "youtube": "https://www.youtube.com/channel/UChJcPKJqVC3UGtHJrxt5ZiA"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

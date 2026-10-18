@@ -8,5 +8,12 @@
   "officialUrl": "https://nagano.art.museum/",
   "exhibitionsUrl": "https://nagano.art.museum/exhibition/future",
   "status": "ok",
-  "nameKana": "ながのけんりつびじゅつかん"
+  "nameKana": "ながのけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/naganoartmuseum/",
+    "x": "https://x.com/naganoartmuseum",
+    "facebook": "https://www.facebook.com/npsam.kaii",
+    "youtube": "https://www.youtube.com/channel/UCHF1TiZJvesoJqKs_q0sLoQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

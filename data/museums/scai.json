@@ -10,5 +10,10 @@
   "officialUrl": "https://www.scaithebathhouse.com/ja/",
   "exhibitionsUrl": "https://www.scaithebathhouse.com/ja/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/scaithebathhouse/",
+    "x": "https://x.com/scai_bathhouse"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

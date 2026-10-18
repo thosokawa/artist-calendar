@@ -8,5 +8,12 @@
   "officialUrl": "https://www.yamatane-museum.jp/",
   "exhibitionsUrl": "https://www.yamatane-museum.jp/exhibitions/schedule.html",
   "status": "ok",
-  "nameKana": "やまたねびじゅつかん"
+  "nameKana": "やまたねびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/yamatane_museum/",
+    "x": "https://x.com/yamatanemuseum",
+    "facebook": "https://www.facebook.com/yamatanemuseum",
+    "youtube": "https://www.youtube.com/user/yamatanemuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

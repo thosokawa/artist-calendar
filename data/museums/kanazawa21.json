@@ -8,5 +8,13 @@
   "officialUrl": "https://www.kanazawa21.jp/",
   "exhibitionsUrl": "https://www.kanazawa21.jp/exhibition/",
   "status": "ok",
-  "nameKana": "かなざわにじゅういっせいきびじゅつかん"
+  "nameKana": "かなざわにじゅういっせいきびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/21_kanazawa/",
+    "x": "https://x.com/Kanazawa_21",
+    "facebook": "https://www.facebook.com/kanazawa21",
+    "youtube": "https://www.youtube.com/channel/UCUK_3Or4NF5sd1DlpoYOtcA",
+    "threads": "https://www.threads.com/@21_kanazawa"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

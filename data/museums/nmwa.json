@@ -8,5 +8,12 @@
   "officialUrl": "https://www.nmwa.go.jp/jp/index.html",
   "exhibitionsUrl": "https://www.nmwa.go.jp/jp/exhibitions/upcoming.html",
   "status": "ok",
-  "nameKana": "こくりつせいようびじゅつかん"
+  "nameKana": "こくりつせいようびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/nmwatokyo/",
+    "x": "https://x.com/NMWATokyo",
+    "facebook": "https://www.facebook.com/NationalMuseumofWesternArt",
+    "youtube": "https://www.youtube.com/channel/UCFtBgJ1ArMLvcpQeT2vNupQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

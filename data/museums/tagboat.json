@@ -10,5 +10,12 @@
   "officialUrl": "https://www.tagboat.com/",
   "exhibitionsUrl": "https://www.tagboat.com/artevent/art_freezone/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/gallerytagboat/",
+    "x": "https://x.com/tagboatgallery",
+    "facebook": "https://www.facebook.com/tagboat01",
+    "youtube": "https://www.youtube.com/channel/UChvtkuquHziggR1FrhP-Itg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

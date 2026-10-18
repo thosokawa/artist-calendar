@@ -10,5 +10,11 @@
   "officialUrl": "https://www.kayokoyuki.com/",
   "exhibitionsUrl": "https://www.kayokoyuki.com/jp/exhibition.php",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kayokoyukigallery/",
+    "x": "https://x.com/KAYOKO_Y_UKI",
+    "facebook": "https://www.facebook.com/pages/KAYOKOYUKI/361429830551946"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

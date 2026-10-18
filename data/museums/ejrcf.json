@@ -8,5 +8,10 @@
   "officialUrl": "https://www.ejrcf.or.jp/gallery/",
   "exhibitionsUrl": "https://www.ejrcf.or.jp/gallery/",
   "status": "ok",
-  "nameKana": "とうきょうすてーしょんぎゃらりー"
+  "nameKana": "とうきょうすてーしょんぎゃらりー",
+  "sns": {
+    "instagram": "https://www.instagram.com/tokyostationgallery/",
+    "facebook": "https://www.facebook.com/tokyostationgallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

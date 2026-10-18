@@ -10,5 +10,10 @@
   "officialUrl": "https://www.makigallery.com/ja/",
   "exhibitionsUrl": "https://www.makigallery.com/ja/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/maki_gallery_tokyo/",
+    "facebook": "https://www.facebook.com/makigallerytokyo"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

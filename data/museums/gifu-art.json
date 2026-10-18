@@ -8,5 +8,12 @@
   "officialUrl": "https://kenbi.pref.gifu.lg.jp/",
   "exhibitionsUrl": "https://kenbi.pref.gifu.lg.jp/exhibition/",
   "status": "ok",
-  "nameKana": "ぎふけんびじゅつかん"
+  "nameKana": "ぎふけんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/gifukenbi/",
+    "x": "https://x.com/gifukenbi",
+    "facebook": "https://www.facebook.com/gifukenbi.jp",
+    "youtube": "https://www.youtube.com/channel/UCu2kfyXEgg-JyeGTQlajf_w"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

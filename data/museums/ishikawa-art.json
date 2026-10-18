@@ -8,5 +8,10 @@
   "officialUrl": "https://www.ishibi.pref.ishikawa.jp/",
   "exhibitionsUrl": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
   "status": "ok",
-  "nameKana": "いしかわけんりつびじゅつかん"
+  "nameKana": "いしかわけんりつびじゅつかん",
+  "sns": {
+    "x": "https://x.com/ishikawa_premus",
+    "facebook": "https://www.facebook.com/ishikawa.artmuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

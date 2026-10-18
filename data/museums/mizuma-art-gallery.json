@@ -10,5 +10,11 @@
   "officialUrl": "https://mizuma-art.co.jp/",
   "exhibitionsUrl": "https://mizuma-art.co.jp/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/mizumaartgallery/",
+    "x": "https://x.com/MizumaGallery",
+    "youtube": "https://www.youtube.com/channel/UCjRFR0KBzXInb6eyuVNispg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

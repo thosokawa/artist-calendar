@@ -8,5 +8,11 @@
   "officialUrl": "https://www.artsmaebashi.jp/",
   "exhibitionsUrl": "https://artsmaebashi.jp/exhibition/schedule/",
   "status": "ok",
-  "nameKana": "あーつまえばし"
+  "nameKana": "あーつまえばし",
+  "sns": {
+    "instagram": "https://www.instagram.com/arts_maebashi/",
+    "x": "https://x.com/ArtsMaebashi",
+    "youtube": "https://www.youtube.com/channel/UCRbyhOaw4Q51MsN8nEK-qKA"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

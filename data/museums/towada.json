@@ -8,5 +8,12 @@
   "officialUrl": "https://towadaartcenter.com/",
   "exhibitionsUrl": "https://towadaartcenter.com/exhibitions/",
   "status": "ok",
-  "nameKana": "とわだしげんだいびじゅつかん"
+  "nameKana": "とわだしげんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/towadaartcenter/",
+    "x": "https://x.com/artstowada",
+    "facebook": "https://www.facebook.com/artstowada",
+    "youtube": "https://www.youtube.com/channel/UCqgi-S9hzU11GuEZ1gaipZw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

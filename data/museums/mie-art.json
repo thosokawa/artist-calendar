@@ -8,5 +8,9 @@
   "officialUrl": "https://www.bunka.pref.mie.lg.jp/art-museum/",
   "exhibitionsUrl": "https://www.bunka.pref.mie.lg.jp/art-museum/54798037874.htm",
   "status": "ok",
-  "nameKana": "みえけんりつびじゅつかん"
+  "nameKana": "みえけんりつびじゅつかん",
+  "sns": {
+    "x": "https://x.com/mie_kenbi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

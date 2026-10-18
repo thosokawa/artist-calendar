@@ -10,5 +10,10 @@
   "officialUrl": "https://kotaronukaga.com/",
   "exhibitionsUrl": "https://kotaronukaga.com/exhibition",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kotaro_nukaga/",
+    "facebook": "https://www.facebook.com/kotaronukaga.tennoz"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -8,5 +8,11 @@
   "officialUrl": "https://www.nagasaki-museum.jp/",
   "exhibitionsUrl": "https://www.nagasaki-museum.jp/exhibition/future-exhibition",
   "status": "ok",
-  "nameKana": "ながさきけんびじゅつかん"
+  "nameKana": "ながさきけんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/nagasaki_museum/",
+    "x": "https://x.com/nagasaki_museum",
+    "youtube": "https://www.youtube.com/user/NPAMvideos"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

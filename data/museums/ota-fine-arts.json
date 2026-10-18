@@ -10,5 +10,11 @@
   "officialUrl": "https://www.otafinearts.com/ja/about/tokyo/",
   "exhibitionsUrl": "https://www.otafinearts.com/exhibitions/location/1/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/otafinearts/",
+    "x": "https://x.com/OtaFineArts",
+    "facebook": "https://www.facebook.com/OtaFineArts"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

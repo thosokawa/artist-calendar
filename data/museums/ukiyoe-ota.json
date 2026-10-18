@@ -8,5 +8,10 @@
   "officialUrl": "https://www.ukiyoe-ota-muse.jp/",
   "exhibitionsUrl": "https://www.ukiyoe-ota-muse.jp/exhibition/schedule",
   "status": "ok",
-  "nameKana": "おおたきねんびじゅつかん"
+  "nameKana": "おおたきねんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/ota_memorial_museum/",
+    "x": "https://x.com/ukiyoeota"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,11 @@
   "officialUrl": "https://www.misashin.com/",
   "exhibitionsUrl": "https://www.misashin.com/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/misa_shin_gallery/",
+    "x": "https://x.com/MisaShinGallery",
+    "facebook": "https://www.facebook.com/Misa-Shin-Gallery-143558585691467"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

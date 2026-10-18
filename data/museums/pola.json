@@ -8,5 +8,12 @@
   "officialUrl": "https://www.polamuseum.or.jp/",
   "exhibitionsUrl": "https://www.polamuseum.or.jp/exhibition/",
   "status": "ok",
-  "nameKana": "ぽーらびじゅつかん"
+  "nameKana": "ぽーらびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/polamuseumofart/",
+    "x": "https://x.com/polamuseumofart",
+    "facebook": "https://www.facebook.com/polamuseumofart",
+    "youtube": "https://www.youtube.com/user/polamuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

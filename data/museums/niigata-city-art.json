@@ -8,5 +8,10 @@
   "officialUrl": "https://www.ncam.jp/",
   "exhibitionsUrl": "https://www.ncam.jp/exhibition/?type=plan",
   "status": "ok",
-  "nameKana": "にいがたしびじゅつかん"
+  "nameKana": "にいがたしびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/ncam_official/",
+    "facebook": "https://www.facebook.com/ncam.tsunagaru"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

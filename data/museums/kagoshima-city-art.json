@@ -8,5 +8,10 @@
   "officialUrl": "https://www.city.kagoshima.lg.jp/artmuseum/",
   "exhibitionsUrl": "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-schedule.html",
   "status": "ok",
-  "nameKana": "かごしましりつびじゅつかん"
+  "nameKana": "かごしましりつびじゅつかん",
+  "sns": {
+    "x": "https://x.com/kcmoa",
+    "facebook": "https://www.facebook.com/kcmoart"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

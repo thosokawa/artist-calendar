@@ -8,5 +8,12 @@
   "officialUrl": "https://tad-toyama.jp/",
   "exhibitionsUrl": "https://tad-toyama.jp/",
   "status": "ok",
-  "nameKana": "とやまけんびじゅつかん"
+  "nameKana": "とやまけんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/tad_toyamakenbi/",
+    "x": "https://x.com/toyamakenbii",
+    "facebook": "https://www.facebook.com/tad.toyama",
+    "youtube": "https://www.youtube.com/user/toyamakinbi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

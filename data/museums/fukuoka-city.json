@@ -8,5 +8,12 @@
   "officialUrl": "https://www.fukuoka-art-museum.jp/",
   "exhibitionsUrl": "https://www.fukuoka-art-museum.jp/exhibition/",
   "status": "ok",
-  "nameKana": "ふくおかしびじゅつかん"
+  "nameKana": "ふくおかしびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/fukuokaartmuseum/",
+    "x": "https://x.com/fukuoka_fam",
+    "facebook": "https://www.facebook.com/fukuokaartmuseum",
+    "youtube": "https://www.youtube.com/channel/UCWtJRlwzxOiySv0fYLK7drQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

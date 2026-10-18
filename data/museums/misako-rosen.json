@@ -10,5 +10,9 @@
   "officialUrl": "https://misakoandrosen.jp/",
   "exhibitionsUrl": "https://misakoandrosen.jp/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/misakoandrosen/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

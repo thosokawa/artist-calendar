@@ -10,5 +10,11 @@
   "officialUrl": "https://www.yodgallery.com/",
   "exhibitionsUrl": "https://www.yodgallery.com/current-exhibition-tennoz",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/yodgallery/",
+    "x": "https://x.com/yod_gallery",
+    "facebook": "https://www.facebook.com/pages/category/Art-Gallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

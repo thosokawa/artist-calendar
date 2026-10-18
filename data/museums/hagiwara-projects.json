@@ -10,5 +10,11 @@
   "officialUrl": "https://www.hagiwaraprojects.com/",
   "exhibitionsUrl": "https://www.hagiwaraprojects.com/exhibitions",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/hagiwara_projects/",
+    "x": "https://x.com/hagiwara_proj",
+    "facebook": "https://www.facebook.com/hagiwaraprojects"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

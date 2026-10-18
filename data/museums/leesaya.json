@@ -10,5 +10,9 @@
   "officialUrl": "https://leesaya.jp/",
   "exhibitionsUrl": "https://leesaya.jp/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/leesayagallery/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

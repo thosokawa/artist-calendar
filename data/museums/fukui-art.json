@@ -8,5 +8,12 @@
   "officialUrl": "https://fukui-kenbi.pref.fukui.lg.jp/",
   "exhibitionsUrl": "https://fukui-kenbi.pref.fukui.lg.jp/",
   "status": "ok",
-  "nameKana": "ふくいけんりつびじゅつかん"
+  "nameKana": "ふくいけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/fukuifineartsmuseum/",
+    "x": "https://x.com/fukui_arts",
+    "facebook": "https://www.facebook.com/fukui.arts",
+    "youtube": "https://www.youtube.com/@fukuifineartsmuseum656"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

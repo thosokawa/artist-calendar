@@ -11,5 +11,10 @@
   "exhibitionsUrl": "https://www.gallerycommon.com/ja/exhibitions",
   "era": "contemporary",
   "status": "ok",
-  "minText": 80
+  "minText": 80,
+  "sns": {
+    "instagram": "https://www.instagram.com/gallerycommon/",
+    "youtube": "https://www.youtube.com/channel/UCPvXt8VKSIRVfoFfpm5KxAw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

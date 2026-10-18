@@ -8,5 +8,10 @@
   "officialUrl": "https://www.aham.jp/",
   "exhibitionsUrl": "https://www.aham.jp/exhibition/future/",
   "status": "ok",
-  "nameKana": "あべのはるかすびじゅつかん"
+  "nameKana": "あべのはるかすびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/abeno_harukas_art_museum/",
+    "x": "https://x.com/harukas_museum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

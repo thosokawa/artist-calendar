@@ -8,5 +8,11 @@
   "officialUrl": "https://art-museum.fcs.ed.jp/",
   "exhibitionsUrl": "https://art-museum.fcs.ed.jp/exhibition/schedule",
   "status": "ok",
-  "nameKana": "ふくしまけんりつびじゅつかん"
+  "nameKana": "ふくしまけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/fukushima_kenbi/",
+    "x": "https://x.com/fukushima_kenbi",
+    "youtube": "https://www.youtube.com/channel/UCQI6PA85ZFCubNYAm8G-_4Q"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

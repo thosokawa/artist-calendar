@@ -8,5 +8,12 @@
   "officialUrl": "https://pref.spec.ed.jp/momas/",
   "exhibitionsUrl": "https://pref.spec.ed.jp/momas/%E4%BC%81%E7%94%BB%E5%B1%95",
   "status": "ok",
-  "nameKana": "さいたまけんりつきんだいびじゅつかん"
+  "nameKana": "さいたまけんりつきんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/momas_museum_art_saitama/",
+    "x": "https://x.com/momas_kouhou",
+    "facebook": "https://www.facebook.com/momaspr",
+    "youtube": "https://www.youtube.com/user/momasjp"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

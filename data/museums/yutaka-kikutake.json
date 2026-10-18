@@ -10,5 +10,9 @@
   "officialUrl": "https://www.yutakakikutakegallery.com/ja/",
   "exhibitionsUrl": "https://www.yutakakikutakegallery.com/ja/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/yutakakikutakegallery/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

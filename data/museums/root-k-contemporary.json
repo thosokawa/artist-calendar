@@ -10,5 +10,11 @@
   "officialUrl": "https://root-k.jp/",
   "exhibitionsUrl": "https://root-k.jp/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/rk_contemporary/",
+    "x": "https://x.com/rk_contemporary",
+    "facebook": "https://www.facebook.com/rootkcontemporary"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

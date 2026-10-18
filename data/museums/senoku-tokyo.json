@@ -8,5 +8,11 @@
   "officialUrl": "https://sen-oku.or.jp/tokyo/",
   "exhibitionsUrl": "https://sen-oku.or.jp/tokyo/",
   "status": "ok",
-  "nameKana": "せんおくはくこかんとうきょう"
+  "nameKana": "せんおくはくこかんとうきょう",
+  "sns": {
+    "instagram": "https://www.instagram.com/senokuhakukokanmuseum_tokyo/",
+    "x": "https://x.com/SenOkuTokyo",
+    "facebook": "https://www.facebook.com/SenOkuHakukoKanTokyo"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

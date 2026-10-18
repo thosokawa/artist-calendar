@@ -8,5 +8,12 @@
   "officialUrl": "https://www.artizon.museum/",
   "exhibitionsUrl": "https://www.artizon.museum/exhibition/",
   "status": "ok",
-  "nameKana": "あーてぃぞんびじゅつかん"
+  "nameKana": "あーてぃぞんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/artizonmuseum/",
+    "x": "https://x.com/artizonmuseumJP",
+    "facebook": "https://www.facebook.com/artizonmuseum",
+    "youtube": "https://www.youtube.com/channel/UCjqIjcSv8wDXxw92mxgWcZg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

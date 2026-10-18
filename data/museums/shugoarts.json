@@ -10,5 +10,12 @@
   "officialUrl": "https://shugoarts.com/",
   "exhibitionsUrl": "https://shugoarts.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/shugoarts/",
+    "x": "https://x.com/ShugoArts",
+    "facebook": "https://www.facebook.com/shugoarts",
+    "youtube": "https://www.youtube.com/channel/UCPJLOkGVZbo-c6Hl40gWwWQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,11 @@
   "officialUrl": "https://thethirdgalleryaya.com/",
   "exhibitionsUrl": "https://thethirdgalleryaya.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/thethirdgalleryaya/",
+    "x": "https://x.com/thirdgalleryaya",
+    "facebook": "https://www.facebook.com/thethirdgalleryaya"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

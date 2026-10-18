@@ -10,5 +10,9 @@
   "officialUrl": "https://www.takaishiigallery.com/jp/",
   "exhibitionsUrl": "https://www.takaishiigallery.com/jp/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/takaishiigallery/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,11 @@
   "officialUrl": "https://tsca.jp/ja/",
   "exhibitionsUrl": "https://tsca.jp/ja/exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/tsca_tokyo/",
+    "x": "https://x.com/TSCATokyo",
+    "facebook": "https://www.facebook.com/TSCATokyo"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

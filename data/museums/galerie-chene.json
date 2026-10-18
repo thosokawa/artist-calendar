@@ -10,5 +10,10 @@
   "officialUrl": "https://www.galeriechene.com/jp/index.html",
   "exhibitionsUrl": "https://www.galeriechene.com/jp/exhibitions/index.html",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/galerie_chene_tokyo/",
+    "x": "https://x.com/GalerieChene"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

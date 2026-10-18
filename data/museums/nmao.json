@@ -8,5 +8,12 @@
   "officialUrl": "https://www.nmao.go.jp/",
   "exhibitionsUrl": "https://www.nmao.go.jp/exhibition/current_exhibition/",
   "status": "ok",
-  "nameKana": "こくりつこくさいびじゅつかん"
+  "nameKana": "こくりつこくさいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/nmaojp/",
+    "x": "https://x.com/nmaoJP",
+    "facebook": "https://www.facebook.com/nmaoJP",
+    "youtube": "https://www.youtube.com/channel/UCmox3PPjarAXuRQNh4jcxkg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -8,5 +8,12 @@
   "officialUrl": "https://www.yokosuka-moa.jp/",
   "exhibitionsUrl": "https://www.yokosuka-moa.jp/exhibition/index.html",
   "status": "ok",
-  "nameKana": "よこすかびじゅつかん"
+  "nameKana": "よこすかびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/yokosuka_moa/",
+    "x": "https://x.com/yokosuka_moa",
+    "facebook": "https://www.facebook.com/yokosukamoa",
+    "youtube": "https://www.youtube.com/channel/UC_QU5GbS13PzNVyvdnoNSGQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

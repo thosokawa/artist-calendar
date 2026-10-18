@@ -8,5 +8,11 @@
   "officialUrl": "https://kinbi.pref.niigata.lg.jp/",
   "exhibitionsUrl": "https://kinbi.pref.niigata.lg.jp/",
   "status": "ok",
-  "nameKana": "にいがたけんりつきんだいびじゅつかん"
+  "nameKana": "にいがたけんりつきんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/niigata_kinbi/",
+    "x": "https://x.com/niigata_kinbi",
+    "youtube": "https://www.youtube.com/channel/UC-h8xr-zTjzRpiDNphgs9aw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

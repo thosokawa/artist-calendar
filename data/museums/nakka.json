@@ -8,5 +8,13 @@
   "officialUrl": "https://nakka-art.jp/",
   "exhibitionsUrl": "https://nakka-art.jp/exhibition/date-held/",
   "status": "ok",
-  "nameKana": "おおさかなかのしまびじゅつかん"
+  "nameKana": "おおさかなかのしまびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/nakkaart2022/",
+    "x": "https://x.com/nakkaart2022",
+    "facebook": "https://www.facebook.com/nakkaart2022",
+    "youtube": "https://www.youtube.com/channel/UCXxdDYp_oBhbqHgEfA6FCxg",
+    "tiktok": "https://www.tiktok.com/@nakkaart2022"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

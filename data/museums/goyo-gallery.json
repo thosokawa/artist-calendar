@@ -10,5 +10,9 @@
   "officialUrl": "https://goyogallery.jp/",
   "exhibitionsUrl": "https://goyogallery.jp/exhibitions-and-fairs/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/goyo_gallery/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

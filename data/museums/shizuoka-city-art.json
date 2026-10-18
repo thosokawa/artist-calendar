@@ -8,5 +8,10 @@
   "officialUrl": "https://shizubi.jp/",
   "exhibitionsUrl": "https://shizubi.jp/exhibition/",
   "status": "ok",
-  "nameKana": "しずおかしびじゅつかん"
+  "nameKana": "しずおかしびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/shizubi_jp/",
+    "x": "https://x.com/shizubi_jp"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -8,5 +8,9 @@
   "officialUrl": "https://artpark.or.jp/",
   "exhibitionsUrl": "https://artpark.or.jp/tenrankai-events/?event-type=shusaijigyo&tenrankai-events-kaisaijiki=all&tenrankai-event-category=all",
   "status": "ok",
-  "nameKana": "さっぽろげいじゅつのもりびじゅつかん"
+  "nameKana": "さっぽろげいじゅつのもりびじゅつかん",
+  "sns": {
+    "facebook": "https://www.facebook.com/sapporoartpark"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

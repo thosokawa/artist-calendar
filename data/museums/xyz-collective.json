@@ -10,5 +10,10 @@
   "officialUrl": "https://xyzcollective.jp/",
   "exhibitionsUrl": "https://xyzcollective.jp/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/xyzcollective/",
+    "facebook": "https://www.facebook.com/XYZcollective"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

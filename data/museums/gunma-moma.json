@@ -8,5 +8,12 @@
   "officialUrl": "https://www.mmag.pref.gunma.jp/",
   "exhibitionsUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
   "status": "ok",
-  "nameKana": "ぐんまけんりつきんだいびじゅつかん"
+  "nameKana": "ぐんまけんりつきんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/gunmakinbi/",
+    "x": "https://x.com/gunmakinbi",
+    "facebook": "https://www.facebook.com/gunmakinbi",
+    "youtube": "https://www.youtube.com/c/tsulunos"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

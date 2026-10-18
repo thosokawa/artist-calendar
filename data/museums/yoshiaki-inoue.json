@@ -10,5 +10,9 @@
   "officialUrl": "https://gallery-inoue.com/",
   "exhibitionsUrl": "https://gallery-inoue.com/category/extibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "facebook": "https://www.facebook.com/Yoshiaki-Inoue-Gallery-210098195798294"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

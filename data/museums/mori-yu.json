@@ -10,5 +10,9 @@
   "officialUrl": "https://lolipop-moriyu-gallery.ssl-lolipop.jp/index.html?l=jp",
   "exhibitionsUrl": "https://lolipop-moriyu-gallery.ssl-lolipop.jp/exhibition/past.html?l=jp",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "facebook": "https://www.facebook.com/pages/Mori-Yu-Gallery/119694118115832"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

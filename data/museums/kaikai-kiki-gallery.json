@@ -10,5 +10,9 @@
   "officialUrl": "https://gallery-kaikaikiki.com/",
   "exhibitionsUrl": "https://gallery-kaikaikiki.com/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/stereotype30th/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

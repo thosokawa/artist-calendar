@@ -8,5 +8,12 @@
   "officialUrl": "https://yokohama.art.museum/",
   "exhibitionsUrl": "https://yokohama.art.museum/exhibition/",
   "status": "ok",
-  "nameKana": "よこはまびじゅつかん"
+  "nameKana": "よこはまびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/yokohama_museum_of_art/",
+    "x": "https://x.com/yokobi_tweet",
+    "facebook": "https://www.facebook.com/%E6%A8%AA%E6%B5%9C%E7%BE%8E%E8%A1%93%E9%A4%A8-Yokohama-Museum-of-Art-801985136583587",
+    "youtube": "https://www.youtube.com/channel/UCoRtPKmYJ7m2lSsmkNAJ__Q"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

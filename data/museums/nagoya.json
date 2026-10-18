@@ -8,5 +8,9 @@
   "officialUrl": "https://art-museum.city.nagoya.jp/",
   "exhibitionsUrl": "https://www.art-museum.city.nagoya.jp/exhibitions",
   "status": "ok",
-  "nameKana": "なごやしびじゅつかん"
+  "nameKana": "なごやしびじゅつかん",
+  "sns": {
+    "x": "https://x.com/ncam_Nagoya"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

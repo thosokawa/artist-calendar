@@ -8,5 +8,11 @@
   "officialUrl": "https://kyotocity-kyocera.museum/",
   "exhibitionsUrl": "https://kyotocity-kyocera.museum/exhibition",
   "status": "ok",
-  "nameKana": "きょうとしきょうせらびじゅつかん"
+  "nameKana": "きょうとしきょうせらびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/kyotocitykyoceramuseum/",
+    "facebook": "https://www.facebook.com/kyotocitykyoceramuseum",
+    "youtube": "https://www.youtube.com/channel/UCfG5yfSKWCf50zszbFQdaFA"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

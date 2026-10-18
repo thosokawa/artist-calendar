@@ -8,5 +8,12 @@
   "officialUrl": "https://www.bunpaku.or.jp/",
   "exhibitionsUrl": "https://www.bunpaku.or.jp/exhi_special/",
   "status": "ok",
-  "nameKana": "きょうとぶんかはくぶつかん"
+  "nameKana": "きょうとぶんかはくぶつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/the_museum_of_kyoto/",
+    "x": "https://x.com/kyoto_bunpaku",
+    "facebook": "https://www.facebook.com/%E4%BA%AC%E9%83%BD%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A4%A8-The-Museum-of-KYOTO-1525079637814163",
+    "youtube": "https://www.youtube.com/channel/UCrj37fZcGydk8SyFw3BpK1A"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

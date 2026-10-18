@@ -8,5 +8,12 @@
   "officialUrl": "https://www.tobikan.jp/",
   "exhibitionsUrl": "https://www.tobikan.jp/exhibition/index.html",
   "status": "ok",
-  "nameKana": "とうきょうとびじゅつかん"
+  "nameKana": "とうきょうとびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/tokyometropolitanartmuseum/",
+    "x": "https://x.com/tobikan_jp",
+    "facebook": "https://www.facebook.com/TokyoMetropolitanArtMuseum",
+    "youtube": "https://www.youtube.com/@tokyometropolitanartmuseum7280"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

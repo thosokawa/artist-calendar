@@ -10,5 +10,11 @@
   "officialUrl": "https://eukaryote.jp/",
   "exhibitionsUrl": "https://eukaryote.jp/exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/_eukaryote_/",
+    "x": "https://x.com/_eukaryote_",
+    "facebook": "https://www.facebook.com/eukaryote.gallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

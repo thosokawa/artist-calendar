@@ -8,5 +8,12 @@
   "officialUrl": "https://okimu.jp/",
   "exhibitionsUrl": "https://okimu.jp/schedule2026/",
   "status": "ok",
-  "nameKana": "おきなわけんりつはくぶつかんびじゅつかん"
+  "nameKana": "おきなわけんりつはくぶつかんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/okinawamuseum.artmuseum/",
+    "x": "https://x.com/OkiMu_chan",
+    "facebook": "https://www.facebook.com/OkinawaMuseumArtMuseum",
+    "youtube": "https://www.youtube.com/channel/UCizQl2WVPZCxEy3u69xQjwQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

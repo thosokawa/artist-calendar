@@ -10,5 +10,11 @@
   "officialUrl": "https://waitingroom.jp/",
   "exhibitionsUrl": "https://waitingroom.jp/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/waitingroom_gallery/",
+    "x": "https://x.com/waitingroom_",
+    "facebook": "https://www.facebook.com/waitingroomgallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

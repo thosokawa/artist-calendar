@@ -8,5 +8,10 @@
   "officialUrl": "https://u-moa.jp/",
   "exhibitionsUrl": "https://u-moa.jp/exhibition/schedule.html",
   "status": "ok",
-  "nameKana": "うつのみやびじゅつかん"
+  "nameKana": "うつのみやびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/utsunomiya_moa/",
+    "x": "https://x.com/utsunomiya_moa"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

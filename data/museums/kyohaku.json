@@ -8,5 +8,11 @@
   "officialUrl": "https://www.kyohaku.go.jp/",
   "exhibitionsUrl": "https://www.kyohaku.go.jp/jp/exhibitions/",
   "status": "ok",
-  "nameKana": "きょうとこくりつはくぶつかん"
+  "nameKana": "きょうとこくりつはくぶつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/kyotonatmuseum/",
+    "x": "https://x.com/KyotoNatMuseum",
+    "youtube": "https://www.youtube.com/c/KyotoNationalMuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

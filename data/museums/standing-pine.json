@@ -10,5 +10,11 @@
   "officialUrl": "https://standingpine.jp/",
   "exhibitionsUrl": "https://standingpine.jp/exhibitions",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/standing_pine/",
+    "x": "https://x.com/standing_pine",
+    "facebook": "https://www.facebook.com/STANDING-PINE-103654039805197"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

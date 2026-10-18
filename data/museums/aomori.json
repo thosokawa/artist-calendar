@@ -8,5 +8,12 @@
   "officialUrl": "https://www.aomori-museum.jp/",
   "exhibitionsUrl": "https://www.aomori-museum.jp/schedule/",
   "status": "ok",
-  "nameKana": "あおもりけんりつびじゅつかん"
+  "nameKana": "あおもりけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/aomorikenbi/",
+    "x": "https://x.com/aomorikenbi",
+    "facebook": "https://www.facebook.com/aomori.museum",
+    "youtube": "https://www.youtube.com/user/aomorikenbi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

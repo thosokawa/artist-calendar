@@ -8,5 +8,14 @@
   "officialUrl": "https://www.mori.art.museum/jp/",
   "exhibitionsUrl": "https://www.mori.art.museum/jp/exhibitions/index.html",
   "status": "ok",
-  "nameKana": "もりびじゅつかん"
+  "nameKana": "もりびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/moriartmuseum/",
+    "x": "https://x.com/mori_art_museum",
+    "facebook": "https://www.facebook.com/MoriArtMuseum",
+    "youtube": "https://www.youtube.com/user/moriartmuseum",
+    "tiktok": "https://www.tiktok.com/@moriartmuseum",
+    "threads": "https://www.threads.com/@moriartmuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

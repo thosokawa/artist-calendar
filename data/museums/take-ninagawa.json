@@ -10,5 +10,11 @@
   "officialUrl": "https://www.takeninagawa.com/",
   "exhibitionsUrl": "https://www.takeninagawa.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/takeninagawa/",
+    "x": "https://x.com/TakeNinagawa",
+    "facebook": "https://www.facebook.com/Take-Ninagawa-135596339850474"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -8,5 +8,12 @@
   "officialUrl": "https://www.modernart.museum.ibk.ed.jp/",
   "exhibitionsUrl": "https://www.modernart.museum.ibk.ed.jp/viewer/genre.html?id=2",
   "status": "ok",
-  "nameKana": "いばらきけんきんだいびじゅつかん"
+  "nameKana": "いばらきけんきんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/ibarakikinbi/",
+    "x": "https://x.com/ibarakikinbi",
+    "facebook": "https://www.facebook.com/moma.ibaraki",
+    "youtube": "https://www.youtube.com/channel/UCLB8_WjkoSCTeNycv8Hk2gw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

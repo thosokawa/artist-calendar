@@ -10,5 +10,10 @@
   "officialUrl": "https://www.taliongallery.com/",
   "exhibitionsUrl": "https://www.taliongallery.com/jp/current/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "x": "https://x.com/TALION_GALLERY",
+    "facebook": "https://www.facebook.com/taliongallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

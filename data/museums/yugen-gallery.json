@@ -10,5 +10,11 @@
   "officialUrl": "https://yugen-gallery.com/",
   "exhibitionsUrl": "https://yugen-gallery.com/blogs/exhibitions",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/yugengallery.jp/",
+    "x": "https://x.com/yugengallery_jp",
+    "facebook": "https://www.facebook.com/yugengallery.jp"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

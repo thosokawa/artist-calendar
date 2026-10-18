@@ -8,5 +8,11 @@
   "officialUrl": "https://topmuseum.jp/",
   "exhibitionsUrl": "https://topmuseum.jp/contents/current/index.html",
   "status": "ok",
-  "nameKana": "とうきょうとしゃしんびじゅつかん"
+  "nameKana": "とうきょうとしゃしんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/topmuseum/",
+    "x": "https://x.com/topmuseum",
+    "youtube": "https://www.youtube.com/channel/UCpU5Bu05yquLTbBCdZ3pdmg"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

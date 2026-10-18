@@ -8,5 +8,10 @@
   "officialUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/",
   "exhibitionsUrl": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/",
   "status": "ok",
-  "nameKana": "ほっかいどうりつきんだいびじゅつかん"
+  "nameKana": "ほっかいどうりつきんだいびじゅつかん",
+  "sns": {
+    "x": "https://x.com/dokinbi",
+    "facebook": "https://www.facebook.com/dokinbi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

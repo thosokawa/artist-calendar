@@ -8,5 +8,12 @@
   "officialUrl": "https://www.artm.pref.hyogo.jp/",
   "exhibitionsUrl": "https://www.artm.pref.hyogo.jp/exhibition/",
   "status": "ok",
-  "nameKana": "ひょうごけんりつびじゅつかん"
+  "nameKana": "ひょうごけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/hyogo_pref_museum_of_art/",
+    "x": "https://x.com/hyogoartm",
+    "facebook": "https://www.facebook.com/artm.pref.hyogo",
+    "youtube": "https://www.youtube.com/channel/UCR2VagFqUf1UtaBB46tfeVQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

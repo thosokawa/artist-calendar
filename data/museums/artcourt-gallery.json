@@ -10,5 +10,11 @@
   "officialUrl": "https://www.artcourtgallery.com/",
   "exhibitionsUrl": "https://www.artcourtgallery.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/artcourtgallery/",
+    "facebook": "https://www.facebook.com/ARTCOURTGALLERY",
+    "youtube": "https://www.youtube.com/channel/UC8i_2pMdaytL2Dq4DZRix3w"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

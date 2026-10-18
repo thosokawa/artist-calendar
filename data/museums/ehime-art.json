@@ -8,5 +8,12 @@
   "officialUrl": "https://www.ehime-art.jp/",
   "exhibitionsUrl": "https://www.ehime-art.jp/exhibitions",
   "status": "ok",
-  "nameKana": "えひめけんびじゅつかん"
+  "nameKana": "えひめけんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/themuseumofartehime/",
+    "x": "https://x.com/ehime_art_Mus",
+    "facebook": "https://www.facebook.com/ehimeart",
+    "youtube": "https://www.youtube.com/channel/UC4YS5iLMz0lXydko4CUqk6g"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

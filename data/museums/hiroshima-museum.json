@@ -8,5 +8,12 @@
   "officialUrl": "https://www.hiroshima-museum.jp/",
   "exhibitionsUrl": "https://www.hiroshima-museum.jp/special/index.html",
   "status": "ok",
-  "nameKana": "ひろしまびじゅつかん"
+  "nameKana": "ひろしまびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/hiroshimamuseumofart/",
+    "x": "https://x.com/HiroshimaMuseum",
+    "facebook": "https://www.facebook.com/hiroshimamuseumofart",
+    "youtube": "https://www.youtube.com/channel/UCrDS-yz7QYyyDWlG_8PcKtw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

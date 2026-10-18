@@ -10,5 +10,10 @@
   "officialUrl": "https://anomalytokyo.com/top/",
   "exhibitionsUrl": "https://anomalytokyo.com/current-exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/anomaly_tokyo/",
+    "facebook": "https://www.facebook.com/anomalytokyo"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

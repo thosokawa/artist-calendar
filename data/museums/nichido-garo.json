@@ -10,5 +10,11 @@
   "officialUrl": "https://www.nichido-garo.co.jp/",
   "exhibitionsUrl": "https://www.nichido-garo.co.jp/exhibition/01/",
   "era": "modern",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/galerienichido/",
+    "x": "https://x.com/GNichido",
+    "facebook": "https://www.facebook.com/gallerynichido"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

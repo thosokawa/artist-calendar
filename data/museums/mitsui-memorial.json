@@ -8,5 +8,12 @@
   "officialUrl": "https://www.mitsui-museum.jp/",
   "exhibitionsUrl": "https://www.mitsui-museum.jp/exhibition/schedule.html",
   "status": "ok",
-  "nameKana": "みついきねんびじゅつかん"
+  "nameKana": "みついきねんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/mitsui_memorial_museum_/",
+    "x": "https://x.com/mitsui_m_museum",
+    "facebook": "https://www.facebook.com/MitsuiMemorialMuseum.official",
+    "youtube": "https://www.youtube.com/@mitsui.museum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

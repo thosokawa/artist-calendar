@@ -8,5 +8,12 @@
   "officialUrl": "https://www.hiroshima-moca.jp/",
   "exhibitionsUrl": "https://www.hiroshima-moca.jp/exhibition/",
   "status": "ok",
-  "nameKana": "ひろしましげんだいびじゅつかん"
+  "nameKana": "ひろしましげんだいびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/hiroshima_moca/",
+    "x": "https://x.com/hiroshimamoca",
+    "facebook": "https://www.facebook.com/hiroshimamoca",
+    "youtube": "https://www.youtube.com/user/hiroshimamoca"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

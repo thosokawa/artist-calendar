@@ -10,5 +10,9 @@
   "officialUrl": "https://www.contokyo.com/",
   "exhibitionsUrl": "https://www.contokyo.com/exhibition/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/con_tokyo_/"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,11 @@
   "officialUrl": "https://www.imuraart.com/",
   "exhibitionsUrl": "https://www.imuraart.com/exhibition/current.html",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/imuraartgallery/",
+    "x": "https://x.com/imuraartgallery",
+    "facebook": "https://www.facebook.com/tokyo.imuraartgallery"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

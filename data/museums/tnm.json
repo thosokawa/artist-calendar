@@ -8,5 +8,12 @@
   "officialUrl": "https://www.tnm.jp/",
   "exhibitionsUrl": "https://www.tnm.jp/modules/r_exhibition/index.php?cid=1&controller=ctg",
   "status": "ok",
-  "nameKana": "とうきょうこくりつはくぶつかん"
+  "nameKana": "とうきょうこくりつはくぶつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/tnm_pr/",
+    "x": "https://x.com/TNM_PR",
+    "facebook": "https://www.facebook.com/TokyoNationalMuseum",
+    "youtube": "https://www.youtube.com/user/TokyoNationalMuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

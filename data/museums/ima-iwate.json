@@ -8,5 +8,10 @@
   "officialUrl": "https://www.ima.or.jp/",
   "exhibitionsUrl": "https://www.ima.or.jp/exhibition/temporary/",
   "status": "ok",
-  "nameKana": "いわてけんりつびじゅつかん"
+  "nameKana": "いわてけんりつびじゅつかん",
+  "sns": {
+    "x": "https://x.com/IMA_info",
+    "facebook": "https://www.facebook.com/iwatemuseumofart.jp"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

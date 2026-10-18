@@ -8,5 +8,11 @@
   "officialUrl": "https://www.hpam.jp/museum/",
   "exhibitionsUrl": "https://www.hpam.jp/museum/exhibitions/index.html",
   "status": "ok",
-  "nameKana": "ひろしまけんりつびじゅつかん"
+  "nameKana": "ひろしまけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/hiroshima_pref_art_museum/",
+    "x": "https://x.com/H_pref",
+    "facebook": "https://www.facebook.com/HiroshimaPrefecturalArtMuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

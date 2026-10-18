@@ -10,5 +10,10 @@
   "officialUrl": "https://www.tokyo-gallery.com/",
   "exhibitionsUrl": "https://www.tokyo-gallery.com/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/tokyogallery_btap/",
+    "facebook": "https://www.facebook.com/home.php"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

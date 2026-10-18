@@ -8,5 +8,11 @@
   "officialUrl": "https://mimt.jp/",
   "exhibitionsUrl": "https://mimt.jp/exhibition/",
   "status": "ok",
-  "nameKana": "みつびしいちごうかんびじゅつかん"
+  "nameKana": "みつびしいちごうかんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/mitsubishi_ichigokan_museum/",
+    "x": "https://x.com/ichigokan_PR",
+    "youtube": "https://www.youtube.com/@%E4%B8%89%E8%8F%B1%E4%B8%80%E5%8F%B7%E9%A4%A8%E7%BE%8E%E8%A1%93%E9%A4%A8%E5%85%AC%E5%BC%8F"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

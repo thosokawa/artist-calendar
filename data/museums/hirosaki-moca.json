@@ -8,5 +8,12 @@
   "officialUrl": "https://www.hirosaki-moca.jp/",
   "exhibitionsUrl": "https://www.hirosaki-moca.jp/exhibitions/",
   "status": "ok",
-  "nameKana": "ひろさきれんがそうこびじゅつかん"
+  "nameKana": "ひろさきれんがそうこびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/hirosaki_moca/",
+    "x": "https://x.com/hirosaki_moca",
+    "facebook": "https://www.facebook.com/hirosaki.moca",
+    "youtube": "https://www.youtube.com/channel/UCNWXMgDtiCjE_w9pWiY5CgQ"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

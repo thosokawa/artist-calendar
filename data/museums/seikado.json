@@ -8,5 +8,11 @@
   "officialUrl": "https://www.seikado.or.jp/",
   "exhibitionsUrl": "https://www.seikado.or.jp/",
   "status": "ok",
-  "nameKana": "せいかどうぶんこびじゅつかん"
+  "nameKana": "せいかどうぶんこびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/seikado_bunko_artmuseum/",
+    "x": "https://x.com/seikadomuseum",
+    "facebook": "https://www.facebook.com/seikadomuseum"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,12 @@
   "officialUrl": "https://www.tezukayama-g.com/",
   "exhibitionsUrl": "https://www.tezukayama-g.com/exhibitions/status/current",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/tezukayama_g/",
+    "x": "https://x.com/tezukayama_g",
+    "facebook": "https://www.facebook.com/TezukayamaGallery",
+    "youtube": "https://www.youtube.com/user/TEZUKAYAMAGALLERY"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

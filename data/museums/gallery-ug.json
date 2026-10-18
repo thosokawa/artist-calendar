@@ -10,5 +10,11 @@
   "officialUrl": "https://gallery-ug.com/ja/",
   "exhibitionsUrl": "https://gallery-ug.com/exhibitions",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/galleryug/",
+    "x": "https://x.com/galleryug",
+    "facebook": "https://www.facebook.com/galleryugtokyo"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

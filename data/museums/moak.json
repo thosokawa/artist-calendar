@@ -8,5 +8,12 @@
   "officialUrl": "https://moak.jp/",
   "exhibitionsUrl": "https://moak.jp/event/exhibitions/",
   "status": "ok",
-  "nameKana": "こうちけんりつびじゅつかん"
+  "nameKana": "こうちけんりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/themuseumofartkochi/",
+    "x": "https://x.com/ARTMUSEUM_Kochi",
+    "facebook": "https://www.facebook.com/kochimuseum",
+    "youtube": "https://www.youtube.com/c/%E9%AB%98%E7%9F%A5%E7%9C%8C%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8themuseumofartkochi"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

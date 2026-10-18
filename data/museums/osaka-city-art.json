@@ -8,5 +8,11 @@
   "officialUrl": "https://www.osaka-art-museum.jp/",
   "exhibitionsUrl": "https://www.osaka-art-museum.jp/special_exhibition",
   "status": "ok",
-  "nameKana": "おおさかしりつびじゅつかん"
+  "nameKana": "おおさかしりつびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/ocmfa_since1936/",
+    "x": "https://x.com/ocmfa_since1936",
+    "youtube": "https://www.youtube.com/channel/UCwavvoD1PqL3kshkwNOuIoA"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

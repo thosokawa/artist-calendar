@@ -8,5 +8,10 @@
   "officialUrl": "https://www.city.kawagoe.saitama.jp/artmuseum/",
   "exhibitionsUrl": "https://www.city.kawagoe.saitama.jp/artmuseum/",
   "status": "ok",
-  "nameKana": "かわごえしりつびじゅつかん"
+  "nameKana": "かわごえしりつびじゅつかん",
+  "sns": {
+    "x": "https://x.com/kawagoe_art_m",
+    "facebook": "https://www.facebook.com/kawagoe.art.m"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

@@ -10,5 +10,11 @@
   "officialUrl": "https://makifinearts.com/",
   "exhibitionsUrl": "https://makifinearts.com/exhibitions",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/makifinearts/",
+    "x": "https://x.com/makifinearts",
+    "facebook": "https://www.facebook.com/MakiFineArts"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

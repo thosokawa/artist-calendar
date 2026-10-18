@@ -8,5 +8,12 @@
   "officialUrl": "https://www.sompo-museum.org/",
   "exhibitionsUrl": "https://www.sompo-museum.org/exhibitions/",
   "status": "ok",
-  "nameKana": "そんぽびじゅつかん"
+  "nameKana": "そんぽびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/sompo_museum/",
+    "x": "https://x.com/sompomuseum",
+    "facebook": "https://www.facebook.com/profile.php?id=100069645757611",
+    "youtube": "https://www.youtube.com/channel/UCktb3hHwo4WOYfk6w2zz0bw"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

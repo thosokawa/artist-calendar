@@ -10,5 +10,11 @@
   "officialUrl": "https://www.aisho.art/",
   "exhibitionsUrl": "https://www.aisho.art/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/aishomiura/",
+    "facebook": "https://www.facebook.com/aishonanzuka.hk",
+    "youtube": "https://www.youtube.com/@AISHO_art"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

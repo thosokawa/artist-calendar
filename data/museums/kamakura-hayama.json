@@ -8,5 +8,9 @@
   "officialUrl": "https://www.moma.pref.kanagawa.jp/",
   "exhibitionsUrl": "https://www.moma.pref.kanagawa.jp/exhibition/",
   "status": "ok",
-  "nameKana": "かながわけんりつきんだいびじゅつかん"
+  "nameKana": "かながわけんりつきんだいびじゅつかん",
+  "sns": {
+    "x": "https://x.com/kanagawamoma"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

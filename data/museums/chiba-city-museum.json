@@ -8,5 +8,11 @@
   "officialUrl": "https://www.ccma-net.jp/",
   "exhibitionsUrl": "https://www.ccma-net.jp/exhibitions/",
   "status": "ok",
-  "nameKana": "ちばしびじゅつかん"
+  "nameKana": "ちばしびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/ccma_jp/",
+    "x": "https://x.com/ccma_jp",
+    "youtube": "https://www.youtube.com/@ChibaCityMuseumofArt"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

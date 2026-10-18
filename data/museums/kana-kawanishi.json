@@ -10,5 +10,11 @@
   "officialUrl": "https://www.kanakawanishi.com/",
   "exhibitionsUrl": "https://www.kanakawanishi.com/exhibitions",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kanakawanishigallery/",
+    "x": "https://x.com/kanakawanishi",
+    "facebook": "https://www.facebook.com/KANAKAWANISHIARTOFFICE"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

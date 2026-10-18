@@ -8,5 +8,12 @@
   "officialUrl": "https://www.nact.jp/",
   "exhibitionsUrl": "https://www.nact.jp/exhibition_and_event/",
   "status": "ok",
-  "nameKana": "こくりつしんびじゅつかん"
+  "nameKana": "こくりつしんびじゅつかん",
+  "sns": {
+    "instagram": "https://www.instagram.com/thenationalartcentertokyo/",
+    "x": "https://x.com/nact_pr",
+    "facebook": "https://www.facebook.com/nact.jp",
+    "youtube": "https://www.youtube.com/@nactpr"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

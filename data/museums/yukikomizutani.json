@@ -10,5 +10,10 @@
   "officialUrl": "https://yukikomizutani.com/japanese/",
   "exhibitionsUrl": "https://yukikomizutani.com/japanese/exhibitions/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/yukiko.mizutani/",
+    "facebook": "https://www.facebook.com/yukiko.mizutani.7564"
+  },
+  "snsCheckedAt": "2026-10-18"
 }

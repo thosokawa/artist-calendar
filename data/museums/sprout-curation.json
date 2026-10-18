@@ -10,5 +10,10 @@
   "officialUrl": "https://sprout-curation.com/",
   "exhibitionsUrl": "https://sprout-curation.com/",
   "era": "contemporary",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/sprout_curation/",
+    "facebook": "https://www.facebook.com/Sprout-Curation-463634527038303"
+  },
+  "snsCheckedAt": "2026-10-18"
 }
