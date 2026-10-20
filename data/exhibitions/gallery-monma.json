@@ -9,10 +9,30 @@
     "artists": [
       "yoko-segawa"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "瀬川葉子がギャラリー門馬で開く個展で、光と色をテーマに掲げた作品世界を秋の会期に紹介します。",
+    "summary": "瀬川葉子が「光と色がふりそそぐ」をテーマに作品を紹介する個展で、10月後半の約2週間開かれます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-19"
+  },
+  {
+    "id": "gallery-monma-20261106-56ccc4",
+    "museumId": "gallery-monma",
+    "title": "クスミエリカ個展「一日の花を摘む」",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "erika-kusumi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "ギャラリー所属作家クスミエリカが「一日の花を摘む」と題して新たな作品を発表する、晩秋の個展です。",
+    "firstSeenAt": "2026-10-19",
+    "lastSeenAt": "2026-10-19"
   }
 ]

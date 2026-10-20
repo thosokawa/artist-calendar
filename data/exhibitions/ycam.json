@@ -1,8 +1,26 @@
 [
   {
+    "id": "ycam-20260724-65b867",
+    "museumId": "ycam",
+    "title": "Yamaguchi Seasonal 2026／坂本龍一＋YCAM Forest Symphony",
+    "startDate": "2026-07-24",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "ryuichi-sakamoto"
+    ],
+    "genres": [
+      "メディアアート"
+    ],
+    "detailUrl": null,
+    "summary": "坂本龍一とYCAMの協働による作品を紹介する、季節企画Yamaguchi Seasonalの一環として開かれる展示です。",
+    "firstSeenAt": "2026-10-19",
+    "lastSeenAt": "2026-10-19"
+  },
+  {
     "id": "ycam-20261017-e7881a",
     "museumId": "ycam",
-    "title": "即興！",
+    "title": "大友良英＋YCAM新作展 即興！",
     "startDate": "2026-10-17",
     "endDate": "2027-03-01",
     "kind": "special",
@@ -10,12 +28,11 @@
       "yoshihide-otomo"
     ],
     "genres": [
-      "メディアアート",
-      "現代美術"
+      "メディアアート"
     ],
     "detailUrl": null,
-    "summary": "音楽家の大友良英とYCAMが共同で制作した新作を通して、即興という営みのあり方を多角的に体感できる展覧会。",
+    "summary": "音楽家の大友良英とYCAMが共同で制作した新作を通じて、即興という表現のあり方を探る展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-19"
   }
 ]

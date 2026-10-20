@@ -655,6 +655,12 @@
     "nameRomaji": "Eric Carle",
     "aliases": []
   },
+  "erika-kusumi": {
+    "name": "クスミエリカ",
+    "nameRomaji": "Erika Kusumi",
+    "nameKana": "くすみえりか",
+    "aliases": []
+  },
   "estrid-ericson": {
     "name": "エストリッド・エーリクソン",
     "nameRomaji": "Estrid Ericson",
@@ -1208,7 +1214,8 @@
     "nameRomaji": "J. M. W. Turner",
     "aliases": [
       "ターナー"
-    ]
+    ],
+    "nameKana": "たーなー"
   },
   "jakkawan-nilthamrong": {
     "name": "ジャッカワーン・ニンタムロン",
@@ -2735,6 +2742,12 @@
     "nameRomaji": "Ryosuke Shiomi",
     "aliases": [],
     "nameKana": "しおみりょうすけ"
+  },
+  "ryuichi-sakamoto": {
+    "name": "坂本龍一",
+    "nameRomaji": "Ryuichi Sakamoto",
+    "nameKana": "さかもとりゅういち",
+    "aliases": []
   },
   "ryushi-kawabata": {
     "name": "川端龍子",

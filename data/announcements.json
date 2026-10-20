@@ -16,5 +16,21 @@
     "exhibitionId": "gunma-moma-20260919-84737d",
     "museumId": "gunma-moma",
     "artists": []
+  },
+  {
+    "date": "2026-10-19",
+    "exhibitionId": "gallery-monma-20261106-56ccc4",
+    "museumId": "gallery-monma",
+    "artists": [
+      "erika-kusumi"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "exhibitionId": "ycam-20260724-65b867",
+    "museumId": "ycam",
+    "artists": [
+      "ryuichi-sakamoto"
+    ]
   }
 ]

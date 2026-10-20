@@ -2,7 +2,7 @@
   {
     "id": "galerie-miyawaki-20261010-32505f",
     "museumId": "galerie-miyawaki",
-    "title": "Tomoko Konoike Medicine Infrastructure",
+    "title": "鴻池朋子 メディシン・インフラ",
     "startDate": "2026-10-10",
     "endDate": "2026-11-15",
     "kind": "special",
@@ -12,9 +12,9 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
-    "summary": "鴻池朋子が「メディシン・インフラ」と題して開く個展で、近年の作品や活動をギャルリー宮脇の空間で紹介する。",
+    "detailUrl": "https://www.galerie-miyawaki.com/index.html",
+    "summary": "京都で初めてとなる鴻池朋子の作品展で、画廊ビル全体を使い新作の着物や刺繍、ドローイングなどを紹介する。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-19"
   }
 ]

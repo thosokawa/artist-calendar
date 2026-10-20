@@ -1,960 +1,960 @@
 {
   "2121": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e24765c25ae4f1bdb2ccf5db5fca540c22f43f8440924e731ff4949c3e3fab86"
   },
   "4649": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3122f3da33294f1a903206e96c6d0c3f1c3357297393974144a7e5cca492e85f"
   },
   "aichi": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "5a0bf3a49f0b35a31ca877d61ef8f1711f3e2c86cd16fbaffefd2a30f1bcc380"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "34a919a44127f1dccf92ce7e455e1d5ccc5a1dd155748d3916972244bf950625"
   },
   "aomori": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "bd18c2c893fe4a9065ee062825df3444b0a25f33594b54837ad19490c5157305"
   },
   "artizon": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2e98c797c8aa9bad7ef747e94c928e8e776b97715bd7bc92c931c571aa46a9c2"
   },
   "artm-hyogo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "49b7ec5c788bb9360fa00eea973565b44aaa048d53aca72f451906289d79fa78"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "4f8b0077015dbd232ab1e3a7bf5a4479d2256bfde3bc137a384b5681b39a603f"
   },
   "crafts-momat": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "85f47a833750a6750c595756b9f09f5e7a908067a7d59aa29980da7ebf8383f6"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "378fcf5a2b29c6a98b2469762707c326d1ef10a6ddaca0223d9774fa0972008d"
   },
   "ejrcf": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "806d5cb65ac4a3608a9fb06b4503ce9cda6e0bab2cd44d5e08d5535e95153aa6"
   },
   "fukuoka-city": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "517613812d218008a3b9603e83103608aaa1cab87b1173b400c917b750b08c27"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "98669521e0c32e4b119078a2a4faa122483ef9dfec6d37ea2d95712182987892"
   },
   "hiroshima-moca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "2d6047378abe421736e3a2a6cc0ed1dc6d3542f03b7247b98b068759f125addc"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "ae2d61f9a51b6cad57cefc659130d69d13a422eef0914104d334c6e0760469ba"
   },
   "hokkaido-modern": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c5dc20cc5c8d0fadddcd4a5d14391553ec5ac299ac00a7bceb2c6d6a16eac9c6"
   },
   "kamakura-hayama": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2e53ebf942804869563e12c245d0828df30facfb59129c6985a42f25a5c3bdf1"
   },
   "kanazawa21": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "73d29ee761d71bcfbd7473a20106db740cfcc3097d536a60ea4876c754f4c246"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "d4630697a561c34202b13628d90013498edb20a45ed30158dd6a2db2eaced58f"
   },
   "kyohaku": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "ff2a4d0e12928abb5e1fdad1a4a745bf044159adae999328c2aee5c6138edff9"
   },
   "kyotocity-kyocera": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "4d3c81b8a21919041cd26e8a9b0889e0c9ad8ac25cb487845d54f93ba160cedd"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "8d4b937089cc242a86edebf6812b082c7ef582fd401b4cbbb620aaec664ceee4"
   },
   "mimt": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d17e5d58d76065bc25067352eb1f1220d16fe69d25c4ab220082bd2fed06674a"
   },
   "momak": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "7ce25e4ccf0e6dfa3307116250d7803e15659f1a1e1d0ffd83bb725f4816c182"
   },
   "momas": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "fbbfd9ec8c4ac874f8932a42600846f20596211b0849a7b8e6156bef173a57e4"
   },
   "momat": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "fe74f6c5b2b23a5e1c790a9a42c67863510736b403890b0d2ff4cd31af7f7ae7"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "6ef62683d421bf1db75329fab4b75c52e4399abbefd632ec04b3aab273aea2af"
   },
   "mori": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "627901a9e9d5711786158e537379977ae6267357e17d32b51465af2039416681"
   },
   "mot": {
-    "failures": 4,
+    "failures": 5,
     "lastCheckedAt": "2026-10-17T02:22:34.215Z",
     "hash": "166c2302f2830e9ebb5965fe752ad474eef53449cadfa141fd910e3bd12c2a35",
-    "lastError": "2026-10-18: error page: 404 Not Found | 東京都現代美術館｜MUSEUM OF CONTEMPORARY ART TOKYO 本文"
+    "lastError": "2026-10-19: error page: 404 Not Found | 東京都現代美術館｜MUSEUM OF CONTEMPORARY ART TOKYO 本文"
   },
   "nact": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "feef4e767dfc62330f3785074ac059de24efbfdc726f6e8b0ff90d15882c1a7b"
   },
   "nagoya": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "96bbd751c63725b4aa76cef50dbfd7a45f5b44f293534efadf55887f778dfe33"
   },
   "nakka": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e5a200536e722d5c8ca460837161ce450f529511870e81603306a21528ac8a50"
   },
   "nezu": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e1a9d5d2c6fd8990820290874771cd308b608289b76c76e727c690791c5f8904"
   },
   "nmao": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "8853d4fc33bf1a2eee69ea21bef2ef55092315e1fbeda02971a0b27e082c0ee7"
   },
   "nmwa": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "4fa06ea555917c9a1004402e5c3fb095c3436ce26fc8a88a3e8b4e5e2ffc7e81"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "5d9d80da6880c78e65f85f1157f49ed58ac2b6b8bd408cfd3617ffb4b8a9deae"
   },
   "operacity": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "0745a89a63de492d876ef229fe2ddc02b42a2fa52056385462edd872934aadd2"
   },
   "panasonic-shiodome": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "39869c79bfc4dd7a0a34b1f989aee869695e2ecbcc8a5413650e5267879521aa"
   },
   "pola": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "9937a29193568de12e7b405807a5a6939b3a9de5939d228c231c8de18a3b1046"
   },
   "setagaya": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "029159645a0ff427343caf7e833e6cc10b14990ca1e4bedc69aff924a27ca587"
   },
   "shizuoka": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d590b9ef703d58f1df5111d96d809f729a984399e8f49f45bb5f314cff78327d"
   },
   "sompo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "de305675d1d57f17a5503c93ead3a21a63ec3f30efc2810c9ecc835df2e44d34"
   },
   "suntory": {
-    "failures": 4,
+    "failures": 5,
     "lastCheckedAt": "2026-10-17T02:08:02.712Z",
     "hash": "944a719cd72a99296f8c7fac1b94e971c8f5a7d3e50d6d316990a13e4409d73c",
-    "lastError": "2026-10-18: error page: Access Denied Access Denied You don't have permission to acc"
+    "lastError": "2026-10-19: error page: Access Denied Access Denied You don't have permission to acc"
   },
   "teien": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "952e363468d760a0da5b477d135b00bf190b10e889abcfd57e00aaf0d199f6de"
   },
   "tnm": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "690c62141e4a2c56a3e9e0bbee9a9a78ce660ce9385280789e1c25404ec0e0fb"
   },
   "tobikan": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4b94d2972006f8b9ccf2ad04337a86c08e5689385742f370e4a1fc13e9078a75"
   },
   "topmuseum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "7808ad5be5b3bec3355e5f1bbef5d6a3b25162bb1a6648743f01c633a32e9596"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "24ef8c6ac816fe6f6c46f7a3db3ab9a23592503c6e23c1dd707e5ef1b868edb4"
   },
   "towada": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4890a7201b7538742a6536ddbbfe5a602d0c58352efe3181a38c7b615102293f"
   },
   "toyota": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "65d12f31d02c0c02d49c58bf99cde6cc8a178d4a975d7f839d0079345dae36f5"
   },
   "ueno-mori": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "6c0ae3a6a148c63f112f7c1e25db1ac387426350e94726ae7bf752ee3f6c560d"
   },
   "ukiyoe-ota": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4e9cf6b0c1c63819564eee9814bc10dca126efc5527c24250154abfc726f8a2f"
   },
   "yamatane": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "ce1c18f13a7c11d5385ba2ae2b086d1f929580e96f8611e7dfbe18d5f4107b7a"
   },
   "yokohama": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c99e781eb416301eeec69f2d5e5e689733ae5777f23f178e74c883aa330a8163"
   },
   "aham": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "fde3162a2a14b318cd8265c16b80377726ae9271bd6e302e4ac71a67684ef691"
   },
   "arts-maebashi": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "182de61c89595cd91a877e497d08b04c66365385e7b9237d33309a3cb5a6f0eb"
   },
   "bunpaku": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "1e11a98d95e4ee8819a9c0ac25296b4fd368d02aa107d9c6ef35d8c082dc6670"
   },
   "camk": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "6911b3e74c78a3578ff93c98c9dbac2654b1577e9941af7a6425ca68fa78f40d"
   },
   "chiba-city-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "734efcf213ba4216a5211d1b2cd247e4dac9f9e8e74ee69febbd31b0d3812ee1"
   },
   "ehime-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "15f36b32848a3fb9f18810205d23c4c203c562c217afc9225652028700885f7e"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "928e14ed56bc74a3879b137ab48195965e66b595116a3da6591cfc9628d2aa34"
   },
   "fuchu-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2a606b45ea0f061c1c8369abf979f918c1ea434cee193fe5641bf31d3faa0f0c"
   },
   "fukui-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3a573c473fbcf7357267999479013af3e2612e2953bd9ffe23ab2f82ec3ded69"
   },
   "fukushima-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "529d2c8f4cf74e3e419cc8ed9c2f1eaa5937627df2b67f5a67549d63004f94ce"
   },
   "gifu-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "f29c3ebae5deff8ce4fe0bda61928bc3a6341cd1374285b3dbde8e7ef2a81cbb"
   },
   "gunma-moma": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "d56a259431f017ff7e816578edaa9786477088efe4d650c137865ab37b93c804"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "2385abd04a0b9143715c7b883ae4a8ba4d0fef8279bb50f6e0b950f2fd7008f1"
   },
   "hamamatsu-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3de0a9d247334c5607817f0090e97916c4451fa7392a6a5a92a789aced7629ba"
   },
   "hiratsuka-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "663e37a534fcec80e0bdbf388e827154c2a1d751e61d6d36bcf1415403909c25"
   },
   "hirosaki-moca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "db84ae330f4ac4f82a9ac31013d25cb30dca8a346199a71f38402cba5b722b3a"
   },
   "hiroshima-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2f006130054afbaca0002542603f86957c031dc9100eeceeb3fbf8637e02d97f"
   },
   "hpam": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d69c6eb941b50177f909d2a7ea2f5c071ca7342a4dd46d448a57591e250ca737"
   },
   "ibaraki-moma": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "bc43456f535ef57b7ac36fbdcb3f9d9f545c127fd1c8799e09788a097fc863e1"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "ac1f59db7d79047e4979d428c14b999accb5909979fa0cea6c4b1b6b7624299a"
   },
   "ima-iwate": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "5b2d53894832ecf86624b22b2e015b87c3962f0c72f159fbabe9520e2e826a9f"
   },
   "ishikawa-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "2bf42b408317e804e31da212f92a351a5e628c8d6626fb1813f866c7540e5051"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "89c60d291943bdb161f9c7ec6f253f486682f99b4eeb81b6052319cb01c25843"
   },
   "kagoshima-city-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2e95e8ae0cc6da772e9919c61b7c1adbe8674209227dcecf704c9b78096a1351"
   },
   "kawagoe-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "7df1f169d5eb885cb8d48f120d031ea8b90b739fd3e6182093acf2288309a56d"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "9a9224c996f47687f3a5aa2be5330dc0d5b84636468bad78c3192040f094e4d0"
   },
   "kumamoto-pref-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "98102031849f304ae5921276a1bbea44728e939e7541ed7a2b54f631babf51b7"
   },
   "mie-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c42a1720e8aabaddedd6512023a7150eed494623deed1e5685e833ac4555eb5d"
   },
   "mitsui-memorial": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "63fe9383bcd51c72ece57669d5a3d55e5a164a192dce6488fab75a5341d1f9c6"
   },
   "moak": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e7319f61ccf6e43d8cb89b72ec97856e242f9f30dc26b2818929dee9a1457047"
   },
   "nagano-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e456fa56c2e650fe7dc2fbf336bb70a16a556d466ef1fad075197dfb88cf7d36"
   },
   "nagasaki-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "9098776f9e676c34cb6d63d1d1d083437f040c5bf920bc334f22e089793bc59e"
   },
   "nerima-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "45c0816bb3cf89bd99432f61472e48147cf2fb4b2a23e3a0e73d327050ae2b22"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "da4fb1c35af7d67ae5f46202ded0141bd3baefaf1b0dbadc270c35d636c76afc"
   },
   "niigata-city-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "a618e79c61dc7553079d14812b7e17a0ad0597f59f550daa83f7d6d176578092"
   },
   "niigata-kinbi": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "a6d668ed5f6f61a1b5fb33cd40e006b8f5e18c46c2ec2b8ed295f2004d19ef62"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "ef6b2f068cd778c68f85698fcec7624c4c5793610d7922a1fa42984e0a647f53"
   },
   "okayama-kenbi": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d2109ecac7ae6658e88c0504dc143dd6ff7d052fe2af8118ee32cab2358cc364"
   },
   "okimu": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "7beefff2468716c7c7430f9546bbba516c4e6635593e3e1adc442d54dfe2b08b"
   },
   "opam": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "feedbfb74a2feec7afe041d853b69dcf39e75f3d89a60cf57d3ca066579bd619"
   },
   "osaka-city-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "b308e3167a44680f09f64d58de69f3b4d28e1b176c3c7ff0206cf274b7db395f"
   },
   "sapporo-artpark": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e67fefa0507718df4be42dbd2fc899872a4f0129c2207f78ecc2b438f077296d"
   },
   "seikado": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4a407667af70dfa2e600e5fc2bb587ff913e501a827595621cd344e1c515969c"
   },
   "senoku-tokyo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "508098f8b290e019967f313a49126bc9dfcdfa7d3ea0728b87023fbee50b7cd0"
   },
   "shimane-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "f8f174c82a8eb31c05086153e0d8606c9343cd63d17f1ae93f140d6b78224272"
   },
   "shizuoka-city-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "cc878662bb42cb1c771536e74b8af297969c4cff150cae8a886bc3ff690231ed"
   },
   "toyama-tad": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "c3a2c6efc1f3e53b140884a523478ddeda23295144b8c9df49a09d7699d4fd71"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "d2e1478842e282bc0934f7af71547579017d7f8c2725244b40e28b8df3e9e717"
   },
   "utsunomiya-moa": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "fa49fcbee58bae4a3e67d2688a221ef351ff6c4a36704fc1e887125d501b1653"
   },
   "yamagata-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "dea63a6e4068d32f826d4a62534c37039a6b867e1386d5f3694bccf39f17a04e"
   },
   "yayoi-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c74f55e3fbd65f2b87785ca5a2d22556bdc3e4733d7963e127372f7aee2e8718"
   },
   "yokosuka-moa": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "5cb9bd91b769d0310c735ff107a19cc88dfb74b26deffe4c2001735e1aa4dc9b"
   },
   "aisho": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "e0bb6130ec478182a372284b9755a877fa86ccba1373ba9642874bf2f95d4f80"
   },
   "anomaly": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "bcfb1deabe30225305c6b5ab2ab45d7872312b6971bb92913ee192c7e5a75b94"
   },
   "artcourt-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "9eb9e9b69a265bd40a40e78fb7da3aef040905eacc49d874a799a651e7ebabed"
   },
   "biscuit-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "70fa3cff6e347fe3a8759ee203985ebdfdaa82788c023ebf754e2a4f6a2e5085"
   },
   "con-tokyo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "7e5aaa2afc9889e73f788876ecb81de06fc32d62364a5020f528d1f25eabf046"
   },
   "eukaryote": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4d0be2127682d993220cfb6360c4ff3dd1a1e3ac99db09d8cecbcd1319885879"
   },
   "fergus-mccaffrey-tokyo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "f59cc8e520dce746a21704e7a552bef7daf76222bd4a7669da8ddef6163ac420"
   },
   "finch-arts": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "7653e7356e2076e2425fb6220c3a0f36f12878c3c3b46b8aad05d7eba619f699"
   },
   "galerie-chene": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "f2d52d1da3bfbf5237f856cbda95a7c0083b82615184d013dfc7f4fdd68cf37c"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "562ae01a000077577dcb765e7a45efe12e40a5d640842119e083aa2973a9abf5"
   },
   "galerie-miyawaki": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "fe07d9e036ad0566ad7beb195ddbeefa4492722079ad60c60f1bacbdd0569dd5"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "f07951fe8c061f872fea958d2b4d39de74ee07020025eac748bbf2adc60898ba"
   },
   "gallery-38": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "1fb042a4dadcf0c82fdc34f9963cc9e432f43f33213906c37b637cf4b905698d"
   },
   "gallery-common": {
-    "failures": 3,
-    "lastError": "2026-10-18: page text too short (38 chars)"
+    "failures": 4,
+    "lastError": "2026-10-19: page text too short (38 chars)"
   },
   "gallery-koyanagi": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "b743c25181b2d7859d299dd2142de369f2d624cbda56e35f513f010bc94f933d"
   },
   "gallery-monma": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "725970b6670064d73f84ea47f339cf0954092f62362b051d6f2f420e86869220"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "1e44812b6154e7fbbb3e8f475270bd166c8a2cce08681a754f79ab8e550aec58"
   },
   "gallery-nomart": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "03bf1ff942bd9504a176d492718eb18a57f7ee9bf9d02604a6178f864c75931e"
   },
   "gallery-ug": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "942023202a60ddafc1cbfab9a545bb9cfdfba51ce9193fdec16a3811be7843fa"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "4bb98a0deeae4d41c48492c49d29e512851d407e384067e05ed0a5c3fb3c9f9c"
   },
   "gallery-yamaki": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "ff093d60dd0b5ae8c5781ce2aee1460d03643158cda800c85007d366a5b2e81e"
   },
   "goyo-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "b2fcf21857e411cacdebdcee5c83fa518f8ea9fb3d460e51663577a279c8d41b"
   },
   "hagiwara-projects": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "1b408d964a0e1305cb020632ca8abea21196b5be4f39c50c37c607f0d6c6a712"
   },
   "imura-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "a8da59f921adf19576866aae7523ddb14b229cd49be46820be7af3514577272a"
   },
   "kaikai-kiki-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "071ddb4afb909bb68f57d52d38d30888be56d6d91cacb1923e5a4e40b6d478a2"
   },
   "kana-kawanishi": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "12f4f0f269055576cb279f45673ff1df310b44361c18d51bfb8fa5ff61d6b17a"
   },
   "kayokoyuki": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "f733717b5c6684d1523c597b942db70ebe3203c60c707a70d02c2db13db7bc5d"
   },
   "kenji-taki": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "105d48d46e47cf672c0c8d42a6dbd72810222037f56a85adaf8673f248001b18"
   },
   "koki-arts": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "fb1c1f3d630e9474b88698a240a02a3442588cc13a8380e8e0884cdfcf57e062"
   },
   "kosaku-kanechika": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "46fd927a70e2a182f5a9f7c4d5197d20b91b8349ec13c3a52187aef5d140224d"
   },
   "kotaro-nukaga": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "cd58412b5d19f7b366f129c725a6dc7eb1ab4cadf9060cdcc390236760b1d688"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "f98432a2e40237340df781547c3a9cbb3d562f7015fb88d6b8b78ffc094cd1d5"
   },
   "leesaya": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "948042ffe20bfc43231a0437cab262c735039abf1b5d3ad194fef7462830a543"
   },
   "loko-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "bff0f9fd30353cc7ac3e5c66e3c559ef26b478c7afd9ef353adc86be169b2242"
   },
   "maho-kubota-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2cc34de508f4df61a007ac58c9a98e18b9953b7cfbc0093c0821c3de9e000926"
   },
   "maki-fine-arts": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2fe14513b3d7b18b7603b17980286f405e95e27e83f491a048812823e869f084"
   },
   "maki-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "a616bc7c65bd867cb2f917616bca24c88bcf7ee7251e37eb599e31d9b84ce8f3"
   },
   "mem": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "05c1ef6fb1a9065dcf629174b6cf5546ae834cf6186727295455d111567ed858"
   },
   "misa-shin": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "317e356bb6095fe618fb0f5979cf5224a9d869b8c94db5bed27ddbfac22adeb4"
   },
   "misako-rosen": {
-    "failures": 3,
-    "lastError": "2026-10-18: page text too short (65 chars)"
+    "failures": 4,
+    "lastError": "2026-10-19: page text too short (65 chars)"
   },
   "mizuma-art-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "5d5bc27372c470257ca2ad047f6fbdf4f014cee3991df88f66aeeb8930d210d3"
   },
   "mori-yu": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d7b9051d56bfc70150c2a32c58330fc6969a59013e6cc4c3c97bb3c3c4c603aa"
   },
   "mtk-contemporary-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "5450d126cee5661cf36838cc3a40a9eeea7f66be1df2d27f60aaf3ab93f9b047"
   },
   "mu-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c0626a27baf3b652640f372eeb2c11d10380e5b9594c48235ecc7031e7a9a42b"
   },
   "mujin-to": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "981b268f0e22de30a908c0d294b1eef919ca24c9aeac91bc2f171988d2c2ae89"
   },
   "nanzuka": {
-    "failures": 3,
-    "lastError": "2026-10-18: page text too short (48 chars)"
+    "failures": 4,
+    "lastError": "2026-10-19: page text too short (48 chars)"
   },
   "nca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "50a5ae745c7a31e8c57ae4290b94b385373875e0fa716d89edc92bedaf1cc65b"
   },
   "nichido-garo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "bac60194c40898169f8e5a48e0f0f07726ce8aa6eac7dc65add70399e06c4057"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "40f942a7f73b89b3d3a2e785df8b0dcbeaab599fe9f56018125502a84e20db64"
   },
   "ota-fine-arts": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4b6d3ebe8d38a81503fcb61204a1f39f4f3be3f12044aeab93e3f568d810b5e7"
   },
   "pace-tokyo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "9fc2c9e4b83eee2196336a9c34791d050e6e99e86c855dcf980786171a6f92c5"
   },
   "parcel": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "403052e04d582d1301b7a41df48b4f4bbc633194aae61f3851779671bac79ac4"
   },
   "perrotin-tokyo": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "eb75d7ea271d18cd126926bea5f06b01c586869fe67cb8c4a2cc9cd082178f24"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "9b6358354ecfaab8d9fc6dbc8b10135ea4259b5bbad0ba98510f299c36dacde0"
   },
   "rin-art-association": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "1acee3b632eff17f8be84714c4b09b70fceb9d0b83f6c5bd12071e23737a7b62"
   },
   "root-k-contemporary": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "7c769cc7f8f6d02193dc107a30cb714e400a73f31f6c0eaa151dc85fa26f00a9"
   },
   "satoko-oe": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2619f5b58a2dfd552964f10d416167cbaf6dfd3c2c843cf66623c8563130b370"
   },
   "scai": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c915eb975b7dd98167647e53dd8c0d35e6ba4a965c14306d84e6ae125363b62a"
   },
   "shiseido-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "cff2a334d71616e36061e1752012bbcdddff6fc6f580e74f0cc4332431e134b6"
   },
   "shugoarts": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "bd6275aa5f3366b148db0cd56294023fb626a49b14b41a9d396be9a72c535750"
   },
   "spiral": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "599349e68986b5e6baae299ae0e1ebc233525f7bae500db9eaa3e63c6f6b1bcc"
   },
   "sprout-curation": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d76c7162f60679eedad9d5abc325c5e0ef96b60c9e7ee34282b3c1c66d76a5de"
   },
   "standing-pine": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4530d104f3a9fbcac0659cc60ccd258f6370b1b22720ee1b1f12d8ffd34b82b4"
   },
   "tagboat": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "b0077b0afe4098500f8db5ebf82c06a80d1afd4fcec27872c34711359c6aa76a"
   },
   "taka-ishii": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "ad29f212ea7087a205a759b4db10a2a0bc5655cbbac306dc29eaa512295f19a7"
   },
   "take-ninagawa": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "25cbd0c63f3b34f290111158e74f2958228034e1b7224755330ad9f6656fd8be"
   },
   "talion": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "40d685b5c1fa9eb69091d3c1b6e88c6e1613173d3f8432f27295d795c9eee0ba"
   },
   "taro-nasu": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3f1145f52c552ae5920a9793bd4e9b16ec8c55ab57f18d00f3913a69e23050ef"
   },
   "tezukayama": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "855e73bcc748d8bfdb40faa2767457fb71b09930210f4a29361aff812f44ea3b"
   },
   "third-gallery-aya": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "59e51d527100802bb660ba69346e7cd6bf36921fc94fddf1f81ecb39071cf24f"
   },
   "tokyo-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "f05fce656117c55658eb6f4dc5d2a504dd5357ab559265119ee50d7fe45ca871"
   },
   "tokyo-international-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "39cdb82a5c068166940dc230377094d0afe07391fc94f3acde9c6c6af568f0fc"
   },
   "tomio-koyama": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d6439c1f7b83502048f813cbb95a1688ad740a3494d9a0f120920a095c2df940"
   },
   "tsca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d52e5d14278abf49c6ae08cec7de4730446748299b27536d134c1cc6ab25725e"
   },
   "waitingroom": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "7b2c2f085c44c55408f435d25d849a80b540b9d9a4cf43de6dd07a63b75adad6"
   },
   "what-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "f65aebe0eae79028e907a7c817b3a61b63fa15f74b1363b219e0d4e2bad4dc75"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "688dcd27a7987e4158c3f99e3e0030209d006aff12c37ad978f6efa26a8b63f1"
   },
   "xyz-collective": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "01e622971dd8fc06349b1bcf956c45ae10cc8b1c25a717e65ea9c955ec39046d"
   },
   "yod-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "867c67b2f17a78572a90e1e21d57f19610d94370e030c7cc64df16811339d5d8"
   },
   "yoshiaki-inoue": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "ec72c3197a69701d1e362a81d33b1fd301f08df09509e5dc7e104828918edc5b"
   },
   "yugen-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
-    "hash": "58720f303f68ff8479759f9ad827088451756d2dbec0a6af3954fbe4776546fa"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "24a917b33111b88fff1cc5e58fe26ef6851215513ff3411857bcdc3e5f86fbc3"
   },
   "yukikomizutani": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3863ee374481382453689d661398318e9298886090cdafeffa71d03ae02fd193"
   },
   "yumiko-chiba": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "4287236679cff77792cce64440d5e4de8696103e6fa6b52324151a145c9f521e"
   },
   "yutaka-kikutake": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T22:31:44.652Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "203f0874f89e09d9d2f5b516dd09441234d5cb227a903df9dadc2f9eba94cf7c"
   },
   "acac": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
-    "hash": "f40358d1a85504cb35994a578a2046ea03a05a0735f8d801d4361efdd961fe7f"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "49ce89314e583324094f41c81e4f6daca7314ef3c178d22c51e7ec6709b20faa"
   },
   "akita-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3822082ef36103288942bf79ac04b506c5c4d1bc561bc47635f6e5c228ed0286"
   },
   "art-tower-mito": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:40:48.061Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "58e967ef7963ad5e786d107fa2841bf18dbaf736812bb1c5eae7ce7333ab69b1"
   },
   "ashiya-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "3c8db1b3604df9114f973bc8a6ce994a6b8244442077e0ffa0896d87505ecba3"
   },
   "espace-lv-tokyo": {
-    "failures": 2,
-    "lastError": "2026-10-18: page text too short (111 chars)"
+    "failures": 3,
+    "lastError": "2026-10-19: page text too short (145 chars)"
   },
   "faam": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d767105e68eb05538ade0a6197301488bc86daaaa339d58d980ef45e3ff9b9ae"
   },
   "hachinohe-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "45ccfd915a6dca543529626861269f84d5c0f6ce899a6d640b8dac7b19a2508d"
   },
   "hara-arc": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "d126fcf9f213171de9b3ae86d911fa5d04c592df0ecac9b4256212594999420c"
   },
   "hongoshin": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "14c9a1474fce9695d20472cdd8a4df27a91fc6f6070b957ba2d44ccb9549ea47"
   },
   "icc": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "41fa9e544cc90006b46977a1fb5567e03f5c27062e0ed176449d7a413760c0ce"
   },
   "ichihara-lakeside": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "9149afb6ed0c898be770ce1d145c77e938b15bf8256726ae02dc967c4866c74e"
   },
   "kanazu-sosaku": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "942fab5284cde63a47cff019914d9b47acbcbbae7b64292b5812aaf86b748ccc"
   },
   "kirishima-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "846226918f06fbb1cd987c32986e3fb75bea1a27d70b9124c29a1dc637286e61"
   },
   "kmma": {
-    "failures": 2,
-    "lastError": "2026-10-18: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://kmma.jp/exhibition/2026/\", waiting until \"domcontentloaded\"\n"
+    "failures": 3,
+    "lastError": "2026-10-19: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://kmma.jp/exhibition/2026/\", waiting until \"domcontentloaded\"\n"
   },
   "koen-dori-gallery": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "a9f61ce5ee699cd167077ee59076b69c5387a2e7b6bb958542edb8a9729a9ddf"
   },
   "kusama-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "2d8d423fefc2a2d194e2733c6502e67e93443e959b9ffd34fb1252531a91caa2"
   },
   "kyoto-art-center": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
-    "hash": "5f3941399ab80343d91e1936f433b457bbbdb80488c6376d04cd9f2f2b86207c"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "b227e7bff161813285ed2444c316975dbbae3bb0dbe37687a1094417c88dbddf"
   },
   "maison-hermes": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
-    "hash": "52c20890d601fa55bd5d437d26300f32fffdccb1363fec95ddca5c26d5be1e60"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "edc568cfcccc6d272f06efe1c250175b7fb0ce221fa68c711c709b56924d5287"
   },
   "meguro-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c92f4917452090be0f6d69bfeecdfc3c3db68cd5b030cbb021808fba090f4f77"
   },
   "mimoca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "c1c8f48a468906120785a4cd6d51f1f5b4925c4736e86a1c264df61560af66e0"
   },
   "miyagi-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "f3603e0f3db3dbdbc893ade2fc259173e29778ec936ce1abc99f918bb6ee9e90"
   },
   "miyazaki-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:44:38.266Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "79792c6087d81d10ee748b981a83de6156a7967f31e1ae0a69ae394b82d18f11"
   },
   "momaw": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:44:38.266Z",
-    "hash": "0fb59855edba42fa410ceb533f1937be1b12d686b9b78037696ec47432318265"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "f3ab626718892174be67f9799c026c961d43b5c7cc7e20426b042d9cd8abdb87"
   },
   "monet-tsumari": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "1599e89b935fd1c7cecf56311fd0232388b22119d23d1465f8de594c5202c239"
   },
   "nagi-moca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "0ec79def6d40618f029b83a8f337670e976b2b214f9489fecc098eef75378ffa"
   },
   "nara-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:44:38.266Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "475077aa277d65c4efc903ea0e6f8d0fd9eaf95678706f48e8a9971185c873f6"
   },
   "ota-artmuseum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "41bbcb37bbead8a49af76ab22f14661cc5ef20286c2f4ff676388f73a9a4301a"
   },
   "otani-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
-    "hash": "af75ab2847da57a9cc13494f3694df2030f442b3a2ccde0e18fe41266a157cab"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "8782960bd2c33dbcca3a15ddca70bb3ae5bd369404649ca69b0d6e9a7161843e"
   },
   "pola-annex": {
     "failures": 0,
@@ -963,18 +963,18 @@
   },
   "saga-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "11e9248b3656d8d88dbd7b421d93fcde7a35b21eea2ebc193784f5b427d13ab8"
   },
   "senju-museum": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "1233f0e9c3d17f28e30dae28a3fc9f9990a249cf6466cb84dd77aa46a37b8048"
   },
   "shiga-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
-    "hash": "ee820aefb48c4776a04824481aa79eb5c9ba4ba77886932246e2d0b4fbd0306f"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "f04c4d82bd14eab93513e6c462a37e5e8aa7502a4a75e9c4993b1e51f6d51fb0"
   },
   "smt": {
     "failures": 0,
@@ -983,12 +983,12 @@
   },
   "takamatsu-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "cec332522306855a075d63a122a8fa634d9022f571e1aab0432562001ec10be2"
   },
   "taro-okamoto-memorial": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "045a514715610bb50d5dc3186517893f7ccb54a4f96ae0544966534a974b7f4b"
   },
   "tokushima-moma": {
@@ -998,22 +998,22 @@
   },
   "watarium": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "9ff57b8e79431c0a515322dae577f7cd45c1065475a148a40e16061413894a1e"
   },
   "yamaguchi-art": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:33:28.757Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "40345870c593056eeb92e95e4ca800827fce255fea7a89f101866215a0117146"
   },
   "ycam": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
-    "hash": "6daa5868326b2facb885d2be2f8229742532669051dbd92c6a5e9d5628107f7f"
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
+    "hash": "38c048d4db23304f5345290ab2428e1ddda2c93008a7417acec03f787b0b3952"
   },
   "ytmoca": {
     "failures": 0,
-    "lastCheckedAt": "2026-10-18T23:17:29.141Z",
+    "lastCheckedAt": "2026-10-19T23:52:03.383Z",
     "hash": "aadaad6e95a298764ad0569302d537e744f9792c45f00f90ddb2f15081048af5"
   }
 }

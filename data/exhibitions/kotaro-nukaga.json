@@ -7,11 +7,13 @@
     "endDate": "2026-11-08",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "KOTARO NUKAGAの展示スペースで現在開かれている展覧会で、秋から11月上旬まで続きます。",
+    "summary": "KOTARO NUKAGAの展示スペースで秋に開かれる展覧会で、11月上旬まで作品を紹介する予定です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-19"
   },
   {
     "id": "kotaro-nukaga-20261031-6ca5fd",
@@ -21,10 +23,12 @@
     "endDate": "2026-12-19",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "KOTARO NUKAGAが10月末から年末にかけて開催を予定している、近日公開の展覧会です。",
+    "summary": "KOTARO NUKAGAで10月末から年末近くまで開催が予定されている、近日公開の展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-19"
   }
 ]
