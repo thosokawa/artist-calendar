@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "kana-kawanishi-20261031-587fb2",
+    "museumId": "kana-kawanishi",
+    "title": "“Everyday, With a Delay”",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "yugo-isaji",
+      "ryota-kikuchi",
+      "patrik-soderlund"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "三名の作家が参加し、日常とそこに生じる遅れをテーマに据えて年末まで開かれる、ギャラリーでのグループ展です。",
+    "firstSeenAt": "2026-10-20",
+    "lastSeenAt": "2026-10-20"
+  }
+]

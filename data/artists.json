@@ -554,7 +554,9 @@
     "name": "ムンク",
     "nameRomaji": "Edvard Munch",
     "nameKana": "むんくえどゔぁると",
-    "aliases": []
+    "aliases": [
+      "エドヴァルト・ムンク"
+    ]
   },
   "edward-gorey": {
     "name": "エドワード・ゴーリー",
@@ -976,6 +978,12 @@
     "nameKana": "たかはしはるか",
     "aliases": []
   },
+  "haruki-ueda": {
+    "name": "植田陽貴",
+    "nameRomaji": "Haruki Ueda",
+    "nameKana": "うえだはるき",
+    "aliases": []
+  },
   "haruko-hasegawa": {
     "name": "長谷川春子",
     "nameRomaji": "Haruko Hasegawa",
@@ -1045,7 +1053,8 @@
   "henry-moore": {
     "name": "ヘンリー・ムーア",
     "nameRomaji": "Henry Moore",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "へんりーむーあ"
   },
   "hideki-kimura": {
     "name": "木村 秀樹",
@@ -1534,6 +1543,12 @@
     "nameKana": "いずみけいじ",
     "aliases": []
   },
+  "keiko-arai": {
+    "name": "荒井恵子",
+    "nameRomaji": "Keiko Arai",
+    "nameKana": "あらいけいこ",
+    "aliases": []
+  },
   "keiko-takemiya": {
     "name": "竹宮惠子",
     "nameRomaji": "Keiko Takemiya",
@@ -1799,6 +1814,12 @@
     "nameRomaji": "Kukai",
     "aliases": [],
     "nameKana": "くうかい"
+  },
+  "kumi-machida": {
+    "name": "町田久美",
+    "nameRomaji": "Kumi Machida",
+    "nameKana": "まちだくみ",
+    "aliases": []
   },
   "kumi-sugai": {
     "name": "菅井汲",
@@ -2239,6 +2260,12 @@
     "aliases": [],
     "nameKana": "ふくだみらん"
   },
+  "misako-shine": {
+    "name": "新恵美佐子",
+    "nameRomaji": "Misako Shine",
+    "nameKana": "しんえみさこ",
+    "aliases": []
+  },
   "mitsuko-tabe": {
     "name": "田部光子",
     "nameRomaji": "Mitsuko Tabe",
@@ -2532,6 +2559,12 @@
     "nameRomaji": "Patrick Blanc",
     "aliases": []
   },
+  "patrik-soderlund": {
+    "name": "Patrik Söderlund",
+    "nameRomaji": "Patrik Söderlund",
+    "nameKana": "せーでるるんどぱとりっく",
+    "aliases": []
+  },
   "paul-cezanne": {
     "name": "ポール・セザンヌ",
     "nameRomaji": "Paul Cézanne",
@@ -2777,6 +2810,12 @@
     "nameRomaji": "Ryosuke Shiomi",
     "aliases": [],
     "nameKana": "しおみりょうすけ"
+  },
+  "ryota-kikuchi": {
+    "name": "Ryota Kikuchi",
+    "nameRomaji": "Ryota Kikuchi",
+    "nameKana": "きくちりょうた",
+    "aliases": []
   },
   "ryuichi-sakamoto": {
     "name": "坂本龍一",
@@ -3267,6 +3306,12 @@
     "nameRomaji": "Taikan Yokoyama",
     "aliases": [],
     "nameKana": "よこやまたいかん"
+  },
+  "takako-asami": {
+    "name": "浅見貴子",
+    "nameRomaji": "Takako Asami",
+    "nameKana": "あさみたかこ",
+    "aliases": []
   },
   "takao-saito": {
     "name": "さいとう・たかを",
@@ -3926,6 +3971,12 @@
     },
     "snsCheckedAt": "2026-10-18"
   },
+  "yugo-isaji": {
+    "name": "Isaji Yugo",
+    "nameRomaji": "Yugo Isaji",
+    "nameKana": "いさじゆうご",
+    "aliases": []
+  },
   "yuichi-idaka": {
     "name": "井高雄一",
     "nameRomaji": "Yuichi Idaka",
@@ -3986,6 +4037,12 @@
     "nameRomaji": "Yuko Mohri",
     "aliases": [],
     "nameKana": "もうりゆうこ"
+  },
+  "yuko-tayama": {
+    "name": "夛山祐子",
+    "nameRomaji": "Yuko Tayama",
+    "nameKana": "たやまゆうこ",
+    "aliases": []
   },
   "yumeji-takehisa": {
     "name": "竹久夢二",

@@ -32,5 +32,31 @@
     "artists": [
       "ryuichi-sakamoto"
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "exhibitionId": "kana-kawanishi-20261031-587fb2",
+    "museumId": "kana-kawanishi",
+    "artists": [
+      "yugo-isaji",
+      "ryota-kikuchi",
+      "patrik-soderlund"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "exhibitionId": "nara-art-20270116-b82fdf",
+    "museumId": "nara-art",
+    "artists": [
+      "yuko-tayama"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "exhibitionId": "nara-art-20270216-e19caa",
+    "museumId": "nara-art",
+    "artists": [
+      "haruki-ueda"
+    ]
   }
 ]
