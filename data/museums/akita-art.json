@@ -8,5 +8,10 @@
   "area": "hokkaido-tohoku",
   "officialUrl": "https://www.akita-museum-of-art.jp/",
   "exhibitionsUrl": "https://www.akita-museum-of-art.jp/event/year_list.php",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "x": "https://x.com/akitakenbi",
+    "facebook": "https://www.facebook.com/363355503865184"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

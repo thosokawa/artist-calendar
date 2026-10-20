@@ -8,5 +8,12 @@
   "area": "kanto",
   "officialUrl": "https://lsm-ichihara.jp/",
   "exhibitionsUrl": "https://lsm-ichihara.jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/lsm_ichihara/",
+    "x": "https://x.com/LSM_ICHIHARA",
+    "facebook": "https://www.facebook.com/ichiharalakesidemuseum",
+    "youtube": "https://www.youtube.com/channel/UCccHdiSZnHo2TTrWdV9XXuw"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

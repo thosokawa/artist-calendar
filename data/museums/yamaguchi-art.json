@@ -8,5 +8,10 @@
   "area": "chugoku-shikoku",
   "officialUrl": "https://y-pam.jp/",
   "exhibitionsUrl": "https://y-pam.jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/yma_ig/",
+    "x": "https://x.com/yma_tweet"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

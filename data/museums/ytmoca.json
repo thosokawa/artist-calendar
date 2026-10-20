@@ -8,5 +8,12 @@
   "area": "kansai",
   "officialUrl": "https://ytmoca.jp/",
   "exhibitionsUrl": "https://ytmoca.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/ytmoca/",
+    "x": "https://x.com/YTmocaStaff",
+    "facebook": "https://www.facebook.com/YTmocaStaff",
+    "youtube": "https://www.youtube.com/channel/UCxgWGrQS4FNCvFtvRD3Iurg"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

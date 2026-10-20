@@ -8,5 +8,11 @@
   "area": "hokkaido-tohoku",
   "officialUrl": "https://hachinohe-art-museum.jp/",
   "exhibitionsUrl": "https://hachinohe-art-museum.jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/hachinohe_art_museum/",
+    "x": "https://x.com/hachinohe_art_m",
+    "facebook": "https://www.facebook.com/HachinoheArtMuseum"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

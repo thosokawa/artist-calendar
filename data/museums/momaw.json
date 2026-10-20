@@ -8,5 +8,11 @@
   "area": "kansai",
   "officialUrl": "https://www.momaw.jp/",
   "exhibitionsUrl": "https://www.momaw.jp/information/exhibitions-2026/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/moma_wakayama/",
+    "x": "https://x.com/moma_wakayama",
+    "facebook": "https://www.facebook.com/moma.wakayama"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

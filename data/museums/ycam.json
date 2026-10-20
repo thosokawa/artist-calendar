@@ -8,5 +8,11 @@
   "area": "chugoku-shikoku",
   "officialUrl": "https://www.ycam.jp/",
   "exhibitionsUrl": "https://www.ycam.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/ycam_jp/",
+    "x": "https://x.com/ycam_jp",
+    "facebook": "https://www.facebook.com/YCAM.jp"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

@@ -8,5 +8,12 @@
   "area": "chubu",
   "officialUrl": "https://www.echigo-tsumari.jp/travelinformation/monet/",
   "exhibitionsUrl": "https://www.echigo-tsumari.jp/travelinformation/monet/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/echigo_tsumari/",
+    "x": "https://x.com/echigo_tsumari",
+    "facebook": "https://www.facebook.com/tsumari.artfield",
+    "youtube": "https://www.youtube.com/channel/UCRrGFlAh_4aQiw3_R081kFQ"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

@@ -8,5 +8,12 @@
   "area": "chubu",
   "officialUrl": "https://sosaku.jp/",
   "exhibitionsUrl": "https://sosaku.jp/event/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kanazforestcreation/",
+    "x": "https://x.com/artcore17",
+    "facebook": "https://www.facebook.com/kanazu.sousaku",
+    "youtube": "https://www.youtube.com/channel/UCQ6DNFnzXpQHvs7nBVn85UQ"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

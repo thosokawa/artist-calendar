@@ -8,5 +8,11 @@
   "area": "kanto",
   "officialUrl": "https://www.ntticc.or.jp/ja/",
   "exhibitionsUrl": "https://www.ntticc.or.jp/ja/exhibitions/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/ntt_icc/",
+    "x": "https://x.com/ntticc",
+    "facebook": "https://www.facebook.com/ntticc"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

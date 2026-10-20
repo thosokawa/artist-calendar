@@ -8,5 +8,12 @@
   "area": "chugoku-shikoku",
   "officialUrl": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/",
   "exhibitionsUrl": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/event/index.html",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/takamatsuartmuseum/",
+    "x": "https://x.com/takamatsu_art_m",
+    "facebook": "https://www.facebook.com/takamatsuartmuseum",
+    "youtube": "https://www.youtube.com/channel/UC4t7MOSlgnUBMRcDAKks0ew"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

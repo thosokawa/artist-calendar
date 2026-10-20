@@ -8,5 +8,12 @@
   "area": "kanto",
   "officialUrl": "https://mmat.jp/",
   "exhibitionsUrl": "https://mmat.jp/exhibition/index",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/meguro_museum_of_art_tokyo/",
+    "x": "https://x.com/mmatinside",
+    "facebook": "https://www.facebook.com/megurokubijutsukan",
+    "youtube": "https://www.youtube.com/channel/UClPfLsqq-HIpaKpo38d69uw"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

@@ -8,5 +8,12 @@
   "area": "kansai",
   "officialUrl": "https://www.kac.or.jp/",
   "exhibitionsUrl": "https://www.kac.or.jp/events/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kyotoartcenter/",
+    "x": "https://x.com/Kyoto_artcenter",
+    "facebook": "https://www.facebook.com/kyotoartcenter",
+    "youtube": "https://www.youtube.com/channel/UCAPh5iLFI7yTew2utFJOAYw"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

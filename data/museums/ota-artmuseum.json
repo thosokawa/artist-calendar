@@ -8,5 +8,12 @@
   "area": "kanto",
   "officialUrl": "https://www.artmuseumlibraryota.jp/",
   "exhibitionsUrl": "https://www.artmuseumlibraryota.jp/artmuseum/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/artmuseumlibraryota/",
+    "x": "https://x.com/obt_pr",
+    "facebook": "https://www.facebook.com/artmuseumlibraryota",
+    "youtube": "https://www.youtube.com/channel/UCMciFHUfHN5kKFYlJK0Npiw"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

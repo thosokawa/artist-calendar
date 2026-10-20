@@ -8,5 +8,11 @@
   "area": "hokkaido-tohoku",
   "officialUrl": "https://acac-aomori.jp/",
   "exhibitionsUrl": "https://acac-aomori.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "x": "https://x.com/acac_aomori",
+    "facebook": "https://www.facebook.com/acac.aomori",
+    "youtube": "https://www.youtube.com/user/acacaomori"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

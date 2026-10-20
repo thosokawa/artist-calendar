@@ -8,5 +8,9 @@
   "area": "kyushu-okinawa",
   "officialUrl": "https://saga-museum.jp/museum/",
   "exhibitionsUrl": "https://saga-museum.jp/museum/exhibition/limited/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "x": "https://x.com/saga_hakubi"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

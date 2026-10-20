@@ -8,5 +8,11 @@
   "area": "kansai",
   "officialUrl": "http://otanimuseum.jp/",
   "exhibitionsUrl": "http://otanimuseum.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/otanimuseum/",
+    "x": "https://x.com/otani_artmuseum",
+    "facebook": "https://www.facebook.com/profile.php?id=100063619570931"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

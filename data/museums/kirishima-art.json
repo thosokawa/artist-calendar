@@ -8,5 +8,11 @@
   "area": "kyushu-okinawa",
   "officialUrl": "https://open-air-museum.org/",
   "exhibitionsUrl": "https://open-air-museum.org/schedule",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/kirishima_open_air_museum/",
+    "x": "https://x.com/open_air_museum",
+    "facebook": "https://www.facebook.com/310006585800166"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

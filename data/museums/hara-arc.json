@@ -8,5 +8,11 @@
   "area": "kanto",
   "officialUrl": "https://www.haramuseum.or.jp/jp/arc/",
   "exhibitionsUrl": "https://www.haramuseum.or.jp/jp/arc/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/haramuseumarc/",
+    "x": "https://x.com/haramuseum_arc",
+    "youtube": "https://www.youtube.com/@HaraARC"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

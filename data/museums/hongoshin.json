@@ -8,5 +8,12 @@
   "area": "hokkaido-tohoku",
   "officialUrl": "https://hongoshin-smos.jp/",
   "exhibitionsUrl": "https://hongoshin-smos.jp/elist.php",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/sapporochobi/",
+    "x": "https://x.com/sapporochobi",
+    "facebook": "https://www.facebook.com/inmyroomsapporochobi",
+    "youtube": "https://www.youtube.com/channel/UCr20AELI2n97zLcqnTtReDA"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

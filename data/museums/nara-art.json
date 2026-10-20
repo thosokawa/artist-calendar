@@ -8,5 +8,11 @@
   "area": "kansai",
   "officialUrl": "https://www.pref.nara.lg.jp/n044/11842.html",
   "exhibitionsUrl": "https://www.pref.nara.lg.jp/n044/68711.html",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/nara_artmuseum/",
+    "x": "https://x.com/ArtmuseumN",
+    "youtube": "https://www.youtube.com/channel/UC76CH7kmRhdelx2Yy8tgcpA"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

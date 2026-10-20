@@ -8,5 +8,13 @@
   "area": "chubu",
   "officialUrl": "https://www.senju-museum.jp/",
   "exhibitionsUrl": "https://www.senju-museum.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/senjumuseum/",
+    "x": "https://x.com/senjumuseum",
+    "facebook": "https://www.facebook.com/senjumuseum",
+    "youtube": "https://www.youtube.com/@Senju-museumJp",
+    "tiktok": "https://www.tiktok.com/@senju.museum"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

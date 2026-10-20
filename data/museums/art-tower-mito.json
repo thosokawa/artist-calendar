@@ -8,5 +8,11 @@
   "area": "kanto",
   "officialUrl": "https://www.arttowermito.or.jp/gallery/",
   "exhibitionsUrl": "https://www.arttowermito.or.jp/gallery/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/arttowermito/",
+    "facebook": "https://www.facebook.com/arttowermito",
+    "youtube": "https://www.youtube.com/user/ArtTowerMito"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

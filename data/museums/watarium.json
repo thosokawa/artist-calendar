@@ -8,5 +8,11 @@
   "area": "kanto",
   "officialUrl": "http://www.watarium.co.jp/",
   "exhibitionsUrl": "http://www.watarium.co.jp/jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/watarium/",
+    "x": "https://x.com/watarium",
+    "tiktok": "https://www.tiktok.com/@official_watarium"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

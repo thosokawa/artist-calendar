@@ -8,5 +8,9 @@
   "area": "hokkaido-tohoku",
   "officialUrl": "https://www.pref.miyagi.jp/site/mmoa/",
   "exhibitionsUrl": "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "x": "https://x.com/miyagi_bijutu"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

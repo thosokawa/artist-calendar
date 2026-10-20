@@ -8,5 +8,11 @@
   "area": "kanto",
   "officialUrl": "https://www.hermes.com/jp/ja/content/193646-maison-ginza/",
   "exhibitionsUrl": "https://www.hermes.com/jp/ja/content/193646-maison-ginza/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/hermes/",
+    "facebook": "https://www.facebook.com/hermes",
+    "youtube": "https://www.youtube.com/user/hermes"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

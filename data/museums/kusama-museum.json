@@ -8,5 +8,9 @@
   "area": "kanto",
   "officialUrl": "https://yayoikusamamuseum.jp/",
   "exhibitionsUrl": "https://yayoikusamamuseum.jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/yayoikusamamuseum/"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

@@ -8,5 +8,10 @@
   "area": "kyushu-okinawa",
   "officialUrl": "https://www.miyazaki-archive.jp/bijutsu/",
   "exhibitionsUrl": "https://www.miyazaki-archive.jp/bijutsu/box/tokubetsu.html",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/miyazakikenbi/",
+    "facebook": "https://www.facebook.com/miyazakikenbi1995"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

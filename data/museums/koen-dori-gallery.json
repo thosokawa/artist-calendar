@@ -8,5 +8,12 @@
   "area": "kanto",
   "officialUrl": "https://inclusion-art.jp/",
   "exhibitionsUrl": "https://inclusion-art.jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/skdgallery_tokyo/",
+    "x": "https://x.com/skdgallery",
+    "facebook": "https://www.facebook.com/profile.php?id=100071305782595",
+    "youtube": "https://www.youtube.com/c/skdgallery_tokyo"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

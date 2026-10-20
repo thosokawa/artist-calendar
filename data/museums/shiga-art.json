@@ -8,5 +8,11 @@
   "area": "kansai",
   "officialUrl": "https://www.shigamuseum.jp/",
   "exhibitionsUrl": "https://www.shigamuseum.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/shigamuseum/",
+    "x": "https://x.com/shiga_kenbi",
+    "youtube": "https://www.youtube.com/@shigamuseum"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

@@ -8,5 +8,11 @@
   "area": "kansai",
   "officialUrl": "https://ashiya-museum.jp/",
   "exhibitionsUrl": "https://ashiya-museum.jp/exhibition/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/ashiyacitymuseum/",
+    "x": "https://x.com/ashiyabihaku",
+    "facebook": "https://www.facebook.com/1410718449233022"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

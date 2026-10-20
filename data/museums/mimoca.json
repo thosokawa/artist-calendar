@@ -8,5 +8,12 @@
   "area": "chugoku-shikoku",
   "officialUrl": "https://www.mimoca.jp/",
   "exhibitionsUrl": "https://www.mimoca.jp/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/mimoca_jp/",
+    "x": "https://x.com/mimoca_jp",
+    "facebook": "https://www.facebook.com/mimoca.jp",
+    "youtube": "https://www.youtube.com/channel/UCjzg2PgpKYQVdzwhGHdGaLA"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

@@ -8,5 +8,11 @@
   "area": "kyushu-okinawa",
   "officialUrl": "https://faam.city.fukuoka.lg.jp/",
   "exhibitionsUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/fukuoka_asian_art_museum/",
+    "x": "https://x.com/faamajibi",
+    "facebook": "https://www.facebook.com/fukuokaasianartmuseum"
+  },
+  "snsCheckedAt": "2026-10-20"
 }

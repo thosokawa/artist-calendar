@@ -8,5 +8,10 @@
   "area": "kanto",
   "officialUrl": "https://www.taro-okamoto.or.jp/",
   "exhibitionsUrl": "https://www.taro-okamoto.or.jp/exhibition",
-  "status": "ok"
+  "status": "ok",
+  "sns": {
+    "instagram": "https://www.instagram.com/taro_okamoto_memorial_museum/",
+    "x": "https://x.com/taro_kinenkan"
+  },
+  "snsCheckedAt": "2026-10-20"
 }
