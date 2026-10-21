@@ -58,5 +58,37 @@
     "artists": [
       "haruki-ueda"
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "exhibitionId": "kyohaku-20270126-1fccb6",
+    "museumId": "kyohaku",
+    "artists": []
+  },
+  {
+    "date": "2026-10-21",
+    "exhibitionId": "kyohaku-20270210-263d57",
+    "museumId": "kyohaku",
+    "artists": []
+  },
+  {
+    "date": "2026-10-21",
+    "exhibitionId": "momaw-20260804-8911c0",
+    "museumId": "momaw",
+    "artists": []
+  },
+  {
+    "date": "2026-10-21",
+    "exhibitionId": "nichido-garo-20261021-7583f6",
+    "museumId": "nichido-garo",
+    "artists": []
+  },
+  {
+    "date": "2026-10-21",
+    "exhibitionId": "ota-fine-arts-20261105-d0463f",
+    "museumId": "ota-fine-arts",
+    "artists": [
+      "masayasu-mitsuke"
+    ]
   }
 ]

@@ -472,7 +472,8 @@
   "christian-marclay": {
     "name": "クリスチャン・マークレー",
     "nameRomaji": "Christian Marclay",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "まーくれーくりすちゃん"
   },
   "christopher-dresser": {
     "name": "クリストファー・ドレッサー",
@@ -712,7 +713,10 @@
   "felix-gonzalez-torres": {
     "name": "フェリックス・ゴンザレス=トレス",
     "nameRomaji": "Felix Gonzalez-Torres",
-    "aliases": []
+    "aliases": [
+      "ゴンザレス＝トレス"
+    ],
+    "nameKana": "ごんざれすとれす"
   },
   "fernand-leger": {
     "name": "フェルナン・レジェ",
@@ -2132,7 +2136,9 @@
   "masayasu-mitsuke": {
     "name": "見附正康",
     "nameRomaji": "Masayasu Mitsuke",
-    "aliases": [],
+    "aliases": [
+      "Masayasu Mitsuke"
+    ],
     "nameKana": "みつけまさやす"
   },
   "masayoshi-sukita": {
@@ -2619,7 +2625,8 @@
     "nameRomaji": "Paul Cézanne",
     "aliases": [
       "セザンヌ"
-    ]
+    ],
+    "nameKana": "せざんぬ"
   },
   "paul-gauguin": {
     "name": "ゴーガン",

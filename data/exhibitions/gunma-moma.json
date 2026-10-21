@@ -13,37 +13,37 @@
       "彫刻"
     ],
     "detailUrl": null,
-    "summary": "孤高の彫刻家と称される村山琴泉に光を当て、その創作の歩みと作品世界を紹介する特別展示です。",
+    "summary": "孤高の道を歩んだ彫刻家・村山琴泉に焦点を当て、その制作の歩みと作品世界を紹介する特別展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-21"
   },
   {
     "id": "gunma-moma-20260919-2187af",
     "museumId": "gunma-moma",
-    "title": "コレクション展示：日本と西洋の近代美術Ⅰ",
+    "title": "日本と西洋の近代美術Ⅰ",
     "startDate": "2026-09-19",
     "endDate": "2026-11-08",
     "kind": "collection",
     "artists": [],
     "genres": [],
     "detailUrl": null,
-    "summary": "館の所蔵品から日本と西洋の近代美術を取り上げ、両者の作品を併せて鑑賞できるコレクション展示です。",
+    "summary": "館の所蔵品の中から、日本と西洋それぞれの近代美術の作品を取り上げて紹介するコレクション展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-21"
   },
   {
     "id": "gunma-moma-20260919-84737d",
     "museumId": "gunma-moma",
-    "title": "コレクション展示：新収蔵作品紹介",
+    "title": "新収蔵作品紹介",
     "startDate": "2026-09-19",
     "endDate": "2026-11-08",
     "kind": "collection",
     "artists": [],
     "genres": [],
     "detailUrl": null,
-    "summary": "近年新たに美術館のコレクションに加わった作品を選んで公開し、収蔵品の広がりを伝える展示です。",
+    "summary": "近年新たに館のコレクションに加わった作品をまとめてお披露目する、収蔵品によるコレクション展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-21"
   },
   {
     "id": "gunma-moma-20261014-66a983",
@@ -55,8 +55,8 @@
     "artists": [],
     "genres": [],
     "detailUrl": null,
-    "summary": "館が所蔵する戸方庵井上コレクションの中から選りすぐりの作品を紹介するコレクション展示の第二弾です。",
+    "summary": "館が所蔵する戸方庵井上コレクションの中から選りすぐりの名品を紹介する、シリーズ第二弾の展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-21"
   }
 ]

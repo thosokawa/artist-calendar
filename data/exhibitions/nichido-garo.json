@@ -14,5 +14,19 @@
     "summary": "大石奈穂の新作を集めた個展で、「実、また種」という副題のもと銀座の東京本店で開催される。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-19"
+  },
+  {
+    "id": "nichido-garo-20261021-7583f6",
+    "museumId": "nichido-garo",
+    "title": "日動名品展",
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-04",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "芸術の秋を迎えた銀座の東京本店で、11月初旬まで会期中無休で開催される日動画廊の名品展です。",
+    "firstSeenAt": "2026-10-21",
+    "lastSeenAt": "2026-10-21"
   }
 ]
