@@ -149,7 +149,14 @@
     "name": "アンディ・ウォーホル",
     "nameRomaji": "Andy Warhol",
     "aliases": [],
-    "nameKana": "うぉーほるあんでぃ"
+    "nameKana": "うぉーほるあんでぃ",
+    "website": "https://warholfoundation.org/",
+    "sns": {
+      "instagram": "https://www.instagram.com/warholfoundation/",
+      "x": "https://x.com/warholfdn",
+      "facebook": "https://www.facebook.com/warholfoundation"
+    },
+    "snsCheckedAt": "2026-10-22"
   },
   "ann-veronica-janssens": {
     "name": "アン・ヴェロニカ・ヤンセン",
@@ -179,7 +186,8 @@
     "nameRomaji": "Antonio Fontanesi",
     "aliases": [
       "フォンタネージ"
-    ]
+    ],
+    "snsCheckedAt": "2026-10-22"
   },
   "arata-isozaki": {
     "name": "磯崎新",
@@ -341,7 +349,9 @@
   "brie-ruais": {
     "name": "ブリー・ルエイ",
     "nameRomaji": "Brie Ruais",
-    "aliases": []
+    "aliases": [],
+    "website": "http://brieruais.com/",
+    "snsCheckedAt": "2026-10-22"
   },
   "camille-pissarro": {
     "name": "ピサロ",
@@ -473,7 +483,8 @@
     "name": "クリスチャン・マークレー",
     "nameRomaji": "Christian Marclay",
     "aliases": [],
-    "nameKana": "まーくれーくりすちゃん"
+    "nameKana": "まーくれーくりすちゃん",
+    "snsCheckedAt": "2026-10-22"
   },
   "christopher-dresser": {
     "name": "クリストファー・ドレッサー",
@@ -527,7 +538,11 @@
   "daniel-steegmann-mangrane": {
     "name": "ダニエル・スティーグマン・マングラネ",
     "nameRomaji": "Daniel Steegmann Mangrané",
-    "aliases": []
+    "aliases": [],
+    "sns": {
+      "instagram": "https://www.instagram.com/animal_que_no_existeix/"
+    },
+    "snsCheckedAt": "2026-10-22"
   },
   "denzaburo-oku": {
     "name": "奥傳三郎",
@@ -651,7 +666,8 @@
   "emile-galle": {
     "name": "エミール・ガレ",
     "nameRomaji": "Émile Gallé",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "enrico-isamu-oyama": {
     "name": "大山エンリコイサム",
@@ -716,7 +732,9 @@
     "aliases": [
       "ゴンザレス＝トレス"
     ],
-    "nameKana": "ごんざれすとれす"
+    "nameKana": "ごんざれすとれす",
+    "website": "https://www.felixgonzalez-torresfoundation.org/",
+    "snsCheckedAt": "2026-10-22"
   },
   "fernand-leger": {
     "name": "フェルナン・レジェ",
@@ -742,7 +760,8 @@
     "name": "中谷芙二子",
     "nameRomaji": "Fujiko Nakaya",
     "aliases": [],
-    "nameKana": "なかやふじこ"
+    "nameKana": "なかやふじこ",
+    "snsCheckedAt": "2026-10-22"
   },
   "fujio-ishimoto": {
     "name": "石本 藤雄",
@@ -823,7 +842,8 @@
   "gerhard-richter": {
     "name": "ゲルハルト・リヒター",
     "nameRomaji": "Gerhard Richter",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "gerrit-thomas-rietveld": {
     "name": "ヘリット・トーマス・リートフェルト",
@@ -1161,7 +1181,8 @@
     "name": "大木裕之",
     "nameRomaji": "Hiroyuki Oki",
     "aliases": [],
-    "nameKana": "おおきひろゆき"
+    "nameKana": "おおきひろゆき",
+    "snsCheckedAt": "2026-10-22"
   },
   "hisui-sugiura": {
     "name": "杉浦非水",
@@ -1203,7 +1224,8 @@
     "name": "鳩山郁子",
     "nameRomaji": "Ikuko Hatoyama",
     "aliases": [],
-    "nameKana": "はとやまいくこ"
+    "nameKana": "はとやまいくこ",
+    "snsCheckedAt": "2026-10-22"
   },
   "ikuo-hirayama": {
     "name": "平山郁夫",
@@ -1264,7 +1286,8 @@
   "jakkawan-nilthamrong": {
     "name": "ジャッカワーン・ニンタムロン",
     "nameRomaji": "Jakkawan Nilthamrong",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "james-turrell": {
     "name": "ジェームズ・タレル",
@@ -1291,7 +1314,8 @@
   "jean-francois-millet": {
     "name": "ジャン=フランソワ・ミレー",
     "nameRomaji": "Jean-François Millet",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "jeanne-lanvin": {
     "name": "ジャンヌ・ランバン",
@@ -1416,7 +1440,8 @@
     "name": "前田寛治",
     "nameRomaji": "Kanji Maeda",
     "nameKana": "まえだかんじ",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "kanjiro-kawai": {
     "name": "河井寬次郎",
@@ -1447,7 +1472,8 @@
     "name": "本間莞彩",
     "nameRomaji": "Kansai Honma",
     "aliases": [],
-    "nameKana": "ほんまかんさい"
+    "nameKana": "ほんまかんさい",
+    "snsCheckedAt": "2026-10-22"
   },
   "kanzan-shimomura": {
     "name": "下村観山",
@@ -1533,7 +1559,11 @@
     "name": "秋田和徳",
     "nameRomaji": "Kazunori Akita",
     "aliases": [],
-    "nameKana": "あきたかずのり"
+    "nameKana": "あきたかずのり",
+    "sns": {
+      "instagram": "https://www.instagram.com/kazvnoriakita/"
+    },
+    "snsCheckedAt": "2026-10-22"
   },
   "kazuo-okazaki": {
     "name": "岡崎和郎",
@@ -1551,7 +1581,8 @@
     "name": "竹村京",
     "nameRomaji": "Kei Takemura",
     "aliases": [],
-    "nameKana": "たけむらけい"
+    "nameKana": "たけむらけい",
+    "snsCheckedAt": "2026-10-22"
   },
   "keigetsu-kikuchi": {
     "name": "菊池契月",
@@ -1651,7 +1682,8 @@
     "name": "山城見信",
     "nameRomaji": "Kenshin Yamashiro",
     "aliases": [],
-    "nameKana": "やましろけんしん"
+    "nameKana": "やましろけんしん",
+    "snsCheckedAt": "2026-10-22"
   },
   "kenta-ishige": {
     "name": "石毛健太",
@@ -1953,7 +1985,8 @@
   "lucas-arruda": {
     "name": "ルーカス・アルーダ",
     "nameRomaji": "Lucas Arruda",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "lucas-cranach-the-elder": {
     "name": "ルカス・クラーナハ（父）",
@@ -2004,7 +2037,8 @@
   "maija-isola": {
     "name": "マイヤ・イソラ",
     "nameRomaji": "Maija Isola",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "maija-louekari": {
     "name": "マイヤ・ロウエカリ",
@@ -2055,7 +2089,8 @@
     "aliases": [
       "片山真里"
     ],
-    "nameKana": "かたやままり"
+    "nameKana": "かたやままり",
+    "snsCheckedAt": "2026-10-22"
   },
   "maria-farrar": {
     "name": "マリア・ファーラ",
@@ -2071,7 +2106,8 @@
     "name": "森万里子",
     "nameRomaji": "Mariko Mori",
     "aliases": [],
-    "nameKana": "もりまりこ"
+    "nameKana": "もりまりこ",
+    "snsCheckedAt": "2026-10-22"
   },
   "marino-marini": {
     "name": "マリノ・マリーニ",
@@ -2101,7 +2137,8 @@
     "name": "円山応挙",
     "nameRomaji": "Maruyama Okyo",
     "aliases": [],
-    "nameKana": "まるやまおうきょ"
+    "nameKana": "まるやまおうきょ",
+    "snsCheckedAt": "2026-10-22"
   },
   "masaaki-miyasako": {
     "name": "宮廻正明",
@@ -2220,7 +2257,8 @@
     "name": "上原美智子",
     "nameRomaji": "Michiko Uehara",
     "aliases": [],
-    "nameKana": "うえはらみちこ"
+    "nameKana": "うえはらみちこ",
+    "snsCheckedAt": "2026-10-22"
   },
   "michio-fukuoka": {
     "name": "福岡道雄",
@@ -2519,7 +2557,12 @@
   "noemie-goudal": {
     "name": "ノエミ・グダル",
     "nameRomaji": "Noémie Goudal",
-    "aliases": []
+    "aliases": [],
+    "website": "https://noemiegoudal.com",
+    "sns": {
+      "instagram": "https://www.instagram.com/noemiegoudal/"
+    },
+    "snsCheckedAt": "2026-10-22"
   },
   "norihiro-nakae": {
     "name": "中江紀洋",
@@ -2587,7 +2630,8 @@
     "name": "金子鷗亭",
     "nameRomaji": "Otei Kaneko",
     "aliases": [],
-    "nameKana": "かねこおうてい"
+    "nameKana": "かねこおうてい",
+    "snsCheckedAt": "2026-10-22"
   },
   "otolith-group": {
     "name": "オトリス・グループ",
@@ -2626,7 +2670,8 @@
     "aliases": [
       "セザンヌ"
     ],
-    "nameKana": "せざんぬ"
+    "nameKana": "せざんぬ",
+    "snsCheckedAt": "2026-10-22"
   },
   "paul-gauguin": {
     "name": "ゴーガン",
@@ -2653,7 +2698,8 @@
     "nameRomaji": "Pierre-Auguste Renoir",
     "aliases": [
       "ピエール=オーギュスト・ルノワール"
-    ]
+    ],
+    "snsCheckedAt": "2026-10-22"
   },
   "pierre-bonnard": {
     "name": "ボナール",
@@ -2797,7 +2843,8 @@
   "roni-horn": {
     "name": "ロニ・ホーン",
     "nameRomaji": "Roni Horn",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "rui-itasaka": {
     "name": "板坂留五",
@@ -2989,7 +3036,8 @@
     "name": "山鹿清華",
     "nameRomaji": "Seika Yamaga",
     "aliases": [],
-    "nameKana": "やまがせいか"
+    "nameKana": "やまがせいか",
+    "snsCheckedAt": "2026-10-22"
   },
   "sekka-kamisaka": {
     "name": "神坂雪佳",
@@ -3063,7 +3111,8 @@
     "name": "棟方志功",
     "nameRomaji": "Shiko Munakata",
     "aliases": [],
-    "nameKana": "むなかたしこう"
+    "nameKana": "むなかたしこう",
+    "snsCheckedAt": "2026-10-22"
   },
   "shin-egashira": {
     "name": "江頭 慎",
@@ -3106,7 +3155,8 @@
     "name": "ヨシタケシンスケ",
     "nameRomaji": "Shinsuke Yoshitake",
     "aliases": [],
-    "nameKana": "よしたけしんすけ"
+    "nameKana": "よしたけしんすけ",
+    "snsCheckedAt": "2026-10-22"
   },
   "shiori-higashiyama": {
     "name": "東山詩織",
@@ -3293,7 +3343,8 @@
   "steve-bishop": {
     "name": "スティーヴ・ビショップ",
     "nameRomaji": "Steve Bishop",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "stig-lindberg": {
     "name": "スティグ・リンドベリ",
@@ -3303,7 +3354,8 @@
   "su-mei-tse": {
     "name": "スーメイ・ツェ",
     "nameRomaji": "Su-Mei Tse",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-22"
   },
   "sui-taca": {
     "name": "スイ・タカ（塔可）",
@@ -3417,7 +3469,9 @@
     "name": "光島貴之",
     "nameRomaji": "Takayuki Mitsushima",
     "aliases": [],
-    "nameKana": "みつしまたかゆき"
+    "nameKana": "みつしまたかゆき",
+    "website": "https://mitsushima-art.jimdofree.com/",
+    "snsCheckedAt": "2026-10-22"
   },
   "takeji-fujishima": {
     "name": "藤島武二",
@@ -3578,7 +3632,9 @@
     "name": "石田徹也",
     "nameRomaji": "Tetsuya Ishida",
     "aliases": [],
-    "nameKana": "いしだてつや"
+    "nameKana": "いしだてつや",
+    "website": "https://www.tetsuyaishida.jp/71843/",
+    "snsCheckedAt": "2026-10-22"
   },
   "tetsuya-umeda": {
     "name": "Tetsuya Umeda",
@@ -3589,7 +3645,9 @@
   "thao-nguyen-phan": {
     "name": "タオ・グエン・ファン",
     "nameRomaji": "Thao Nguyen Phan",
-    "aliases": []
+    "aliases": [],
+    "website": "http://www.thaonguyenphan.com/",
+    "snsCheckedAt": "2026-10-22"
   },
   "theophile-alexandre-steinlen": {
     "name": "テオフィル・アレクサンドル・スタンラン",
@@ -3663,7 +3721,8 @@
     "name": "土佐光起",
     "nameRomaji": "Tosa Mitsuoki",
     "aliases": [],
-    "nameKana": "とさみつおき"
+    "nameKana": "とさみつおき",
+    "snsCheckedAt": "2026-10-22"
   },
   "tosa-mitsuyoshi": {
     "name": "土佐光吉",
@@ -3966,7 +4025,8 @@
     "name": "今坂庸二朗",
     "nameRomaji": "Yojiro Imasaka",
     "aliases": [],
-    "nameKana": "いまさかようじろう"
+    "nameKana": "いまさかようじろう",
+    "snsCheckedAt": "2026-10-22"
   },
   "yoko-daihara": {
     "name": "䑓原蓉子",
@@ -4129,7 +4189,9 @@
     "name": "藤野裕美子",
     "nameRomaji": "Yumiko Fujino",
     "aliases": [],
-    "nameKana": "ふじのゆみこ"
+    "nameKana": "ふじのゆみこ",
+    "website": "http://yumikofujino.com/",
+    "snsCheckedAt": "2026-10-22"
   },
   "yuriko-asano": {
     "name": "浅野友理子",
