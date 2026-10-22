@@ -187,7 +187,8 @@
     "aliases": [
       "フォンタネージ"
     ],
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "nameKana": "ふぉんたねーじ"
   },
   "arata-isozaki": {
     "name": "磯崎新",
@@ -299,6 +300,12 @@
     "nameRomaji": "Baku Hashimoto",
     "aliases": [],
     "nameKana": "はしもとばく"
+  },
+  "baku-kiyokawa": {
+    "name": "清川漠",
+    "nameRomaji": "Baku Kiyokawa",
+    "nameKana": "きよかわばく",
+    "aliases": []
   },
   "bakufu-ono": {
     "name": "大野麥風",
@@ -473,10 +480,22 @@
     "aliases": [],
     "nameKana": "ちょうぶんさいえいし"
   },
+  "chokunyu-tanomura": {
+    "name": "田能村直入",
+    "nameRomaji": "Chokunyu Tanomura",
+    "nameKana": "たのむらちょくにゅう",
+    "aliases": []
+  },
   "chokusai-uenaka": {
     "name": "植中直斎",
     "nameRomaji": "Chokusai Uenaka",
     "nameKana": "うえなかちょくさい",
+    "aliases": []
+  },
+  "chounminok": {
+    "name": "ChounMinok",
+    "nameRomaji": "ChounMinok",
+    "nameKana": "ちょうんみのく",
     "aliases": []
   },
   "christian-marclay": {
@@ -1078,7 +1097,8 @@
     "aliases": [
       "トゥールーズ=ロートレック"
     ],
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "nameKana": "ろーとれっく"
   },
   "henri-matisse": {
     "name": "マティス",
@@ -1865,6 +1885,12 @@
     "aliases": [],
     "nameKana": "ひらいこうき"
   },
+  "kondaba": {
+    "name": "kondaba",
+    "nameRomaji": "kondaba",
+    "nameKana": "こんだば",
+    "aliases": []
+  },
   "koshiro-onchi": {
     "name": "恩地孝四郎",
     "nameRomaji": "Koshiro Onchi",
@@ -2062,6 +2088,12 @@
     "nameRomaji": "Mami Mori",
     "aliases": [],
     "nameKana": "もうりまみ"
+  },
+  "man-ray": {
+    "name": "マン・レイ",
+    "nameRomaji": "Man Ray",
+    "nameKana": "まんれい",
+    "aliases": []
   },
   "marc-chagall": {
     "name": "マルク・シャガール",
@@ -2495,6 +2527,12 @@
     "name": "木浦奈津子",
     "nameRomaji": "Natsuko Kiura",
     "nameKana": "きうらなつこ",
+    "aliases": []
+  },
+  "natsumi-aoyagi": {
+    "name": "青柳菜摘",
+    "nameRomaji": "Natsumi Aoyagi",
+    "nameKana": "あおやぎなつみ",
     "aliases": []
   },
   "natsuyuki-nakanishi": {
@@ -3379,7 +3417,8 @@
     "name": "シュザンヌ・ヴァラドン",
     "nameRomaji": "Suzanne Valadon",
     "aliases": [],
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "nameKana": "ゔぁらどんしゅざんぬ"
   },
   "sven-fristedt": {
     "name": "スヴェン・フリステット",

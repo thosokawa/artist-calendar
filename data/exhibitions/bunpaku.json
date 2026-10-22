@@ -2,7 +2,7 @@
   {
     "id": "bunpaku-20260919-a5a4ef",
     "museumId": "bunpaku",
-    "title": "特別展「寛永 太平がはぐくむ美」",
+    "title": "寛永行幸四百年祭開催記念 特別展「寛永 太平がはぐくむ美」",
     "startDate": "2026-09-19",
     "endDate": "2026-11-15",
     "kind": "special",
@@ -11,9 +11,27 @@
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "寛永行幸四百年祭の開催を記念し、太平の世となった寛永期に育まれた美を4・3階展示室で紹介する特別展です。",
+    "summary": "寛永行幸から四百年を記念して、泰平の世を迎えた寛永の時代にはぐくまれた美術の魅力を紹介する特別展。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-22"
+  },
+  {
+    "id": "bunpaku-20261003-814910",
+    "museumId": "bunpaku",
+    "title": "田能村直入と近代京都の南画ー自然のアンビエンス",
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-29",
+    "kind": "collection",
+    "artists": [
+      "chokunyu-tanomura"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "南画家田能村直入を中心に、近代の京都で展開した南画の世界を、自然の気配という視点から紹介する展示。",
+    "firstSeenAt": "2026-10-22",
+    "lastSeenAt": "2026-10-22"
   },
   {
     "id": "bunpaku-20261128-99f67f",

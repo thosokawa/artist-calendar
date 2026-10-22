@@ -90,5 +90,38 @@
     "artists": [
       "masayasu-mitsuke"
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "exhibitionId": "bunpaku-20261003-814910",
+    "museumId": "bunpaku",
+    "artists": [
+      "chokunyu-tanomura"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "exhibitionId": "kotaro-nukaga-20261121-115937",
+    "museumId": "kotaro-nukaga",
+    "artists": [
+      "man-ray"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "exhibitionId": "misa-shin-20261104-f80126",
+    "museumId": "misa-shin",
+    "artists": [
+      "natsumi-aoyagi"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "exhibitionId": "yukikomizutani-20261104-2a37c2",
+    "museumId": "yukikomizutani",
+    "artists": [
+      "chounminok",
+      "baku-kiyokawa"
+    ]
   }
 ]

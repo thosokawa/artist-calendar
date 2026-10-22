@@ -7,13 +7,11 @@
     "endDate": "2026-11-08",
     "kind": "special",
     "artists": [],
-    "genres": [
-      "現代美術"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "KOTARO NUKAGAの展示スペースで秋に開かれる展覧会で、11月上旬まで作品を紹介する予定です。",
+    "summary": "KOTARO NUKAGAの展示スペースで秋に開かれている展覧会で、11月上旬まで作品を見ることができます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-19"
+    "lastSeenAt": "2026-10-22"
   },
   {
     "id": "kotaro-nukaga-20261031-6ca5fd",
@@ -23,12 +21,26 @@
     "endDate": "2026-12-19",
     "kind": "special",
     "artists": [],
-    "genres": [
-      "現代美術"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "KOTARO NUKAGAで10月末から年末近くまで開催が予定されている、近日公開の展覧会です。",
+    "summary": "「氷河の日記」を意味するタイトルを掲げた展覧会で、10月末から12月中旬までギャラリーで開かれます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-19"
+    "lastSeenAt": "2026-10-22"
+  },
+  {
+    "id": "kotaro-nukaga-20261121-115937",
+    "museumId": "kotaro-nukaga",
+    "title": "マン・レイ個展",
+    "startDate": "2026-11-21",
+    "endDate": "2026-12-23",
+    "kind": "special",
+    "artists": [
+      "man-ray"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "マン・レイの作品を取り上げる個展で、11月下旬から12月下旬までギャラリーで開催される予定です。",
+    "firstSeenAt": "2026-10-22",
+    "lastSeenAt": "2026-10-22"
   }
 ]

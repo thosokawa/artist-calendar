@@ -8,15 +8,14 @@
     "kind": "special",
     "artists": [
       "nanako-ishihara",
-      "hitoshi-kaneko"
+      "hitoshi-kaneko",
+      "kondaba"
     ],
-    "genres": [
-      "現代美術"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "京都国際舞台芸術祭のKansai Studiesとして、コンダバ川の地形図をテーマに据えた入場無料の展示です。",
+    "summary": "京都国際舞台芸術祭の一環として、関西を探るプログラムから生まれた川の地形図をテーマにした無料の展示です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-22"
   },
   {
     "id": "kyoto-art-center-20261003-986c11",
@@ -26,12 +25,10 @@
     "endDate": "2026-10-25",
     "kind": "special",
     "artists": [],
-    "genres": [
-      "現代美術"
-    ],
+    "genres": [],
     "detailUrl": null,
-    "summary": "京都国際舞台芸術祭の一環として開かれる、Future Dictionaryと題した展示で、芸術祭の会期に合わせて公開されます。",
+    "summary": "京都国際舞台芸術祭2026の関連企画として開かれる、未来の辞書をタイトルに掲げた入場無料の展示です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-22"
   }
 ]

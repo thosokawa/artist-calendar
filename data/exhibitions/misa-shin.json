@@ -16,5 +16,23 @@
     "summary": "ハン・ヨンスの作品を「時間がひらかれていく」という視点から紹介する、南麻布のギャラリーでの個展。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "misa-shin-20261104-f80126",
+    "museumId": "misa-shin",
+    "title": "有り得べき言葉、有り得べき世界",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-05",
+    "kind": "special",
+    "artists": [
+      "natsumi-aoyagi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "アートウィーク東京のフォーカス企画として開かれる青柳菜摘の個展で、会期中の日曜日にも特別に開廊する。",
+    "firstSeenAt": "2026-10-22",
+    "lastSeenAt": "2026-10-22"
   }
 ]

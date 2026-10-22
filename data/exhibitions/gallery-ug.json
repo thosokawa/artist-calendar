@@ -13,9 +13,9 @@
       "現代美術"
     ],
     "detailUrl": null,
-    "summary": "天王洲のギャラリー空間で、川平遼佑の作品を「One Brief Memory」の題のもとに紹介する展覧会です。",
+    "summary": "天王洲のギャラリーで開かれる川平遼佑の展覧会で、短い記憶をテーマにした題名が付けられています。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-22"
   },
   {
     "id": "gallery-ug-20261014-6128fd",
@@ -27,11 +27,13 @@
     "artists": [
       "shigeo-izumi"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "福岡の展示スペースで、作家・泉茂雄を特集アーティストとして取り上げ、その作品を紹介する展示です。",
+    "summary": "福岡の展示スペースで泉茂雄を特集作家として取り上げ、その作品をまとめて紹介する企画です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-22"
   },
   {
     "id": "gallery-ug-20261106-45ddad",
@@ -43,11 +45,13 @@
     "artists": [
       "takaoki-tajima"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "天王洲の展示スペースで開催される、田島享央己の作品を「Life Is Good」と題して見せる展覧会です。",
+    "summary": "田島享央己の作品を天王洲のギャラリーで展示し、人生の肯定を思わせるタイトルを掲げる展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-22"
   },
   {
     "id": "gallery-ug-20261211-b1609f",
@@ -63,8 +67,8 @@
       "現代美術"
     ],
     "detailUrl": null,
-    "summary": "年末に天王洲のギャラリーで開かれる、作家・野村直城の作品をまとめて紹介する個展です。",
+    "summary": "年末に天王洲のギャラリーで開催される野村直城の個展で、作家の近作を紹介する機会となります。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-22"
   }
 ]
