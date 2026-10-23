@@ -2,7 +2,7 @@
   {
     "id": "yugen-gallery-20261121-01c951",
     "museumId": "yugen-gallery",
-    "title": "ocave・佐野直 二人展【福岡】",
+    "title": "ocave & Nao Sano Two-Person Exhibition [Fukuoka]",
     "startDate": "2026-11-21",
     "endDate": "2026-12-20",
     "kind": "special",
@@ -10,10 +10,12 @@
       "ocave",
       "nao-sano"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "ocaveと佐野直という二人の作家の作品を並べて紹介する二人展で、YUGEN Galleryの福岡の展示スペースで開かれる。",
+    "summary": "福岡のYUGEN Galleryで、ocaveとNao Sanoという二人の作家の作品を並べて紹介する、冬の二人展。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-23"
   }
 ]

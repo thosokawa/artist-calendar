@@ -2,7 +2,7 @@
   {
     "id": "yukikomizutani-20261104-2a37c2",
     "museumId": "yukikomizutani",
-    "title": "ChounMinok×清川漠 不可視の風景",
+    "title": "不可視の風景",
     "startDate": "2026-11-04",
     "endDate": "2026-11-28",
     "kind": "special",
@@ -10,10 +10,12 @@
       "chounminok",
       "baku-kiyokawa"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
-    "summary": "ChounMinokと清川漠の二人が「不可視の風景」というタイトルのもとで作品を並べる、YUKIKOMIZUTANIでの二人展。",
+    "summary": "Choun Minokと清川漠の二人が参加し、目に見えない風景をテーマとして掲げる二人展です。",
     "firstSeenAt": "2026-10-22",
-    "lastSeenAt": "2026-10-22"
+    "lastSeenAt": "2026-10-23"
   }
 ]

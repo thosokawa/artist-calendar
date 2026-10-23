@@ -61,6 +61,24 @@
     "lastSeenAt": "2026-10-19"
   },
   {
+    "id": "nmwa-20270320-35b62b",
+    "museumId": "nmwa",
+    "title": "マティス 黒と白の詩学—ピエール＆タナ・マティス財団の版画コレクションを中心に",
+    "startDate": "2027-03-20",
+    "endDate": "2027-07-19",
+    "kind": "special",
+    "artists": [
+      "henri-matisse"
+    ],
+    "genres": [
+      "版画"
+    ],
+    "detailUrl": null,
+    "summary": "ピエール＆タナ・マティス財団が所蔵する版画を軸に、マティスが白と黒で描き出した表現の世界に迫る企画展。",
+    "firstSeenAt": "2026-10-23",
+    "lastSeenAt": "2026-10-23"
+  },
+  {
     "id": "nmwa-20270918-e00f54",
     "museumId": "nmwa",
     "title": "画中画――絵をめぐる絵の冒険。ルネサンスから現代、そのさきへ",
@@ -69,12 +87,11 @@
     "kind": "special",
     "artists": [],
     "genres": [
-      "洋画",
-      "現代美術"
+      "洋画"
     ],
     "detailUrl": null,
-    "summary": "絵の中に描かれた絵に注目し、ルネサンスから現代までの作品を通して絵画の表現をたどる企画展。",
+    "summary": "絵の中に描かれた絵というテーマを手がかりに、ルネサンスから現代までの美術の流れをたどる企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-19"
+    "lastSeenAt": "2026-10-23"
   }
 ]

@@ -2136,7 +2136,8 @@
   "marc-chagall": {
     "name": "マルク・シャガール",
     "nameRomaji": "Marc Chagall",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "しゃがーるまるく"
   },
   "marcantonio-raimondi": {
     "name": "マルカントニオ・ライモンディ",
@@ -2351,7 +2352,8 @@
   "mieczys-aw-gorowski": {
     "name": "ミェチスワフ・グロフスキ",
     "nameRomaji": "Mieczysław Górowski",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "ぐろふすきみぇちすわふ"
   },
   "mieko-shiomi": {
     "name": "塩見允枝子",
@@ -2670,7 +2672,8 @@
     "nameRomaji": "Odilon Redon",
     "aliases": [
       "ルドン"
-    ]
+    ],
+    "nameKana": "るどんおでぃろん"
   },
   "ogata-kenzan": {
     "name": "尾形乾山",
@@ -2724,7 +2727,8 @@
   "otto-kunzli": {
     "name": "オットー・キュンツリ",
     "nameRomaji": "Otto Künzli",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "きゅんつりおっとー"
   },
   "pablo-picasso": {
     "name": "パブロ・ピカソ",
@@ -3417,7 +3421,8 @@
   "stasys-eidrigevicius": {
     "name": "スタシス・エイドリゲヴィチウス",
     "nameRomaji": "Stasys Eidrigevičius",
-    "aliases": []
+    "aliases": [],
+    "nameKana": "えいどりげゔぃちうすすたしす"
   },
   "sterling-ruby": {
     "name": "スターリング・ルビー",
