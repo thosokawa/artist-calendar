@@ -131,5 +131,29 @@
     "artists": [
       "henri-matisse"
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "exhibitionId": "gallery-ug-20261104-2c8776",
+    "museumId": "gallery-ug",
+    "artists": [
+      "osamu-watanabe"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "exhibitionId": "leesaya-20261205-436301",
+    "museumId": "leesaya",
+    "artists": [
+      "shusuke-tanaka"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "exhibitionId": "maki-fine-arts-20261121-83b74c",
+    "museumId": "maki-fine-arts",
+    "artists": [
+      "yuka-hotta"
+    ]
   }
 ]

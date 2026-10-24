@@ -2729,12 +2729,24 @@
     "aliases": [],
     "snsCheckedAt": "2026-10-20"
   },
+  "osamu-kokufu": {
+    "name": "國府理",
+    "nameRomaji": "Osamu Kokufu",
+    "nameKana": "こくふおさむ",
+    "aliases": []
+  },
   "osamu-suzuki": {
     "name": "鈴木治",
     "nameRomaji": "Osamu Suzuki",
     "aliases": [],
     "nameKana": "すずきおさむ",
     "snsCheckedAt": "2026-10-24"
+  },
+  "osamu-watanabe": {
+    "name": "渡辺おさむ",
+    "nameRomaji": "Osamu Watanabe",
+    "nameKana": "わたなべおさむ",
+    "aliases": []
   },
   "otei-kaneko": {
     "name": "金子鷗亭",
@@ -3404,6 +3416,12 @@
     "nameRomaji": "Shuntaro Tanikawa",
     "aliases": [],
     "nameKana": "たにかわしゅんたろう"
+  },
+  "shusuke-tanaka": {
+    "name": "田中秀介",
+    "nameRomaji": "Shusuke Tanaka",
+    "nameKana": "たなかしゅうすけ",
+    "aliases": []
   },
   "shuzo-takiguchi": {
     "name": "瀧口修造",
@@ -4292,6 +4310,12 @@
     "nameRomaji": "Yuji Saiga",
     "aliases": [],
     "nameKana": "さいがゆうじ"
+  },
+  "yuka-hotta": {
+    "name": "堀田ゆうか",
+    "nameRomaji": "Yuka Hotta",
+    "nameKana": "ほったゆうか",
+    "aliases": []
   },
   "yuki-iiyama": {
     "name": "飯山由貴",
