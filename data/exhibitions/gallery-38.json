@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "gallery-38-20261104-1ec169",
+    "museumId": "gallery-38",
+    "title": "LIVING SOIL: Sacred Animal",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "stephanie-quayle"
+    ],
+    "genres": [
+      "彫刻",
+      "現代美術"
+    ],
+    "detailUrl": "https://www.gallery-38.com/current-exhibition",
+    "summary": "マン島を拠点とする作家が、古代の器に残る動物の姿に着想した粘土の新作彫刻を発表する、3年ぶりの個展。",
+    "firstSeenAt": "2026-10-25",
+    "lastSeenAt": "2026-10-25"
+  }
+]
