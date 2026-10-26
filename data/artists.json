@@ -66,19 +66,28 @@
     "name": "中山晃子",
     "nameRomaji": "Akiko Nakayama",
     "aliases": [],
-    "nameKana": "なかやまあきこ"
+    "nameKana": "なかやまあきこ",
+    "website": "https://www.akikopainting.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/akikonkym/",
+      "x": "https://x.com/akikonkym"
+    },
+    "snsCheckedAt": "2026-10-26"
   },
   "akiko-shinzato": {
     "name": "新里明子",
     "nameRomaji": "Akiko Shinzato",
     "aliases": [],
-    "nameKana": "しんざとあきこ"
+    "nameKana": "しんざとあきこ",
+    "snsCheckedAt": "2026-10-26"
   },
   "akino-kondoh": {
     "name": "近藤聡乃",
     "nameRomaji": "Akino Kondoh",
     "nameKana": "こんどうあきの",
-    "aliases": []
+    "aliases": [],
+    "website": "https://akinokondoh.com/",
+    "snsCheckedAt": "2026-10-26"
   },
   "akira-minagawa": {
     "name": "皆川 明",
@@ -179,7 +188,8 @@
     "name": "内間安瑆",
     "nameRomaji": "Ansei Uchima",
     "aliases": [],
-    "nameKana": "うちまあんせい"
+    "nameKana": "うちまあんせい",
+    "snsCheckedAt": "2026-10-26"
   },
   "antonio-fontanesi": {
     "name": "アントニオ・フォンタネージ",
@@ -224,7 +234,8 @@
     "name": "藤倉麻子",
     "nameRomaji": "Asako Fujikura",
     "aliases": [],
-    "nameKana": "ふじくらあさこ"
+    "nameKana": "ふじくらあさこ",
+    "snsCheckedAt": "2026-10-26"
   },
   "asako-tanaka": {
     "name": "田中 朝子",
@@ -302,7 +313,13 @@
     "name": "橋本麦",
     "nameRomaji": "Baku Hashimoto",
     "aliases": [],
-    "nameKana": "はしもとばく"
+    "nameKana": "はしもとばく",
+    "website": "https://baku89.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/_baku89/",
+      "x": "https://x.com/_baku89"
+    },
+    "snsCheckedAt": "2026-10-26"
   },
   "baku-kiyokawa": {
     "name": "清川漠",
@@ -320,13 +337,16 @@
     "name": "土田麦僊",
     "nameRomaji": "Bakusen Tsuchida",
     "aliases": [],
-    "nameKana": "つちだばくせん"
+    "nameKana": "つちだばくせん",
+    "snsCheckedAt": "2026-10-26"
   },
   "banksy": {
     "name": "バンクシー",
     "nameRomaji": "Banksy",
     "nameKana": "ばんくしー",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.banksy.co.uk/",
+    "snsCheckedAt": "2026-10-26"
   },
   "beisen-kubota": {
     "name": "久保田米僊",
@@ -455,7 +475,8 @@
     "name": "北原千鹿",
     "nameRomaji": "Chika Kitahara",
     "aliases": [],
-    "nameKana": "きたはらちか"
+    "nameKana": "きたはらちか",
+    "snsCheckedAt": "2026-10-26"
   },
   "chikako-yamashiro": {
     "name": "山城知佳子",
@@ -522,7 +543,8 @@
     "name": "浅井忠",
     "nameRomaji": "Chu Asai",
     "aliases": [],
-    "nameKana": "あさいちゅう"
+    "nameKana": "あさいちゅう",
+    "snsCheckedAt": "2026-10-26"
   },
   "claude-monet": {
     "name": "クロード・モネ",
@@ -756,7 +778,9 @@
   "felieke-van-der-leest": {
     "name": "フェリカ・ヴァン・デル・リースト",
     "nameRomaji": "Felieke van der Leest",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.feliekevanderleest.com",
+    "snsCheckedAt": "2026-10-26"
   },
   "felix-gonzalez-torres": {
     "name": "フェリックス・ゴンザレス=トレス",
@@ -781,7 +805,9 @@
   "francis-picabia": {
     "name": "フランシス・ピカビア",
     "nameRomaji": "Francis Picabia",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.picabia.com/",
+    "snsCheckedAt": "2026-10-26"
   },
   "francois-hubert-drouais": {
     "name": "フランソワ=ユベール・ドルーエ",
@@ -830,12 +856,14 @@
     "name": "田口史樹",
     "nameRomaji": "Fumiki Taguchi",
     "aliases": [],
-    "nameKana": "たぐちふみき"
+    "nameKana": "たぐちふみき",
+    "snsCheckedAt": "2026-10-26"
   },
   "fumiko-imano": {
     "name": "fumiko imano",
     "nameRomaji": "fumiko imano",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-26"
   },
   "gaku-kurokawa": {
     "name": "黒川岳",
@@ -868,7 +896,8 @@
     "name": "小牧源太郎",
     "nameRomaji": "Gentaro Komaki",
     "aliases": [],
-    "nameKana": "こまきげんたろう"
+    "nameKana": "こまきげんたろう",
+    "snsCheckedAt": "2026-10-26"
   },
   "george-barbier": {
     "name": "ジョルジュ・バルビエ",
@@ -920,7 +949,8 @@
     "name": "五郷",
     "nameRomaji": "Gogo",
     "aliases": [],
-    "nameKana": "ごごう"
+    "nameKana": "ごごう",
+    "snsCheckedAt": "2026-10-26"
   },
   "goji-taniguchi": {
     "name": "谷口午二",
@@ -1382,7 +1412,8 @@
     "name": "ジャン・ポンイー（蒋鹏奕）",
     "nameRomaji": "Jiang Pengyi",
     "aliases": [],
-    "nameKana": "じゃんぽんいー"
+    "nameKana": "じゃんぽんいー",
+    "snsCheckedAt": "2026-10-26"
   },
   "jimmy-onishi": {
     "name": "ジミー大西",
@@ -1442,7 +1473,8 @@
     "name": "丸山純子",
     "nameRomaji": "Junko Maruyama",
     "aliases": [],
-    "nameKana": "まるやまじゅんこ"
+    "nameKana": "まるやまじゅんこ",
+    "snsCheckedAt": "2026-10-26"
   },
   "kaai-tsuji": {
     "name": "辻可愛",
@@ -1512,7 +1544,8 @@
     "name": "河井寬次郎",
     "nameRomaji": "Kanjiro Kawai",
     "aliases": [],
-    "nameKana": "かわいかんじろう"
+    "nameKana": "かわいかんじろう",
+    "snsCheckedAt": "2026-10-26"
   },
   "kano-eitoku": {
     "name": "狩野永徳",
@@ -1555,7 +1588,12 @@
   "karl-fritsch": {
     "name": "カール・フリッチ",
     "nameRomaji": "Karl Fritsch",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.karl-fritsch.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/karlfritschrings/"
+    },
+    "snsCheckedAt": "2026-10-26"
   },
   "katsuhisa-sato": {
     "name": "佐藤克久",
@@ -1614,7 +1652,8 @@
     "name": "伊藤一廣",
     "nameRomaji": "Kazuhiro Ito",
     "aliases": [],
-    "nameKana": "いとうかずひろ"
+    "nameKana": "いとうかずひろ",
+    "snsCheckedAt": "2026-10-26"
   },
   "kazuko-enomoto": {
     "name": "榎本和子",
@@ -1942,7 +1981,8 @@
     "name": "平井亨季",
     "nameRomaji": "Koki Hirai",
     "aliases": [],
-    "nameKana": "ひらいこうき"
+    "nameKana": "ひらいこうき",
+    "snsCheckedAt": "2026-10-26"
   },
   "kondaba": {
     "name": "kondaba",
@@ -1980,19 +2020,22 @@
     "name": "菅井汲",
     "nameRomaji": "Kumi Sugai",
     "aliases": [],
-    "nameKana": "すがいくみ"
+    "nameKana": "すがいくみ",
+    "snsCheckedAt": "2026-10-26"
   },
   "kunihiko-sasaki": {
     "name": "佐々木邦彦",
     "nameRomaji": "Kunihiko Sasaki",
     "aliases": [],
-    "nameKana": "ささきくにひこ"
+    "nameKana": "ささきくにひこ",
+    "snsCheckedAt": "2026-10-26"
   },
   "kunitora-utagawa": {
     "name": "歌川国虎",
     "nameRomaji": "Kunitora Utagawa",
     "aliases": [],
-    "nameKana": "うたがわくにとら"
+    "nameKana": "うたがわくにとら",
+    "snsCheckedAt": "2026-10-26"
   },
   "kuniyoshi-utagawa": {
     "name": "歌川国芳",
@@ -2011,7 +2054,8 @@
     "name": "都築響一",
     "nameRomaji": "Kyoichi Tsuzuki",
     "aliases": [],
-    "nameKana": "つづききょういち"
+    "nameKana": "つづききょういち",
+    "snsCheckedAt": "2026-10-26"
   },
   "kyoko-shindo": {
     "name": "新藤杏子",
@@ -2109,7 +2153,12 @@
     "name": "ルオ・ヤン（罗洋）",
     "nameRomaji": "Luo Yang",
     "aliases": [],
-    "nameKana": "るおやん"
+    "nameKana": "るおやん",
+    "website": "http://www.luoyangphoto.com",
+    "sns": {
+      "instagram": "https://www.instagram.com/luoyangggg/"
+    },
+    "snsCheckedAt": "2026-10-26"
   },
   "maeda-kinpu": {
     "name": "前田錦楓",
@@ -2186,7 +2235,9 @@
   "mari-ishikawa": {
     "name": "いしかわまり",
     "nameRomaji": "Mari Ishikawa",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.mari-ishikawa.de",
+    "snsCheckedAt": "2026-10-26"
   },
   "mari-katayama": {
     "name": "片山真理",
@@ -2635,7 +2686,8 @@
     "name": "中西夏之",
     "nameRomaji": "Natsuyuki Nakanishi",
     "aliases": [],
-    "nameKana": "なかにしなつゆき"
+    "nameKana": "なかにしなつゆき",
+    "snsCheckedAt": "2026-10-26"
   },
   "neutral-colors": {
     "name": "NEUTRAL COLORS",
@@ -3125,7 +3177,8 @@
     "name": "彭城貞徳",
     "nameRomaji": "Sadanori Sakaki",
     "aliases": [],
-    "nameKana": "さかきていとく"
+    "nameKana": "さかきていとく",
+    "snsCheckedAt": "2026-10-26"
   },
   "salvador-dali": {
     "name": "サルバドール・ダリ",
@@ -3278,7 +3331,8 @@
     "name": "長谷川繁",
     "nameRomaji": "Shigeru Hasegawa",
     "aliases": [],
-    "nameKana": "はせがわしげる"
+    "nameKana": "はせがわしげる",
+    "snsCheckedAt": "2026-10-26"
   },
   "shiho-sakakibara": {
     "name": "榊原紫峰",
@@ -3315,7 +3369,9 @@
     "name": "大竹伸朗",
     "nameRomaji": "Shinro Ohtake",
     "nameKana": "おおたけしんろう",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.ohtakeshinro.com",
+    "snsCheckedAt": "2026-10-26"
   },
   "shinsen-tokuoka": {
     "name": "徳岡神泉",
@@ -3372,7 +3428,8 @@
     "name": "井田照一",
     "nameRomaji": "Shoichi Ida",
     "aliases": [],
-    "nameKana": "いだしょういち"
+    "nameKana": "いだしょういち",
+    "snsCheckedAt": "2026-10-26"
   },
   "shoichi-mizuno": {
     "name": "水野正一",
@@ -3415,7 +3472,8 @@
     "name": "小山正太郎",
     "nameRomaji": "Shotaro Koyama",
     "aliases": [],
-    "nameKana": "こやましょうたろう"
+    "nameKana": "こやましょうたろう",
+    "snsCheckedAt": "2026-10-26"
   },
   "shounsai-shono": {
     "name": "生野祥雲斎",
@@ -3652,7 +3710,13 @@
     "name": "村上隆",
     "nameRomaji": "Takashi Murakami",
     "nameKana": "むらかみたかし",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.kaikaikiki.com/en/artists/takashi_murakami/",
+    "sns": {
+      "instagram": "https://www.instagram.com/takashipom/",
+      "x": "https://x.com/takashipom"
+    },
+    "snsCheckedAt": "2026-10-26"
   },
   "takashi-suzuki": {
     "name": "鈴木崇",
@@ -3999,7 +4063,8 @@
     "aliases": [
       "写楽"
     ],
-    "nameKana": "とうしゅうさいしゃらく"
+    "nameKana": "とうしゅうさいしゃらく",
+    "snsCheckedAt": "2026-10-26"
   },
   "tove-jansson": {
     "name": "トーベ",
@@ -4078,7 +4143,8 @@
     "aliases": [
       "広重"
     ],
-    "nameKana": "うたがわひろしげ"
+    "nameKana": "うたがわひろしげ",
+    "snsCheckedAt": "2026-10-26"
   },
   "utagawa-kunisada": {
     "name": "歌川国貞",
@@ -4150,12 +4216,14 @@
   "wies-aw-wa-kuski": {
     "name": "ヴィエスワフ・ヴァウクスキ",
     "nameRomaji": "Wiesław Wałkuski",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-26"
   },
   "wiktor-sadowski": {
     "name": "ヴィクトル・サドフスキ",
     "nameRomaji": "Wiktor Sadowski",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-26"
   },
   "wilhelm-kage": {
     "name": "ヴィルヘルム・コーゲ",
@@ -4321,7 +4389,8 @@
     "name": "吉村周山",
     "nameRomaji": "Yoshimura Shuzan",
     "aliases": [],
-    "nameKana": "よしむらしゅうざん"
+    "nameKana": "よしむらしゅうざん",
+    "snsCheckedAt": "2026-10-26"
   },
   "yoshitaka-kurashige": {
     "name": "倉茂義隆",
