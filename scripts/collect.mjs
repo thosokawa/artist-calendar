@@ -82,7 +82,8 @@ let addedCount = 0;
 const museums = readdirSync(join(root, 'data/museums')).filter((f) => f.endsWith('.json')).map((f) => readJson(join(root, 'data/museums', f)));
 for (const museum of museums) {
   if (only?.length && !only.includes(museum.id)) continue;
-  if (museum.status === 'closed') continue;
+  // 'unreadable': the site turns automated readers away (bot checks); people follow the official link instead.
+  if (museum.status === 'closed' || museum.status === 'unreadable') continue;
   const st = (status[museum.id] ??= { failures: 0 });
   let text;
   try {

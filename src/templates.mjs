@@ -191,7 +191,7 @@ export function museumPage({ site, m, ctx, shows }) {
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
   return layout({ site, path: `/museums/${m.id}/`, title: `${m.name}の展覧会`, description: `${m.name}（${m.prefecture}${m.city}）の開催中・開催予定の展覧会。`, body: `
 ${pageHead(m.kind === 'gallery' ? 'GALLERY' : 'MUSEUM', esc(m.name), esc(m.prefecture) + esc(m.city), `<p class="head-links"><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a><a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a>${snsRow(m.sns, m.name)}</p>`)}
-${m.status === 'closed' ? '<p class="note">現在休館中です。</p>' : ''}
+${m.status === 'closed' ? '<p class="note">現在休館中です。</p>' : ''}${m.status === 'unreadable' ? '<p class="note">この施設の公式サイトは自動で読み取れないため、展覧会情報は公式サイトでご確認ください。</p>' : ''}
 <h2>開催中</h2>${list(by('current'), ctx, { showMuseum: false })}
 <h2>開催予定</h2>${list(by('upcoming'), ctx, { showMuseum: false })}` });
 }
