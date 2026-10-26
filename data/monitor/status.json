@@ -100,10 +100,10 @@
     "hash": "627901a9e9d5711786158e537379977ae6267357e17d32b51465af2039416681"
   },
   "mot": {
-    "failures": 11,
+    "failures": 12,
     "lastCheckedAt": "2026-10-17T02:22:34.215Z",
     "hash": "166c2302f2830e9ebb5965fe752ad474eef53449cadfa141fd910e3bd12c2a35",
-    "lastError": "2026-10-25: error page: 404 Not Found | 東京都現代美術館｜MUSEUM OF CONTEMPORARY ART TOKYO 本文"
+    "lastError": "2026-10-26: error page: 404 Not Found | 東京都現代美術館｜MUSEUM OF CONTEMPORARY ART TOKYO 本文"
   },
   "nact": {
     "failures": 0,
