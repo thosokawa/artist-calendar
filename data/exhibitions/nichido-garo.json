@@ -25,8 +25,24 @@
     "artists": [],
     "genres": [],
     "detailUrl": null,
-    "summary": "芸術の秋を迎えた銀座の東京本店で、11月初旬まで会期中無休で開催される日動画廊の名品展です。",
+    "summary": "芸術の秋に合わせて日動画廊が選りすぐりの名品を紹介する展覧会で、東京本店で会期中無休で開かれます。",
     "firstSeenAt": "2026-10-21",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-26"
+  },
+  {
+    "id": "nichido-garo-20261106-3369f7",
+    "museumId": "nichido-garo",
+    "title": "山本雄三展 陰影礼賛から...",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-18",
+    "kind": "special",
+    "artists": [
+      "yuzo-yamamoto"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "山本雄三による新作を集めた個展で、銀座の東京本店にて日曜休廊で11月中旬まで開催されます。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
   }
 ]

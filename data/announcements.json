@@ -169,5 +169,66 @@
     "exhibitionId": "setagaya-20270213-6cbf53",
     "museumId": "setagaya",
     "artists": []
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "aichi-20261030-747604",
+    "museumId": "aichi",
+    "artists": []
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nezu-20270417-476086",
+    "museumId": "nezu",
+    "artists": [
+      "ogata-korin",
+      "tawaraya-sotatsu"
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nezu-20270529-9f3014",
+    "museumId": "nezu",
+    "artists": []
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nezu-20270828-9b0931",
+    "museumId": "nezu",
+    "artists": []
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nezu-20271030-943bda",
+    "museumId": "nezu",
+    "artists": [
+      "sesshu"
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nezu-20271211-7c6251",
+    "museumId": "nezu",
+    "artists": []
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nezu-20280226-0a7e16",
+    "museumId": "nezu",
+    "artists": []
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "nichido-garo-20261106-3369f7",
+    "museumId": "nichido-garo",
+    "artists": [
+      "yuzo-yamamoto"
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "exhibitionId": "yugen-gallery-20261121-965361",
+    "museumId": "yugen-gallery",
+    "artists": []
   }
 ]

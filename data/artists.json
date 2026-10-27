@@ -2785,6 +2785,12 @@
     "aliases": [],
     "nameKana": "おがたけんざん"
   },
+  "ogata-korin": {
+    "name": "尾形光琳",
+    "nameRomaji": "Ogata Korin",
+    "nameKana": "おがたこうりん",
+    "aliases": []
+  },
   "oi-katsushika": {
     "name": "葛飾応為",
     "nameRomaji": "Oi Katsushika",
@@ -2907,7 +2913,8 @@
     "aliases": [
       "ピエール=オーギュスト・ルノワール"
     ],
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "nameKana": "るのわーる"
   },
   "pierre-bonnard": {
     "name": "ボナール",
@@ -3300,6 +3307,12 @@
     "aliases": [],
     "nameKana": "なかむらせんせき",
     "snsCheckedAt": "2026-10-24"
+  },
+  "sesshu": {
+    "name": "雪舟",
+    "nameRomaji": "Sesshu",
+    "nameKana": "せっしゅう",
+    "aliases": []
   },
   "setsuko-migishi": {
     "name": "三岸節子",
@@ -4552,6 +4565,12 @@
     "aliases": [],
     "nameKana": "さえきゆうぞう",
     "snsCheckedAt": "2026-10-21"
+  },
+  "yuzo-yamamoto": {
+    "name": "山本雄三",
+    "nameRomaji": "Yuzo Yamamoto",
+    "nameKana": "やまもとゆうぞう",
+    "aliases": []
   },
   "zai-nomura": {
     "name": "野村在",

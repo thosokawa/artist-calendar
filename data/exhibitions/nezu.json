@@ -29,9 +29,9 @@
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "大陸から伝わった楽舞を基に日本で育った舞楽の装束を、華やかな裂や装飾品の細部まで含めて紹介する特別展。",
+    "summary": "日本の古典芸能である舞楽の装束を取り上げ、華やかな裂や装飾品の細部に宿る美しさを紹介する特別展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-26"
   },
   {
     "id": "nezu-20261024-53e353",
@@ -80,9 +80,9 @@
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "彫漆や鎌倉彫、鎗金、蒟醤など、彫りによって表す漆芸の技法を東アジア各地の多様な作例から探る企画展。",
+    "summary": "彫漆や鎌倉彫、蒟醤など、彫ることで模様を表す漆工技術を東アジア各地の多様な作例とともに紹介します。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-26"
   },
   {
     "id": "nezu-20261205-dc441d",
@@ -124,16 +124,16 @@
     "title": "根津美術館の仏像コレクション",
     "startDate": "2027-01-30",
     "endDate": "2027-03-28",
-    "kind": "special",
+    "kind": "collection",
     "artists": [],
     "genres": [
       "彫刻",
       "古美術"
     ],
     "detailUrl": null,
-    "summary": "私立美術館として屈指の質と量を誇る館蔵の仏像から優れた作品を厳選し、収集の全体像を示す企画展です。",
+    "summary": "私立美術館として屈指の質と量を誇る館蔵の仏像から優れた作品を選び、コレクションの全体像を示す展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-26"
   },
   {
     "id": "nezu-20270130-252266",
@@ -150,5 +150,112 @@
     "summary": "幕末から明治にかけての都市や名所を描いた泥絵を取り上げ、展示室5で紹介する同時開催の展示です。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-23"
+  },
+  {
+    "id": "nezu-20270417-476086",
+    "museumId": "nezu",
+    "title": "国宝「燕子花図屏風」と琳派の草花図",
+    "startDate": "2027-04-17",
+    "endDate": "2027-05-16",
+    "kind": "special",
+    "artists": [
+      "ogata-korin",
+      "tawaraya-sotatsu"
+    ],
+    "genres": [
+      "日本画",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "尾形光琳の国宝「燕子花図屏風」を中心に、宗達以来の伝統や琳派の影響を受けた草花図をあわせて楽しめます。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
+  },
+  {
+    "id": "nezu-20270529-9f3014",
+    "museumId": "nezu",
+    "title": "新・館蔵の茶碗百撰",
+    "startDate": "2027-05-29",
+    "endDate": "2027-07-25",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "館蔵の茶の湯の茶碗約230点から新収蔵品を含む100点を厳選し、33年ぶり5度目となる百碗展を開催します。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
+  },
+  {
+    "id": "nezu-20270828-9b0931",
+    "museumId": "nezu",
+    "title": "文房具にときめいて",
+    "startDate": "2027-08-28",
+    "endDate": "2027-10-11",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "館蔵の漆工品を中心に、贅を尽くした洗練の文房具をその歴史の流れとあわせて紹介する企画展です。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
+  },
+  {
+    "id": "nezu-20271030-943bda",
+    "museumId": "nezu",
+    "title": "雪舟 若き日の軌跡",
+    "startDate": "2027-10-30",
+    "endDate": "2027-11-28",
+    "kind": "special",
+    "artists": [
+      "sesshu"
+    ],
+    "genres": [
+      "日本画",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "「拙宗」と名乗った時代の新出作品を軸に、水墨画の巨匠雪舟の謎に包まれた前半生の画業をたどります。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
+  },
+  {
+    "id": "nezu-20271211-7c6251",
+    "museumId": "nezu",
+    "title": "筆者不詳の近世絵画―17世紀絵画史を彩る華―",
+    "startDate": "2027-12-11",
+    "endDate": "2028-02-13",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "日本画",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "署名のない17世紀の屏風や絵巻の優品を集め、描き手に思いを巡らせながら多彩な魅力を味わう展覧会です。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
+  },
+  {
+    "id": "nezu-20280226-0a7e16",
+    "museumId": "nezu",
+    "title": "禅僧の文雅",
+    "startDate": "2028-02-26",
+    "endDate": "2028-03-31",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "書",
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "唐詩を記した墨蹟や自作の詩を添えた詩画軸を通して、中世の禅僧たちが愛した詩と画の世界を紹介します。",
+    "firstSeenAt": "2026-10-26",
+    "lastSeenAt": "2026-10-26"
   }
 ]
