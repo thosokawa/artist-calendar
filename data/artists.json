@@ -2,7 +2,8 @@
   "2m26": {
     "name": "2m26",
     "nameRomaji": "2m26",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "aguri-uchida": {
     "name": "内田あぐり",
@@ -48,7 +49,8 @@
     "name": "田村彰英",
     "nameRomaji": "Akihide Tamura",
     "aliases": [],
-    "nameKana": "たむらあきひで"
+    "nameKana": "たむらあきひで",
+    "snsCheckedAt": "2026-10-27"
   },
   "akiko": {
     "name": "明子",
@@ -110,7 +112,12 @@
   "alberto-giacometti": {
     "name": "アルベルト・ジャコメッティ",
     "nameRomaji": "Alberto Giacometti",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.fondation-giacometti.fr/",
+    "sns": {
+      "instagram": "https://www.instagram.com/fondation_giacometti/"
+    },
+    "snsCheckedAt": "2026-10-27"
   },
   "albrecht-durer": {
     "name": "アルブレヒト・デューラー",
@@ -132,7 +139,9 @@
   "alphonse-mucha": {
     "name": "アルフォンス・ミュシャ",
     "nameRomaji": "Alphonse Mucha",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.muchafoundation.org/en",
+    "snsCheckedAt": "2026-10-27"
   },
   "amedeo-modigliani": {
     "name": "アメデオ・モディリアーニ",
@@ -171,7 +180,8 @@
     "name": "アン・ヴェロニカ・ヤンセン",
     "nameRomaji": "Ann Veronica Janssens",
     "nameKana": "やんせんあんゔぇろにか",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "anna-glantz": {
     "name": "アナ・グランツ",
@@ -375,7 +385,8 @@
     "name": "砂澤ビッキ",
     "nameRomaji": "Bikky Sunazawa",
     "aliases": [],
-    "nameKana": "すなざわびっき"
+    "nameKana": "すなざわびっき",
+    "snsCheckedAt": "2026-10-27"
   },
   "brie-ruais": {
     "name": "ブリー・ルエイ",
@@ -405,7 +416,13 @@
   "charles-and-ray-eames": {
     "name": "チャールズ＆レイ・イームズ",
     "nameRomaji": "Charles and Ray Eames",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.eamesoffice.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/eamesoffice/",
+      "x": "https://x.com/EamesOffice"
+    },
+    "snsCheckedAt": "2026-10-27"
   },
   "charles-meryon": {
     "name": "シャルル・メリヨン",
@@ -537,7 +554,8 @@
   "christopher-dresser": {
     "name": "クリストファー・ドレッサー",
     "nameRomaji": "Christopher Dresser",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "chu-asai": {
     "name": "浅井忠",
@@ -629,12 +647,19 @@
     "nameKana": "むんくえどゔぁると",
     "aliases": [
       "エドヴァルト・ムンク"
-    ]
+    ],
+    "snsCheckedAt": "2026-10-27"
   },
   "edward-gorey": {
     "name": "エドワード・ゴーリー",
     "nameRomaji": "Edward Gorey",
-    "aliases": []
+    "aliases": [],
+    "website": "https://edwardgorey.org/",
+    "sns": {
+      "instagram": "https://www.instagram.com/edwardgoreytrust/",
+      "x": "https://x.com/GoreyTrust"
+    },
+    "snsCheckedAt": "2026-10-27"
   },
   "ei-arakawa-nash": {
     "name": "荒川ナッシュ医",
@@ -680,7 +705,8 @@
     "name": "絵金",
     "nameRomaji": "Ekin",
     "aliases": [],
-    "nameKana": "えきん"
+    "nameKana": "えきん",
+    "snsCheckedAt": "2026-10-27"
   },
   "el-greco": {
     "name": "エル・グレコ",
@@ -691,7 +717,8 @@
     "name": "エレナ・トゥタッチコワ",
     "nameRomaji": "Elena Tutatchikova",
     "aliases": [],
-    "nameKana": "とぅたっちこわえれな"
+    "nameKana": "とぅたっちこわえれな",
+    "snsCheckedAt": "2026-10-27"
   },
   "ellen-thesleff": {
     "name": "エレン・テスレフ",
@@ -731,7 +758,8 @@
   "enzo-mari": {
     "name": "エンツォ・マーリ",
     "nameRomaji": "Enzo Mari",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "eri-takashima": {
     "name": "高島衣里",
@@ -766,7 +794,8 @@
   "eugene-delacroix": {
     "name": "ドラクロワ",
     "nameRomaji": "Eugène Delacroix",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "felice-rix-ueno": {
     "name": "上野リチ・リックス",
@@ -938,7 +967,9 @@
     "name": "永井豪",
     "nameRomaji": "Go Nagai",
     "aliases": [],
-    "nameKana": "ながいごう"
+    "nameKana": "ながいごう",
+    "website": "http://www.dynamicproduction.co.jp/",
+    "snsCheckedAt": "2026-10-27"
   },
   "gocken-jobs": {
     "name": "ゴッケン・ヨブス",
@@ -1028,13 +1059,15 @@
     "name": "白隠",
     "nameRomaji": "Hakuin",
     "aliases": [],
-    "nameKana": "はくいん"
+    "nameKana": "はくいん",
+    "snsCheckedAt": "2026-10-27"
   },
   "hakuin-ekaku": {
     "name": "白隠慧鶴",
     "nameRomaji": "Hakuin Ekaku",
     "aliases": [],
-    "nameKana": "はくいんえかく"
+    "nameKana": "はくいんえかく",
+    "snsCheckedAt": "2026-10-27"
   },
   "han-youngsoo": {
     "name": "ハン・ヨンス",
@@ -1095,7 +1128,8 @@
     "name": "長谷川春子",
     "nameRomaji": "Haruko Hasegawa",
     "aliases": [],
-    "nameKana": "はせがわはるこ"
+    "nameKana": "はせがわはるこ",
+    "snsCheckedAt": "2026-10-27"
   },
   "harunobu-suzuki": {
     "name": "鈴木春信",
@@ -1291,7 +1325,8 @@
   "honore-daumier": {
     "name": "ドーミエ",
     "nameRomaji": "Honoré Daumier",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "ike-no-taiga": {
     "name": "池大雅",
@@ -1531,7 +1566,8 @@
     "name": "板倉鼎",
     "nameRomaji": "Kanae Itakura",
     "aliases": [],
-    "nameKana": "いたくらかなえ"
+    "nameKana": "いたくらかなえ",
+    "snsCheckedAt": "2026-10-27"
   },
   "kanji-maeda": {
     "name": "前田寛治",
@@ -2789,7 +2825,8 @@
     "name": "尾形光琳",
     "nameRomaji": "Ogata Korin",
     "nameKana": "おがたこうりん",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "oi-katsushika": {
     "name": "葛飾応為",
@@ -2855,7 +2892,8 @@
     "name": "オットー・キュンツリ",
     "nameRomaji": "Otto Künzli",
     "aliases": [],
-    "nameKana": "きゅんつりおっとー"
+    "nameKana": "きゅんつりおっとー",
+    "snsCheckedAt": "2026-10-27"
   },
   "pablo-picasso": {
     "name": "パブロ・ピカソ",
@@ -2939,7 +2977,12 @@
   "pipilotti-rist": {
     "name": "ピピロッティ・リスト",
     "nameRomaji": "Pipilotti Rist",
-    "aliases": []
+    "aliases": [],
+    "website": "https://pipilottirist.net/",
+    "sns": {
+      "instagram": "https://www.instagram.com/pipilotti_rist_studio/"
+    },
+    "snsCheckedAt": "2026-10-27"
   },
   "qiu-ying": {
     "name": "仇英",
@@ -3030,7 +3073,8 @@
     "name": "水野廬朝",
     "nameRomaji": "Rocho Mizuno",
     "aliases": [],
-    "nameKana": "みずのろちょう"
+    "nameKana": "みずのろちょう",
+    "snsCheckedAt": "2026-10-27"
   },
   "rodolphe-bresdin": {
     "name": "ロドルフ・ブレスダン",
@@ -3246,7 +3290,12 @@
     "name": "市田小百合",
     "nameRomaji": "Sayuri Ichida",
     "aliases": [],
-    "nameKana": "いちださゆり"
+    "nameKana": "いちださゆり",
+    "website": "https://www.sayuriichida.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/the_final_view/"
+    },
+    "snsCheckedAt": "2026-10-27"
   },
   "seiho-takeuchi": {
     "name": "竹内栖鳳",
@@ -3312,7 +3361,8 @@
     "name": "雪舟",
     "nameRomaji": "Sesshu",
     "nameKana": "せっしゅう",
-    "aliases": []
+    "aliases": [],
+    "snsCheckedAt": "2026-10-27"
   },
   "setsuko-migishi": {
     "name": "三岸節子",
@@ -3569,7 +3619,8 @@
     "name": "田村宗立",
     "nameRomaji": "Soritsu Tamura",
     "aliases": [],
-    "nameKana": "たむらそうりつ"
+    "nameKana": "たむらそうりつ",
+    "snsCheckedAt": "2026-10-27"
   },
   "sosetsu-kitagawa": {
     "name": "喜多川相説",
@@ -3630,7 +3681,8 @@
     "name": "スイ・タカ（塔可）",
     "nameRomaji": "Sui Taca",
     "aliases": [],
-    "nameKana": "すいたか"
+    "nameKana": "すいたか",
+    "snsCheckedAt": "2026-10-27"
   },
   "suma-maruki": {
     "name": "丸木スマ",
@@ -3813,7 +3865,13 @@
     "name": "苅部太郎",
     "nameRomaji": "Taro Karibe",
     "aliases": [],
-    "nameKana": "かりべたろう"
+    "nameKana": "かりべたろう",
+    "website": "https://www.tarokaribe.com/",
+    "sns": {
+      "instagram": "https://www.instagram.com/tarokaribe/",
+      "x": "https://x.com/tarokaribe"
+    },
+    "snsCheckedAt": "2026-10-27"
   },
   "taro-okamoto": {
     "name": "岡本太郎",
@@ -3864,7 +3922,8 @@
     "name": "俵屋宗達",
     "nameRomaji": "Tawaraya Sotatsu",
     "aliases": [],
-    "nameKana": "たわらやそうたつ"
+    "nameKana": "たわらやそうたつ",
+    "snsCheckedAt": "2026-10-27"
   },
   "tayoko-ikuta": {
     "name": "生田丹代子",
@@ -3876,13 +3935,16 @@
   "ted-noten": {
     "name": "テッド・ノーテン",
     "nameRomaji": "Ted Noten",
-    "aliases": []
+    "aliases": [],
+    "website": "https://www.tednoten.com",
+    "snsCheckedAt": "2026-10-27"
   },
   "teppei-sako": {
     "name": "迫 鉄平",
     "nameRomaji": "Teppei Sako",
     "aliases": [],
-    "nameKana": "さこてっぺい"
+    "nameKana": "さこてっぺい",
+    "snsCheckedAt": "2026-10-27"
   },
   "teppei-ujiyama": {
     "name": "宇治山哲平",
@@ -4037,13 +4099,15 @@
     "name": "蒔田俊親",
     "nameRomaji": "Toshichika Makita",
     "aliases": [],
-    "nameKana": "まきたとしちか"
+    "nameKana": "まきたとしちか",
+    "snsCheckedAt": "2026-10-27"
   },
   "toshiko-uchima": {
     "name": "内間俊子",
     "nameRomaji": "Toshiko Uchima",
     "aliases": [],
-    "nameKana": "うちまとしこ"
+    "nameKana": "うちまとしこ",
+    "snsCheckedAt": "2026-10-27"
   },
   "toshio-arimoto": {
     "name": "有元利夫",
@@ -4068,7 +4132,8 @@
     "name": "村越としや",
     "nameRomaji": "Toshiya Murakoshi",
     "aliases": [],
-    "nameKana": "むらこしとしや"
+    "nameKana": "むらこしとしや",
+    "snsCheckedAt": "2026-10-27"
   },
   "toshusai-sharaku": {
     "name": "東洲斎写楽",
@@ -4208,7 +4273,8 @@
     "name": "ワン・トゥオ（王拓）",
     "nameRomaji": "Wang Tuo",
     "aliases": [],
-    "nameKana": "わんとぅお"
+    "nameKana": "わんとぅお",
+    "snsCheckedAt": "2026-10-27"
   },
   "wang-yiting": {
     "name": "王一亭",
@@ -4265,7 +4331,8 @@
     "name": "菱田安彦",
     "nameRomaji": "Yasuhiko Hishida",
     "aliases": [],
-    "nameKana": "ひしだやすひこ"
+    "nameKana": "ひしだやすひこ",
+    "snsCheckedAt": "2026-10-27"
   },
   "yasuhiro-ishimoto": {
     "name": "石元泰博",
@@ -4284,7 +4351,8 @@
     "name": "平松保城",
     "nameRomaji": "Yasuki Hiramatsu",
     "aliases": [],
-    "nameKana": "ひらまつやすき"
+    "nameKana": "ひらまつやすき",
+    "snsCheckedAt": "2026-10-27"
   },
   "yasumasa-morimura": {
     "name": "森村泰昌",
@@ -4445,7 +4513,8 @@
     "name": "小嶋悠司",
     "nameRomaji": "Yuji Kojima",
     "aliases": [],
-    "nameKana": "こじまゆうじ"
+    "nameKana": "こじまゆうじ",
+    "snsCheckedAt": "2026-10-27"
   },
   "yuji-saiga": {
     "name": "雜賀雄二",
@@ -4576,7 +4645,8 @@
     "name": "野村在",
     "nameRomaji": "Zai Nomura",
     "aliases": [],
-    "nameKana": "のむらざい"
+    "nameKana": "のむらざい",
+    "snsCheckedAt": "2026-10-27"
   },
   "zentaro-tsuchida": {
     "name": "土田善太郎",
