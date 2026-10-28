@@ -59,8 +59,12 @@ export function mergeExhibitions({ museumId, stored, fresh, registry, today }) {
     };
     const prev = out.find((e) => sameShow(e, x));
     if (prev) {
-      // Keep the id and first-seen date; take the newer wording and dates.
-      Object.assign(prev, x, { artists: [...new Set([...prev.artists, ...x.artists])], lastSeenAt: today });
+      // Keep the id, first-seen date and how the show was first described (kind, genres, summary),
+      // so a later re-read does not churn them; take the newer title, dates and link.
+      Object.assign(prev, { title: x.title, startDate: x.startDate, endDate: x.endDate, detailUrl: x.detailUrl ?? prev.detailUrl ?? null },
+        { artists: [...new Set([...prev.artists, ...x.artists])], lastSeenAt: today });
+      if (!prev.summary) prev.summary = x.summary;
+      if (!prev.genres?.length) prev.genres = x.genres;
       continue;
     }
     const rec = { id: exhibitionId(museumId, x), museumId, ...x, firstSeenAt: today, lastSeenAt: today };
