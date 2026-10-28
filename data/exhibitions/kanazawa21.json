@@ -41,9 +41,9 @@
       "現代美術"
     ],
     "detailUrl": null,
-    "summary": "能登半島地震後も続く復興支援の一環として、能登と縁の深い二人の作家の作品から風景との共生を考える無料の展覧会。",
+    "summary": "能登との対話を重ね、震災後の復興支援につなげてきた美術館のシリーズ企画展である。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-28"
   },
   {
     "id": "kanazawa21-20260915-b5b803",
@@ -51,19 +51,19 @@
     "title": "NEUTRAL COLORS NEW CIRCUIT / ニュー・サーキット",
     "startDate": "2026-09-15",
     "endDate": "2027-04-18",
-    "kind": "special",
+    "kind": "collection",
     "artists": [
       "neutral-colors",
       "naonori-kato",
       "daisuke-kano"
     ],
     "genres": [
-      "デザイン"
+      "現代美術"
     ],
     "detailUrl": null,
-    "summary": "デジタル情報があふれる時代に、手に取れる本や雑誌という紙媒体が持つ意味と可能性をあらためて見つめ直す展示。",
+    "summary": "情報があふれる時代に、物理的な本や雑誌が持つ価値を問い直すコレクション展である。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-28"
   },
   {
     "id": "kanazawa21-20261031-dd03f9",
@@ -88,8 +88,8 @@
       "現代美術"
     ],
     "detailUrl": null,
-    "summary": "長期休館を控えた美術館が自らの現在地を振り返り、現代美術作品を次の世代へ受け渡す意義を問いかける展覧会。",
+    "summary": "長期休館を前に美術館の現在地を見つめ、作品を未来へ引き継ぐ意味を問う展覧会である。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-28"
   }
 ]
