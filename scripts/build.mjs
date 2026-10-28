@@ -115,9 +115,11 @@ page('/about/', indexPage({ site, path: '/about/', title: 'このサイトにつ
 <h2>情報の集め方</h2><ul><li>各美術館・ギャラリーの公式サイトの展覧会一覧を定期的に確認し、新しい展覧会を自動で追加しています。</li><li>展覧会名・会期・会場・作家名などの事実のみを掲載し、紹介文は独自に作成しています。画像や公式の文章は転載しません。</li><li>開館時間・料金・予約などは必ず公式サイトでご確認ください。</li></ul>
 ${site.moshimoRakuten?.a_id ? '<h2>広告について</h2><p>当サイトはもしもアフィリエイトを通じて楽天市場などのアフィリエイトに参加しています。「PR」と表示したリンクから商品を購入されると、当サイトに紹介料が支払われることがあります。掲載する展覧会の情報や順番は、広告とは関係なく決めています。</p>' : ''}
 <h2>運営</h2><p>運営: ${esc(site.operator)}　連絡先: ${esc(site.contactEmail)}</p>` }));
-page('/privacy/', indexPage({ site, path: '/privacy/', title: 'プライバシー', html: '<ul><li>LINEでの通知のために、LINEのユーザーID（LINEが発行する識別番号）と登録した作家だけを保存します。お名前やプロフィールは保存しません。友だちを解除すると通知は止まります。</li><li>カレンダーへの予定の追加はお使いのカレンダーアプリ側で行われ、当サイトが予定の内容を受け取ることはありません。</li><li>アクセス解析には Cookie を使わない方式を使います。</li>' + (site.moshimoRakuten?.a_id ? '<li>「PR」と表示したリンクはアフィリエイトのリンクです。リンク先で、もしもアフィリエイトや楽天が Cookie を使うことがあります。</li>' : '') + '</ul>' }));
+page('/privacy/', indexPage({ site, path: '/privacy/', title: 'プライバシー', html: '<ul><li>LINEでの通知のために、LINEのユーザーID（LINEが発行する識別番号）と登録した作家だけを保存します。お名前やプロフィールは保存しません。友だちを解除すると通知は止まります。</li><li>カレンダーへの予定の追加はお使いのカレンダーアプリ側で行われ、当サイトが予定の内容を受け取ることはありません。</li><li>アクセス解析には Cookie を使わない方式を使います。</li>' + (site.adsenseClient ? '<li>広告配信に Google AdSense を使っています。Google などの広告配信事業者は、Cookie を使ってこのサイトや他のサイトへのアクセス情報にもとづく広告を表示することがあります。パーソナライズ広告は <a href="https://adssettings.google.com/" rel="noopener">Google の広告設定</a> で無効にできます。詳しくは <a href="https://policies.google.com/technologies/ads?hl=ja" rel="noopener">Google の広告に関するポリシー</a> をご覧ください。</li>' : '') + (site.moshimoRakuten?.a_id ? '<li>「PR」と表示したリンクはアフィリエイトのリンクです。リンク先で、もしもアフィリエイトや楽天が Cookie を使うことがあります。</li>' : '') + '</ul>' }));
 
 cpSync(join(root, 'public'), dist, { recursive: true });
+// ads.txt: declares which ad network may sell this site's ad space (AdSense checks it).
+if (site.adsenseClient) write('ads.txt', `google.com, ${site.adsenseClient.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
 write('robots.txt', site.noindex ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nSitemap: ${site.baseUrl}/sitemap.xml\n`);
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${esc(site.baseUrl + u)}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`built ${urls.length} pages: ${artistSlugs.length} artists, ${museumList.length} museums, ${exhibitions.length} exhibitions (${live.length} current or upcoming)`);
