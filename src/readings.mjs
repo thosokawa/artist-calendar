@@ -3,8 +3,9 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { z } from 'zod';
 import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
+import { recordUsage } from './usage.mjs';
 
-const MODEL = process.env.COLLECT_MODEL ?? 'claude-opus-5-5';
+const MODEL = process.env.READINGS_MODEL ?? 'claude-sonnet-5-5';
 const BATCH = 120;
 
 export const hasKanji = (s) => /[㐀-鿿豈-﫿々〆]/.test(String(s));
@@ -33,8 +34,9 @@ export async function fetchReadings(items, { client = new Anthropic() } = {}) {
       max_tokens: 16000,
       system: SYSTEM,
       messages: [{ role: 'user', content: batch.map((x) => `${x.id}\t${x.name}${x.hint ? `\t${x.hint}` : ''}`).join('\n') }],
-      output_config: { format: zodOutputFormat(Readings) },
+      output_config: { effort: 'low', format: zodOutputFormat(Readings) },
     });
+    recordUsage(MODEL, response.usage);
     for (const r of response.parsed_output?.readings ?? []) {
       const kana = r.kana.normalize('NFKC').replace(/[\s・･]/g, '');
       if (/^[ぁ-ゖー]+$/.test(kana)) out.set(r.id, kana);

@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hasKanji, fetchReadings } from '../src/readings.mjs';
+import { usageSummary } from '../src/usage.mjs';
 
 const root = process.env.ART_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
@@ -24,3 +25,4 @@ for (const [slug, a] of Object.entries(artists)) if (got.has(`a:${slug}`)) a.nam
 writeJson(artistsPath, artists);
 for (const [p, m] of museums) if (got.has(`m:${m.id}`)) { m.nameKana = got.get(`m:${m.id}`); writeJson(p, m); }
 console.log(`readings: added ${got.size} of ${todo.length}`);
+console.log(usageSummary());

@@ -3,6 +3,16 @@ import { createHash } from 'node:crypto';
 
 const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'", nbsp: ' ' };
 
+// What decides whether a list page "changed": lines with a date and the line just before
+// each (usually the title). Counters, news tickers and today's date elsewhere on the page
+// otherwise make most pages look new every morning and send them to Claude for nothing.
+const DATED = /\d{4}\s*[年./-]\s*\d{1,2}|\d{1,2}\s*[月/.]\s*\d{1,2}/;
+export function listFingerprint(text) {
+  const lines = String(text).split('\n');
+  const keep = lines.flatMap((l, i) => (DATED.test(l) ? [lines[i - 1] ?? '', l] : []));
+  return keep.length ? keep.join('\n') : String(text);
+}
+
 export function htmlToText(html) {
   return html
     .replace(/<!--[\s\S]*?-->/g, ' ')

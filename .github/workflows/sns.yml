@@ -1,5 +1,6 @@
 # Official websites and social accounts of venues (links on their own sites) and artists
-# (web search, kept only when an official page links to the account). 07:00 JST daily.
+# (web search, kept only when an official page links to the account). Venues 07:00 JST daily;
+# artists only when run by hand, because each web search lookup costs far more than the rest of the site.
 # Needs repository secret ANTHROPIC_API_KEY.
 name: sns-links
 on:
@@ -23,7 +24,7 @@ permissions:
   contents: write
 jobs:
   sns:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -35,6 +36,7 @@ jobs:
         run: node scripts/sns-venues.mjs ${{ inputs.venues_all && '--all' || '' }}
         continue-on-error: true
       - name: Artists
+        if: github.event_name == 'workflow_dispatch'
         run: node scripts/sns-artists.mjs --limit=${LIMIT:-40} ${ONLY:+--only=$ONLY}
         continue-on-error: true
         env:

@@ -11,8 +11,9 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { htmlToText, sha256, decodeHtml } from '../src/text.mjs';
+import { htmlToText, sha256, decodeHtml, listFingerprint } from '../src/text.mjs';
 import { mergeExhibitions, titleOnPage } from '../src/exhibitions.mjs';
+import { usageSummary } from '../src/usage.mjs';
 
 // ART_ROOT lets tests run against a copy of the data.
 const root = process.env.ART_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -104,7 +105,7 @@ for (const museum of museums) {
   delete st.lastError;
   if (debug) console.log(`--- ${museum.id}: ${text.length} chars\n${text.slice(0, 1500)}\n---`);
   st.lastCheckedAt = now.toISOString();
-  const hash = sha256(text);
+  const hash = sha256(listFingerprint(text));
   if (st.hash === hash && !force) {
     console.log(`= ${museum.id} unchanged`);
     continue;
@@ -154,3 +155,4 @@ if (!dryRun) {
   writeFileSync(join(monitorDir, 'alerts.md'), alerts.length ? `読み取りに問題のある美術館:\n\n${alerts.join('\n')}\n` : '');
 }
 console.log(`done: ${addedCount} new exhibition(s)`);
+console.log(usageSummary());

@@ -4,8 +4,10 @@ import Anthropic from '@anthropic-ai/sdk';
 import { z } from 'zod';
 import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { GENRES } from './exhibitions.mjs';
+import { recordUsage } from './usage.mjs';
 
-const MODEL = process.env.COLLECT_MODEL ?? 'claude-opus-5-5';
+// Reading dates and names off a list page is simple; the small model does it at a fraction of the cost.
+const MODEL = process.env.COLLECT_MODEL ?? 'claude-haiku-5-5';
 
 const Extraction = z.object({
   exhibitions: z.array(z.object({
@@ -41,10 +43,11 @@ export async function extractExhibitions({ museum, pageText, today, client = new
     system: SYSTEM,
     messages: [{
       role: 'user',
-      content: `${museum.kind === 'gallery' ? 'ギャラリー' : '美術館'}: ${museum.name}\nページ: ${museum.exhibitionsUrl}\n今日: ${today}（今日より前に終わった展覧会は除外）\n\n<page>\n${pageText.slice(0, 80000)}\n</page>`,
+      content: `${museum.kind === 'gallery' ? 'ギャラリー' : '美術館'}: ${museum.name}\nページ: ${museum.exhibitionsUrl}\n今日: ${today}（今日より前に終わった展覧会は除外）\n\n<page>\n${pageText.slice(0, 60000)}\n</page>`,
     }],
-    output_config: { format: zodOutputFormat(Extraction) },
+    output_config: { effort: 'low', format: zodOutputFormat(Extraction) },
   });
+  recordUsage(MODEL, response.usage);
   if (response.stop_reason === 'refusal' || !response.parsed_output) {
     return { ok: false, reason: response.stop_reason === 'refusal' ? 'model declined' : 'no structured output' };
   }

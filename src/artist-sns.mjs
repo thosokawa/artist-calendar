@@ -5,8 +5,9 @@ import Anthropic from '@anthropic-ai/sdk';
 import { htmlToText } from './text.mjs';
 import { fetchHtml } from './fetch-html.mjs';
 import { parseSnsUrl, htmlLinksTo, snsLinksInHtml } from './sns.mjs';
+import { recordUsage } from './usage.mjs';
 
-const MODEL = process.env.COLLECT_MODEL ?? 'claude-opus-5-5';
+const MODEL = process.env.SNS_MODEL ?? 'claude-sonnet-5-5';
 
 const SYSTEM = `美術作家の「本人の公式」ウェブサイトとSNSアカウントを調べます。
 - 本人（または遺族・財団・事務所）が運営する公式のものだけを答えます。ファンアカウント、まとめ、同姓同名の別人、所属ギャラリーや美術館そのもののアカウントは含めません。
@@ -46,6 +47,7 @@ async function ask(a, client, log) {
       tools: [{ type: 'web_search_20260209', name: 'web_search', max_uses: 3 }],
       messages,
     });
+    recordUsage(MODEL, response.usage);
     if (response.stop_reason === 'pause_turn') { messages.push({ role: 'assistant', content: response.content }); continue; }
     if (response.stop_reason === 'refusal') return null;
     const text = response.content.filter((b) => b.type === 'text').map((b) => b.text).join('');

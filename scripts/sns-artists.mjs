@@ -7,6 +7,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { findArtistSns } from '../src/artist-sns.mjs';
 import { closeBrowser } from '../src/fetch-html.mjs';
+import { usageSummary } from '../src/usage.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const arg = (k) => process.argv.find((a) => a.startsWith(`--${k}=`))?.slice(k.length + 3);
@@ -49,3 +50,4 @@ for (const slug of queue) {
 }
 await closeBrowser();
 console.log(`looked up ${queue.length}, confirmed ${found}; ${Object.values(artists).filter((x) => !x.snsCheckedAt).length} artists left`);
+console.log(usageSummary());
