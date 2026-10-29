@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "「壁」をテーマに据えた松延総司の展示で、ザ・トライアングルにて無料で鑑賞できる現代美術の個展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20260919-50255e",
@@ -33,7 +33,7 @@
     "detailUrl": null,
     "summary": "生誕140年を迎えた染織家山鹿清華の豊かな想像力が生んだ作品世界を、本館南回廊でたどる記念展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20261003-24b863",
@@ -52,7 +52,7 @@
     "detailUrl": null,
     "summary": "禅の思想とスタジオジブリの世界とを結びつけ、両者に通じる感性を新館の東山キューブで探る企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20261009-2d5dfd",
@@ -73,11 +73,15 @@
       "shiho-sakakibara",
       "keigetsu-kikuchi"
     ],
-    "genres": [],
+    "genres": [
+      "日本画",
+      "洋画",
+      "工芸"
+    ],
     "detailUrl": null,
     "summary": "館の誕生の頃に立ち返り、所蔵作品を通してこの美術館がたどってきた歩みの始まりを紹介するコレクション展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20261217-b90625",
@@ -97,7 +101,7 @@
     "detailUrl": null,
     "summary": "スタジオジブリが企画制作を手がけ、禅僧白隠の禅の世界を紹介する展覧会の京都での開催となる。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20270115-0e3280",
@@ -115,7 +119,7 @@
     "detailUrl": null,
     "summary": "藤野裕美子の作品を取り上げ、ザ・トライアングルの空間で無料公開される若手作家紹介の展示である。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20270115-86fffe",
@@ -134,7 +138,7 @@
     "detailUrl": null,
     "summary": "京都の漆芸に焦点を当て、近代という時代が漆の作品にどう映し出されたかを所蔵品で見つめる特集展示。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20270206-b96645",
@@ -152,7 +156,7 @@
     "detailUrl": null,
     "summary": "幾何学や時間、スケートボードを手がかりに、ラファエル・ザルカの制作を東山キューブで紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20270526-3365b5",
@@ -170,12 +174,12 @@
     "detailUrl": null,
     "summary": "二人一組で活動するアーティスト、ギルバート＆ジョージの作品を新館東山キューブで紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kyotocity-kyocera-20271002-d4a8eb",
     "museumId": "kyotocity-kyocera",
-    "title": "⽣誕150年 ⽊島櫻⾕",
+    "title": "生誕150年 木島櫻谷",
     "startDate": "2027-10-02",
     "endDate": "2027-12-12",
     "kind": "special",
@@ -188,6 +192,6 @@
     "detailUrl": null,
     "summary": "生誕150年の節目に、京都で活躍した画家木島櫻谷の画業を本館南回廊で振り返る記念の展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   }
 ]

@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "standing-pine-20261031-80085a",
+    "museumId": "standing-pine",
+    "title": "Le palais des vents",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "joel-andrianomearisoa"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "マダガスカル出身の作家が、布や紙などの素材で風を感じさせる空間を立ち上げる新作個展である。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  }
+]

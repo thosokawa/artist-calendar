@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "acac-20261114-25c269",
+    "museumId": "acac",
+    "title": "アーティスト・イン・レジデンス プログラム2026「EAT」",
+    "startDate": "2026-11-14",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "滞在制作に取り組んだアーティストたちが、レジデンスの成果を披露する成果展です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  }
+]

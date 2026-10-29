@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "perrotin-tokyo-20260609-569e5c",
+    "museumId": "perrotin-tokyo",
+    "title": "Fictional Archeology",
+    "startDate": "2026-06-09",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "daniel-arsham"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "過去・現在・未来の境界を問い、現代の物を遺物に変えるアーシャムの代表作を集めた展覧会です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  }
+]

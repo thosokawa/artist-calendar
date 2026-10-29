@@ -19,5 +19,24 @@
     "summary": "和泉希洋志、竹村延和、ニシジマ・アツシ、村井啓哲という4名の作家が顔をそろえるグループ展です。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "mtk-contemporary-art-20261031-719999",
+    "museumId": "mtk-contemporary-art",
+    "title": "それを生きる",
+    "startDate": "2026-10-31",
+    "endDate": "2026-12-22",
+    "kind": "special",
+    "artists": [
+      "rinko-kawauchi",
+      "yukie-noda"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "川内倫子と野田幸江が、日々を生きることの手触りを異なる表現で示す二人展です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
   }
 ]

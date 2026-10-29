@@ -13,7 +13,7 @@
     "detailUrl": null,
     "summary": "記念館を会場に、約一年にわたって館の所蔵作品を紹介するコレクション展で、彫刻作品を中心にじっくり鑑賞できる機会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "hongoshin-20261010-33ae12",
@@ -29,6 +29,20 @@
     "detailUrl": null,
     "summary": "本館で開かれる特別展で、「触覚的感覚」という視点から彫刻と人の感覚との関わりをあらためて考えてみる内容の展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "hongoshin-20261010-d58224",
+    "museumId": "hongoshin",
+    "title": "北大生が考える これからの「まちのミュージアム」展2026 本郷新記念札幌彫刻美術館版",
+    "startDate": "2026-10-10",
+    "endDate": "2027-01-24",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "北海道大学の学生が考えた未来のまちのミュージアムの姿を、本館ロビーで紹介する展示です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "toyota-20261024-dd4698",
     "museumId": "toyota",
-    "title": "没後20年 井田照一展",
+    "title": "長谷川 繁 ペイン天狗",
     "startDate": "2026-10-24",
     "endDate": "2027-01-24",
     "kind": "special",
@@ -17,6 +17,22 @@
     "detailUrl": null,
     "summary": "没後20年を迎えた井田照一の仕事を振り返る展覧会で、《Tantra》を読み解く記念講演会なども開かれる。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "toyota-20261024-26dad3",
+    "museumId": "toyota",
+    "title": "コレクション 2026年度 第Ⅲ期",
+    "startDate": "2026-10-24",
+    "endDate": "2027-01-24",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "美術館が所蔵する近現代の作品を組み替えて紹介するコレクション展です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
   }
 ]

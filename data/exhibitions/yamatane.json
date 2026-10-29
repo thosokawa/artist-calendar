@@ -27,6 +27,24 @@
     "lastSeenAt": "2026-10-17"
   },
   {
+    "id": "yamatane-20261010-1d0acd",
+    "museumId": "yamatane",
+    "title": "奥村土牛 ―名作でたどる100年のあゆみ―",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "togyu-okumura"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "奥村土牛の百年にわたる画業を代表作でたどる、開館60周年記念の特別展です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  },
+  {
     "id": "yamatane-20261212-372a19",
     "museumId": "yamatane",
     "title": "ザ・ベスト・オブ・山種コレクションⅡ －東山魁夷、平山郁夫から千住博、山口晃へ－",
@@ -54,6 +72,27 @@
     "lastSeenAt": "2026-10-17"
   },
   {
+    "id": "yamatane-20261212-3ca8ef",
+    "museumId": "yamatane",
+    "title": "ザ・ベスト・オブ・山種コレクションⅠ －横山大観、竹内栖鳳から上村松園、速水御舟へ－",
+    "startDate": "2026-12-12",
+    "endDate": "2027-03-07",
+    "kind": "collection",
+    "artists": [
+      "taikan-yokoyama",
+      "seiho-takeuchi",
+      "shoen-uemura",
+      "gyoshu-hayami"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "横山大観から速水御舟まで、山種コレクションの近代日本画の名品を一堂に紹介する展覧会です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  },
+  {
     "id": "yamatane-20270320-59a8ea",
     "museumId": "yamatane",
     "title": "速水御舟 ―炎舞から名樹散椿へ―",
@@ -69,6 +108,6 @@
     "detailUrl": null,
     "summary": "開館60周年記念特別展の締めくくりとして、日本画家速水御舟の代表作を軸にその画業を見つめる展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   }
 ]

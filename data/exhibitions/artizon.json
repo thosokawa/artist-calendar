@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "美術家の藤井光が石橋財団の所蔵品と向き合い、光は誰のものかという問いを投げかける協働企画の展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "artizon-20261024-b7df96",
@@ -31,7 +31,7 @@
     "detailUrl": null,
     "summary": "異邦人としてヨーロッパに渡った洋画家たちが、現地で何を経験し制作に生かしたのかをたどる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "artizon-20270223-3d1fce",
@@ -41,11 +41,13 @@
     "endDate": "2027-05-30",
     "kind": "collection",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "美術館の所蔵作品が広がりながら互いにつながっていく様子を、現在の視点から紹介するコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "artizon-20270619-10dbad",
@@ -64,7 +66,7 @@
     "detailUrl": null,
     "summary": "近代日本の洋画を牽引した藤島武二が、どのように創作を深めていったのかその歩みを振り返る展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "artizon-20271016-27da00",
@@ -82,7 +84,7 @@
     "detailUrl": null,
     "summary": "石橋財団の所蔵品から、彫刻家ロダンへのオマージュをテーマに作品を選んで紹介する特集コーナー展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "artizon-20271016-27da00",
@@ -98,6 +100,6 @@
     "detailUrl": null,
     "summary": "1960年代から70年代にかけての美術の動向を、新たな客観性という切り口から見つめ直す展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   }
 ]

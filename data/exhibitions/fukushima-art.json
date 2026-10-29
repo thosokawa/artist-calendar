@@ -18,7 +18,7 @@
     "detailUrl": null,
     "summary": "動物を描いた作品、多様な素材によるモダニズム立体、ワイエスの名品、小関庄太郎の写真を館蔵品から紹介します。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20261010-df057b",
@@ -35,7 +35,7 @@
     "detailUrl": null,
     "summary": "猫を描いた浮世絵版画を手がかりに、猫の習性や歴史、人との暮らしの関わりを多角的に掘り下げる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20270109-8b68cf",
@@ -57,12 +57,12 @@
     "detailUrl": null,
     "summary": "生誕百年の陶芸家二人の作品や没後百年のモネとフランス美術、現代版画などを館蔵品で構成するコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20270116-b925f7",
     "museumId": "fukushima-art",
-    "title": "［特集展示］ 重なりあうまなざし 美術でたどるアメリカと日本",
+    "title": "重なりあうまなざし 美術でたどるアメリカと日本",
     "startDate": "2027-01-16",
     "endDate": "2027-02-07",
     "kind": "collection",
@@ -78,7 +78,7 @@
     "detailUrl": null,
     "summary": "館蔵のアメリカ美術を軸に、米国の画家と渡米した日本人画家の交流や日本との結びつきを読み解く特集展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20270320-05f58d",
@@ -96,7 +96,7 @@
     "detailUrl": null,
     "summary": "会津坂下町出身の版画家斎藤清の歩みを、ゆかりある複数の美術館の所蔵作品によって改めて検証する回顧展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20270322-126357",
@@ -114,12 +114,12 @@
     "detailUrl": null,
     "summary": "風景表現や新収蔵の福島の美術家、創作版画と斎藤清などのテーマで館蔵品を紹介する年度最初のコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20270619-44fc91",
     "museumId": "fukushima-art",
-    "title": "福島県政150周年･東日本大震災15年 「大ゴッホ展 アルルの跳ね橋」",
+    "title": "大ゴッホ展 アルルの跳ね橋",
     "startDate": "2027-06-19",
     "endDate": "2027-09-26",
     "kind": "special",
@@ -132,7 +132,7 @@
     "detailUrl": null,
     "summary": "クレラー＝ミュラー美術館の名品を二期に分けて紹介する大ゴッホ展のうち、第2期として開かれる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20270719-5aa174",
@@ -152,7 +152,7 @@
     "detailUrl": null,
     "summary": "ワイエスの代表作を含む県美の名品と、新たに収蔵された林康夫ら現代工芸の作品を館蔵品から紹介します。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20271018-5ffce8",
@@ -172,7 +172,7 @@
     "detailUrl": null,
     "summary": "詩と美術の関わり、福島の木彫、モネを含む海外の名品、河野保雄コレクションを館蔵品でたどる展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20271119-2bff61",
@@ -188,12 +188,12 @@
     "detailUrl": null,
     "summary": "吉井忠の名を冠した企画展で、2027年11月から年末にかけて同館で開催が予定されている個展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20280110-770fb4",
     "museumId": "fukushima-art",
-    "title": "［特集展示］ 絵画の臨界点 ─若松光一郎、鎌田正蔵のフォルム─",
+    "title": "絵画の臨界点 ─若松光一郎、鎌田正蔵のフォルム─",
     "startDate": "2028-01-10",
     "endDate": "2028-02-01",
     "kind": "collection",
@@ -207,7 +207,7 @@
     "detailUrl": null,
     "summary": "福島の洋画界を率いた若松光一郎と鎌田正蔵の戦後の表現の変遷を、館蔵作品によって振り返る特集展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20280110-8b68cf",
@@ -225,7 +225,7 @@
     "detailUrl": null,
     "summary": "白樺派と大正期洋画、震災をめぐる作家の視点、米国で活躍した日本人画家、現代版画を館蔵品で紹介します。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "fukushima-art-20280118-65869b",
@@ -241,6 +241,22 @@
     "detailUrl": null,
     "summary": "内田あぐりの名を冠した企画展で、2028年1月から3月にかけて同館で開催が予定されている個展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "fukushima-art-20280221-ea0239",
+    "museumId": "fukushima-art",
+    "title": "福島県政150周年･東日本大震災15年 「大ゴッホ展 夜のカフェテラス」",
+    "startDate": "2028-02-21",
+    "endDate": "2028-05-10",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "クレラー＝ミュラー美術館のゴッホ作品を前後期に分けて紹介する展覧会の第1期です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
   }
 ]

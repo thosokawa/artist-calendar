@@ -13,7 +13,7 @@
     "detailUrl": null,
     "summary": "台北の何創時コレクションが所蔵する名品を通して、明の時代に生まれた書の勢いと魅力を紹介する特別展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "osaka-city-art-20270206-ce4068",
@@ -31,7 +31,7 @@
     "detailUrl": null,
     "summary": "写実を超えて空間の表現を切り開いた円山応挙の絵画世界に迫り、その革新性を見つめ直す特別展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "osaka-city-art-20270424-564c7e",
@@ -47,7 +47,7 @@
     "detailUrl": null,
     "summary": "紡績業で名を成した武藤山治の生誕160年を記念し、国宝も見出した彼の美術コレクションを再び紹介する展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "osaka-city-art-20270717-243280",
@@ -57,10 +57,12 @@
     "endDate": "2027-09-26",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "洋画"
+    ],
     "detailUrl": null,
     "summary": "アメリカのシンシナティ美術館が所蔵する、海を渡ったヨーロッパの優品の数々を紹介する特別展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   }
 ]

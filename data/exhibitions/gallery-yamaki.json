@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "gallery-yamaki-20261107-4cdd8a",
+    "museumId": "gallery-yamaki",
+    "title": "中山明日香 展",
+    "startDate": "2026-11-07",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "asuka-nakayama"
+    ],
+    "genres": [
+      "現代美術",
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "人と自然が絡み合う情景を描いた新作油彩で構成される、中山明日香のギャラリー7回目の個展です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  }
+]

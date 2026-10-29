@@ -14,7 +14,7 @@
     "detailUrl": null,
     "summary": "三井家に伝わる茶碗から、国宝の名品から数寄者の手造りまで100碗を選び抜いて紹介する館蔵品展。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "mitsui-memorial-20261212-672ed2",
@@ -32,10 +32,10 @@
       "工芸",
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.mitsui-museum.jp/exhibition/schedule.html",
     "summary": "恒例の国宝「雪松図屏風」公開にあわせ、館蔵の書画や工芸に表された季節や気象の表現を読み解く展示。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "mitsui-memorial-20270211-f98633",
@@ -49,9 +49,9 @@
       "工芸",
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.mitsui-museum.jp/exhibition/schedule.html",
     "summary": "三井家の女性たちが大切にしたひな人形と道具を披露し、茶の湯の羽箒も特集する春の恒例展。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   }
 ]

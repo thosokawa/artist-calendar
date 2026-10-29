@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "郷土ゆかりの洋画家を取り上げるシリーズの第二弾として、愛美社で活動した水野正一を中心に紹介する特集です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "nagoya-20260919-9a8401",
@@ -40,11 +40,13 @@
       "shoichiro-osawa",
       "haru-miyawaki"
     ],
-    "genres": [],
+    "genres": [
+      "洋画"
+    ],
     "detailUrl": null,
     "summary": "名古屋市美術館が所蔵する名品の数々を紹介するコレクション展の第二期で、その後期にあたる展示です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "nagoya-20260919-9a8401",
@@ -62,7 +64,7 @@
     "detailUrl": null,
     "summary": "ドイツのヴァルラフ＝リヒャルツ美術館の所蔵品から、ゴッホの跳ね橋の絵と印象派の画家たちの作品を紹介します。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "nagoya-20270206-3977cd",
@@ -80,6 +82,6 @@
     "detailUrl": null,
     "summary": "来日から150年を迎えるイタリア人画家フォンタネージに焦点を当て、その光あふれる風景表現を紹介する特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   }
 ]

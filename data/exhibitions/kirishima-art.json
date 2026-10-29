@@ -2,7 +2,7 @@
   {
     "id": "kirishima-art-20261003-6483bf",
     "museumId": "kirishima-art",
-    "title": "アートラボ・プロジェクト 井上涼展「ふたりのマチルダ」",
+    "title": "ふたりのマチルダ",
     "startDate": "2026-10-03",
     "endDate": "2026-11-29",
     "kind": "special",
@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "アートラボ・プロジェクトの一環として、井上涼の作品を「ふたりのマチルダ」の題でアートホールで紹介する展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kirishima-art-20261003-976854",
@@ -33,12 +33,12 @@
     "detailUrl": null,
     "summary": "館の所蔵品から選んだ作品を秋に公開する展示で、マリソルの《ピーチツリー・ストリートの散歩》が紹介されています。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kirishima-art-20261212-bfd221",
     "museumId": "kirishima-art",
-    "title": "アートラボ・プロジェクト 木浦奈津子展",
+    "title": "木浦奈津子展",
     "startDate": "2026-12-12",
     "endDate": "2027-02-14",
     "kind": "special",
@@ -51,7 +51,7 @@
     "detailUrl": null,
     "summary": "アートラボ・プロジェクトとして木浦奈津子を取り上げ、2025年の作品《うみ》などを冬の時期に見せる企画展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kirishima-art-20261212-9edc4a",
@@ -69,6 +69,6 @@
     "detailUrl": null,
     "summary": "冬の期間に館の所蔵作品を紹介するコレクション展で、奥傳三郎による1996年の作品《ボーンズ》が取り上げられています。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   }
 ]

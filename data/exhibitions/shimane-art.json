@@ -2,7 +2,7 @@
   {
     "id": "shimane-art-20270115-272adb",
     "museumId": "shimane-art",
-    "title": "江戸エンタメの最高峰！ 浮世絵スーパークリエイター 歌川国芳展",
+    "title": "浮世絵スーパークリエイター 歌川国芳展",
     "startDate": "2027-01-15",
     "endDate": "2027-03-15",
     "kind": "special",
@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "武者絵や妖怪画、ユーモアあふれる戯画など約220点で、江戸後期の絵師国芳の自由な発想と多彩な画業をたどる展覧会。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "shimane-art-20270702-349f04",
@@ -34,7 +34,7 @@
     "detailUrl": null,
     "summary": "動物や鳥、魚、空想の生き物が画面を埋め尽くす日本の絵画を集め、群れを描く表現の歴史と込められた思いを探る企画。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "shimane-art-20270910-ca3168",
@@ -52,6 +52,6 @@
     "detailUrl": null,
     "summary": "寄贈された永田コレクションから、61歳以降の晩年30年間に北斎が手がけた作品をまとめて紹介するシリーズ第三弾。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-21"
+    "lastSeenAt": "2026-10-29"
   }
 ]

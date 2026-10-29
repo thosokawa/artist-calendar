@@ -12,10 +12,10 @@
     "genres": [
       "彫刻"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "孤高の道を歩んだ彫刻家、村山琴泉の作品と仕事の歩みを、まとめて紹介する特別展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "gunma-moma-20260919-2187af",
@@ -29,10 +29,10 @@
       "日本画",
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "館の所蔵品から、日本と西洋それぞれの近代美術の作品を選んで並べ、見比べられるコレクション展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "gunma-moma-20260919-84737d",
@@ -42,11 +42,13 @@
     "endDate": "2026-11-08",
     "kind": "collection",
     "artists": [],
-    "genres": [],
-    "detailUrl": null,
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "美術館のコレクションに新しく加わった作品を、来館者へ向けて披露するコレクション展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "gunma-moma-20261014-66a983",
@@ -59,9 +61,9 @@
     "genres": [
       "古美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "館が所蔵する戸方庵井上コレクションの中から、選りすぐりの名品を取り上げるコレクション展示の第二弾です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   }
 ]

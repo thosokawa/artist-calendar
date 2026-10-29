@@ -230,5 +230,201 @@
     "exhibitionId": "yugen-gallery-20261121-965361",
     "museumId": "yugen-gallery",
     "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "2121-20261021-fa5df9",
+    "museumId": "2121",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "acac-20261114-25c269",
+    "museumId": "acac",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "ashiya-museum-20270309-651d69",
+    "museumId": "ashiya-museum",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "faam-20261112-f887a9",
+    "museumId": "faam",
+    "artists": [
+      "keisetsu"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "faam-20261119-dde12e",
+    "museumId": "faam",
+    "artists": [
+      "hyakkou"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "faam-20261126-349e30",
+    "museumId": "faam",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "fukushima-art-20280221-ea0239",
+    "museumId": "fukushima-art",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "gallery-yamaki-20261107-4cdd8a",
+    "museumId": "gallery-yamaki",
+    "artists": [
+      "asuka-nakayama"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "gifu-art-20261027-9a8b7f",
+    "museumId": "gifu-art",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "gifu-art-20261110-577771",
+    "museumId": "gifu-art",
+    "artists": [
+      "keijiro-sato"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "hokkaido-modern-20270109-cfa21d",
+    "museumId": "hokkaido-modern",
+    "artists": [
+      "kansai-honma"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "hongoshin-20261010-d58224",
+    "museumId": "hongoshin",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "kyohaku-20270223-913044",
+    "museumId": "kyohaku",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "kyohaku-20270223-61dffa",
+    "museumId": "kyohaku",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "meguro-art-20270116-bfebbe",
+    "museumId": "meguro-art",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "meguro-art-20270227-e25cfa",
+    "museumId": "meguro-art",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "mem-20261104-22821b",
+    "museumId": "mem",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "mtk-contemporary-art-20261031-719999",
+    "museumId": "mtk-contemporary-art",
+    "artists": [
+      "rinko-kawauchi",
+      "yukie-noda"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "mujin-to-20261104-cbd73e",
+    "museumId": "mujin-to",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "nagi-moca-20261105-f3e327",
+    "museumId": "nagi-moca",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "perrotin-tokyo-20260609-569e5c",
+    "museumId": "perrotin-tokyo",
+    "artists": [
+      "daniel-arsham"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "shiga-art-20260225-e949a9",
+    "museumId": "shiga-art",
+    "artists": [
+      "yuki-ogura"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "spiral-20261125-421101",
+    "museumId": "spiral",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "spiral-20261014-b37b74",
+    "museumId": "spiral",
+    "artists": [
+      "miyako-yamazaki"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "standing-pine-20261031-80085a",
+    "museumId": "standing-pine",
+    "artists": [
+      "joel-andrianomearisoa"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "toyota-20261024-26dad3",
+    "museumId": "toyota",
+    "artists": []
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "yamatane-20261010-1d0acd",
+    "museumId": "yamatane",
+    "artists": [
+      "togyu-okumura"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "exhibitionId": "yamatane-20261212-3ca8ef",
+    "museumId": "yamatane",
+    "artists": [
+      "taikan-yokoyama",
+      "seiho-takeuchi",
+      "shoen-uemura",
+      "gyoshu-hayami"
+    ]
   }
 ]

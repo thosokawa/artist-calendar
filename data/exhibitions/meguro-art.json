@@ -2,7 +2,7 @@
   {
     "id": "meguro-art-20261010-38d540",
     "museumId": "meguro-art",
-    "title": "目黒区美術館コレクション展『東京パック』とその時代 ＋特集展示 北澤楽天の『子供之友』",
+    "title": "目黒区美術館コレクション展『東京パック』とその時代＋特集展示 北澤楽天の『子供之友』",
     "startDate": "2026-10-10",
     "endDate": "2026-11-15",
     "kind": "collection",
@@ -15,6 +15,34 @@
     "detailUrl": null,
     "summary": "館の収蔵品を通して『東京パック』とその時代を振り返り、北澤楽天の『子供之友』を取り上げる特集展示も併せて開く展覧会。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "meguro-art-20270116-bfebbe",
+    "museumId": "meguro-art",
+    "title": "めぐろの子どもたち展",
+    "startDate": "2027-01-16",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "区内の子どもたちをテーマにした展覧会で、観覧無料で気軽に楽しめる地域密着型の展示です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "meguro-art-20270227-e25cfa",
+    "museumId": "meguro-art",
+    "title": "目黒区美術館開館40周年プレ企画 東京・区立美術館ネットワーク連携事業 「モンパルナスで会いましょう」",
+    "startDate": "2027-02-27",
+    "endDate": "2027-05-16",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "開館40周年を記念し、東京の区立美術館が連携して、パリのモンパルナスに集った芸術家たちの交流を紹介する展覧会です。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
   }
 ]

@@ -21,7 +21,7 @@
     "detailUrl": null,
     "summary": "ボストンの収集家ビゲローの没後100年を機に、彼が集めた日本美術と近代日本画の黎明期をたどる企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "aichi-20261030-747604",
@@ -31,11 +31,14 @@
     "endDate": "2026-12-13",
     "kind": "collection",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "日本画",
+      "洋画"
+    ],
     "detailUrl": null,
     "summary": "愛知県美術館の所蔵作品から選んだ作品を紹介する、2026年度の3回目にあたるコレクション展示。",
     "firstSeenAt": "2026-10-26",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "aichi-20270129-444762",
@@ -53,6 +56,6 @@
     "detailUrl": null,
     "summary": "現代を生きる私たちの立ち位置を問いかけ、同時代の美術を通して世界のあり方を考える企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   }
 ]

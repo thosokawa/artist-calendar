@@ -21,10 +21,12 @@
     "endDate": "2026-12-26",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "東京のギャラリーで11月7日から12月26日まで開かれる、「ANIMATE」と題した展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   }
 ]

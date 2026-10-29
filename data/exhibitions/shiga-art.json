@@ -1,5 +1,23 @@
 [
   {
+    "id": "shiga-art-20260225-e949a9",
+    "museumId": "shiga-art",
+    "title": "小倉遊亀コーナー",
+    "startDate": "2026-02-25",
+    "endDate": "2027-04-04",
+    "kind": "collection",
+    "artists": [
+      "yuki-ogura"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "日本画家小倉遊亀の作品を、館の常設展示室の一角でじっくり味わえるコーナーです。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
+  },
+  {
     "id": "shiga-art-20260905-ca8352",
     "museumId": "shiga-art",
     "title": "時間はかたち？",
@@ -7,11 +25,13 @@
     "endDate": "2026-11-23",
     "kind": "collection",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "時間という目に見えないものが作品の中でどのような姿をとるのかを、館の所蔵品を通して考える常設展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "shiga-art-20260911-7d087a",
@@ -30,12 +50,12 @@
     "detailUrl": null,
     "summary": "七十代になってから絵筆を握り始めた丸木スマの創作の歩みを、多彩な作品を通じて紹介する企画展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "shiga-art-20261006-30f4ee",
     "museumId": "shiga-art",
-    "title": "＜国立印刷局との連携企画＞「お札を支える伝統技術～すき入れ・凹版・彩紋の世界～」",
+    "title": "お札を支える伝統技術～すき入れ・凹版・彩紋の世界～",
     "startDate": "2026-10-06",
     "endDate": "2026-11-15",
     "kind": "special",
@@ -47,12 +67,12 @@
     "detailUrl": null,
     "summary": "国立印刷局と連携し、すき入れや凹版、彩紋といった紙幣づくりを支える伝統的な技術の世界を紹介する展示です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "shiga-art-20270115-f67df4",
     "museumId": "shiga-art",
-    "title": "佐川晃司展 絵画、居場所のこと",
+    "title": "佐川晃司 絵画、居場所のこと",
     "startDate": "2027-01-15",
     "endDate": "2027-03-22",
     "kind": "special",
@@ -66,6 +86,6 @@
     "detailUrl": null,
     "summary": "画家・佐川晃司の作品を通じて、絵画という表現と、その作品が存在する居場所について見つめ直す企画展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   }
 ]

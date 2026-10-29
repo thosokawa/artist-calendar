@@ -2,7 +2,7 @@
   {
     "id": "hokkaido-modern-20260912-5f6832",
     "museumId": "hokkaido-modern",
-    "title": "わたしのつくりかた",
+    "title": "わたしのつくりかた My Ways of Making",
     "startDate": "2026-09-12",
     "endDate": "2026-12-20",
     "kind": "special",
@@ -20,7 +20,7 @@
     "detailUrl": null,
     "summary": "北海道で活動する障がいのあるアーティストの作品を館蔵品と並べ、三つの切り口で制作の動機や手法に迫る展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "hokkaido-modern-20260912-25b0bf",
@@ -39,7 +39,7 @@
     "detailUrl": null,
     "summary": "小さな人形と日用品を組み合わせ別の物に見立てる作家の、遊び心ある写真や立体約180点を一堂に紹介する。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "hokkaido-modern-20270109-670c6b",
@@ -65,7 +65,7 @@
   {
     "id": "hokkaido-modern-20270109-e79a55",
     "museumId": "hokkaido-modern",
-    "title": "文字とアート－ポップ・アートから書まで",
+    "title": "函館美術館コレクション 文字とアート －ポップ・アートから書まで",
     "startDate": "2027-01-09",
     "endDate": "2027-04-11",
     "kind": "special",
@@ -79,6 +79,24 @@
     "detailUrl": null,
     "summary": "函館美術館の所蔵品から、ポップ・アートや書など文字を題材や素材とした多彩な作品を集めて紹介する特別展。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "hokkaido-modern-20270109-cfa21d",
+    "museumId": "hokkaido-modern",
+    "title": "近美コレクション 札幌国際芸術祭2027連携 雪々（せつせつ）と",
+    "startDate": "2027-01-09",
+    "endDate": "2027-04-11",
+    "kind": "collection",
+    "artists": [
+      "kansai-honma"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "札幌国際芸術祭2027にあわせ、当館が所蔵する雪の情景を描いた作品を中心に紹介します。",
+    "firstSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-10-29"
   }
 ]

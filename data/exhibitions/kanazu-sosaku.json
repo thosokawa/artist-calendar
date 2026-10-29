@@ -2,7 +2,7 @@
   {
     "id": "kanazu-sosaku-20261024-fb7038",
     "museumId": "kanazu-sosaku",
-    "title": "アートドキュメント2026 土田ヒロミ写真展「記憶と記録 －ヒロシマ・ベルリン・エルサレム・私－」",
+    "title": "アートドキュメント2026 土田ヒロミ写真展 「記憶と記録 －ヒロシマ・ベルリン・エルサレム・私－」",
     "startDate": "2026-10-24",
     "endDate": "2026-12-13",
     "kind": "special",
@@ -17,12 +17,12 @@
     "detailUrl": null,
     "summary": "福井出身の写真家がヒロシマや壁の街を見つめた作品群を、双子の兄による七宝作品とあわせて紹介する展覧会。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "kanazu-sosaku-20270116-076a9d",
     "museumId": "kanazu-sosaku",
-    "title": "akari image - あかり‘と’ 光の森 LIGHT IN NATURE",
+    "title": "akari image - あかり‘と’",
     "startDate": "2027-01-16",
     "endDate": "2027-03-07",
     "kind": "special",
@@ -33,6 +33,6 @@
     "detailUrl": null,
     "summary": "照明器具から光のアートまで、多分野の作り手による“あかり”の作品で館内と森を彩り、光と暮らしを提案する。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   }
 ]

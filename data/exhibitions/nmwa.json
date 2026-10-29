@@ -63,7 +63,7 @@
   {
     "id": "nmwa-20270320-35b62b",
     "museumId": "nmwa",
-    "title": "マティス 黒と白の詩学—ピエール＆タナ・マティス財団の版画コレクションを中心に",
+    "title": "マティス 黒と白の詩学",
     "startDate": "2027-03-20",
     "endDate": "2027-07-19",
     "kind": "special",
@@ -73,10 +73,10 @@
     "genres": [
       "版画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/upcoming.html",
     "summary": "ピエール＆タナ・マティス財団が所蔵する版画を軸に、マティスが白と黒で描き出した表現の世界に迫る企画展。",
     "firstSeenAt": "2026-10-23",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "nmwa-20270918-e00f54",
@@ -89,9 +89,9 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.nmwa.go.jp/jp/exhibitions/upcoming.html",
     "summary": "絵の中に描かれた絵というテーマを手がかりに、ルネサンスから現代までの美術の流れをたどる企画展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-23"
+    "lastSeenAt": "2026-10-29"
   }
 ]

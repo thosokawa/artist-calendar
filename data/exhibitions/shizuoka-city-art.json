@@ -9,11 +9,13 @@
     "artists": [
       "edward-gorey"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "エドワード・ゴーリーの作品に込められた「秘密のメッセージ」をテーマに据え、その表現世界をたどる企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "shizuoka-city-art-20270123-991340",
@@ -32,6 +34,6 @@
     "detailUrl": null,
     "summary": "時代を創る表現者という視点から竹久夢二を取り上げ、その多彩な創作活動の魅力に迫る企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-29"
   }
 ]

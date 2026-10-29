@@ -2,7 +2,7 @@
   {
     "id": "mizuma-art-gallery-20261007-b1af27",
     "museumId": "mizuma-art-gallery",
-    "title": "棚田康司展「愛をみる」",
+    "title": "愛をみる",
     "startDate": "2026-10-07",
     "endDate": "2026-11-08",
     "kind": "special",
@@ -15,12 +15,12 @@
     "detailUrl": null,
     "summary": "棚田康司の個展で、「愛をみる」という言葉を題に掲げ、ミヅマアートギャラリー東京で約1か月にわたって開かれる。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "mizuma-art-gallery-20261118-e672df",
     "museumId": "mizuma-art-gallery",
-    "title": "奥田雄太「Colour of Days」",
+    "title": "Colour of Days",
     "startDate": "2026-11-18",
     "endDate": "2026-12-19",
     "kind": "special",
@@ -33,6 +33,6 @@
     "detailUrl": null,
     "summary": "奥田雄太の個展「Colour of Days」が、ミヅマアートギャラリー東京で11月中旬から12月中旬まで開催される。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   }
 ]

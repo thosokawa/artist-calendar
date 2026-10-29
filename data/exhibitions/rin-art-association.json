@@ -2,7 +2,7 @@
   {
     "id": "rin-art-association-20260919-6e70fe",
     "museumId": "rin-art-association",
-    "title": "MARTIN MARGIELA",
+    "title": "「MARTIN MARGIELA」",
     "startDate": "2026-09-19",
     "endDate": "2026-12-20",
     "kind": "special",
@@ -12,9 +12,9 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://rinartassociation.com/exhibition-current",
     "summary": "マルタン・マルジェラの作品を紹介する個展で、9月から12月までの約3か月にわたりギャラリーで開催される。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18"
+    "lastSeenAt": "2026-10-29"
   }
 ]

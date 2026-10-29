@@ -12,7 +12,8 @@
       "rokansai-iizuka",
       "chikuden-tanomura",
       "heihachiro-fukuda",
-      "teppei-ujiyama"
+      "teppei-ujiyama",
+      "chikuunsai-tanabe"
     ],
     "genres": [
       "工芸",
@@ -22,7 +23,7 @@
     "detailUrl": null,
     "summary": "館が誇る竹工芸コレクションから近代の名工と現代作家の作品を選び、竹による造形の歩みと多彩な美をたどる特集展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "opam-20261113-0875de",
@@ -32,11 +33,13 @@
     "endDate": "2027-01-11",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "古美術"
+    ],
     "detailUrl": null,
     "summary": "出光美術館が所蔵する名品を紹介し、創設者出光佐三が美術品を守り次代へ伝えようとした思いに触れる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "opam-20261123-79eaf3",
@@ -54,7 +57,7 @@
     "detailUrl": null,
     "summary": "日本で長く愛されてきた画家ルノワールに焦点を当て、その穏やかなほほえみをたたえた作品世界の魅力を紹介する展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "opam-20270122-9db6db",
@@ -68,7 +71,7 @@
     "detailUrl": null,
     "summary": "大分県立美術館が収蔵する作品の中から選んだ所蔵品を公開する、2026年度シリーズ4回目となるコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   },
   {
     "id": "opam-20270206-3ffc58",
@@ -80,10 +83,12 @@
     "artists": [
       "shinsuke-yoshitake"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "ユーモアあふれる発想で人気を集める作家ヨシタケシンスケの創作世界を、さまざまな角度から楽しめる個展形式の展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-29"
   }
 ]
