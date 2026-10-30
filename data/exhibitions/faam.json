@@ -1,5 +1,21 @@
 [
   {
+    "id": "faam-20261105-773d3d",
+    "museumId": "faam",
+    "title": "キルトショップANNE パッチワーク作品展",
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-10",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
+    "summary": "キルトショップANNEが手がけたパッチワーク作品を紹介する展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
     "id": "faam-20261112-f887a9",
     "museumId": "faam",
     "title": "渓雪 墨の世界 with students",
@@ -52,6 +68,23 @@
     "lastSeenAt": "2026-10-29"
   },
   {
+    "id": "faam-20270130-ee0fcc",
+    "museumId": "faam",
+    "title": "MAPPA EXPO 15th Anniversary",
+    "startDate": "2027-01-30",
+    "endDate": "2027-03-28",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "メディアアート",
+      "現代美術"
+    ],
+    "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
+    "summary": "アニメスタジオMAPPAの設立15周年を記念して開かれる企画展です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
     "id": "faam-20270204-16a870",
     "museumId": "faam",
     "title": "アジア美術の歩き方 東南アジア編",
@@ -62,9 +95,9 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "東南アジアに焦点を当て、アジア美術をどのように鑑賞し楽しめばよいかを案内するアジアギャラリーでの展覧会。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   }
 ]

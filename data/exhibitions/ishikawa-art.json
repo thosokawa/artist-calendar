@@ -54,5 +54,90 @@
     "summary": "金属造形作家の蓮田修吾郎に焦点を当て、その創作が切り開いた表現の世界を紹介する特別展です。",
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-10-24"
+  },
+  {
+    "id": "ishikawa-art-20261030-04bedd",
+    "museumId": "ishikawa-art",
+    "title": "没後40年 高光一也",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-07",
+    "kind": "collection",
+    "artists": [
+      "kazuya-takamitsu"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "没後40年を記念し、画家高光一也の代表的な絵画作品を当館のコレクションから紹介する展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "ishikawa-art-20261030-76999c",
+    "museumId": "ishikawa-art",
+    "title": "県工の工芸・デザイン－石川県立工業高等学校 創立140周年記念－",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-07",
+    "kind": "collection",
+    "artists": [
+      "hazan-itaya"
+    ],
+    "genres": [
+      "工芸",
+      "デザイン"
+    ],
+    "detailUrl": null,
+    "summary": "石川県立工業高等学校の創立140周年を記念し、同校ゆかりの工芸やデザイン作品を紹介する展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "ishikawa-art-20261030-274324",
+    "museumId": "ishikawa-art",
+    "title": "前田斉泰 －《来殿》と《冨有園》－",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-07",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "加賀藩主前田斉泰にゆかりの二つの作品を通して、大名文化の一端を紹介する企画展です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "ishikawa-art-20261030-824f96",
+    "museumId": "ishikawa-art",
+    "title": "石川県の文化財",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-07",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "古美術"
+    ],
+    "detailUrl": null,
+    "summary": "石川県内で伝えられてきた文化財を当館のコレクションから選び、郷土の美術の歩みを紹介します。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "ishikawa-art-20261030-9d0569",
+    "museumId": "ishikawa-art",
+    "title": "優品選",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-07",
+    "kind": "collection",
+    "artists": [
+      "shinji-enchi"
+    ],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "当館が所蔵する絵画と彫刻の中から選りすぐった作品を並べ、コレクションの魅力を紹介する展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]

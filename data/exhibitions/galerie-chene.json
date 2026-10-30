@@ -1,16 +1,145 @@
 [
   {
+    "id": "galerie-chene-20261026-4cda16",
+    "museumId": "galerie-chene",
+    "title": "青木美彌子展",
+    "startDate": "2026-10-26",
+    "endDate": "2026-10-31",
+    "kind": "special",
+    "artists": [
+      "miyako-aoki"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "青木美彌子が平面やインスタレーションを用いて、空間と素材の関係を探る展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "galerie-chene-20261102-4c6ae6",
+    "museumId": "galerie-chene",
+    "title": "加瀬谷真理展",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-07",
+    "kind": "special",
+    "artists": [
+      "mari-kaseya"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "油彩作品を中心に、加瀬谷真理が描き出す世界を紹介する個展です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "galerie-chene-20261109-81c2cd",
+    "museumId": "galerie-chene",
+    "title": "滝田朝江展",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-14",
+    "kind": "special",
+    "artists": [
+      "asae-takita"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "滝田朝江による平面作品を並べ、その描く世界観をじっくり味わえる展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "galerie-chene-20261116-b877fc",
+    "museumId": "galerie-chene",
+    "title": "TEXTILE ART WORKS Vol.6",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-21",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "染色や織りの技法による布の作品が集まり、素材感を楽しめる企画展です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "galerie-chene-20261123-b566ec",
+    "museumId": "galerie-chene",
+    "title": "前田史代展",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "fumiyo-maeda"
+    ],
+    "genres": [
+      "日本画",
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "日本画と染付の皿を組み合わせ、前田史代が伝統的な表現を見せる展示です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "galerie-chene-20261130-dda8e4",
+    "museumId": "galerie-chene",
+    "title": "前島愛由展",
+    "startDate": "2026-11-30",
+    "endDate": "2026-12-05",
+    "kind": "special",
+    "artists": [
+      "ayu-maejima"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "前島愛由の日本画作品を通して、画面に宿る静かな気配を伝える展覧会です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
     "id": "galerie-chene-20261207-ce58c3",
     "museumId": "galerie-chene",
     "title": "LOOTone Exhibition",
     "startDate": "2026-12-07",
     "endDate": "2026-12-19",
     "kind": "special",
-    "artists": [],
-    "genres": [],
+    "artists": [
+      "lootone"
+    ],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "年末に画廊企画として開かれる平面作品の展覧会で、LOOToneと題した展示が約2週間行われます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-19"
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "galerie-chene-20261221-f19884",
+    "museumId": "galerie-chene",
+    "title": "藍明清展",
+    "startDate": "2026-12-21",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "ai-meisei"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "藍明清による平面作品を紹介し、色彩と構図の魅力に触れられる展覧会です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]

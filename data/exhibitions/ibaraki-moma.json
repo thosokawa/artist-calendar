@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "戦後日本の前衛を担った画家・中西夏之の仕事を取り上げ、その表現の歩みをたどる企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "ibaraki-moma-20261112-b6b427",
@@ -34,6 +34,22 @@
     "detailUrl": null,
     "summary": "新たに収蔵した作品を記念して、中村彝と同じ時代に活動した美術家たちの作品をあわせて見せる所蔵作品展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "ibaraki-moma-20261112-25243f",
+    "museumId": "ibaraki-moma",
+    "title": "中村彝と同時代の美術家たち",
+    "startDate": "2026-11-12",
+    "endDate": "2027-01-11",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "新たに収蔵された作品を中心に、中村彝と同じ時代を生きた画家たちの作品を紹介する所蔵作品展です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]

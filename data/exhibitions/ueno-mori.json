@@ -2,15 +2,17 @@
   {
     "id": "ueno-mori-20261010-243280",
     "museumId": "ueno-mori",
-    "title": "シンシナティ美術館展 アメリカに渡ったヨーロッパの至宝 Cincinnati Art Museum Exhibition",
+    "title": "シンシナティ美術館展 アメリカに渡ったヨーロッパの至宝",
     "startDate": "2026-10-10",
     "endDate": "2027-01-10",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "古美術"
+    ],
     "detailUrl": null,
     "summary": "アメリカのシンシナティ美術館が所蔵する、海を渡ったヨーロッパの名品の数々を上野で紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-30"
   }
 ]

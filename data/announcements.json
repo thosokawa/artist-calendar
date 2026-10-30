@@ -426,5 +426,141 @@
       "shoen-uemura",
       "gyoshu-hayami"
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "biscuit-gallery-20261114-c814d1",
+    "museumId": "biscuit-gallery",
+    "artists": [
+      "hal-osawa"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "faam-20270130-ee0fcc",
+    "museumId": "faam",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "faam-20261105-773d3d",
+    "museumId": "faam",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261026-4cda16",
+    "museumId": "galerie-chene",
+    "artists": [
+      "miyako-aoki"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261102-4c6ae6",
+    "museumId": "galerie-chene",
+    "artists": [
+      "mari-kaseya"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261109-81c2cd",
+    "museumId": "galerie-chene",
+    "artists": [
+      "asae-takita"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261116-b877fc",
+    "museumId": "galerie-chene",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261123-b566ec",
+    "museumId": "galerie-chene",
+    "artists": [
+      "fumiyo-maeda"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261130-dda8e4",
+    "museumId": "galerie-chene",
+    "artists": [
+      "ayu-maejima"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "galerie-chene-20261221-f19884",
+    "museumId": "galerie-chene",
+    "artists": [
+      "ai-meisei"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "ibaraki-moma-20261112-25243f",
+    "museumId": "ibaraki-moma",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "ishikawa-art-20261030-04bedd",
+    "museumId": "ishikawa-art",
+    "artists": [
+      "kazuya-takamitsu"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "ishikawa-art-20261030-76999c",
+    "museumId": "ishikawa-art",
+    "artists": [
+      "hazan-itaya"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "ishikawa-art-20261030-274324",
+    "museumId": "ishikawa-art",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "ishikawa-art-20261030-824f96",
+    "museumId": "ishikawa-art",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "ishikawa-art-20261030-9d0569",
+    "museumId": "ishikawa-art",
+    "artists": [
+      "shinji-enchi"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "kenji-taki-20261114-294cb9",
+    "museumId": "kenji-taki",
+    "artists": [
+      "sakuji-yoshimoto",
+      "mizuki-hatakeyama",
+      "kimiko-torisu",
+      "anju-shimoke",
+      "yuki-saegusa"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "kenji-taki-20261121-6b7e7d",
+    "museumId": "kenji-taki",
+    "artists": [
+      "eiji-watanabe"
+    ]
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "biscuit-gallery-20261017-4b0e14",
     "museumId": "biscuit-gallery",
-    "title": "アハメッド・マナン｜AHMED MANNAN「お前バリ字きたないやん」",
+    "title": "【個展】アハメッド・マナン｜AHMED MANNAN「お前バリ字きたないやん」",
     "startDate": "2026-10-17",
     "endDate": "2026-11-01",
     "kind": "special",
@@ -15,12 +15,12 @@
     "detailUrl": null,
     "summary": "新宿のギャラリー空間で、アハメッド・マナンが関西弁の印象的なタイトルを掲げて作品を発表する個展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "biscuit-gallery-20261024-8f1413",
     "museumId": "biscuit-gallery",
-    "title": "開館記念展 スヨン × 高橋遥 二人展「underflow」",
+    "title": "【軽井沢】biscuit gallery Over/Under Karuizawa Residency 開館記念展 スヨン × 高橋遥 二人展「underflow」",
     "startDate": "2026-10-24",
     "endDate": "2026-12-26",
     "kind": "special",
@@ -34,6 +34,24 @@
     "detailUrl": null,
     "summary": "軽井沢の新たなレジデンス拠点の開館を記念し、スヨンと高橋遥の二人が作品を並べて見せる二人展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "biscuit-gallery-20261114-c814d1",
+    "museumId": "biscuit-gallery",
+    "title": "【個展】大澤巴瑠｜Hal Osawa「PHANTOM」",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-29",
+    "kind": "special",
+    "artists": [
+      "hal-osawa"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "大澤巴瑠が幻影をテーマに新たな作品を並べ、その世界観を紹介する個展です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]

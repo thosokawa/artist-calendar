@@ -19,6 +19,12 @@
     "nameKana": "あはめっどまなん",
     "aliases": []
   },
+  "ai-meisei": {
+    "name": "藍明清",
+    "nameRomaji": "Ai Meisei",
+    "nameKana": "あいめいせい",
+    "aliases": []
+  },
   "aiko-miyanaga": {
     "name": "宮永愛子",
     "nameRomaji": "Aiko Miyanaga",
@@ -178,6 +184,12 @@
     },
     "snsCheckedAt": "2026-10-22"
   },
+  "anju-shimoke": {
+    "name": "下家 杏樹",
+    "nameRomaji": "Anju Shimoke",
+    "nameKana": "しもけあんじゅ",
+    "aliases": []
+  },
   "ann-veronica-janssens": {
     "name": "アン・ヴェロニカ・ヤンセン",
     "nameRomaji": "Ann Veronica Janssens",
@@ -240,6 +252,12 @@
     "name": "アルトゥーロ・マルティーニ",
     "nameRomaji": "Arturo Martini",
     "nameKana": "まるてぃーにあるとぅーろ",
+    "aliases": []
+  },
+  "asae-takita": {
+    "name": "滝田朝江",
+    "nameRomaji": "Asae Takita",
+    "nameKana": "たきたあさえ",
     "aliases": []
   },
   "asako-fujikura": {
@@ -322,6 +340,12 @@
     "aliases": [],
     "nameKana": "やまなあやお",
     "snsCheckedAt": "2026-10-20"
+  },
+  "ayu-maejima": {
+    "name": "前島愛由",
+    "nameRomaji": "Ayu Maejima",
+    "nameKana": "まえじまあゆ",
+    "aliases": []
   },
   "bakin-kyokutei": {
     "name": "曲亭馬琴",
@@ -701,6 +725,12 @@
     "nameKana": "えいきゅう",
     "snsCheckedAt": "2026-10-23"
   },
+  "eiji-watanabe": {
+    "name": "渡辺 英司",
+    "nameRomaji": "Eiji Watanabe",
+    "nameKana": "わたなべえいじ",
+    "aliases": []
+  },
   "eiko-yamazawa": {
     "name": "山沢栄子",
     "nameRomaji": "Eiko Yamazawa",
@@ -924,6 +954,12 @@
     "aliases": [],
     "snsCheckedAt": "2026-10-26"
   },
+  "fumiyo-maeda": {
+    "name": "前田史代",
+    "nameRomaji": "Fumiyo Maeda",
+    "nameKana": "まえだふみよ",
+    "aliases": []
+  },
   "gaku-kurokawa": {
     "name": "黒川岳",
     "nameRomaji": "Gaku Kurokawa",
@@ -1101,6 +1137,12 @@
     "nameKana": "はくいんえかく",
     "snsCheckedAt": "2026-10-27"
   },
+  "hal-osawa": {
+    "name": "大澤巴瑠",
+    "nameRomaji": "Hal Osawa",
+    "nameKana": "おおさわはる",
+    "aliases": []
+  },
   "han-youngsoo": {
     "name": "ハン・ヨンス",
     "nameRomaji": "Han Youngsoo",
@@ -1188,6 +1230,12 @@
     "nameRomaji": "Hayao Miyazaki",
     "aliases": [],
     "nameKana": "みやざきはやお"
+  },
+  "hazan-itaya": {
+    "name": "板谷波山",
+    "nameRomaji": "Hazan Itaya",
+    "nameKana": "いたやはざん",
+    "aliases": []
   },
   "hazuki-tachibana": {
     "name": "橘 葉月",
@@ -1555,6 +1603,12 @@
     "nameRomaji": "Jun Nguyen-Hatsushiba",
     "aliases": []
   },
+  "junko-asano": {
+    "name": "アサノジュンコ",
+    "nameRomaji": "Junko Asano",
+    "nameKana": "あさのじゅんこ",
+    "aliases": []
+  },
   "junko-maruyama": {
     "name": "丸山純子",
     "nameRomaji": "Junko Maruyama",
@@ -1774,6 +1828,12 @@
     "aliases": [],
     "nameKana": "しらがかずお"
   },
+  "kazuya-takamitsu": {
+    "name": "高光一也",
+    "nameRomaji": "Kazuya Takamitsu",
+    "nameKana": "たかみつかずや",
+    "aliases": []
+  },
   "kei-takemura": {
     "name": "竹村京",
     "nameRomaji": "Kei Takemura",
@@ -1924,6 +1984,12 @@
     "nameRomaji": "Kimiko Kobayashi",
     "aliases": [],
     "nameKana": "こばやしきみこ"
+  },
+  "kimiko-torisu": {
+    "name": "鳥巣 貴美子",
+    "nameRomaji": "Kimiko Torisu",
+    "nameKana": "とりすきみこ",
+    "aliases": []
   },
   "kinsen-murayama": {
     "name": "村山琴泉",
@@ -2133,6 +2199,12 @@
     "nameKana": "すがいくみ",
     "snsCheckedAt": "2026-10-26"
   },
+  "kunihiko-nohara": {
+    "name": "野原邦彦",
+    "nameRomaji": "Kunihiko Nohara",
+    "nameKana": "のはらくにひこ",
+    "aliases": []
+  },
   "kunihiko-sasaki": {
     "name": "佐々木邦彦",
     "nameRomaji": "Kunihiko Sasaki",
@@ -2229,6 +2301,12 @@
   "lisbet-jobs": {
     "name": "リスベット・ヨブス",
     "nameRomaji": "Lisbet Jobs",
+    "aliases": []
+  },
+  "lootone": {
+    "name": "LOOTone",
+    "nameRomaji": "LOOTone",
+    "nameKana": "るーとーん",
     "aliases": []
   },
   "lucas-arruda": {
@@ -2356,6 +2434,12 @@
     "aliases": [],
     "website": "https://www.mari-ishikawa.de",
     "snsCheckedAt": "2026-10-26"
+  },
+  "mari-kaseya": {
+    "name": "加瀬谷真理",
+    "nameRomaji": "Mari Kaseya",
+    "nameKana": "かせやまり",
+    "aliases": []
   },
   "mari-katayama": {
     "name": "片山真理",
@@ -2655,6 +2739,12 @@
     "website": "http://www.yanagimiwa.net/",
     "snsCheckedAt": "2026-10-25"
   },
+  "miyako-aoki": {
+    "name": "青木美彌子",
+    "nameRomaji": "Miyako Aoki",
+    "nameKana": "あおきみやこ",
+    "aliases": []
+  },
   "miyako-ishiuchi": {
     "name": "石内都",
     "nameRomaji": "Miyako Ishiuchi",
@@ -2680,6 +2770,12 @@
     "nameKana": "ほそいみゆ",
     "website": "https://miyuhosoi.com/",
     "snsCheckedAt": "2026-10-21"
+  },
+  "mizuki-hatakeyama": {
+    "name": "畠山 瑞規",
+    "nameRomaji": "Mizuki Hatakeyama",
+    "nameKana": "はたけやまみずき",
+    "aliases": []
   },
   "momo-yamanishi": {
     "name": "山西もも",
@@ -2852,6 +2948,12 @@
     "name": "竹村 延和",
     "nameRomaji": "Nobukazu Takemura",
     "nameKana": "たけむらのぶかず",
+    "aliases": []
+  },
+  "nobuko-numano": {
+    "name": "沼野伸子",
+    "nameRomaji": "Nobuko Numano",
+    "nameKana": "ぬまののぶこ",
     "aliases": []
   },
   "nobuko-tsuchiya": {
@@ -3119,6 +3221,12 @@
     "nameKana": "ざるからふぁえる",
     "snsCheckedAt": "2026-10-21"
   },
+  "rei-itaya": {
+    "name": "板谷麗",
+    "nameRomaji": "Rei Itaya",
+    "nameKana": "いたやれい",
+    "aliases": []
+  },
   "rembrandt": {
     "name": "レンブラント",
     "nameRomaji": "Rembrandt",
@@ -3340,6 +3448,12 @@
     "nameKana": "さかきていとく",
     "snsCheckedAt": "2026-10-26"
   },
+  "sakuji-yoshimoto": {
+    "name": "吉本 作次",
+    "nameRomaji": "Sakuji Yoshimoto",
+    "nameKana": "よしもとさくじ",
+    "aliases": []
+  },
   "salvador-dali": {
     "name": "サルバドール・ダリ",
     "nameRomaji": "Salvador Dalí",
@@ -3532,6 +3646,12 @@
     "nameRomaji": "Shingo Kanagawa",
     "aliases": [],
     "nameKana": "かながわしんご"
+  },
+  "shinji-enchi": {
+    "name": "円地信二",
+    "nameRomaji": "Shinji Enchi",
+    "nameKana": "えんちしんじ",
+    "aliases": []
   },
   "shinji-ogawa": {
     "name": "小川信治",
@@ -4682,6 +4802,12 @@
     "aliases": [],
     "nameKana": "おくむらゆうき",
     "snsCheckedAt": "2026-10-21"
+  },
+  "yuki-saegusa": {
+    "name": "三枝 由季",
+    "nameRomaji": "Yuki Saegusa",
+    "nameKana": "さえぐさゆき",
+    "aliases": []
   },
   "yukie-noda": {
     "name": "野田幸江",

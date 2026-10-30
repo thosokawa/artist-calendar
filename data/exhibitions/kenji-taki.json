@@ -33,6 +33,46 @@
     "detailUrl": null,
     "summary": "鋤柄ふくみが「二重の森」と題してケンジタキギャラリー名古屋の展示空間で作品を発表する個展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "kenji-taki-20261114-294cb9",
+    "museumId": "kenji-taki",
+    "title": "夏炉冬扇",
+    "startDate": "2026-11-14",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [
+      "sakuji-yoshimoto",
+      "mizuki-hatakeyama",
+      "kimiko-torisu",
+      "anju-shimoke",
+      "yuki-saegusa"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "所属作家五名が季節の対比をテーマに作品を発表する、年末の画廊でのグループ展。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "kenji-taki-20261121-6b7e7d",
+    "museumId": "kenji-taki",
+    "title": "あれか、これか、どれか",
+    "startDate": "2026-11-21",
+    "endDate": "2026-12-23",
+    "kind": "special",
+    "artists": [
+      "eiji-watanabe"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "六本木の画廊で渡辺英司が選択をめぐる問いを掲げて展開する個展である。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]
