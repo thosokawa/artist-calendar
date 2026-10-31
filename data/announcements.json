@@ -562,5 +562,45 @@
     "artists": [
       "eiji-watanabe"
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "kaikai-kiki-gallery-20261104-7a6682",
+    "museumId": "kaikai-kiki-gallery",
+    "artists": [
+      "utanhole"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "sapporo-artpark-20270123-b3fd55",
+    "museumId": "sapporo-artpark",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "sapporo-artpark-20261121-f2f345",
+    "museumId": "sapporo-artpark",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "shizuoka-20261030-09c38a",
+    "museumId": "shizuoka",
+    "artists": [
+      "kawanabe-kyosai"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "shizuoka-20261030-37f266",
+    "museumId": "shizuoka",
+    "artists": []
+  },
+  {
+    "date": "2026-10-30",
+    "exhibitionId": "taro-okamoto-memorial-20261128-d81dd0",
+    "museumId": "taro-okamoto-memorial",
+    "artists": []
   }
 ]

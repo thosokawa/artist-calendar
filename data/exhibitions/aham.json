@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "《クリスティーナ・オルソン》で知られる米国の画家アンドリュー・ワイエスの作品を紹介する展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "aham-20261226-a1833e",
@@ -33,7 +33,7 @@
     "detailUrl": null,
     "summary": "東洋と西洋の美意識を結びつけた陶芸家ルーシー・リーの、気品あるうつわの数々を紹介する展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "aham-20270320-259143",
@@ -45,11 +45,13 @@
     "artists": [
       "eric-carle"
     ],
-    "genres": [],
+    "genres": [
+      "版画"
+    ],
     "detailUrl": null,
     "summary": "名作絵本『はらぺこあおむし』を出発点に、絵本作家エリック・カールの創作の世界をたどる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "aham-20270522-b63b18",
@@ -68,7 +70,7 @@
     "detailUrl": null,
     "summary": "「北斎」という画号を名乗っていた時期に焦点を当て、浮世絵師北斎の錦絵などを紹介する展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "aham-20270731-51897e",
@@ -86,6 +88,6 @@
     "detailUrl": null,
     "summary": "『銀河鉄道９９９』の50周年を記念し、漫画家松本零士の創作の歩みを振り返る展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-30"
   }
 ]

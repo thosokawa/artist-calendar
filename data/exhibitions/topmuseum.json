@@ -43,7 +43,7 @@
     "detailUrl": "https://topmuseum.jp/contents/current/index.html",
     "summary": "アジアの同時代の表現に焦点を当てた企画展で、写真美術館の2階展示室を会場として冬まで開催されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "topmuseum-20260930-4a5709",
@@ -59,12 +59,12 @@
     "detailUrl": "https://topmuseum.jp/contents/current/index.html",
     "summary": "これからの活躍が期待される日本の若手作家を紹介するシリーズの第23回で、3階展示室を会場に開かれる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "topmuseum-20261031-9e4bb1",
     "museumId": "topmuseum",
-    "title": "木村伊兵衛写真賞第50回記念写真展",
+    "title": "木村伊兵衛写真賞 第50回記念写真展",
     "startDate": "2026-10-31",
     "endDate": "2026-11-23",
     "kind": "special",
@@ -75,7 +75,7 @@
     "detailUrl": "https://topmuseum.jp/exhibition/5478/",
     "summary": "写真界の新人賞として知られる木村伊兵衛写真賞が50回を迎えたことを記念し、その歩みを振り返る写真展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "topmuseum-20270205-21afdd",

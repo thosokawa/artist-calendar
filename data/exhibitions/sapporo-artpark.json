@@ -20,7 +20,7 @@
     "detailUrl": null,
     "summary": "館の収蔵品の中から、五十嵐威暢が動物を題材に描いたイラストレーション作品を紹介するコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "sapporo-artpark-20261010-3175b4",
@@ -43,6 +43,38 @@
     "detailUrl": null,
     "summary": "江戸の人気浮世絵師五人の名品を一堂に集め、それぞれの個性と表現の違いを見比べられる特別展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "sapporo-artpark-20261121-f2f345",
+    "museumId": "sapporo-artpark",
+    "title": "森から生まれたクラフト展 2026",
+    "startDate": "2026-11-21",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "芸術の森のクラフト工房から生まれた工芸作品を集め、素材と技の広がりを紹介する展覧会です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "sapporo-artpark-20270123-b3fd55",
+    "museumId": "sapporo-artpark",
+    "title": "札幌美術展 わたしと世界のはかり方 往還する抽象絵画",
+    "startDate": "2027-01-23",
+    "endDate": "2027-03-14",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "抽象絵画の表現を行き来しながら、描くことと世界を捉えることの関係を問い直す展覧会です。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]

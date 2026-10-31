@@ -39,6 +39,40 @@
     "lastSeenAt": "2026-10-17"
   },
   {
+    "id": "shizuoka-20261030-09c38a",
+    "museumId": "shizuoka",
+    "title": "ゴールドマン コレクション 河鍋暁斎の世界",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "kawanabe-kyosai"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "幕末から明治に活躍した河鍋暁斎の多彩な作品を、ゴールドマン・コレクションから紹介する展覧会である。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "shizuoka-20261030-37f266",
+    "museumId": "shizuoka",
+    "title": "収蔵品展「山水画の名品」",
+    "startDate": "2026-10-30",
+    "endDate": "2026-12-06",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "美術館が所蔵する山水画の名品を集め、日本や中国の風景表現の魅力を味わえる収蔵品展である。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
+  },
+  {
     "id": "shizuoka-20270123-691d80",
     "museumId": "shizuoka",
     "title": "開館40周年記念展 おかげさまで展 静岡県立美術館を支える寄贈コレクション",

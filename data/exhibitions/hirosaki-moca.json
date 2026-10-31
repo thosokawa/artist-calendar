@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "美術家・風間サチコの作品世界を紹介する企画展で、11月中旬まで弘前れんが倉庫美術館で開かれています。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "hirosaki-moca-20260605-743cf0",
@@ -31,7 +31,7 @@
     "detailUrl": null,
     "summary": "弘前れんが倉庫美術館が収蔵する作品を紹介する2026年のコレクション展で、企画展と同じ会期で開催中です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "hirosaki-moca-20261204-768d7a",
@@ -47,12 +47,12 @@
     "detailUrl": null,
     "summary": "冬から翌春にかけて館の収蔵作品を公開するコレクション展で、次回の企画展と同時期に開催が予定されています。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "hirosaki-moca-20261204-768d7a",
     "museumId": "hirosaki-moca",
-    "title": "大正⇆令和アヴァンギャルド",
+    "title": "大正⇆令和アヴァンギャルド展",
     "startDate": "2026-12-04",
     "endDate": "2027-05-16",
     "kind": "special",
@@ -63,6 +63,6 @@
     "detailUrl": null,
     "summary": "大正と令和という二つの時代のアヴァンギャルドを結びつけて見せる企画展で、12月から翌年5月まで開かれます。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   }
 ]

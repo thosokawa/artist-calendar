@@ -17,5 +17,24 @@
     "summary": "デザインスタジオ・ステロタイプの創業30年を記念し、創業者山田大補のグラフィックや映像と現在のアニメ関連作品を紹介する展覧会。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "kaikai-kiki-gallery-20261104-7a6682",
+    "museumId": "kaikai-kiki-gallery",
+    "title": "Utanhole個展「Zipgunslingers」",
+    "startDate": "2026-11-04",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "utanhole"
+    ],
+    "genres": [
+      "現代美術",
+      "日本画"
+    ],
+    "detailUrl": null,
+    "summary": "漫画やアニメの表現を用いて、武器を手にするキャラクターたちが現実の選択肢を映し出す絵画群を紹介する個展。",
+    "firstSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-10-30"
   }
 ]

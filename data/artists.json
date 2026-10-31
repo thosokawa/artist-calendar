@@ -831,7 +831,8 @@
     "nameRomaji": "Eric Carle",
     "aliases": [],
     "website": "https://eric-carle.com/",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "nameKana": "かーるえりっく"
   },
   "erika-kusumi": {
     "name": "クスミエリカ",
@@ -1479,6 +1480,12 @@
     "aliases": [],
     "nameKana": "はんいしゅう"
   },
+  "issey-miyake": {
+    "name": "ISSEY MIYAKE",
+    "nameRomaji": "Issey Miyake",
+    "nameKana": "みやけいっせい",
+    "aliases": []
+  },
   "ito-jakuchu": {
     "name": "伊藤若冲",
     "nameRomaji": "Ito Jakuchu",
@@ -1773,7 +1780,8 @@
     "name": "葛飾北斎",
     "nameRomaji": "Katsushika Hokusai",
     "aliases": [
-      "北斎"
+      "北斎",
+      "HOKUSAI"
     ],
     "nameKana": "かつしかほくさい",
     "snsCheckedAt": "2026-10-20"
@@ -2331,7 +2339,8 @@
     "name": "ルーシー・リー",
     "nameRomaji": "Lucie Rie",
     "aliases": [],
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "nameKana": "りーるーしー"
   },
   "ludwig-mies-van-der-rohe": {
     "name": "ルートヴィヒ・ミース・ファン・デル・ローエ",
@@ -4481,6 +4490,12 @@
     "nameRomaji": "Utagawa Kuniyoshi",
     "aliases": [],
     "nameKana": "うたがわくによし"
+  },
+  "utanhole": {
+    "name": "Utanhole",
+    "nameRomaji": "Utanhole",
+    "nameKana": "うたんほーる",
+    "aliases": []
   },
   "valeriano-trubbiani": {
     "name": "ヴァレリアーノ・トルッビアーニ",

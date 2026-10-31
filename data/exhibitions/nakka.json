@@ -73,7 +73,7 @@
     "detailUrl": null,
     "summary": "シリーズ「Osaka Directory」の第13回として、橘葉月の作品を取り上げて紹介する個展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "nakka-20261219-a7a532",
@@ -91,7 +91,7 @@
     "detailUrl": null,
     "summary": "シリーズ「Osaka Directory」の第14回として、迫鉄平の作品を取り上げて紹介する個展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "nakka-20270109-725b25",
@@ -112,11 +112,14 @@
       "mari-katayama",
       "eiko-yamazawa"
     ],
-    "genres": [],
+    "genres": [
+      "工芸",
+      "デザイン"
+    ],
     "detailUrl": null,
     "summary": "ものづくりに携わってきた女性たちの約100年にわたる歩みをテーマに据えて構成される企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "nakka-20270123-998694",
@@ -134,7 +137,7 @@
     "detailUrl": null,
     "summary": "シリーズ「Osaka Directory」の第15回として、乾真裕子の作品を取り上げて紹介する個展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-30"
   },
   {
     "id": "nakka-20270313-27ae92",
