@@ -602,5 +602,32 @@
     "exhibitionId": "taro-okamoto-memorial-20261128-d81dd0",
     "museumId": "taro-okamoto-memorial",
     "artists": []
+  },
+  {
+    "date": "2026-11-01",
+    "exhibitionId": "kanazawa21-20261009-48a32c",
+    "museumId": "kanazawa21",
+    "artists": [
+      "kiboli-konno"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "exhibitionId": "momaw-20260804-e31b88",
+    "museumId": "momaw",
+    "artists": [
+      "edvard-munch",
+      "pablo-picasso",
+      "henri-matisse",
+      "wassily-kandinsky"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "exhibitionId": "yokosuka-moa-20270313-d516ca",
+    "museumId": "yokosuka-moa",
+    "artists": [
+      "tove-jansson"
+    ]
   }
 ]

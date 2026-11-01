@@ -15,7 +15,7 @@
     "detailUrl": null,
     "summary": "日本画家小倉遊亀の作品を、館の常設展示室の一角でじっくり味わえるコーナーです。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   },
   {
     "id": "shiga-art-20260905-ca8352",
@@ -31,7 +31,7 @@
     "detailUrl": null,
     "summary": "時間という目に見えないものが作品の中でどのような姿をとるのかを、館の所蔵品を通して考える常設展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   },
   {
     "id": "shiga-art-20260911-7d087a",
@@ -50,12 +50,12 @@
     "detailUrl": null,
     "summary": "七十代になってから絵筆を握り始めた丸木スマの創作の歩みを、多彩な作品を通じて紹介する企画展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   },
   {
     "id": "shiga-art-20261006-30f4ee",
     "museumId": "shiga-art",
-    "title": "お札を支える伝統技術～すき入れ・凹版・彩紋の世界～",
+    "title": "「お札を支える伝統技術～すき入れ・凹版・彩紋の世界～」",
     "startDate": "2026-10-06",
     "endDate": "2026-11-15",
     "kind": "special",
@@ -67,7 +67,7 @@
     "detailUrl": null,
     "summary": "国立印刷局と連携し、すき入れや凹版、彩紋といった紙幣づくりを支える伝統的な技術の世界を紹介する展示です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   },
   {
     "id": "shiga-art-20270115-f67df4",
@@ -86,6 +86,6 @@
     "detailUrl": null,
     "summary": "画家・佐川晃司の作品を通じて、絵画という表現と、その作品が存在する居場所について見つめ直す企画展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   }
 ]

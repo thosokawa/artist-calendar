@@ -1987,6 +1987,12 @@
     "aliases": [],
     "nameKana": "いたにけんぞう"
   },
+  "kiboli-konno": {
+    "name": "キボリノコンノ",
+    "nameRomaji": "Kiboli Konno",
+    "nameKana": "きぼりのこんの",
+    "aliases": []
+  },
   "kimiko-kobayashi": {
     "name": "小林喜巳子",
     "nameRomaji": "Kimiko Kobayashi",
@@ -4404,7 +4410,8 @@
     "nameRomaji": "Tove Jansson",
     "aliases": [],
     "website": "https://www.tovejansson.com/",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "nameKana": "とーべやんそん"
   },
   "tsubasa-kato": {
     "name": "加藤翼",

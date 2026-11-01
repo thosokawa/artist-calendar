@@ -24,12 +24,12 @@
     "detailUrl": null,
     "summary": "古典『方丈記』を手がかりに、小さな建築を通して生きることのあり方を見つめ直そうとする企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   },
   {
     "id": "2121-20261021-fa5df9",
     "museumId": "2121",
-    "title": "『一枚の布の可能性』 TYPE-XVII JAXA project by A-POC ABLE ISSEY MIYAKE",
+    "title": "『一枚の布の可能性』",
     "startDate": "2026-10-21",
     "endDate": "2026-11-19",
     "kind": "special",
@@ -43,7 +43,7 @@
     "detailUrl": null,
     "summary": "宇宙開発と衣服の技術が交わる、一枚の布がもつ新たな可能性を探る展示。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   },
   {
     "id": "2121-20270205-50da0b",
@@ -61,6 +61,6 @@
     "detailUrl": null,
     "summary": "「時間」をテーマに掲げ、ギャラリー1と2を会場として2027年2月から5月まで開かれる予定の企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-11-01"
   }
 ]
