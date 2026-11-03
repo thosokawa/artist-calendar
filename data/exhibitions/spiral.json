@@ -9,11 +9,13 @@
     "artists": [
       "miyako-yamazaki"
     ],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "名古屋のスパイラル・アートギャラリーで、山崎美弥子の作品を紹介する個展が開かれています。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-03"
   },
   {
     "id": "spiral-20261016-5ed9de",
@@ -37,10 +39,12 @@
     "endDate": "2027-01-05",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": null,
     "summary": "名古屋のスパイラル・アートギャラリーで開かれる、冬から年明けにかけての展覧会です。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-03"
   }
 ]

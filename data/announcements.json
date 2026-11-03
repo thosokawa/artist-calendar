@@ -629,5 +629,19 @@
     "artists": [
       "tove-jansson"
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "exhibitionId": "chiba-city-museum-20261103-8947d5",
+    "museumId": "chiba-city-museum",
+    "artists": [
+      "hitoshi-nomura"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "exhibitionId": "monet-tsumari-20260718-35dcfe",
+    "museumId": "monet-tsumari",
+    "artists": []
   }
 ]

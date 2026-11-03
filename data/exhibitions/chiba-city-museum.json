@@ -15,7 +15,7 @@
     "detailUrl": "https://www.ccma-net.jp/exhibitions/",
     "summary": "千葉開府900年を記念し、月や星をテーマに美術が時代や人、物を結びつける様子を探る特別展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-03"
   },
   {
     "id": "chiba-city-museum-20261007-2e9e94",
@@ -51,6 +51,24 @@
     "detailUrl": "https://www.ccma-net.jp/exhibitions/",
     "summary": "タムラサトルが会期中に「1トンになる」という目標に向けて制作を進める、つくりかけラボの第22弾です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-03"
+  },
+  {
+    "id": "chiba-city-museum-20261103-8947d5",
+    "museumId": "chiba-city-museum",
+    "title": "千葉市美術館コレクション選 特集：月／野村仁",
+    "startDate": "2026-11-03",
+    "endDate": "2026-12-06",
+    "kind": "collection",
+    "artists": [
+      "hitoshi-nomura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "館蔵品から月をテーマにした作品を選び、野村仁の作品とあわせて紹介するコレクション展です。",
+    "firstSeenAt": "2026-11-03",
+    "lastSeenAt": "2026-11-03"
   }
 ]
