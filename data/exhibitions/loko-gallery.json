@@ -16,5 +16,24 @@
     "summary": "久保寛子が「定尺のミソロジー」と題してLOKO GALLERYで開く個展で、10月末まで作品を紹介する。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "loko-gallery-20261120-6e9e4e",
+    "museumId": "loko-gallery",
+    "title": "竹内孝和 × Bernd Bleﬀert「わたしという二つ」",
+    "startDate": "2026-11-20",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [
+      "takahiro-takeuchi",
+      "bernd-bleffert"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "竹内孝和とベルント・ブレフェルトの二人が、それぞれの視点で向き合う新作を並べる二人展です。",
+    "firstSeenAt": "2026-11-04",
+    "lastSeenAt": "2026-11-04"
   }
 ]

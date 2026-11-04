@@ -20,7 +20,7 @@
   {
     "id": "yokosuka-moa-20260905-7c3b7f",
     "museumId": "yokosuka-moa",
-    "title": "谷内六郎館 再オープン記念 令和８年度第１期 谷内六郎展 月のひかり、星のきらめき",
+    "title": "再オープン記念 令和８年度第１期 谷内六郎展",
     "startDate": "2026-09-05",
     "endDate": "2027-01-17",
     "kind": "collection",
@@ -34,7 +34,7 @@
     "detailUrl": null,
     "summary": "月や星をテーマに、谷内六郎による『週刊新潮』の表紙絵と絵本『びんのそら』の作品を選んで見せる展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "yokosuka-moa-20261114-5cbc6b",
@@ -52,12 +52,26 @@
     "detailUrl": null,
     "summary": "生誕120年を記念して、画家三岸節子の作品世界を振り返る企画展で、11月から12月にかけて開催されます。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
+  },
+  {
+    "id": "yokosuka-moa-20270109-392c25",
+    "museumId": "yokosuka-moa",
+    "title": "第79回 児童生徒造形作品展",
+    "startDate": "2027-01-09",
+    "endDate": "2027-01-25",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "市内の児童・生徒がつくった造形作品を集めて紹介する展示です。",
+    "firstSeenAt": "2026-11-04",
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "yokosuka-moa-20270123-c477d8",
     "museumId": "yokosuka-moa",
-    "title": "谷内六郎館 令和８年度第２期 谷内六郎展 雨の日の夢",
+    "title": "令和８年度第２期 谷内六郎展",
     "startDate": "2027-01-23",
     "endDate": "2027-05-09",
     "kind": "collection",
@@ -68,12 +82,12 @@
     "detailUrl": null,
     "summary": "雨の日をテーマに、谷内六郎の『週刊新潮』表紙絵と絵本『ぎんのわっか』の作品を紹介する谷内六郎館の展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "yokosuka-moa-20270211-85ea80",
     "museumId": "yokosuka-moa",
-    "title": "企画展 ジブリパーク展",
+    "title": "ジブリパーク展",
     "startDate": "2027-02-11",
     "endDate": "2027-05-14",
     "kind": "special",
@@ -84,7 +98,7 @@
     "detailUrl": null,
     "summary": "ジブリパークをテーマにした企画展で、2027年2月から5月まで約3か月にわたり横須賀美術館で開かれます。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "yokosuka-moa-20270313-d516ca",
@@ -100,6 +114,6 @@
     "detailUrl": null,
     "summary": "開館二十周年を記念し、ムーミンを生んだトーベ・ヤンソンの創作の源を紹介する展覧会である。",
     "firstSeenAt": "2026-11-01",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
   }
 ]

@@ -410,6 +410,12 @@
     "nameRomaji": "Bernard Leach",
     "aliases": []
   },
+  "bernd-bleffert": {
+    "name": "Bernd Bleﬀert",
+    "nameRomaji": "Bernd Bleffert",
+    "nameKana": "べるんと・ぶれっふぇると",
+    "aliases": []
+  },
   "bien": {
     "name": "BIEN",
     "nameRomaji": "BIEN",
@@ -4001,6 +4007,12 @@
     "nameKana": "よこやまたいかん",
     "snsCheckedAt": "2026-10-23"
   },
+  "takahiro-takeuchi": {
+    "name": "竹内孝和",
+    "nameRomaji": "Takahiro Takeuchi",
+    "nameKana": "たけうちたかひろ",
+    "aliases": []
+  },
   "takako-asami": {
     "name": "浅見貴子",
     "nameRomaji": "Takako Asami",
@@ -4742,6 +4754,12 @@
     "aliases": [],
     "nameKana": "よしむらしゅうざん",
     "snsCheckedAt": "2026-10-26"
+  },
+  "yoshinori-niwa": {
+    "name": "丹羽良徳",
+    "nameRomaji": "Yoshinori Niwa",
+    "nameKana": "にわよしのり",
+    "aliases": []
   },
   "yoshitaka-kurashige": {
     "name": "倉茂義隆",

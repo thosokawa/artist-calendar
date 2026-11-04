@@ -15,12 +15,12 @@
     "detailUrl": null,
     "summary": "沖縄戦後美術の重要作家で造形教育者でもあった山城見信の仕事を、教育や原風景など多角的な視点から紹介する。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "okimu-20260919-40c598",
     "museumId": "okimu",
-    "title": "沖縄美術の流れ―resonant 時代を超えて響きあう表現の系譜」",
+    "title": "沖縄美術の流れ－resonant 時代を超えて響きあう表現の系譜」",
     "startDate": "2026-09-19",
     "endDate": "2027-03-28",
     "kind": "collection",
@@ -35,6 +35,38 @@
     "detailUrl": null,
     "summary": "館蔵品を通じて、戦前から復帰前後を経て現代に至る沖縄美術の歩みと多彩な作家たちの表現をたどる展示。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-04"
+  },
+  {
+    "id": "okimu-20261103-143f6a",
+    "museumId": "okimu",
+    "title": "首里・那覇を描いた絵図",
+    "startDate": "2026-11-03",
+    "endDate": "2026-12-13",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "首里城の復元を機に、首里と那覇の街並みを描いた古い絵図を美術工芸の視点から紹介する展示です。",
+    "firstSeenAt": "2026-11-04",
+    "lastSeenAt": "2026-11-04"
+  },
+  {
+    "id": "okimu-20270105-232d9e",
+    "museumId": "okimu",
+    "title": "首里城と王家ゆかりの施設",
+    "startDate": "2027-01-05",
+    "endDate": "2027-02-21",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "工芸"
+    ],
+    "detailUrl": null,
+    "summary": "首里城と琉球王家にゆかりのある施設を、美術工芸品を通して紹介する展示です。",
+    "firstSeenAt": "2026-11-04",
+    "lastSeenAt": "2026-11-04"
   }
 ]

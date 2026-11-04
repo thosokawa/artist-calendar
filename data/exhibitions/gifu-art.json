@@ -14,7 +14,7 @@
     "detailUrl": null,
     "summary": "所蔵作品を鑑賞し、そこから自分でも絵を描いてみることを楽しめる、参加型の所蔵品展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "gifu-art-20260908-cfff2c",
@@ -46,7 +46,7 @@
     "detailUrl": null,
     "summary": "フランス近代の絵画作品を一堂に集め、その華やかな展開を味わう秋から冬にかけての企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "gifu-art-20260929-612b29",
@@ -66,7 +66,7 @@
     "detailUrl": null,
     "summary": "館が誇るルドンのコレクションから、ルドンと駒井哲郎の作品を並べて両者の関係に目を向ける所蔵品展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "gifu-art-20261001-f206d2",
@@ -85,12 +85,12 @@
     "detailUrl": null,
     "summary": "「ノア・ノア」を手がかりに、ゴーギャンが思い描いた楽園のイメージをたどる所蔵品展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "gifu-art-20261027-9a8b7f",
     "museumId": "gifu-art",
-    "title": "アートまるケット2026 ルドンが育った環境の中で進化するAI HIBINOのDNAは ギフから始まる／アートは全ての産業と繋がる",
+    "title": "アートまるケット2026 ルドンが育った環境の中で進化するAI HIBINOのDNAはギフから始まる／アートは全ての産業と繋がる",
     "startDate": "2026-10-27",
     "endDate": "2027-03-14",
     "kind": "special",
@@ -102,7 +102,7 @@
     "detailUrl": null,
     "summary": "ルドンの育った環境や先端技術を手がかりに、アートと産業のつながりを考える現代美術の展示です。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "gifu-art-20261110-11f1d2",
@@ -120,7 +120,7 @@
     "detailUrl": null,
     "summary": "橋本コレクションの作品を軸に、鯉江良二の創作の歩みを特集形式で紹介する所蔵品展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "gifu-art-20261110-577771",
@@ -138,6 +138,6 @@
     "detailUrl": null,
     "summary": "岐阜ゆかりの作家佐藤慶次郎の、型にとらわれない実験的な試みを所蔵作品で紹介します。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   }
 ]

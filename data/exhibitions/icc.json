@@ -2,7 +2,7 @@
   {
     "id": "icc-20260620-1d8338",
     "museumId": "icc",
-    "title": "リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」",
+    "title": "リサーチ・コンプレックス NTT R＆D @ICC 「身体性BEYOND」",
     "startDate": "2026-06-20",
     "endDate": "2026-11-08",
     "kind": "special",
@@ -13,7 +13,7 @@
     "detailUrl": null,
     "summary": "NTTの研究開発とICCが連携し、「身体性BEYOND」をテーマに研究成果を紹介する展示企画です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "icc-20260912-9333af",
@@ -32,7 +32,7 @@
     "detailUrl": null,
     "summary": "新進作家を紹介するシリーズの一環として、杉田碧の作品《二十一世紀の空蝉》を展示する企画です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   },
   {
     "id": "icc-20260929-78beb4",
@@ -48,6 +48,6 @@
     "detailUrl": null,
     "summary": "ICCが秋の会期中に開催する展示企画で、11月上旬まで館内でその内容を鑑賞することができます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-04"
   }
 ]

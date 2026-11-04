@@ -643,5 +643,40 @@
     "exhibitionId": "monet-tsumari-20260718-35dcfe",
     "museumId": "monet-tsumari",
     "artists": []
+  },
+  {
+    "date": "2026-11-04",
+    "exhibitionId": "loko-gallery-20261120-6e9e4e",
+    "museumId": "loko-gallery",
+    "artists": [
+      "takahiro-takeuchi",
+      "bernd-bleffert"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "exhibitionId": "okimu-20261103-143f6a",
+    "museumId": "okimu",
+    "artists": []
+  },
+  {
+    "date": "2026-11-04",
+    "exhibitionId": "okimu-20270105-232d9e",
+    "museumId": "okimu",
+    "artists": []
+  },
+  {
+    "date": "2026-11-04",
+    "exhibitionId": "satoko-oe-20261121-c415df",
+    "museumId": "satoko-oe",
+    "artists": [
+      "yoshinori-niwa"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "exhibitionId": "yokosuka-moa-20270109-392c25",
+    "museumId": "yokosuka-moa",
+    "artists": []
   }
 ]
