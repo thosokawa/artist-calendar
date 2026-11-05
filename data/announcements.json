@@ -678,5 +678,25 @@
     "exhibitionId": "yokosuka-moa-20270109-392c25",
     "museumId": "yokosuka-moa",
     "artists": []
+  },
+  {
+    "date": "2026-11-05",
+    "exhibitionId": "gallery-ug-20261211-b23f4c",
+    "museumId": "gallery-ug",
+    "artists": []
+  },
+  {
+    "date": "2026-11-05",
+    "exhibitionId": "momaw-20260804-e31b88",
+    "museumId": "momaw",
+    "artists": []
+  },
+  {
+    "date": "2026-11-05",
+    "exhibitionId": "sapporo-artpark-20270417-3ffc58",
+    "museumId": "sapporo-artpark",
+    "artists": [
+      "shinsuke-yoshitake"
+    ]
   }
 ]
