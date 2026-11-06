@@ -698,5 +698,32 @@
     "artists": [
       "shinsuke-yoshitake"
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "exhibitionId": "imura-art-20261106-48ba3b",
+    "museumId": "imura-art",
+    "artists": [
+      "kengo-kito",
+      "takehito-koganezawa",
+      "kohei-nawa",
+      "kyoko-murase"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "exhibitionId": "kyoto-art-center-20261106-fc957b",
+    "museumId": "kyoto-art-center",
+    "artists": [
+      "koki-tanaka"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "exhibitionId": "perrotin-tokyo-20261118-0705d6",
+    "museumId": "perrotin-tokyo",
+    "artists": [
+      "kelly-beeman"
+    ]
   }
 ]

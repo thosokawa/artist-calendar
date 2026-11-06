@@ -1929,10 +1929,22 @@
     "nameKana": "きたじまけいぞう",
     "snsCheckedAt": "2026-10-23"
   },
+  "kelly-beeman": {
+    "name": "Kelly Beeman",
+    "nameRomaji": "Kelly Beeman",
+    "nameKana": "びーまんけりー",
+    "aliases": []
+  },
   "ken-kuroi": {
     "name": "黒井健",
     "nameRomaji": "Ken Kuroi",
     "nameKana": "くろいけん",
+    "aliases": []
+  },
+  "kengo-kito": {
+    "name": "Kengo Kito",
+    "nameRomaji": "Kengo Kito",
+    "nameKana": "きとうけんご",
     "aliases": []
   },
   "kenji-kohiyama": {
@@ -2105,7 +2117,9 @@
     "name": "名和 晃平",
     "nameRomaji": "Kohei Nawa",
     "nameKana": "なわこうへい",
-    "aliases": [],
+    "aliases": [
+      "Kohei Nawa"
+    ],
     "website": "https://kohei-nawa.net/",
     "snsCheckedAt": "2026-10-18"
   },
@@ -2179,6 +2193,12 @@
     "aliases": [],
     "nameKana": "ひらいこうき",
     "snsCheckedAt": "2026-10-26"
+  },
+  "koki-tanaka": {
+    "name": "田中功起",
+    "nameRomaji": "Koki Tanaka",
+    "nameKana": "たなかこうき",
+    "aliases": []
   },
   "kondaba": {
     "name": "kondaba",
@@ -2258,6 +2278,12 @@
     "aliases": [],
     "nameKana": "つづききょういち",
     "snsCheckedAt": "2026-10-26"
+  },
+  "kyoko-murase": {
+    "name": "Kyoko Murase",
+    "nameRomaji": "Kyoko Murase",
+    "nameKana": "むらせきょうこ",
+    "aliases": []
   },
   "kyoko-shindo": {
     "name": "新藤杏子",
@@ -4071,6 +4097,12 @@
     "nameKana": "みつしまたかゆき",
     "website": "https://mitsushima-art.jimdofree.com/",
     "snsCheckedAt": "2026-10-22"
+  },
+  "takehito-koganezawa": {
+    "name": "Takehito Koganezawa",
+    "nameRomaji": "Takehito Koganezawa",
+    "nameKana": "こがねざわたけひと",
+    "aliases": []
   },
   "takeji-fujishima": {
     "name": "藤島武二",

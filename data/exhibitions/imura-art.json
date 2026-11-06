@@ -18,5 +18,26 @@
     "summary": "音と色の対応関係を独自に定めた「手色形楽」の考えに基づき、陶による新作立体7点を発表する日野田崇の個展。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "imura-art-20261106-48ba3b",
+    "museumId": "imura-art",
+    "title": "Schwarz-Weiß",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "kengo-kito",
+      "takehito-koganezawa",
+      "kohei-nawa",
+      "kyoko-murase"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.imuraart.com/exhibition/current.html",
+    "summary": "ドイツ語で「黒／白」を意味する題のもと、モノクロームを基調とした四名の作家による グループ展である。",
+    "firstSeenAt": "2026-11-06",
+    "lastSeenAt": "2026-11-06"
   }
 ]

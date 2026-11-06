@@ -34,5 +34,23 @@
     "summary": "京都国際舞台芸術祭のプログラムの一つとして、未来の辞書をテーマに掲げ、入場無料で公開される展示企画です。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-24"
+  },
+  {
+    "id": "kyoto-art-center-20261106-fc957b",
+    "museumId": "kyoto-art-center",
+    "title": "FOCUS＃7 田中功起による展覧会『時間がない（ときに眠ること） No Time to Sleep / Time to Sleep』",
+    "startDate": "2026-11-06",
+    "endDate": "2027-01-11",
+    "kind": "special",
+    "artists": [
+      "koki-tanaka"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "田中功起が京都芸術センターのギャラリーで、時間と眠りをめぐる作品を紹介する個展です。",
+    "firstSeenAt": "2026-11-06",
+    "lastSeenAt": "2026-11-06"
   }
 ]

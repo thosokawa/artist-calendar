@@ -16,5 +16,23 @@
     "summary": "過去・現在・未来の境界を問い、現代の物を遺物に変えるアーシャムの代表作を集めた展覧会です。",
     "firstSeenAt": "2026-10-29",
     "lastSeenAt": "2026-10-30"
+  },
+  {
+    "id": "perrotin-tokyo-20261118-0705d6",
+    "museumId": "perrotin-tokyo",
+    "title": "Kelly Beeman",
+    "startDate": "2026-11-18",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [
+      "kelly-beeman"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "アメリカ出身の画家ケリー・ビーマンが東京で開く個展で、近作の絵画を中心に紹介される展覧会です。",
+    "firstSeenAt": "2026-11-06",
+    "lastSeenAt": "2026-11-06"
   }
 ]
