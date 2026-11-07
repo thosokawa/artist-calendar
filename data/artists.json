@@ -283,7 +283,9 @@
     "name": "中山明日香",
     "nameRomaji": "Asuka Nakayama",
     "nameKana": "なかやまあすか",
-    "aliases": []
+    "aliases": [
+      "Asuka NAKAYAMA"
+    ]
   },
   "atsuko-tanaka": {
     "name": "田中敦子",
@@ -3272,6 +3274,12 @@
     "name": "板谷麗",
     "nameRomaji": "Rei Itaya",
     "nameKana": "いたやれい",
+    "aliases": []
+  },
+  "reiichi-tsuchiya": {
+    "name": "土屋禮一",
+    "nameRomaji": "Reiichi Tsuchiya",
+    "nameKana": "つちやれいいち",
     "aliases": []
   },
   "rembrandt": {

@@ -725,5 +725,19 @@
     "artists": [
       "kelly-beeman"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "gifu-art-20270106-4d4b0a",
+    "museumId": "gifu-art",
+    "artists": [
+      "reiichi-tsuchiya"
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "mimt-20270220-27ae98",
+    "museumId": "mimt",
+    "artists": []
   }
 ]

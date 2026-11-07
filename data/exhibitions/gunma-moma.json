@@ -15,12 +15,12 @@
     "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "孤高の道を歩んだ彫刻家、村山琴泉の作品と仕事の歩みを、まとめて紹介する特別展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-06"
+    "lastSeenAt": "2026-11-07"
   },
   {
     "id": "gunma-moma-20260919-2187af",
     "museumId": "gunma-moma",
-    "title": "コレクション展示：日本と西洋の近代美術Ⅰ",
+    "title": "日本と西洋の近代美術Ⅰ",
     "startDate": "2026-09-19",
     "endDate": "2026-11-08",
     "kind": "collection",
@@ -32,12 +32,12 @@
     "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "館の所蔵品から、日本と西洋それぞれの近代美術の作品を選んで並べ、見比べられるコレクション展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-06"
+    "lastSeenAt": "2026-11-07"
   },
   {
     "id": "gunma-moma-20260919-84737d",
     "museumId": "gunma-moma",
-    "title": "コレクション展示：新収蔵作品紹介",
+    "title": "新収蔵作品紹介",
     "startDate": "2026-09-19",
     "endDate": "2026-11-08",
     "kind": "collection",
@@ -48,7 +48,7 @@
     "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "美術館のコレクションに新しく加わった作品を、来館者へ向けて披露するコレクション展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-06"
+    "lastSeenAt": "2026-11-07"
   },
   {
     "id": "gunma-moma-20261014-66a983",
@@ -64,6 +64,6 @@
     "detailUrl": "https://www.mmag.pref.gunma.jp/exhibition/index.html",
     "summary": "館が所蔵する戸方庵井上コレクションの中から、選りすぐりの名品を取り上げるコレクション展示の第二弾です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-06"
+    "lastSeenAt": "2026-11-07"
   }
 ]

@@ -14,10 +14,10 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://mimt.jp/exhibition/",
     "summary": "フォンタネージの《四月》と《雲》を軸に、日本の近代洋画とのつながりを紹介する小企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-07"
   },
   {
     "id": "mimt-20270219-877dd3",
@@ -39,6 +39,23 @@
     "lastSeenAt": "2026-10-29"
   },
   {
+    "id": "mimt-20270220-27ae98",
+    "museumId": "mimt",
+    "title": "パリ・モンマルトル 芸術家の交差点―浮世と芸術が交わる街で",
+    "startDate": "2027-02-20",
+    "endDate": "2027-05-23",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "洋画",
+      "版画"
+    ],
+    "detailUrl": "https://mimt.jp/exhibition/",
+    "summary": "パリのモンマルトルに集った芸術家たちの交流を、当時の街の雰囲気とともに紹介する展覧会です。",
+    "firstSeenAt": "2026-11-07",
+    "lastSeenAt": "2026-11-07"
+  },
+  {
     "id": "mimt-20270618-1fe724",
     "museumId": "mimt",
     "title": "京都国立近代美術館所蔵作品にみる 京(みやこ)のくらし――二十四節気を愉しむ",
@@ -46,10 +63,13 @@
     "endDate": "2027-09-12",
     "kind": "special",
     "artists": [],
-    "genres": [],
-    "detailUrl": null,
+    "genres": [
+      "日本画",
+      "版画"
+    ],
+    "detailUrl": "https://mimt.jp/exhibition/",
     "summary": "京都国立近代美術館の所蔵品を通して、二十四節気に沿った京都の季節の暮らしを味わう展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-11-07"
   }
 ]
