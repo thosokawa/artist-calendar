@@ -48,10 +48,11 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.galeriechene.com/jp/exhibitions/2026/2611_takita.html",
     "summary": "滝田朝江による平面作品を並べ、その描く世界観をじっくり味わえる展示です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "galerie-chene-20261116-b877fc",
@@ -64,10 +65,11 @@
     "genres": [
       "工芸"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.galeriechene.com/jp/exhibitions/2026/2611_tex.html",
     "summary": "染色や織りの技法による布の作品が集まり、素材感を楽しめる企画展です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "galerie-chene-20261123-b566ec",
@@ -83,10 +85,12 @@
       "日本画",
       "工芸"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.galeriechene.com/jp/exhibitions/2026/2611_maeda.html",
     "summary": "日本画と染付の皿を組み合わせ、前田史代が伝統的な表現を見せる展示です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "description": "南半球原産のワイルドフラワーを題材に、花の立ち昇る力強さや生命の繋がりを描く展覧会です。つぼみ、開花、そして大地へと巡る力を意匠的に表現する作品が並び、日本画の大小16点と染付皿8点が展示されます。白を花々の素なるいのちとして捉え、華やかな躍動が途切れず続いていく様子を感じられる構成です。日本画と染付皿という異なる技法を併せて見られる点も、この展覧会の特色といえます。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "galerie-chene-20261130-dda8e4",
@@ -101,10 +105,12 @@
     "genres": [
       "日本画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.galeriechene.com/jp/exhibitions/2026/2611_maejima.html",
     "summary": "前島愛由の日本画作品を通して、画面に宿る静かな気配を伝える展覧会です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "description": "日本画家・前島愛由の初個展で、実際に見た景色と、時間を経て記憶に残った風景をもとに制作した作品が並びます。幼い頃から毎年訪れてきた長野県黒姫の自然や、これまでに訪れた土地の景色が題材になっています。岩絵具、和紙、箔を用いて描かれており、記憶の中で色や光、空気だけが残り続けるという視点から、風景が時間とともに形を変えながら続いていくあり方を作品として示します。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "galerie-chene-20261207-ce58c3",
@@ -119,10 +125,12 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.galeriechene.com/jp/exhibitions/2026/2612_lootone.html",
     "summary": "年末に画廊企画として開かれる平面作品の展覧会で、LOOToneと題した展示が約2週間行われます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "description": "スプレー缶やアクリルを用いて描くグラフィティアーティストLOOToneの個展です。今回は、作家がこれまで影響を受けてきた音楽、ファッション、アート、人物、死生観といったさまざまな要素を主題にしています。画面には絵具が飛び散った跡が残り、そこから生まれる速度感が作品に動きを与えています。発色の良い色彩が重なり合い、見る角度によって表情が変わる多面的な作品群が並びます。銀座ギャラリーズ主催の「Xmasアートフェスタ」に参加する展示でもあり、年末の銀座を巡る機会に合わせて見ることができます。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "galerie-chene-20261221-f19884",
@@ -137,9 +145,10 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.galeriechene.com/jp/exhibitions/2026/2612_ai.html",
     "summary": "藍明清による平面作品を紹介し、色彩と構図の魅力に触れられる展覧会です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   }
 ]

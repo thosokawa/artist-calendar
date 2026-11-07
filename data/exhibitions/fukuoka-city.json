@@ -14,7 +14,8 @@
     "detailUrl": null,
     "summary": "東光院に伝わった仏像などの仏教美術を、専用の展示室で一年を通して紹介するコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20260630-0e7d97",
@@ -28,10 +29,11 @@
       "現代美術",
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.fukuoka-art-museum.jp/collection_highlight/",
     "summary": "館が所蔵する近現代美術の名品を選りすぐり、複数の展示室で紹介する年間のコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20260811-61cbbe",
@@ -68,7 +70,8 @@
     "detailUrl": null,
     "summary": "生誕150年を記念し、旅を通じて風景を描き続けた画家・吉田博の作品世界を紹介するコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20260908-80ae82",
@@ -86,7 +89,8 @@
     "detailUrl": null,
     "summary": "福岡ゆかりの現代作家を紹介するシリーズの一環として、山内光枝の表現を取り上げる企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20260930-f8e061",
@@ -107,7 +111,8 @@
     "detailUrl": null,
     "summary": "博多の禅僧として親しまれた仙厓の書画を、展示替えを経た後期の構成で楽しめるコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20260930-f8e061",
@@ -124,7 +129,8 @@
     "detailUrl": null,
     "summary": "田中丸コレクションの名品を中心に、肥前地方で生まれた多彩なやきものを紹介するコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-24"
+    "lastSeenAt": "2026-10-24",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20261017-80247d",
@@ -140,7 +146,8 @@
     "detailUrl": null,
     "summary": "カルン・タカール氏の収集品を通じて、世界各地へ広がったインド更紗の歩みをたどる特別展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20261022-8ce923",
@@ -159,7 +166,8 @@
     "detailUrl": null,
     "summary": "茶人・松永耳庵ゆかりの茶道具を、冬の茶会をテーマにした取り合わせで紹介するコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20261202-74da35",
@@ -172,10 +180,12 @@
     "genres": [
       "工芸"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.fukuoka-art-museum.jp/exhibition/the_textikle_of_cambodia2026/",
     "summary": "カンボジアで受け継がれてきた染めと織りの布を取り上げ、その技と美しさに触れる企画展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "description": "この展覧会では、福岡市美術館のコレクションを中心に、カンボジアの染織品を紹介します。絹の緯絣は絵画のような表現を可能にするほど繊細で精緻な技術として知られており、その高い技術を味わえる内容です。緯絣のほか、紋織や絞りなどの名品が並び、儀礼用の布（ピダン）を含む作品を通して、布に込められた祈りの世界を見ることができます。また、関連講座では、絹織物における絣・織・絞りの技法について知ることができます。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20261222-99cac9",
@@ -193,7 +203,8 @@
     "detailUrl": null,
     "summary": "没後90年の節目に、福岡出身の日本画家・冨田溪仙の作品を館蔵品から紹介するコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20261225-f62ff9",
@@ -213,7 +224,8 @@
     "detailUrl": null,
     "summary": "写真家・鋤田正義がカメラを通してとらえた光と瞬間を、所蔵作品によって紹介するコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20261225-27afa0",
@@ -229,7 +241,8 @@
     "detailUrl": null,
     "summary": "戦後に結成されたデモクラート美術家協会に集った作家たちの活動を、館蔵作品でふり返るコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20270113-d8af17",
@@ -246,7 +259,8 @@
     "detailUrl": null,
     "summary": "茶道具に付けられた銘に注目し、名前に込められた意味や趣とともに道具を味わうコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukuoka-city-20270209-964662",
@@ -265,6 +279,7 @@
     "detailUrl": null,
     "summary": "日本の風土や物語を描いてきたやまと絵の魅力を、館所蔵の古美術作品を通して紹介するコレクション展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   }
 ]

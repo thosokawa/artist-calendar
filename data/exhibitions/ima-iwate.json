@@ -15,7 +15,8 @@
     "detailUrl": null,
     "summary": "人気漫画『呪術廻戦』の作者である芥見下々の仕事を、作品世界とともに紹介する企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-20",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "ima-iwate-20261121-44511b",
@@ -33,7 +34,8 @@
     "detailUrl": null,
     "summary": "彫刻の森美術館が所蔵する作品を通じて、英国の彫刻家ヘンリー・ムーアの造形世界に触れる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-20",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "ima-iwate-20261226-68132d",
@@ -51,6 +53,7 @@
     "detailUrl": null,
     "summary": "ムーミンの物語と、その生みの親であるトーベの創作をあわせて紹介する、冬の時期の展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-20"
+    "lastSeenAt": "2026-10-20",
+    "describedAt": "2026-11-08"
   }
 ]

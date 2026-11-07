@@ -28,7 +28,8 @@
     "detailUrl": "https://www.momat.go.jp/exhibitions/r8-2",
     "summary": "明治から現代までの日本近代美術を12の部屋で通覧し、重要文化財や大正期の特集もあわせて楽しめる所蔵品展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-16",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "momat-20260929-5ee9c9",
@@ -53,7 +54,8 @@
     "detailUrl": "https://www.momat.go.jp/exhibitions/r8-2-g4",
     "summary": "戦前から戦後にパリへ渡り、現地で腕を磨いて活躍した日本人芸術家たちの軌跡を館蔵品中心にたどる小企画。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-16",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "momat-20261023-991340",
@@ -73,7 +75,8 @@
     "detailUrl": "https://www.momat.go.jp/exhibitions/570",
     "summary": "画家・挿絵画家・デザイナーとして大正文化を彩った竹久夢二の多面的な仕事を、全国から集めた約500点で紹介する。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-16",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "momat-20270319-e61097",
@@ -91,7 +94,8 @@
     "detailUrl": "https://www.momat.go.jp/exhibitions/572",
     "summary": "大正から昭和初期に革新的な日本画を生んだ速水御舟の約100点を、日記や書簡などの資料とともに読み解く回顧展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-16",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "momat-20270618-0d677d",
@@ -110,7 +114,8 @@
     "detailUrl": "https://www.momat.go.jp/exhibitions/575",
     "summary": "大和絵や洋画の技法を自在に織り交ぜ、緻密でユーモラスな画面をつくる現代の画家山口晃の世界を紹介する個展。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-16",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "momat-20271009-a1c148",
@@ -128,6 +133,7 @@
     "detailUrl": "https://www.momat.go.jp/exhibitions/576",
     "summary": "簡潔な形と豊かな色面で独自の画風を築いた米国の画家ミルトン・エイヴリーの作品を日本で本格的に紹介する展覧会。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-16"
+    "lastSeenAt": "2026-10-16",
+    "describedAt": "2026-11-08"
   }
 ]

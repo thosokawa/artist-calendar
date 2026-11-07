@@ -8,10 +8,12 @@
     "kind": "special",
     "artists": [],
     "genres": [],
-    "detailUrl": null,
+    "detailUrl": "https://kotaronukaga.com/exhibition/points-of-entry/",
     "summary": "KOTARO NUKAGAの展示スペースで秋に開かれている展覧会で、11月上旬まで作品を見ることができます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "description": "ロサンゼルスを拠点とするコア・ポアが、絨毯の構造を借りて複数の視覚的伝統を一つの画面に重ねる〈Poly Painting〉シリーズの新作を並べる展覧会です。絨毯の縁や中心の図柄は絵の具で描かれ、青海波や麻の葉などの日本の文様が、外から伝わった柄として組み込まれています。文様だけでなく、技法や「ペルシア絨毯」のような呼び名もまた往来してきたことが、作品を通して示されます。絵の具を削って下の層を見せる手法は、断片と推測で語られてきた絨毯や歴史の記述に対する応答になっています。内と外、東と西の境界を問い直す作品群を、ゆっくりと見比べられる構成です。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "kotaro-nukaga-20261031-6ca5fd",
@@ -22,10 +24,12 @@
     "kind": "special",
     "artists": [],
     "genres": [],
-    "detailUrl": null,
+    "detailUrl": "https://kotaronukaga.com/exhibition/glacier-diary/",
     "summary": "「氷河の日記」を意味するタイトルを掲げた展覧会で、10月末から12月中旬までギャラリーで開かれます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "description": "石塚元太良による個展で、長年シーカヤックから撮影してきた氷河の連作〈氷河日記〉の到達点を示します。会場には大型のパノラマ作品が並び、鑑賞者が壁に沿って歩くと同じ氷壁が異なる大きさと角度で繰り返し現れます。これは舟の上から複数の位置で撮った像を合成するという制作方法に由来します。また、写真を短冊状に裁断して織り合わせた〈Texture_〉や、印画紙で組んだ全長約4メートルのカヤック、極地探検の文献を折り曲げて塊にした〈Mass of écriture_〉も展示されます。氷河を見ること、そこへ行くこと、語ることを、印画紙という一つの物質に置き換えて見せる構成です。写真を目で眺めるだけでなく、歩きながら身体で受け止める展覧会です。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "kotaro-nukaga-20261121-115937",
@@ -38,9 +42,10 @@
       "man-ray"
     ],
     "genres": [],
-    "detailUrl": null,
+    "detailUrl": "https://kotaronukaga.com/exhibition/man-ray-solo-exhibition/",
     "summary": "マン・レイの作品を取り上げる個展で、11月下旬から12月下旬までギャラリーで開催される予定です。",
     "firstSeenAt": "2026-10-22",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   }
 ]

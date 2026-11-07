@@ -10,10 +10,12 @@
     "genres": [
       "デザイン"
     ],
-    "detailUrl": null,
+    "detailUrl": "http://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/140",
     "summary": "誕生から70周年を迎えたうさぎのキャラクター、ミッフィーを記念して福井県立美術館で開かれる企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-01",
+    "description": "ミッフィーの絵本全32作品の原画やスケッチなど約200点を、日本で初めて一堂に集めた展覧会です。作者ディック・ブルーナさんのシリーズを作品ごとに振り返る構成で、初来日となる『うさこちゃんおとまりにいく』と『うさこちゃんのだいすきなおばあちゃん』の原画も出品されます。「もっと、もっと、ミッフィー」をテーマに、物語の温かさや登場人物の愛らしさに加え、リズミカルな言葉、明快な色や線、構図といった絵本ならではの表現に目を向けられる内容です。絵本の原画を間近で見ることで、ミッフィーの魅力をより深く味わえる展示になっています。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukui-art-20270123-07505b",
@@ -26,10 +28,12 @@
     "genres": [
       "デザイン"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/141",
     "summary": "人気キャラクターのハローキティを取り上げ、見る人とキティの関係の変化に着目する企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-01",
+    "description": "本展は、誕生から半世紀を迎えたハローキティを「キティとわたし」という視点からたどる展覧会です。キティが世界中で長く親しまれてきた理由を、ファン一人ひとりとの関係に注目して読み解いていく構成になっています。会場には、さまざまなテーマに分けた展示コーナーのほか、これまでにないほど多くのグッズが並びます。さらに、個性の異なるアーティストとのコラボ作品やオリジナル映像も紹介され、フォトスポットを設けるなど、見て触れて楽しめる内容が特徴です。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "fukui-art-20270331-bc2ea1",
@@ -40,9 +44,10 @@
     "kind": "special",
     "artists": [],
     "genres": [],
-    "detailUrl": null,
+    "detailUrl": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/143",
     "summary": "「ことば」と「え」の行き来を題名に掲げ、両者の関わりに目を向ける展覧会として来春に開催予定です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-01",
+    "describedAt": "2026-11-08"
   }
 ]

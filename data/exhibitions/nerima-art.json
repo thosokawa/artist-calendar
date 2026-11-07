@@ -30,10 +30,12 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://www.city.nerima.tokyo.jp/kankomoyoshi/bunka/museum/tenrankai/arts_nakamurabashi.html",
     "summary": "美術館のある中村橋を舞台に、わたしとまちの記憶をテーマとして芸術表現を紹介する2026年の展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-10-26"
+    "lastSeenAt": "2026-10-26",
+    "description": "「まちとつながる現代美術の展覧会」の第2弾として、今年度は「わたしとまちの記憶」をテーマに、9組の作家による彫刻、絵画、写真、建築、インスタレーションなどを紹介します。美術館の展示室やロビーに加え、近隣のまちなかも会場となり、商店街の花屋、質屋、古本屋、カフェなどの店舗や、区立施設の旧レストランなどで小さな作品や空間を生かした展示を見られます。美術館では、大小島真木が天井に描いた新作インスタレーションや、袴田京太朗が美術館所蔵作家をオマージュした新作彫刻が見どころです。展示をめぐりながら、「わたし」と中村橋のまちの過去と現在のつながりを感じられる構成になっています。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "nerima-art-20261031-b810a3",
@@ -52,6 +54,7 @@
     "detailUrl": "https://www.city.nerima.tokyo.jp/kankomoyoshi/bunka/museum/tenrankai/index.html",
     "summary": "画家ユアサエボシの作品を軸に、戦後アヴァンギャルドの表現を「変身寓話」という切り口でたどる展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-07"
+    "lastSeenAt": "2026-11-07",
+    "describedAt": "2026-11-08"
   }
 ]

@@ -13,10 +13,12 @@
     "genres": [
       "現代美術"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://yugen-gallery.com/en-world/blogs/exhibitions/memento_fukuoka",
     "summary": "福岡のYUGEN Galleryで、ocaveとNao Sanoという二人の作家の作品を並べて紹介する、冬の二人展。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-11-01"
+    "lastSeenAt": "2026-11-01",
+    "description": "本展は、風景を写し取るのではなく、見る人や作家自身の記憶との関わりの中で捉え直す二人の作家を紹介する展覧会です。佐野直は、実際に訪れた場所を精緻な点描で描き、茶畑や棚田の幾何学的な模様、水面の映り込み、干潟の造形などを、描く部分と余白を選び分けながら浮かび上がらせます。ocaveは、旅先や滞在先で受け取った空気感を、ウールやコットンの織り、フェルトの再構成によるテキスタイルで表します。フィンランドやブルガリアで制作された作品を並べることで、土地ごとに異なる感覚が素材や色へと置き換えられていく過程が見どころになっています。二人の作品を通して、目の前の景色と見る人の記憶との関係を考えさせる構成です。",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "yugen-gallery-20261121-965361",
@@ -30,6 +32,7 @@
     "detailUrl": null,
     "summary": "YUGEN Galleryの福岡スペースで、11月下旬から12月20日までの約1か月間にわたり開催される展覧会「memento」。",
     "firstSeenAt": "2026-10-26",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   }
 ]

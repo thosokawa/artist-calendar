@@ -13,10 +13,11 @@
       "日本画",
       "版画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://otanimuseum.jp/exhibition_261031.html",
     "summary": "没後50年を機に、魚を生き生きと描き「魚の画家」と称された大野麥風の画業を振り返る展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "otani-museum-20270116-440e67",
@@ -31,9 +32,10 @@
     "genres": [
       "洋画"
     ],
-    "detailUrl": null,
+    "detailUrl": "https://otanimuseum.jp/exhibition_260117.html",
     "summary": "近年新たに美術館のコレクションに加わった作品をまとめて紹介する、所蔵品による展覧会です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   }
 ]

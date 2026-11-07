@@ -18,7 +18,8 @@
     "detailUrl": null,
     "summary": "館が所蔵する作品の中から、山や水辺の風景を描いた山水画の優品を選んで紹介する収蔵品展です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-17",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "shizuoka-20261010-09c38a",
@@ -36,7 +37,8 @@
     "detailUrl": null,
     "summary": "ゴールドマン氏が集めた作品を通して、幕末から明治にかけて活躍した絵師・河鍋暁斎の画業に触れられる企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-05"
+    "lastSeenAt": "2026-11-05",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "shizuoka-20261030-09c38a",
@@ -54,7 +56,8 @@
     "detailUrl": null,
     "summary": "幕末から明治に活躍した河鍋暁斎の多彩な作品を、ゴールドマン・コレクションから紹介する展覧会である。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "shizuoka-20261030-37f266",
@@ -70,7 +73,8 @@
     "detailUrl": null,
     "summary": "美術館が所蔵する山水画の名品を集め、日本や中国の風景表現の魅力を味わえる収蔵品展である。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "shizuoka-20270123-691d80",
@@ -86,6 +90,7 @@
     "detailUrl": null,
     "summary": "開館40周年を記念し、これまで館に寄せられた寄贈作品に光を当て、コレクションを支えてきた善意を振り返る展覧会です。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-17"
+    "lastSeenAt": "2026-10-17",
+    "describedAt": "2026-11-08"
   }
 ]

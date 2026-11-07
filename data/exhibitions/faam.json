@@ -13,7 +13,8 @@
     "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "キルトショップANNEが手がけたパッチワーク作品を紹介する展示です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-10-30"
+    "lastSeenAt": "2026-10-30",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "faam-20261112-f887a9",
@@ -31,7 +32,8 @@
     "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "墨を用いた水墨表現の世界を、学生たちとの共演を交えて紹介する展示。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "faam-20261119-dde12e",
@@ -49,7 +51,8 @@
     "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "博多で最後の絵馬師とされる百耕が手がけた大きな絵馬を一堂に集める展覧会。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "faam-20261126-349e30",
@@ -65,7 +68,8 @@
     "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "アジア各地のデザインの取り組みを福岡で紹介する、デザインをテーマにした展覧会。",
     "firstSeenAt": "2026-10-29",
-    "lastSeenAt": "2026-10-29"
+    "lastSeenAt": "2026-10-29",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "faam-20270130-ee0fcc",
@@ -82,7 +86,8 @@
     "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "アニメスタジオMAPPAの設立15周年を記念して開かれる企画展です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-11-05"
+    "lastSeenAt": "2026-11-05",
+    "describedAt": "2026-11-08"
   },
   {
     "id": "faam-20270204-16a870",
@@ -98,6 +103,7 @@
     "detailUrl": "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "summary": "東南アジアに焦点を当て、アジア美術をどのように鑑賞し楽しめばよいかを案内するアジアギャラリーでの展覧会。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-11-05"
+    "lastSeenAt": "2026-11-05",
+    "describedAt": "2026-11-08"
   }
 ]
