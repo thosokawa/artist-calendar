@@ -22,6 +22,23 @@ async function pageText(url) {
   return text.length >= MIN_TEXT ? text : '';
 }
 
+// A show's own page, found on the venue's list page by a link whose text contains the title's start.
+const listHtml = {};
+const norm = (t) => String(t).normalize('NFKC').replace(/<[^>]+>/g, '').replace(/[\s「」『』“”"'・:：\-—―〜~()（）]/g, '').toLowerCase();
+async function findDetailUrl(e, venue) {
+  const html = (listHtml[venue.exhibitionsUrl] ??= await fetchHtml(venue.exhibitionsUrl).catch(() => ''));
+  const key = norm(e.title).slice(0, 10);
+  if (key.length < 4) return null;
+  for (const m of html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    if (!norm(m[2]).includes(key)) continue;
+    try {
+      const u = new URL(m[1].replace(/&amp;/g, '&'), venue.exhibitionsUrl);
+      if (/^https?:$/.test(u.protocol) && u.href !== venue.exhibitionsUrl && !/\.(pdf|jpe?g|png)$/i.test(u.pathname)) return u.href;
+    } catch { /* not a usable link */ }
+  }
+  return null;
+}
+
 const venueDir = join(root, 'data/museums');
 const venues = Object.fromEntries(readdirSync(venueDir).filter((f) => f.endsWith('.json')).map((f) => { const v = readJson(join(venueDir, f)); return [v.id, v]; }));
 const artists = readJson(join(root, 'data/artists.json'));
@@ -56,8 +73,10 @@ for (const f of readdirSync(exDir).filter((x) => x.endsWith('.json'))) {
     if (e.describedAt || e.endDate < today || !venues[e.museumId]) continue;
     budget -= 1;
     try {
+      // Found detail links are kept, so the page's "official details" button goes straight to the show.
+      e.detailUrl ??= await findDetailUrl(e, venues[e.museumId]);
       const url = e.detailUrl ?? venues[e.museumId].exhibitionsUrl;
-      const text = (listPages[url] ??= await pageText(url));
+      const text = e.detailUrl ? await pageText(url) : (listPages[url] ??= await pageText(url));
       e.description = text ? await describeExhibition({ exhibition: e, venue: venues[e.museumId], artistNames: e.artists.map((s) => artists[s]?.name ?? s), pageText: text }) : '';
       console.log(`${e.description ? '✓' : '·'} ${e.id} ${e.description.slice(0, 40)}`);
       done += 1;
