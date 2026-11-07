@@ -1,7 +1,7 @@
 // HTML templates. Plain strings; every value from data goes through esc().
 import { statusOn } from './exhibitions.mjs';
 import { SNS_KINDS, SNS_LABEL } from './sns.mjs';
-import { WHEN, SORTS, VENUES } from './filter.mjs';
+import { WHEN, SORTS, VENUES, AREAS } from './filter.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -43,7 +43,7 @@ document.querySelectorAll('.sb.fb').forEach((a) => a.addEventListener('click', a
 }));</script>`;
 }
 
-function layout({ site, title, path, description, body, wide = false }) {
+function layout({ site, title, path, description, body, wide = false, noindex = false }) {
   const full = path === '/' ? `${site.name} | ${site.tagline}` : `${title} | ${site.name}`;
   const line = lineAddUrl(site);
   return `<!doctype html>
@@ -51,7 +51,7 @@ function layout({ site, title, path, description, body, wide = false }) {
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(description ?? site.tagline)}">
-${site.noindex ? '<meta name="robots" content="noindex">' : ''}
+${site.noindex || noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="canonical" href="${esc(site.baseUrl + path)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="${path === '/' ? 'website' : 'article'}">
@@ -75,6 +75,7 @@ ${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで�
 <main${wide ? ' class="wide"' : ''}>${body}${shareBox(site, path, full)}</main>
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
 <p>展覧会情報は各美術館・ギャラリーの公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
+<p class="areas">${AREAS.map(([k, label]) => `<a href="/areas/${k}/">${esc(label)}の展覧会</a>`).join(' · ')}</p>
 <p><a href="/about/">このサイトについて</a> · <a href="/request/">施設のリクエスト</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
 ${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
 `;
@@ -189,28 +190,36 @@ ${by('past').length ? `<h2>過去の展覧会</h2>${list(by('past').reverse(), c
 ${recs.length ? `<h2>${esc(a.name)}が好きな人におすすめの作家</h2><ul class="chips">${recs.map((r) => `<li><a href="/artists/${esc(r.slug)}/">${esc(ctx.artists[r.slug].name)}</a></li>`).join('')}</ul>` : ''}` });
 }
 
-export function museumPage({ site, m, ctx, shows }) {
+export function museumPage({ site, m, ctx, shows, nearby = [] }) {
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
+  const past = by('past').reverse().slice(0, 12);
   return layout({ site, path: `/museums/${m.id}/`, title: `${m.name}の展覧会`, description: `${m.name}（${m.prefecture}${m.city}）の開催中・開催予定の展覧会。`, body: `
 ${pageHead(m.kind === 'gallery' ? 'GALLERY' : 'MUSEUM', esc(m.name), esc(m.prefecture) + esc(m.city), `<p class="head-links"><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a><a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a>${snsRow(m.sns, m.name)}</p>`)}
+${m.intro ? `<p class="intro">${esc(m.intro)}</p>` : ''}
 ${m.status === 'closed' ? '<p class="note">現在休館中です。</p>' : ''}${m.status === 'unreadable' ? '<p class="note">この施設の公式サイトは自動で読み取れないため、展覧会情報は公式サイトでご確認ください。</p>' : ''}
 <h2>開催中</h2>${list(by('current'), ctx, { showMuseum: false })}
-<h2>開催予定</h2>${list(by('upcoming'), ctx, { showMuseum: false })}` });
+<h2>開催予定</h2>${list(by('upcoming'), ctx, { showMuseum: false })}
+${past.length ? `<h2>これまでの展覧会</h2>${list(past, ctx, { showMuseum: false })}` : ''}
+${nearby.length ? `<h2>${esc(m.prefecture)}のほかの美術館・ギャラリー</h2><ul class="chips">${nearby.map((n) => `<li><a href="/museums/${esc(n.id)}/">${esc(n.name)}</a></li>`).join('')}</ul>` : ''}` });
 }
 
-export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl, icsUrl }) {
+export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl, icsUrl, sameVenue = [], sameArtists = [], nearby = [] }) {
   const m = ctx.museums[e.museumId];
   const st = statusOn(e, ctx.today);
   return layout({ site, path: `/exhibitions/${e.id}/`, title: `${e.title}（${m.name}）`, description: `${e.title}。${m.name}にて${period(e)}。${e.summary}`, body: `
 ${pageHead(`EXHIBITION · <a href="/museums/${esc(m.id)}/">${esc(m.name)}</a>`, esc(e.title), '', `<p class="head-date"><span class="badge ${st}">${STATUS[st]}</span> ${period(e)}</p>`)}
 <p>${esc(e.summary)}</p>
+${e.description ? `<h2>展覧会の内容</h2><p class="intro">${esc(e.description)}</p>` : ''}
 <dl class="facts box"><dt>会場</dt><dd><a href="/museums/${esc(m.id)}/">${esc(m.name)}</a>（${esc(m.prefecture)}${esc(m.city)}）</dd>
 ${e.artists.length ? `<dt>作家</dt><dd>${e.artists.map((s) => `<a href="/artists/${esc(s)}/">${esc(ctx.artists[s]?.name ?? s)}</a>`).join('、')}</dd>` : ''}
 ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</dd>` : ''}</dl>
 <p class="actions"><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" rel="nofollow">iPhoneのカレンダーに追加</a>` : ''}</p>
 ${e.kind !== 'collection' && m.kind !== 'gallery' ? catalogBox(site, e, st) : ''}
 ${e.artists.length ? `<p class="hint">作家ページからLINEで登録すると、その作家の次の展覧会が決まったときにお知らせが届きます。</p>` : ''}
-${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}` });
+${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}
+${sameArtists.length ? `<h2>同じ作家のほかの展覧会</h2>${list(sameArtists, ctx)}` : ''}
+${sameVenue.length ? `<h2>${esc(m.name)}のほかの展覧会</h2>${list(sameVenue, ctx, { showMuseum: false })}` : ''}
+${nearby.length ? `<h2>${esc(m.prefecture)}で開催中・開催予定の展覧会</h2>${list(nearby, ctx)}` : ''}` });
 }
 
 export function searchPage({ site, genres, prefsByArea, museums, lineBasicId }) {
@@ -269,6 +278,14 @@ f.addEventListener('submit', async (e) => {
   out.hidden = false; b.disabled = false;
 });
 </script>` });
+}
+
+export function areaPage({ site, area, label, prefs, ctx, description }) {
+  const total = prefs.reduce((n, [, shows]) => n + shows.length, 0);
+  return layout({ site, path: `/areas/${area}/`, title: `${label}で開催中・開催予定の展覧会`, description, body: `
+${pageHead('AREA', `${esc(label)}の展覧会`)}
+<p class="lede">${esc(label)}の美術館・ギャラリーで開催中・開催予定の展覧会${total}件を、都道府県ごとに開幕日の順で並べています。条件を細かく指定したいときは <a href="/search/?area=${esc(area)}">探すページ</a> をお使いください。</p>
+${prefs.map(([pref, shows]) => `<h2>${esc(pref)}（${shows.length}件）</h2>${list(shows, ctx)}`).join('')}` });
 }
 
 export function indexPage({ site, path, title, html }) {

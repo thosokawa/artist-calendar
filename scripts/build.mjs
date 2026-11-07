@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { homePage, artistPage, museumPage, exhibitionPage, searchPage, indexPage, requestPage, esc } from '../src/templates.mjs';
+import { homePage, artistPage, museumPage, exhibitionPage, searchPage, indexPage, requestPage, areaPage, esc } from '../src/templates.mjs';
 import { GENRES, isSameTour, statusOn } from '../src/exhibitions.mjs';
 import { buildCalendar, exhibitionEvent, googleCalendarUrl, addDays } from '../src/ics.mjs';
 import { followText } from '../src/line.mjs';
@@ -33,7 +33,8 @@ const write = (path, content) => {
   writeFileSync(full, content);
 };
 const urls = [];
-const page = (path, html) => { write(`${path.replace(/^\//, '')}index.html`, html); urls.push(path); };
+// Pages marked noindex are left out of the sitemap too.
+const page = (path, html) => { write(`${path.replace(/^\//, '')}index.html`, html); if (!html.includes('<meta name="robots" content="noindex">')) urls.push(path); };
 
 // Home
 const exById = Object.fromEntries(exhibitions.map((e) => [e.id, e]));
@@ -65,11 +66,12 @@ page('/artists/', indexPage({ site, path: '/artists/', title: '作家一覧', ht
 const museumList = Object.values(museums).sort((a, b) => AREAS.findIndex(([k]) => k === a.area) - AREAS.findIndex(([k]) => k === b.area) || a.name.localeCompare(b.name, 'ja'));
 for (const m of museumList) {
   const shows = exhibitions.filter((e) => e.museumId === m.id).sort(byStart);
-  page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows }));
+  const nearby = museumList.filter((n) => n.prefecture === m.prefecture && n.id !== m.id).slice(0, 12);
+  page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows, nearby }));
 }
 // One list per kind (museums, then galleries), each grouped by area.
 const venueChips = (ms) => `<ul class="chips">${ms.map((m) => `<li><a href="/museums/${esc(m.id)}/">${esc(m.name)}</a></li>`).join('')}</ul>`;
-page('/museums/', indexPage({ site, path: '/museums/', title: '美術館・ギャラリー一覧', html: [['museum', '美術館'], ['gallery', 'ギャラリー']].map(([kind, kindLabel]) => {
+page('/museums/', indexPage({ site, path: '/museums/', title: '美術館・ギャラリー一覧', html: `<p class="museum-group">地域ごとの開催中の展覧会</p><ul class="chips">${AREAS.map(([k, label]) => `<li><a href="/areas/${k}/">${esc(label)}</a></li>`).join('')}</ul>` + [['museum', '美術館'], ['gallery', 'ギャラリー']].map(([kind, kindLabel]) => {
   const ofKind = museumList.filter((m) => (m.kind ?? 'museum') === kind);
   if (!ofKind.length) return '';
   return `<h2>${kindLabel}（${ofKind.length}）</h2>` + AREAS.map(([k, label]) => {
@@ -79,11 +81,24 @@ page('/museums/', indexPage({ site, path: '/museums/', title: '美術館・ギ�
 }).join('') + '<p class="more-venues">載っていない美術館・ギャラリーは <a href="/request/">リクエスト</a> してください。</p>' }));
 page('/request/', requestPage({ site }));
 
+// Area pages: what is on in each region, grouped by prefecture.
+for (const [area, label] of AREAS) {
+  const shows = live.filter((e) => museums[e.museumId].area === area);
+  const prefs = [...new Set(museumList.filter((m) => m.area === area).map((m) => m.prefecture))]
+    .map((p) => [p, shows.filter((e) => museums[e.museumId].prefecture === p)]).filter(([, xs]) => xs.length);
+  page(`/areas/${area}/`, areaPage({ site, area, label, prefs, ctx, description: `${label}（${prefs.map(([p]) => p).join('・')}）の美術館・ギャラリーで開催中・開催予定の展覧会${shows.length}件。会期と会場、作家から探せます。` }));
+}
+
 // Exhibitions, each with a one-event calendar file for "add to my calendar".
 const gcal = (e) => googleCalendarUrl(e, { museum: museums[e.museumId], siteUrl: site.baseUrl });
 for (const e of exhibitions) {
   const otherVenues = exhibitions.filter((o) => isSameTour(e, o)).sort(byStart);
-  page(`/exhibitions/${e.id}/`, exhibitionPage({ site, e, ctx, otherVenues, googleUrl: gcal(e), icsUrl: `/exhibitions/${e.id}.ics` }));
+  const shown = new Set([e.id, ...otherVenues.map((o) => o.id)]);
+  const pick = (xs, n) => { const out = xs.filter((o) => !shown.has(o.id)).slice(0, n); out.forEach((o) => shown.add(o.id)); return out; };
+  const sameArtists = pick(live.filter((o) => o.artists.some((s) => e.artists.includes(s))), 6);
+  const sameVenue = pick(live.filter((o) => o.museumId === e.museumId), 6);
+  const nearby = pick(live.filter((o) => museums[o.museumId].prefecture === museums[e.museumId].prefecture), 6);
+  page(`/exhibitions/${e.id}/`, exhibitionPage({ site, e, ctx, otherVenues, googleUrl: gcal(e), icsUrl: `/exhibitions/${e.id}.ics`, sameArtists, sameVenue, nearby }));
   write(`exhibitions/${e.id}.ics`, buildCalendar([exhibitionEvent(e, { museum: museums[e.museumId], siteUrl: site.baseUrl, host })], { name: e.title, now }));
 }
 

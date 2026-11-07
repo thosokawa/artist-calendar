@@ -19,6 +19,14 @@ on:
         description: 'ページの中身と読み取り結果をログに出す'
         type: boolean
         default: false
+      describe_venues:
+        description: '紹介文を書く施設の数（1回あたり）'
+        required: false
+        default: '20'
+      describe_exhibitions:
+        description: '紹介文を書く展覧会の数（1回あたり）'
+        required: false
+        default: '60'
       baseline:
         description: '見つかった展覧会を新着として通知しない'
         type: boolean
@@ -45,6 +53,13 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Write descriptions for new venues and exhibitions
+        run: node scripts/describe.mjs --venues=${VENUES:-20} --exhibitions=${EXHIBITIONS:-60}
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VENUES: ${{ inputs.describe_venues }}
+          EXHIBITIONS: ${{ inputs.describe_exhibitions }}
       - name: Save results to main
         run: |
           git config user.name "github-actions[bot]"
