@@ -28,7 +28,13 @@ async function ask(system, content, client) {
     output_config: { effort: 'low', format: zodOutputFormat(Text) },
   });
   recordUsage(MODEL, response.usage);
-  return (response.parsed_output?.text ?? '').trim();
+  return dropSourceTalk(response.parsed_output?.text ?? '');
+}
+
+// Sentences about the source page ("ページには…", "…は読み取れません") tell a reader nothing; drop them.
+const SOURCE_TALK = /ページ|サイトでは|公式サイトで|読み取れ|記載され|書かれて/;
+export function dropSourceTalk(text) {
+  return (String(text).match(/[^。]+。?/g) ?? []).filter((x) => !SOURCE_TALK.test(x)).join('').trim();
 }
 
 export function describeVenue({ venue, pageText, client = new Anthropic() }) {
