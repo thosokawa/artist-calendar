@@ -1385,6 +1385,12 @@
     "aliases": [],
     "nameKana": "ほりひろや"
   },
+  "hiroyuki-matsuura": {
+    "name": "松浦浩之",
+    "nameRomaji": "Hiroyuki Matsuura",
+    "nameKana": "まつうらひろゆき",
+    "aliases": []
+  },
   "hiroyuki-oki": {
     "name": "大木裕之",
     "nameRomaji": "Hiroyuki Oki",
@@ -1397,6 +1403,12 @@
     "nameRomaji": "Hisui Sugiura",
     "aliases": [],
     "nameKana": "すぎうらひすい"
+  },
+  "hitomi-oshima": {
+    "name": "大嶋仁美",
+    "nameRomaji": "Hitomi Oshima",
+    "nameKana": "おおしまひとみ",
+    "aliases": []
   },
   "hitoshi-kaneko": {
     "name": "金子仁司",
@@ -1850,6 +1862,12 @@
     "nameKana": "たかみつかずや",
     "aliases": []
   },
+  "kei-tajima": {
+    "name": "田島 圭",
+    "nameRomaji": "Kei Tajima",
+    "nameKana": "たじまけい",
+    "aliases": []
+  },
   "kei-takemura": {
     "name": "竹村京",
     "nameRomaji": "Kei Takemura",
@@ -2000,6 +2018,12 @@
     "aliases": [],
     "nameKana": "いしげけんた",
     "snsCheckedAt": "2026-10-21"
+  },
+  "kentaro-yokouchi": {
+    "name": "横内 賢太郎",
+    "nameRomaji": "Kentaro Yokouchi",
+    "nameKana": "よこうちけんたろう",
+    "aliases": []
   },
   "kenzo-itani": {
     "name": "伊谷賢蔵",
@@ -2214,6 +2238,12 @@
     "aliases": [],
     "nameKana": "おんちこうしろう",
     "snsCheckedAt": "2026-10-25"
+  },
+  "kozo-takeuchi": {
+    "name": "竹内紘三",
+    "nameRomaji": "Kozo Takeuchi",
+    "nameKana": "たけうちこうぞう",
+    "aliases": []
   },
   "kristina-isola": {
     "name": "クリスティーナ・イソラ",
@@ -2937,6 +2967,12 @@
     "nameRomaji": "Naotsugu Hashimoto",
     "aliases": [],
     "nameKana": "はしもとなおつぐ"
+  },
+  "nariyasu-maeda": {
+    "name": "前田斉泰",
+    "nameRomaji": "Nariyasu Maeda",
+    "nameKana": "まえだなりやす",
+    "aliases": []
   },
   "naruki-oshima": {
     "name": "大島 成己",
@@ -4799,6 +4835,12 @@
     "name": "丹羽良徳",
     "nameRomaji": "Yoshinori Niwa",
     "nameKana": "にわよしのり",
+    "aliases": []
+  },
+  "yoshinori-toizumi": {
+    "name": "戸泉恵徳",
+    "nameRomaji": "Yoshinori Toizumi",
+    "nameKana": "といずみよしのり",
     "aliases": []
   },
   "yoshitaka-kurashige": {

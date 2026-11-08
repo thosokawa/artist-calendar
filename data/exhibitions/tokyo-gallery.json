@@ -15,7 +15,26 @@
     "detailUrl": null,
     "summary": "菅木志雄が紙を支持体として手がけた作品に焦点を当て、その表現を紹介する東京画廊での個展。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-11-05",
+    "lastSeenAt": "2026-11-07",
+    "describedAt": "2026-11-08"
+  },
+  {
+    "id": "tokyo-gallery-20261121-d28f03",
+    "museumId": "tokyo-gallery",
+    "title": "Super Acrylic Skin – SIGNALS",
+    "startDate": "2026-11-21",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "hiroyuki-matsuura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "松浦浩之がアクリル素材の表面と光の反射に焦点を当てて制作した新作を紹介する個展です。",
+    "firstSeenAt": "2026-11-07",
+    "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
   }
 ]

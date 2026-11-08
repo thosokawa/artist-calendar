@@ -739,5 +739,45 @@
     "exhibitionId": "mimt-20270220-27ae98",
     "museumId": "mimt",
     "artists": []
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "aichi-20261024-4b06ab",
+    "museumId": "aichi",
+    "artists": []
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "kenji-taki-20261027-6d94e0",
+    "museumId": "kenji-taki",
+    "artists": [
+      "chiharu-shiota",
+      "arika-someya",
+      "kei-tajima",
+      "kentaro-yokouchi",
+      "sakuji-yoshimoto"
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "tokyo-gallery-20261121-d28f03",
+    "museumId": "tokyo-gallery",
+    "artists": [
+      "hiroyuki-matsuura"
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "ycam-20261121-a27130",
+    "museumId": "ycam",
+    "artists": []
+  },
+  {
+    "date": "2026-11-07",
+    "exhibitionId": "yod-gallery-20261107-80f84c",
+    "museumId": "yod-gallery",
+    "artists": [
+      "kozo-takeuchi"
+    ]
   }
 ]

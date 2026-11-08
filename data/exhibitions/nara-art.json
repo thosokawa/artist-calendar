@@ -2,7 +2,7 @@
   {
     "id": "nara-art-20260919-2a54cf",
     "museumId": "nara-art",
-    "title": "特別展 時代を越えて～日本画のゆくえ 特集展示：近代奈良の日本画家 庄田鶴友と植中直斎",
+    "title": "時代を越えて～日本画のゆくえ 特集展示：近代奈良の日本画家 庄田鶴友と植中直斎",
     "startDate": "2026-09-19",
     "endDate": "2026-11-15",
     "kind": "special",
@@ -16,7 +16,7 @@
     "detailUrl": null,
     "summary": "近代日本画の名品をたどり、奈良ゆかりの日本画家二人の仕事にも特に光を当てる特別展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
   },
   {
@@ -35,13 +35,13 @@
     "detailUrl": null,
     "summary": "生誕140年と新たな収蔵を記念し、昭和の時代に生まれた富本憲吉の作品を紹介する企画展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
   },
   {
     "id": "nara-art-20270116-c66ed0",
     "museumId": "nara-art",
-    "title": "特別展 伝統文化の現在 墨と和紙の世界―現代美術における墨表現（仮）",
+    "title": "特別展 現代美術における墨表現 ―墨と和紙の世界：町田久美・浅見貴子・新恵美佐子・荒井恵子",
     "startDate": "2027-01-16",
     "endDate": "2027-03-14",
     "kind": "special",
@@ -57,7 +57,7 @@
     "detailUrl": null,
     "summary": "墨と和紙という伝統的な素材が、現代美術の中でどのように表現されているかを探る特別展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
   },
   {
@@ -76,7 +76,7 @@
     "detailUrl": null,
     "summary": "奈良にゆかりのある現代作家を紹介するシリーズの第5弾で、夛山祐子の作品を展示します。",
     "firstSeenAt": "2026-10-20",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
   },
   {
@@ -95,7 +95,7 @@
     "detailUrl": null,
     "summary": "奈良ゆかりの現代作家を取り上げるシリーズの第6弾として、植田陽貴の作品を紹介する展示です。",
     "firstSeenAt": "2026-10-20",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
   }
 ]
