@@ -69,5 +69,57 @@
     "firstSeenAt": "2026-10-17",
     "lastSeenAt": "2026-11-07",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "gunma-moma-20261120-ba7287",
+    "museumId": "gunma-moma",
+    "title": "県民芸術祭50周年記念事業「山﨑種二記念特別賞特別展」",
+    "startDate": "2026-11-20",
+    "endDate": "2026-12-15",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": "https://mmag.pref.gunma.jp/exhibition",
+    "summary": "県民芸術祭50周年を記念して、山﨑種二記念特別賞にまつわる作品を紹介する特別展です。",
+    "firstSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-08",
+    "describedAt": "2026-11-09"
+  },
+  {
+    "id": "gunma-moma-20261120-a3df06",
+    "museumId": "gunma-moma",
+    "title": "コレクション展示「日本と西洋の近代美術Ⅱ」",
+    "startDate": "2026-11-20",
+    "endDate": "2026-12-20",
+    "kind": "collection",
+    "artists": [],
+    "genres": [
+      "日本画",
+      "洋画"
+    ],
+    "detailUrl": "https://mmag.pref.gunma.jp/exhibition",
+    "summary": "当館の所蔵品から、日本と西洋の近代美術が交わるさまを見渡せるコレクション展の第二弾です。",
+    "firstSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-08",
+    "describedAt": "2026-11-09"
+  },
+  {
+    "id": "gunma-moma-20261128-bbf39b",
+    "museumId": "gunma-moma",
+    "title": "ウジェーヌ・ブーダン展 印象派の父――光を求めて",
+    "startDate": "2026-11-28",
+    "endDate": "2027-01-31",
+    "kind": "special",
+    "artists": [
+      "eugene-boudin"
+    ],
+    "genres": [
+      "洋画"
+    ],
+    "detailUrl": null,
+    "summary": "海辺の光と空気を捉えた印象派の先駆者、ブーダンの画業を作品とともにたどる企画展です。",
+    "firstSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-08",
+    "describedAt": "2026-11-09"
   }
 ]

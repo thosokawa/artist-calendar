@@ -779,5 +779,58 @@
     "artists": [
       "kozo-takeuchi"
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "gunma-moma-20261128-bbf39b",
+    "museumId": "gunma-moma",
+    "artists": [
+      "eugene-boudin"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "gunma-moma-20261120-ba7287",
+    "museumId": "gunma-moma",
+    "artists": []
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "gunma-moma-20261120-a3df06",
+    "museumId": "gunma-moma",
+    "artists": []
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "hokkaido-modern-20261117-d10209",
+    "museumId": "hokkaido-modern",
+    "artists": []
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "what-museum-20261010-e46778",
+    "museumId": "what-museum",
+    "artists": []
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "what-museum-20261003-6a151c",
+    "museumId": "what-museum",
+    "artists": []
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "what-museum-20261003-3aa862",
+    "museumId": "what-museum",
+    "artists": []
+  },
+  {
+    "date": "2026-11-08",
+    "exhibitionId": "what-museum-20270119-98064e",
+    "museumId": "what-museum",
+    "artists": [
+      "tomoko-mukaiyama",
+      "fuyuhiko-takada"
+    ]
   }
 ]

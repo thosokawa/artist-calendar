@@ -853,6 +853,12 @@
     "nameRomaji": "Estrid Ericson",
     "aliases": []
   },
+  "eugene-boudin": {
+    "name": "ウジェーヌ・ブーダン",
+    "nameRomaji": "Eugène Boudin",
+    "nameKana": "ぶーだんうじぇーぬ",
+    "aliases": []
+  },
   "eugene-carriere": {
     "name": "ウジェーヌ・カリエール",
     "nameRomaji": "Eugène Carrière",
@@ -967,6 +973,12 @@
     "name": "前田史代",
     "nameRomaji": "Fumiyo Maeda",
     "nameKana": "まえだふみよ",
+    "aliases": []
+  },
+  "fuyuhiko-takada": {
+    "name": "高田冬彦（居候）",
+    "nameRomaji": "Fuyuhiko Takada",
+    "nameKana": "たかだふゆひこ",
     "aliases": []
   },
   "gaku-kurokawa": {
@@ -4386,6 +4398,12 @@
       "Tomoko Konoike"
     ],
     "nameKana": "こうのいけともこ"
+  },
+  "tomoko-mukaiyama": {
+    "name": "向井山朋子",
+    "nameRomaji": "Tomoko Mukaiyama",
+    "nameKana": "むかいやまともこ",
+    "aliases": []
   },
   "tomoko-ushijima": {
     "name": "牛島智子",
