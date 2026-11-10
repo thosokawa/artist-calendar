@@ -23,29 +23,34 @@
     "endDate": "2026-12-19",
     "kind": "special",
     "artists": [],
-    "genres": [],
+    "genres": [
+      "現代美術"
+    ],
     "detailUrl": "https://kotaronukaga.com/exhibition/glacier-diary/",
     "summary": "「氷河の日記」を意味するタイトルを掲げた展覧会で、10月末から12月中旬までギャラリーで開かれます。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-11-10",
     "description": "石塚元太良による個展で、長年シーカヤックから撮影してきた氷河の連作〈氷河日記〉の到達点を示します。会場には大型のパノラマ作品が並び、鑑賞者が壁に沿って歩くと同じ氷壁が異なる大きさと角度で繰り返し現れます。これは舟の上から複数の位置で撮った像を合成するという制作方法に由来します。また、写真を短冊状に裁断して織り合わせた〈Texture_〉や、印画紙で組んだ全長約4メートルのカヤック、極地探検の文献を折り曲げて塊にした〈Mass of écriture_〉も展示されます。氷河を見ること、そこへ行くこと、語ることを、印画紙という一つの物質に置き換えて見せる構成です。写真を目で眺めるだけでなく、歩きながら身体で受け止める展覧会です。",
     "describedAt": "2026-11-08"
   },
   {
     "id": "kotaro-nukaga-20261121-115937",
     "museumId": "kotaro-nukaga",
-    "title": "マン・レイ個展",
+    "title": "Man Ray: Light and Matter",
     "startDate": "2026-11-21",
     "endDate": "2026-12-23",
     "kind": "special",
     "artists": [
       "man-ray"
     ],
-    "genres": [],
+    "genres": [
+      "写真",
+      "現代美術"
+    ],
     "detailUrl": "https://kotaronukaga.com/exhibition/man-ray-solo-exhibition/",
     "summary": "マン・レイの作品を取り上げる個展で、11月下旬から12月下旬までギャラリーで開催される予定です。",
     "firstSeenAt": "2026-10-22",
-    "lastSeenAt": "2026-10-30",
+    "lastSeenAt": "2026-11-10",
     "describedAt": "2026-11-08"
   }
 ]

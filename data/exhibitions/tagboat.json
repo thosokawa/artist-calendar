@@ -34,5 +34,31 @@
     "summary": "時間の順序や出来事の不思議を見つめ、描く瞬間に感じる「今」だけの感覚を絵画で表現する個展です。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "tagboat-20261106-8d6546",
+    "museumId": "tagboat",
+    "title": "「TEMPO」",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-28",
+    "kind": "special",
+    "artists": [
+      "nanami-azuma",
+      "liisa",
+      "yui-komatsumoto",
+      "shinji-nakakaze",
+      "kotoko",
+      "kenta-asakura",
+      "haruto-hayakawa"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.tagboat.com/artevent/art_freezone/",
+    "summary": "若手作家7名が参加する第10回グループ展で、速度や リズムをテーマに多様な表現を集めた展示です。",
+    "firstSeenAt": "2026-11-10",
+    "lastSeenAt": "2026-11-10",
+    "description": "第10回となるグループ展「TEMPO」は、七名の作家がそれぞれの表現で作品を持ち寄る展覧会です。作品には、動きや勢いを感じさせるものもあれば、静かで繊細なものや、鮮やかな色彩を用いたもの、落ち着いた印象のものもあり、その多様さが「速度」や「リズム」という言葉で捉えられています。異なるテンポをもつ作品が同じ空間に並び、互いに響き合うことで、展示室全体に新しいリズムが生まれることを狙いとしています。作家の個性がぶつかり合い、重なり合う様子を会場で体感できる構成です。",
+    "describedAt": "2026-11-10"
   }
 ]

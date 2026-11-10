@@ -37,9 +37,25 @@
     "detailUrl": "https://www.ehime-art.jp/exhibitions",
     "summary": "所蔵するグラフィック作品を通じ、社会風刺に挑んだ柳瀬正夢と真鍋博の共通点と異なる歩みを見比べる展示です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-10",
     "description": "当館のコレクションを代表する画家である柳瀬正夢と真鍋博を取り上げ、両者のグラフィックメディア作品を中心に紹介する展覧会です。キャンバスの外へ出て鋭い社会風刺に取り組んだ二人の共通点を見せるとともに、その後の歩みが対照的になっていく過程に焦点を当てています。絵画だけにとどまらない表現の広がりと、時代の中で作家が選び取った方向の違いを、所蔵品をもとにたどることができます。",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "ehime-art-20261010-acdf3d",
+    "museumId": "ehime-art",
+    "title": "コレクション展Ⅲ コレクション・ハイライト",
+    "startDate": "2026-10-10",
+    "endDate": "2026-12-13",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "郷土作家や海外作品を中心に、美術館が誇る名品や逸品を一堂に紹介する常設コレクションの展示です。",
+    "firstSeenAt": "2026-11-10",
+    "lastSeenAt": "2026-11-10",
+    "description": "本展は、愛媛県美術館が所蔵する郷土作家や海外作品、そして当館が誇る名品や逸品を幅広く紹介するコレクション展です。今回の特集は新居浜市出身のイラストレーター、真鍋博を取り上げ、その仕事をたどります。あわせて、愛媛県県民文化会館の緞帳原画を扱う特別テーマのコーナーも設けられており、美術館の収蔵品を多角的に味わえる構成になっています。",
+    "describedAt": "2026-11-10"
   },
   {
     "id": "ehime-art-20261121-d98c46",
@@ -57,7 +73,7 @@
     "detailUrl": "https://www.ehime-art.jp/exhibitions",
     "summary": "Mozuによるミニチュア作品を紹介し、のぞき込むように小さな世界の魅力を楽しめる共催の展覧会の第2弾です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-10",
     "describedAt": "2026-11-08"
   },
   {
@@ -76,7 +92,7 @@
     "detailUrl": "https://www.ehime-art.jp/exhibitions",
     "summary": "深堀隆介の作品世界を、水面のゆらぎをテーマにした副題のもとで紹介する、来年冬に開かれる企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-10",
     "describedAt": "2026-11-08"
   },
   {
@@ -93,13 +109,13 @@
     "detailUrl": "https://www.ehime-art.jp/exhibitions",
     "summary": "「大どろぼうの家」をタイトルに掲げ、2027年2月から3月にかけて愛媛県美術館で開催が予定されている企画展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-10",
     "describedAt": "2026-11-08"
   },
   {
     "id": "ehime-art-20270213-1330e1",
     "museumId": "ehime-art",
-    "title": "2026年度／コレクション展Ⅳ みる冒険 くらべてみる",
+    "title": "コレクション展Ⅳ みる冒険 くらべてみる",
     "startDate": "2027-02-13",
     "endDate": "2027-04-18",
     "kind": "collection",
@@ -111,7 +127,23 @@
     "detailUrl": "https://www.ehime-art.jp/exhibitions",
     "summary": "「みる冒険」シリーズの一つとして、所蔵作品を比べながら鑑賞する楽しさを味わえるコレクション展です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-08",
+    "lastSeenAt": "2026-11-10",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "ehime-art-20270213-8823d8",
+    "museumId": "ehime-art",
+    "title": "コレクション展Ⅳ コレクション・ハイライト",
+    "startDate": "2027-02-13",
+    "endDate": "2027-04-18",
+    "kind": "collection",
+    "artists": [],
+    "genres": [],
+    "detailUrl": "https://www.ehime-art.jp/exhibition/detail/2f83dcb2-4271-41c2-b196-61a4c76f8f41",
+    "summary": "2026年度後半に入れ替えて、当館の名品と郷土ゆかりの作品を改めて紹介する常設コレクションの展示です。",
+    "firstSeenAt": "2026-11-10",
+    "lastSeenAt": "2026-11-10",
+    "description": "本展は、愛媛県美術館が所蔵する郷土作家の作品や海外の作品から、館の代表的な名品や逸品を選んで紹介する展覧会です。今回は新居浜市出身のイラストレーター、真鍋博を特集し、その作品を中心に据えています。展示作品の一つには、真鍋博が1970年に制作した《都市の中の農場》が挙げられています。コレクションの中から選び抜かれた作品を、一度に見渡せる点が本展の魅力といえるでしょう。",
+    "describedAt": "2026-11-10"
   }
 ]

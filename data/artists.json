@@ -1234,6 +1234,12 @@
     "aliases": [],
     "nameKana": "すずきはるのぶ"
   },
+  "haruto-hayakawa": {
+    "name": "早川温人/Haruto Hayakawa",
+    "nameRomaji": "Haruto Hayakawa",
+    "nameKana": "はやかわはると",
+    "aliases": []
+  },
   "hashimoto-gaho": {
     "name": "橋本雅邦",
     "nameRomaji": "Hashimoto Gaho",
@@ -2024,6 +2030,12 @@
     "nameKana": "やましろけんしん",
     "snsCheckedAt": "2026-10-22"
   },
+  "kenta-asakura": {
+    "name": "朝倉健太/Kenta Asakura",
+    "nameRomaji": "Kenta Asakura",
+    "nameKana": "あさくらけんた",
+    "aliases": []
+  },
   "kenta-ishige": {
     "name": "石毛健太",
     "nameRomaji": "Kenta Ishige",
@@ -2251,6 +2263,12 @@
     "nameKana": "おんちこうしろう",
     "snsCheckedAt": "2026-10-25"
   },
+  "kotoko": {
+    "name": "KOTOKO",
+    "nameRomaji": "KOTOKO",
+    "nameKana": "ことこ",
+    "aliases": []
+  },
   "kozo-takeuchi": {
     "name": "竹内紘三",
     "nameRomaji": "Kozo Takeuchi",
@@ -2381,6 +2399,12 @@
     },
     "snsCheckedAt": "2026-10-23"
   },
+  "liisa": {
+    "name": "Liisa",
+    "nameRomaji": "Liisa",
+    "nameKana": "りーさ",
+    "aliases": []
+  },
   "lisa-larson": {
     "name": "リサ・ラーソン",
     "nameRomaji": "Lisa Larson",
@@ -2500,7 +2524,9 @@
     "name": "マン・レイ",
     "nameRomaji": "Man Ray",
     "nameKana": "まんれい",
-    "aliases": []
+    "aliases": [
+      "Man Ray"
+    ]
   },
   "marc-chagall": {
     "name": "マルク・シャガール",
@@ -2929,6 +2955,12 @@
     "name": "石原菜々子",
     "nameRomaji": "Nanako Ishihara",
     "nameKana": "いしはらななこ",
+    "aliases": []
+  },
+  "nanami-azuma": {
+    "name": "東菜々美/Nanami Azuma",
+    "nameRomaji": "Nanami Azuma",
+    "nameKana": "あづまななみ",
     "aliases": []
   },
   "nancy-seki": {
@@ -3754,6 +3786,12 @@
     "name": "円地信二",
     "nameRomaji": "Shinji Enchi",
     "nameKana": "えんちしんじ",
+    "aliases": []
+  },
+  "shinji-nakakaze": {
+    "name": "中風森滋/Shinji Nakakaze",
+    "nameRomaji": "Shinji Nakakaze",
+    "nameKana": "なかかぜしんじ",
     "aliases": []
   },
   "shinji-ogawa": {
@@ -4882,6 +4920,12 @@
     "name": "Isaji Yugo",
     "nameRomaji": "Yugo Isaji",
     "nameKana": "いさじゆうご",
+    "aliases": []
+  },
+  "yui-komatsumoto": {
+    "name": "小松本結/Yui Komatsumoto",
+    "nameRomaji": "Yui Komatsumoto",
+    "nameKana": "こまつもとゆい",
     "aliases": []
   },
   "yuichi-idaka": {

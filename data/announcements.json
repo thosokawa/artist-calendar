@@ -832,5 +832,31 @@
       "tomoko-mukaiyama",
       "fuyuhiko-takada"
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "exhibitionId": "ehime-art-20261010-acdf3d",
+    "museumId": "ehime-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-10",
+    "exhibitionId": "ehime-art-20270213-8823d8",
+    "museumId": "ehime-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-10",
+    "exhibitionId": "tagboat-20261106-8d6546",
+    "museumId": "tagboat",
+    "artists": [
+      "nanami-azuma",
+      "liisa",
+      "yui-komatsumoto",
+      "shinji-nakakaze",
+      "kotoko",
+      "kenta-asakura",
+      "haruto-hayakawa"
+    ]
   }
 ]
