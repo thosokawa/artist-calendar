@@ -4331,6 +4331,12 @@
     "website": "https://www.tednoten.com",
     "snsCheckedAt": "2026-10-27"
   },
+  "teppei-kanauji": {
+    "name": "金氏徹平",
+    "nameRomaji": "Teppei Kanauji",
+    "nameKana": "かねうじてっぺい",
+    "aliases": []
+  },
   "teppei-sako": {
     "name": "迫 鉄平",
     "nameRomaji": "Teppei Sako",
@@ -4552,7 +4558,9 @@
   "tove-jansson": {
     "name": "トーベ",
     "nameRomaji": "Tove Jansson",
-    "aliases": [],
+    "aliases": [
+      "トーベ・ヤンソン"
+    ],
     "website": "https://www.tovejansson.com/",
     "snsCheckedAt": "2026-10-24",
     "nameKana": "とーべやんそん"

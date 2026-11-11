@@ -858,5 +858,19 @@
       "kenta-asakura",
       "haruto-hayakawa"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "exhibitionId": "shiga-art-20261003-92f23e",
+    "museumId": "shiga-art",
+    "artists": [
+      "teppei-kanauji"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "exhibitionId": "yokosuka-moa-20270211-c16d6e",
+    "museumId": "yokosuka-moa",
+    "artists": []
   }
 ]
