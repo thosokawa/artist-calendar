@@ -135,6 +135,6 @@ page('/privacy/', indexPage({ site, path: '/privacy/', title: 'プライバシ�
 cpSync(join(root, 'public'), dist, { recursive: true });
 // ads.txt: declares which ad network may sell this site's ad space (AdSense checks it).
 if (site.adsenseClient) write('ads.txt', `google.com, ${site.adsenseClient.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
-write('robots.txt', site.noindex ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nSitemap: ${site.baseUrl}/sitemap.xml\n`);
+write('robots.txt', site.noindex ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n# Form and bot endpoints answer only POST; a crawler's GET gets 4xx.\nDisallow: /api/\nSitemap: ${site.baseUrl}/sitemap.xml\n`);
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${esc(site.baseUrl + u)}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`built ${urls.length} pages: ${artistSlugs.length} artists, ${museumList.length} museums, ${exhibitions.length} exhibitions (${live.length} current or upcoming)`);
