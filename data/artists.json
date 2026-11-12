@@ -293,6 +293,12 @@
     "aliases": [],
     "nameKana": "たなかあつこ"
   },
+  "atsushi-fukui": {
+    "name": "福井 篤",
+    "nameRomaji": "Atsushi Fukui",
+    "nameKana": "ふくいあつし",
+    "aliases": []
+  },
   "atsushi-nishijima": {
     "name": "ニシジマ・アツシ",
     "nameRomaji": "Atsushi Nishijima",
@@ -1311,6 +1317,12 @@
     "nameRomaji": "Henry Moore",
     "aliases": [],
     "nameKana": "へんりーむーあ"
+  },
+  "hideaki-kawashima": {
+    "name": "川島秀明",
+    "nameRomaji": "Hideaki Kawashima",
+    "nameKana": "かわしまひであき",
+    "aliases": []
   },
   "hideki-kimura": {
     "name": "木村 秀樹",

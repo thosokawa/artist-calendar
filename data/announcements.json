@@ -872,5 +872,38 @@
     "exhibitionId": "yokosuka-moa-20270211-c16d6e",
     "museumId": "yokosuka-moa",
     "artists": []
+  },
+  {
+    "date": "2026-11-12",
+    "exhibitionId": "ehime-art-20270213-8823d8",
+    "museumId": "ehime-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-12",
+    "exhibitionId": "hachinohe-art-20261121-425a7c",
+    "museumId": "hachinohe-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-12",
+    "exhibitionId": "ishikawa-art-20261030-724742",
+    "museumId": "ishikawa-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-12",
+    "exhibitionId": "shiga-art-20261209-5af7d3",
+    "museumId": "shiga-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-12",
+    "exhibitionId": "tomio-koyama-20261121-058f64",
+    "museumId": "tomio-koyama",
+    "artists": [
+      "hideaki-kawashima",
+      "atsushi-fukui"
+    ]
   }
 ]
