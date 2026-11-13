@@ -905,5 +905,33 @@
       "hideaki-kawashima",
       "atsushi-fukui"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "exhibitionId": "2121-20261219-9c8f7c",
+    "museumId": "2121",
+    "artists": []
+  },
+  {
+    "date": "2026-11-13",
+    "exhibitionId": "hirosaki-moca-20270611-728c97",
+    "museumId": "hirosaki-moca",
+    "artists": [
+      "takashi-kuribayashi"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "exhibitionId": "ishikawa-art-20261030-93f89f",
+    "museumId": "ishikawa-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-13",
+    "exhibitionId": "nichido-garo-20261120-56403b",
+    "museumId": "nichido-garo",
+    "artists": [
+      "mario-ebiko"
+    ]
   }
 ]

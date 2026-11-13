@@ -2609,6 +2609,12 @@
     "nameKana": "ちぇろーりまーりお",
     "aliases": []
   },
+  "mario-ebiko": {
+    "name": "蛯子真理央",
+    "nameRomaji": "Mario Ebiko",
+    "nameKana": "えびこまりお",
+    "aliases": []
+  },
   "marisol": {
     "name": "マリソル",
     "nameRomaji": "Marisol",
@@ -4167,6 +4173,12 @@
     "name": "日野田崇",
     "nameRomaji": "Takashi Hinoda",
     "nameKana": "ひのだたかし",
+    "aliases": []
+  },
+  "takashi-kuribayashi": {
+    "name": "栗林隆",
+    "nameRomaji": "Takashi Kuribayashi",
+    "nameKana": "くりばやしたかし",
     "aliases": []
   },
   "takashi-murakami": {
