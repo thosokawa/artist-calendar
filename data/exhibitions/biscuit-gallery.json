@@ -34,7 +34,7 @@
     "detailUrl": null,
     "summary": "軽井沢の新たなレジデンス拠点の開館を記念し、スヨンと高橋遥の二人が作品を並べて見せる二人展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-11-10",
+    "lastSeenAt": "2026-11-14",
     "describedAt": "2026-11-08"
   },
   {
@@ -53,7 +53,27 @@
     "detailUrl": null,
     "summary": "大澤巴瑠が幻影をテーマに新たな作品を並べ、その世界観を紹介する個展です。",
     "firstSeenAt": "2026-10-30",
-    "lastSeenAt": "2026-11-10",
+    "lastSeenAt": "2026-11-14",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "biscuit-gallery-20261205-5b4fd6",
+    "museumId": "biscuit-gallery",
+    "title": "【個展】三成花奈｜Kana Mitsunari「拘束」開催のお知らせ",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-20",
+    "kind": "special",
+    "artists": [
+      "kana-mitsunari"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://biscuitgallery.com/kana-mitsunari-restraint/",
+    "summary": "新宿の会場で開かれる三成花奈の個展で、新作を中心に作品を紹介する。",
+    "firstSeenAt": "2026-11-14",
+    "lastSeenAt": "2026-11-14",
+    "description": "三成花奈の個展「拘束」は、実際に目にした出来事の再現映像を出発点に、異なる時間や視点を組み合わせて像を組み立て直し、絵具の層を重ねて描いてきた作品を紹介する展覧会です。会場では、木枠を身体に当てて描く範囲を探る行為から生まれた《Framed》シリーズが中心的に示され、描くことは同時に何を描かないかを決めることだという考えが、作品の見方を支えています。作家自身が日常を記録してきた経緯も語られ、残されたものと失われたものの関係を静かに見つめる構成になっています。静物と人物の境界への探究も、作品を通して感じ取れる見どころです。",
+    "describedAt": "2026-11-14"
   }
 ]

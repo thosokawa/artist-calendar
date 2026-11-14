@@ -933,5 +933,43 @@
     "artists": [
       "mario-ebiko"
     ]
+  },
+  {
+    "date": "2026-11-14",
+    "exhibitionId": "aisho-20261128-3f8e6d",
+    "museumId": "aisho",
+    "artists": [
+      "maiko-kobayashi"
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "exhibitionId": "biscuit-gallery-20261205-5b4fd6",
+    "museumId": "biscuit-gallery",
+    "artists": [
+      "kana-mitsunari"
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "exhibitionId": "gifu-art-20270121-23b3d4",
+    "museumId": "gifu-art",
+    "artists": [
+      "masafumi-kato"
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "exhibitionId": "momaw-20260804-e31b88",
+    "museumId": "momaw",
+    "artists": []
+  },
+  {
+    "date": "2026-11-14",
+    "exhibitionId": "satoko-oe-20261124-830c86",
+    "museumId": "satoko-oe",
+    "artists": [
+      "yoshinori-niwa"
+    ]
   }
 ]

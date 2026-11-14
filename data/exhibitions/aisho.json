@@ -2,7 +2,7 @@
   {
     "id": "aisho-20261017-0ce43b",
     "museumId": "aisho",
-    "title": "Keiji Izumi Solo Exhibition 泉 啓司 個展 ”クルクルラララ”",
+    "title": "クルクルラララ",
     "startDate": "2026-10-17",
     "endDate": "2026-11-14",
     "kind": "special",
@@ -15,7 +15,26 @@
     "detailUrl": null,
     "summary": "泉啓司の個展で、「クルクルラララ」と名付けた展示を、初日のオープニングレセプションとともに約1か月間開く。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-10-18",
+    "lastSeenAt": "2026-11-14",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "aisho-20261128-3f8e6d",
+    "museumId": "aisho",
+    "title": "ささやかなかたち",
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "maiko-kobayashi"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "コバヤシ麻衣子が日常の小さな気配をとらえた作品を集め、静かな存在感を示す個展を開催する。",
+    "firstSeenAt": "2026-11-14",
+    "lastSeenAt": "2026-11-14",
+    "describedAt": "2026-11-14"
   }
 ]

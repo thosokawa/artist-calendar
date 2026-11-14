@@ -1168,7 +1168,9 @@
     "name": "大澤巴瑠",
     "nameRomaji": "Hal Osawa",
     "nameKana": "おおさわはる",
-    "aliases": []
+    "aliases": [
+      "大澤巴瑠｜Hal Osawa"
+    ]
   },
   "han-youngsoo": {
     "name": "ハン・ヨンス",
@@ -1717,6 +1719,12 @@
     "name": "安田侃",
     "nameRomaji": "Kan Yasuda",
     "nameKana": "やすだかん",
+    "aliases": []
+  },
+  "kana-mitsunari": {
+    "name": "三成花奈｜Kana Mitsunari",
+    "nameRomaji": "Kana Mitsunari",
+    "nameKana": "みつなりかな",
     "aliases": []
   },
   "kana-ueda": {
@@ -2512,6 +2520,12 @@
     "nameRomaji": "Maija Louekari",
     "aliases": []
   },
+  "maiko-kobayashi": {
+    "name": "コバヤシ麻衣子",
+    "nameRomaji": "Maiko Kobayashi",
+    "nameKana": "こばやしまいこ",
+    "aliases": []
+  },
   "mako-idemitsu": {
     "name": "出光真子",
     "nameRomaji": "Mako Idemitsu",
@@ -2645,6 +2659,12 @@
     "name": "鈴木雅明",
     "nameRomaji": "Masaaki Suzuki",
     "nameKana": "すずきまさあき",
+    "aliases": []
+  },
+  "masafumi-kato": {
+    "name": "加藤真史",
+    "nameRomaji": "Masafumi Kato",
+    "nameKana": "かとうまさふみ",
     "aliases": []
   },
   "masaji-inoue": {
@@ -3674,6 +3694,12 @@
       "instagram": "https://www.instagram.com/the_final_view/"
     },
     "snsCheckedAt": "2026-10-27"
+  },
+  "seicho-hasegawa": {
+    "name": "長谷川青澄",
+    "nameRomaji": "Seichō Hasegawa",
+    "nameKana": "はせがわせいちょう",
+    "aliases": []
   },
   "seiho-takeuchi": {
     "name": "竹内栖鳳",
