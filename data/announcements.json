@@ -983,5 +983,31 @@
     "exhibitionId": "ehime-art-20270213-8823d8",
     "museumId": "ehime-art",
     "artists": []
+  },
+  {
+    "date": "2026-11-17",
+    "exhibitionId": "ehime-art-20270213-8823d8",
+    "museumId": "ehime-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-17",
+    "exhibitionId": "momaw-20260804-e31b88",
+    "museumId": "momaw",
+    "artists": [
+      "edvard-munch",
+      "pablo-picasso",
+      "henri-matisse",
+      "wassily-kandinsky"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "exhibitionId": "xyz-collective-20261104-70e46c",
+    "museumId": "xyz-collective",
+    "artists": [
+      "taro-masushio",
+      "sophie-nys"
+    ]
   }
 ]

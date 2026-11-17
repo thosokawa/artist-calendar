@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "xyz-collective-20261104-70e46c",
+    "museumId": "xyz-collective",
+    "title": "Taro Masushio and Sophie Nys",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "taro-masushio",
+      "sophie-nys"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://xyzcollective.jp/taro-masushio-and-sophie-nys/",
+    "summary": "東京・巣鴨のXYZcollectiveで、Taro MasushioとSophie Nysの二人が作品を見せる現代美術の企画展です。",
+    "firstSeenAt": "2026-11-17",
+    "lastSeenAt": "2026-11-17",
+    "describedAt": "2026-11-17"
+  }
+]

@@ -715,7 +715,8 @@
     "nameRomaji": "Edvard Munch",
     "nameKana": "むんくえどゔぁると",
     "aliases": [
-      "エドヴァルト・ムンク"
+      "エドヴァルト・ムンク",
+      "むんくえどゔぁると"
     ],
     "snsCheckedAt": "2026-10-27"
   },
@@ -1315,7 +1316,8 @@
     "name": "マティス",
     "nameRomaji": "Henri Matisse",
     "aliases": [
-      "アンリ・マティス"
+      "アンリ・マティス",
+      "まてぃすあんり"
     ],
     "nameKana": "まてぃすあんり",
     "snsCheckedAt": "2026-10-24"
@@ -3275,7 +3277,8 @@
     "name": "パブロ・ピカソ",
     "nameRomaji": "Pablo Picasso",
     "aliases": [
-      "ピカソ"
+      "ピカソ",
+      "ぴかそぱぶろ"
     ],
     "nameKana": "ぴかそぱぶろ"
   },
@@ -4043,6 +4046,12 @@
     "website": "https://atelierorange.info",
     "snsCheckedAt": "2026-10-21"
   },
+  "sophie-nys": {
+    "name": "Sophie Nys",
+    "nameRomaji": "Sophie Nys",
+    "nameKana": "にす そふぃー",
+    "aliases": []
+  },
   "soritsu-tamura": {
     "name": "田村宗立",
     "nameRomaji": "Soritsu Tamura",
@@ -4320,6 +4329,12 @@
       "x": "https://x.com/tarokaribe"
     },
     "snsCheckedAt": "2026-10-27"
+  },
+  "taro-masushio": {
+    "name": "Taro Masushio",
+    "nameRomaji": "Taro Masushio",
+    "nameKana": "ますしお たろう",
+    "aliases": []
   },
   "taro-okamoto": {
     "name": "岡本太郎",
@@ -4765,7 +4780,8 @@
     "nameRomaji": "Wassily Kandinsky",
     "aliases": [
       "ワシリー・カンディンスキー",
-      "カンディンスキー"
+      "カンディンスキー",
+      "かんでぃんすきーわしーりー"
     ],
     "nameKana": "かんでぃんすきーゔぁしりー"
   },
