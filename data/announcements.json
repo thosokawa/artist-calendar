@@ -1009,5 +1009,33 @@
       "taro-masushio",
       "sophie-nys"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "exhibitionId": "gifu-art-20261117-525d05",
+    "museumId": "gifu-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-18",
+    "exhibitionId": "koki-arts-20261121-914835",
+    "museumId": "koki-arts",
+    "artists": [
+      "hiro-tsuchiya"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "exhibitionId": "maho-kubota-gallery-20261205-a42a78",
+    "museumId": "maho-kubota-gallery",
+    "artists": [
+      "takanosuke-yasui"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "exhibitionId": "senju-museum-20261125-bfee91",
+    "museumId": "senju-museum",
+    "artists": []
   }
 ]

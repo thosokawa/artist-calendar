@@ -1598,6 +1598,12 @@
     "profile": "鈴木ヒラクは、シルバーインクや土、アクリルをキャンバスや竹和紙に用いて制作する作家です。作品には、博物館のカタログを切り抜いたものにシルバースプレーを重ねたものや、溶岩石をキャンバスに取り付けた大型の作品などがあります。「発掘」や「記号」といった言葉を含む作品名からも、過去の痕跡と現在をつなぐ関心がうかがえます。2019年には東京都現代美術館、2023年には群馬県立近代美術館で個展が開かれました。",
     "profileCheckedAt": "2026-11-18"
   },
+  "hiro-tsuchiya": {
+    "name": "土屋裕央",
+    "nameRomaji": "Hiro Tsuchiya",
+    "nameKana": "つちやひろお",
+    "aliases": []
+  },
   "hiroko-kubo": {
     "name": "久保寛子",
     "nameRomaji": "Hiroko Kubo",
@@ -4942,6 +4948,12 @@
     "nameKana": "あさみたかこ",
     "aliases": [],
     "snsCheckedAt": "2026-10-24"
+  },
+  "takanosuke-yasui": {
+    "name": "安井鷹之介",
+    "nameRomaji": "Takanosuke Yasui",
+    "nameKana": "やすいたかのすけ",
+    "aliases": []
   },
   "takao-saito": {
     "name": "さいとう・たかを",
