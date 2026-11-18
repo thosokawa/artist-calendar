@@ -155,7 +155,6 @@ footer a{color:#fff}
 
 /* share */
 .share{margin:48px 0 0;padding-top:20px;border-top:1px solid var(--line)}
-main.wide .share{max-width:880px;margin-left:auto;margin-right:auto}
 .share-title{margin:0 0 10px;font-weight:700;font-size:.95rem;display:flex;align-items:center;gap:8px}
 .share-title::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--coral)}
 .share-btns{display:flex;flex-wrap:wrap;gap:8px}
@@ -344,3 +343,7 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 @media (prefers-reduced-motion:reduce){.notify-card,.notify-card>*{animation:none!important}}
 /* Affiliate boxes: no fill, thin frame like the exhibition cards */
 .shop.box{background:transparent;border-color:#C9C3B8}
+/* Room for the fixed LINE bar goes inside the dark footer, not as a blank strip under it */
+body:has(.subscribe){padding-bottom:0}
+body:has(.subscribe) footer{padding-bottom:96px}
+@media (max-width:640px){body:has(.subscribe) footer{padding-bottom:110px}}
