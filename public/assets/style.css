@@ -335,8 +335,10 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 .notify-card .chips a{border-color:var(--line)}
 .notify-card a:not(.btn):not(.chips a){color:var(--link)}
 .nb-run{position:absolute;inset:-1px;width:calc(100% + 2px);height:calc(100% + 2px);overflow:visible;pointer-events:none}
-.nb-run rect{fill:none;stroke:var(--ink);stroke-width:4;stroke-dasharray:52 100000;stroke-dashoffset:26}
+.nb-run rect{fill:none;stroke:var(--ink);stroke-width:2;stroke-dasharray:52 100000;stroke-dashoffset:26}
 .nb-dot{position:absolute;left:-7px;top:-7px;width:12px;height:12px;border-radius:50%;background:var(--coral);pointer-events:none;opacity:0}
-.notify-card>:not(.nb-run):not(.nb-dot){animation:nb-in .5s ease 1.4s both}
+.notify-card{animation:nb-box .6s ease 1.9s both}
+.notify-card>:not(.nb-run):not(.nb-dot){animation:nb-in .6s ease 1.9s both}
 @keyframes nb-in{from{opacity:0}to{opacity:1}}
-@media (prefers-reduced-motion:reduce){.notify-card>*{animation:none!important}}
+@keyframes nb-box{from{background-color:transparent;border-color:transparent}}
+@media (prefers-reduced-motion:reduce){.notify-card,.notify-card>*{animation:none!important}}

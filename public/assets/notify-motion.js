@@ -2,7 +2,7 @@
 // clockwise, pausing at each; the coral dot shows in a free corner while they rest.
 // First time the panel comes into view: a short delay, then one bracket move (the content fades in by CSS, style.css nb-in).
 const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const HOLD = 2600, MOVE = 900, STEP = HOLD + MOVE, T = 4 * STEP, DELAY = 500, EASE = 'cubic-bezier(.6,0,.3,1)';
+const HOLD = 4000, MOVE = 1400, STEP = HOLD + MOVE, T = 4 * STEP, DELAY = 500, EASE = 'cubic-bezier(.6,0,.3,1)';
 
 for (const card of document.querySelectorAll('.notify-card')) {
   const rect = card.querySelector('.nb-run rect'), dot = card.querySelector('.nb-dot');
