@@ -82,7 +82,7 @@ for (const [slug, a] of Object.entries(artists)) {
   try {
     const text = htmlToText(await get(url));
     a.profile = text.length > 300 ? await writeArtistProfile({ artist: a, pageText: text }) : '';
-    if (!a.profileUrl && a.profile) { a.profileUrl = a.website; a.profileSource = '作家の公式サイト'; }
+    if (!a.profileUrl && a.profile) { a.profileUrl = a.website; a.profileSource = '公式サイト'; }
     console.log(`${a.profile ? '✓' : '·'} artist ${slug} ${a.profile.slice(0, 50)}`);
   } catch (e) {
     console.log(`✗ artist ${slug}: ${e.message}`);

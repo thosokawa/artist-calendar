@@ -34,11 +34,13 @@ export async function readVenueInfo({ venue, pageText, client = new Anthropic() 
 - address: この施設（${venue.name}）の所在地。ページに書かれたとおりに写します。別の施設・運営会社・本社の住所は使いません。
 - access: 最寄り駅と徒歩何分か、を短く1行で。複数路線があれば主なもの2〜3つまで。
 - closed: 定休日・休館日の決まり（曜日、祝日の扱い、年末年始など）だけ。開館時間・料金・臨時休館の日付は書きません。
+- 値はすべて日本語で書きます（英語のページなら日本語に直します。住所は書かれたとおり）。
 - ページに書かれていないものは空文字にします。推測で補いません。`, `施設: ${venue.name}（${venue.prefecture}${venue.city ?? ''}）\n\n<page>\n${pageText.slice(0, 40000)}\n</page>`, VenueInfo, client);
   const info = { address: out?.address?.trim() ?? '', access: out?.access?.trim() ?? '', closed: out?.closed?.trim() ?? '' };
   // An address that is not on the page, or not in the venue's prefecture, is a guess or someone else's address.
   const pref = venue.prefecture.replace(/[都府県]$/, '');
-  if (!quoteAppears(info.address, pageText) || !info.address.includes(pref)) info.address = '';
+  const place = [pref, venue.city].filter(Boolean);
+  if (!quoteAppears(info.address, pageText) || !place.some((p) => info.address.includes(p))) info.address = '';
   if (/円|時\s*[〜~～-]|\d{1,2}:\d{2}/.test(info.closed)) info.closed = '';
   return info;
 }
@@ -48,10 +50,11 @@ const Text = z.object({ text: z.string().describe('Japanese prose in your own wo
 /** A few sentences on who the artist is, from their own site or their gallery's page on them. */
 export async function writeArtistProfile({ artist, pageText, client = new Anthropic() }) {
   const out = await parse(`作家の公式サイト、または作家を扱うギャラリーのその作家のページを読み、どんな作家かを紹介する文を3〜4文（120〜220字）で書きます。
+- 作家本人について書きます。財団・団体・ギャラリー・サイトそのものの説明（設立、助成、所蔵数、運営など）は書きません。
 - 生まれ年・出身地・学歴など経歴の要点、主な素材や技法、作品のテーマや特徴、主な受賞や収蔵先など、ページに書かれた事実を使います。
 - ページの文章を写さず、自分の言葉で書きます。推測や一般論で補いません。
 - 宣伝文句は使わず、です・ます調の落ち着いた文にします。情報源（「ページには」など）には触れません。
-- ページがこの作家についてのものでない、または書かれていることが少なすぎるときは text を空にします。`, `作家: ${artist.name}${artist.nameRomaji ? `（${artist.nameRomaji}）` : ''}\n\n<page>\n${pageText.slice(0, 30000)}\n</page>`, Text, client);
+- 作家本人についての事実が2つ以上書かれていなければ text を空にします（作家名と分野しかわからない場合など）。`, `作家: ${artist.name}${artist.nameRomaji ? `（${artist.nameRomaji}）` : ''}\n\n<page>\n${pageText.slice(0, 30000)}\n</page>`, Text, client);
   return dropSourceTalk(out?.text ?? '');
 }
 

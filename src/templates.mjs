@@ -205,9 +205,9 @@ ${recs.length ? `<h2>${esc(a.name)}が好きな人におすすめの作家</h2><
 
 // Address, nearest station and closing days read from the venue's official access page (no prices or hours), plus a map.
 function info(m) {
-  if (!m.address) return '';
-  const q = encodeURIComponent(`${m.name} ${m.address}`);
-  return `<h2>アクセス</h2><dl class="facts box"><dt>住所</dt><dd>${esc(m.address)}</dd>${m.access ? `<dt>交通</dt><dd>${esc(m.access)}</dd>` : ''}${m.closed ? `<dt>休館日</dt><dd>${esc(m.closed)}</dd>` : ''}</dl>
+  if (!m.address && !m.access && !m.closed) return '';
+  const q = encodeURIComponent(`${m.name} ${m.address ?? `${m.prefecture}${m.city ?? ''}`}`);
+  return `<h2>アクセス</h2><dl class="facts box">${m.address ? `<dt>住所</dt><dd>${esc(m.address)}</dd>` : ''}${m.access ? `<dt>交通</dt><dd>${esc(m.access)}</dd>` : ''}${m.closed ? `<dt>休館日</dt><dd>${esc(m.closed)}</dd>` : ''}</dl>
 <div class="map"><iframe title="${esc(m.name)}の地図" src="https://maps.google.com/maps?q=${q}&amp;output=embed&amp;hl=ja" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 <p class="hint">開館時間・休館日は変わることがあります。お出かけ前に<a href="${esc(m.accessUrl ?? m.officialUrl)}" rel="noopener">公式サイト</a>でご確認ください。</p>`;
 }
