@@ -76,7 +76,7 @@ ${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで�
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
 <p>展覧会情報は各美術館・ギャラリーの公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
 <p class="areas">${AREAS.map(([k, label]) => `<a href="/areas/${k}/">${esc(label)}の展覧会</a>`).join(' · ')}</p>
-<p><a href="/about/">このサイトについて</a> · <a href="/request/">施設のリクエスト</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
+<p><a href="/monthly/">月別の展覧会</a> · <a href="/about/">このサイトについて</a> · <a href="/request/">施設のリクエスト</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
 ${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
 `;
 }
@@ -92,6 +92,15 @@ ${names ? `<div class="artists">${names}</div>` : ''}
 ${e.genres.length ? `<div class="tags">${e.genres.map((g) => `<a href="/search/?genre=${encodeURIComponent(g)}">${esc(g)}</a>`).join('')}</div>` : ''}</li>`;
 }
 const list = (items, ctx, opts) => (items.length ? `<ul class="cards">${items.map((e) => card(e, { ...ctx, ...opts })).join('')}</ul>` : '<p class="empty">いまのところありません。</p>');
+
+// Compact one-line rows (date, title, venue) for timelines and schedules.
+const md = (iso) => `${+iso.slice(5, 7)}/${+iso.slice(8, 10)}`;
+const span = (e) => (e.startDate.slice(0, 4) === e.endDate.slice(0, 4) ? `${md(e.startDate)}〜${md(e.endDate)}` : `${md(e.startDate)}〜${e.endDate.slice(0, 4)}/${md(e.endDate)}`);
+function rows(items, { museums, today }, { showMuseum = true } = {}) {
+  return `<ul class="rows">${items.map((e) => { const st = statusOn(e, today); const m = museums[e.museumId]; return `<li><span class="when">${span(e)}</span><span class="what"><a href="/exhibitions/${esc(e.id)}/">${esc(e.title)}</a>${showMuseum ? `<span class="meta">${esc(m?.name)}</span>` : ''}</span>${st !== 'past' ? `<span class="badge ${st}">${STATUS[st]}</span>` : ''}</li>`; }).join('')}</ul>`;
+}
+/** Groups items into [key, items] by a key function, keeping first-seen order. */
+const groupBy = (items, key) => { const g = new Map(); for (const x of items) { const k = key(x); if (!g.has(k)) g.set(k, []); g.get(k).push(x); } return [...g]; };
 
 // Page title framed by the logo's two corner brackets.
 // Official social accounts (Simple Icons, CC0), shown as a row of small icons.
@@ -173,11 +182,12 @@ ${step('03', '新着情報が届く', '新しい展覧会が発表された日�
 <h2>新しく発表された展覧会</h2>${list(recent, ctx)}
 <h2>まもなく終了</h2>${list(endingSoon, ctx)}
 <h2>これから始まる展覧会</h2>${list(upcoming, ctx)}
+<p class="more-search"><a href="/monthly/${ctx.today.slice(0, 7)}/">${+ctx.today.slice(5, 7)}月に始まる展覧会・終わる展覧会のまとめ →</a></p>
 <h2>展覧会の多い作家</h2><ul class="chips">${topArtists.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(ctx.artists[s].name)}</a></li>`).join('')}</ul>
 </div>` });
 }
 
-export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl }) {
+export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl, represented = [] }) {
   const a = ctx.artists[slug];
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
   // With a single show the page repeats that exhibition's page; it stays out of search until a second show appears.
@@ -187,20 +197,38 @@ ${lineBox(a.name, lineUrl)}
 <h2>開催中</h2>${list(by('current'), ctx)}
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
 ${shopBox(site, a.name)}
-${by('past').length ? `<h2>過去の展覧会</h2>${list(by('past').reverse(), ctx)}` : ''}
+${a.profile ? `<h2>${esc(a.name)}について</h2><p class="intro">${esc(a.profile)}</p>${a.profileUrl ? `<p class="hint">参考: <a href="${esc(a.profileUrl)}" rel="noopener">${esc(a.profileSource ?? '公式サイト')}</a></p>` : ''}` : ''}
+${represented.length ? `<h2>取り扱いギャラリー</h2><ul class="chips">${represented.map((g) => `<li><a href="/museums/${esc(g.id)}/">${esc(g.name)}</a></li>`).join('')}</ul>` : ''}
+${shows.length >= 2 ? `<h2>展覧会の年表</h2>${groupBy([...shows].reverse(), (e) => e.startDate.slice(0, 4)).map(([y, xs]) => `<h3 class="year">${y}年</h3>${rows(xs, ctx)}`).join('')}` : by('past').length ? `<h2>過去の展覧会</h2>${list(by('past'), ctx)}` : ''}
 ${recs.length ? `<h2>${esc(a.name)}が好きな人におすすめの作家</h2><ul class="chips">${recs.map((r) => `<li><a href="/artists/${esc(r.slug)}/">${esc(ctx.artists[r.slug].name)}</a></li>`).join('')}</ul>` : ''}` });
+}
+
+// Address, nearest station and closing days read from the venue's official access page (no prices or hours), plus a map.
+function info(m) {
+  if (!m.address) return '';
+  const q = encodeURIComponent(`${m.name} ${m.address}`);
+  return `<h2>アクセス</h2><dl class="facts box"><dt>住所</dt><dd>${esc(m.address)}</dd>${m.access ? `<dt>交通</dt><dd>${esc(m.access)}</dd>` : ''}${m.closed ? `<dt>休館日</dt><dd>${esc(m.closed)}</dd>` : ''}</dl>
+<div class="map"><iframe title="${esc(m.name)}の地図" src="https://maps.google.com/maps?q=${q}&amp;output=embed&amp;hl=ja" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<p class="hint">開館時間・休館日は変わることがあります。お出かけ前に<a href="${esc(m.accessUrl ?? m.officialUrl)}" rel="noopener">公式サイト</a>でご確認ください。</p>`;
 }
 
 export function museumPage({ site, m, ctx, shows, nearby = [] }) {
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
-  const past = by('past').reverse().slice(0, 12);
+  // How often each artist has shown here (ArtPing's own records).
+  const n = {};
+  for (const e of shows) for (const s of e.artists) n[s] = (n[s] ?? 0) + 1;
+  const topArtists = Object.entries(n).filter(([s]) => ctx.artists[s]).map(([slug, k]) => ({ slug, n: k })).sort((a, b) => b.n - a.n || ctx.artists[a.slug].name.localeCompare(ctx.artists[b.slug].name, 'ja')).slice(0, 20);
+  const represents = (m.represents ?? []).filter((s) => ctx.artists[s]);
   return layout({ site, path: `/museums/${m.id}/`, title: `${m.name}の展覧会`, description: `${m.name}（${m.prefecture}${m.city}）の開催中・開催予定の展覧会。`, body: `
 ${pageHead(m.kind === 'gallery' ? 'GALLERY' : 'MUSEUM', esc(m.name), esc(m.prefecture) + esc(m.city), `<p class="head-links"><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a><a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a>${snsRow(m.sns, m.name)}</p>`)}
 ${m.intro ? `<p class="intro">${esc(m.intro)}</p>` : ''}
 ${m.status === 'closed' ? '<p class="note">現在休館中です。</p>' : ''}${m.status === 'unreadable' ? '<p class="note">この施設の公式サイトは自動で読み取れないため、展覧会情報は公式サイトでご確認ください。</p>' : ''}
 <h2>開催中</h2>${list(by('current'), ctx, { showMuseum: false })}
 <h2>開催予定</h2>${list(by('upcoming'), ctx, { showMuseum: false })}
-${past.length ? `<h2>これまでの展覧会</h2>${list(past, ctx, { showMuseum: false })}` : ''}
+${info(m)}
+${shows.length ? `<h2>展覧会スケジュール</h2>${groupBy([...shows].reverse().slice(0, 36), (e) => e.startDate.slice(0, 7)).map(([ym, xs]) => `<h3 class="year">${+ym.slice(0, 4)}年${+ym.slice(5)}月開幕</h3>${rows(xs, ctx, { showMuseum: false })}`).join('')}` : ''}
+${topArtists.length ? `<h2>${topArtists.some((t) => t.n > 1) ? `${esc(m.name)}でよく展示される作家` : `${esc(m.name)}で展示された作家`}</h2><ul class="chips">${topArtists.map((t) => `<li><a href="/artists/${esc(t.slug)}/">${esc(ctx.artists[t.slug]?.name ?? t.slug)}${t.n > 1 ? `<small class="n">${t.n}回</small>` : ''}</a></li>`).join('')}</ul>` : ''}
+${represents.length ? `<h2>${esc(m.name)}の取り扱い作家</h2><ul class="chips">${represents.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(ctx.artists[s].name)}</a></li>`).join('')}</ul>` : ''}
 ${nearby.length ? `<h2>${esc(m.prefecture)}のほかの美術館・ギャラリー</h2><ul class="chips">${nearby.map((n) => `<li><a href="/museums/${esc(n.id)}/">${esc(n.name)}</a></li>`).join('')}</ul>` : ''}` });
 }
 
@@ -287,6 +315,20 @@ export function areaPage({ site, area, label, prefs, ctx, description }) {
 ${pageHead('AREA', `${esc(label)}の展覧会`)}
 <p class="lede">${esc(label)}の美術館・ギャラリーで開催中・開催予定の展覧会${total}件を、都道府県ごとに開幕日の順で並べています。条件を細かく指定したいときは <a href="/search/?area=${esc(area)}">探すページ</a> をお使いください。</p>
 ${prefs.map(([pref, shows]) => `<h2>${esc(pref)}（${shows.length}件）</h2>${list(shows, ctx)}`).join('')}` });
+}
+
+export function monthlyPage({ site, ym, ctx, opening, closing, ongoing, intro, prev, next }) {
+  const label = `${+ym.slice(0, 4)}年${+ym.slice(5)}月`;
+  const byArea = (xs) => AREAS.map(([k, name]) => [name, xs.filter((e) => ctx.museums[e.museumId].area === k)]).filter(([, ys]) => ys.length);
+  const nav = `<p class="month-nav">${prev ? `<a href="/monthly/${prev}/">← ${+prev.slice(5)}月</a>` : ''}<a href="/monthly/">月別一覧</a>${next ? `<a href="/monthly/${next}/">${+next.slice(5)}月 →</a>` : ''}</p>`;
+  return layout({ site, path: `/monthly/${ym}/`, title: `${label}の展覧会`, description: `${label}に始まる展覧会${opening.length}件と、${label}で終わる展覧会${closing.length}件を、地域ごとにまとめました。`, body: `
+${pageHead('MONTHLY', `${label}の展覧会`)}
+${intro ? `<p class="intro">${esc(intro)}</p>` : ''}
+<p class="lede">${label}に始まる展覧会は${opening.length}件、${label}で終わる展覧会は${closing.length}件です${ongoing ? `（ほかに会期中の展覧会が${ongoing}件あります）` : ''}。</p>
+${nav}
+<h2>${label}に始まる展覧会</h2>${opening.length ? byArea(opening).map(([a, xs]) => `<h3 class="year">${esc(a)}</h3>${rows(xs, ctx)}`).join('') : '<p class="empty">いまのところありません。</p>'}
+<h2>${label}で終わる展覧会</h2>${closing.length ? byArea(closing).map(([a, xs]) => `<h3 class="year">${esc(a)}</h3>${rows(xs, ctx)}`).join('') : '<p class="empty">いまのところありません。</p>'}
+${nav}` });
 }
 
 export function indexPage({ site, path, title, html }) {

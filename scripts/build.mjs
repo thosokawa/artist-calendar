@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { homePage, artistPage, museumPage, exhibitionPage, searchPage, indexPage, requestPage, areaPage, esc } from '../src/templates.mjs';
+import { homePage, artistPage, museumPage, exhibitionPage, searchPage, indexPage, requestPage, areaPage, monthlyPage, esc } from '../src/templates.mjs';
 import { GENRES, isSameTour, statusOn } from '../src/exhibitions.mjs';
 import { buildCalendar, exhibitionEvent, googleCalendarUrl, addDays } from '../src/ics.mjs';
 import { followText } from '../src/line.mjs';
@@ -63,7 +63,8 @@ const artistSlugs = Object.keys(artists).filter((s) => profiles[s]).sort((a, b) 
 for (const slug of artistSlugs) {
   const shows = exhibitions.filter((e) => e.artists.includes(slug)).sort(byStart);
   const lineUrl = site.lineBasicId ? `https://line.me/R/oaMessage/${encodeURIComponent(site.lineBasicId)}/?${encodeURIComponent(followText(artists[slug].name, slug))}` : null;
-  page(`/artists/${slug}/`, artistPage({ site, slug, ctx, shows, recs: recommend(slug, profiles), genres: [...profiles[slug].genres], lineUrl }), latest(shows.map(touched)));
+  const represented = Object.values(museums).filter((m) => m.represents?.includes(slug));
+  page(`/artists/${slug}/`, artistPage({ site, slug, ctx, shows, recs: recommend(slug, profiles), genres: [...profiles[slug].genres], lineUrl, represented }), latest([artists[slug].profileCheckedAt, ...shows.map(touched)]));
 }
 page('/artists/', indexPage({ site, path: '/artists/', title: '作家一覧', html: `<p class="lede">${artistSlugs.length}人の作家の展覧会を掲載しています。</p><ul class="chips">${artistSlugs.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(artists[s].name)}</a></li>`).join('')}</ul>` }));
 
@@ -72,7 +73,7 @@ const museumList = Object.values(museums).sort((a, b) => AREAS.findIndex(([k]) =
 for (const m of museumList) {
   const shows = exhibitions.filter((e) => e.museumId === m.id).sort(byStart);
   const nearby = museumList.filter((n) => n.prefecture === m.prefecture && n.id !== m.id).slice(0, 12);
-  page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows, nearby }), latest([m.describedAt, ...shows.map(touched)]));
+  page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows, nearby }), latest([m.describedAt, m.infoCheckedAt, ...shows.map(touched)]));
 }
 // One list per kind (museums, then galleries), each grouped by area.
 const venueChips = (ms) => `<ul class="chips">${ms.map((m) => `<li><a href="/museums/${esc(m.id)}/">${esc(m.name)}</a></li>`).join('')}</ul>`;
@@ -93,6 +94,22 @@ for (const [area, label] of AREAS) {
     .map((p) => [p, shows.filter((e) => museums[e.museumId].prefecture === p)]).filter(([, xs]) => xs.length);
   page(`/areas/${area}/`, areaPage({ site, area, label, prefs, ctx, description: `${label}（${prefs.map(([p]) => p).join('・')}）の美術館・ギャラリーで開催中・開催予定の展覧会${shows.length}件。会期と会場、作家から探せます。` }));
 }
+
+// Monthly round-ups: what opens and closes each month, from the site's first month to two months ahead.
+const monthKey = (d) => d.slice(0, 7);
+const addMonth = (ym, k) => { const d = new Date(`${ym}-01T00:00:00Z`); d.setUTCMonth(d.getUTCMonth() + k); return d.toISOString().slice(0, 7); };
+const months = [];
+for (let ym = site.firstMonth ?? '2026-10'; ym <= addMonth(monthKey(today), 2); ym = addMonth(ym, 1)) months.push(ym);
+const monthIndex = [];
+months.forEach((ym, i) => {
+  const opening = exhibitions.filter((e) => monthKey(e.startDate) === ym).sort(byStart);
+  const closing = exhibitions.filter((e) => monthKey(e.endDate) === ym && monthKey(e.startDate) !== ym).sort((a, b) => a.endDate.localeCompare(b.endDate) || a.title.localeCompare(b.title));
+  const ongoing = exhibitions.filter((e) => monthKey(e.startDate) < ym && monthKey(e.endDate) > ym).length;
+  const note = readJson(`data/monthly/${ym}.json`, {});
+  monthIndex.push([ym, opening.length, closing.length]);
+  page(`/monthly/${ym}/`, monthlyPage({ site, ym, ctx, opening, closing, ongoing, intro: note.intro, prev: months[i - 1], next: months[i + 1] }), latest([note.writtenAt, ...opening.map(touched)]));
+});
+page('/monthly/', indexPage({ site, path: '/monthly/', title: '月別の展覧会', html: `<p class="lede">月ごとに、始まる展覧会と終わる展覧会をまとめています。</p><ul class="rows">${[...monthIndex].reverse().map(([ym, o, c]) => `<li><span class="what"><a href="/monthly/${ym}/">${+ym.slice(0, 4)}年${+ym.slice(5)}月の展覧会</a><span class="meta">始まる展覧会${o}件・終わる展覧会${c}件</span></span></li>`).join('')}</ul>` }));
 
 // Exhibitions, each with a one-event calendar file for "add to my calendar".
 const gcal = (e) => googleCalendarUrl(e, { museum: museums[e.museumId], siteUrl: site.baseUrl });
