@@ -17,5 +17,13 @@
     "facebook": "https://www.facebook.com/mujinto"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "meiro-koizumi",
+    "ryohei-usui",
+    "sachiko-kazama",
+    "tsubasa-kato"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

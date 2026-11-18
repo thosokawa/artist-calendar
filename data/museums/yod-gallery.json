@@ -16,5 +16,11 @@
     "x": "https://x.com/yod_gallery"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "closed": "日曜日",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "kozo-takeuchi"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

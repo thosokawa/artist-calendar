@@ -17,5 +17,17 @@
     "facebook": "https://www.facebook.com/KANAKAWANISHIARTOFFICE"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒135-0021 東京都江東区白河4-7-6",
+  "access": "東京メトロ半蔵門線・都営大江戸線 清澄白河駅B2出口より徒歩10分、都営新宿線 菊川駅A4出口より徒歩9分",
+  "closed": "日曜・月曜・火曜・祝日",
+  "accessUrl": "https://www.kanakawanishi.com/contact",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "naruki-oshima",
+    "ryota-kikuchi",
+    "takashi-suzuki",
+    "yugo-isaji"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

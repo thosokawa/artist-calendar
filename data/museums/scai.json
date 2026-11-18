@@ -16,5 +16,18 @@
     "x": "https://x.com/scai_bathhouse"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒110-0001 東京都台東区谷中 6-1-23 柏湯跡",
+  "access": "JR日暮里駅南口から徒歩約10分（谷中霊園の並木道経由）、東京メトロ千代田線根津駅1番出口から徒歩約10分",
+  "closed": "日・月・祝日",
+  "accessUrl": "https://www.scaithebathhouse.com/ja/access/",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "kohei-nawa",
+    "mariko-mori",
+    "natsuyuki-nakanishi",
+    "nobuko-tsuchiya",
+    "tadanori-yokoo"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

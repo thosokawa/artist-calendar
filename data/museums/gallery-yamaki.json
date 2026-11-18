@@ -17,5 +17,17 @@
     "facebook": "https://www.facebook.com/yamakifineart"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒650-0022 兵庫県神戸市中央区元町通 3丁目9-5",
+  "closed": "日曜日・月曜日・火曜日",
+  "accessUrl": "https://gyfa.co.jp/about",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "michio-fukuoka",
+    "nobuko-watanabe",
+    "sadamasa-motonaga",
+    "tatsuo-kawaguchi",
+    "yukio-fujimoto"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

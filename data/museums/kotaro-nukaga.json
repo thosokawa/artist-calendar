@@ -17,5 +17,14 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "KOTARO NUKAGAは、品川区天王洲と六本木に拠点を置く現代美術のギャラリーです。また、アートウィーク東京や京都のアートフェアへの参加、他都市での展示や書店でのサイン会など、展示空間の外での活動も積極的に行っています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒140-0002 東京都品川区東品川1-32-8 TERRADA Art Complex II 1F",
+  "access": "東京臨海高速鉄道りんかい線「天王洲アイル駅」B出口より徒歩約8分、東京モノレール羽田空港線「天王洲アイル駅」南口より徒歩約10分",
+  "closed": "日曜・月曜・祝日",
+  "accessUrl": "https://kotaronukaga.com/about",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "takeshi-yasura"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

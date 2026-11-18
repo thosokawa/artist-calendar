@@ -18,5 +18,19 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "ミヅマアートギャラリーは東京都新宿区市谷田町の神楽ビル2階にあるギャラリーで、東京のほかシンガポールにも拠点を持っています。東京の拠点は火曜日から土曜日に開廊し、日曜・月曜・祝日は休廊となっています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒162-0843 東京都新宿区市谷田町3-13 神楽ビル2F",
+  "closed": "日曜・月曜・祝日",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "aiko-miyanaga",
+    "akino-kondoh",
+    "akira-yamaguchi",
+    "hiroya-hori",
+    "jun-nguyen-hatsushiba",
+    "koji-tanada",
+    "yukie-noda",
+    "yuta-okuda"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

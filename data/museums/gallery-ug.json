@@ -18,5 +18,23 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "gallery UGは東京都品川区東品川の天王洲アイル周辺に拠点を置く現代アートのギャラリーで、アーティストと制作から発表、販売まで寄り添って支えることを大切にしています。扱う作品は絵画や彫刻、写真、版画など幅広く、ユーモアや独自の世界観を持つ日本の現代作家の作品が中心です。天王洲アイル駅から徒歩8分ほどの、TERRADA ART COMPLEX II の2階に入っています。専属アーティストのための制作スタジオ「Studio MOKU」も併設されています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒140-0002 東京都品川区東品川1-32-8 TERRADA ART COMPLEX II 2F",
+  "access": "東京臨海高速鉄道りんかい線天王洲アイル駅「B出口」より徒歩8分、東京モノレール羽田空港線天王洲アイル駅「中央口」より徒歩11分",
+  "closed": "日、月",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "hitomi-oshima",
+    "junko-asano",
+    "kunihiko-nohara",
+    "naoki-nomura",
+    "nobuko-numano",
+    "osamu-watanabe",
+    "rei-itaya",
+    "ryosuke-kawahira",
+    "shigeo-izumi",
+    "takaoki-tajima",
+    "yoshinori-toizumi"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

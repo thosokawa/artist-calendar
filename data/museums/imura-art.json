@@ -17,5 +17,11 @@
     "facebook": "https://www.facebook.com/tokyo.imuraartgallery"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "hideki-kimura",
+    "takashi-hinoda"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

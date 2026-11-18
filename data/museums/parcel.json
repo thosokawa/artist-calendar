@@ -13,5 +13,12 @@
   "status": "ok",
   "snsCheckedAt": "2026-10-18",
   "intro": "PARCELは東京都中央区日本橋馬喰町にあるギャラリーで、現在は2階建てのビルとDDD hotelの1階にそれぞれ拠点を構えています。展示は作家の個展を中心に行われ、会期ごとに異なる作品に出会えます。開館は火曜日から土曜日の14時から19時までで、日曜・月曜・祝日は休館です。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒103-0002 東京都中央区日本橋馬喰町2丁目2-1 DDD hotel内 1F",
+  "closed": "日曜・月曜・祝日",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "tomonari-hashimoto"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

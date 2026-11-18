@@ -11,7 +11,8 @@
     "aliases": [],
     "nameKana": "うちだあぐり",
     "snsCheckedAt": "2026-10-18",
-    "website": "http://www.aguriuchida.com/"
+    "website": "http://www.aguriuchida.com/",
+    "profileCheckedAt": "2026-11-18"
   },
   "ahmed-mannan": {
     "name": "アハメッド・マナン",
@@ -30,7 +31,11 @@
     "nameRomaji": "Aiko Miyanaga",
     "aliases": [],
     "nameKana": "みやながあいこ",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://mizuma-art.co.jp/artists/miyanaga-aiko/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "1974年京都市生まれの作家で、2008年に東京藝術大学大学院を修了しています。日用品をナフタリンでかたどった作品や、塩・ガラス・空気などを用いたインスタレーションを手がけ、時間の流れや気配の痕跡を視覚化しようとする点が特徴です。2013年には日産アートアワードのグランプリを受け、2020年には芸術選奨文部科学大臣新人賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "akane-saijo": {
     "name": "西條茜",
@@ -43,13 +48,20 @@
     "nameRomaji": "Aki Kondo",
     "aliases": [],
     "nameKana": "こんどうあき",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1009160",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "aki-sasamoto": {
     "name": "笹本晃",
     "nameRomaji": "Aki Sasamoto",
     "aliases": [],
-    "nameKana": "ささもとあき"
+    "nameKana": "ささもとあき",
+    "profileUrl": "https://www.takeninagawa.com/artists/8988/",
+    "profileSource": "Take Ninagawa",
+    "profile": "笹本晃は1980年に神奈川県で生まれ、現在はニューヨークを拠点に活動する作家です。ウェズリアン大学で学士号、コロンビア大学大学院で芸術学修士号を取得し、2018年からはイエール大学芸術大学院で彫刻専攻の教授を務め、2022年には専攻長に就任しています。個展や国内外のビエンナーレへの参加が多く、ヴェネチア・ビエンナーレやホイットニー・ビエンナーレなどで作品を発表してきました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "akihide-tamura": {
     "name": "田村彰英",
@@ -68,7 +80,11 @@
     "name": "安藤晶子",
     "nameRomaji": "Akiko Ando",
     "nameKana": "あんどうあきこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://leesaya.jp/artists/akikoando/",
+    "profileSource": "LEESAYA",
+    "profile": "安藤晶子は1987年茨城県生まれの作家です。東京工芸大学デザイン学科を卒業後、書籍の装丁や挿絵などを手がけながら制作を続け、近年は絵画作品の発表に力を入れています。水彩、油彩、コラージュを行き来しながら、時間や記憶が積み重なったような層のある画面を作り、男女の区別のつかない「天使」と呼ばれる人物像を通して、日常にある大切な存在を描いています。Idemitsu Art Award展2022に入選しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "akiko-nakayama": {
     "name": "中山晃子",
@@ -80,7 +96,11 @@
       "instagram": "https://www.instagram.com/akikonkym/",
       "x": "https://x.com/akikonkym"
     },
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profile": "中山晃子は、絵画をインスタレーションや映像、パフォーマンスなど複数の媒体を通して見せる作家です。液体を用いて形や質感の響き合いを描き、動きのエネルギーと色彩の鮮やかさを組み合わせることで、絵画を生きたものとして立ち上げる「Alive Painting」を特徴としています。近年はウィーン・アカデミー管弦楽団との共演や、Ars Electronica Festivalなどの国際的な催しへの参加でも知られています。",
+    "profileUrl": "https://www.akikopainting.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "akiko-shinzato": {
     "name": "新里明子",
@@ -95,7 +115,11 @@
     "nameKana": "こんどうあきの",
     "aliases": [],
     "website": "https://akinokondoh.com/",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileUrl": "https://mizuma-art.co.jp/artists/kondoh-akino/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "千葉県生まれの作家で、多摩美術大学グラフィックデザイン学科を卒業後、2008年からニューヨークに住んでいます。アニメーション、マンガ、ドローイング、油彩など幅広い表現で作品を発表してきました。アニメーション作品「てんとう虫のおとむらい」はYouTube Play展でTop25に選ばれ、「KiyaKiya」は文化庁メディア芸術祭で推薦作品となっています。マンガ『A子さんの恋人』や『ニューヨークで考え中』など、日常や身の回りの出来事を題材にした著作も多く手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "akira-minagawa": {
     "name": "皆川 明",
@@ -108,7 +132,11 @@
     "nameRomaji": "Akira Yamaguchi",
     "aliases": [],
     "nameKana": "やまぐちあきら",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://mizuma-art.co.jp/artists/yamaguchi-akira/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "1969年東京都生まれ、群馬県桐生市で育ち、1994年に東京藝術大学油画専攻を卒業、1996年に同大学院を修了しています。日本の伝統的な絵画様式を油絵の技法で描く作風が特徴で、都市鳥瞰図や合戦図などの絵画に加え、立体、漫画、インスタレーションなど表現は幅広く、公共空間のパブリックアートや新聞小説の挿画も手がけています。2013年には著書『ヘンな日本美術史』で小林秀雄賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "albert-marquet": {
     "name": "アルベール・マルケ",
@@ -124,12 +152,20 @@
     "sns": {
       "instagram": "https://www.instagram.com/fondation_giacometti/"
     },
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/giacometti.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "スイス出身の彫刻家・画家で、1901年に生まれ1966年に亡くなりました。細く引き伸ばされた人物像で知られ、人間の存在のあり方を見つめる作品を数多く残しています。版画作品も多く手がけ、1950〜60年代にはパリで挿画本や限定版の制作に携わりました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "albrecht-durer": {
     "name": "アルブレヒト・デューラー",
     "nameRomaji": "Albrecht Dürer",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/durer.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "アルブレヒト・デューラーは1471年に生まれ、1528年に没したドイツの画家・版画家です。銅版画（エングレーヴィング）と木版画を得意とし、骸骨の紋章や『メランコリアI』のように象徴性の強い作品を残しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "algimantas-shvegzhda": {
     "name": "シュヴェグジュダ",
@@ -147,20 +183,29 @@
     "name": "Alicja Kwade",
     "nameRomaji": "Alicja Kwade",
     "nameKana": "くわであありしあ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.pacegallery.com/artists/alicja-kwade/",
+    "profileSource": "Pace Gallery Tokyo",
+    "profile": "1979年にポーランドのカトヴィツェで生まれ、現在はベルリンを拠点に活動している作家です。彫刻や大規模な公共空間のインスタレーション、映像、写真、紙の作品などを手がけ、科学や哲学の概念を知覚の境界を解体する形で問い直します。日常の物や自然素材を反射や反復によって解体・再構築し、社会の構造や現実のあり方を探る点が特徴です。2019年にはニューヨーク・メトロポリタン美術館の屋上庭園に、スチール製の枠と巨大な球状の岩を組み合わせた『ParaPivot』を制作しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "alphonse-mucha": {
     "name": "アルフォンス・ミュシャ",
     "nameRomaji": "Alphonse Mucha",
     "aliases": [],
     "website": "https://www.muchafoundation.org/en",
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profileCheckedAt": "2026-11-18"
   },
   "amedeo-modigliani": {
     "name": "アメデオ・モディリアーニ",
     "nameRomaji": "Amedeo Modigliani",
     "aliases": [],
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.pacegallery.com/artists/amedeo-modigliani/",
+    "profileSource": "Pace Gallery Tokyo",
+    "profile": "アメデオ・モディリアーニは、20世紀初頭の具象絵画を代表する先駆者の一人とされるイタリア出身の画家です。1884年にリヴォルノに生まれ、1906年にパリへ移ってモンマルトルの芸術家たちと交流しました。細く引き伸ばされた身体や強い輪郭線をもつ裸婦と、友人や身近な人々の肖像画が特徴で、イタリア・ルネサンス絵画やバウレ族の仮面から影響を受けています。1909年にブランクーシと出会ってからは数年間彫刻に打ち込み、1914年に再び絵画へ戻りました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "ami-suh": {
     "name": "ソ・アミ",
@@ -188,7 +233,11 @@
       "x": "https://x.com/warholfdn",
       "facebook": "https://www.facebook.com/warholfoundation"
     },
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=180",
+    "profileSource": "タグボート",
+    "profile": "1928年にアメリカで生まれた作家で、シルクスクリーンやリトグラフなどの版画を中心に、ポスターやドローイングなど多様な作品を手がけています。キャンベルスープ缶やマリリンなど、大量生産される商品や大衆的なイメージを反復して用いた点が特徴です。スケートボードや腕時計など、ほかの分野のデザインとの協働作品も残しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "anju-shimoke": {
     "name": "下家 杏樹",
@@ -235,13 +284,21 @@
     "nameRomaji": "Arata Isozaki",
     "aliases": [],
     "nameKana": "いそざきあらた",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://www.misashin.com/artists/isozaki-arata/",
+    "profileSource": "MISA SHIN GALLERY",
+    "profile": "1931年に大分市で生まれ、1954年に東京大学工学部建築学科を卒業しました。1963年に磯崎新アトリエを設立し、大分県立中央図書館など60年代に大分市で実現した建築群から、90年代以降は国内外の各地、そして今世紀に入ってからの中東や中国などの作品まで手がけてきました。建築を政治・社会・文化と深く関わらせながら、建築が本来もつ潜在力を引き出して示してきた作家です。評論や設計競技の審査を通じて、世界の先鋭的な建築家の構想を実現へ導く役割も果たしてきました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "arika-someya": {
     "name": "染谷 亜里可",
     "nameRomaji": "Arika Someya",
     "nameKana": "そめやありか",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kenjitaki.com/someya-a/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "染谷亜里可は1961年に愛知県で生まれ、愛知県立芸術大学で油画を学んだ後、現在は三重県と愛知県を拠点に制作を続けている作家です。ベルベットなどの素材を脱色する独自の手法を用い、色を描き加えるのではなく取り除くことで、記憶や映像の断片を浮かび上がらせてきました。見る人の記憶や想像を呼び起こす作風が特徴で、愛知県美術館や三重県立美術館などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "armi-ratia": {
     "name": "アルミ・ラティア",
@@ -297,13 +354,21 @@
     "name": "田中敦子",
     "nameRomaji": "Atsuko Tanaka",
     "aliases": [],
-    "nameKana": "たなかあつこ"
+    "nameKana": "たなかあつこ",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=10890",
+    "profileSource": "タグボート",
+    "profile": "戦後日本の前衛美術グループ「具体」の主要メンバーとして知られる作家です。鳴り響くベルを配した作品や、電球と管球で光る服に仕立てた「電気服」、それを着用したパフォーマンスで注目されました。電球とコードの絡まりに着想を得た色彩豊かな絵画でも高く評価されています。2007年にはドイツのドクメンタ12に出品し、2012年には東京都現代美術館で大規模な回顧展が開かれました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "atsushi-fukui": {
     "name": "福井 篤",
     "nameRomaji": "Atsushi Fukui",
     "nameKana": "ふくいあつし",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tomiokoyamagallery.com/artists/atsushi-fukui/",
+    "profileSource": "小山登美夫ギャラリー",
+    "profile": "福井篤は1966年愛知県生まれの画家で、1989年に東京藝術大学美術学部油画科を卒業しています。2012年から山梨県に拠点を移して制作を続けています。作品には時空間を超えた遥かなイメージが描かれ、青く透んだ色調と美しいマチエールによる平和で静謐な世界が広がります。個展「結晶の島」や「アルカディアン」などを開き、作品は練馬区立美術館などに収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "atsushi-nishijima": {
     "name": "ニシジマ・アツシ",
@@ -377,13 +442,20 @@
       "instagram": "https://www.instagram.com/_baku89/",
       "x": "https://x.com/_baku89"
     },
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profile": "橋本麦は、映像作家として実験的な映像作品を手がけており、映像やジェネレーティブなビジュアル、インタラクティブな作品を制作しています。創作のためのツールも開発しており、講演や出版を通じて自身の考えを発表しています。音楽のミュージックビデオやブランドムービーなど、商業的な映像制作も数多く手がけています。",
+    "profileUrl": "https://baku89.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "baku-kiyokawa": {
     "name": "清川漠",
     "nameRomaji": "Baku Kiyokawa",
     "nameKana": "きよかわばく",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1008500",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "bakufu-ono": {
     "name": "大野麥風",
@@ -404,7 +476,11 @@
     "nameKana": "ばんくしー",
     "aliases": [],
     "website": "https://www.banksy.co.uk/",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=7030",
+    "profileSource": "タグボート",
+    "profile": "イギリスのロンドンを中心に活動する覆面の芸術家で、本名や生年月日は公表されていません。社会風刺を込めたグラフィティやストリートアートを世界各地にゲリラ的に描く手法で知られています。2005年には自作を世界各国の有名美術館に無断で展示し、しばらく誰にも気づかれなかったことが話題になりました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "beisen-kubota": {
     "name": "久保田米僊",
@@ -417,7 +493,11 @@
     "nameRomaji": "Ben Shahn",
     "aliases": [],
     "snsCheckedAt": "2026-10-25",
-    "nameKana": "べんしゃーん"
+    "nameKana": "べんしゃーん",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=19910",
+    "profileSource": "タグボート",
+    "profile": "アメリカの画家で、1898年に生まれ1969年に亡くなりました。リトアニアのコヴノからのユダヤ人移民で、20世紀の社会の変化と不正義を見つめ続けた作家です。人々の怒りや哀しみ、痛み、喜びへの深い共感が、ためらいを含んだ表情豊かな線に表れているとされています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "bernard-leach": {
     "name": "バーナード・リーチ",
@@ -448,19 +528,27 @@
     "nameRomaji": "Brie Ruais",
     "aliases": [],
     "website": "http://brieruais.com/",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profile": "ブリー・ルエイは、粘土を主な素材とし、自身の身体の重さに相当する量の粘土を使って大型の彫刻やインスタレーションを制作する作家です。身体と土地、人間と自然環境の関係をテーマにしており、砂漠や海辺、都市の風景から着想を得た作品を発表しています。作品には、粘土を押し広げたり圧縮したりする身体的な行為の痕跡が残され、制作過程そのものが形になっています。2021年にはムーディー・センター・フォー・ジ・アーツで大規模な展示を行いました。",
+    "profileUrl": "http://brieruais.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "camille-pissarro": {
     "name": "ピサロ",
     "nameRomaji": "Camille Pissarro",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/c_pissarro.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "cao-fei": {
     "name": "ツァオ・フェイ",
     "nameRomaji": "Cao Fei",
     "aliases": [],
     "website": "http://www.caofei.com",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileCheckedAt": "2026-11-18"
   },
   "carl-otto-czeschka": {
     "name": "カール・オットー・チェシュカ",
@@ -477,7 +565,11 @@
       "instagram": "https://www.instagram.com/eamesoffice/",
       "x": "https://x.com/EamesOffice"
     },
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profile": "チャールズ＆レイ・イームズは、20世紀のアメリカを代表するデザイナーとして知られ、建築、家具デザイン、工業デザインや製造、写真芸術など幅広い分野で革新的な仕事を残しました。1941年に二人が設立したイームズ・オフィスでは、デザインの技法や素材、製造の工夫を重ねてきました。二人の理念と作品は、現在もイームズ・オフィスによって保存され、次の世代へ伝えられています。",
+    "profileUrl": "https://www.eamesoffice.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "charles-meryon": {
     "name": "シャルル・メリヨン",
@@ -529,7 +621,11 @@
     "sns": {
       "instagram": "https://www.instagram.com/chiharushiota/"
     },
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://kenjitaki.com/shiota-c/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "塩田千春は1972年に大阪で生まれ、京都精華大学で洋画を学んだのち、ハンブルクやベルリンで美術を学んだ作家です。現在はベルリンを拠点にしています。糸を空間いっぱいに張り巡らせたり、窓ガラスやベッド、履き古された靴などを用いたりする大規模なインスタレーションで知られています。生と死といった根源的なテーマに向き合い、見る人の感覚に直接訴える作品を制作しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "chihhung-liu": {
     "name": "リュウ・ジーホン",
@@ -555,7 +651,11 @@
     "nameRomaji": "Chikako Yamashiro",
     "aliases": [],
     "nameKana": "やましろちかこ",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://ycassociates.co.jp/artists/2019/03/20/218/",
+    "profileSource": "Yumiko Chiba Associates",
+    "profile": "山城知佳子は1976年に沖縄県で生まれ、現在も沖縄県を拠点に制作を続けている作家です。映像作品やパフォーマンス、写真など複数の表現を用い、沖縄の歴史や土地、身体の記憶をめぐる作品を発表してきました。2005年に倉敷現代アートビエンナーレ・西日本で優秀賞を受けたほか、2017年のAsian Art Award大賞、2022年の文部科学大臣新人賞（芸術選奨）など、国内外で多くの賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "chikuden-tanomura": {
     "name": "田能村竹田",
@@ -581,7 +681,11 @@
     "nameKana": "さかもとちのこ",
     "aliases": [
       "Chinoko Sakamoto"
-    ]
+    ],
+    "profileUrl": "https://tsca.jp/ja/artist/chinoko-sakamoto/",
+    "profileSource": "Takuro Someya Contemporary Art",
+    "profile": "坂本紬野子は1992年長崎県生まれの陶芸を中心に制作する作家です。ロンドン芸術大学キャンバウェルカレッジオブアーツで彫刻を学び、卒業後はイギリスで制作と発表を行いました。現在は長崎を拠点に、陶土による立体作品を発表し続けています。個展はロンドンやアルル、東京など国内外で重ねられており、奈良美智キュレーション展など多くのグループ展にも参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "chobunsai-eishi": {
     "name": "鳥文斎栄之",
@@ -612,7 +716,11 @@
     "nameRomaji": "Christian Marclay",
     "aliases": [],
     "nameKana": "まーくれーくりすちゃん",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://gallerykoyanagi.com/artists/christian-marclay_jp/",
+    "profileSource": "ギャラリー小柳",
+    "profile": "クリスチャン・マークレーは、音と視覚の結びつきを創作の核に据えてきた作家です。ターンテーブルを楽器として用いたことで1979年に注目を集め、以後はコラージュやサンプリングの手法で既存の素材を再構成し、映像、絵画、写真、版画など幅広い作品を発表しています。代表作《ザ・クロック》は、映画に登場する時計のシーンを毎分ごとに集めて24時間に編んだ映像作品で、2011年のヴェネツィア・ビエンナーレで金獅子賞を受賞しました。コミックの擬音語を用いたシリーズも知られ、音と図像の関係を探っています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "christopher-dresser": {
     "name": "クリストファー・ドレッサー",
@@ -640,7 +748,11 @@
     "name": "森山大道",
     "nameRomaji": "Daido Moriyama",
     "aliases": [],
-    "nameKana": "もりやまだいどう"
+    "nameKana": "もりやまだいどう",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=2150",
+    "profileSource": "タグボート",
+    "profile": "1938年に大阪で生まれた写真家で、自身を街頭スナップ写真家と呼んでいます。粒子の粗さや激しい揺れ、強いコントラストのモノクロ写真で知られ、世界各地の街を歩いて撮影してきました。2012年にはInfinity Award功労賞を受賞し、テートモダンでの展示などで国際的な評価を得ています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "daiki-nishimura": {
     "name": "西村大喜",
@@ -657,7 +769,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/disk.kn/"
     },
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "daisuke-yamada": {
     "name": "山田大補",
@@ -669,7 +782,10 @@
     "name": "Daniel ARSHAM",
     "nameRomaji": "Daniel Arsham",
     "nameKana": "あーしゃむだにえる",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1007510",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "daniel-steegmann-mangrane": {
     "name": "ダニエル・スティーグマン・マングラネ",
@@ -708,7 +824,11 @@
     "name": "ユアサエボシ",
     "nameRomaji": "Eboshi Yuasa",
     "aliases": [],
-    "nameKana": "ゆあさえぼし"
+    "nameKana": "ゆあさえぼし",
+    "profileUrl": "https://gallerykoyanagi.com/artists/ebosi-yuasa_jp/",
+    "profileSource": "ギャラリー小柳",
+    "profile": "千葉県生まれのユアサエボシは、「大正生まれの三流画家・ユアサヱボシ」という架空の人物を設定し、その人物として当時のシュルレアリスムの画風で絵画を制作しています。就職した会社の倒産を機に美術へ転向した経歴を持ち、新聞から切り抜いたモチーフを小さなコラージュにする手法を用いてきました。《GHQ PORTRAITS》や《女性工員》などの作品では、史実と創作の境界を揺さぶりながら、具象絵画に取り組んでいます。2018年に絹谷幸二賞を受賞し、作品は東京都現代美術館などに収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "edvard-munch": {
     "name": "ムンク",
@@ -730,14 +850,22 @@
       "x": "https://x.com/GoreyTrust"
     },
     "snsCheckedAt": "2026-10-27",
-    "nameKana": "えどわーど・ごーりー"
+    "nameKana": "えどわーど・ごーりー",
+    "profile": "エドワード・ゴーリーは、不気味さとユーモアが入り混じった独特の世界観で知られる作家・画家です。挿絵や絵本、文学作品の仕事を通じて、謎めいた物語や奇妙な登場人物を描き続けました。その作品は今も多くの読者や作家に親しまれ、展覧会や読書会などで再び紹介されています。",
+    "profileUrl": "https://edwardgorey.org/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "ei-arakawa-nash": {
     "name": "荒川ナッシュ医",
     "nameRomaji": "Ei Arakawa-Nash",
     "aliases": [],
     "nameKana": "あらかわなっしゅえい",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.takaishiigallery.com/jp/archives/4926/",
+    "profileSource": "タカ・イシイギャラリー",
+    "profile": "荒川ナッシュ医は、1998年からニューヨークを拠点に活動し、2019年からはロサンゼルスに住むパフォーマンス作家です。現代美術作家や美術史家など多様な人々との共同作業によって作品が生まれ、観客を即興的に作品へ巻き込むことで、観客と演者の境界を取り払おうとしています。第61回ヴェネチア・ビエンナーレ国際美術展の日本館出展作家に選ばれており、テート・モダンやホイットニー・ビエンナーレなど国際的な展覧会に多数参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "ei-q": {
     "name": "瑛九",
@@ -750,14 +878,22 @@
     "name": "渡辺 英司",
     "nameRomaji": "Eiji Watanabe",
     "nameKana": "わたなべえいじ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kenjitaki.com/watanabe-e/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "渡辺英司は1961年に愛知県で生まれ、1985年に愛知県立芸術大学彫刻科を卒業した作家です。2004年から2005年にかけては文化庁の在外派遣研修員としてスコットランドに滞在しました。名古屋を拠点に制作し、「名称の庭」や「図鑑庭園」など庭や図鑑をモチーフにした展覧会を重ねてきました。あいちトリエンナーレ2010や愛知県美術館など国内外の展覧会に参加し、愛知県美術館や大分県立美術館などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "eiko-yamazawa": {
     "name": "山沢栄子",
     "nameRomaji": "Eiko Yamazawa",
     "aliases": [],
     "nameKana": "やまざわえいこ",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://thethirdgalleryaya.com/artists/yamazawa_eiko/",
+    "profileSource": "The Third Gallery Aya",
+    "profile": "大阪に生まれ、1926年に渡米してカリフォルニアで写真家コンスエロ・カナガのもとで働いたのち、1929年に帰国して大阪で写真スタジオを開きました。戦後は商業写真の仕事を手がけながら、静物や抽象的な表現を追求し、「私の現代」と題したシリーズなどで独自の写真世界を築きました。1980年に神戸市文化賞、1986年に井植文化賞を受けており、作品はパブリックコレクションとして複数の美術館に収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "eikyu-matsuoka": {
     "name": "松岡映丘",
@@ -770,7 +906,11 @@
     "nameRomaji": "Eisaku Wada",
     "aliases": [],
     "nameKana": "わだえいさく",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/eisaku_wada.html",
+    "profileSource": "日動画廊",
+    "profile": "和田英作は、1874年に鹿児島県肝属郡に生まれた洋画家です。明治学院で学んだ後、曾山幸彦や原田直次郎のもとで洋画を修め、黒田清輝に師事して外光派の画風を身につけました。1900年から3年間フランスに留学し、ラファエル・コランの指導を受けています。東京美術学校の教授や校長を務め、1943年には文化勲章を受章しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "eisen-keisai": {
     "name": "渓斎英泉",
@@ -813,13 +953,21 @@
     "name": "今関絵美",
     "nameRomaji": "Emi Imazeki",
     "nameKana": "いまぜきえみ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1005170",
+    "profileSource": "タグボート",
+    "profile": "今関絵美は、油彩で風景や静物を描く作家です。武蔵野美術大学で油絵を学び、のちに心理学も学んだ経歴があり、自己探求と繊細な感情表現を追求してきました。日常の一瞬を切り取った情景を、郷愁や儚さといった誰もが抱く感情とともに穏やかに描き出し、時代や場所を超えた空気感を感じさせます。主な受賞に第14回TAGBOAT AWARD入賞があります。",
+    "profileCheckedAt": "2026-11-18"
   },
   "emiko-kasahara": {
     "name": "笠原恵実子",
     "nameRomaji": "Emiko Kasahara",
     "aliases": [],
-    "nameKana": "かさはらえみこ"
+    "nameKana": "かさはらえみこ",
+    "profileUrl": "https://thethirdgalleryaya.com/artists/kasahara-emiko/",
+    "profileSource": "The Third Gallery Aya",
+    "profile": "笠原恵実子は1963年に東京で生まれ、1988年に多摩美術大学大学院を修了した作家です。彫刻、オブジェクト、写真、映像、パフォーマンスなど多様なメディアを用い、女性や身体、性差といったテーマから、宗教性や制度、植民地主義などの社会構造を問う表現を展開しています。《OFFERING》や《K1001K》などの作品が知られ、横浜トリエンナーレや光州ビエンナーレ、シドニー・ビエンナーレなど国内外の展覧会で発表を重ねています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "emile-galle": {
     "name": "エミール・ガレ",
@@ -833,7 +981,10 @@
     "nameKana": "おおやまえんりこいさむ",
     "aliases": [
       "Enrico Isamu Oyama"
-    ]
+    ],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1007690",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "enzo-mari": {
     "name": "エンツォ・マーリ",
@@ -853,13 +1004,21 @@
     "aliases": [],
     "website": "https://eric-carle.com/",
     "snsCheckedAt": "2026-10-21",
-    "nameKana": "かーるえりっく"
+    "nameKana": "かーるえりっく",
+    "profile": "エリック・カールは絵本作家で、その作品は子どもたちや保護者、教育者に広く親しまれています。作品は、色紙を切り貼りして作る独特の彩色に特徴があります。",
+    "profileUrl": "https://eric-carle.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "erika-kusumi": {
     "name": "クスミエリカ",
     "nameRomaji": "Erika Kusumi",
     "nameKana": "くすみえりか",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.g-monma.com/artists/erika-kusumi/",
+    "profileSource": "ギャラリー門馬",
+    "profile": "1982年に北海道札幌市で生まれ、現在も同地を拠点に活動している作家です。自ら撮影した写真を切り抜いて重ね合わせ、デジタル処理を施す「デジタルコラージュ」を主な表現としています。日常的な現実の風景を組み替えることで、非現実でありながら現実の延長にある世界を描き出しています。2020年には札幌文化奨励賞、道銀芸術文化奨励賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "estrid-ericson": {
     "name": "エストリッド・エーリクソン",
@@ -897,7 +1056,8 @@
     "nameRomaji": "Felieke van der Leest",
     "aliases": [],
     "website": "https://www.feliekevanderleest.com",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileCheckedAt": "2026-11-18"
   },
   "felix-gonzalez-torres": {
     "name": "フェリックス・ゴンザレス=トレス",
@@ -907,7 +1067,8 @@
     ],
     "nameKana": "ごんざれすとれす",
     "website": "https://www.felixgonzalez-torresfoundation.org/",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileCheckedAt": "2026-11-18"
   },
   "fernand-leger": {
     "name": "フェルナン・レジェ",
@@ -924,7 +1085,11 @@
     "nameRomaji": "Francis Picabia",
     "aliases": [],
     "website": "https://www.picabia.com/",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profile": "フランシス・ピカビアは、20世紀前半に活動した画家で、その作品の記録と研究は妻のオルガ・ピカビアが1936年から取り組んできました。作品は絵画にとどまらず、紙の上の作品や版画、デッサンなど多様な媒体にわたっており、現在も全体像をまとめる作品目録の編纂が進められています。作品の年代は大きく四期に分けて整理される予定で、その初期は1898年から1914年にあたります。",
+    "profileUrl": "https://www.picabia.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "francois-hubert-drouais": {
     "name": "フランソワ=ユベール・ドルーエ",
@@ -961,7 +1126,11 @@
     "name": "鋤柄 ふくみ",
     "nameRomaji": "Fukumi Sukigara",
     "nameKana": "すきがらふくみ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kenjitaki.com/%e9%8b%a4%e6%9f%84-%e3%81%b5%e3%81%8f%e3%81%bf%e3%80%80fukumi-sukigara/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "鋤柄ふくみは1982年石川県生まれの画家で、2007年に愛知県立芸術大学大学院油画専攻を修了し、現在は愛知県瀬戸市で制作しています。作品は一見すると抽象画やシュルレアリスムのように見えますが、よく見ると草木や人などの具体的なイメージが浮かび上がります。キャンバスに線を引き、絵の具を塗り重ねることで、遠近や内外の異なる空間を一つの画面に重ね合わせ、奥行きのある密度の濃い画面をつくっています。愛知県美術館が作品を収蔵しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "fumi-imamura": {
     "name": "今村文",
@@ -1000,7 +1169,11 @@
     "aliases": [],
     "nameKana": "くろかわがく",
     "website": "https://gakukurokawa.com",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profile": "黒川岳は、大阪市西成区の「ちょちょまうヴァナキュラー」を拠点に活動を進めている作家です。地域の場に人が集まり、ものをつくり続ける「作業場」という考え方を大切にし、現地での取り組みを継続しています。奈良の「なら歴史芸術文化村」での滞在制作では、その活動の記録を冊子にまとめ、制作の過程を言葉と写真で伝えています。",
+    "profileUrl": "https://gakukurokawa.com",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "gege-akutami": {
     "name": "芥見下々",
@@ -1037,7 +1210,11 @@
     "name": "ゲルハルト・リヒター",
     "nameRomaji": "Gerhard Richter",
     "aliases": [],
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=590",
+    "profileSource": "タグボート",
+    "profile": "ゲルハルト・リヒターは1932年にドイツで生まれた画家です。雲や風景、キャンドルやアイスといったモチーフが並んでいます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "gerrit-thomas-rietveld": {
     "name": "ヘリット・トーマス・リートフェルト",
@@ -1069,7 +1246,8 @@
     "aliases": [],
     "nameKana": "ながいごう",
     "website": "http://www.dynamicproduction.co.jp/",
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profileCheckedAt": "2026-11-18"
   },
   "gocken-jobs": {
     "name": "ゴッケン・ヨブス",
@@ -1102,7 +1280,11 @@
     "nameKana": "むらやまごろう",
     "aliases": [
       "Goro Murayama"
-    ]
+    ],
+    "profileUrl": "https://tsca.jp/ja/artist/goro-murayama/",
+    "profileSource": "Takuro Someya Contemporary Art",
+    "profile": "村山悟郎は1983年東京生まれの作家で、東京藝術大学で油画を学び、2015年に同大学院の博士後期課程を修了しています。作品はドローイングや絵画を中心に、AIに創作過程を学習させる「Data Baroque」シリーズなどを手がけています。制作の過程そのものに注目し、人間とAIの創作の違いを問う試みを続けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "goshun": {
     "name": "呉春",
@@ -1179,13 +1361,19 @@
       "大澤巴瑠｜Hal Osawa"
     ],
     "profileUrl": "https://biscuitgallery.com/hal-osawa/",
-    "profileSource": "biscuit gallery"
+    "profileSource": "biscuit gallery",
+    "profile": "大澤巴瑠は1997年に東京都で生まれ、2020年に多摩美術大学美術学部油画科を卒業し、2022年には京都芸術大学大学院の油画科を修了しています。デジタルの複製をアナログの手法で複製することで、価値の曖昧さを作品に託し、目に見える形にする制作を行っています。『onomatopoeia』や『消失と誘発』といったシリーズがあり、2022年には個展「ERROR」などで作品を発表しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "han-youngsoo": {
     "name": "ハン・ヨンス",
     "nameRomaji": "Han Youngsoo",
     "nameKana": "はんよんす",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.misashin.com/artists/han-youngsoo/",
+    "profileSource": "MISA SHIN GALLERY",
+    "profile": "ハン・ヨンスは1933年に現在の北朝鮮・開城市で生まれ、1999年に亡くなった写真家です。戦後の韓国を代表する一人とされ、1950年代半ばから1960年代にかけて、朝鮮戦争後のソウルの街と、そこで暮らす人々の姿を独自の視点でとらえました。国内外で個展やグループ展が開かれ、ハーバード大学アジアセンターやインターナショナル・センター・オブ・フォトグラフィーなどで作品が紹介されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "handeishi-kawakita": {
     "name": "川喜田半泥子",
@@ -1227,7 +1415,9 @@
     "nameKana": "たかはしはるか",
     "aliases": [],
     "profileUrl": "https://biscuitgallery.com/haruka-takahashi/",
-    "profileSource": "biscuit gallery"
+    "profileSource": "biscuit gallery",
+    "profile": "高橋遥は、1994年に北海道釧路市で生まれ、2018年に多摩美術大学油画専攻を卒業した作家で、現在は東京を拠点に活動しています。人の持つ実在感をテーマに、平面と立体の関係を行き来しながら、矛盾を抱えたまま成立する知覚の状態や、その間に生じる揺らぎや問いを作品にしています。東京のhide galleryなどで個展を重ね、映画「路辺花草」に作品が起用されました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "haruki-ueda": {
     "name": "植田陽貴",
@@ -1238,7 +1428,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/harukiueda_/"
     },
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileCheckedAt": "2026-11-18"
   },
   "haruko-hasegawa": {
     "name": "長谷川春子",
@@ -1257,7 +1448,11 @@
     "name": "早川温人/Haruto Hayakawa",
     "nameRomaji": "Haruto Hayakawa",
     "nameKana": "はやかわはると",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1010280",
+    "profileSource": "タグボート",
+    "profile": "早川温人は、1980年代生まれではなく2001年に栃木県で生まれた作家です。桐生大学短期大学部と武蔵野美術大学で学び、油絵を専攻しました。制作では、対象を直接見て描くのではなく、フラットベッドスキャナを通して得たデジタルデータやプリントをモチーフとし、そのプリントを一つの絵画として捉えています。スキャナの光の情報や走査線を頼りに油絵具で置き換えていく過程で、機械になりきれない身体の『ズレ』が生じることに着目し、その揺らぎを絵画の本質として描いています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hashimoto-gaho": {
     "name": "橋本雅邦",
@@ -1295,7 +1490,9 @@
     "nameKana": "ゆんひちゃん",
     "aliases": [],
     "profileUrl": "https://www.artcourtgallery.com/artists/yoon-heechang/",
-    "profileSource": "アートコートギャラリー"
+    "profileSource": "アートコートギャラリー",
+    "profile": "尹煕倉は1963年兵庫県生まれの作家で、東京造形大学と多摩美術大学大学院で学び、現在は多摩美術大学で教授を務めています。陶土や砂を用いた陶粉画を主な表現としており、瀬戸・常滑の土や鴨川の砂を素材にした作品を発表してきました。1995年の文化庁在外研修でイギリスに滞在するなど海外での制作経験もあり、国内外の展覧会で作品を紹介しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "heihachiro-fukuda": {
     "name": "福田平八郎",
@@ -1326,25 +1523,39 @@
       "まてぃすあんり"
     ],
     "nameKana": "まてぃすあんり",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/h_matisse.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "henry-moore": {
     "name": "ヘンリー・ムーア",
     "nameRomaji": "Henry Moore",
     "aliases": [],
-    "nameKana": "へんりーむーあ"
+    "nameKana": "へんりーむーあ",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1004320",
+    "profileSource": "タグボート",
+    "profile": "イギリスの彫刻家で、1898年に生まれ1986年に亡くなりました。リーズ美術学校から王立美術学校に進み、前衛グループ「ユニット・ワン」の結成にも加わって国際的な活動を始めました。第二次世界大戦中にはロンドンの地下鉄構内で〈防空壕シリーズ〉のデッサンを描き、1948年にはヴェネチア・ビエンナーレで国際彫刻大賞を受けています。半ば抽象化された形に、自然観察から得た力強い生命力とヒューマニスティックな表現が込められ、20世紀彫刻史を代表する作家の一人とされています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hideaki-kawashima": {
     "name": "川島秀明",
     "nameRomaji": "Hideaki Kawashima",
     "nameKana": "かわしまひであき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=2260",
+    "profileSource": "タグボート",
+    "profile": "無地の背景に抽象化された女性像を大胆に描く作家です。比叡山延暦寺で天台宗の修行を経験しており、内省的に自己を見つめ、その思いを作品に映してきました。2010年頃からは他者へ目を向けて具象的な人物像へ移り、2014年の個展では再び抽象へ戻るなど、具象と抽象の間で作風を変化させ続けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hideki-kimura": {
     "name": "木村 秀樹",
     "nameRomaji": "Hideki Kimura",
     "nameKana": "きむらひでき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.imuraart.com/artist/works/post_25.html",
+    "profileSource": "イムラアートギャラリー",
+    "profileCheckedAt": "2026-11-18"
   },
   "hideki-makiguchi": {
     "name": "牧口英樹",
@@ -1360,20 +1571,32 @@
     "aliases": [],
     "nameKana": "ふじいひかる",
     "website": "https://www.hikarufujii.com/",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profile": "藤井光は、戦時中に日本人画家が描いた戦争絵画の扱いをめぐる歴史に取り組む作家です。本作『日本の戦争美術 1946』では、1946年に東京都美術館で開かれた展示を実寸大で再現していますが、実物の絵画は用いず、展示の運搬で出た廃棄物などで「絵画群」を造形しています。映像作品やインスタレーションを通して、芸術と政治が交錯する過程や、冷戦期の米国の覇権を浮かび上がらせるのが特徴です。",
+    "profileUrl": "https://www.hikarufujii.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiraki-sawa": {
     "name": "さわひらき",
     "nameRomaji": "Hiraki Sawa",
     "aliases": [],
     "nameKana": "さわひらき",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://www.otafinearts.com/artists/73-hiraki-sawa/",
+    "profileSource": "オオタファインアーツ",
+    "profile": "さわひらきは1977年石川県生まれで、ロンドンと金沢を拠点に活動する作家です。ロンドンのスレード美術学校で彫刻を学んだ後、映像と彫刻・平面的な要素を組み合わせた作品を制作しています。2002年の映像作品《dwelling》で注目を集め、模型飛行機が小さな部屋を飛び交う情景に現実と虚構が交わる世界を描きました。近年は多画面のインスタレーションや紙の作品にも取り組み、記憶や時間、場所をめぐる主題を探究しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiraku-suzuki": {
     "name": "鈴木ヒラク",
     "nameRomaji": "Hiraku Suzuki",
     "nameKana": "すずきひらく",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.yutakakikutakegallery.com/ja/artists/hiraku-suzuki/",
+    "profileSource": "ユタカキクタケギャラリー",
+    "profile": "鈴木ヒラクは、シルバーインクや土、アクリルをキャンバスや竹和紙に用いて制作する作家です。作品には、博物館のカタログを切り抜いたものにシルバースプレーを重ねたものや、溶岩石をキャンバスに取り付けた大型の作品などがあります。「発掘」や「記号」といった言葉を含む作品名からも、過去の痕跡と現在をつなぐ関心がうかがえます。2019年には東京都現代美術館、2023年には群馬県立近代美術館で個展が開かれました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroko-kubo": {
     "name": "久保寛子",
@@ -1385,7 +1608,10 @@
     "name": "土田ヒロミ",
     "nameRomaji": "Hiromi Tsuchida",
     "nameKana": "つちだひろみ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1009420",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroshi-kakizaki": {
     "name": "柿﨑熙",
@@ -1405,37 +1631,59 @@
     "aliases": [],
     "nameKana": "せんじゅひろし",
     "website": "https://www.hiroshisenju.com/",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1002000",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroshi-sugimoto": {
     "name": "杉本博司",
     "nameRomaji": "Hiroshi Sugimoto",
     "aliases": [],
-    "nameKana": "すぎもとひろし"
+    "nameKana": "すぎもとひろし",
+    "profileUrl": "https://gallerykoyanagi.com/artists/hiroshi-sugimoto_jp/",
+    "profileSource": "ギャラリー小柳",
+    "profile": "杉本博司は1948年東京生まれで、写真を中心に建築、造園、彫刻、古美術の蒐集など幅広い分野で活動してきた作家です。代表作の〈ジオラマ〉や〈海景〉、〈劇場〉などの写真シリーズでは、人間の知覚や時間、光のあり方を問いかけています。1970年代からニューヨークで古美術商を営み、古美術から得た精神性や直観を自らの創作へと結びつけてきました。ニューヨーク在住で、国内外の主要な美術館に作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroshi-yoshida": {
     "name": "吉田博",
     "nameRomaji": "Hiroshi Yoshida",
     "aliases": [],
-    "nameKana": "よしだひろし"
+    "nameKana": "よしだひろし",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=9890",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroto-tomonaga": {
     "name": "朝長弘人",
     "nameRomaji": "Hiroto Tomonaga",
     "nameKana": "ともながひろと",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kosakukanechika.com/artist/hiroto_tomonaga/",
+    "profileSource": "KOSAKU KANECHIKA",
+    "profile": "朝長弘人は1997年佐賀県生まれの画家で、現在は千葉を拠点に制作しています。眼前のものがふと違って見える瞬間や、前景と背景の間で視覚が移り変わる感覚を捉え、絵の具を重ねたり拭ったりする動作を通して画面に定着させています。自身に近しい対象を扱いながら、物理的・感情的な距離感を考察する姿勢が特徴です。2022年にはFACE2022に入選し、アートアワードトーキョー丸の内で審査員賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroya-hori": {
     "name": "堀浩哉",
     "nameRomaji": "Hiroya Hori",
     "aliases": [],
-    "nameKana": "ほりひろや"
+    "nameKana": "ほりひろや",
+    "profileUrl": "https://mizuma-art.co.jp/artists/hori-kosai/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "堀浩哉は1947年に富山県高岡市で生まれ、東京を拠点に活動する美術家です。1967年に多摩美術大学へ入学し、同年「自己埋葬儀式」というパフォーマンスで活動を始めました。1969年には美術家共闘会議（美共闘）を結成し、その議長も務めています。墨や岩絵具、和紙などを用いて絵画の起源を探りながら、インスタレーションやパフォーマンスも展開してきました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroyuki-matsuura": {
     "name": "松浦浩之",
     "nameRomaji": "Hiroyuki Matsuura",
     "nameKana": "まつうらひろゆき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=3770",
+    "profileSource": "タグボート",
+    "profile": "松浦浩之は1964年に東京都で生まれた作家です。シルクスクリーンや木版画、ソフトビニール製のフィギュア、ピエゾグラフなど、複数の技法や素材を用いて制作しています。作品には「Stray Doggie」「金魚姫」「Windy Bunny Red」など、動物や人物を思わせるキャラクターを扱ったものが並んでいます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hiroyuki-oki": {
     "name": "大木裕之",
@@ -1444,7 +1692,9 @@
     "nameKana": "おおきひろゆき",
     "snsCheckedAt": "2026-10-22",
     "profileUrl": "https://anomalytokyo.com/artist/hiroyuki-ojki/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profile": "1964年東京生まれの大木裕之は、東京大学工学部建築学科在学中に映像制作を始めた作家です。1989年からは北海道松前町を中心とする「松前君」シリーズを手がけ、1990年に《遊泳禁止》で、1996年に《HEAVEN-6-BOX》でそれぞれ映画祭の賞を受けています。映像にとどまらず、ドローイングやペインティング、インスタレーション、身体パフォーマンスなど多様な表現を展開し、世界各地を巡りながら移動・生活・哲学の関係を詩的な映像で描き出しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hisui-sugiura": {
     "name": "杉浦非水",
@@ -1456,7 +1706,11 @@
     "name": "大嶋仁美",
     "nameRomaji": "Hitomi Oshima",
     "nameKana": "おおしまひとみ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/hitomioshima/",
+    "profileSource": "gallery UG",
+    "profile": "大嶋仁美は1983年に栃木県で生まれた日本画家です。多摩美術大学で日本画を学び、2012年に大学院の博士前期課程を修了しました。麻紙に濃縮水性顔料や岩絵具、膠などを用いた作品を制作しており、猫や花、色や光をモチーフにした画面が特徴です。2018年以降、東京や大阪などで個展を重ねています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hitoshi-kaneko": {
     "name": "金子仁司",
@@ -1470,7 +1724,9 @@
     "aliases": [],
     "nameKana": "のむらひとし",
     "profileUrl": "https://www.artcourtgallery.com/artists/nomura/",
-    "profileSource": "アートコートギャラリー"
+    "profileSource": "アートコートギャラリー",
+    "profile": "野村仁は1945年兵庫県生まれで、1967年に京都市立美術大学を卒業しました。1988年から同大学で教え、のちに教授、名誉教授となっています。初期には段ボールやドライアイス、自身の身体などを題材にした写真や映像作品を発表し、1972年頃からは16mmフィルムを用いた作品も手がけました。太陽や宇宙の時間を記録する『太陽』シリーズなど、天体の運動を捉える作品で知られています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "hitoshi-ushijima": {
     "name": "牛嶋均",
@@ -1519,7 +1775,10 @@
     "sns": {
       "instagram": "https://www.instagram.com/ilyaemiliakabakov/"
     },
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=220",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "imaemon-imaizumi": {
     "name": "今泉今右衛門",
@@ -1536,7 +1795,11 @@
     "name": "若林奮",
     "nameRomaji": "Isamu Wakabayashi",
     "aliases": [],
-    "nameKana": "わかばやしいさむ"
+    "nameKana": "わかばやしいさむ",
+    "profileUrl": "https://kenjitaki.com/wakabayashi-i/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "若林奮は1936年に東京都町田市に生まれ、1959年に東京藝術大学美術学部彫刻科を卒業した彫刻家です。1960年代から国内外の展覧会に出品し、1967年に神奈川県立近代美術館賞を受けたほか、1980年と1986年にはヴェネツィア・ビエンナーレに参加しました。1975年から武蔵野美術大学、1999年から多摩美術大学で教授を務め、2003年に亡くなりました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "iseo-nose": {
     "name": "能勢 伊勢雄",
@@ -1550,7 +1813,9 @@
     "aliases": [],
     "nameKana": "はんいしゅう",
     "profileUrl": "https://anomalytokyo.com/artist/ishu-han/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profile": "潘逸舟は1987年に上海で生まれ、東京を拠点に活動する作家です。幼い頃に上海から青森へ移り住んだ経験を自身の視点の土台にし、映像、パフォーマンス、インスタレーション、写真などを用いて、共同体や個人のあいだにある同一性と他者性を探っています。日常の風景に自らの身体を介入させ、社会と個の関係に生じる疑問や戸惑いを、真摯に、ときにユーモアを交えて表現しています。2020年に日産アートアワード2020のグランプリを受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "issey-miyake": {
     "name": "ISSEY MIYAKE",
@@ -1585,7 +1850,11 @@
     "nameRomaji": "James Turrell",
     "aliases": [],
     "website": "https://jamesturrell.com/",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://www.pacegallery.com/artists/james-turrell/",
+    "profileSource": "Pace Gallery Tokyo",
+    "profile": "ジェームズ・タレルは1943年にロサンゼルスで生まれた作家で、光の物質性を探る知覚芸術を主な実践としています。初期のプロジェクションピースから出発し、スカイスペースやガンツフェルト、アリゾナ州の火山丘を用いたロデン・クレーター計画へと活動を広げました。カリフォルニア大学アーバイン校で大学院に学んだ後、制作に専念し、ライト・アンド・スペース運動の中心的な存在となりました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "jan-van-scorel": {
     "name": "ヤン・ファン・スコーレル",
@@ -1601,7 +1870,10 @@
   "jean-baptiste-camille-corot": {
     "name": "コロー",
     "nameRomaji": "Jean-Baptiste-Camille Corot",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/c_corot.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "jean-francois-millet": {
     "name": "ジャン=フランソワ・ミレー",
@@ -1631,20 +1903,32 @@
       "instagram": "https://www.instagram.com/jimmy_onishi_art/",
       "x": "https://x.com/JimmyOnishi_ART"
     },
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profile": "お笑い芸人として活動していたジミー大西さんは、1992年にテレビ番組の企画をきっかけに本格的に絵を描き始めました。憧れの岡本太郎さんから、キャンバスの枠を気にせず描けばよいという言葉を受け、画家を志したとされています。芸人を辞めてスペインに移住したのち、世界各地を放浪し、各地の街や人、動物などから影響を受けた作品を制作してきました。その場所で暮らしているつもりで描くという姿勢が、創作の特徴として紹介されています。",
+    "profileUrl": "https://jimmy-onishi.art/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "jiro-yoshihara": {
     "name": "吉原治良",
     "nameRomaji": "Jiro Yoshihara",
     "aliases": [],
     "nameKana": "よしはらじろう",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=11360",
+    "profileSource": "タグボート",
+    "profile": "吉原治良は1905年に大阪で生まれた作家です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "joel-andrianomearisoa": {
     "name": "ジョエル・アンドリアノメアリソア",
     "nameRomaji": "Joël Andrianomearisoa",
     "nameKana": "じょえるあんどりあのめありそあ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://standingpine.jp/artists/18",
+    "profileSource": "STANDING PINE",
+    "profile": "マダガスカルのアンタナナリボに1977年に生まれ、現在はパリとアンタナナリボを拠点に活動している作家です。ファッション、デザイン、映像、写真、舞台美術、建築など多様な分野での経験を生かし、テキスタイルや紙、鉱物など時に意外な素材を用いて作品を制作しています。言葉では捉えにくい人間の抽象的で曖昧な感情や物語を呼び起こす表現が特徴です。2016年にはArco MadridでAudemars Piguet Prizeを受賞し、ヴェネツィア・ビエンナーレなど国際展で発表を重ねています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "josaku-maeda": {
     "name": "前田常作",
@@ -1680,13 +1964,21 @@
   "jun-nguyen-hatsushiba": {
     "name": "ジュン・グエン=ハツシバ",
     "nameRomaji": "Jun Nguyen-Hatsushiba",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://mizuma-art.co.jp/artists/jun-nguyen-hatsushiba/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "ジュン・グエン＝ハツシバは、1968年に東京で生まれ、現在はホーチミンとヒューストンを拠点とする作家です。シカゴ・スクール・オブ・アート・インスティチュートで学び、メリーランド・インスティチュートで修士課程を修了しました。ベトナム戦争の記憶や移動、水や自然と人間の関係などを、映像やインスタレーションを通して探求しています。ヨコハマトリエンナーレ2011での発表や、ポンピドゥーセンター、グッゲンハイム美術館などへの作品収蔵が知られています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "junko-asano": {
     "name": "アサノジュンコ",
     "nameRomaji": "Junko Asano",
     "nameKana": "あさのじゅんこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/junkoasano/",
+    "profileSource": "gallery UG",
+    "profile": "1974年に神奈川県で生まれ、日本デザイン専門学校を卒業した画家です。アクリル絵具を主な素材とし、日常の何気ない風景から生まれる幻影や、動物たちがのびやかに共存する姿を描いています。懐かしさを感じさせる温かな雰囲気が特徴で、見る人が作品の先の物語を自由に想像できるような余白を大切にしています。国内外で多くの個展を重ね、台北などのアートフェアにも数多く出品しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "junko-maruyama": {
     "name": "丸山純子",
@@ -1701,7 +1993,11 @@
     "nameKana": "つじかあい",
     "aliases": [
       "Kaai Tsuji"
-    ]
+    ],
+    "profileUrl": "https://tsca.jp/ja/artist/kaai-tsuji/",
+    "profileSource": "Takuro Someya Contemporary Art",
+    "profile": "辻可愛は1982年に長崎で生まれ、東京を拠点に活動している作家です。2006年に東京工芸大学芸術学部デザイン学科を卒業し、2009年から2012年まで四谷アート・ステュディウムで学びました。アクリルを用いて画布や紙に描いた作品を発表しており、2013年以降、東京を中心に個展を重ねています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kagaku-murakami": {
     "name": "村上華岳",
@@ -1739,7 +2035,11 @@
     "name": "安田侃",
     "nameRomaji": "Kan Yasuda",
     "nameKana": "やすだかん",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://shugoarts.com/artists/kan-yasuda",
+    "profileSource": "シュウゴアーツ",
+    "profile": "北海道美唄市出身の彫刻家で、1970年にイタリアへ渡り、北イタリアのピエトラサンタを拠点に制作を続けています。大理石とブロンズを素材とし、量感がありながらも滑らかで重力を感じさせないフォルムが特徴です。ヨーロッパを中心に世界各地で個展を重ね、多くの公共空間にモニュメントが恒久設置されています。1994年の国際彫刻展賞や2025年のイサム・ノグチ賞などを受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kana-mitsunari": {
     "name": "三成花奈｜Kana Mitsunari",
@@ -1822,7 +2122,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/karlfritschrings/"
     },
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileCheckedAt": "2026-11-18"
   },
   "katsuhisa-sato": {
     "name": "佐藤克久",
@@ -1848,13 +2149,19 @@
     "aliases": [],
     "nameKana": "みずのかつのり",
     "profileUrl": "https://www.artcourtgallery.com/artists/mizuno/",
-    "profileSource": "アートコートギャラリー"
+    "profileSource": "アートコートギャラリー",
+    "profile": "水野勝規は1982年に三重県で生まれ、名古屋造形芸術大学と京都市立芸術大学大学院で美術を学んだ作家です。映像作品を中心に制作しており、個展やグループ展、映像作品の上映会などで継続的に作品を発表しています。2021年には茨木映像芸術祭で作品が入選し準グランプリを受賞しました。京都市立芸術大学大学院の修了時には、作品が大学院市長賞を受けて買い上げられています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "katsura-funakoshi": {
     "name": "舟越桂",
     "nameRomaji": "Katsura Funakoshi",
     "aliases": [],
-    "nameKana": "ふなこしかつら"
+    "nameKana": "ふなこしかつら",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1340",
+    "profileSource": "タグボート",
+    "profile": "岩手県生まれの彫刻家で、観音像を思わせる神秘的で繊細な表情をもつ木彫の半身像で知られています。大理石の玉眼がもつ澄んだ眼差しは、見る人に郷愁を感じさせ、強く引き込む力があるとされています。彫刻に加えて、デッサンや版画にも1987年頃から積極的に取り組み、リトグラフや木版などさまざまな技法に挑戦してきました。1988年のベネチアビエンナーレや1992年のドクメンタⅨなど、海外の大規模展にも出品しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "katsushika-hokusai": {
     "name": "葛飾北斎",
@@ -1916,7 +2223,9 @@
     "aliases": [],
     "nameKana": "しらがかずお",
     "profileUrl": "https://fergusmccaffrey.com/artist/kazuo-shiraga/",
-    "profileSource": "Fergus McCaffrey Tokyo"
+    "profileSource": "Fergus McCaffrey Tokyo",
+    "profile": "1924年に兵庫県尼崎市に生まれ、1952年に村上三郎や金山明らと零会を結成しました。1955年には具体美術協会に加わり、泥のなかで格闘する作品や、斧で木材を割る作品など、絵画の枠を超えた「パフォーマンス絵画」を発表しました。天井から吊るしたロープにつかまり、足で油絵具をすべらせて描く独自の足技の画法が特徴で、力強く激しいエネルギーを感じさせる作風で知られています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kazuya-takamitsu": {
     "name": "高光一也",
@@ -1928,14 +2237,22 @@
     "name": "田島 圭",
     "nameRomaji": "Kei Tajima",
     "nameKana": "たじまけい",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kenjitaki.com/%e7%94%b0%e5%b3%b6-%e5%9c%ad%e3%80%80kei-tajima/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "田島圭は1978年愛知県生まれの作家で、2005年に名古屋造形芸術大学大学院を修了しています。絵の具やマスキングテープ、ロール状のキャンバスなどを用い、《ロールペインティング》や《スタッキングペインティング》といった作品を通して、絵画の平面性とは何かを問いかけています。「描く」ことにこだわりながら独自の理論をもとに絵画的空間を生み出しており、《自然数を引く》では規則に従った線の反復から生まれる差異に目を向けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kei-takemura": {
     "name": "竹村京",
     "nameRomaji": "Kei Takemura",
     "aliases": [],
     "nameKana": "たけむらけい",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.takaishiigallery.com/jp/archives/4171/",
+    "profileSource": "タカ・イシイギャラリー",
+    "profile": "1975年東京生まれの竹村京は、写真やドローイングの上に刺繍を施した布を重ねる平面的なインスタレーションを発表しています。刺繍によって、既に失われたものや記憶の断片をより具体的な存在へと立ち上げようとしている点が特徴です。壊れた食器を縫い直す「修復シリーズ」では、傷口を白く光る絹糸で縫い、新たな美しさとして蘇らせています。国内外で個展やグループ展を重ね、横浜トリエンナーレ2020などに参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "keigetsu-kikuchi": {
     "name": "菊池契月",
@@ -1977,7 +2294,11 @@
     "sns": {
       "x": "https://x.com/trapro2017"
     },
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profile": "漫画家の竹宮惠子は、少年同士の愛を描いた『風と木の詩』や、本格ファンタジーの『イズァローン伝説』、SFファンタジーの『私を月まで連れてって！』などで知られています。代表作『地球へ…』は二度アニメ化され、永久愛蔵版も刊行されました。2020年には京都精華大学での最終講義が配信され、東京アニメアワード2026ではアニメ功労賞部門で顕彰を受けています。",
+    "profileUrl": "https://k-takemiya.jp/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "keisen-tomita": {
     "name": "冨田溪仙",
@@ -1998,7 +2319,9 @@
     "nameKana": "かつきけいすけ",
     "aliases": [],
     "profileUrl": "https://eukaryote.jp/artist/keisuke_katsuki/",
-    "profileSource": "ユーカリオ"
+    "profileSource": "ユーカリオ",
+    "profile": "香月恵介は1991年に福岡県で生まれ、東京造形大学の絵画専攻で学び、大学院まで修了した作家です。個展「Angels」「Noumena」などを東京で重ねており、グループ展では「造形思考１－現在の手ざわり－」や群馬青年ビエンナーレ2021にも出品しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "keitetsu-murai": {
     "name": "村井 啓哲",
@@ -2029,7 +2352,10 @@
     "name": "Kengo Kito",
     "nameRomaji": "Kengo Kito",
     "nameKana": "きとうけんご",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=11020",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "kenji-kohiyama": {
     "name": "小檜山賢二",
@@ -2048,7 +2374,9 @@
     },
     "snsCheckedAt": "2026-10-21",
     "profileUrl": "https://anomalytokyo.com/artist/kenji-yanobe/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profile": "1965年大阪府生まれで、大阪在住の作家です。京都市立芸術大学大学院を修了し、1990年代初頭から「現代社会におけるサヴァイヴァル」をテーマに、実際に機能する大型の機械彫刻を制作してきました。大阪万博の跡地で幼少期を過ごした体験が創作の原点とされています。1997年からは放射線感知服「アトムスーツ」を身につけてチェルノブイリを訪れる《アトムスーツ・プロジェクト》を手がけ、2011年の震災後は希望のモニュメント「サン・チャイルド」を各地に巡回させています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kenjiro-okazaki": {
     "name": "岡﨑乾二郎",
@@ -2056,7 +2384,11 @@
     "nameKana": "おかざきけんじろう",
     "aliases": [
       "Kenjiro Okazaki"
-    ]
+    ],
+    "profileUrl": "https://www.pacegallery.com/artists/kenjiro-okazaki/",
+    "profileSource": "Pace Gallery Tokyo",
+    "profile": "岡﨑乾二郎は1955年東京生まれの美術家で、絵画、彫刻、ロボティクス、衣装・美術デザイン、建築など幅広い領域で活動しています。形を軸に、時間や空間、人間の経験をポストモダニズムの視点から探ってきました。批評家としても知られ、抽象芸術の再定義に取り組んだ著作『抽象芸術は衝撃である』では文部科学大臣賞を受けています。作品は東京都現代美術館やベネッセアートサイト直島など国内外の主要なコレクションに収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kenkichi-tomimoto": {
     "name": "富本憲吉",
@@ -2069,7 +2401,11 @@
     "nameRomaji": "Kenshichi Heshiki",
     "aliases": [],
     "nameKana": "へしきけんしち",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://thethirdgalleryaya.com/artists/heshiki-kenshichi/",
+    "profileSource": "The Third Gallery Aya",
+    "profile": "沖縄県今帰仁村に生まれ、沖縄工業高校デザイン科を卒業後、東京綜合写真専門学校で写真を学びました。1969年に『週刊ポスト』で「祖国復帰を拒否する女達」を発表し、故郷沖縄の人々や風景を記録する仕事を続けました。写真集『山羊の肺 沖縄一九六八─二〇〇五年』で2008年に第33回伊奈信男賞を受けています。2009年に61歳で亡くなりました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kenshin-yamashiro": {
     "name": "山城見信",
@@ -2082,7 +2418,11 @@
     "name": "朝倉健太/Kenta Asakura",
     "nameRomaji": "Kenta Asakura",
     "nameKana": "あさくらけんた",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1010220",
+    "profileSource": "タグボート",
+    "profile": "朝倉健太は2001年に福岡県で生まれた作家です。幼少期から声楽やダンス、演劇などを学び、俳優としても活動していました。2022年から本格的に絵画制作を始め、「怠惰」と「初期衝動」をテーマに作品を発表しています。アクリル絵の具やパステル、鉛筆などを重ねたキャンバス作品が中心です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kenta-ishige": {
     "name": "石毛健太",
@@ -2095,7 +2435,11 @@
     "name": "横内 賢太郎",
     "nameRomaji": "Kentaro Yokouchi",
     "nameKana": "よこうちけんたろう",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kenjitaki.com/yokouchi-k/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "横内賢太郎は1979年千葉県生まれの作家です。武蔵野美術大学と京都市立芸術大学大学院で学び、2008年にVOCA賞を受賞しました。2014年からインドネシアのジョクジャカルタを拠点に活動し、現在は日本とインドネシアで制作を続けています。サテン布や染料、胡粉、メディウムを用いた平面作品を発表しており、その表現は多くの展覧会で紹介されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kenzo-itani": {
     "name": "伊谷賢蔵",
@@ -2138,7 +2482,11 @@
     "name": "菅木志雄",
     "nameRomaji": "Kishio Suga",
     "nameKana": "すがきしお",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1000880",
+    "profileSource": "タグボート",
+    "profile": "菅木志雄は、1960年代末から70年代にかけて日本で活動した「もの派」を代表する作家のひとりです。木材や石、金属片、ガラス板などの素材を空間に配置し、融和させたり対峙させたりしながら作品を構成してきました。ものを単独で置くのではなく、「もの」と「場」、「もの」同士の連関性や差異、複雑性を引き出すことで、展示空間そのものを活性化させている点が特徴です。70年代以降も独自の制作を一貫して続け、近年は再び注目を集めています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kitagawa-utamaro": {
     "name": "喜多川歌麿",
@@ -2211,7 +2559,9 @@
     "nameKana": "こばやしこうへい",
     "aliases": [],
     "profileUrl": "https://anomalytokyo.com/artist/kohei-kobayashi/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profile": "1974年東京生まれで、埼玉県を拠点に活動している作家です。初期はモノクロの映像作品から出発し、2000年代後半からは空間に置くオブジェクトや日用品、自身が出演する映像へと表現を広げてきました。身体と方向の感覚を手がかりに、モノや出来事の関係性と、その認識のずれを問い直す作品が特徴です。主な個展に「テレポーテーション」（黒部市美術館、2022）や「ゾ・ン・ビ・タ・ウ・ン」（ANOMALY、2019）などがあります。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kohei-nawa": {
     "name": "名和 晃平",
@@ -2221,7 +2571,11 @@
       "Kohei Nawa"
     ],
     "website": "https://kohei-nawa.net/",
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://www.pacegallery.com/artists/kohei-nawa/",
+    "profileSource": "Pace Gallery Tokyo",
+    "profile": "名和晃平は1975年大阪生まれの現代美術家で、物質と仮想空間、自然と人工の境界に関心を向けて作品を制作しています。ポリウレタンフォームや透明なビーズ、シリコーンオイルといった合成素材を用い、細胞のように要素が集まって複雑な構造をつくる様子を通して、メディアに囲まれた私たちの環境への意識を促します。彫刻の概念を広く捉え、没入的な知覚環境をつくる作品で知られ、京都市立芸術大学で学位を取得した後、ルーブル美術館での作品発表や各国の美術館での収蔵などで活動の幅を広げています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kohei-nishigata": {
     "name": "西潟浩平",
@@ -2234,7 +2588,11 @@
     "name": "山田康平",
     "nameRomaji": "Kohei Yamada",
     "nameKana": "やまだこうへい",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.takaishiigallery.com/jp/archives/31439/",
+    "profileSource": "タカ・イシイギャラリー",
+    "profile": "山田康平は1997年大阪府生まれの画家で、現在は東京を拠点に活動しています。武蔵野美術大学油絵学科を卒業後、京都芸術大学大学院で油画を修了しました。キャンバスや紙にオイルを染み込ませ、黒い線を起点に黄色や鮮やかな色で画面を覆い、何層ものレイヤーを重ねることで作品特有の奥行きを生み出す点が特徴です。国内外で個展やグループ展を重ね、高橋龍太郎コレクションや群馬県立近代美術館などの展覧会にも参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "koichi-takeuchi": {
     "name": "竹内浩一",
@@ -2248,13 +2606,21 @@
     "nameRomaji": "Koichiro Wakamatsu",
     "aliases": [],
     "nameKana": "わかまつこういちろう",
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://root-k.jp/artists/koichirowakamatsu/",
+    "profileSource": "√K Contemporary",
+    "profile": "1914年福島県いわき市生まれのコラージュ作家で、東京美術学校で藤島武二に学びました。池袋モンパルナスで制作活動を行い、終戦前に広島県宇品で被爆した経験は、その後の沈黙をはらんだ制作に影響を与えたとされています。1983年には第1回地域文化功労者文部大臣賞を受賞し、東京国立近代美術館や福島県立美術館などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "koji-kamoji": {
     "name": "鴨治晃次",
     "nameRomaji": "Koji Kamoji",
     "nameKana": "かもじこうじ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.takeninagawa.com/artists/14866/",
+    "profileSource": "Take Ninagawa",
+    "profile": "1935年に東京で生まれ、現在はワルシャワに住む作家です。武蔵野美術大学油絵学科を卒業後、ワルシャワ美術アカデミーで絵画を学び修士課程を修了しました。1960年代末から個展を重ね、ワルシャワやクラクフ、マクデブルクなどで発表を続けています。近年はワタリウム美術館での個展も開かれ、日本とポーランドを行き来する活動が紹介されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "koji-sagawa": {
     "name": "佐川晃司",
@@ -2267,7 +2633,11 @@
     "name": "棚田康司",
     "nameRomaji": "Koji Tanada",
     "nameKana": "たなだこうじ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://mizuma-art.co.jp/artists/tanada-koji/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "棚田康司は、1968年兵庫県明石市生まれの彫刻家です。東京造形大学と東京藝術大学大学院で彫刻を学び、樟材を一木造りで彫り、彩色や金箔を施した人物像を多く制作しています。少女や少年、女性のトルソなど、人の姿をかたどった作品が中心です。平櫛田中賞や岡本太郎記念現代芸術大賞の特別賞などを受賞し、東京都現代美術館や兵庫県立美術館などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "koji-yamaguchi": {
     "name": "山口幸士 | Koji Yamaguchi",
@@ -2298,7 +2668,11 @@
     "name": "田中功起",
     "nameRomaji": "Koki Tanaka",
     "nameKana": "たなかこうき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=3930",
+    "profileSource": "タグボート",
+    "profile": "田中功起は1975年に栃木県で生まれた作家です。作品はミクストメディアの形式で制作され、作品集やDVD、C-Printなどを組み合わせた表現が見られます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kondaba": {
     "name": "kondaba",
@@ -2317,7 +2691,11 @@
     "name": "KOTOKO",
     "nameRomaji": "KOTOKO",
     "nameKana": "ことこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1010040",
+    "profileSource": "タグボート",
+    "profile": "KOTOKOは2001年兵庫県生まれで、現在は東京を拠点に活動している作家です。現実を少しずらした世界を、ユーモラスでとぼけたタッチで描くのが特徴です。母や叔母が持っていた昭和の漫画に影響を受け、人間の滑稽さや冷たさが同居する情景をモチーフにしています。主にアクリルガッシュやマーカーを用い、鮮やかな色彩で伸びやかに制作し、キャンバスのほか布やイラストボードなど素材を問わず作品を手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kozo-takeuchi": {
     "name": "竹内紘三",
@@ -2342,7 +2720,11 @@
     "nameRomaji": "Kumi Machida",
     "nameKana": "まちだくみ",
     "aliases": [],
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1520",
+    "profileSource": "タグボート",
+    "profile": "町田久美は1970年に群馬県で生まれた作家です。和紙や墨、胡粉、岩絵具といった日本画の素材と技法を用いながら、従来の枠にとらわれない自由な表現を展開しています。大胆な余白に太く迷いのない線で描かれた、ポップでシュールなキャラクターが特徴で、どこかユーモラスでありながら、時にシニカルに現代社会の内面をあぶり出します。自意識の葛藤や他者とのコミュニケーションに潜む不安といった、捉えどころのない感覚を示唆的に表している点も魅力です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kumi-sugai": {
     "name": "菅井汲",
@@ -2355,7 +2737,11 @@
     "name": "野原邦彦",
     "nameRomaji": "Kunihiko Nohara",
     "nameKana": "のはらくにひこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/noharakunihiko/",
+    "profileSource": "gallery UG",
+    "profile": "1982年北海道生まれの彫刻家で、2007年に広島市立大学大学院で彫刻を修了しています。周囲から独立して時空の違う場所にいるような感覚を、雲や煙のように形を変えていく時間として捉え、自分が感じた様々な場面を作品に残しています。現代で失われつつある自由や時間、欲望をテーマにしており、主に樟を用いてアクリル絵具で彩色した作品が見られます。作品は広島市立大学芸術資料館などに収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kunihiko-sasaki": {
     "name": "佐々木邦彦",
@@ -2401,7 +2787,11 @@
     "name": "新藤杏子",
     "nameRomaji": "Kyoko Shindo",
     "nameKana": "しんどうきょうこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=9530",
+    "profileSource": "タグボート",
+    "profile": "1982年生まれの作家で、想像上の「いきもの」をモチーフに作品を制作しています。土の中の微生物や栄養分によって育ち、土に還っていく生命の循環を描き、その中に人が生きていることを表そうとしています。小説、マンガ、おとぎ話などの日本のサブカルチャーや自身の体験を素材に、現代における人とのかかわりや混沌とした思考を表現しています。シェル賞入選や、GEISAI TAIWAN #2、Young Artist Japan 2011での審査員特別賞などの受賞歴があり、近年は平面にとどまらず様々な媒体で作品を手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "kyoko-yasuhara": {
     "name": "安原杏子",
@@ -2413,14 +2803,19 @@
     "name": "相原求一朗",
     "nameRomaji": "Kyuichiro Aihara",
     "aliases": [],
-    "nameKana": "あいはらきゅういちろう"
+    "nameKana": "あいはらきゅういちろう",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/kyuichiro_aihara.html",
+    "profileSource": "日動画廊",
+    "profile": "相原求一朗は、1918年に埼玉県川越町（現・川越市）に生まれた画家です。独学で油彩を学び、1948年からは猪熊弦一郎に師事しました。1950年に新制作協会に初入選し、1963年には同展で新作家賞を受けています。1968年に新制作協会の会員となり、1999年に81歳で亡くなりました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "leandro-erlich": {
     "name": "レアンドロ・エルリッヒ",
     "nameRomaji": "Leandro Erlich",
     "aliases": [],
     "website": "https://www.leandroerlich.com.ar/",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "leiji-matsumoto": {
     "name": "松本零士",
@@ -2431,7 +2826,11 @@
     "sns": {
       "x": "https://x.com/leijisha"
     },
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profile": "1938年に福岡県久留米市で生まれ、小倉で育った漫画家です。9歳の頃に手塚治虫の作品に出会って漫画を描き始め、15歳で投稿作が新人王を受賞して商業誌デビューを果たしました。少女漫画誌から青年誌へ執筆の場を広げ、『男おいどん』や『宇宙戦艦ヤマト』『銀河鉄道999』などの作品でSF漫画の人気を築きました。",
+    "profileUrl": "https://leijisha.jp/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "leonardo-da-vinci": {
     "name": "レオナルド・ダ・ヴィンチ",
@@ -2447,7 +2846,10 @@
     "sns": {
       "instagram": "https://www.instagram.com/liekoshiga_studio/"
     },
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1005850",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "liisa": {
     "name": "Liisa",
@@ -2471,7 +2873,11 @@
     "name": "LOOTone",
     "nameRomaji": "LOOTone",
     "nameKana": "るーとーん",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.galeriechene.com/jp/artists/lootone.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "LOOToneは、アクリルやスプレーを用いて、ポップカルチャーの人物や動物、日常的なモチーフを描く作家です。BobMarleyやDavid Bowieといった音楽家、猫や牛などの動物を題材にした作品が並び、軽やかさと遊び心のある画面が特徴です。作品の多くはパネルやキャンバスにアクリルで描かれ、スプレーを併用した作品もあります。",
+    "profileCheckedAt": "2026-11-18"
   },
   "lucas-arruda": {
     "name": "ルーカス・アルーダ",
@@ -2512,7 +2918,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/luoyangggg/"
     },
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileCheckedAt": "2026-11-18"
   },
   "maeda-kinpu": {
     "name": "前田錦楓",
@@ -2536,7 +2943,11 @@
     "name": "山下麻衣＋小林直人",
     "nameRomaji": "Mai Yamashita + Naoto Kobayashi",
     "nameKana": "やましたまいこばやしなおと",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://tsca.jp/ja/artist/mai-yamashita-naoto-kobayashi/",
+    "profileSource": "Takuro Someya Contemporary Art",
+    "profile": "山下麻衣と小林直人は、ともに1974年と1976年に千葉で生まれ、東京芸術大学で油画を学んだ後、ベルリン芸術大学で研究生として過ごした作家です。映像作品を中心に制作し、山や海、動物といった自然のモチーフを、模型や彫刻、インスタレーションと組み合わせて展開しています。国内外の映画祭やビデオアートの展覧会で紹介されてきたほか、ヨコハマトリエンナーレ2011などの大型展にも参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "maija-isola": {
     "name": "マイヤ・イソラ",
@@ -2562,13 +2973,21 @@
     "aliases": [],
     "nameKana": "いでみつまこ",
     "website": "https://makoidemitsu.com",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profile": "出光真子は、1970年代から映像作品を手がけてきた女性のメディア・アーティストです。16ミリフィルムやビデオを用いた作品が中心で、家事や母親としての役割、女性の日常をテーマにした表現が特徴です。代表作の『主婦の１日』や『加恵、女の子でしょ！』は、国内外の展覧会や上映会で繰り返し紹介されています。近年は『フェミニズムと映像表現』などの展覧会にも作品が出品されています。",
+    "profileUrl": "https://makoidemitsu.com",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "makoto-ito": {
     "name": "伊藤誠",
     "nameRomaji": "Makoto Ito",
     "nameKana": "いとうまこと",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://makifinearts.com/artists/makoto_ito/",
+    "profileSource": "マキファインアーツ",
+    "profile": "1955年愛知県生まれの彫刻家で、1983年に武蔵野美術大学大学院造形研究科彫刻コースを修了しています。鉄、FRP、紙、木など様々な素材を用いた立体作品を手がけ、油彩や画鋲などを組み合わせた作品も見られます。作品は、フォーマルでありながら軽やかでユーモアがあると評されています。1980年代の初個展以来、東京、大阪、愛知などで個展を重ね、東京都現代美術館や愛知県美術館などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "mami-mori": {
     "name": "毛利眞美",
@@ -2582,7 +3001,11 @@
     "nameKana": "まんれい",
     "aliases": [
       "Man Ray"
-    ]
+    ],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=11570",
+    "profileSource": "タグボート",
+    "profile": "マン・レイは1890年にアメリカのフィラデルフィアで、ロシア系ユダヤ人の家庭に生まれた作家です。経歴や作風についての詳しい記述は限られていますが、写真とエッチングという複数の技法で制作した人物であることがうかがえます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "marc-chagall": {
     "name": "マルク・シャガール",
@@ -2606,13 +3029,18 @@
     "nameRomaji": "Mari Ishikawa",
     "aliases": [],
     "website": "https://www.mari-ishikawa.de",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileCheckedAt": "2026-11-18"
   },
   "mari-kaseya": {
     "name": "加瀬谷真理",
     "nameRomaji": "Mari Kaseya",
     "nameKana": "かせやまり",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.galeriechene.com/jp/artists/kasegai.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "加瀬谷真理は、競走馬を主題に油彩で描く作家です。イクイノックスやコントレイル、オルフェーヴルなど名馬の肖像を数多く手がけており、ゴール直後の風景や放牧地での疾走など、馬の姿とその場の空気を捉えた作品が見られます。コントレイルは8作目、オルフェーヴルは3作目と、同じ馬を繰り返し描いている点も特徴です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "mari-katayama": {
     "name": "片山真理",
@@ -2621,13 +3049,21 @@
       "片山真里"
     ],
     "nameKana": "かたやままり",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.yutakakikutakegallery.com/ja/artists/mari-katayama/",
+    "profileSource": "ユタカキクタケギャラリー",
+    "profile": "片山真理は、義足を身につけた自身の姿を被写体にしたセルフポートレートで知られる写真家です。作品には、身体や美の概念への問いかけが感じられ、「tree of life」や「caryatid」といったシリーズ名が並んでいます。使用している技法はC-printで、近年の作品も継続して発表されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "maria-farrar": {
     "name": "マリア・ファーラ",
     "nameRomaji": "Maria Farrar",
     "aliases": [],
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileUrl": "https://www.otafinearts.com/artists/31-maria-farrar/",
+    "profileSource": "オオタファインアーツ",
+    "profile": "マリア・ファーラは1988年にフィリピンで生まれ、15歳までを日本の下関で過ごした後、ロンドンに移り住んで制作を続けている画家です。日常の場面や記憶の断片を、リネンに油彩で描きます。太く力強い輪郭線には東アジアの書の筆致が感じられ、日本で育った経験が作品の特徴として現れています。ロンドンのラスキン・スクール・オブ・アートとスレイド美術学校で学んでいます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "marianne-brandt": {
     "name": "マリアンネ・ブラント",
@@ -2639,7 +3075,10 @@
     "nameRomaji": "Mariko Mori",
     "aliases": [],
     "nameKana": "もりまりこ",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.scaithebathhouse.com/ja/artists/mariko_mori/",
+    "profileSource": "SCAI THE BATHHOUSE",
+    "profileCheckedAt": "2026-11-18"
   },
   "marino-marini": {
     "name": "マリノ・マリーニ",
@@ -2657,7 +3096,11 @@
     "name": "蛯子真理央",
     "nameRomaji": "Mario Ebiko",
     "nameKana": "えびこまりお",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/mario_ebiko.html",
+    "profileSource": "日動画廊",
+    "profile": "1969年に東京で生まれた画家で、武蔵野美術大学油絵学科を卒業しています。1989年以降、フランスやモロッコへ繰り返し制作旅行をしており、パリやエッフェル塔、ノートルダム、マラケシュの街角などを題材にした作品が並びます。2001年に第37回昭和会展で優秀賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "marisol": {
     "name": "マリソル",
@@ -2689,7 +3132,11 @@
     "name": "鈴木雅明",
     "nameRomaji": "Masaaki Suzuki",
     "nameKana": "すずきまさあき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tezukayama-g.com/artist/masaaki_suzuki",
+    "profileSource": "帝塚山画廊",
+    "profile": "鈴木雅明は1981年愛知県生まれの画家です。2004年に名古屋造形芸術大学洋画コースを卒業し、2008年に愛知県立芸術大学大学院美術研究科油画専攻を修了しました。「人工の光」をテーマに、実際に目にした風景をキャンバスに描き起こしています。見慣れた日常の光景が、作家の筆致や心情を通して新たな情景として立ち上がる作品が特徴です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "masafumi-kato": {
     "name": "加藤真史",
@@ -2713,7 +3160,11 @@
     "name": "岩井優",
     "nameRomaji": "Masaru Iwai",
     "nameKana": "いわいまさる",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://tsca.jp/ja/artist/masaru-iwai/",
+    "profileSource": "Takuro Someya Contemporary Art",
+    "profile": "岩井優は1975年京都府出身の作家で、東京藝術大学大学院美術研究科の後期博士課程を修了し、博士（美術）の学位を持っています。洗浄や掃除、食事、排泄といった日常の反復行為を題材に、映像や写真、インスタレーションなどで制作しています。《Galaxy Wash》や《Polishing Housing》などの作品では、社会の秩序と汚れや雑音の関係を浮かび上がらせることを試みています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "masayasu-mitsuke": {
     "name": "見附正康",
@@ -2721,7 +3172,11 @@
     "aliases": [
       "Masayasu Mitsuke"
     ],
-    "nameKana": "みつけまさやす"
+    "nameKana": "みつけまさやす",
+    "profileUrl": "https://www.otafinearts.com/artists/32-masayasu-mitsuke/",
+    "profileSource": "オオタファインアーツ",
+    "profile": "見附正康は1975年に石川県加賀市に生まれ、現在も同地を拠点としています。石川県立九谷焼技術研修所を修了後、九谷の名手福島武山に師事し、陶磁器に赤絵を描く伝統技法を身につけました。人物や花鳥を伝統的な赤絵の様式で描きながら、繊細な線描による独自の文様を展開し、古くから伝わる与楽や七宝文などを用いて大皿でも新しい全体像を生み出しています。2014年にパラミタ陶芸大賞でグランプリを受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "masayoshi-sukita": {
     "name": "鋤田正義",
@@ -2729,7 +3184,10 @@
     "aliases": [],
     "nameKana": "すきたまさよし",
     "website": "http://sukita.jp/",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1007490",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "masayoshi-tokonami": {
     "name": "床次正精",
@@ -2754,7 +3212,11 @@
   "maurice-utrillo": {
     "name": "ユトリロ",
     "nameRomaji": "Maurice Utrillo",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/m_utrillo.html",
+    "profileSource": "日動画廊",
+    "profile": "パリに生まれたユトリロは、画家シュザンヌ・ヴァラドンを母に持ち、1904年に療養先の病院で医師の勧めから絵を描きはじめました。初期は印象派の影響を受けてパリの街並みを描き、糊や砂を混ぜた石灰やセメントで独自のマチエールを生み出しました。1910年頃からの白の時代、1920年頃からの色彩の時代と作風を展開させ、白く塗り込めた壁面が印象的な街角の風景を多く残しています。1928年にはレジオン・ドヌール勲章シュヴァリエ章を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "max-klinger": {
     "name": "クリンガー",
@@ -2769,7 +3231,9 @@
     "website": "https://mayukoinui.com",
     "snsCheckedAt": "2026-10-24",
     "profileUrl": "https://eukaryote.jp/artist/mayuko_inui/",
-    "profileSource": "ユーカリオ"
+    "profileSource": "ユーカリオ",
+    "profile": "乾真裕子さんは1997年に大阪府で生まれた作家で、2020年に東京藝術大学美術学部先端芸術表現科を卒業し、2023年に同大学院を修了しています。2021年にはフィンランドのアアルト大学に留学しました。2023年の個展「玉繭」や2024年の個展「ほつれゆれわれ」をはじめ、国内外のグループ展で作品を発表しており、2025年には群馬青年ビエンナーレ2025で奨励賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "mayumi-terada": {
     "name": "寺田真由美",
@@ -2796,7 +3260,11 @@
     "aliases": [],
     "nameKana": "こいずみめいろう",
     "website": "https://www.meirokoizumi.com/",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.mujin-to.com/artist/koizumi/",
+    "profileSource": "無人島プロダクション",
+    "profile": "小泉明郎は1976年群馬県生まれで、現在は横浜市を拠点に活動している作家です。国際基督教大学で学んだ後、ロンドン芸術大学チェルシー・カレッジ・オブ・アート・アンド・デザインで美術学士号を取得し、2005年からアムステルダムのライクスアカデミーにも在籍しました。国内外で個展やグループ展を重ねており、2015年の「Don’t Follow the Wind」では東京電力福島第一原子力発電所事故による帰還困難区域を舞台に作品を発表しています。作品は森美術館や東京都現代美術館、テート・モダンなど多くの美術館に収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "meret-oppenheim": {
     "name": "メレット・オッペンハイム",
@@ -2821,7 +3289,11 @@
     "name": "福岡道雄",
     "nameRomaji": "Michio Fukuoka",
     "aliases": [],
-    "nameKana": "ふくおかみちお"
+    "nameKana": "ふくおかみちお",
+    "profileUrl": "https://gyfa.co.jp/artist/michio-fukuoka.html",
+    "profileSource": "ギャラリーヤマキファインアート",
+    "profile": "福岡道雄は1936年に大阪府堺市で生まれ、大阪市立美術研究所で彫刻を学びました。1960年代には廃材を用いた棒状の彫刻群「何もすることがない」を発表し、高度成長期の社会に対する徒労感や無気力さを表現しました。その後はドローイングや写真なども横断しながら制作を続け、1990年代にはFRPの表面に同じ言葉を電動彫刻刀で刻む作品へと至りました。繰り返される言葉には、期待と失望の間で揺れる感情とともに、明るさやユーモアがにじんでいます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "midori-sugita": {
     "name": "杉田碧",
@@ -2841,19 +3313,30 @@
     "nameRomaji": "Mieko Shiomi",
     "aliases": [],
     "nameKana": "しおみみえこ",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=3160",
+    "profileSource": "タグボート",
+    "profile": "塩見允枝子は1938年に岡山県で生まれた作家です。1960年代には、ジョージ・マチューナスとの関わりのなかで、カードを用いたゲームやイヴェンツの作品を制作しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "miho-dohi": {
     "name": "土肥 美穂",
     "nameRomaji": "Miho Dohi",
     "nameKana": "どひみほ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.hagiwaraprojects.com/miho-dohi",
+    "profileSource": "HAGIWARA PROJECTS",
+    "profile": "土肥美穂は、神奈川県在住の作家で、2002年に東京造形大学大学院彫刻科研究生を修了しています。真鍮、銅板、木、布、糸、アクリルなどを組み合わせた立体作品を制作しており、「buttai」と題したシリーズが展示されています。ロサンゼルス、パリ、ニューヨーク、シカゴなど海外の画廊での個展や、第8回横浜トリエンナーレなどのグループ展で作品を発表しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "mika-kato": {
     "name": "加藤美佳",
     "nameRomaji": "Mika Kato",
     "aliases": [],
-    "nameKana": "かとうみか"
+    "nameKana": "かとうみか",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=2240",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "mika-ninagawa": {
     "name": "蜷川実花",
@@ -2866,7 +3349,11 @@
       "x": "https://x.com/ninagawamika",
       "facebook": "https://www.facebook.com/ninamikaofficial"
     },
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1260",
+    "profileSource": "タグボート",
+    "profile": "写真家、映画監督、現代美術家として活動する蜷川実花さんは、写真を中心に映画や映像、空間インスタレーションも手がけています。木村伊兵衛写真賞をはじめ数々の賞を受けており、『ヘルタースケルター』や『Diner ダイナー』など長編映画を5作監督しています。個展やグループ展を国内外で多数開き、花や光をモチーフにした鮮やかな色彩の作品が特徴です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "miki-ikeda": {
     "name": "池田美樹",
@@ -2924,7 +3411,11 @@
     "nameRomaji": "Miwa Yanagi",
     "aliases": [],
     "website": "http://www.yanagimiwa.net/",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=10050",
+    "profileSource": "タグボート",
+    "profile": "やなぎみわは1967年に兵庫県で生まれた現代美術家で、写真、映像、舞台美術を横断して制作しています。ジェンダー、老い、記憶、社会的役割といった主題を探究し、演出された写真を通して女性の生の変容や社会が与える役割の作られ方を可視化してきました。代表作「エレベーター・ガール」や「マイ・グランドマザーズ」では、若さと老い、現実と想像が交差する場として写真を捉えています。近年は舞台演出や映像にも活動を広げています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "miyako-aoki": {
     "name": "青木美彌子",
@@ -2936,7 +3427,11 @@
     "name": "石内都",
     "nameRomaji": "Miyako Ishiuchi",
     "aliases": [],
-    "nameKana": "いしうちみやこ"
+    "nameKana": "いしうちみやこ",
+    "profileUrl": "https://thethirdgalleryaya.com/artists/ishiuchi_miyako/",
+    "profileSource": "The Third Gallery Aya",
+    "profile": "群馬県桐生市に生まれ、神奈川県横須賀市で育った写真家です。多摩美術大学では染織を専攻し、その感覚は布や衣服を被写体にした作品にも通じています。横須賀の街や女性たちの身体を見つめた初期作から、母の遺品を撮影したシリーズ、広島の被爆資料を撮った「ひろしま」まで、記憶と物質の関係を静かに追い続けてきました。1979年に第4回木村伊兵衛写真賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "miyako-yamazaki": {
     "name": "山崎美弥子",
@@ -2956,13 +3451,17 @@
     "aliases": [],
     "nameKana": "ほそいみゆ",
     "website": "https://miyuhosoi.com/",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "mizuki-hatakeyama": {
     "name": "畠山 瑞規",
     "nameRomaji": "Mizuki Hatakeyama",
     "nameKana": "はたけやまみずき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=11410",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "momo-yamanishi": {
     "name": "山西もも",
@@ -2995,7 +3494,8 @@
     "aliases": [],
     "nameKana": "したみちもとゆき",
     "website": "http://m-shitamichi.com",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileCheckedAt": "2026-11-18"
   },
   "mozu": {
     "name": "Mozu",
@@ -3007,13 +3507,20 @@
     "name": "大石奈穂",
     "nameRomaji": "Naho Oishi",
     "nameKana": "おおいしなほ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/nao_oishi.html",
+    "profileSource": "日動画廊",
+    "profile": "1990年東京生まれの画家で、2014年に武蔵野美術大学油絵学科を卒業し、2016年に同大学院の修士課程を修了しています。蝋と油彩を組み合わせた作品を手がけ、白文鳥やパイナップル、蛾と無花果など身近なモチーフを描いています。2017年には未来展でグランプリを受け、2018年には昭和会展でパリ賞を受賞しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "nam-june-paik": {
     "name": "ナムジュン・パイク",
     "nameRomaji": "Nam June Paik",
     "nameKana": "ぱいくなむじゅん",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1000900",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "nana-kuromiya": {
     "name": "黒宮 菜菜",
@@ -3031,13 +3538,21 @@
     "name": "東菜々美/Nanami Azuma",
     "nameRomaji": "Nanami Azuma",
     "nameKana": "あづまななみ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1006690",
+    "profileSource": "タグボート",
+    "profile": "東菜々美は1997年千葉県生まれの画家で、多摩美術大学絵画学科油画専攻を卒業し、同大学院博士前期課程も修了しています。油彩による作品を中心に制作しており、作品は線を重ねる構成が多く、木やキャンバスに描かれたシリーズが並びます。2020年のシェル美術賞入選、2021年のtagboat Awardグランプリや、2024年のFACE展審査員特別賞などを受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "nancy-seki": {
     "name": "ナンシー関",
     "nameRomaji": "Nancy Seki",
     "aliases": [],
-    "nameKana": "なんしーせき"
+    "nameKana": "なんしーせき",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1006380",
+    "profileSource": "タグボート",
+    "profile": "ナンシー関は1962年に青森県で生まれた版画家で、コラムニストとしても活動しました。1984年に消しゴム版画家としてデビューし、1990年からはテレビに関するコラムの連載を始めています。1991年には最初の単行本『ナンシー関の顔面手帖』が出版されました。2002年に39歳で亡くなっており、その死後も回顧展『ナンシー関 大ハンコ展』が各地で開かれています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "nao-sano": {
     "name": "Nao Sano",
@@ -3057,7 +3572,11 @@
     "name": "野村直城",
     "nameRomaji": "Naoki Nomura",
     "nameKana": "のむらなおき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/naokinomura/",
+    "profileSource": "gallery UG",
+    "profile": "野村直城は1978年兵庫県生まれの陶芸作家で、2004年に京都精華大学大学院で陶芸を修めています。山の中で感じる生きものの気配や日常の小さな出会いから物語を思い描き、それを紙に描いてから土で人物のような立体作品に仕上げ、色を重ねて何度も焼いています。表情や曲面、色と質感を通じて、静かに何かを企む登場人物たちの続きを想像させる作風です。個展は京都や大阪、東京などで継続的に開かれています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "naonori-kato": {
     "name": "加藤直徳",
@@ -3068,7 +3587,8 @@
     "sns": {
       "x": "https://x.com/neutralcolors_k"
     },
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "naoto-kobayashi": {
     "name": "Naoto Kobayashi",
@@ -3092,7 +3612,11 @@
     "name": "大島 成己",
     "nameRomaji": "Naruki Oshima",
     "nameKana": "おおしまなるき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://ycassociates.co.jp/artists/2019/03/20/227/",
+    "profileSource": "Yumiko Chiba Associates",
+    "profile": "大島成己は1963年に大阪府で生まれ、京都市立芸術大学大学院で博士（美術）の学位を取得した作家です。2001年から2003年にかけてデュッセルドルフ芸術アカデミーでトーマス・ルフの教室に学び、現在は東京を拠点に活動しています。写真を主な表現手段とし、色彩や像のあり方を問い直す「Reflections」や「haptic green」といったシリーズを発表してきました。国立国際美術館や京都市美術館など国内外の美術館に作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "nate-antrick": {
     "name": "ネイト・アントリック",
@@ -3111,7 +3635,11 @@
     "name": "青柳菜摘",
     "nameRomaji": "Natsumi Aoyagi",
     "nameKana": "あおやぎなつみ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.misashin.com/artists/%e9%9d%92%e6%9f%b3%e8%8f%9c%e6%91%98/",
+    "profileSource": "MISA SHIN GALLERY",
+    "profile": "1990年に東京都で生まれ、映像メディアを用いて同時代の芸術を手がける作家です。フィールドワークやリサーチをもとにプロジェクトごとにテーマを立て、観察や記録、物語、詩文を手がかりに、作者自身の経験を表現する方法を探っています。近年はICC（2024年）や十和田市現代美術館（2022年）などで作品を発表し、詩集『そだつのをやめる』で第28回中原中也賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "natsuyuki-nakanishi": {
     "name": "中西夏之",
@@ -3120,7 +3648,9 @@
     "nameKana": "なかにしなつゆき",
     "snsCheckedAt": "2026-10-26",
     "profileUrl": "https://fergusmccaffrey.com/artist/natsuyuki-nakanishi/",
-    "profileSource": "Fergus McCaffrey Tokyo"
+    "profileSource": "Fergus McCaffrey Tokyo",
+    "profile": "中西夏之は1935年に東京で生まれ、東京藝術大学で油絵を学び、1958年に学士号を得ています。1959年に発表した「Rhyme」と題する連作で高い評価を受け、その後も生涯にわたって絵画制作を続けました。1962年から64年にかけては、高松次郎や赤瀬川原平らとハイ・レッド・センターを結成し、1965年からは舞踏家の土方巽や大野一雄との協働も重ねました。作品では形式的要素を解体して抽象的なモチーフに再構成し、ノートや図解を通して制作過程を丹念に記録しています。2016年に没しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "neutral-colors": {
     "name": "NEUTRAL COLORS",
@@ -3130,7 +3660,8 @@
     "sns": {
       "x": "https://x.com/neutralcolors_k"
     },
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "nikolai-astrup": {
     "name": "ニコライ・アストルップ",
@@ -3155,25 +3686,40 @@
     "name": "沼野伸子",
     "nameRomaji": "Nobuko Numano",
     "nameKana": "ぬまののぶこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/nobukonumano/",
+    "profileSource": "gallery UG",
+    "profile": "埼玉県出身で、2009年に武蔵野美術大学造形学部油絵学科を卒業しています。近年は「ポートレート」をテーマに、自身の記憶や思いと深く結びついたモチーフを選び、作品にしています。日常のリアリティが時間とともに曖昧になっていく感覚と向き合い、シンプルな色面や形によって本当に大切なものを残そうとしているのが特徴です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "nobuko-tsuchiya": {
     "name": "土屋信子",
     "nameRomaji": "Nobuko Tsuchiya",
     "nameKana": "つちやのぶこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.scaithebathhouse.com/ja/artists/nobuko_tsuchiya/",
+    "profileSource": "SCAI THE BATHHOUSE",
+    "profileCheckedAt": "2026-11-18"
   },
   "nobuko-watanabe": {
     "name": "渡辺 信子",
     "nameRomaji": "Nobuko Watanabe",
     "nameKana": "わたなべのぶこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gyfa.co.jp/artist/nobuko-watanabe.html",
+    "profileSource": "ギャラリーヤマキファインアート",
+    "profile": "渡辺信子は、音楽家として出発したのち、具体美術協会のメンバーとの出会いをきっかけに美術制作を始めた作家です。1997年頃から布を張る作品を手がけ、当初は白一色で発表していましたが、その後大きく展開し、日本とドイツで数多く発表しています。1948年東京都生まれで、相愛女子大学でピアノを学びました。1999年には吉原治良賞美術コンクール展で大賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "nobuya-hitsuda": {
     "name": "櫃田伸也",
     "nameRomaji": "Nobuya Hitsuda",
     "nameKana": "ひつだのぶや",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.kayokoyuki.com/jp/hitsuda.php",
+    "profileSource": "KAYOKOYUKI",
+    "profile": "櫃田伸也は1941年に東京都大田区で生まれ、現在は愛知県を拠点に活動する画家です。東京藝術大学で油画を学び、大学院を修了したのち、愛知県立芸術大学や東京藝術大学で長く教壇に立ちました。風景をモチーフに、「通り過ぎた風景」などの連作で知られ、名古屋市芸術奨励賞や第28回安井賞などを受賞しています。作品は国内の多くの美術館に収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "noe-aoki": {
     "name": "青木野枝",
@@ -3183,7 +3729,9 @@
     "website": "https://www.aokinoe.jp/",
     "snsCheckedAt": "2026-10-24",
     "profileUrl": "https://anomalytokyo.com/artist/noe-aoki/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profile": "青木野枝は1958年東京生まれ、埼玉県在住の作家で、武蔵野美術大学大学院を修了しています。1980年代の活動初期から鉄に魅せられ、工業用の鉄板を部品に溶断して溶接で組み上げる作品を手がけてきました。展示空間を注意深く観察し、そこにある空気や見る人までを作品の一部として取り込む点が特徴で、近年は石鹸やガラスなど異素材の作品も発表しています。毎日芸術賞、中原悌二郎賞、芸術選奨文部科学大臣賞などを受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "noemie-goudal": {
     "name": "ノエミ・グダル",
@@ -3193,7 +3741,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/noemiegoudal/"
     },
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileCheckedAt": "2026-11-18"
   },
   "norihiro-nakae": {
     "name": "中江紀洋",
@@ -3205,7 +3754,11 @@
     "name": "舘鼻則孝",
     "nameRomaji": "Noritaka Tatehana",
     "nameKana": "たてはなのりたか",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kosakukanechika.com/artist/noritaka_tatehana/",
+    "profileSource": "KOSAKU KANECHIKA",
+    "profile": "舘鼻則孝は、日本の伝統文化や工芸技法を現代の視点で捉え直し、作品として提示する作家です。花魁の高下駄に着想を得た《Heel-less Shoes》や、仏教の来迎図を題材にした《Descending Painting》などが代表作で、染織や漆芸、金工といった幅広い技法を用いています。1985年東京都生まれで、2010年に東京藝術大学を卒業しました。作品は国立工芸館やメトロポリタン美術館などに収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "ocave": {
     "name": "ocave",
@@ -3246,14 +3799,21 @@
     "aliases": [],
     "nameKana": "このしまおうこく",
     "website": "http://www.oukokubunko.org",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profile": "木島櫻谷は京都の日本画家で、動物画を得意としたことで知られています。泉屋博古館での展覧会では、櫻谷の動物画がとくに高く評価されてきたと紹介されています。四季連作屏風や襖画、扇面や色紙など多様な形式の作品を残し、写生帖には植物や動物、人物、風景などを対象にした素早い観察の跡が見られます。大正期の旧宅は京都市の文化財指定が諮問されました。",
+    "profileUrl": "http://www.oukokubunko.org",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "olafur-eliasson": {
     "name": "オラファー・エリアソン",
     "nameRomaji": "Olafur Eliasson",
     "aliases": [],
     "website": "https://olafureliasson.net/",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=390",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "omi-suh": {
     "name": "ソ・オミ",
@@ -3267,7 +3827,9 @@
     "nameKana": "こくふおさむ",
     "aliases": [],
     "profileUrl": "https://www.artcourtgallery.com/artists/kokufu/",
-    "profileSource": "アートコートギャラリー"
+    "profileSource": "アートコートギャラリー",
+    "profile": "國府理は1970年に京都府で生まれ、1994年に京都市立芸術大学大学院で彫刻を専攻して修了した作家です。自ら移動する乗り物や、仕組みを持つ装置のような作品を制作し、「KOKUFUMOBIL」などのシリーズで知られています。2014年に44歳で亡くなるまで、京都や大阪、神戸、名古屋など各地で個展やグループ展に多数参加しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "osamu-suzuki": {
     "name": "鈴木治",
@@ -3280,7 +3842,11 @@
     "name": "渡辺おさむ",
     "nameRomaji": "Osamu Watanabe",
     "nameKana": "わたなべおさむ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/osamuwatanabe/",
+    "profileSource": "gallery UG",
+    "profile": "渡辺おさむは、スイーツデコの技術を美術作品へと高めてきた作家です。1980年に山口県で生まれ、2003年に東京造形大学デザイン学科を卒業しています。クリームやキャンディ、フルーツなどを用いて、本物そっくりで精巧なお菓子の世界を立体や平面で表現しています。国内外で個展を重ね、大原美術館や高崎市美術館など国内の美術館に作品が収蔵されています。2025年には山口県文化奨励賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "otei-kaneko": {
     "name": "金子鷗亭",
@@ -3294,7 +3860,11 @@
     "nameRomaji": "Otolith Group",
     "aliases": [],
     "website": "https://otolithgroup.org/",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profile": "オトリス・グループは、2002年にロンドンでアンジャリカ・サガーとコドウォ・エシュンが結成した芸術家グループです。インスタレーション、出版、パフォーマンス、写真、映像など多様な形式を組み合わせて活動し、音、テキスト、映像を横断的に扱っています。作品は、グローバル・サウスとその離散コミュニティの文化を背景に、映像エッセイの試みとして組み立てられています。",
+    "profileUrl": "https://otolithgroup.org/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "otto-kunzli": {
     "name": "オットー・キュンツリ",
@@ -3310,14 +3880,22 @@
       "ピカソ",
       "ぴかそぱぶろ"
     ],
-    "nameKana": "ぴかそぱぶろ"
+    "nameKana": "ぴかそぱぶろ",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/picasso.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "1905年頃の銅版画やドライポイントのシリーズ、1948年のリトグラフ、1960年前後のリノカットなど、版画の作品が中心に紹介されています。また、1946年に南仏ヴァロリスを訪れたことを機に陶器制作を始めたことも記されており、陶板作品も取り上げられています。版画と陶器という異なる技法を行き来しながら制作を続けた作家であることがうかがえます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "patrick-blanc": {
     "name": "パトリック・ブラン",
     "nameRomaji": "Patrick Blanc",
     "aliases": [],
     "website": "https://www.verticalgardenpatrickblanc.com/",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profile": "パトリック・ブランは植物学者で、壁面に植物を育てる「垂直庭園（マーフ・ヴェジェタル）」を考案した人物です。また、ニューギニアやボルネオ、アンデスなど多くの地域で植物採集の調査旅行を重ね、その成果を映像や書籍として発表しています。",
+    "profileUrl": "https://www.verticalgardenpatrickblanc.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "patrik-soderlund": {
     "name": "Patrik Söderlund",
@@ -3332,7 +3910,10 @@
       "セザンヌ"
     ],
     "nameKana": "せざんぬ",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/p_cezanne.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "paul-gauguin": {
     "name": "ゴーガン",
@@ -3341,7 +3922,11 @@
       "ゴーギャン"
     ],
     "snsCheckedAt": "2026-10-20",
-    "nameKana": "ぽーるごーぎゃん"
+    "nameKana": "ぽーるごーぎゃん",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/gauguin.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "ポール・ゴーギャンは1848年生まれのフランスの画家です。タヒチへの渡航で得た体験をもとに、現地の女性や神秘的な雰囲気を描きました。木版画やリトグラフも手がけ、「ノア・ノア」の挿絵として制作された連作では、木口木版に丸ノミやビュランを用いて、原始的で官能的な世界を表しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "paul-wallach": {
     "name": "Paul Wallach",
@@ -3349,7 +3934,9 @@
     "nameKana": "うぉらっくぽーる",
     "aliases": [],
     "profileUrl": "https://fergusmccaffrey.com/artist/paul-wallach-2/",
-    "profileSource": "Fergus McCaffrey Tokyo"
+    "profileSource": "Fergus McCaffrey Tokyo",
+    "profile": "ポール・ウォラックは1960年にニューヨークで生まれ、ウィスコンシン大学で美術を学びました。1994年にパリへ移り、マーク・ディ・スヴェロのもとでのレジデンスにも参加しています。木、石膏、布、金属、ガラスなど性質の異なる素材を組み合わせ、壁から空間へ広がるような彫刻を制作しています。作品は重心や釣り合いへの探求を核とし、見る角度や光によって異なる知覚を生み出す点が特徴です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "philippe-parreno": {
     "name": "フィリップ・パレーノ",
@@ -3364,12 +3951,19 @@
       "ピエール=オーギュスト・ルノワール"
     ],
     "snsCheckedAt": "2026-10-22",
-    "nameKana": "るのわーる"
+    "nameKana": "るのわーる",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/a_renoir.html",
+    "profileSource": "日動画廊",
+    "profile": "フランス中南部リモージュの貧しい仕立て屋に生まれ、13歳で磁器工場に入り絵付職人の見習いとなりました。ルーヴル美術館で宮廷絵画を研究した後、画家シャルル・グレールのアトリエに入り、モネやシスレーらと知り合います。1874年の第1回印象派展に参加し、のちに古典的技法を取り入れた時期を経て、元の作風に戻りました。1900年にはレジョン・ドヌール五等勲章を受章しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "pierre-bonnard": {
     "name": "ボナール",
     "nameRomaji": "Pierre Bonnard",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/p_bonnard.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "pierre-brune": {
     "name": "ピエール・ブリューヌ",
@@ -3394,7 +3988,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/pipilotti_rist_studio/"
     },
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profileCheckedAt": "2026-11-18"
   },
   "qiu-ying": {
     "name": "仇英",
@@ -3415,7 +4010,10 @@
       "デュフィ"
     ],
     "nameKana": "でゅふぃ",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/r_dufy.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "raphael": {
     "name": "ラファエロ・サンツィオ",
@@ -3433,7 +4031,11 @@
     "name": "板谷麗",
     "nameRomaji": "Rei Itaya",
     "nameKana": "いたやれい",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/rei-itaya/",
+    "profileSource": "gallery UG",
+    "profile": "板谷麗は、自宅や旅先で出会う食材をポートレートとして撮影する写真作家です。シリーズ「RAW」では、実際に食した料理名を作品のタイトルにし、土地ごとに異なる生き物を観察し撮影することから制作を進めています。作品は想像だけで作られるものではなく、記録にとどまるものでもなく、現実を観察した延長にあるとされています。銀塩プリントを主な技法とし、女子美術短期大学を卒業しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "reiichi-tsuchiya": {
     "name": "土屋禮一",
@@ -3446,7 +4048,11 @@
     "nameRomaji": "Rembrandt",
     "aliases": [],
     "nameKana": "れんぶらんと",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/rembrandt.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "レンブラント・ファン・レインは1604年生まれのオランダの画家で、版画作品で知られています。1630年代には有力者の娘サスキアと結婚し、アムステルダムで画家としての成功を収めたと紹介されています。自画像や母親、妻サスキアを題材にした銅版画が多く、エッチングやドライポイントの技法を用いて人物の表情を細やかに描き出しました。風景版画も手がけ、制作数は少ないものの評価が高いとされています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "rene-magritte": {
     "name": "マグリット",
@@ -3455,19 +4061,29 @@
       "ルネ・マグリット"
     ],
     "snsCheckedAt": "2026-10-20",
-    "nameKana": "れねまぐりっと"
+    "nameKana": "れねまぐりっと",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/magritte.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "ルネ・マグリットは1898年生まれのベルギーの画家です。ブリュッセルで制作を続け、62歳になるまで版画の手法に取り組むことはなかったとされています。版画作品は20点ほどと極めて少なく、その多くは工房の職人との協働によるものです。ペンとインクのデッサンをもとにした詩画集の挿画など、詩との結びつきも感じられる作品を残しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "rieko-hidaka": {
     "name": "日高理恵子",
     "nameRomaji": "Rieko Hidaka",
     "nameKana": "ひだかりえこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1300",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "rika-noguchi": {
     "name": "野口里佳",
     "nameRomaji": "Rika Noguchi",
     "aliases": [],
-    "nameKana": "のぐちりか"
+    "nameKana": "のぐちりか",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1002280",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "riko-kinoshita": {
     "name": "木下理子",
@@ -3576,7 +4192,11 @@
     "name": "臼井良平",
     "nameRomaji": "Ryohei Usui",
     "nameKana": "うすいりょうへい",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.mujin-to.com/artist/usui/",
+    "profileSource": "無人島プロダクション",
+    "profile": "臼井良平は、身近にある物を主役に据え、既に存在するものの見方を変える「現代版の見立て」ともいえる作品を、異なるメディウムを使って発表してきた作家です。2012年からはガラスによる連作「PET（Portrait of Encountered Things）」に取り組み、街中に放置された容器に街に生きる人々の姿を重ね、「現代の肖像」として提示しています。国内外の個展やグループ展に多数参加しており、東京都現代美術館やM+（香港）などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "ryoichi-okayama": {
     "name": "岡山良一",
@@ -3602,7 +4222,11 @@
     "name": "川平遼佑",
     "nameRomaji": "Ryosuke Kawahira",
     "nameKana": "かわひらりょうすけ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/ryosukekawahira/",
+    "profileSource": "gallery UG",
+    "profile": "川平遼佑は1990年愛知県出身の画家で、2014年に名古屋芸術大学を卒業しています。幼い頃のおねしょの記憶や、夢に現れるオバケや怪物をモチーフに、ユーモラスでどこか不穏な世界を描いてきました。パンツ（ブリーフ）を画面に用いた作品も多く、アクリル絵具で描かれています。国内外で個展やアートフェアに数多く参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "ryosuke-shiomi": {
     "name": "塩見亮介",
@@ -3614,7 +4238,11 @@
     "name": "Ryota Kikuchi",
     "nameRomaji": "Ryota Kikuchi",
     "nameKana": "きくちりょうた",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.kanakawanishi.com/ryota-kikuchi",
+    "profileSource": "KANA KAWANISHI GALLERY",
+    "profile": "菊地良太は1981年生まれで千葉在住の作家です。東京藝術大学の美術学部と大学院で先端芸術表現を学びました。フリークライマーとしての視点を美術表現に置き換え、都市や風景に潜む様々な領域や境界線を可視化する作品を発表しています。2019年には鉄道博物館で個展「尊景」を開催しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "ryuichi-sakamoto": {
     "name": "坂本龍一",
@@ -3633,20 +4261,32 @@
     "nameRomaji": "Saburo Muraoka",
     "aliases": [],
     "nameKana": "むらおかさぶろう",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileUrl": "https://kenjitaki.com/muraoka-s/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "村岡三郎は1928年に大阪府に生まれ、2013年に滋賀県大津市で亡くなった彫刻家です。1950年に大阪市立美術研究所彫刻部を修了し、1965年と1969年に現代日本彫刻展で受賞しました。1981年からは滋賀大学、1993年からは京都精華大学で教授を務めています。「熱の彫刻」と呼ばれる鉄や塩、蝋などを用いた作品を制作し、1999年には毎日芸術賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "saburosuke-okada": {
     "name": "岡田三郎助",
     "nameRomaji": "Saburosuke Okada",
     "aliases": [],
     "nameKana": "おかださぶろうすけ",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/saburosuke_okada.html",
+    "profileSource": "日動画廊",
+    "profile": "岡田三郎助は1869年に佐賀県で生まれた洋画家です。1896年に白馬会の創設に加わり、1902年には東京美術学校の教授となりました。1912年には本郷洋画研究所を設立し、後進の育成にも力を注ぎました。1937年に第1回文化勲章を受章し、1939年に亡くなっています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "sachiko-kazama": {
     "name": "風間サチコ",
     "nameRomaji": "Sachiko Kazama",
     "aliases": [],
-    "nameKana": "かざまさちこ"
+    "nameKana": "かざまさちこ",
+    "profileUrl": "https://www.mujin-to.com/artist/kazama/",
+    "profileSource": "無人島プロダクション",
+    "profile": "風間サチコは1972年東京都生まれの版画家で、武蔵野美術学園版画研究科を修了しています。彫刻刀による鋭い描線で黒い木版画を制作し、現代社会や歴史の直視しがたい現実を、時に滑稽でコミカルに捉えています。作家自身は社会の当事者というより観察者でありたいという意識を持ち、古書研究などの独自のリサーチを重ねて、フィクションの形で真実と嘘を描き出しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "sadamasa-motonaga": {
     "name": "元永定正",
@@ -3655,7 +4295,9 @@
     "nameKana": "もとながさだまさ",
     "snsCheckedAt": "2026-10-24",
     "profileUrl": "https://fergusmccaffrey.com/artist/sadamasa-motonaga/",
-    "profileSource": "Fergus McCaffrey Tokyo"
+    "profileSource": "Fergus McCaffrey Tokyo",
+    "profile": "元永定正は1922年に三重県で生まれ、具体美術協会（1954〜72年）の一員として活動した作家です。子どもの絵や漫画、大衆文化への関心を反映した、明るく遊び心のある絵画や彫刻、パフォーマンスを手がけました。1950年代後半には流れる線や絵具を流し落とす抽象的な表現へと移り、1970年代にはスプレー塗料を用いた粗く生々しい作風が現れました。高松宮殿下記念世界文化賞など多くの賞を受け、兵庫県立美術館などで回顧展が開かれています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "sadanori-sakaki": {
     "name": "彭城貞徳",
@@ -3668,7 +4310,11 @@
     "name": "吉本 作次",
     "nameRomaji": "Sakuji Yoshimoto",
     "nameKana": "よしもとさくじ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://kenjitaki.com/yoshimoto-s/",
+    "profileSource": "ケンジタキギャラリー",
+    "profile": "吉本作次は1959年に岐阜県岐阜市に生まれ、三重と愛知を拠点に制作を続けている画家です。名古屋芸術大学美術学部絵画科を卒業し、現在は同大学で洋画コースの教授を務めています。油彩画ならではの質感や構成力を基盤に、日本的な線の美学やアニミズム的な要素を取り入れた作品を発表しており、「巨木信仰」や「滝行」といったテーマには聖地巡礼の体験が反映されています。2024年には名古屋市美術館で回顧展が開催されました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "salvador-dali": {
     "name": "サルバドール・ダリ",
@@ -3681,7 +4327,11 @@
       "facebook": "https://www.facebook.com/MuseusDali",
       "youtube": "https://www.youtube.com/user/FundacioDali"
     },
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/dali.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "スペイン出身の画家で、1904年に生まれ1989年に没しました。シュルレアリスムの中心人物であるアンドレ・ブルトンと親交を持ち、一時はそのグループに加わっていました。版画作品にも多く取り組み、ドライポイントやエッチング、リトグラフなど多様な技法を用い、夢や奇妙なイメージを緻密な線で表現しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "samiro-yunoki": {
     "name": "柚木沙弥郎",
@@ -3700,7 +4350,11 @@
     "aliases": [],
     "website": "https://www.tamurasatoru.com/",
     "snsCheckedAt": "2026-10-25",
-    "nameKana": "たむらさとる"
+    "nameKana": "たむらさとる",
+    "profileUrl": "https://www.makigallery.com/artists/3179/",
+    "profileSource": "MAKI Gallery",
+    "profile": "1972年栃木県生まれの作家で、1995年に筑波大学芸術専門学群総合造形領域を卒業し、現在も栃木を拠点に活動しています。電気や社会インフラを素材に、動力や計測器として働く大がかりな装置を制作し、皮肉なユーモアを交えて有用性を優先する社会への問いを投げかけています。2017年に International Light Art Award 2017 で First Prize を受賞するなど、国内外で多数の賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "satoshi-murakami": {
     "name": "村上慧",
@@ -3736,7 +4390,8 @@
     "sns": {
       "instagram": "https://www.instagram.com/the_final_view/"
     },
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profileCheckedAt": "2026-11-18"
   },
   "seicho-hasegawa": {
     "name": "長谷川青澄",
@@ -3762,7 +4417,10 @@
     "nameRomaji": "Seiji Togo",
     "aliases": [],
     "nameKana": "とうごうせいじ",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/seiji_togo.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "seika-yamaga": {
     "name": "山鹿清華",
@@ -3783,7 +4441,11 @@
     "nameRomaji": "Sen Takahashi",
     "aliases": [],
     "nameKana": "たかはしせん",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://leesaya.jp/artists/sentakahashi/",
+    "profileSource": "LEESAYA",
+    "profile": "髙橋銑は1992年東京都生まれの作家で、東京藝術大学大学院で彫刻を専攻し、2021年に修了しています。近現代彫刻の保存修復に携わるかたわら、自身も作品制作を行っています。保存修復で得た知識や経験を出発点に、彫刻、映像、インスタレーションなど幅広い表現に取り組んでいます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "sengai": {
     "name": "仙厓",
@@ -3815,7 +4477,11 @@
     "name": "三岸節子",
     "nameRomaji": "Setsuko Migishi",
     "aliases": [],
-    "nameKana": "みぎしせつこ"
+    "nameKana": "みぎしせつこ",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/setsuko_migishi.html",
+    "profileSource": "日動画廊",
+    "profile": "三岸節子は1908年に愛知県中島郡起町（現在の一宮市）に生まれた画家です。女子美術学校を首席で卒業し、夫の三岸好太郎を早くに亡くした後も制作を続けました。春陽会や独立美術協会、新制作派協会などで発表を重ね、1951年には女性美術家として初めて芸術選奨文部大臣賞を受賞しています。1968年に渡仏し、1994年には文化功労者に選ばれました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "settai-komura": {
     "name": "小村雪岱",
@@ -3835,7 +4501,11 @@
     "name": "泉 茂雄",
     "nameRomaji": "Shigeo Izumi",
     "nameKana": "いずみしげお",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/shigeoizumi/",
+    "profileSource": "gallery UG",
+    "profile": "泉茂雄は1965年に長崎県で生まれ、1990年に武蔵野美術大学を卒業した作家です。水彩や油彩、ドライポイントやメゾチントといった版画も手がけ、塔や家、街、港などの風景や静物をモチーフに描いています。制作中に画面が張りつめ、空間が閉じる瞬間を大切にし、その緊張感を求めて描き続けていると語っています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shigeru-hasegawa": {
     "name": "長谷川繁",
@@ -3879,13 +4549,21 @@
     "name": "中風森滋/Shinji Nakakaze",
     "nameRomaji": "Shinji Nakakaze",
     "nameKana": "なかかぜしんじ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1007740",
+    "profileSource": "タグボート",
+    "profile": "中風森滋は、1994年に千葉で生まれ、東京藝術大学美術学部絵画科油画専攻を卒業し、大学院修士課程を修了した画家です。現実の情報量に戸惑う自身の感覚から出発し、簡略化された二次元のキャラクターを描くことを表現の起点にしています。油彩のキャンバス上で、物語を持たない弱々しいキャラクターを線へと解きほぐし、雑多な要素を削ぎ落として本質を探ろうとしています。2016年に安宅賞を受賞しており、個展や多くのグループ展で作品を発表しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shinji-ogawa": {
     "name": "小川信治",
     "nameRomaji": "Shinji Ogawa",
     "nameKana": "おがわしんじ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.mahokubota.com/ja/artists/shinji-ogawa/",
+    "profileSource": "MAHO KUBOTA GALLERY",
+    "profile": "小川信治は、明確なコンセプトに基づき緻密に構築された絵画を制作する作家です。既存の表象世界を分解し変容させながら、現実と非現実が交錯する独自の並行世界を描いています。油彩やドローイングには、イメージの消失や反復、反転といったルールが用いられ、人の手による細密な描写でありながら、デジタル画像やアルゴリズムを思わせる構造を持つ点が特徴です。細部を極限まで突き詰める制作は、作家自身の手で世界をゼロから組み立てていくような過程でもあります。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shinro-ohtake": {
     "name": "大竹伸朗",
@@ -3893,7 +4571,11 @@
     "nameKana": "おおたけしんろう",
     "aliases": [],
     "website": "https://www.ohtakeshinro.com",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=9810",
+    "profileSource": "タグボート",
+    "profile": "1955年に東京で生まれた作家で、紙に色鉛筆やペン、水彩を用いたドローイングを中心に制作しています。モロッコのタンジールやマラガといった土地での滞在をもとにした作品が多く、街並みや人物、日常の断片を描いています。版画では、シルクスクリーンやエッチング、オフセットリトグラフなど複数の技法に取り組んでいます。また、他の作家や雑誌との協働による作品や、カタログ形式の印刷物も手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shinsen-tokuoka": {
     "name": "徳岡神泉",
@@ -3951,7 +4633,11 @@
     "nameRomaji": "Shoichi Ida",
     "aliases": [],
     "nameKana": "いだしょういち",
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1006770",
+    "profileSource": "タグボート",
+    "profile": "井田照一は1941年京都府生まれの版画家です。京都市立美術大学西洋画科を修了後、1969年からパリに留学し、1970年代前半はニューヨークで各国の個展や国際版画展に出品しました。イメージが摺られる紙の表面に着目し、裏摺りなど多様な版画技法を用いて実験的な作品を制作しました。1986年には日米文化交流名誉賞を受賞し、2004年に紫綬褒章を受章しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shoichi-mizuno": {
     "name": "水野正一",
@@ -3982,7 +4668,11 @@
     "name": "益永梢子",
     "nameRomaji": "Shoko Masunaga",
     "nameKana": "ますながしょうこ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://makifinearts.com/artists/shoko_masunaga/",
+    "profileSource": "マキファインアーツ",
+    "profile": "益永梢子は1980年大阪生まれの画家です。2001年に成安造形短期大学造形芸術科を卒業し、2018年から2019年にかけては文化庁の制度によりニューヨークに滞在しました。絵画を起点に多様な手法を用いて制作を行い、周囲の環境や空間との関係を重視しています。そのため作品は可変的で置き換え可能な性質を持ち、木製パネルやキャンバス、アクリル絵の具などを組み合わせた作品が多く見られます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shotaro-koseki": {
     "name": "小関庄太郎",
@@ -4020,7 +4710,11 @@
     "name": "島田章三",
     "nameRomaji": "Shozo Shimada",
     "aliases": [],
-    "nameKana": "しまだしょうぞう"
+    "nameKana": "しまだしょうぞう",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/shozo_shimada.html",
+    "profileSource": "日動画廊",
+    "profile": "島田章三は、1933年に神奈川県で生まれた日本画家です。東京芸術大学を修了し、国展や日本藝術院などで活動しました。安井賞や国展国画賞などの受賞歴があり、愛知県立芸術大学の名誉教授も務めました。2016年に逝去しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shugoro-hasuda": {
     "name": "蓮田修吾郎",
@@ -4045,7 +4739,11 @@
     "name": "田中秀介",
     "nameRomaji": "Shusuke Tanaka",
     "nameKana": "たなかしゅうすけ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://leesaya.jp/artists/tanaka/",
+    "profileSource": "LEESAYA",
+    "profile": "田中秀介は1986年和歌山県生まれで、2009年に大阪芸術大学美術学科を卒業し、現在は大阪を拠点に制作を続けている作家です。2022年には大阪市立自然史博物館で個展を開き、博物館という特殊な場所を生かした展示で注目を集めました。2023年にはVOCA展2023に出展しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "shuzo-takiguchi": {
     "name": "瀧口修造",
@@ -4078,7 +4776,8 @@
     "aliases": [],
     "nameKana": "そむすぱぱりんや",
     "website": "https://atelierorange.info",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "sophie-nys": {
     "name": "Sophie Nys",
@@ -4128,7 +4827,11 @@
     "name": "スターリング・ルビー",
     "nameRomaji": "Sterling Ruby",
     "nameKana": "るびーすたーりんぐ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.takaishiigallery.com/jp/archives/4952/",
+    "profileSource": "タカ・イシイギャラリー",
+    "profile": "スターリング・ルビーは1972年生まれの作家で、立体作品、絵画、陶芸、写真、映像、布作品など幅広い素材と技法を用いて制作しています。作品では流動と静止、ミニマリズムと表現主義、純粋さと汚れといった相反する要素が緊張関係を保ちながら共存しており、社会の中の暴力や圧力、美術史の問題、そして自身の過去が扱われています。ロサンゼルス現代美術館やテート・モダン、ポンピドゥー・センターなど国内外の主要美術館に作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "steve-bishop": {
     "name": "スティーヴ・ビショップ",
@@ -4169,7 +4872,9 @@
     "nameKana": "すよん",
     "aliases": [],
     "profileUrl": "https://biscuitgallery.com/suyeont/",
-    "profileSource": "biscuit gallery"
+    "profileSource": "biscuit gallery",
+    "profile": "スヨンは1988年に釜山で生まれ、韓国芸術綜合大学で映画の学士号と美術の修士号を取得した作家です。方眼紙に色鉛筆で描くドローイング、アクリル絵具による絵画、半透明の布を裁断して縫い合わせる布作品を行き来しながら制作しています。生命の儚さと、その中で起こる出来事を見つめ、日常で感じた強い感覚を記録するように作品を重ねています。作品はMMCAアートバンクに収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "suzanne-valadon": {
     "name": "シュザンヌ・ヴァラドン",
@@ -4187,7 +4892,10 @@
     "name": "横尾忠則",
     "nameRomaji": "Tadanori Yokoo",
     "nameKana": "よこおただのり",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.scaithebathhouse.com/ja/artists/tadanori_yokoo/",
+    "profileSource": "SCAI THE BATHHOUSE",
+    "profileCheckedAt": "2026-11-18"
   },
   "tadao-takano": {
     "name": "タダオ・タカノ",
@@ -4244,19 +4952,30 @@
     "name": "田島享央己",
     "nameRomaji": "Takaoki Tajima",
     "nameKana": "たじまたかおき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/takaokitajima/",
+    "profileSource": "gallery UG",
+    "profile": "田島享央己は、代々仏師の家系に生まれた五代目の彫刻家です。幼少期から父のアトリエで木と道具に親しみ、祖父や父から受け継いだ道具も使いながら制作を続けています。彫刻にとどまらず、絵画、ドローイング、リトグラフ、陶芸など多様な表現を横断し、2頭身のキャラクターや《デッドボール》シリーズに見られるように、可笑しみと切なさを併せ持つ造形で知られています。1973年千葉県生まれ、2000年に愛知県立芸術大学彫刻科を卒業しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "takashi-hinoda": {
     "name": "日野田崇",
     "nameRomaji": "Takashi Hinoda",
     "nameKana": "ひのだたかし",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.imuraart.com/artist/works/post_24.html",
+    "profileSource": "イムラアートギャラリー",
+    "profileCheckedAt": "2026-11-18"
   },
   "takashi-kuribayashi": {
     "name": "栗林隆",
     "nameRomaji": "Takashi Kuribayashi",
     "nameKana": "くりばやしたかし",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=10080",
+    "profileSource": "タグボート",
+    "profile": "栗林隆は1968年に長崎県で生まれた作家です。紙にインクや水彩を用いた作品を手がけており、「Wald aus Wald」や「Inseln」といったシリーズ名のもとに作品が並んでいます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "takashi-murakami": {
     "name": "村上隆",
@@ -4268,7 +4987,11 @@
       "instagram": "https://www.instagram.com/takashipom/",
       "x": "https://x.com/takashipom"
     },
-    "snsCheckedAt": "2026-10-26"
+    "snsCheckedAt": "2026-10-26",
+    "profileUrl": "http://gallery-kaikaikiki.com/category/artists/takashi_murakami/",
+    "profileSource": "Kaikai Kiki Gallery",
+    "profile": "村上隆は1962年に東京で生まれ、1993年に東京芸術大学大学院美術研究科博士後期課程を修了した作家です。「スーパーフラット」という理論を提唱し、その代表的な作家として知られています。アーティストにとどまらず、キュレーターや映画監督としても活動し、カイカイキキの創業者でもあります。2016年には第66回芸術選奨文部科学大臣賞を受賞しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "takashi-suzuki": {
     "name": "鈴木崇",
@@ -4276,7 +4999,8 @@
     "nameKana": "すずきたかし",
     "aliases": [],
     "website": "http://www.takashisuzuki.com",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileCheckedAt": "2026-11-18"
   },
   "takashi-tanaka": {
     "name": "田中岑",
@@ -4291,7 +5015,11 @@
     "aliases": [],
     "nameKana": "みつしまたかゆき",
     "website": "https://mitsushima-art.jimdofree.com/",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profile": "光島貴之は、視覚に頼らず触覚や音、体が感じる空間の感覚を手がかりに作品を発表している美術家です。10歳頃までの視界が限られていた経験をもとに、触ることで形や空間を知る感覚を大切にしています。作品を通して、触覚による時空間の認識の面白さを見る人にも味わってほしいと考えています。",
+    "profileUrl": "https://mitsushima-art.jimdofree.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "takehito-koganezawa": {
     "name": "Takehito Koganezawa",
@@ -4304,7 +5032,11 @@
     "nameRomaji": "Takeji Fujishima",
     "aliases": [],
     "nameKana": "ふじしまたけじ",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/takeji_fujishima.html",
+    "profileSource": "日動画廊",
+    "profile": "藤島武二は、1867年に鹿児島で生まれ、四条派や丸山派の日本画を学んだのち洋画へ転じた画家です。1896年には白馬会の結成に参加し、東京美術学校で教授を務めました。『みだれ髪』の表紙絵や多くの装丁を手がけ、後年は日の出や風景を主題とする作品を多く制作しました。1937年に第1回文化勲章を受章しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "takenobu-igarashi": {
     "name": "五十嵐威暢",
@@ -4316,7 +5048,11 @@
     "name": "保良雄",
     "nameRomaji": "Takeshi Yasura",
     "aliases": [],
-    "nameKana": "やすらたけし"
+    "nameKana": "やすらたけし",
+    "profileUrl": "https://kotaronukaga.com/artist/takeshi_yasura/",
+    "profileSource": "KOTARO NUKAGA",
+    "profile": "保良雄は、2018年に東京藝術大学大学院彫刻専攻を修了し、2020年にはÉcole nationale supérieure des beaux-artsを修了した作家です。フランスと日本を拠点に活動しています。テクノロジーや生物、無生物、人間といったさまざまな存在を縦の序列ではなく横の関係で捉え、それぞれを存在そのものとして認めることを制作の目的としています。作品はワタリウム美術館、金沢21世紀美術館、滋賀県立美術館に収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "takeshi-yoro": {
     "name": "養老孟司",
@@ -4341,13 +5077,19 @@
     },
     "snsCheckedAt": "2026-10-24",
     "profileUrl": "https://anomalytokyo.com/artist/takuro_tamayama/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profile": "玉山拓郎は、展示空間そのものに働きかけるインスタレーションを手がける作家です。床や光、音、日用品などを用い、既存の場の見え方を組み替えるような作品を発表しています。作品名にはFLOORやStatic Lights、Intervenesといった言葉が並び、空間と物の関係を問い直す姿勢がうかがえます。豊田市美術館や国立新美術館、ギャラリーSOPHなど国内外の展覧会で作品を発表してきました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tamaki-kitamura": {
     "name": "北村環",
     "nameRomaji": "Tamaki Kitamura",
     "nameKana": "きたむらたまき",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1006740",
+    "profileSource": "タグボート",
+    "profile": "北村環は1972年に石川県で生まれた作家で、2007年から東京を中心に個展を重ねています。ウッドパネルにアクリルと樹脂をスポイトやペインティングナイフで用いて着色する手法が見られ、浮世絵の美人画や歌舞伎の役者絵、西洋名画や女性像などを題材に、独特の色彩で描き直した作品を発表しています。2021年の第16回TAGBOAT AWARDで入選し、2020年にはIndependent Tokyo 2020で審査員特別賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tani-buncho": {
     "name": "谷文晁",
@@ -4366,7 +5108,11 @@
       "instagram": "https://www.instagram.com/tarokaribe/",
       "x": "https://x.com/tarokaribe"
     },
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profile": "苅部太郎は1988年愛知生まれ、東京在住の美術家・写真家です。心理学、公衆衛生、金融、ITを経て報道写真家として活動を始めました。画像生成AIを「形而上のカメラ」に見立てて意図的に用い、見ることを支配する不可視のシステムを問うのが特徴です。グリッチノイズやシリコン製ラブドールとの暮らしなどを題材に、人と非人間の関係を描く作品を発表しています。作品は東京都写真美術館に収蔵されています。",
+    "profileUrl": "https://www.tarokaribe.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "taro-masushio": {
     "name": "Taro Masushio",
@@ -4378,7 +5124,11 @@
     "name": "岡本太郎",
     "nameRomaji": "Taro Okamoto",
     "aliases": [],
-    "nameKana": "おかもとたろう"
+    "nameKana": "おかもとたろう",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=10250",
+    "profileSource": "タグボート",
+    "profile": "岡本太郎は1911年に神奈川県で生まれた作家です。『太陽の顔』や『黒い太陽』といった主題の作品が複数あり、作品の顔や太陽をモチーフにした表現が特徴の一つです。",
+    "profileCheckedAt": "2026-11-18"
   },
   "taro-tanaka": {
     "name": "田中太郎",
@@ -4411,7 +5161,11 @@
     "name": "河口龍夫",
     "nameRomaji": "Tatsuo Kawaguchi",
     "nameKana": "かわぐちたつお",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gyfa.co.jp/artist/tatsuo-kawaguchi.html",
+    "profileSource": "ギャラリーヤマキファインアート",
+    "profile": "河口龍夫は1940年に神戸市で生まれ、1962年に多摩美術大学絵画科を卒業した芸術家です。1965年には神戸を拠点とする芸術家集団「グループ〈位〉」を結成し、現在まで活動を続けています。初期の油彩作品から、鉄や闇を素材に時間や生命を見つめる作品へと展開してきました。筑波大学の教授などを務め、毎日芸術賞や神戸市文化賞などを受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tatsuya-tanaka": {
     "name": "田中達也",
@@ -4438,13 +5192,18 @@
     "nameRomaji": "Ted Noten",
     "aliases": [],
     "website": "https://www.tednoten.com",
-    "snsCheckedAt": "2026-10-27"
+    "snsCheckedAt": "2026-10-27",
+    "profileCheckedAt": "2026-11-18"
   },
   "teppei-kanauji": {
     "name": "金氏徹平",
     "nameRomaji": "Teppei Kanauji",
     "nameKana": "かねうじてっぺい",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://ycassociates.co.jp/artists/2019/03/20/238/",
+    "profileSource": "Yumiko Chiba Associates",
+    "profile": "金氏徹平は1978年京都府生まれで、京都市立芸術大学で彫刻を学び、在学中にロイヤル・カレッジ・オブ・アートにも交換留学しました。日常の物を収集し、コラージュ的な手法で彫刻を制作しており、絵画や映像、写真など多様な表現を用いながら、物質とイメージの関係を可視化する造形を探求しています。作品は横浜美術館や森美術館、金沢21世紀美術館など国内外の主要美術館に収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "teppei-sako": {
     "name": "迫 鉄平",
@@ -4491,20 +5250,28 @@
     "aliases": [],
     "nameKana": "いしだてつや",
     "website": "https://www.tetsuyaishida.jp/71843/",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1001970",
+    "profileSource": "タグボート",
+    "profileCheckedAt": "2026-11-18"
   },
   "tetsuya-umeda": {
     "name": "Tetsuya Umeda",
     "nameRomaji": "Tetsuya Umeda",
     "nameKana": "うめだてつや",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.otafinearts.com/artists/61-tetsuya-umeda/",
+    "profileSource": "オオタファインアーツ",
+    "profile": "梅田哲也は1980年熊本県生まれで、現在は大阪を拠点にしています。空間の構造や周囲の環境、そこに刻まれた歴史に呼応するサイトスペシフィックなインスタレーションやパフォーマンスを、日本国内外で展開しています。現場にある物や日常的な素材、光・音・風・水といった物理現象を用い、ガラス球やロープなど少ない要素で空間を組み替え、鑑賞者に時間の痕跡をたどらせる作品を手がけています。美術館や劇場に限らず、廃屋や古民家、洞窟、山頂などでも制作しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "thao-nguyen-phan": {
     "name": "タオ・グエン・ファン",
     "nameRomaji": "Thao Nguyen Phan",
     "aliases": [],
     "website": "http://www.thaonguyenphan.com/",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileCheckedAt": "2026-11-18"
   },
   "theophile-alexandre-steinlen": {
     "name": "テオフィル・アレクサンドル・スタンラン",
@@ -4524,7 +5291,8 @@
     "nameKana": "たつのとえこ",
     "snsCheckedAt": "2026-10-23",
     "profileUrl": "https://anomalytokyo.com/artist/toeko-tatsuno/",
-    "profileSource": "ANOMALY"
+    "profileSource": "ANOMALY",
+    "profileCheckedAt": "2026-11-18"
   },
   "togyu-okumura": {
     "name": "奥村土牛",
@@ -4538,7 +5306,8 @@
     "aliases": [],
     "nameKana": "おかざきともひろ",
     "website": "http://www.swimmingdesign.com",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileCheckedAt": "2026-11-18"
   },
   "tomoki-shoda-takenaka-corporation-veig": {
     "name": "正田智樹＋竹中工務店＋veig",
@@ -4552,7 +5321,11 @@
     "aliases": [
       "Tomoko Konoike"
     ],
-    "nameKana": "こうのいけともこ"
+    "nameKana": "こうのいけともこ",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=600",
+    "profileSource": "タグボート",
+    "profile": "1960年に秋田県で生まれた作家です。作品には絵画や版画、インクジェットプリントに手彩を加えたものなど、複数の技法が見られます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tomoko-mukaiyama": {
     "name": "向井山朋子",
@@ -4570,7 +5343,11 @@
     "name": "橋本 知成｜Tomonari Hashimoto",
     "nameRomaji": "Tomonari Hashimoto",
     "nameKana": "はしもとともなり",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://parceltokyo.jp/artist/tomonari-hashimoto/",
+    "profileSource": "PARCEL",
+    "profile": "橋本知成は1990年和歌山県生まれで、信楽を拠点に活動する陶芸作家です。京都教育大学で美術を学んだのち、金沢美術工芸大学の大学院で陶磁を専攻し、博士後期課程を修了しています。空間そのものをひとつのインスタレーションとして捉え、2メートルを超える直方体や球体といった幾何学的な情景を作品で示しています。LOEWE Craft Prizeのファイナリストに選ばれるなど受賞歴も多く、ヴィクトリア&アルバート博物館やロサンゼルス・カウンティ美術館などに作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tomoyoshi-murayama": {
     "name": "村山知義",
@@ -4674,19 +5451,31 @@
     ],
     "website": "https://www.tovejansson.com/",
     "snsCheckedAt": "2026-10-24",
-    "nameKana": "とーべやんそん"
+    "nameKana": "とーべやんそん",
+    "profile": "トーベ・ヤンソンは、ムーミンを生み出した作家であり芸術家です。作品には暗さとユーモアが混ざり合った独特の感覚があり、誰ひとりとして世界の外に置かれないような温かいまなざしが感じられます。好奇心を失わないことを大切にした人物として紹介されています。",
+    "profileUrl": "https://www.tovejansson.com/",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "tsubasa-kato": {
     "name": "加藤翼",
     "nameRomaji": "Tsubasa Kato",
     "aliases": [],
-    "nameKana": "かとうつばさ"
+    "nameKana": "かとうつばさ",
+    "profileUrl": "https://www.mujin-to.com/artist/kato/",
+    "profileSource": "無人島プロダクション",
+    "profile": "加藤翼は1984年埼玉県生まれ、東京在住の作家です。パフォーマンス、構造体、ビデオなどを組み合わせた複層的なメディア・プロジェクトを手がけ、他者と共に行う実践を一貫した特徴としています。代表的なシリーズ「Pull and Raise」では、ロープで巨大な構造体を動かす行為への参加を周囲の人々に委ねています。2011年の震災後の福島での活動以降は現代社会への風刺性が増し、作品は森美術館や東京国立近代美術館など国内外の美術館に収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tsuguharu-foujita": {
     "name": "藤田嗣治",
     "nameRomaji": "Tsuguharu Foujita",
     "aliases": [],
-    "nameKana": "ふじたつぐはる"
+    "nameKana": "ふじたつぐはる",
+    "profileUrl": "https://www.galeriechene.com/jp/artists/2/foujita.html",
+    "profileSource": "ギャルリ・シェーヌ",
+    "profile": "藤田嗣治は1886年生まれ、1968年没の日本とフランスにまたがって活動した画家です。自画像や猫、若い女性を描いた作品が多く、鉛筆やペン、墨、リトグラフ、エッチングなど幅広い技法を用いました。細い線を生かした自由でのびのびとした表現が特徴で、猫の穏やかな寝顔には安らぎが感じられます。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tsukioka-yoshitoshi": {
     "name": "月岡芳年",
@@ -4713,7 +5502,11 @@
     "nameRomaji": "Tsuruko Yamazaki",
     "aliases": [],
     "nameKana": "やまざきつるこ",
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=11380",
+    "profileSource": "タグボート",
+    "profile": "山崎つる子は、1925年に兵庫県芦屋市で生まれた作家です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "tsurusawa-tansaku": {
     "name": "鶴沢探索",
@@ -4781,7 +5574,10 @@
       "ファン・ゴッホ"
     ],
     "nameKana": "ごっほ",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/v_gogh.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "viola-grasten": {
     "name": "ヴィオラ・グローステン",
@@ -4892,7 +5688,11 @@
     "name": "森村泰昌",
     "nameRomaji": "Yasumasa Morimura",
     "aliases": [],
-    "nameKana": "もりむらやすまさ"
+    "nameKana": "もりむらやすまさ",
+    "profileUrl": "https://mem-inc.jp/artists/morimura_j/",
+    "profileSource": "MEM",
+    "profile": "森村泰昌は、ゴッホやフェルメール、マリリン・モンローなどの有名な絵画や映画の人物に扮し、自らの身体で作品をつくる作家です。京都市立芸術大学在学中に写真家アーネスト・サトウの映像教室で学び、その影響を受けました。1984年の静物写真シリーズ「卓上のバルコネグロ」を経て、1985年にゴッホの自画像に扮した作品を発表し、「美術史の娘」シリーズへとつながりました。写真に加え、パフォーマンスや映像作品も手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yasuo-hayashi": {
     "name": "林康夫",
@@ -4927,7 +5727,11 @@
     "aliases": [],
     "nameKana": "くさまやよい",
     "website": "https://yayoi-kusama.jp/",
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://www.otafinearts.com/artists/72-yayoi-kusama/",
+    "profileSource": "オオタファインアーツ",
+    "profile": "1929年に長野県松本市で生まれ、絵画、彫刻、インスタレーション、映像、パフォーマンス、文学など幅広い分野で「自己消滅」という思想を追求してきた前衛芸術家です。幼い頃から経験した幻覚をもとに、網や水玉といった反復的なモチーフを作品に展開しました。1957年にアメリカへ渡り、ニューヨークの美術界で活動した後、1973年に帰国して東京を拠点にしています。鏡と光を用いた「無限の鏡の部屋」の作品は世界各地で多くの観客を集めています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yojiro-imasaka": {
     "name": "今坂庸二朗",
@@ -4940,7 +5744,11 @@
     "name": "䑓原蓉子",
     "nameRomaji": "Yoko Daihara",
     "aliases": [],
-    "nameKana": "だいはらようこ"
+    "nameKana": "だいはらようこ",
+    "profileUrl": "https://www.takeninagawa.com/artists/10929/",
+    "profileSource": "Take Ninagawa",
+    "profile": "䑓原蓉子は1989年に千葉県で生まれ、現在は東京都を拠点に活動している作家です。東京オペラシティアートギャラリーでの個展「project N 88」や、Take Ninagawaでの「食べてください食べないでください」「少し甘い」などの個展を開いてきました。十和田市現代美術館での「野良になる」など、グループ展にも多く参加しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yoko-matsumoto": {
     "name": "松本陽子",
@@ -4959,7 +5767,11 @@
       "x": "https://x.com/yokoono",
       "facebook": "https://www.facebook.com/yokoono"
     },
-    "snsCheckedAt": "2026-10-23"
+    "snsCheckedAt": "2026-10-23",
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=3080",
+    "profileSource": "タグボート",
+    "profile": "1933年に東京で生まれ、1950年代にニューヨークの前衛芸術の中心的存在として活動を始めた作家です。美術、音楽、映像、詩、パフォーマンスなど多様な表現を用い、政治や社会の矛盾に切り込んできました。観客が参加して完成するパフォーマンス作品を開拓し、コンセプチュアル・アートの先駆者として知られています。2001年にアメリカ美術批評家国際協会の賞を受け、2009年にはヴェネチア・ビエンナーレで金獅子賞（生涯業績部門）を受賞しました。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yoko-segawa": {
     "name": "瀬川葉子",
@@ -4985,14 +5797,19 @@
     "nameKana": "おおともよしひで",
     "aliases": [],
     "website": "https://otomoyoshihide.com/",
-    "snsCheckedAt": "2026-10-24"
+    "snsCheckedAt": "2026-10-24",
+    "profileCheckedAt": "2026-11-18"
   },
   "yoshihiro-suda": {
     "name": "須田悦弘",
     "nameRomaji": "Yoshihiro Suda",
     "aliases": [],
     "nameKana": "すだよしひろ",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://gallerykoyanagi.com/artists/yoshihiro-suda_jp/",
+    "profileSource": "ギャラリー小柳",
+    "profile": "須田悦弘は、朴の木を素材に岩絵具や顔料で着彩した実寸大の木彫の花や雑草を制作する作家です。作品は部屋の片隅や壁・床の隙間などに置かれ、見る人が思わぬ発見をすることで空間全体を新たな視点で捉え直す体験を生み出します。1969年山梨県生まれで、多摩美術大学グラフィックデザイン学科を卒業しています。古美術の仏像の欠損部を補作する活動も行い、現代と古典をつなぐ試みを重ねています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yoshikazu-yamagata": {
     "name": "山縣良和",
@@ -5017,7 +5834,11 @@
     "name": "戸泉恵徳",
     "nameRomaji": "Yoshinori Toizumi",
     "nameKana": "といずみよしのり",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gallery-ug.com/artists/keitokutoizumi/",
+    "profileSource": "gallery UG",
+    "profile": "戸泉恵徳は1979年大阪府生まれの画家で、2004年に東京造形大学美術学部絵画科を卒業しています。子供の頃に親しんだおもちゃの世界のように、色彩に満ちた輝く世界を想像しながら描き続けており、アクリル絵具を綿布に用いた作品が中心です。近年は庭で育てた薔薇の一瞬の美しさに心を動かされ、生きた花を描いた作品も手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yoshitaka-kurashige": {
     "name": "倉茂義隆",
@@ -5034,19 +5855,31 @@
     "sns": {
       "instagram": "https://www.instagram.com/michinara3/"
     },
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://www.pacegallery.com/artists/yoshitomo-nara/",
+    "profileSource": "Pace Gallery Tokyo",
+    "profile": "奈良美智は1959年に青森県弘前市で生まれ、愛知県立芸術大学大学院で修士号を取得した後、1988年からデュッセルドルフ美術アカデミーで学び、1994年以降はケルンを拠点に制作してきた作家です。子どもを描いた作品が特徴で、反抗や孤独といった感情から静けさや内省までを描き分けています。絵画のほか、ドローイング、写真、大型インスタレーション、陶器やブロンズによる彫刻など幅広い表現に取り組んでいます。東日本大震災以降は、無常や時間、美をテーマにした内省的な作品も手がけています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yugo-isaji": {
     "name": "Isaji Yugo",
     "nameRomaji": "Yugo Isaji",
     "nameKana": "いさじゆうご",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.kanakawanishi.com/isaji-yugo",
+    "profileSource": "KANA KAWANISHI GALLERY",
+    "profile": "伊佐治雄悟は1985年に岐阜県で生まれ、2008年に多摩美術大学美術学部彫刻学科を卒業した作家です。2019年にはポーラ美術振興財団の在外研修員としてスウェーデンで研修を行い、ヨーテボリでの滞在制作も経験しています。個展は東京や台北、フィリピンなど国内外で重ねられ、2010年にはトーキョーワンダーウォールで入選しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yui-komatsumoto": {
     "name": "小松本結/Yui Komatsumoto",
     "nameRomaji": "Yui Komatsumoto",
     "nameKana": "こまつもとゆい",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1009930",
+    "profileSource": "タグボート",
+    "profile": "1993年に三重県で生まれ、京都芸術大学の美術工芸学部油画（版画）専攻を卒業し、大学院も修了しています。アクリルや油彩を木製パネルに用いて制作しており、「flow」「Looks」「Detroit agate」「skin」といったシリーズで作品を発表しています。国内の複数のグループ展に参加し、2025年の「Independent Tokyo 2025」では徳光健治賞を受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuichi-idaka": {
     "name": "井高雄一",
@@ -5079,7 +5912,11 @@
     "name": "堀田ゆうか",
     "nameRomaji": "Yuka Hotta",
     "nameKana": "ほったゆうか",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://makifinearts.com/artists/yuka_hotta/",
+    "profileSource": "マキファインアーツ",
+    "profile": "1999年愛知県生まれの堀田ゆうかは、東京藝術大学で油画を学び、2025年に同大学院絵画専攻を修了しています。絵画を出発点に、ドローイングやインスタレーションを軸として制作しており、近年は版表現を作品に取り入れるなど、さまざまなメディアを介したドローイングにも取り組んでいます。アクリル、鉛筆、ジェッソを木製パネルや合板に用いた作品が中心で、2025年には東京のMaki Fine Artsで個展を開いています。東京藝術大学美術館にも作品が収蔵されています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuki-iiyama": {
     "name": "飯山由貴",
@@ -5092,7 +5929,11 @@
     "nameRomaji": "Yuki Katsura",
     "aliases": [],
     "nameKana": "かつらゆき",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileUrl": "https://www.tokyo-gallery.com/artists/yuki-katsura.html",
+    "profileSource": "東京画廊+BTAP",
+    "profile": "桂ゆき（1913〜1991）は大正生まれの作家で、戦前から紙やコルクを用いたコラージュ作品を手がけてきました。その後は抽象から風刺・戯画的な表現まで幅広い技法やスタイルを試み、多様な作品を残しています。東郷青児のアヴァンギャルド洋画研究所に学び、二科展の前衛グループ九室会の創立メンバーとなるなど、日本の前衛絵画の創成期に深く関わった人物です。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuki-ogura": {
     "name": "小倉遊亀",
@@ -5117,7 +5958,11 @@
     "name": "野田幸江",
     "nameRomaji": "Yukie Noda",
     "nameKana": "のだゆきえ",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://mizuma-art.co.jp/alsoworksby/noda-sachie/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "野田幸江は1978年に滋賀県で生まれた作家で、画家として制作しながら家業の花屋で植物に関わるようになりました。日常にある植物や風景に触れ、自然の要素を空間に配置する表現や、植物を用いた作品、庭づくりなどを通して、循環するモノの感触を探っています。2021年にはArtists' Fair Kyoto 2021で最優秀賞を受けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yukihiko-yasuda": {
     "name": "安田靫彦",
@@ -5129,13 +5974,20 @@
     "name": "藤本 由紀夫",
     "nameRomaji": "Yukio Fujimoto",
     "nameKana": "ふじもとゆきお",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://gyfa.co.jp/artist/yukio-fujimoto.html",
+    "profileSource": "ギャラリーヤマキファインアート",
+    "profile": "1950年名古屋市生まれで、現在は大阪市在住の作家です。「音」を「かたち」として捉えたサウンド・オブジェを中心に、人間の知覚を呼び起こす作品を発表しています。作品を通して外界の新たな認識の仕方を見出すことを鑑賞者の感覚に委ねる姿勢が特徴で、インスタレーションやパフォーマンスを通して空間での音の体験を広げています。1975年に大阪芸術大学音楽科を卒業し、現在は京都造形大学の教授も務めています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuko-mohri": {
     "name": "毛利悠子",
     "nameRomaji": "Yuko Mohri",
     "aliases": [],
-    "nameKana": "もうりゆうこ"
+    "nameKana": "もうりゆうこ",
+    "profileUrl": "https://www.yutakakikutakegallery.com/ja/artists/yuko-mohri/",
+    "profileSource": "ユタカキクタケギャラリー",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuko-tayama": {
     "name": "夛山祐子",
@@ -5143,14 +5995,18 @@
     "nameKana": "たやまゆうこ",
     "aliases": [],
     "website": "https://tayamayuko.com/",
-    "snsCheckedAt": "2026-10-25"
+    "snsCheckedAt": "2026-10-25",
+    "profileCheckedAt": "2026-11-18"
   },
   "yumeji-takehisa": {
     "name": "竹久夢二",
     "nameRomaji": "Yumeji Takehisa",
     "aliases": [],
     "nameKana": "たけひさゆめじ",
-    "snsCheckedAt": "2026-10-18"
+    "snsCheckedAt": "2026-10-18",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/yumeji_takehisa.html",
+    "profileSource": "日動画廊",
+    "profileCheckedAt": "2026-11-18"
   },
   "yumiko-fujino": {
     "name": "藤野裕美子",
@@ -5158,7 +6014,8 @@
     "aliases": [],
     "nameKana": "ふじのゆみこ",
     "website": "http://yumikofujino.com/",
-    "snsCheckedAt": "2026-10-22"
+    "snsCheckedAt": "2026-10-22",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuriko-asano": {
     "name": "浅野友理子",
@@ -5172,7 +6029,11 @@
     "aliases": [],
     "nameKana": "ささおかゆりこ",
     "website": "https://sasaokayurikoworks.wixsite.com/sasaokayuriko",
-    "snsCheckedAt": "2026-10-20"
+    "snsCheckedAt": "2026-10-20",
+    "profile": "笹岡由梨子は、京都市立芸術大学を拠点に活動する作家です。2016年には岡本太郎現代芸術賞で「Atem」が特別賞を受賞し、2017年には群馬青年ビエンナーレで大賞を受賞しています。スイスや台湾など海外でのレジデンスやグループ展にも参加しています。",
+    "profileUrl": "https://sasaokayurikoworks.wixsite.com/sasaokayuriko",
+    "profileSource": "公式サイト",
+    "profileCheckedAt": "2026-11-18"
   },
   "yusuke-obuchi-jun-nakamura": {
     "name": "小渕祐介＋中村 純",
@@ -5190,26 +6051,42 @@
     "name": "奥田雄太",
     "nameRomaji": "Yuta Okuda",
     "nameKana": "おくだゆうた",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://mizuma-art.co.jp/alsoworksby/okudayuta/",
+    "profileSource": "ミヅマアートギャラリー",
+    "profile": "愛知県生まれの作家で、日本とイギリスでファッションデザインを学んだのち、ファッションブランドのデザイナーを経て2016年にアーティストへ転向しました。初期は計算された線だけで構成する細密画を手がけ、近年は偶然性を重んじた花の作品を中心に発表しています。花びら一つひとつに緻密な線描が施され、ポップな色彩の中にも具象にとどまらない表現が見られます。コロナ禍をきっかけに「感謝を作品にしたい」という思いから、「With Gratitude」をテーマに制作を続けています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yutaka-hashimoto": {
     "name": "橋本ユタカ",
     "nameRomaji": "Yutaka Hashimoto",
     "nameKana": "はしもとゆたか",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.tagboat.com/products/list.php?author_id=1005880",
+    "profileSource": "タグボート",
+    "profile": "1979年大阪生まれの作家で、嵯峨美術短期大学と大阪総合デザイン専門学校を卒業しています。木製パネルやキャンバスにアクリルを用いて制作し、「無のための習作」や「私の規則に従う反復運動」といった連作シリーズを展開しています。漫画的な表現や落書きのようなグラフィティーアートに通じる要素を持つ作品が特徴です。TAGBOAT AWARD審査員特別賞やチェルシー国際ファインアートコンペティション審査員特別賞などを受賞しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuzo-saeki": {
     "name": "佐伯祐三",
     "nameRomaji": "Yuzo Saeki",
     "aliases": [],
     "nameKana": "さえきゆうぞう",
-    "snsCheckedAt": "2026-10-21"
+    "snsCheckedAt": "2026-10-21",
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/yuzo_saeki.html",
+    "profileSource": "日動画廊",
+    "profile": "佐伯祐三は1898年に大阪府中津村で生まれ、東京美術学校西洋画科を卒業した画家です。1926年には里見勝蔵や前田寛治らと「1930年協会」を結成し、第13回二科展で二科賞を受賞しました。1927年からはパリを拠点に制作し、「カフェ・レストラン」などの連作を手がけました。1928年に30歳で亡くなるまで、短い生涯のなかで多くの作品を残しています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "yuzo-yamamoto": {
     "name": "山本雄三",
     "nameRomaji": "Yuzo Yamamoto",
     "nameKana": "やまもとゆうぞう",
-    "aliases": []
+    "aliases": [],
+    "profileUrl": "https://www.nichido-garo.co.jp/artist/yuzo_yamamoto.html",
+    "profileSource": "日動画廊",
+    "profile": "山本雄三は1964年に鳥取県に生まれた作家で、武蔵野美術大学で学び、同大学院を修了しています。1998年の独立展新人賞をはじめ、独立展で複数の賞を受けたほか、前田寛治大賞展で大賞を受賞しています。現在は独立美術協会の会員を務め、女子美術大学短期大学部で准教授として教えています。",
+    "profileCheckedAt": "2026-11-18"
   },
   "zai-nomura": {
     "name": "野村在",

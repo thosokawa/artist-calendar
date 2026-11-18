@@ -17,5 +17,34 @@
     "facebook": "https://www.facebook.com/gallerynichido"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "東京都中央区銀座5-3-16",
+  "closed": "日曜・祝日",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "camille-pissarro",
+    "eisaku-wada",
+    "henri-matisse",
+    "jean-baptiste-camille-corot",
+    "kyuichiro-aihara",
+    "mario-ebiko",
+    "maurice-utrillo",
+    "naho-oishi",
+    "osamu-watanabe",
+    "pablo-picasso",
+    "paul-cezanne",
+    "pierre-auguste-renoir",
+    "pierre-bonnard",
+    "raoul-dufy",
+    "saburosuke-okada",
+    "seiji-togo",
+    "setsuko-migishi",
+    "shozo-shimada",
+    "takeji-fujishima",
+    "vincent-van-gogh",
+    "yumeji-takehisa",
+    "yuzo-saeki",
+    "yuzo-yamamoto"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

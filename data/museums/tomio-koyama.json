@@ -19,5 +19,19 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "小山登美夫ギャラリーは、現代美術の作家を扱う民営のギャラリーで、東京に六本木・京橋・天王洲の三拠点を構えています。六本木の館は港区六本木6丁目のcomplex665の2階にあり、京橋館は中央区京橋のTODA BUILDING 3階、天王洲館は品川区東品川のTerrada Art Complex I 4階に位置しています。所属作家の個展やグループ展を随時開催しており、展覧会に合わせて作品の図録も販売されています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒106-0032 東京都港区六本木6-5-24 complex665 2F",
+  "closed": "日曜・月曜・祝日",
+  "accessUrl": "https://www.tomiokoyamagallery.com/about/",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "atsushi-fukui",
+    "hideaki-kawashima",
+    "kishio-suga",
+    "mika-kato",
+    "mika-ninagawa",
+    "rieko-hidaka",
+    "yoko-ono"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

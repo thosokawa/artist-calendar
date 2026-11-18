@@ -19,5 +19,14 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "帝塚山画廊は大阪市西区南堀江にある現代美術のギャラリーです。国内の若手から中堅のアーティストを中心に、企画展やアートフェアを通して作品を発信しています。あわせて、アメリカやヨーロッパ、アジアで活動する海外アーティストの作品もコレクション展などで紹介しています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒550-0015 大阪府大阪市西区南堀江1–19–27 山崎ビル2F",
+  "closed": "日曜・月曜・祝日",
+  "accessUrl": "https://www.tezukayama-g.com/about",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "masaaki-suzuki",
+    "satoru-tamura"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

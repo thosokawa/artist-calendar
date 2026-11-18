@@ -17,5 +17,22 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "ギャルリ・シェーヌは東京都中央区にある画廊で、2021年4月に、2020年末に閉廊したガレリア・グラフィカと同じ場所の1階に新たに設けられました。前身のガレリア・グラフィカは1970年に開廊し、約50年にわたって続いた画廊です。現在は展覧会ごとに作品を紹介し、平面作品や染色・織の作品、日本画や染付皿など幅広い分野の作家の展示を行っています。また、所属作品の一部は代官山や二子玉川、銀座の蔦屋系の店舗でも展示・販売されています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "closed": "日曜・祝日は休廊",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "alberto-giacometti",
+    "albrecht-durer",
+    "andy-warhol",
+    "lootone",
+    "mari-kaseya",
+    "odilon-redon",
+    "pablo-picasso",
+    "paul-gauguin",
+    "rembrandt",
+    "rene-magritte",
+    "salvador-dali",
+    "tsuguharu-foujita"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

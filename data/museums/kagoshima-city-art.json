@@ -15,5 +15,10 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "鹿児島市立美術館は、所蔵品による展示と特別企画展を行う美術館です。現在は秋の所蔵品展で、草間彌生の作品《RED-DOTS》や所蔵作家の作品と写真資料を紹介しています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒892-0853 鹿児島市城山町4番36号",
+  "access": "カゴシマシティビューバス「西郷銅像前」下車徒歩1分、市電「朝日通」またはバス「金生町」下車徒歩5分",
+  "closed": "月曜日（祝日の場合はその翌平日）、12月29日～1月1日",
+  "accessUrl": "https://www.city.kagoshima.lg.jp/artmuseum/access.html",
+  "infoCheckedAt": "2026-11-18"
 }

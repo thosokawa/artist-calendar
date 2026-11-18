@@ -17,5 +17,19 @@
   },
   "snsCheckedAt": "2026-10-18",
   "intro": "ケンジタキギャラリーは、名古屋と東京・六本木の二つの拠点で活動する現代美術のギャラリーです。名古屋の拠点では、所属作家の展覧会や作家を交えたグループ展を随時開催しています。扱う作家は、塩田千春、若林奮、イケムラレイコなど、彫刻やインスタレーション、版画などさまざまな表現の作家が中心です。各作家の美術館での展示や国際展への参加状況も随時発信されています。",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "closed": "日曜・月曜・祝日",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "arika-someya",
+    "chiharu-shiota",
+    "eiji-watanabe",
+    "fukumi-sukigara",
+    "isamu-wakabayashi",
+    "kei-tajima",
+    "kentaro-yokouchi",
+    "saburo-muraoka",
+    "sakuji-yoshimoto"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

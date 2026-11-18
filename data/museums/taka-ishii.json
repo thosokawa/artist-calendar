@@ -15,5 +15,17 @@
     "instagram": "https://www.instagram.com/takaishiigallery/"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "access": "日比谷線・大江戸線「六本木駅」3番出口より徒歩3分",
+  "closed": "日・月・祝祭日",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "daido-moriyama",
+    "ei-arakawa-nash",
+    "kei-takemura",
+    "kohei-yamada",
+    "rika-noguchi",
+    "sterling-ruby"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

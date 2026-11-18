@@ -17,5 +17,14 @@
     "facebook": "https://www.facebook.com/MakiFineArts"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "address": "〒162-0808 東京都新宿区天神町77-5 ラスティックビルB101",
+  "closed": "月・火曜",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "makoto-ito",
+    "shoko-masunaga",
+    "yuka-hotta"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }
