@@ -218,7 +218,7 @@ export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl, repr
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
 ${a.profile ? `<h2>${esc(a.name)}について</h2><p class="intro">${esc(a.profile)}</p>${a.profileUrl ? `<p class="hint">参考: <a href="${esc(a.profileUrl)}" rel="noopener">${esc(a.profileSource ?? '公式サイト')}</a></p>` : ''}` : ''}
 ${bookShelf(`${a.name}の画集・作品集`, ctx.books?.[slug]?.items)}
-${shows.length >= 2 ? `<h2>展覧会の年表</h2>${groupBy([...shows].reverse(), (e) => e.startDate.slice(0, 4)).map(([y, xs]) => `<h3 class="year">${y}年</h3>${rows(xs, ctx)}`).join('')}` : by('past').length ? `<h2>過去の展覧会</h2>${list(by('past'), ctx)}` : ''}`;
+${by('past').length ? `<h2>${esc(a.name)}の過去の展覧会</h2>${by('past').length >= 2 ? groupBy([...by('past')].reverse(), (e) => e.startDate.slice(0, 4)).map(([y, xs]) => `<h3 class="year">${y}年</h3>${rows(xs, ctx)}`).join('') : list(by('past'), ctx)}` : ''}`;
   const side = `${notifyCard(a.name, lineUrl)}
 ${represented.length ? `<section class="side-box"><h2>取り扱いギャラリー</h2><ul class="chips">${represented.map((g) => `<li><a href="/museums/${esc(g.id)}/">${esc(g.name)}</a></li>`).join('')}</ul></section>` : ''}
 ${recs.length ? `<section class="side-box"><h2>${esc(a.name)}が好きな人におすすめの作家</h2><ul class="chips">${recs.map((r) => `<li><a href="/artists/${esc(r.slug)}/">${esc(ctx.artists[r.slug].name)}</a></li>`).join('')}</ul></section>` : ''}
