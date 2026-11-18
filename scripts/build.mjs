@@ -25,6 +25,9 @@ const museums = Object.fromEntries(readdirSync(join(root, 'data/museums')).filte
 const exhibitions = readdirSync(join(root, 'data/exhibitions')).filter((f) => f.endsWith('.json')).flatMap((f) => readJson(`data/exhibitions/${f}`)).filter((e) => museums[e.museumId]);
 const artists = readJson('data/artists.json', {});
 const announcements = readJson('data/announcements.json', []);
+// Shown visitor comments, exported from the database by the build workflow just before building (not kept in git).
+const commentsBy = {};
+for (const c of readJson('data/comments.json', [])) (commentsBy[c.exhibition_id] ??= []).push(c);
 const ctx = { museums, artists, today };
 const byStart = (a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title);
 const live = exhibitions.filter((e) => e.endDate >= today).sort(byStart);
@@ -123,7 +126,8 @@ for (const e of exhibitions) {
   const sameArtists = pick(live.filter((o) => o.artists.some((s) => e.artists.includes(s))), 6);
   const sameVenue = pick(live.filter((o) => o.museumId === e.museumId), 6);
   const nearby = pick(live.filter((o) => museums[o.museumId].prefecture === museums[e.museumId].prefecture), 6);
-  page(`/exhibitions/${e.id}/`, exhibitionPage({ site, e, ctx, otherVenues, googleUrl: gcal(e), icsUrl: `/exhibitions/${e.id}.ics`, sameArtists, sameVenue, nearby }), touched(e));
+  const comments = commentsBy[e.id] ?? [];
+  page(`/exhibitions/${e.id}/`, exhibitionPage({ site, e, ctx, otherVenues, googleUrl: gcal(e), icsUrl: `/exhibitions/${e.id}.ics`, sameArtists, sameVenue, nearby, comments }), latest([touched(e), comments[0]?.created_at?.slice(0, 10)]));
   write(`exhibitions/${e.id}.ics`, buildCalendar([exhibitionEvent(e, { museum: museums[e.museumId], siteUrl: site.baseUrl, host })], { name: e.title, now }));
 }
 

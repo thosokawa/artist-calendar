@@ -44,3 +44,16 @@ CREATE TABLE IF NOT EXISTS clicks (
   n INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (day, kind, page)
 );
+-- Visitors' impressions of an exhibition. Checked by Claude before they show (status ok); reported ones are hidden.
+CREATE TABLE IF NOT EXISTS comments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  exhibition_id TEXT NOT NULL,
+  name TEXT NOT NULL,
+  body TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'pending',  -- ok / rejected / hidden (reported) / pending (not checked yet)
+  reason TEXT NOT NULL DEFAULT '',
+  sender TEXT NOT NULL DEFAULT '',          -- hashed IP + day, only to limit posts per person
+  reports INTEGER NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS comments_by_exhibition ON comments (exhibition_id, status);

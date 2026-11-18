@@ -27,6 +27,7 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       LINE_CHANNEL_SECRET: ${{ secrets.LINE_CHANNEL_SECRET }}
       LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       SITE: https://artping.app
     steps:
       - uses: actions/checkout@v4
@@ -36,8 +37,6 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm test
-      - run: npm run build
       - name: Create the Pages project and database if needed
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: |
@@ -50,11 +49,22 @@ jobs:
           else
             echo "::warning::D1 database unavailable (does the Cloudflare token have D1 Edit?). LINE features stay off."
           fi
+      - name: Export shown visitor comments for the pages
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: |
+          [ -f wrangler.toml ] || exit 0
+          npx wrangler@3 d1 execute artist-calendar --remote --json --command "SELECT id, exhibition_id, name, body, created_at FROM comments WHERE status = 'ok' ORDER BY id DESC" > "$RUNNER_TEMP/comments.json" || exit 0
+          node -e 'const p=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));const rows=(Array.isArray(p)?p:[p]).flatMap(r=>r.results??[]);require("fs").writeFileSync("data/comments.json",JSON.stringify(rows));console.log(rows.length+" comments")' "$RUNNER_TEMP/comments.json"
+      - run: npm test
+      - run: npm run build
       - name: Pass the LINE keys to the site
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.LINE_CHANNEL_SECRET != '' }}
         run: |
           printf '%s' "$LINE_CHANNEL_SECRET" | npx wrangler@3 pages secret put LINE_CHANNEL_SECRET --project-name=artist-calendar
           printf '%s' "$LINE_CHANNEL_ACCESS_TOKEN" | npx wrangler@3 pages secret put LINE_CHANNEL_ACCESS_TOKEN --project-name=artist-calendar
+      - name: Pass the Claude key to the site (checks visitor comments)
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.ANTHROPIC_API_KEY != '' }}
+        run: printf '%s' "$ANTHROPIC_API_KEY" | npx wrangler@3 pages secret put ANTHROPIC_API_KEY --project-name=artist-calendar
       - name: Deploy to Cloudflare Pages
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: npx wrangler@3 pages deploy dist --project-name=artist-calendar --branch=main

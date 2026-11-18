@@ -246,7 +246,28 @@ ${represents.length ? `<h2>${esc(m.name)}の取り扱い作家</h2><ul class="ch
 ${nearby.length ? `<h2>${esc(m.prefecture)}のほかの美術館・ギャラリー</h2><ul class="chips">${nearby.map((n) => `<li><a href="/museums/${esc(n.id)}/">${esc(n.name)}</a></li>`).join('')}</ul>` : ''}` });
 }
 
-export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl, icsUrl, sameVenue = [], sameArtists = [], nearby = [] }) {
+function commentItem(c) {
+  return `<li data-id="${esc(c.id)}"><p class="c-body">${esc(c.body).replace(/\n/g, '<br>')}</p><p class="c-meta"><span class="c-name">${esc(c.name)}</span><span>${esc(String(c.created_at).slice(0, 10).replace(/-/g, '/'))}</span><button type="button" class="c-report">通報</button></p></li>`;
+}
+
+// Visitors' impressions. Shown ones are baked into the page at build time and refreshed by /assets/comments.js.
+function commentsBox(e, comments) {
+  return `<section class="comments" id="comments" data-e="${esc(e.id)}" data-t="${esc(e.title)}">
+<h2>みんなの感想${comments.length ? `<small class="c-count">${comments.length}件</small>` : ''}</h2>
+<ul class="comment-list">${comments.map(commentItem).join('')}</ul>
+<p class="c-empty"${comments.length ? ' hidden' : ''}>まだ感想はありません。行った方は、ぜひ最初の感想を書いてください。</p>
+<form class="comment-form" method="post" action="/api/comments">
+<input type="hidden" name="e" value="${esc(e.id)}"><input type="hidden" name="t" value="${esc(e.title)}">
+<label>ニックネーム（任意）<input name="name" maxlength="20" placeholder="匿名" autocomplete="nickname"></label>
+<label>感想<textarea name="body" required minlength="10" maxlength="400" rows="4" placeholder="見どころ、混み具合、よかった作品など（10〜400字）"></textarea></label>
+<label class="hp" aria-hidden="true">website<input name="website" tabindex="-1" autocomplete="off"></label>
+<div class="c-actions"><button type="submit" class="btn">感想を投稿する</button><span class="meta">内容を自動で確認してから掲載します。URL・個人情報は書けません。</span></div>
+<p class="c-result" role="status" hidden></p>
+</form></section>
+<script type="module" src="/assets/comments.js"></script>`;
+}
+
+export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl, icsUrl, sameVenue = [], sameArtists = [], nearby = [], comments = [] }) {
   const m = ctx.museums[e.museumId];
   const st = statusOn(e, ctx.today);
   return layout({ site, path: `/exhibitions/${e.id}/`, title: `${e.title}（${m.name}）`, description: `${e.title}。${m.name}にて${period(e)}。${e.summary}`, body: `
@@ -259,6 +280,7 @@ ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</
 <p class="actions"><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" rel="nofollow">iPhoneのカレンダーに追加</a>` : ''}</p>
 ${e.kind !== 'collection' && m.kind !== 'gallery' ? catalogBox(site, e, st) : ''}
 ${e.artists.length ? `<section class="notify-card small"><div class="notify-text"><p class="notify-title"><span class="dot" aria-hidden="true"></span>この作家の次の展覧会を、LINEでお知らせします</p><p class="meta">作家ページの「LINEで通知を受け取る」から登録できます。無料・会員登録なし。</p></div><ul class="chips">${e.artists.filter((x) => ctx.artists[x]).slice(0, 6).map((x) => `<li><a href="/artists/${esc(x)}/#notify">${esc(ctx.artists[x].name)}</a></li>`).join('')}</ul></section>` : ''}
+${commentsBox(e, comments)}
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}
 ${sameArtists.length ? `<h2>同じ作家のほかの展覧会</h2>${list(sameArtists, ctx)}` : ''}
 ${sameVenue.length ? `<h2>${esc(m.name)}のほかの展覧会</h2>${list(sameVenue, ctx, { showMuseum: false })}` : ''}

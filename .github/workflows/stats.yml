@@ -29,6 +29,7 @@ jobs:
           q() { npx wrangler@3 d1 execute artist-calendar --remote --json --command "$2" > "$D/$1"; }
           q users.json "SELECT (SELECT COUNT(*) FROM users WHERE active = 1) AS users, (SELECT COUNT(*) FROM users WHERE created_at >= datetime('now', '-7 days')) AS new_users, (SELECT COUNT(*) FROM follows) AS follows, (SELECT COUNT(DISTINCT user_id) FROM follows) AS followers, (SELECT COUNT(*) FROM searches) AS searches"
           q kinds.json "SELECT kind, SUM(CASE WHEN day >= date('now', '+9 hours', '-6 days') THEN n ELSE 0 END) AS d7, SUM(n) AS d30 FROM clicks WHERE day >= date('now', '+9 hours', '-29 days') GROUP BY kind ORDER BY d30 DESC"
+          q comments.json "SELECT SUM(created_at >= datetime('now', '-7 days')) AS new7, SUM(status = 'ok') AS shown, SUM(status = 'rejected') AS rejected, SUM(status = 'hidden') AS hidden, SUM(status = 'pending') AS pending FROM comments"
           q pages.json "SELECT page, SUM(n) AS n FROM clicks WHERE day >= date('now', '+9 hours', '-29 days') GROUP BY page ORDER BY n DESC LIMIT 15"
           node scripts/stats-report.mjs "$D" "$D/report.md"
       - name: Post to the 利用状況 issue
