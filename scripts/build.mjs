@@ -28,7 +28,8 @@ const announcements = readJson('data/announcements.json', []);
 // Shown visitor comments, exported from the database by the build workflow just before building (not kept in git).
 const commentsBy = {};
 for (const c of readJson('data/comments.json', [])) (commentsBy[c.exhibition_id] ??= []).push(c);
-const ctx = { museums, artists, today };
+const ctx = { museums, artists, today, books: readJson('data/books.json', {}) };
+const rakutenAd = Object.values(ctx.books).some((b) => b.items?.some((x) => x.affiliate));
 const byStart = (a, b) => a.startDate.localeCompare(b.startDate) || a.title.localeCompare(b.title);
 const live = exhibitions.filter((e) => e.endDate >= today).sort(byStart);
 
@@ -157,9 +158,10 @@ page('/about/', indexPage({ site, path: '/about/', title: 'このサイトにつ
 <p>${esc(site.name)}は、好きな作家の展覧会を見逃さないためのサイトです。</p>
 <h2>料金</h2><p>無料でご利用いただけます。LINEで通知を受け取れるのは、作家5人・検索条件1つまでです。もっと多く登録できる有料プラン（月額300円程度）を準備中です。</p>
 <h2>情報の集め方</h2><ul><li>各美術館・ギャラリーの公式サイトの展覧会一覧を定期的に確認し、新しい展覧会を自動で追加しています。</li><li>展覧会名・会期・会場・作家名などの事実のみを掲載し、紹介文は独自に作成しています。画像や公式の文章は転載しません。</li><li>開館時間・料金・予約などは必ず公式サイトでご確認ください。</li></ul>
+${rakutenAd ? '<h2>広告について</h2><p>当サイトは楽天アフィリエイトに参加しています。作家の画集・作品集のカード（「PR」と表示）から楽天ブックスで商品を購入されると、当サイトに紹介料が支払われることがあります。表示する本は作家名で自動的に選んでいて、展覧会の情報や順番は広告とは関係なく決めています。</p>' : ''}
 ${site.moshimoRakuten?.a_id && !site.moshimoRakuten.paused ? '<h2>広告について</h2><p>当サイトはもしもアフィリエイトを通じて楽天市場などのアフィリエイトに参加しています。「PR」と表示したリンクから商品を購入されると、当サイトに紹介料が支払われることがあります。掲載する展覧会の情報や順番は、広告とは関係なく決めています。</p>' : ''}
 <h2>運営</h2><p>運営: ${esc(site.operator)}　連絡先: ${esc(site.contactEmail)}</p>` }));
-page('/privacy/', indexPage({ site, path: '/privacy/', title: 'プライバシー', html: '<ul><li>LINEでの通知のために、LINEのユーザーID（LINEが発行する識別番号）と登録した作家だけを保存します。お名前やプロフィールは保存しません。友だちを解除すると通知は止まります。</li><li>カレンダーへの予定の追加はお使いのカレンダーアプリ側で行われ、当サイトが予定の内容を受け取ることはありません。</li><li>アクセス解析には Cookie を使わない方式を使います。</li><li>展覧会ページの感想には、ニックネームと本文だけを保存します。送信元の IP アドレスは、連続投稿を防ぐために日ごとに変わる符号に置き換えて保存し、元の IP アドレスは保存しません。投稿内容は、掲載してよいかの確認のため AI（Anthropic 社の Claude）に送ります。</li>' + (site.adsenseClient ? '<li>広告配信に Google AdSense を使っています。Google などの広告配信事業者は、Cookie を使ってこのサイトや他のサイトへのアクセス情報にもとづく広告を表示することがあります。パーソナライズ広告は <a href="https://adssettings.google.com/" rel="noopener">Google の広告設定</a> で無効にできます。詳しくは <a href="https://policies.google.com/technologies/ads?hl=ja" rel="noopener">Google の広告に関するポリシー</a> をご覧ください。</li>' : '') + (site.moshimoRakuten?.a_id && !site.moshimoRakuten.paused ? '<li>「PR」と表示したリンクはアフィリエイトのリンクです。リンク先で、もしもアフィリエイトや楽天が Cookie を使うことがあります。</li>' : '') + '</ul>' }));
+page('/privacy/', indexPage({ site, path: '/privacy/', title: 'プライバシー', html: '<ul><li>LINEでの通知のために、LINEのユーザーID（LINEが発行する識別番号）と登録した作家だけを保存します。お名前やプロフィールは保存しません。友だちを解除すると通知は止まります。</li><li>カレンダーへの予定の追加はお使いのカレンダーアプリ側で行われ、当サイトが予定の内容を受け取ることはありません。</li><li>アクセス解析には Cookie を使わない方式を使います。</li><li>展覧会ページの感想には、ニックネームと本文だけを保存します。送信元の IP アドレスは、連続投稿を防ぐために日ごとに変わる符号に置き換えて保存し、元の IP アドレスは保存しません。投稿内容は、掲載してよいかの確認のため AI（Anthropic 社の Claude）に送ります。</li>' + (site.adsenseClient ? '<li>広告配信に Google AdSense を使っています。Google などの広告配信事業者は、Cookie を使ってこのサイトや他のサイトへのアクセス情報にもとづく広告を表示することがあります。パーソナライズ広告は <a href="https://adssettings.google.com/" rel="noopener">Google の広告設定</a> で無効にできます。詳しくは <a href="https://policies.google.com/technologies/ads?hl=ja" rel="noopener">Google の広告に関するポリシー</a> をご覧ください。</li>' : '') + (site.moshimoRakuten?.a_id && !site.moshimoRakuten.paused ? '<li>「PR」と表示したリンクはアフィリエイトのリンクです。リンク先で、もしもアフィリエイトや楽天が Cookie を使うことがあります。</li>' : '') + (rakutenAd ? '<li>画集・作品集のカードは楽天アフィリエイトのリンクです。リンク先で楽天が Cookie を使うことがあります。</li>' : '') + '</ul>' }));
 
 cpSync(join(root, 'public'), dist, { recursive: true });
 // ads.txt: declares which ad network may sell this site's ad space (AdSense checks it).

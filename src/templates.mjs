@@ -139,6 +139,14 @@ export function catalogQuery(title) {
   return `${core.length >= 2 ? core : main.length >= 2 ? main : String(title).trim()} 図録`;
 }
 
+/** Cover cards of artist books from Rakuten Books (official API data, refreshed monthly). */
+function bookShelf(title, items) {
+  if (!items?.length) return '';
+  const ad = items.some((x) => x.affiliate);
+  return `<section class="books"><h2>${esc(title)}</h2><ul class="book-grid">${items.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="${x.affiliate ? 'sponsored ' : ''}nofollow noopener" data-track="books"><img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"><span class="b-title">${esc(x.title)}</span>${x.price ? `<span class="b-price">${Number(x.price).toLocaleString('ja-JP')}円</span>` : ''}</a></li>`).join('')}</ul>
+<p class="hint">${ad ? '<span class="pr">PR</span>' : ''}楽天ブックスの商品ページが開きます。価格は確認した時点のものです。</p></section>`;
+}
+
 function catalogBox(site, e, st) {
   return `<div class="shop box used"><p>${site.mercariAfid ? '<span class="pr">PR</span>' : ''}<strong>この展覧会の図録をさがす</strong><br><span class="meta">${st === 'past' ? '会期が終わった展覧会の図録は、フリマやオークションに出ていることがあります。' : '会場で売り切れた図録も、フリマやオークションに出ていることがあります。'}</span></p>
 <div class="actions">${usedLinks(site, catalogQuery(e.title))}</div></div>`;
@@ -209,6 +217,7 @@ export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl, repr
   const main = `<h2>開催中</h2>${list(by('current'), ctx)}
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
 ${a.profile ? `<h2>${esc(a.name)}について</h2><p class="intro">${esc(a.profile)}</p>${a.profileUrl ? `<p class="hint">参考: <a href="${esc(a.profileUrl)}" rel="noopener">${esc(a.profileSource ?? '公式サイト')}</a></p>` : ''}` : ''}
+${bookShelf(`${a.name}の画集・作品集`, ctx.books?.[slug]?.items)}
 ${shows.length >= 2 ? `<h2>展覧会の年表</h2>${groupBy([...shows].reverse(), (e) => e.startDate.slice(0, 4)).map(([y, xs]) => `<h3 class="year">${y}年</h3>${rows(xs, ctx)}`).join('')}` : by('past').length ? `<h2>過去の展覧会</h2>${list(by('past'), ctx)}` : ''}`;
   const side = `${notifyCard(a.name, lineUrl)}
 ${represented.length ? `<section class="side-box"><h2>取り扱いギャラリー</h2><ul class="chips">${represented.map((g) => `<li><a href="/museums/${esc(g.id)}/">${esc(g.name)}</a></li>`).join('')}</ul></section>` : ''}
@@ -280,6 +289,7 @@ export function exhibitionPage({ site, e, ctx, otherVenues, googleUrl, icsUrl, s
   const main = `<p>${esc(e.summary)}</p>
 ${e.description ? `<h2>展覧会の内容</h2><p class="intro">${esc(e.description)}</p>` : ''}
 ${commentsBox(e, comments)}
+${bookShelf(e.artists.length === 1 ? `${ctx.artists[e.artists[0]]?.name ?? ''}の画集・作品集` : '出品作家の画集・作品集', e.artists.flatMap((x) => ctx.books?.[x]?.items ?? []).slice(0, 4))}
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}
 ${sameArtists.length ? `<h2>同じ作家のほかの展覧会</h2>${list(sameArtists, ctx)}` : ''}
 ${sameVenue.length ? `<h2>${esc(m.name)}のほかの展覧会</h2>${list(sameVenue, ctx, { showMuseum: false })}` : ''}

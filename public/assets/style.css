@@ -317,3 +317,11 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 .notify-card .notify-steps b{background:var(--coral)}
 .notify-card .chips a{border-color:transparent}
 .notify-card a:not(.btn):not(.chips a){color:#F2B6A2}
+/* Artist books (Rakuten Books API) */
+.book-grid{list-style:none;margin:0 0 6px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.book-grid a{display:flex;flex-direction:column;gap:6px;height:100%;box-sizing:border-box;background:var(--card);border:1px solid var(--line);padding:12px;color:var(--fg);text-decoration:none}
+.book-grid a:hover{border-color:var(--ink)}
+.book-grid img{width:100%;aspect-ratio:1;object-fit:contain;background:var(--bg)}
+.b-title{font-size:.85rem;font-weight:700;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.b-price{margin-top:auto;font-size:.85rem;color:var(--link);font-weight:700}
+@media (max-width:640px){.book-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
