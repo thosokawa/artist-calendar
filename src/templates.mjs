@@ -219,12 +219,12 @@ export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl, repr
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
   const main = `<h2>開催中</h2>${list(by('current'), ctx)}
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
+${represented.length ? `<h2>取り扱いギャラリー</h2><ul class="chips">${represented.map((g) => `<li><a href="/museums/${esc(g.id)}/">${esc(g.name)}</a></li>`).join('')}</ul>` : ''}
+${recs.length ? `<h2>${esc(a.name)}が好きな人におすすめの作家</h2><ul class="chips">${recs.map((r) => `<li><a href="/artists/${esc(r.slug)}/">${esc(ctx.artists[r.slug].name)}</a></li>`).join('')}</ul>` : ''}
 ${a.profile ? `<h2>${esc(a.name)}について</h2><p class="intro">${esc(a.profile)}</p>${a.profileUrl ? `<p class="hint">参考: <a href="${esc(a.profileUrl)}" rel="noopener">${esc(a.profileSource ?? '公式サイト')}</a></p>` : ''}` : ''}
 ${bookShelf(`${a.name}の画集・作品集`, ctx.books?.[slug]?.items)}
 ${by('past').length ? `<h2>${esc(a.name)}の過去の展覧会</h2>${by('past').length >= 2 ? groupBy([...by('past')].reverse(), (e) => e.startDate.slice(0, 4)).map(([y, xs]) => `<h3 class="year">${y}年</h3>${rows(xs, ctx)}`).join('') : list(by('past'), ctx)}` : ''}`;
   const side = `${notifyCard(a.name, lineUrl)}
-${represented.length ? `<section class="side-box"><h2>取り扱いギャラリー</h2><ul class="chips">${represented.map((g) => `<li><a href="/museums/${esc(g.id)}/">${esc(g.name)}</a></li>`).join('')}</ul></section>` : ''}
-${recs.length ? `<section class="side-box"><h2>${esc(a.name)}が好きな人におすすめの作家</h2><ul class="chips">${recs.map((r) => `<li><a href="/artists/${esc(r.slug)}/">${esc(ctx.artists[r.slug].name)}</a></li>`).join('')}</ul></section>` : ''}
 ${shopBox(site, a.name)}`;
   // With a single show and no profile the page repeats that exhibition's page; it stays out of search until it has more.
   return layout({ site, wide: true, noindex: shows.length < 2 && !a.profile, path: `/artists/${slug}/`, title: `${a.name}の展覧会`, description: `${a.name}${a.nameRomaji ? `（${a.nameRomaji}）` : ''}の開催中・開催予定の展覧会と、カレンダー登録。`, body: `
