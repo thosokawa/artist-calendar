@@ -18,5 +18,14 @@
     "youtube": "https://www.youtube.com/user/mccaffreygallery"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "represents": [
+    "hitoshi-nomura",
+    "jiro-yoshihara",
+    "kazuo-shiraga",
+    "natsuyuki-nakanishi",
+    "paul-wallach",
+    "sadamasa-motonaga"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }

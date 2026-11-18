@@ -16,5 +16,16 @@
     "facebook": "https://www.facebook.com/anomalytokyo"
   },
   "snsCheckedAt": "2026-10-18",
-  "describedAt": "2026-11-08"
+  "describedAt": "2026-11-08",
+  "infoCheckedAt": "2026-11-18",
+  "represents": [
+    "hiroyuki-oki",
+    "ishu-han",
+    "kenji-yanobe",
+    "kohei-kobayashi",
+    "noe-aoki",
+    "takuro-tamayama",
+    "toeko-tatsuno"
+  ],
+  "representsCheckedAt": "2026-11-18"
 }
