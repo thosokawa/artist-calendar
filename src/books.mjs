@@ -8,7 +8,8 @@ const squash = (s) => String(s ?? '').normalize('NFKC').replace(/[\s・･,.、]
 export async function searchBooks({ name, appId, accessKey, affiliateId, fetchFn = fetch }) {
   const q = new URLSearchParams({ format: 'json', formatVersion: '2', applicationId: appId, accessKey, author: name, hits: '20', sort: 'standard', outOfStockFlag: '0' });
   if (affiliateId) q.set('affiliateId', affiliateId);
-  const res = await fetchFn(`${ENDPOINT}?${q}`, { headers: { accessKey } });
+  // The app is registered with artping.app as its allowed website; the API checks the calling site from these headers.
+  const res = await fetchFn(`${ENDPOINT}?${q}`, { headers: { accessKey, Referer: 'https://artping.app/', Origin: 'https://artping.app' } });
   if (res.status === 404) return [];
   if (!res.ok) throw new Error(`Rakuten ${res.status}: ${(await res.text()).slice(0, 200)}`);
   const j = await res.json();
