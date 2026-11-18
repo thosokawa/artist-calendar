@@ -1,4 +1,4 @@
-:root{--bg:#F5F3EF;--fg:#20252D;--muted:#6A675F;--line:#E4E0D8;--card:#fff;--ink:#20252D;--coral:#D56850;--coral-soft:#FBE4DC;--link:#B4502F;--accent:#20252D;--accent-fg:#fff;--cur:#2f6b3a;--up:#2c5a8a;--past:#8a857c}
+:root{--bg:#F5F3EF;--fg:#20252D;--muted:#6A675F;--line:#E4E0D8;--card:#fff;--ink:#20252D;--coral:#D56850;--coral-soft:#EAE4D8;--link:#B4502F;--accent:#20252D;--accent-fg:#fff;--cur:#2f6b3a;--up:#2c5a8a;--past:#8a857c}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 "Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif}
@@ -310,3 +310,10 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 .col-side .map{aspect-ratio:4/3}
 @media (min-width:901px){.col-main .cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:900px){.cols{display:flex;flex-direction:column;gap:0}.col-side{display:contents}.col-side>*{order:2;margin:16px 0}.col-side>.m-top{order:-1}.col-main{order:1}}
+/* LINE notify panels: inverted ink, the strongest block on the page */
+.notify-card{background:var(--ink);color:#fff}
+.notify-card .meta{color:#C9C5BC}
+.notify-card .notify-steps li{color:var(--fg)}
+.notify-card .notify-steps b{background:var(--coral)}
+.notify-card .chips a{border-color:transparent}
+.notify-card a:not(.btn):not(.chips a){color:#F2B6A2}
