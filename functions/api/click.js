@@ -1,5 +1,5 @@
 // Counts presses of the LINE buttons (sent with navigator.sendBeacon). Stores only day, button and page path.
-const KINDS = new Set(['line-header', 'line-artist', 'line-about', 'line-search']);
+const KINDS = new Set(['line-header', 'line-artist', 'line-artist-card', 'line-about', 'line-search']);
 
 export async function onRequestPost({ request, env }) {
   if (!env.DB) return new Response(null, { status: 204 });

@@ -10,7 +10,8 @@
     "a_id": "5852675",
     "p_id": "54",
     "pc_id": "54",
-    "pl_id": "616"
+    "pl_id": "616",
+    "paused": true
   },
   "mercariAfid": "8193527063",
   "adsenseClient": "ca-pub-4678569513458862"

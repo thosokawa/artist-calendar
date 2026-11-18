@@ -255,3 +255,15 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 .map iframe{width:100%;height:100%;border:0;display:block}
 .month-nav{display:flex;gap:16px;flex-wrap:wrap;font-size:.9rem}
 @media (max-width:560px){.rows li{flex-wrap:wrap;gap:2px 10px}.rows .when{width:auto}.rows .what{flex-basis:100%;order:3}}
+/* In-page LINE sign-up card */
+.notify-card{display:flex;align-items:center;gap:16px 28px;margin:24px 0;padding:20px 24px;background:var(--card);border:2px solid var(--ink);position:relative}
+.notify-card::after{content:"";position:absolute;top:-7px;right:-7px;width:12px;height:12px;border-radius:50%;background:var(--coral)}
+.notify-text{flex:1;min-width:0}
+.notify-title{margin:0 0 8px;font-weight:900;font-size:1.08rem}
+.notify-title .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--coral);margin-right:8px;vertical-align:2px}
+.notify-steps{margin:0 0 6px;padding-left:1.3em;font-size:.9rem;line-height:1.7}
+.notify-card .meta{margin:0}
+.notify-card .btn{flex:none;margin:0;white-space:nowrap}
+.notify-card .chips{flex:none;max-width:45%;margin:0}
+@media (max-width:640px){.notify-card{flex-direction:column;align-items:stretch;padding:16px}.notify-card .btn{text-align:center}.notify-card .chips{max-width:none}}
+.subscribe{transition:visibility .25s,opacity .25s}.subscribe.away{visibility:hidden;opacity:0 !important}

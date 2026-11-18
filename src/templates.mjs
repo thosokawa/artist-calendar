@@ -70,7 +70,7 @@ ${site.adsenseClient ? `<meta name="google-adsense-account" content="${esc(site.
 <header class="top"><div class="top-in">
 <a class="brand" href="/">${MARK}<span>${esc(site.name)}</span></a><span class="brand-sub">展覧会情報検索 × 通知サービス</span>
 <nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館・画廊</a></nav>
-${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow" data-track="line-header">LINEで受け取る</a>` : ''}
+${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow" data-track="line-header">新着展覧会をLINEで通知</a>` : ''}
 </div></header>
 <main${wide ? ' class="wide"' : ''}>${body}${shareBox(site, path, full)}</main>
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
@@ -119,8 +119,10 @@ function shopBox(site, name) {
   const m = site.moshimoRakuten;
   if (!m?.a_id) return '';
   const books = `https://books.rakuten.co.jp/search?sitem=${encodeURIComponent(name)}&g=001`;
-  return `<div class="shop box"><p><span class="pr">PR</span><strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。過去の展覧会の図録は、フリマやオークションで見つかることもあります。</span></p>
-<div class="actions"><a class="btn alt" href="${esc(moshimoLink(m, books))}" rel="sponsored nofollow noopener" referrerpolicy="no-referrer-when-downgrade">楽天ブックスでさがす</a>${usedLinks(site, `${name} 図録`)}</div></div>`;
+  // paused: the affiliate link is not working yet, so link straight to Rakuten Books (no PR label).
+  const href = m.paused ? books : moshimoLink(m, books);
+  return `<div class="shop box"><p>${m.paused ? '' : '<span class="pr">PR</span>'}<strong>${esc(name)}の画集・図録</strong><br><span class="meta">展覧会の前後に、作品集で予習・復習を。過去の展覧会の図録は、フリマやオークションで見つかることもあります。</span></p>
+<div class="actions"><a class="btn alt" href="${esc(href)}" rel="${m.paused ? '' : 'sponsored '}nofollow noopener" target="_blank" referrerpolicy="no-referrer-when-downgrade">楽天ブックスでさがす</a>${usedLinks(site, `${name} 図録`)}</div></div>`;
 }
 
 // Second-hand catalogues: links to search results on flea-market and auction sites (no scraping, just a search link).
@@ -145,6 +147,17 @@ function catalogBox(site, e, st) {
 function lineBox(name, lineUrl) {
   return `<div class="subscribe"><div class="subscribe-in"><p><span class="dot" aria-hidden="true"></span><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><span class="sub">新しい展覧会が発表されたら通知が届き、そこからカレンダーに予定を追加できます。</span></p>
 ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist">LINEで通知を受け取る</a>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div></div>`;
+}
+
+// In-page sign-up card (the fixed bar at the bottom is easy to miss on wide screens).
+function notifyCard(name, lineUrl) {
+  if (!lineUrl) return '';
+  return `<section class="notify-card" id="notify" aria-label="LINEでお知らせ"><div class="notify-text"><p class="notify-title"><span class="dot" aria-hidden="true"></span>${esc(name)}の新しい展覧会を、LINEでお知らせします</p>
+<ol class="notify-steps"><li>ボタンを押してLINEを開く</li><li>表示されたメッセージをそのまま送信</li><li>新しい展覧会が発表された日に通知が届きます</li></ol>
+<p class="meta">無料・会員登録なし。通知からカレンダーに予定を追加できます。</p></div>
+<a class="btn line big" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist-card">LINEで通知を受け取る</a></section>
+<script>(() => { const c = document.getElementById('notify'), bar = document.querySelector('.subscribe'); if (!c || !bar || !window.IntersectionObserver) return;
+  new IntersectionObserver(([e]) => bar.classList.toggle('away', e.isIntersecting)).observe(c); })();</script>`;
 }
 
 export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }) {
@@ -195,6 +208,7 @@ export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl, repr
   return layout({ site, noindex: shows.length < 2 && !a.profile, path: `/artists/${slug}/`, title: `${a.name}の展覧会`, description: `${a.name}${a.nameRomaji ? `（${a.nameRomaji}）` : ''}の開催中・開催予定の展覧会と、カレンダー登録。`, body: `
 ${pageHead('ARTIST', esc(a.name), esc(a.nameRomaji ?? ''), `${a.website || a.sns ? `<p class="head-links">${a.website ? `<a href="${esc(a.website)}" target="_blank" rel="noopener">公式サイト</a>` : ''}${snsRow(a.sns, a.name)}</p>` : ''}${genres.length ? `<div class="tags">${genres.map((g) => `<a href="/search/?genre=${encodeURIComponent(g)}">${esc(g)}</a>`).join('')}</div>` : ''}`)}
 ${lineBox(a.name, lineUrl)}
+${notifyCard(a.name, lineUrl)}
 <h2>開催中</h2>${list(by('current'), ctx)}
 <h2>開催予定</h2>${list(by('upcoming'), ctx)}
 ${shopBox(site, a.name)}
@@ -245,7 +259,7 @@ ${e.artists.length ? `<dt>作家</dt><dd>${e.artists.map((s) => `<a href="/artis
 ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</dd>` : ''}</dl>
 <p class="actions"><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" rel="nofollow">iPhoneのカレンダーに追加</a>` : ''}</p>
 ${e.kind !== 'collection' && m.kind !== 'gallery' ? catalogBox(site, e, st) : ''}
-${e.artists.length ? `<p class="hint">作家ページからLINEで登録すると、その作家の次の展覧会が決まったときにお知らせが届きます。</p>` : ''}
+${e.artists.length ? `<section class="notify-card"><div class="notify-text"><p class="notify-title"><span class="dot" aria-hidden="true"></span>この作家の次の展覧会を、LINEでお知らせします</p><p class="meta">作家ページの「LINEで通知を受け取る」から登録できます。無料・会員登録なし。</p></div><ul class="chips">${e.artists.filter((x) => ctx.artists[x]).slice(0, 6).map((x) => `<li><a href="/artists/${esc(x)}/#notify">${esc(ctx.artists[x].name)}</a></li>`).join('')}</ul></section>` : ''}
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}
 ${sameArtists.length ? `<h2>同じ作家のほかの展覧会</h2>${list(sameArtists, ctx)}` : ''}
 ${sameVenue.length ? `<h2>${esc(m.name)}のほかの展覧会</h2>${list(sameVenue, ctx, { showMuseum: false })}` : ''}

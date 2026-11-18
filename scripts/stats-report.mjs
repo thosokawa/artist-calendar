@@ -5,7 +5,7 @@ import { join } from 'node:path';
 
 const [dir, out] = process.argv.slice(2);
 const rows = (f) => { const p = JSON.parse(readFileSync(join(dir, f), 'utf8')); return (Array.isArray(p) ? p : [p]).flatMap((r) => r.results ?? []); };
-const LABEL = { 'line-header': '画面上部「LINEで受け取る」', 'line-artist': '作家ページ「LINEで通知を受け取る」', 'line-about': 'トップの説明「LINEで友だち追加」', 'line-search': '検索「この条件をLINEで受け取る」' };
+const LABEL = { 'line-header': '画面上部「LINEで受け取る」', 'line-artist': '作家ページ下の固定バー', 'line-artist-card': '作家ページ内のお知らせ欄', 'line-about': 'トップの説明「LINEで友だち追加」', 'line-search': '検索「この条件をLINEで受け取る」' };
 const u = rows('users.json')[0] ?? {};
 const kinds = rows('kinds.json');
 const pages = rows('pages.json');
