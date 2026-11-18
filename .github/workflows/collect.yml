@@ -27,6 +27,14 @@ on:
         description: '紹介文を書く展覧会の数（1回あたり）'
         required: false
         default: '60'
+      enrich_venues:
+        description: '住所・アクセス・取り扱い作家を調べる施設の数（1回あたり）'
+        required: false
+        default: '15'
+      enrich_artists:
+        description: '紹介文を書く作家の数（1回あたり）'
+        required: false
+        default: '20'
       baseline:
         description: '見つかった展覧会を新着として通知しない'
         type: boolean
@@ -60,6 +68,13 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           VENUES: ${{ inputs.describe_venues }}
           EXHIBITIONS: ${{ inputs.describe_exhibitions }}
+      - name: Add venue access info, gallery artist lists, artist profiles and month notes
+        run: node scripts/enrich.mjs --venues=${VENUES:-15} --galleries=${VENUES:-15} --artists=${ARTISTS:-20}
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VENUES: ${{ inputs.enrich_venues }}
+          ARTISTS: ${{ inputs.enrich_artists }}
       - name: Save results to main
         run: |
           git config user.name "github-actions[bot]"
