@@ -8,6 +8,7 @@ import { buildCalendar, exhibitionEvent, googleCalendarUrl, addDays } from '../s
 import { followText } from '../src/line.mjs';
 import { artistProfiles, recommend } from '../src/recommend.mjs';
 import { AREAS } from '../src/filter.mjs';
+import { sha256 } from '../src/text.mjs';
 
 const root = process.env.ART_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
@@ -17,6 +18,8 @@ const now = process.env.BUILD_NOW ? new Date(process.env.BUILD_NOW) : new Date()
 const today = new Date(now.getTime() + 9 * 3600e3).toISOString().slice(0, 10);
 
 const site = readJson('site.config.json');
+// Changes with the stylesheet, so browsers fetch the new one instead of a cached copy.
+site.cssVersion = sha256(readFileSync(join(root, 'public/assets/style.css'), 'utf8')).slice(0, 8);
 const host = new URL(site.baseUrl).hostname;
 const museums = Object.fromEntries(readdirSync(join(root, 'data/museums')).filter((f) => f.endsWith('.json')).map((f) => { const m = readJson(`data/museums/${f}`); return [m.id, m]; }));
 const exhibitions = readdirSync(join(root, 'data/exhibitions')).filter((f) => f.endsWith('.json')).flatMap((f) => readJson(`data/exhibitions/${f}`)).filter((e) => museums[e.museumId]);

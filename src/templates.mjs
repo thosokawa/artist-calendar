@@ -63,7 +63,7 @@ ${site.noindex || noindex ? '<meta name="robots" content="noindex">' : ''}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css${site.cssVersion ? `?v=${site.cssVersion}` : ''}">
 ${site.adsenseClient ? `<meta name="google-adsense-account" content="${esc(site.adsenseClient)}">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(site.adsenseClient)}" crossorigin="anonymous"></script>` : ''}
 </head><body>
@@ -152,10 +152,9 @@ ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow" data-trac
 // In-page sign-up card (the fixed bar at the bottom is easy to miss on wide screens).
 function notifyCard(name, lineUrl) {
   if (!lineUrl) return '';
-  return `<section class="notify-card" id="notify" aria-label="LINEでお知らせ"><div class="notify-text"><p class="notify-title"><span class="dot" aria-hidden="true"></span>${esc(name)}の新しい展覧会を、LINEでお知らせします</p>
-<ol class="notify-steps"><li>ボタンを押してLINEを開く</li><li>表示されたメッセージをそのまま送信</li><li>新しい展覧会が発表された日に通知が届きます</li></ol>
-<p class="meta">無料・会員登録なし。通知からカレンダーに予定を追加できます。</p></div>
-<a class="btn line big" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist-card">LINEで通知を受け取る</a></section>
+  return `<section class="notify-card" id="notify" aria-label="LINEでお知らせ"><p class="notify-title"><span class="dot" aria-hidden="true"></span>${esc(name)}の新しい展覧会を、LINEでお知らせします</p>
+<ol class="notify-steps"><li><b>1</b>下のボタンでLINEを開く</li><li><b>2</b>表示されたメッセージをそのまま送信</li><li><b>3</b>新しい展覧会が発表された日に通知が届く</li></ol>
+<div class="notify-foot"><p class="meta">無料・会員登録なし。通知からカレンダーに予定を追加できます。</p><a class="btn line big" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist-card">LINEで通知を受け取る</a></div></section>
 <script>(() => { const c = document.getElementById('notify'), bar = document.querySelector('.subscribe'); if (!c || !bar || !window.IntersectionObserver) return;
   new IntersectionObserver(([e]) => bar.classList.toggle('away', e.isIntersecting)).observe(c); })();</script>`;
 }
@@ -259,7 +258,7 @@ ${e.artists.length ? `<dt>作家</dt><dd>${e.artists.map((s) => `<a href="/artis
 ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</dd>` : ''}</dl>
 <p class="actions"><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" rel="nofollow">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" rel="nofollow">iPhoneのカレンダーに追加</a>` : ''}</p>
 ${e.kind !== 'collection' && m.kind !== 'gallery' ? catalogBox(site, e, st) : ''}
-${e.artists.length ? `<section class="notify-card"><div class="notify-text"><p class="notify-title"><span class="dot" aria-hidden="true"></span>この作家の次の展覧会を、LINEでお知らせします</p><p class="meta">作家ページの「LINEで通知を受け取る」から登録できます。無料・会員登録なし。</p></div><ul class="chips">${e.artists.filter((x) => ctx.artists[x]).slice(0, 6).map((x) => `<li><a href="/artists/${esc(x)}/#notify">${esc(ctx.artists[x].name)}</a></li>`).join('')}</ul></section>` : ''}
+${e.artists.length ? `<section class="notify-card small"><div class="notify-text"><p class="notify-title"><span class="dot" aria-hidden="true"></span>この作家の次の展覧会を、LINEでお知らせします</p><p class="meta">作家ページの「LINEで通知を受け取る」から登録できます。無料・会員登録なし。</p></div><ul class="chips">${e.artists.filter((x) => ctx.artists[x]).slice(0, 6).map((x) => `<li><a href="/artists/${esc(x)}/#notify">${esc(ctx.artists[x].name)}</a></li>`).join('')}</ul></section>` : ''}
 ${otherVenues.length ? `<h2>ほかの会場（巡回）</h2>${list(otherVenues, ctx)}` : ''}
 ${sameArtists.length ? `<h2>同じ作家のほかの展覧会</h2>${list(sameArtists, ctx)}` : ''}
 ${sameVenue.length ? `<h2>${esc(m.name)}のほかの展覧会</h2>${list(sameVenue, ctx, { showMuseum: false })}` : ''}
