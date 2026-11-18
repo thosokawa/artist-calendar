@@ -15,6 +15,20 @@ export function normalizeTitle(title) {
     .toLowerCase();
 }
 
+/**
+ * Exhibition name without news-heading decoration: leading tags like 【個展】【予告】,
+ * a trailing 「開催のお知らせ」, and a Latin-script repeat of the artist name before 「…」.
+ */
+export function cleanTitle(title) {
+  const t = String(title).trim();
+  const out = t
+    .replace(/^(\s*[【\[][^】\]]{1,10}[】\]]\s*)+/, '')
+    .replace(/[\s　]*(を?開催(いた)?します。?|開催の?(お知らせ|ご案内)|のお知らせ|のご案内|開催決定[!！]?)$/, '')
+    .replace(/[｜|]\s*[A-Za-z][A-Za-z .'’-]*(?=「)/, '')
+    .trim();
+  return out || t;
+}
+
 /** Is this title really on the page? Ignores spacing, brackets and provisional marks, to catch invented entries. */
 export function titleOnPage(title, pageText) {
   const t = normalizeTitle(title);
@@ -48,7 +62,7 @@ export function mergeExhibitions({ museumId, stored, fresh, registry, today }) {
   for (const raw of fresh) {
     if (!raw.title || !validDate(raw.startDate) || !validDate(raw.endDate) || raw.endDate < raw.startDate) continue;
     const x = {
-      title: raw.title.trim(),
+      title: cleanTitle(raw.title),
       startDate: raw.startDate,
       endDate: raw.endDate,
       kind: raw.kind === 'collection' ? 'collection' : 'special',
