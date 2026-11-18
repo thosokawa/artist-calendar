@@ -290,3 +290,23 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 .c-actions .btn{margin:0}
 .c-result{margin:10px 0 0;font-weight:700}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+/* Two-column pages (artist, venue, exhibition): main + right sidebar on PC */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:40px;align-items:start}
+.col-main>h2:first-child,.col-main>p:first-child{margin-top:0}
+.col-side{display:flex;flex-direction:column;gap:16px}
+.col-side>*{margin:0}
+.col-side h2{font-size:1rem;margin:0 0 10px}
+.side-box{background:var(--card);border:1px solid var(--line);padding:16px 18px}
+.side-box .facts{grid-template-columns:4.5em 1fr;font-size:.9rem}
+.side-actions{display:flex;flex-direction:column;gap:8px;margin:14px 0 0}
+.side-actions .btn{margin:0;text-align:center}
+.col-side .notify-card{padding:18px}
+.col-side .notify-steps{grid-template-columns:1fr;gap:6px}
+.col-side .notify-steps li{padding:9px 12px}
+.col-side .notify-foot .btn,.side-notify .btn{flex:1 1 100%;text-align:center}
+.side-notify .meta{margin:0 0 10px}
+.col-side .shop .actions{display:flex;flex-direction:column;gap:8px}
+.col-side .shop .actions .btn{margin:0;text-align:center}
+.col-side .map{aspect-ratio:4/3}
+@media (min-width:901px){.col-main .cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){.cols{display:flex;flex-direction:column;gap:0}.col-side{display:contents}.col-side>*{order:2;margin:16px 0}.col-side>.m-top{order:-1}.col-main{order:1}}
