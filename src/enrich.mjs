@@ -22,6 +22,12 @@ async function parse(system, content, schema, client) {
   return response.parsed_output;
 }
 
+// Notes about the source ("（…の記載なし）", "ページには…") are not facts: drop such asides, or the whole value.
+export function cleanField(v) {
+  const t = String(v ?? '').replace(/[（(][^（）()]*(?:記載|ページ)[^（）()]*[）)]/g, '').trim();
+  return /記載|ページ|空文字|読み取|不明/.test(t) ? '' : t;
+}
+
 const VenueInfo = z.object({
   address: z.string().describe('the postal address exactly as written on the page (with 〒 code if present); empty if absent'),
   access: z.string().describe('how to get there: nearest station(s) and walking time, one short line in Japanese; empty if absent'),
@@ -36,7 +42,7 @@ export async function readVenueInfo({ venue, pageText, client = new Anthropic() 
 - closed: 定休日・休館日の決まり（曜日、祝日の扱い、年末年始など）だけ。開館時間・料金・臨時休館の日付は書きません。
 - 値はすべて日本語で書きます（英語のページなら日本語に直します。住所は書かれたとおり）。
 - ページに書かれていないものは空文字にします。推測で補いません。`, `施設: ${venue.name}（${venue.prefecture}${venue.city ?? ''}）\n\n<page>\n${pageText.slice(0, 40000)}\n</page>`, VenueInfo, client);
-  const info = { address: out?.address?.trim() ?? '', access: out?.access?.trim() ?? '', closed: out?.closed?.trim() ?? '' };
+  const info = { address: out?.address?.trim() ?? '', access: cleanField(out?.access), closed: cleanField(out?.closed) };
   // An address that is not on the page, or not in the venue's prefecture, is a guess or someone else's address.
   const pref = venue.prefecture.replace(/[都府県]$/, '');
   const place = [pref, venue.city].filter(Boolean);

@@ -190,8 +190,8 @@ ${step('03', '新着情報が届く', '新しい展覧会が発表された日�
 export function artistPage({ site, slug, ctx, shows, recs, genres, lineUrl, represented = [] }) {
   const a = ctx.artists[slug];
   const by = (st) => shows.filter((e) => statusOn(e, ctx.today) === st);
-  // With a single show the page repeats that exhibition's page; it stays out of search until a second show appears.
-  return layout({ site, noindex: shows.length < 2, path: `/artists/${slug}/`, title: `${a.name}の展覧会`, description: `${a.name}${a.nameRomaji ? `（${a.nameRomaji}）` : ''}の開催中・開催予定の展覧会と、カレンダー登録。`, body: `
+  // With a single show and no profile the page repeats that exhibition's page; it stays out of search until it has more.
+  return layout({ site, noindex: shows.length < 2 && !a.profile, path: `/artists/${slug}/`, title: `${a.name}の展覧会`, description: `${a.name}${a.nameRomaji ? `（${a.nameRomaji}）` : ''}の開催中・開催予定の展覧会と、カレンダー登録。`, body: `
 ${pageHead('ARTIST', esc(a.name), esc(a.nameRomaji ?? ''), `${a.website || a.sns ? `<p class="head-links">${a.website ? `<a href="${esc(a.website)}" target="_blank" rel="noopener">公式サイト</a>` : ''}${snsRow(a.sns, a.name)}</p>` : ''}${genres.length ? `<div class="tags">${genres.map((g) => `<a href="/search/?genre=${encodeURIComponent(g)}">${esc(g)}</a>`).join('')}</div>` : ''}`)}
 ${lineBox(a.name, lineUrl)}
 <h2>開催中</h2>${list(by('current'), ctx)}
