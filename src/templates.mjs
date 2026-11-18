@@ -70,13 +70,14 @@ ${site.adsenseClient ? `<meta name="google-adsense-account" content="${esc(site.
 <header class="top"><div class="top-in">
 <a class="brand" href="/">${MARK}<span>${esc(site.name)}</span></a><span class="brand-sub">展覧会情報検索 × 通知サービス</span>
 <nav><a href="/search/">探す</a><a href="/artists/">作家</a><a href="/museums/">美術館・画廊</a></nav>
-${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow">LINEで受け取る</a>` : ''}
+${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow" data-track="line-header">LINEで受け取る</a>` : ''}
 </div></header>
 <main${wide ? ' class="wide"' : ''}>${body}${shareBox(site, path, full)}</main>
 <footer><div class="foot-in"><span class="foot-brand">${esc(site.name)}</span>
 <p>展覧会情報は各美術館・ギャラリーの公式サイトをもとに自動で集めています。お出かけ前に必ず公式サイトをご確認ください。</p>
 <p class="areas">${AREAS.map(([k, label]) => `<a href="/areas/${k}/">${esc(label)}の展覧会</a>`).join(' · ')}</p>
 <p><a href="/monthly/">月別の展覧会</a> · <a href="/about/">このサイトについて</a> · <a href="/request/">施設のリクエスト</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
+<script>document.addEventListener('click', (e) => { const a = e.target.closest('[data-track]'); if (a && a.getAttribute('href') && navigator.sendBeacon) navigator.sendBeacon('/api/click', JSON.stringify({ k: a.dataset.track, p: location.pathname })); });</script>
 ${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
 `;
 }
@@ -143,7 +144,7 @@ function catalogBox(site, e, st) {
 
 function lineBox(name, lineUrl) {
   return `<div class="subscribe"><div class="subscribe-in"><p><span class="dot" aria-hidden="true"></span><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><span class="sub">新しい展覧会が発表されたら通知が届き、そこからカレンダーに予定を追加できます。</span></p>
-${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow">LINEで通知を受け取る</a>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div></div>`;
+${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist">LINEで通知を受け取る</a>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div></div>`;
 }
 
 export function homePage({ site, ctx, recent, endingSoon, upcoming, topArtists }) {
@@ -175,7 +176,7 @@ ${step('02', 'LINEで登録', '気になる作家や検索条件をLINEで送る
 ${step('03', '新着情報が届く', '新しい展覧会が発表された日にLINEでお知らせ。ボタンひとつでカレンダーに予定が入ります。')}
 </ol>
 <p class="plan-note">無料で、作家5人・検索条件1つまで登録できます。</p>
-<p class="about-cta">${line ? `<a class="btn line" href="${esc(line)}" rel="nofollow">LINEで友だち追加</a>` : ''}<a class="btn alt" href="/search/">展覧会をさがしてみる</a></p>
+<p class="about-cta">${line ? `<a class="btn line" href="${esc(line)}" rel="nofollow" data-track="line-about">LINEで友だち追加</a>` : ''}<a class="btn alt" href="/search/">展覧会をさがしてみる</a></p>
 </dialog>
 <script>document.querySelectorAll('[data-open]').forEach((b) => b.addEventListener('click', () => document.getElementById(b.dataset.open).showModal()));</script>
 <div class="home-lists">
@@ -276,7 +277,7 @@ ${facet('museum', '会場', `<div class="venue-kind">${VENUES.map(([k, v]) => `<
 <button type="button" id="more" class="btn alt" hidden>もっと見る</button>
 <div id="alert" class="alert" hidden>
 <p><span class="dot" aria-hidden="true"></span>この条件に合う展覧会が<strong>新しく発表されたら</strong>、LINEでお知らせします。</p>
-<div class="alert-actions"><a id="alert-line" class="btn line" href="#">この条件をLINEで受け取る</a><button type="button" id="copy-link" class="btn alt">URLをコピー</button></div>
+<div class="alert-actions"><a id="alert-line" class="btn line" href="#" data-track="line-search">この条件をLINEで受け取る</a><button type="button" id="copy-link" class="btn alt">URLをコピー</button></div>
 </div>
 </section>
 <noscript><p class="note">検索には JavaScript を有効にしてください。</p></noscript>

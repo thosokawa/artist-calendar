@@ -36,3 +36,11 @@ CREATE TABLE IF NOT EXISTS venue_requests (
   reported INTEGER NOT NULL DEFAULT 0,
   created_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
+-- How often the LINE buttons are pressed, per day, button and page. No user data: just counts.
+CREATE TABLE IF NOT EXISTS clicks (
+  day TEXT NOT NULL,
+  kind TEXT NOT NULL,
+  page TEXT NOT NULL,
+  n INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (day, kind, page)
+);

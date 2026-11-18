@@ -1,0 +1,39 @@
+# Weekly usage summary (Monday 09:00 JST): LINE sign-ups and LINE button presses, posted to the "利用状況" issue.
+# Needs the same Cloudflare secrets as build.yml.
+name: usage-stats
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  stats:
+    runs-on: ubuntu-24.04
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read the numbers from the database
+        run: |
+          DB_ID=$(npx wrangler@3 d1 list --json | node -e 'const l=JSON.parse(require("fs").readFileSync(0,"utf8"));const d=l.find(x=>x.name==="artist-calendar");process.stdout.write(d?(d.uuid||d.database_id):"")')
+          printf 'name = "artist-calendar"\n\n[[d1_databases]]\nbinding = "DB"\ndatabase_name = "artist-calendar"\ndatabase_id = "%s"\n' "$DB_ID" > wrangler.toml
+          npx wrangler@3 d1 execute artist-calendar --remote --file=schema.sql
+          D="$RUNNER_TEMP/stats"; mkdir -p "$D"
+          q() { npx wrangler@3 d1 execute artist-calendar --remote --json --command "$2" > "$D/$1"; }
+          q users.json "SELECT (SELECT COUNT(*) FROM users WHERE active = 1) AS users, (SELECT COUNT(*) FROM users WHERE created_at >= datetime('now', '-7 days')) AS new_users, (SELECT COUNT(*) FROM follows) AS follows, (SELECT COUNT(DISTINCT user_id) FROM follows) AS followers, (SELECT COUNT(*) FROM searches) AS searches"
+          q kinds.json "SELECT kind, SUM(CASE WHEN day >= date('now', '+9 hours', '-6 days') THEN n ELSE 0 END) AS d7, SUM(n) AS d30 FROM clicks WHERE day >= date('now', '+9 hours', '-29 days') GROUP BY kind ORDER BY d30 DESC"
+          q pages.json "SELECT page, SUM(n) AS n FROM clicks WHERE day >= date('now', '+9 hours', '-29 days') GROUP BY page ORDER BY n DESC LIMIT 15"
+          node scripts/stats-report.mjs "$D" "$D/report.md"
+      - name: Post to the 利用状況 issue
+        run: |
+          gh label create usage-stats --force >/dev/null
+          n=$(gh issue list --label usage-stats --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file "$RUNNER_TEMP/stats/report.md"
+          else gh issue create --title "利用状況（毎週月曜）" --label usage-stats --body-file "$RUNNER_TEMP/stats/report.md"; fi
