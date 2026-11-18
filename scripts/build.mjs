@@ -34,7 +34,12 @@ const write = (path, content) => {
 };
 const urls = [];
 // Pages marked noindex are left out of the sitemap too.
-const page = (path, html) => { write(`${path.replace(/^\//, '')}index.html`, html); if (!html.includes('<meta name="robots" content="noindex">')) urls.push(path); };
+// lastmod tells Google which pages changed, so updated pages are crawled again sooner.
+const lastmods = {};
+const page = (path, html, lastmod) => { write(`${path.replace(/^\//, '')}index.html`, html); if (!html.includes('<meta name="robots" content="noindex">')) { urls.push(path); if (lastmod) lastmods[path] = lastmod; } };
+// When an exhibition's page content last changed: first seen, or given its description.
+const touched = (e) => [e.firstSeenAt, e.describedAt].filter(Boolean).sort().pop();
+const latest = (xs) => xs.filter(Boolean).sort().pop();
 
 // Home
 const exById = Object.fromEntries(exhibitions.map((e) => [e.id, e]));
@@ -58,7 +63,7 @@ const artistSlugs = Object.keys(artists).filter((s) => profiles[s]).sort((a, b) 
 for (const slug of artistSlugs) {
   const shows = exhibitions.filter((e) => e.artists.includes(slug)).sort(byStart);
   const lineUrl = site.lineBasicId ? `https://line.me/R/oaMessage/${encodeURIComponent(site.lineBasicId)}/?${encodeURIComponent(followText(artists[slug].name, slug))}` : null;
-  page(`/artists/${slug}/`, artistPage({ site, slug, ctx, shows, recs: recommend(slug, profiles), genres: [...profiles[slug].genres], lineUrl }));
+  page(`/artists/${slug}/`, artistPage({ site, slug, ctx, shows, recs: recommend(slug, profiles), genres: [...profiles[slug].genres], lineUrl }), latest(shows.map(touched)));
 }
 page('/artists/', indexPage({ site, path: '/artists/', title: '作家一覧', html: `<p class="lede">${artistSlugs.length}人の作家の展覧会を掲載しています。</p><ul class="chips">${artistSlugs.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(artists[s].name)}</a></li>`).join('')}</ul>` }));
 
@@ -67,7 +72,7 @@ const museumList = Object.values(museums).sort((a, b) => AREAS.findIndex(([k]) =
 for (const m of museumList) {
   const shows = exhibitions.filter((e) => e.museumId === m.id).sort(byStart);
   const nearby = museumList.filter((n) => n.prefecture === m.prefecture && n.id !== m.id).slice(0, 12);
-  page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows, nearby }));
+  page(`/museums/${m.id}/`, museumPage({ site, m, ctx, shows, nearby }), latest([m.describedAt, ...shows.map(touched)]));
 }
 // One list per kind (museums, then galleries), each grouped by area.
 const venueChips = (ms) => `<ul class="chips">${ms.map((m) => `<li><a href="/museums/${esc(m.id)}/">${esc(m.name)}</a></li>`).join('')}</ul>`;
@@ -98,7 +103,7 @@ for (const e of exhibitions) {
   const sameArtists = pick(live.filter((o) => o.artists.some((s) => e.artists.includes(s))), 6);
   const sameVenue = pick(live.filter((o) => o.museumId === e.museumId), 6);
   const nearby = pick(live.filter((o) => museums[o.museumId].prefecture === museums[e.museumId].prefecture), 6);
-  page(`/exhibitions/${e.id}/`, exhibitionPage({ site, e, ctx, otherVenues, googleUrl: gcal(e), icsUrl: `/exhibitions/${e.id}.ics`, sameArtists, sameVenue, nearby }));
+  page(`/exhibitions/${e.id}/`, exhibitionPage({ site, e, ctx, otherVenues, googleUrl: gcal(e), icsUrl: `/exhibitions/${e.id}.ics`, sameArtists, sameVenue, nearby }), touched(e));
   write(`exhibitions/${e.id}.ics`, buildCalendar([exhibitionEvent(e, { museum: museums[e.museumId], siteUrl: site.baseUrl, host })], { name: e.title, now }));
 }
 
@@ -136,5 +141,5 @@ cpSync(join(root, 'public'), dist, { recursive: true });
 // ads.txt: declares which ad network may sell this site's ad space (AdSense checks it).
 if (site.adsenseClient) write('ads.txt', `google.com, ${site.adsenseClient.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
 write('robots.txt', site.noindex ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n# Form and bot endpoints answer only POST; a crawler's GET gets 4xx.\nDisallow: /api/\nSitemap: ${site.baseUrl}/sitemap.xml\n`);
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${esc(site.baseUrl + u)}</loc></url>`).join('\n')}\n</urlset>\n`);
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${esc(site.baseUrl + u)}</loc>${lastmods[u] ? `<lastmod>${lastmods[u]}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 console.log(`built ${urls.length} pages: ${artistSlugs.length} artists, ${museumList.length} museums, ${exhibitions.length} exhibitions (${live.length} current or upcoming)`);
