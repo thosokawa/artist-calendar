@@ -326,3 +326,17 @@ h3.year{font-size:.95rem;font-weight:700;margin:1.4em 0 .4em;padding-bottom:4px;
 @media (max-width:640px){.book-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 /* Exhibition cards: no fill, thin frame, so the white sidebar boxes stand apart */
 .card{background:transparent;border-color:#C9C3B8}
+/* LINE notify panel: light, with corner brackets that move around it (assets/notify-motion.js) */
+.notify-card{background:#fff;color:var(--fg);border:1px solid var(--line)}
+.notify-card::after{display:none}
+.notify-card .meta{color:var(--muted)}
+.notify-card .notify-steps li{background:var(--bg);color:var(--fg)}
+.notify-card .notify-steps b{background:var(--ink)}
+.notify-card .chips a{border-color:var(--line)}
+.notify-card a:not(.btn):not(.chips a){color:var(--link)}
+.nb-run{position:absolute;inset:-1px;width:calc(100% + 2px);height:calc(100% + 2px);overflow:visible;pointer-events:none}
+.nb-run rect{fill:none;stroke:var(--ink);stroke-width:4;stroke-dasharray:52 100000;stroke-dashoffset:26}
+.nb-dot{position:absolute;left:-7px;top:-7px;width:12px;height:12px;border-radius:50%;background:var(--coral);pointer-events:none;opacity:0}
+.notify-card>:not(.nb-run):not(.nb-dot){animation:nb-in .5s ease 1.4s both}
+@keyframes nb-in{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.notify-card>*{animation:none!important}}

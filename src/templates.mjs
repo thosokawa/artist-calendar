@@ -78,7 +78,7 @@ ${line ? `<a class="btn line small" href="${esc(line)}" rel="nofollow" data-trac
 <p class="areas">${AREAS.map(([k, label]) => `<a href="/areas/${k}/">${esc(label)}の展覧会</a>`).join(' · ')}</p>
 <p><a href="/monthly/">月別の展覧会</a> · <a href="/about/">このサイトについて</a> · <a href="/request/">施設のリクエスト</a> · <a href="/privacy/">プライバシー</a></p></div></footer>
 <script>document.addEventListener('click', (e) => { const a = e.target.closest('[data-track]'); if (a && a.getAttribute('href') && navigator.sendBeacon) navigator.sendBeacon('/api/click', JSON.stringify({ k: a.dataset.track, p: location.pathname })); });</script>
-${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
+${body.includes('nb-run') ? '<script type="module" src="/assets/notify-motion.js"></script>\n' : ''}${body.includes('search-big') ? '<script type="module" src="/assets/suggest.js"></script>\n' : ''}</body></html>
 `;
 }
 
@@ -152,6 +152,9 @@ function catalogBox(site, e, st) {
 <div class="actions">${usedLinks(site, catalogQuery(e.title))}</div></div>`;
 }
 
+// Corner brackets and dot for the LINE panel's motion (public/assets/notify-motion.js).
+const NB = '<svg class="nb-run" aria-hidden="true"><rect width="100%" height="100%"/></svg><i class="nb-dot" aria-hidden="true"></i>';
+
 function lineBox(name, lineUrl) {
   return `<div class="subscribe"><div class="subscribe-in"><p><span class="dot" aria-hidden="true"></span><strong>${esc(name)}の新しい展覧会をLINEでお知らせ</strong><span class="sub">新しい展覧会が発表されたら通知が届き、そこからカレンダーに予定を追加できます。</span></p>
 ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist">LINEで通知を受け取る</a>` : '<p class="soon">LINEでのお知らせは準備中です。</p>'}</div></div>`;
@@ -160,7 +163,7 @@ ${lineUrl ? `<a class="btn line" href="${esc(lineUrl)}" rel="nofollow" data-trac
 // In-page sign-up card (the fixed bar at the bottom is easy to miss on wide screens).
 function notifyCard(name, lineUrl) {
   if (!lineUrl) return '';
-  return `<section class="notify-card m-top" id="notify" aria-label="LINEでお知らせ"><p class="notify-title"><span class="dot" aria-hidden="true"></span>${esc(name)}の新しい展覧会を、LINEでお知らせします</p>
+  return `<section class="notify-card m-top" id="notify" aria-label="LINEでお知らせ">${NB}<p class="notify-title"><span class="dot" aria-hidden="true"></span>${esc(name)}の新しい展覧会を、LINEでお知らせします</p>
 <ol class="notify-steps"><li><b>1</b>下のボタンでLINEを開く</li><li><b>2</b>表示されたメッセージをそのまま送信</li><li><b>3</b>新しい展覧会が発表された日に通知が届く</li></ol>
 <div class="notify-foot"><p class="meta">無料・会員登録なし。通知からカレンダーに予定を追加できます。</p><a class="btn line big" href="${esc(lineUrl)}" rel="nofollow" data-track="line-artist-card">LINEで通知を受け取る</a></div></section>
 <script>(() => { const c = document.getElementById('notify'), bar = document.querySelector('.subscribe'); if (!c || !bar || !window.IntersectionObserver) return;
@@ -255,7 +258,7 @@ ${shows.length ? `<h2>展覧会スケジュール</h2>${groupBy([...shows].rever
 ${topArtists.length ? `<h2>${topArtists.some((t) => t.n > 1) ? `${esc(m.name)}でよく展示される作家` : `${esc(m.name)}で展示された作家`}</h2><ul class="chips">${topArtists.map((t) => `<li><a href="/artists/${esc(t.slug)}/">${esc(ctx.artists[t.slug]?.name ?? t.slug)}${t.n > 1 ? `<small class="n">${t.n}回</small>` : ''}</a></li>`).join('')}</ul>` : ''}
 ${represents.length ? `<h2>${esc(m.name)}の取り扱い作家</h2><ul class="chips">${represents.map((s) => `<li><a href="/artists/${esc(s)}/">${esc(ctx.artists[s].name)}</a></li>`).join('')}</ul>` : ''}`;
   const side = `${info(m)}
-${line ? `<section class="notify-card side-notify"><p class="notify-title"><span class="dot" aria-hidden="true"></span>好きな作家の新しい展覧会を、LINEでお知らせ</p><p class="meta">LINEで友だち追加して、作家名を送るだけ。無料・会員登録なし。</p><a class="btn line" href="${esc(line)}" rel="nofollow" data-track="line-about">LINEで友だち追加</a></section>` : ''}
+${line ? `<section class="notify-card side-notify">${NB}<p class="notify-title"><span class="dot" aria-hidden="true"></span>好きな作家の新しい展覧会を、LINEでお知らせ</p><p class="meta">LINEで友だち追加して、作家名を送るだけ。無料・会員登録なし。</p><a class="btn line" href="${esc(line)}" rel="nofollow" data-track="line-about">LINEで友だち追加</a></section>` : ''}
 ${nearby.length ? `<section class="side-box"><h2>${esc(m.prefecture)}のほかの美術館・ギャラリー</h2><ul class="chips">${nearby.map((x) => `<li><a href="/museums/${esc(x.id)}/">${esc(x.name)}</a></li>`).join('')}</ul></section>` : ''}`;
   return layout({ site, wide: true, path: `/museums/${m.id}/`, title: `${m.name}の展覧会`, description: `${m.name}（${m.prefecture}${m.city}）の開催中・開催予定の展覧会。`, body: `
 ${pageHead(m.kind === 'gallery' ? 'GALLERY' : 'MUSEUM', esc(m.name), esc(m.prefecture) + esc(m.city), `<p class="head-links"><a href="${esc(m.officialUrl)}" rel="noopener">公式サイト</a><a href="${esc(m.exhibitionsUrl)}" rel="noopener">公式の展覧会一覧</a>${snsRow(m.sns, m.name)}</p>`)}
@@ -298,7 +301,7 @@ ${nearby.length ? `<h2>${esc(m.prefecture)}で開催中・開催予定の展覧�
 ${e.artists.length ? `<dt>作家</dt><dd>${e.artists.map((s) => `<a href="/artists/${esc(s)}/">${esc(ctx.artists[s]?.name ?? s)}</a>`).join('、')}</dd>` : ''}
 ${e.genres.length ? `<dt>ジャンル</dt><dd>${e.genres.map(esc).join('、')}</dd>` : ''}</dl>
 <p class="side-actions"><a class="btn" href="${esc(e.detailUrl ?? m.exhibitionsUrl)}" rel="noopener">公式サイトで詳細を見る</a>${st !== 'past' ? `<a class="btn alt" href="${esc(googleUrl)}" target="_blank" rel="nofollow noopener">Googleカレンダーに追加</a><a class="btn alt" href="${esc(icsUrl)}" target="_blank" rel="nofollow noopener">iPhoneのカレンダーに追加</a>` : ''}</p></section>
-${e.artists.length ? `<section class="notify-card side-notify"><p class="notify-title"><span class="dot" aria-hidden="true"></span>この作家の次の展覧会を、LINEでお知らせします</p><p class="meta">作家ページの「LINEで通知を受け取る」から登録できます。無料・会員登録なし。</p><ul class="chips">${e.artists.filter((x) => ctx.artists[x]).slice(0, 6).map((x) => `<li><a href="/artists/${esc(x)}/#notify">${esc(ctx.artists[x].name)}</a></li>`).join('')}</ul></section>` : ''}
+${e.artists.length ? `<section class="notify-card side-notify">${NB}<p class="notify-title"><span class="dot" aria-hidden="true"></span>この作家の次の展覧会を、LINEでお知らせします</p><p class="meta">作家ページの「LINEで通知を受け取る」から登録できます。無料・会員登録なし。</p><ul class="chips">${e.artists.filter((x) => ctx.artists[x]).slice(0, 6).map((x) => `<li><a href="/artists/${esc(x)}/#notify">${esc(ctx.artists[x].name)}</a></li>`).join('')}</ul></section>` : ''}
 ${e.kind !== 'collection' && m.kind !== 'gallery' ? catalogBox(site, e, st) : ''}`;
   return layout({ site, wide: true, path: `/exhibitions/${e.id}/`, title: `${e.title}（${m.name}）`, description: `${e.title}。${m.name}にて${period(e)}。${e.summary}`, body: `
 ${pageHead(`EXHIBITION · <a href="/museums/${esc(m.id)}/">${esc(m.name)}</a>`, esc(e.title), '', `<p class="head-date"><span class="badge ${st}">${STATUS[st]}</span> ${period(e)}</p>`)}
