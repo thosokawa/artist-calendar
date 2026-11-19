@@ -1037,5 +1037,33 @@
     "exhibitionId": "senju-museum-20261125-bfee91",
     "museumId": "senju-museum",
     "artists": []
+  },
+  {
+    "date": "2026-11-19",
+    "exhibitionId": "momaw-20260804-e31b88",
+    "museumId": "momaw",
+    "artists": []
+  },
+  {
+    "date": "2026-11-19",
+    "exhibitionId": "senju-museum-20261125-34182a",
+    "museumId": "senju-museum",
+    "artists": []
+  },
+  {
+    "date": "2026-11-19",
+    "exhibitionId": "tezukayama-20261114-1962ba",
+    "museumId": "tezukayama",
+    "artists": [
+      "jasper-johns"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "exhibitionId": "tezukayama-20261114-062c38",
+    "museumId": "tezukayama",
+    "artists": [
+      "saya-mimura"
+    ]
   }
 ]

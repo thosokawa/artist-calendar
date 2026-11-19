@@ -1161,7 +1161,9 @@
     "name": "高田冬彦（居候）",
     "nameRomaji": "Fuyuhiko Takada",
     "nameKana": "たかだふゆひこ",
-    "aliases": []
+    "aliases": [
+      "高田冬彦"
+    ]
   },
   "gaku-kurokawa": {
     "name": "黒川岳",
@@ -1872,6 +1874,12 @@
     "nameRomaji": "Jaroslava Brychtová",
     "aliases": [],
     "snsCheckedAt": "2026-10-25"
+  },
+  "jasper-johns": {
+    "name": "ジャスパー・ジョーンズ",
+    "nameRomaji": "Jasper Johns",
+    "nameKana": "じゃすぱーじょーんず",
+    "aliases": []
   },
   "jean-baptiste-camille-corot": {
     "name": "コロー",
@@ -4380,6 +4388,12 @@
     "aliases": [],
     "nameKana": "たにざわさわこ"
   },
+  "saya-mimura": {
+    "name": "御村紗也",
+    "nameRomaji": "Saya Mimura",
+    "nameKana": "みむらさや",
+    "aliases": []
+  },
   "sayaka-uehara": {
     "name": "上原沙也加",
     "nameRomaji": "Sayaka Uehara",
@@ -4948,6 +4962,12 @@
     "nameKana": "あさみたかこ",
     "aliases": [],
     "snsCheckedAt": "2026-10-24"
+  },
+  "takanobu-kobayashi": {
+    "name": "小林孝亘",
+    "nameRomaji": "Takanobu Kobayashi",
+    "nameKana": "こばやしたかのぶ",
+    "aliases": []
   },
   "takanosuke-yasui": {
     "name": "安井鷹之介",

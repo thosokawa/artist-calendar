@@ -34,5 +34,43 @@
     "summary": "帝塚山画廊のビューイングルームを会場に、新藤杏子の作品を十月いっぱい紹介する展覧会。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-29"
+  },
+  {
+    "id": "tezukayama-20261114-1962ba",
+    "museumId": "tezukayama",
+    "title": "Gallery Collection – Jasper Johns",
+    "startDate": "2026-11-14",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "jasper-johns"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.tezukayama-g.com/exhibitions/status/current",
+    "summary": "アメリカの画家ジャスパー・ジョーンズの作品を、ギャラリーの所蔵から紹介する展覧会です。",
+    "firstSeenAt": "2026-11-19",
+    "lastSeenAt": "2026-11-19",
+    "describedAt": "2026-11-19"
+  },
+  {
+    "id": "tezukayama-20261114-062c38",
+    "museumId": "tezukayama",
+    "title": "星 図",
+    "startDate": "2026-11-14",
+    "endDate": "2026-12-12",
+    "kind": "special",
+    "artists": [
+      "saya-mimura"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.tezukayama-g.com/exhibitions/status/current",
+    "summary": "作家御村紗也が、星をテーマに描いた新作を並べるビューイングルームでの展示です。",
+    "firstSeenAt": "2026-11-19",
+    "lastSeenAt": "2026-11-19",
+    "describedAt": "2026-11-19"
   }
 ]
