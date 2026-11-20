@@ -21,7 +21,7 @@
   {
     "id": "tomio-koyama-20261031-588e47",
     "museumId": "tomio-koyama",
-    "title": "「From Where the Sound of Currents Comes 音がやってくる、そのあたりに」",
+    "title": "From Where the Sound of Currents Comes 音がやってくる、そのあたりに",
     "startDate": "2026-10-31",
     "endDate": "2026-11-28",
     "kind": "special",
@@ -34,14 +34,14 @@
     "detailUrl": "https://www.tomiokoyamagallery.com/exhibitions/tutatchikova_2026/",
     "summary": "エレナ・トゥタッチコワが音の生まれる場所をテーマに据え、天王洲のスペースで作品を紹介する個展です。",
     "firstSeenAt": "2026-10-18",
-    "lastSeenAt": "2026-11-17",
+    "lastSeenAt": "2026-11-20",
     "description": "本展は、エレナ・トゥタッチコワが小山登美夫ギャラリーで行う初の個展で、新作のドローイング、ペインティング、セラミックのレリーフを中心に構成されます。作家にとって想像すること、思考すること、つくることは内と外を行き来して循環する過程であり、その思考が少しずつかたちをとっていく様子を作品から感じ取れます。ペインティングやドローイングには筆の広がるような動きが、レリーフには粘土が押され伸びた手の痕跡が残り、描かれた風景や形は固定されず変化し続けます。作家が山の湿原で聞いたカエルの声や、トーベ・ヤンソンの物語から得た想像力のテントというイメージも、作品を読み解く手がかりになります。",
     "describedAt": "2026-11-08"
   },
   {
     "id": "tomio-koyama-20261121-058f64",
     "museumId": "tomio-koyama",
-    "title": "「moonflower – 川島秀明・福井篤」",
+    "title": "moonflower – 川島秀明・福井篤",
     "startDate": "2026-11-21",
     "endDate": "2026-12-26",
     "kind": "special",
@@ -55,7 +55,26 @@
     "detailUrl": "https://www.tomiokoyamagallery.com/exhibitions/moonflower/",
     "summary": "川島秀明と福井篤の二人が作品を並べて見せる展覧会で、小山登美夫ギャラリー六本木で開かれます。",
     "firstSeenAt": "2026-11-12",
-    "lastSeenAt": "2026-11-17",
+    "lastSeenAt": "2026-11-20",
     "describedAt": "2026-11-12"
+  },
+  {
+    "id": "tomio-koyama-20261205-332677",
+    "museumId": "tomio-koyama",
+    "title": "Dressing Up！",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-26",
+    "kind": "special",
+    "artists": [
+      "kayo-nishinomiya"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://www.tomiokoyamagallery.com/exhibitions/%e3%80%8cdressing-up%ef%bc%81%e3%80%8d/",
+    "summary": "天王洲の会場で西ノ宮佳代が新作を発表する個展で、装いをテーマにした作品世界を紹介します。",
+    "firstSeenAt": "2026-11-20",
+    "lastSeenAt": "2026-11-20",
+    "describedAt": "2026-11-20"
   }
 ]

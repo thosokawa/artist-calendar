@@ -16,5 +16,22 @@
     "summary": "神宮前のギャラリーEUKARYOTEで開催される、香月恵介による個展「Afterglow(s)」。",
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-18"
+  },
+  {
+    "id": "eukaryote-20261204-bf12b0",
+    "museumId": "eukaryote",
+    "title": "EUKARYOTE GROUP SHOW 2026",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-27",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://eukaryote.jp/exhibition/",
+    "summary": "取り扱いアーティストの近作を紹介する、ギャラリー所属作家によるグループ展です。",
+    "firstSeenAt": "2026-11-20",
+    "lastSeenAt": "2026-11-20",
+    "describedAt": "2026-11-20"
   }
 ]

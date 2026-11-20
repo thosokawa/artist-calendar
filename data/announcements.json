@@ -1065,5 +1065,29 @@
     "artists": [
       "saya-mimura"
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "exhibitionId": "eukaryote-20261204-bf12b0",
+    "museumId": "eukaryote",
+    "artists": []
+  },
+  {
+    "date": "2026-11-20",
+    "exhibitionId": "gallery-ug-20261202-8945a3",
+    "museumId": "gallery-ug",
+    "artists": [
+      "junko-asano",
+      "kunihiko-nohara",
+      "osamu-watanabe"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "exhibitionId": "tomio-koyama-20261205-332677",
+    "museumId": "tomio-koyama",
+    "artists": [
+      "kayo-nishinomiya"
+    ]
   }
 ]
