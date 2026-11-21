@@ -36,5 +36,24 @@
     "firstSeenAt": "2026-10-18",
     "lastSeenAt": "2026-10-29",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "anomaly-20261121-8fb724",
+    "museumId": "anomaly",
+    "title": "破裂するホロン",
+    "startDate": "2026-11-21",
+    "endDate": "2026-12-19",
+    "kind": "special",
+    "artists": [
+      "yusuke-asai"
+    ],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": "https://anomalytokyo.com/current-exhibition/",
+    "summary": "淺井裕介による個展で、会期は十二月中旬まで続く現代美術の展示である。",
+    "firstSeenAt": "2026-11-21",
+    "lastSeenAt": "2026-11-21",
+    "describedAt": "2026-11-21"
   }
 ]

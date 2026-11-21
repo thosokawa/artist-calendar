@@ -41,7 +41,7 @@
     "detailUrl": null,
     "summary": "ニコライ・アストルップの創作を「庭」という切り口から見つめ、その表現世界を紹介する企画展として開催されます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-11-10",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   },
   {
@@ -60,7 +60,7 @@
     "detailUrl": null,
     "summary": "生誕140年を記念して、染織家として活躍した山鹿清華の仕事を振り返り、その魅力に迫る企画展が開かれます。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   },
   {
@@ -73,11 +73,13 @@
     "artists": [
       "teruo-hada"
     ],
-    "genres": [],
+    "genres": [
+      "日本画"
+    ],
     "detailUrl": null,
     "summary": "秦テルヲの作品世界を「聖と俗」という二つの視点から読み解き、その表現の幅をたどる企画展が予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   },
   {
@@ -100,7 +102,7 @@
     "detailUrl": null,
     "summary": "米国の都市シカゴをめぐる写真表現に注目し、「越境」をキーワードにその展開を見つめる企画展が予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   },
   {
@@ -119,7 +121,7 @@
     "detailUrl": null,
     "summary": "梶田半古を取り上げ、その画業と作品の魅力をまとめて紹介する企画展が東京ステーションギャラリーで予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   },
   {
@@ -136,7 +138,7 @@
     "detailUrl": null,
     "summary": "エレン・テスレフの作品に焦点を当て、その創作の歩みと魅力を紹介する企画展として冬の時期に開催が予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   },
   {
@@ -155,7 +157,7 @@
     "detailUrl": null,
     "summary": "藤井達吉が抱いた自然へのあこがれをテーマに、その創作活動を紹介する企画展が2028年春に予定されています。",
     "firstSeenAt": "2026-10-16",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-21",
     "describedAt": "2026-11-08"
   }
 ]

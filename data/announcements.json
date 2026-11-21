@@ -1089,5 +1089,46 @@
     "artists": [
       "kayo-nishinomiya"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "exhibitionId": "anomaly-20261121-8fb724",
+    "museumId": "anomaly",
+    "artists": [
+      "yusuke-asai"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "exhibitionId": "mitsui-memorial-20270413-df6dbe",
+    "museumId": "mitsui-memorial",
+    "artists": []
+  },
+  {
+    "date": "2026-11-21",
+    "exhibitionId": "mitsui-memorial-20270710-49f247",
+    "museumId": "mitsui-memorial",
+    "artists": []
+  },
+  {
+    "date": "2026-11-21",
+    "exhibitionId": "mitsui-memorial-20270918-5d19cb",
+    "museumId": "mitsui-memorial",
+    "artists": []
+  },
+  {
+    "date": "2026-11-21",
+    "exhibitionId": "mitsui-memorial-20271125-93c37a",
+    "museumId": "mitsui-memorial",
+    "artists": [
+      "kanamori-sowa",
+      "nonomura-ninsei"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "exhibitionId": "mitsui-memorial-20280219-f98633",
+    "museumId": "mitsui-memorial",
+    "artists": []
   }
 ]

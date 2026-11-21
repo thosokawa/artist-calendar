@@ -2075,6 +2075,12 @@
     "nameKana": "いたくらかなえ",
     "snsCheckedAt": "2026-10-27"
   },
+  "kanamori-sowa": {
+    "name": "金森宗和",
+    "nameRomaji": "Kanamori Sowa",
+    "nameKana": "かなもりそうわ",
+    "aliases": []
+  },
   "kanji-maeda": {
     "name": "前田寛治",
     "nameRomaji": "Kanji Maeda",
@@ -3763,6 +3769,12 @@
     },
     "snsCheckedAt": "2026-10-22",
     "profileCheckedAt": "2026-11-18"
+  },
+  "nonomura-ninsei": {
+    "name": "野々村仁清",
+    "nameRomaji": "Nonomura Ninsei",
+    "nameKana": "のむらにんせい",
+    "aliases": []
   },
   "norihiro-nakae": {
     "name": "中江紀洋",
@@ -6072,6 +6084,12 @@
     "profileUrl": "https://sasaokayurikoworks.wixsite.com/sasaokayuriko",
     "profileSource": "公式サイト",
     "profileCheckedAt": "2026-11-18"
+  },
+  "yusuke-asai": {
+    "name": "淺井裕介",
+    "nameRomaji": "Yusuke Asai",
+    "nameKana": "あさいゆうすけ",
+    "aliases": []
   },
   "yusuke-obuchi-jun-nakamura": {
     "name": "小渕祐介＋中村 純",
