@@ -1130,5 +1130,11 @@
     "exhibitionId": "mitsui-memorial-20280219-f98633",
     "museumId": "mitsui-memorial",
     "artists": []
+  },
+  {
+    "date": "2026-11-22",
+    "exhibitionId": "aichi-20270429-0fb765",
+    "museumId": "aichi",
+    "artists": []
   }
 ]
