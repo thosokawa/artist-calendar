@@ -1136,5 +1136,17 @@
     "exhibitionId": "aichi-20270429-0fb765",
     "museumId": "aichi",
     "artists": []
+  },
+  {
+    "date": "2026-11-23",
+    "exhibitionId": "aichi-20271001-83e3e1",
+    "museumId": "aichi",
+    "artists": []
+  },
+  {
+    "date": "2026-11-23",
+    "exhibitionId": "meguro-art-20270227-7b5b1a",
+    "museumId": "meguro-art",
+    "artists": []
   }
 ]

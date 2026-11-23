@@ -1208,6 +1208,12 @@
     "nameRomaji": "George Barbier",
     "aliases": []
   },
+  "georges-rouault": {
+    "name": "ジョルジュ・ルオー",
+    "nameRomaji": "Georges Rouault",
+    "nameKana": "じょるじゅるおー",
+    "aliases": []
+  },
   "gerhard-richter": {
     "name": "ゲルハルト・リヒター",
     "nameRomaji": "Gerhard Richter",
@@ -1742,6 +1748,12 @@
     "aliases": [],
     "nameKana": "うしじまひとし",
     "snsCheckedAt": "2026-10-21"
+  },
+  "hoan-kosugi": {
+    "name": "小杉放菴",
+    "nameRomaji": "Hoan Kosugi",
+    "nameKana": "こすぎほうあん",
+    "aliases": []
   },
   "honore-daumier": {
     "name": "ドーミエ",
@@ -4365,6 +4377,12 @@
     "profile": "スペイン出身の画家で、1904年に生まれ1989年に没しました。シュルレアリスムの中心人物であるアンドレ・ブルトンと親交を持ち、一時はそのグループに加わっていました。版画作品にも多く取り組み、ドライポイントやエッチング、リトグラフなど多様な技法を用い、夢や奇妙なイメージを緻密な線で表現しています。",
     "profileCheckedAt": "2026-11-18"
   },
+  "sam-francis": {
+    "name": "サム・フランシス",
+    "nameRomaji": "Sam Francis",
+    "nameKana": "さむふらんしす",
+    "aliases": []
+  },
   "samiro-yunoki": {
     "name": "柚木沙弥郎",
     "nameRomaji": "Samiro Yunoki",
@@ -5348,6 +5366,12 @@
     "name": "奥村土牛",
     "nameRomaji": "Togyu Okumura",
     "nameKana": "おくむらとぎゅう",
+    "aliases": []
+  },
+  "tohaku-hasegawa": {
+    "name": "長谷川等伯",
+    "nameRomaji": "Tohaku Hasegawa",
+    "nameKana": "はせがわとうはく",
     "aliases": []
   },
   "tomohiro-okazaki": {
