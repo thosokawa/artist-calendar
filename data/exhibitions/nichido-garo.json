@@ -60,7 +60,22 @@
     "detailUrl": null,
     "summary": "昭和会の蛯子真理央が四年ぶりに開く大規模な個展で、近年の作品群を一堂に紹介します。",
     "firstSeenAt": "2026-11-13",
-    "lastSeenAt": "2026-11-20",
+    "lastSeenAt": "2026-11-24",
     "describedAt": "2026-11-13"
+  },
+  {
+    "id": "nichido-garo-20261204-d3855d",
+    "museumId": "nichido-garo",
+    "title": "第65回 ミニヨン展",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-25",
+    "kind": "special",
+    "artists": [],
+    "genres": [],
+    "detailUrl": null,
+    "summary": "銀座・数寄屋橋で年末に続く恒例の展覧会が、今年は第65回という節目を迎えています。",
+    "firstSeenAt": "2026-11-24",
+    "lastSeenAt": "2026-11-24",
+    "describedAt": "2026-11-24"
   }
 ]

@@ -1148,5 +1148,44 @@
     "exhibitionId": "meguro-art-20270227-7b5b1a",
     "museumId": "meguro-art",
     "artists": []
+  },
+  {
+    "date": "2026-11-24",
+    "exhibitionId": "aichi-20270716-1d2bae",
+    "museumId": "aichi",
+    "artists": [
+      "morikazu-kumagai"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "exhibitionId": "hiratsuka-art-20260915-c9289c",
+    "museumId": "hiratsuka-art",
+    "artists": [
+      "aki-nakajima"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "exhibitionId": "hiratsuka-art-20261222-d583ea",
+    "museumId": "hiratsuka-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-24",
+    "exhibitionId": "momaw-20260804-e31b88",
+    "museumId": "momaw",
+    "artists": [
+      "edvard-munch",
+      "pablo-picasso",
+      "henri-matisse",
+      "wassily-kandinsky"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "exhibitionId": "nichido-garo-20261204-d3855d",
+    "museumId": "nichido-garo",
+    "artists": []
   }
 ]

@@ -53,6 +53,12 @@
     "profileSource": "タグボート",
     "profileCheckedAt": "2026-11-18"
   },
+  "aki-nakajima": {
+    "name": "中嶋明希",
+    "nameRomaji": "Aki Nakajima",
+    "nameKana": "なかじまあき",
+    "aliases": []
+  },
   "aki-sasamoto": {
     "name": "笹本晃",
     "nameRomaji": "Aki Sasamoto",
@@ -1846,7 +1852,9 @@
   "ito-jakuchu": {
     "name": "伊藤若冲",
     "nameRomaji": "Ito Jakuchu",
-    "aliases": [],
+    "aliases": [
+      "若冲"
+    ],
     "nameKana": "いとうじゃくちゅう",
     "snsCheckedAt": "2026-10-20"
   },
@@ -3155,7 +3163,9 @@
   "maruyama-okyo": {
     "name": "円山応挙",
     "nameRomaji": "Maruyama Okyo",
-    "aliases": [],
+    "aliases": [
+      "応挙"
+    ],
     "nameKana": "まるやまおうきょ",
     "snsCheckedAt": "2026-10-22"
   },
@@ -3512,6 +3522,12 @@
     "nameRomaji": "Monster Chetwynd",
     "aliases": [],
     "snsCheckedAt": "2026-10-20"
+  },
+  "morikazu-kumagai": {
+    "name": "熊谷守一",
+    "nameRomaji": "Morikazu Kumagai",
+    "nameKana": "くまがいもりかず",
+    "aliases": []
   },
   "moto-hagio": {
     "name": "萩尾望都",
