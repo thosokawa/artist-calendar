@@ -19,6 +19,23 @@
     "describedAt": "2026-11-08"
   },
   {
+    "id": "tokyo-gallery-20261120-54fbfe",
+    "museumId": "tokyo-gallery",
+    "title": "Méandres - A Diptych Exhibition",
+    "startDate": "2026-11-20",
+    "endDate": "2026-12-30",
+    "kind": "special",
+    "artists": [],
+    "genres": [
+      "現代美術"
+    ],
+    "detailUrl": null,
+    "summary": "北京のBTAPで開かれる、二点一組の作品を中心にした展覧会。対をなす作品どうしの関係に注目させる企画である。",
+    "firstSeenAt": "2026-11-25",
+    "lastSeenAt": "2026-11-25",
+    "describedAt": "2026-11-26"
+  },
+  {
     "id": "tokyo-gallery-20261121-d28f03",
     "museumId": "tokyo-gallery",
     "title": "Super Acrylic Skin – SIGNALS",
@@ -34,7 +51,7 @@
     "detailUrl": null,
     "summary": "松浦浩之がアクリル素材の表面と光の反射に焦点を当てて制作した新作を紹介する個展です。",
     "firstSeenAt": "2026-11-07",
-    "lastSeenAt": "2026-11-17",
+    "lastSeenAt": "2026-11-25",
     "describedAt": "2026-11-08"
   }
 ]

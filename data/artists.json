@@ -343,6 +343,12 @@
     "aliases": [],
     "snsCheckedAt": "2026-10-25"
   },
+  "asami-kobayashi": {
+    "name": "小林麻美",
+    "nameRomaji": "Asami Kobayashi",
+    "nameKana": "こばやしあさみ",
+    "aliases": []
+  },
   "astrid-sampe": {
     "name": "アストリッド・サンペ",
     "nameRomaji": "Astrid Sampe",
@@ -740,6 +746,12 @@
     "aliases": [],
     "nameKana": "あさいちゅう",
     "snsCheckedAt": "2026-10-26"
+  },
+  "clara-spilliaert": {
+    "name": "クララ・スピリアールト",
+    "nameRomaji": "Clara Spilliaert",
+    "nameKana": "くららすぴりあーると",
+    "aliases": []
   },
   "claude-monet": {
     "name": "クロード・モネ",
@@ -2065,6 +2077,12 @@
     "nameKana": "しょうだかくゆう",
     "aliases": []
   },
+  "kan-izumi": {
+    "name": "和泉侃",
+    "nameRomaji": "Kan Izumi",
+    "nameKana": "いずみかん",
+    "aliases": []
+  },
   "kan-yasuda": {
     "name": "安田侃",
     "nameRomaji": "Kan Yasuda",
@@ -2561,6 +2579,12 @@
     "nameRomaji": "Kiyonaga Torii",
     "aliases": [],
     "nameKana": "とりいきよなが"
+  },
+  "kiyoshi-hamada": {
+    "name": "浜田浄",
+    "nameRomaji": "Kiyoshi Hamada",
+    "nameKana": "はまだきよし",
+    "aliases": []
   },
   "kiyoshi-hasegawa": {
     "name": "長谷川潔",

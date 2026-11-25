@@ -20,7 +20,7 @@
   {
     "id": "gallery-monma-20261106-56ccc4",
     "museumId": "gallery-monma",
-    "title": "クスミエリカ個展「一日の花を摘む」",
+    "title": "一日の花を摘む",
     "startDate": "2026-11-06",
     "endDate": "2026-11-29",
     "kind": "special",
@@ -33,8 +33,25 @@
     "detailUrl": "https://www.g-monma.com/exhibitions/202611_kusumi/",
     "summary": "ギャラリー所属作家クスミエリカが「一日の花を摘む」と題して新たな作品を発表する、晩秋の個展です。",
     "firstSeenAt": "2026-10-19",
-    "lastSeenAt": "2026-10-29",
+    "lastSeenAt": "2026-11-25",
     "description": "日常のなかで出会った一瞬を写真に収め、それらをデジタルコラージュの技法で組み合わせていく展覧会です。ラテン語の「その日の花を摘め」という言葉を手がかりに、いまこの日を大切に生きるという思いが、作品の出発点になっています。作品では、記憶の底に沈んでいく時間や、日常にひそむ気配のようなものを目に見える形にしようと試みられています。写真とコラージュによって、ふだん見過ごしてしまう時間の感触に目を向けられる構成と言えるでしょう。",
     "describedAt": "2026-11-08"
+  },
+  {
+    "id": "gallery-monma-20270116-3a22e9",
+    "museumId": "gallery-monma",
+    "title": "惑星標本",
+    "startDate": "2027-01-16",
+    "endDate": "2027-02-14",
+    "kind": "special",
+    "artists": [
+      "asami-kobayashi"
+    ],
+    "genres": [],
+    "detailUrl": "https://www.g-monma.com/exhibitions/202701kobayashi/",
+    "summary": "小林麻美が惑星をモチーフに制作した作品を、2027年1月から2月にかけて紹介する個展です。",
+    "firstSeenAt": "2026-11-25",
+    "lastSeenAt": "2026-11-25",
+    "describedAt": "2026-11-26"
   }
 ]

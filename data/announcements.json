@@ -1187,5 +1187,84 @@
     "exhibitionId": "nichido-garo-20261204-d3855d",
     "museumId": "nichido-garo",
     "artists": []
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "aichi-20280103-51b736",
+    "museumId": "aichi",
+    "artists": [
+      "ekin"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "gallery-monma-20270116-3a22e9",
+    "museumId": "gallery-monma",
+    "artists": [
+      "asami-kobayashi"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "ibaraki-moma-20270130-4c0a8a",
+    "museumId": "ibaraki-moma",
+    "artists": []
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "nact-20270324-f0eac5",
+    "museumId": "nact",
+    "artists": []
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "root-k-contemporary-20261205-dae747",
+    "museumId": "root-k-contemporary",
+    "artists": [
+      "kiyoshi-hamada"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "shizuoka-20261017-09c38a",
+    "museumId": "shizuoka",
+    "artists": [
+      "kawanabe-kyosai"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "shugoarts-20270108-6bf33b",
+    "museumId": "shugoarts",
+    "artists": [
+      "clara-spilliaert"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "tokyo-gallery-20261120-54fbfe",
+    "museumId": "tokyo-gallery",
+    "artists": []
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "tsca-20261206-582180",
+    "museumId": "tsca",
+    "artists": [
+      "enrico-isamu-oyama",
+      "kan-izumi"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "yamagata-art-20261211-53d3ec",
+    "museumId": "yamagata-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-25",
+    "exhibitionId": "yugen-gallery-20270115-8b8681",
+    "museumId": "yugen-gallery",
+    "artists": []
   }
 ]

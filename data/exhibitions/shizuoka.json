@@ -41,6 +41,25 @@
     "describedAt": "2026-11-08"
   },
   {
+    "id": "shizuoka-20261017-09c38a",
+    "museumId": "shizuoka",
+    "title": "ゴールドマン コレクション 河鍋暁斎の世界",
+    "startDate": "2026-10-17",
+    "endDate": "2026-12-06",
+    "kind": "special",
+    "artists": [
+      "kawanabe-kyosai"
+    ],
+    "genres": [
+      "日本画"
+    ],
+    "detailUrl": "https://spmoa.shizuoka.shizuoka.jp/exhibition/",
+    "summary": "ゴールドマン氏の収集による河鍋暁斎の作品を通して、幕末から明治を生きた絵師の多彩な表現を紹介する展覧会。",
+    "firstSeenAt": "2026-11-25",
+    "lastSeenAt": "2026-11-25",
+    "describedAt": "2026-11-26"
+  },
+  {
     "id": "shizuoka-20261030-09c38a",
     "museumId": "shizuoka",
     "title": "ゴールドマン コレクション 河鍋暁斎の世界",
