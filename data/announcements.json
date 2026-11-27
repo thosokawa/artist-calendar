@@ -1272,5 +1272,26 @@
     "exhibitionId": "yamaguchi-art-20261126-f2753d",
     "museumId": "yamaguchi-art",
     "artists": []
+  },
+  {
+    "date": "2026-11-27",
+    "exhibitionId": "ehime-art-20270213-8823d8",
+    "museumId": "ehime-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-27",
+    "exhibitionId": "gifu-art-20261027-a9e0aa",
+    "museumId": "gifu-art",
+    "artists": []
+  },
+  {
+    "date": "2026-11-27",
+    "exhibitionId": "watarium-20261204-834d2b",
+    "museumId": "watarium",
+    "artists": [
+      "shu-wang",
+      "wenyu-lu"
+    ]
   }
 ]

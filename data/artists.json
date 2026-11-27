@@ -4812,6 +4812,12 @@
     "profile": "島田章三は、1933年に神奈川県で生まれた日本画家です。東京芸術大学を修了し、国展や日本藝術院などで活動しました。安井賞や国展国画賞などの受賞歴があり、愛知県立芸術大学の名誉教授も務めました。2016年に逝去しています。",
     "profileCheckedAt": "2026-11-18"
   },
+  "shu-wang": {
+    "name": "ワン・シュウ",
+    "nameRomaji": "Shu Wang",
+    "nameKana": "わんしゅう",
+    "aliases": []
+  },
   "shugoro-hasuda": {
     "name": "蓮田修吾郎",
     "nameRomaji": "Shugoro Hasuda",
@@ -5734,6 +5740,12 @@
       "かんでぃんすきーわしーりー"
     ],
     "nameKana": "かんでぃんすきーゔぁしりー"
+  },
+  "wenyu-lu": {
+    "name": "ルー・ウェンユー",
+    "nameRomaji": "Wenyu Lu",
+    "nameKana": "るーうぇんゆー",
+    "aliases": []
   },
   "wies-aw-wa-kuski": {
     "name": "ヴィエスワフ・ヴァウクスキ",
