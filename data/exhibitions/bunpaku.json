@@ -38,7 +38,7 @@
   {
     "id": "bunpaku-20261128-99f67f",
     "museumId": "bunpaku",
-    "title": "不滅の力 永井豪 -永井豪記念館リバイバル-",
+    "title": "令和6年能登半島地震復興祈念不滅の力 永井豪 -永井豪記念館リバイバル-",
     "startDate": "2026-11-28",
     "endDate": "2027-01-11",
     "kind": "special",
@@ -51,7 +51,7 @@
     "detailUrl": "https://www.bunpaku.or.jp/exhi_special/",
     "summary": "能登半島地震からの復興を祈り、永井豪記念館をよみがえらせる形で漫画家永井豪の世界を3階展示室で紹介します。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-16",
+    "lastSeenAt": "2026-11-28",
     "describedAt": "2026-11-08"
   },
   {
@@ -70,7 +70,7 @@
     "detailUrl": "https://www.bunpaku.or.jp/exhi_special/",
     "summary": "「ホームタウン」をテーマに掲げ、画家ジミー大西の作品世界を4階展示室で紹介する京都での展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-16",
+    "lastSeenAt": "2026-11-28",
     "describedAt": "2026-11-08"
   },
   {
@@ -87,7 +87,7 @@
     "detailUrl": "https://www.bunpaku.or.jp/exhi_special/",
     "summary": "京都府にゆかりのある新進の作家たちを選抜して紹介し、これからの京都のアートの可能性を示す展覧会です。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-16",
+    "lastSeenAt": "2026-11-28",
     "describedAt": "2026-11-08"
   },
   {
@@ -104,7 +104,7 @@
     "detailUrl": "https://www.bunpaku.or.jp/exhi_special/",
     "summary": "作品『メダリスト』を題材とした展覧会で、4・3階の展示室を使い、2月下旬から4月中旬まで開催されます。",
     "firstSeenAt": "2026-10-17",
-    "lastSeenAt": "2026-11-16",
+    "lastSeenAt": "2026-11-28",
     "describedAt": "2026-11-08"
   }
 ]

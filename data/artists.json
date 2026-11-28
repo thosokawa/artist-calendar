@@ -1247,6 +1247,12 @@
     "nameRomaji": "Gerrit Thomas Rietveld",
     "aliases": []
   },
+  "ghazal-naziri": {
+    "name": "ガザール・ナジリ",
+    "nameRomaji": "Ghazal Naziri",
+    "nameKana": "なじりがざーる",
+    "aliases": []
+  },
   "giacomo-balla": {
     "name": "ジャーコモ・バルラ",
     "nameRomaji": "Giacomo Balla",
@@ -1995,6 +2001,12 @@
     "aliases": [],
     "nameKana": "じょせふだるとんふっかー"
   },
+  "julia": {
+    "name": "ジュリア",
+    "nameRomaji": "Julia",
+    "nameKana": "じゅりあ",
+    "aliases": []
+  },
   "jun-fujita": {
     "name": "ジュン・フジタ",
     "nameRomaji": "Jun Fujita",
@@ -2410,6 +2422,12 @@
     "name": "黒井健",
     "nameRomaji": "Ken Kuroi",
     "nameKana": "くろいけん",
+    "aliases": []
+  },
+  "ken-yonetani": {
+    "name": "米谷健",
+    "nameRomaji": "Ken Yonetani",
+    "nameKana": "よねたにけん",
     "aliases": []
   },
   "kengo-kito": {

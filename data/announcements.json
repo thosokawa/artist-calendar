@@ -1293,5 +1293,28 @@
       "shu-wang",
       "wenyu-lu"
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "exhibitionId": "kyoto-art-center-20261127-284989",
+    "museumId": "kyoto-art-center",
+    "artists": [
+      "ghazal-naziri"
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "exhibitionId": "mizuma-art-gallery-20270113-58713c",
+    "museumId": "mizuma-art-gallery",
+    "artists": [
+      "ken-yonetani",
+      "julia"
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "exhibitionId": "sapporo-artpark-20261219-928150",
+    "museumId": "sapporo-artpark",
+    "artists": []
   }
 ]
